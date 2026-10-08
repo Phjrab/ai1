@@ -1,0 +1,95 @@
+{
+  "building_count": 62,
+  "new_buildings": [
+    {
+      "id": "cit_1",
+      "name": "조선이공대학교 1호관",
+      "osm_id": "468704884",
+      "floors": 7,
+      "footprint": "OSM traced",
+      "height": "official directory floor count; per-floor height approximate",
+      "source": "https://www.openstreetmap.org/way/468704884",
+      "facade_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "original_meshes": true
+    },
+    {
+      "id": "cit_main",
+      "name": "조선이공대학교 본부동",
+      "osm_id": "468704885",
+      "floors": 5,
+      "footprint": "OSM traced",
+      "height": "official directory floor count; per-floor height approximate",
+      "source": "https://www.openstreetmap.org/way/468704885",
+      "facade_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "original_meshes": true
+    },
+    {
+      "id": "cit_3",
+      "name": "조선이공대학교 3호관",
+      "osm_id": "468704886",
+      "floors": 5,
+      "footprint": "OSM traced",
+      "height": "official directory floor count; per-floor height approximate",
+      "source": "https://www.openstreetmap.org/way/468704886",
+      "facade_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "original_meshes": true
+    },
+    {
+      "id": "cit_2",
+      "name": "조선이공대학교 2호관",
+      "osm_id": "471778462",
+      "floors": 5,
+      "footprint": "OSM traced",
+      "height": "official directory floor count; per-floor height approximate",
+      "source": "https://www.openstreetmap.org/way/471778462",
+      "facade_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "original_meshes": true
+    },
+    {
+      "id": "cit_4",
+      "name": "조선이공대학교 4호관",
+      "osm_id": "471778465",
+      "floors": 3,
+      "footprint": "OSM traced",
+      "height": "official directory floor count; per-floor height approximate",
+      "source": "https://www.openstreetmap.org/way/471778465",
+      "facade_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "original_meshes": true
+    },
+    {
+      "id": 162,
+      "name": "조선대학교 병원",
+      "osm_id": "488165875",
+      "floors": 8,
+      "footprint": "OSM traced",
+      "height": "approximate massing height",
+      "source": "https://www.openstreetmap.org/way/488165875",
+      "facade_source": null,
+      "original_meshes": true
+    }
+  ],
+  "required_ids_present": true,
+  "unique_new_osm_ids": true,
+  "destination_count": 47,
+  "destinations_inside_building_collision": [],
+  "sampled_road_vertices": 23365,
+  "road_terrain_missing": 0,
+  "road_clearance_m": [
+    0.27489280700683594,
+    0.3200569152832031
+  ],
+  "nonfinite_objects": [],
+  "mainbuilding_excluded": true,
+  "bounds": {
+    "min": [
+      -490,
+      -1120,
+      -80
+    ],
+    "max": [
+      660,
+      240,
+      110
+    ]
+  }
+}

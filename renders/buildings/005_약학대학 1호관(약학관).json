@@ -1,0 +1,101 @@
+{
+  "index": 5,
+  "name": "약학대학 1호관(약학관)",
+  "building_id": 157,
+  "osm_id": "468619570",
+  "catalog_record": {
+    "index": 5,
+    "id": 157,
+    "osm_id": "468619570",
+    "name": "약학대학 1호관(약학관)",
+    "collection": "CAMPUS_BUILDING 157 약학대학 1호관(약학관)",
+    "bbox": {
+      "min": [
+        27.089128494262695,
+        -805.4879150390625,
+        -41.0424919128418
+      ],
+      "max": [
+        53.25092697143555,
+        -753.8130493164062,
+        -23.639192581176758
+      ]
+    },
+    "target": [
+      40.17002773284912,
+      -779.6504821777344,
+      -32.34084224700928
+    ],
+    "camera": [
+      58.490438024976925,
+      -845.4077758114926,
+      -10.12064998626709
+    ],
+    "orthographic_scale": 73.37830932617187,
+    "entrance": [
+      34.42985656287272,
+      -801.7632736657273,
+      -38.019192486520005
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799526134100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/157/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      18.804344177246094,
+      -702.9627685546875,
+      28.177759170532227
+    ],
+    "rotation": [
+      0.9207965731620789,
+      8.415747743129032e-08,
+      -2.8698766231536865
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 75.88082885742188
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        18.804344177246094,
+        -702.9627685546875,
+        28.177759170532227
+      ],
+      "rotation": [
+        0.9207965731620789,
+        8.415747743129032e-08,
+        -2.8698766231536865
+      ],
+      "scale": 75.88082885742188,
+      "score": 1.0,
+      "hit": 62,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030842775732552
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "005_약학대학 1호관(약학관).jpg",
+  "file_sha256": "459e4a7bc2b3e13cf95bef82f9eaa0f43928c997e9eb02e32061c48645f40c16",
+  "render_seconds": 67.42,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

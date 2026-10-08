@@ -1,0 +1,15 @@
+{
+  "changed_geometry": [
+    "Actual terrain cutout covering complete entry133 footprints",
+    "Short tapered entry153 approach and grade-matched local treads"
+  ],
+  "unchanged": [
+    "ground_elevation.json bytes",
+    "road_graph_3d.json bytes",
+    "All roads and collisionBoxes",
+    "All walkableSurfaces except entry153",
+    "All destination records except153"
+  ],
+  "dense_validation": "31,320 actual-terrain BVH interior samples; terrain conflicts0, building collision conflicts0",
+  "approach153_minimum_path_width_m": 1.2
+}

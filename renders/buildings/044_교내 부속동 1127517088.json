@@ -1,0 +1,101 @@
+{
+  "index": 44,
+  "name": "교내 부속동 1127517088",
+  "building_id": null,
+  "osm_id": "1127517088",
+  "catalog_record": {
+    "index": 44,
+    "id": null,
+    "osm_id": "1127517088",
+    "name": "교내 부속동 1127517088",
+    "collection": "CAMPUS_BUILDING 1127517088 교내 부속동 1127517088",
+    "bbox": {
+      "min": [
+        -304.22601318359375,
+        -322.072998046875,
+        -43.082069396972656
+      ],
+      "max": [
+        -280.3529968261719,
+        -300.6409912109375,
+        -28.459104537963867
+      ]
+    },
+    "target": [
+      -292.2895050048828,
+      -311.35699462890625,
+      -35.77058696746826
+    ],
+    "camera": [
+      -261.16128658944336,
+      -316.411300341239,
+      -25.505189933776855
+    ],
+    "orthographic_scale": 33.89968322753906,
+    "entrance": [
+      -282.4958215015977,
+      -319.25858915437357,
+      -42.559105170932504
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517088",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -370.8687744140625,
+      -298.5979919433594,
+      24.74803352355957
+    ],
+    "rotation": [
+      0.9207963347434998,
+      1.5224159710669483e-07,
+      -1.7317620515823364
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 44.023048400878906
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -370.8687744140625,
+        -298.5979919433594,
+        24.74803352355957
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.5224159710669483e-07,
+        -1.7317620515823364
+      ],
+      "scale": 44.023048400878906,
+      "score": 0.9841269841269841,
+      "hit": 62,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030845936335155
+    }
+  ],
+  "camera_visibility_score": 0.9841269841269841,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "044_교내 부속동 1127517088.jpg",
+  "file_sha256": "070af8526f12e10c4e13cafb0509275983d1b1e9f62330507289ee32b657d26c",
+  "render_seconds": 60.97,
+  "visual_review_notes": "Direct final retake review: reduced foreground overlap, complete target within frame. Other adjoining buildings intentionally remain as context."
+}

@@ -1,0 +1,427 @@
+{
+  "max_grade": 0.6616463637858725,
+  "segments_gt_30": 345,
+  "segments_gt_35": 44,
+  "worst": [
+    {
+      "grade": 0.6616463637858725,
+      "vehicle": false,
+      "road": "1485907455",
+      "point": [
+        128.481,
+        -488.06425
+      ]
+    },
+    {
+      "grade": 0.61954927450461,
+      "vehicle": false,
+      "road": "1485907455",
+      "point": [
+        130.0385,
+        -489.294875
+      ]
+    },
+    {
+      "grade": 0.5536808482249771,
+      "vehicle": false,
+      "road": "1485907455",
+      "point": [
+        131.596,
+        -490.52549999999997
+      ]
+    },
+    {
+      "grade": 0.4825696804693757,
+      "vehicle": false,
+      "road": "1485907433",
+      "point": [
+        -126.28450000000001,
+        -244.70350000000002
+      ]
+    },
+    {
+      "grade": 0.47302276977544105,
+      "vehicle": false,
+      "road": "942433747",
+      "point": [
+        -239.27,
+        -231.18233333333333
+      ]
+    },
+    {
+      "grade": 0.47302276977543684,
+      "vehicle": false,
+      "road": "942433747",
+      "point": [
+        -239.605,
+        -232.83566666666667
+      ]
+    },
+    {
+      "grade": 0.4643324804745126,
+      "vehicle": false,
+      "road": "651840249",
+      "point": [
+        -140.388,
+        -200.245
+      ]
+    },
+    {
+      "grade": 0.46286304996230065,
+      "vehicle": false,
+      "road": "944569946",
+      "point": [
+        -182.7606875,
+        -206.0568125
+      ]
+    },
+    {
+      "grade": 0.46009278677284876,
+      "vehicle": false,
+      "road": "1485907433",
+      "point": [
+        -125.479,
+        -246.174
+      ]
+    },
+    {
+      "grade": 0.44657071416732336,
+      "vehicle": false,
+      "road": "1120518152",
+      "point": [
+        17.3972,
+        205.37019999999998
+      ]
+    },
+    {
+      "grade": 0.44531778184960863,
+      "vehicle": false,
+      "road": "651840249",
+      "point": [
+        -141.2115,
+        -198.736
+      ]
+    },
+    {
+      "grade": 0.43498965281228313,
+      "vehicle": false,
+      "road": "1120518152",
+      "point": [
+        11.5745,
+        216.74933333333334
+      ]
+    },
+    {
+      "grade": 0.4319801940416518,
+      "vehicle": false,
+      "road": "944569917",
+      "point": [
+        38.38125270363843,
+        -666.9632365681725
+      ]
+    },
+    {
+      "grade": 0.43110078691006243,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -78.64699999999999,
+        130.2735
+      ]
+    },
+    {
+      "grade": 0.42241549153240004,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -159.69675,
+        157.4155
+      ]
+    },
+    {
+      "grade": 0.41892908175288973,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -79.42933333333333,
+        128.79733333333334
+      ]
+    },
+    {
+      "grade": 0.4041872332047522,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -77.86466666666666,
+        131.74966666666666
+      ]
+    },
+    {
+      "grade": 0.39967468361404634,
+      "vehicle": false,
+      "road": "1485914602",
+      "point": [
+        170.8140819938017,
+        -250.57938135764007
+      ]
+    },
+    {
+      "grade": 0.3915180489211859,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -77.08233333333334,
+        133.22583333333333
+      ]
+    },
+    {
+      "grade": 0.3880949480940163,
+      "vehicle": false,
+      "road": "1485914602",
+      "point": [
+        114.666,
+        -273.374
+      ]
+    },
+    {
+      "grade": 0.3847187027511435,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -23.270666666666664,
+        177.70816666666667
+      ]
+    },
+    {
+      "grade": 0.38366213603986044,
+      "vehicle": false,
+      "road": "1198945326",
+      "point": [
+        -261.01619999999997,
+        -209.5598
+      ]
+    },
+    {
+      "grade": 0.3784042749029684,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -92.646,
+        200.94866666666667
+      ]
+    },
+    {
+      "grade": 0.3756627258102167,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -76.3,
+        134.702
+      ]
+    },
+    {
+      "grade": 0.3739200444369328,
+      "vehicle": false,
+      "road": "471759880",
+      "point": [
+        -191.57373949354923,
+        -81.42969583652254
+      ]
+    },
+    {
+      "grade": 0.37251815625343926,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -84.548,
+        214.21733333333333
+      ]
+    },
+    {
+      "grade": 0.3720709811799542,
+      "vehicle": false,
+      "road": "471759880",
+      "point": [
+        -190.728,
+        -79.873
+      ]
+    },
+    {
+      "grade": 0.3719957367341186,
+      "vehicle": false,
+      "road": "471759880",
+      "point": [
+        -192.41947898709842,
+        -82.98639167304506
+      ]
+    },
+    {
+      "grade": 0.37174978978727763,
+      "vehicle": false,
+      "road": "942433747",
+      "point": [
+        -238.935,
+        -229.529
+      ]
+    },
+    {
+      "grade": 0.3696122887407978,
+      "vehicle": false,
+      "road": "1125125519",
+      "point": [
+        -80.21166666666667,
+        127.32116666666667
+      ]
+    }
+  ],
+  "bed_report": {
+    "graph_kind": "walking",
+    "method": "Road-graph pairwise slope projection; road corridor graded; exposed foundations require skirts; original detailed core locked; smooth corridor earthwork",
+    "purpose": "approximate game/model traversability, NOT surveyed road grades",
+    "outside_core_target_grade": 0.32,
+    "locked_core_interface_grade": 0.29,
+    "nodes": 7448,
+    "segments": 7608,
+    "iterations": 2500,
+    "max_node_shift_m": 8.611334645920245,
+    "modified_roads": [
+      {
+        "osm_id": "300164439",
+        "max_abs_height_adjustment_m": 0.557
+      },
+      {
+        "osm_id": "300164486",
+        "max_abs_height_adjustment_m": 0.5534
+      },
+      {
+        "osm_id": "468706582",
+        "max_abs_height_adjustment_m": 1.3893
+      },
+      {
+        "osm_id": "477392092",
+        "max_abs_height_adjustment_m": 0.7657
+      },
+      {
+        "osm_id": "651840249",
+        "max_abs_height_adjustment_m": 1.1906
+      },
+      {
+        "osm_id": "942433740",
+        "max_abs_height_adjustment_m": 0.9628
+      },
+      {
+        "osm_id": "942433747",
+        "max_abs_height_adjustment_m": 1.0515
+      },
+      {
+        "osm_id": "942433750",
+        "max_abs_height_adjustment_m": 1.1906
+      },
+      {
+        "osm_id": "944145272",
+        "max_abs_height_adjustment_m": 0.6355
+      },
+      {
+        "osm_id": "944569909",
+        "max_abs_height_adjustment_m": 1.502
+      },
+      {
+        "osm_id": "944569917",
+        "max_abs_height_adjustment_m": 0.7657
+      },
+      {
+        "osm_id": "944569920",
+        "max_abs_height_adjustment_m": 1.3893
+      },
+      {
+        "osm_id": "944569946",
+        "max_abs_height_adjustment_m": 0.6317
+      },
+      {
+        "osm_id": "944569949",
+        "max_abs_height_adjustment_m": 0.4224
+      },
+      {
+        "osm_id": "944569956",
+        "max_abs_height_adjustment_m": 1.5412
+      },
+      {
+        "osm_id": "1120518152",
+        "max_abs_height_adjustment_m": 2.9772
+      },
+      {
+        "osm_id": "1125125519",
+        "max_abs_height_adjustment_m": 8.6113
+      },
+      {
+        "osm_id": "1197411298",
+        "max_abs_height_adjustment_m": 0.5176
+      },
+      {
+        "osm_id": "1198945326",
+        "max_abs_height_adjustment_m": 0.5167
+      },
+      {
+        "osm_id": "1198945327",
+        "max_abs_height_adjustment_m": 0.3617
+      },
+      {
+        "osm_id": "1198945332",
+        "max_abs_height_adjustment_m": 0.0993
+      },
+      {
+        "osm_id": "1198968910",
+        "max_abs_height_adjustment_m": 0.7442
+      },
+      {
+        "osm_id": "1200820587",
+        "max_abs_height_adjustment_m": 0.0671
+      },
+      {
+        "osm_id": "1378582147",
+        "max_abs_height_adjustment_m": 0.8469
+      },
+      {
+        "osm_id": "1378582148",
+        "max_abs_height_adjustment_m": 0.7059
+      },
+      {
+        "osm_id": "1378582149",
+        "max_abs_height_adjustment_m": 0.5338
+      },
+      {
+        "osm_id": "1485907431",
+        "max_abs_height_adjustment_m": 0.6802
+      },
+      {
+        "osm_id": "1485907433",
+        "max_abs_height_adjustment_m": 1.723
+      },
+      {
+        "osm_id": "1485907455",
+        "max_abs_height_adjustment_m": 1.7162
+      },
+      {
+        "osm_id": "1485914594",
+        "max_abs_height_adjustment_m": 0.1473
+      },
+      {
+        "osm_id": "1485914599",
+        "max_abs_height_adjustment_m": 0.1473
+      },
+      {
+        "osm_id": "1485914602",
+        "max_abs_height_adjustment_m": 3.4209
+      },
+      {
+        "osm_id": "1485918322",
+        "max_abs_height_adjustment_m": 0.4909
+      },
+      {
+        "osm_id": "1485918326",
+        "max_abs_height_adjustment_m": 0.5568
+      }
+    ],
+    "remaining_unlocked_constraint_excess_m": 0.825085688230753
+  }
+}

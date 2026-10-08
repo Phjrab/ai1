@@ -1,0 +1,101 @@
+{
+  "index": 12,
+  "name": "생명공학관",
+  "building_id": 160,
+  "osm_id": "468704879",
+  "catalog_record": {
+    "index": 12,
+    "id": 160,
+    "osm_id": "468704879",
+    "name": "생명공학관",
+    "collection": "CAMPUS_BUILDING 160 생명공학관",
+    "bbox": {
+      "min": [
+        19.76960563659668,
+        -602.8090209960938,
+        -50.5799446105957
+      ],
+      "max": [
+        70.92345428466797,
+        -557.946044921875,
+        -30.473573684692383
+      ]
+    },
+    "target": [
+      45.346529960632324,
+      -580.3775329589844,
+      -40.52675914764404
+    ],
+    "camera": [
+      72.27580517024955,
+      -642.3532052882884,
+      -18.530604228973388
+    ],
+    "orthographic_scale": 72.63846508026123,
+    "entrance": [
+      65.7552923456152,
+      -595.8589406525091,
+      -48.40357441111375
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798942183100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/160/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      13.621127128601074,
+      -507.3639221191406,
+      19.99188232421875
+    ],
+    "rotation": [
+      0.9207964539527893,
+      9.930301558824794e-08,
+      -2.731691598892212
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 83.77194213867188
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        13.621127128601074,
+        -507.3639221191406,
+        19.99188232421875
+      ],
+      "rotation": [
+        0.9207964539527893,
+        9.930301558824794e-08,
+        -2.731691598892212
+      ],
+      "scale": 83.77194213867188,
+      "score": 1.0,
+      "hit": 45,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030843113014846
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "012_생명공학관.jpg",
+  "file_sha256": "eb663241f8cfdc9283b8b0b61bf54abd9142fbfb038a597b2f5780790077012e",
+  "render_seconds": 56.75,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

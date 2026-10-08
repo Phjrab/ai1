@@ -1,0 +1,242 @@
+{
+  "index": 28,
+  "name": "입석홀(식당)",
+  "building_id": 159,
+  "osm_id": "468730987",
+  "catalog_record": {
+    "index": 28,
+    "id": 159,
+    "osm_id": "468730987",
+    "name": "입석홀(식당)",
+    "collection": "CAMPUS_BUILDING 159 입석홀(식당)",
+    "bbox": {
+      "min": [
+        -131.12147521972656,
+        -881.2850952148438,
+        -54.239009857177734
+      ],
+      "max": [
+        -89.43952941894531,
+        -845.2045288085938,
+        -41.98295974731445
+      ]
+    },
+    "target": [
+      -110.28050231933594,
+      -863.2448120117188,
+      -48.110984802246094
+    ],
+    "camera": [
+      -89.48144317062153,
+      -914.2265271215824,
+      -30.187748107910156
+    ],
+    "orthographic_scale": 59.18836303710937,
+    "entrance": [
+      -108.34170019869723,
+      -875.3657738522787,
+      -52.812960940712486
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801208119100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/159/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -129.9407501220703,
+      -949.738037109375,
+      -1.9330977201461792
+    ],
+    "rotation": [
+      1.0907964706420898,
+      -1.091177281864475e-08,
+      -0.2235061079263687
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 57.39804458618164
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -74.36113739013672,
+        -951.2886352539062,
+        -17.15812110900879
+      ],
+      "rotation": [
+        1.2560988664627075,
+        2.9334234596944953e-08,
+        0.3873592019081116
+      ],
+      "scale": 61.623104095458984,
+      "score": 0.7951807228915663,
+      "hit": 66,
+      "other": 17,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03084326712117,
+      "selection_score": 0.7951807228915663
+    },
+    {
+      "location": [
+        -79.53668975830078,
+        -938.6026000976562,
+        9.992506980895996
+      ],
+      "rotation": [
+        0.950796365737915,
+        1.1899947693905233e-08,
+        0.38735923171043396
+      ],
+      "scale": 61.623104095458984,
+      "score": 0.8356164383561644,
+      "hit": 61,
+      "other": 12,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.8093079801108868
+    },
+    {
+      "location": [
+        -129.9407501220703,
+        -949.738037109375,
+        -1.9330977201461792
+      ],
+      "rotation": [
+        1.0907964706420898,
+        -1.091177281864475e-08,
+        -0.2235061079263687
+      ],
+      "scale": 57.39804458618164,
+      "score": 1.0,
+      "hit": 84,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -35.727664947509766,
+        -911.3018188476562,
+        -1.9330503940582275
+      ],
+      "rotation": [
+        1.0907963514328003,
+        8.394552963864044e-08,
+        0.9982242584228516
+      ],
+      "scale": 62.43279266357422,
+      "score": 0.49206349206349204,
+      "hit": 31,
+      "other": 32,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.41580855664779326
+    },
+    {
+      "location": [
+        -169.26034545898438,
+        -916.7132568359375,
+        12.40764331817627
+      ],
+      "rotation": [
+        0.9207963943481445,
+        4.8070887714857236e-08,
+        -0.8343715071678162
+      ],
+      "scale": 67.82846069335938,
+      "score": 0.9841269841269841,
+      "hit": 62,
+      "other": 1,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8135213424182253
+    },
+    {
+      "location": [
+        -30.730480194091797,
+        -860.197021484375,
+        12.407645225524902
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -1.6645310552121373e-07,
+        1.609089732170105
+      ],
+      "scale": 56.32478713989258,
+      "score": 0.029411764705882353,
+      "hit": 3,
+      "other": 99,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": -0.14119387700287644
+    },
+    {
+      "location": [
+        -140.35211181640625,
+        -789.5346069335938,
+        12.407661437988281
+      ],
+      "rotation": [
+        0.9207965135574341,
+        -9.18701843488634e-08,
+        -2.7542335987091064
+      ],
+      "scale": 62.15180587768555,
+      "score": 1.0,
+      "hit": 72,
+      "other": 0,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6093943582912411
+    },
+    {
+      "location": [
+        -86.79952239990234,
+        -920.80029296875,
+        30.221721649169922
+      ],
+      "rotation": [
+        0.670796275138855,
+        6.82248924022133e-09,
+        0.38735905289649963
+      ],
+      "scale": 72.56362915039062,
+      "score": 0.855072463768116,
+      "hit": 59,
+      "other": 10,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.7886569598636808
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "028_입석홀(식당).jpg",
+  "file_sha256": "81da7ce2a70865a61a96a5579eee823142ff3dea3f3c84ae928d69f149bd14d3",
+  "render_seconds": 60.75,
+  "visual_review_notes": "Direct contact-sheet review: complete target footprint visible, surrounding adjoining buildings may continue outside frame; source caveats retained.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

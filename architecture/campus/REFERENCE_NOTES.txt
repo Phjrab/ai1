@@ -1,0 +1,47 @@
+CHOSUN UNIVERSITY CAMPUS EXPANSION — ORIGINAL EXTERIOR MODEL
+
+Integration
+Append the single collection CHOSUN_CAMPUS from campus.blend to the preserved original chosun_main_building.blend. Do not additionally append CHOSUN_SITE: a cleaned copy is already nested inside CHOSUN_CAMPUS. campus.glb contains the campus and near-main site ONLY, never the main building. campus_qa.png includes the main building for composition only.
+
+Coordinates
+Blender Z-up, meters; main facade y=0, rear y=17, base z=0. Official main center 35.142722,126.934734 is mapped to x=0,y=8.5. X east/north=(0.198702814,-0.980059790); Y east/north=(0.980059790,0.198702814). Scale remains 1. No blanket scaling was applied. The existing main model geometry was not altered. Terrain spans x[-490,660],y[-1120,240]. Roads are clipped inside that ground. Approximate terrain is shared with navigation through matching sampled geometry.
+
+Sources and confidence
+Official university campus map supplies names and GPS pins:
+https://www3.chosun.ac.kr/campusMap/chosun/view.do
+Official exterior photographs and floor directories:
+https://csu.chosun.ac.kr/campusMap/chosun/138/detailView.do (IT)
+https://csu.chosun.ac.kr/campusMap/chosun/136/detailView.do (Education)
+https://csu.chosun.ac.kr/campusMap/chosun/135/detailView.do (Art)
+https://csu.chosun.ac.kr/campusMap/chosun/145/detailView.do (Student Union)
+https://csu.chosun.ac.kr/campusMap/chosun/141/detailView.do (Seoseok Hall)
+https://csu.chosun.ac.kr/campusMap/chosun/134/detailView.do (Engineering 1)
+https://csu.chosun.ac.kr/campusMap/chosun/150/detailView.do (Engineering 2)
+https://csu.chosun.ac.kr/campusMap/chosun/142/detailView.do (Global House)
+https://csu.chosun.ac.kr/campusMap/chosun/147/detailView.do (Baekhak)
+https://csu.chosun.ac.kr/campusMap/chosun/127/detailView.do (Central Library)
+
+Mapped footprints, road centerlines and land-use outlines derive from OpenStreetMap, not an official measured survey. © OpenStreetMap contributors. Map/database data licensed ODbL 1.0: https://www.openstreetmap.org/copyright . Retain attribution and source data license when redistributing derived map data. Individual feature URLs are recorded in campus_coverage.json and the source geometry JSON.
+
+Original work
+All architectural shell/facade meshes, vegetation, generic contemporary cars, furniture and materials were generated originally for this project. No downloaded model geometry, photo textures, logos or photographs are embedded. Procedural materials are shared for practical web rendering. Source photos were inspected only as visual references and must not be redistributed as textures.
+
+Explicit approximations
+Terrain elevations, floor-to-floor dimensions, unphotographed facade sides, window counts and spacing, rooftop equipment, accessory structures, exact tree species/positions and current car positions are approximations. Official directory floors represent the highest listed level of the complex, not every wing. Central Library is modeled as a low three-level front wing with pilotis and higher rear volume; IT has a low annex and taller glass-band slab; Global House has a podium and two towers; Seoseok Hall has a low wing and taller end. The Education arches, Art cylindrical color-banded facade and Engineering 1 ribs are photo-informed original geometry. Natural Science's mapped inner courtyard is cut through the mass/roof. No inaccessible interior or floor plan is claimed to be verified.
+
+Near-main reconciliation
+Main footprint/rotunda OSM features are omitted because the original detailed main model is authoritative. Original front/rear parking, stairs, trees and cars are retained where compatible. Old single ground mesh is replaced by continuous campus terrain; old plants/cars that overlap mapped new buildings are culled. The near-main road layout remains an approximate locally reconciled connection rather than a claim of current surveyed geometry.
+
+Recreation
+Run build_campus.py in Blender with mesh_architecture.py and facade_specials.py in the same folder. Input source JSON paths are declared near the top; original site.blend and site_builder.py are used for original shared near-main assets. navigation.json holds landmark arrival positions, road paths, bounds and conservative footprint collision boxes. campus_coverage.json documents per-building sources and confidence. A main-building model and source/site directory are required separately for a full recreation.
+
+College and hospital extension (2026-10-08)
+Added five previously excluded Chosun College of Science and Technology footprints: headquarters (본부동), buildings1,2,3,4. Official names/floors and exterior references: https://www.cst.ac.kr/page/?mn=952&site=basic ; actual exterior photographs https://computer.cst.ac.kr/pages/department/comm_img/position_img0.jpg through position_img4.jpg. Headquarters5F with green barrel-vault glass roof; building1 seven floors with pale facade and pink lower podium; building2 five floors/pale grid; building3 five floors and pink pitched roof; building4 three floors and gray pitched roof. Basement directory entries were not extruded above ground. Geometry remains original and approximate. Grouped map pins169/170 remain excluded to avoid duplicate destinations.
+
+Added Chosun University Hospital using OSM488165875 and official university hospital162 marker, preserving nearby existing Uiseong research building. Official photo: https://hosp.chosun.ac.kr ; department campus-directory https://csu.chosun.ac.kr/campusMap/chosun/162/detailView.do. Public directories conflict on7/8/9floor extents, so exterior source-informed7–8-tier sections are approximate rather than a claim of verified total floors. Main facade uses white/green window grid, blue bands and entrance canopy. Terrain expands100m west to include mapped hospital-site ground.
+
+Coverage check: Sports College132 and Natural Sciences130 were already in the model, so not duplicated. Sports exterior is refined to photo-visible tall pier/grid composition and raised roof hall; official directory's11listedlevels were not interpreted as11uniform exterior floors. Model uses7external tiers of approximate height. Natural Sciences is red brick,5levels, with mapped inner courtyard retained. Sources https://csu.chosun.ac.kr/campusMap/chosun/132/detailView.do and /130/detailView.do.
+
+Dental research139 is a destination alias to its shared mapped education/research footprint, not a duplicate building. Solar-energy site176 currently denotes a verified area/location; exact individual panel/facility geometry is not independently identified.
+
+University-only frozen version remains archived under archive_university_v1. Current campus includes62building massings and47destinations. Tree/car placements are regenerated only to clear newly included buildings, still illustrative rather than current inventory.

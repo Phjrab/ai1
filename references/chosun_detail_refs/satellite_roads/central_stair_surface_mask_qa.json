@@ -1,0 +1,319 @@
+{
+  "base_pedestrian": {
+    "removed_m2": 97.6299968915535,
+    "remaining_overlap_m2": 0.0
+  },
+  "detail_pedestrian": {
+    "removed_m2": 97.54859092878355,
+    "remaining_overlap_m2": 0.0
+  },
+  "ramps": [
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0.08140594570926032,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    },
+    {
+      "removed_m2": 0,
+      "remaining_overlap_m2": 0.0
+    }
+  ],
+  "tactile": {
+    "removed_m2": 0,
+    "remaining_overlap_m2": 0.0
+  },
+  "road_graph_sha256": "62dcb92d2948a45d1f027f28bb6a8c40d61825ab25319c3e51d353b099c1b4f6",
+  "vehicle_layer_unchanged": true,
+  "road_paths_and_widths_unchanged": true
+}

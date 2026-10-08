@@ -1,0 +1,23 @@
+{
+  "input": "shuttle_bus.glb",
+  "output": "shuttle_bus.glb",
+  "inputBytes": 1069644,
+  "outputBytes": 1068028,
+  "materialCount": 10,
+  "foliageNormalPrimitives": 0,
+  "matched": [
+    "Brushed aluminium",
+    "Dark cool glass"
+  ],
+  "unmatched": [
+    "Amber indicators",
+    "Coach pearl ivory",
+    "Headlamp ivory",
+    "Livery pale cyan stars",
+    "Red tail lamps",
+    "Rubber charcoal",
+    "Shuttle navy lettering",
+    "Verified shuttle cobalt blue"
+  ],
+  "compression": "none; material fallback only"
+}

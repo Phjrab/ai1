@@ -1,0 +1,235 @@
+{
+  "index": 31,
+  "name": "백학학사(기숙사)",
+  "building_id": 147,
+  "osm_id": "472263773",
+  "catalog_record": {
+    "index": 31,
+    "id": 147,
+    "osm_id": "472263773",
+    "name": "백학학사(기숙사)",
+    "collection": "CAMPUS_BUILDING 147 백학학사(기숙사)",
+    "bbox": {
+      "min": [
+        -400.552978515625,
+        -115.59258270263672,
+        -16.848648071289062
+      ],
+      "max": [
+        -342.93353271484375,
+        -51.04677963256836,
+        18.886445999145508
+      ]
+    },
+    "target": [
+      -371.7432556152344,
+      -83.31968116760254,
+      1.0188989639282227
+    ],
+    "camera": [
+      -402.260461541432,
+      -3.7040385248509153,
+      28.773594284057616
+    ],
+    "orthographic_scale": 91.65504035949706,
+    "entrance": [
+      -378.794919013393,
+      -77.57028896337671,
+      -12.363553457711234
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 9,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/147/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -400.8731384277344,
+      -7.323398590087891,
+      59.12239456176758
+    ],
+    "rotation": [
+      0.9507964849472046,
+      -9.22122751489951e-08,
+      -2.775559425354004
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 119.70792388916016
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -405.7769470214844,
+        5.4701032638549805,
+        31.971790313720703
+      ],
+      "rotation": [
+        1.256098747253418,
+        8.079321389686811e-08,
+        -2.775559425354004
+      ],
+      "scale": 92.8562240600586,
+      "score": 0.8571428571428571,
+      "hit": 60,
+      "other": 10,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030836245854424,
+      "selection_score": 0.8571428571428571
+    },
+    {
+      "location": [
+        -400.8731384277344,
+        -7.323398590087891,
+        59.12239456176758
+      ],
+      "rotation": [
+        0.9507964849472046,
+        -9.22122751489951e-08,
+        -2.775559425354004
+      ],
+      "scale": 119.70792388916016,
+      "score": 0.9629629629629629,
+      "hit": 52,
+      "other": 2,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9366545047176853
+    },
+    {
+      "location": [
+        -350.2430725097656,
+        2.734607696533203,
+        47.19682693481445
+      ],
+      "rotation": [
+        1.0907962322235107,
+        8.6398138421373e-08,
+        2.8967607021331787
+      ],
+      "scale": 105.51300811767578,
+      "score": 0.9019607843137255,
+      "hit": 46,
+      "other": 5,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8257058488980268
+    },
+    {
+      "location": [
+        -445.2543640136719,
+        -33.68381118774414,
+        47.1967887878418
+      ],
+      "rotation": [
+        1.0907965898513794,
+        3.2327871490878124e-09,
+        -2.16469407081604
+      ],
+      "scale": 110.80583953857422,
+      "score": 0.9833333333333333,
+      "hit": 59,
+      "other": 1,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9070783979176346
+    },
+    {
+      "location": [
+        -311.63671875,
+        -31.12107276916504,
+        61.53755187988281
+      ],
+      "rotation": [
+        0.920796275138855,
+        6.5355720835214015e-09,
+        2.285895586013794
+      ],
+      "scale": 126.47895050048828,
+      "score": 1.0,
+      "hit": 23,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -451.3401794433594,
+        -84.67037200927734,
+        61.53752517700195
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.3340155646801577e-07,
+        -1.5538288354873657
+      ],
+      "scale": 100.65614318847656,
+      "score": 1.0,
+      "hit": 71,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -343.2502746582031,
+        -157.6543426513672,
+        61.53754425048828
+      ],
+      "rotation": [
+        0.920796275138855,
+        -1.3920679720058615e-08,
+        0.36603328585624695
+      ],
+      "scale": 121.78123474121094,
+      "score": 0.9259259259259259,
+      "hit": 50,
+      "other": 4,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5353202842171672
+    },
+    {
+      "location": [
+        -393.99151611328125,
+        -25.276578903198242,
+        79.35160827636719
+      ],
+      "rotation": [
+        0.6707961559295654,
+        -6.485791459454049e-08,
+        -2.775559186935425
+      ],
+      "scale": 134.6439208984375,
+      "score": 1.0,
+      "hit": 46,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 0.9629629629629629,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "031_백학학사(기숙사).jpg",
+  "file_sha256": "b8da7cc1b492416660a0524070773f0bb73435f5a6f2877288a791e740e8b268",
+  "render_seconds": 65.0,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

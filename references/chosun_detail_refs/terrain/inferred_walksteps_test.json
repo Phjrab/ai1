@@ -1,0 +1,11 @@
+{
+  "connections": 17,
+  "treads": 181,
+  "surfaces": 215,
+  "bad_winding": 0,
+  "all_vertices_finite": true,
+  "min_tread_corner_ground_clearance_m": 0.14692489094134586,
+  "max_adjacent_centerline_vertical_step_m": 0.1666401170558771,
+  "max_adjacent_centerline_xy_gap_m": 1.4210854715202004e-14,
+  "status": "verified 67-building reconstruction before final Blender integration"
+}

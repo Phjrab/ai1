@@ -1,0 +1,1036 @@
+{
+  "researched_at": "2026-10-08",
+  "coordinate_system": "Existing campus Blender metric x/y; use transform from campus_manifest.json. Landmark pins MUST NOT be passed off as actual stop coordinates.",
+  "sources": [
+    {
+      "id": "official_route_page",
+      "url": "https://mall.chosun.ac.kr/chosun/160/subview.do",
+      "date": null,
+      "note": "Accessible official guide, update date not stated; does not prove live 2026 operations"
+    },
+    {
+      "id": "dated_route_2023",
+      "url": "https://csu.chosun.ac.kr/bbs/global/417/250328/artclView.do",
+      "date": "2023-04-26",
+      "local_image": "official_route_2023.png"
+    },
+    {
+      "id": "shelter_photo",
+      "url": "https://www3.chosun.ac.kr/chosun/2607/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGY2hvc3VuJTJGNzIlMkYyMjQ5MDglMkZhcnRjbFZpZXcuZG8lM0Y%3D",
+      "date": "2021-03-24",
+      "local_image": "shelter_campaign.jpg",
+      "image_url": "https://www3.chosun.ac.kr/editorUpload/images/000047/%EC%B2%AD%EC%A0%95%EC%A1%B0%EC%84%A0_%EC%BA%A0%ED%8E%98%EC%9D%B82.jpg"
+    },
+    {
+      "id": "bus_library_photo",
+      "url": "https://www.ilyosisa.co.kr/news/article.html?no=80155",
+      "date": "2015-04-15",
+      "local_image": "bus_library_2015.jpg"
+    },
+    {
+      "id": "aerospace_notice",
+      "url": "https://www4.chosun.ac.kr/engineering/3133/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGZW5naW5lZXJpbmclMkYzNSUyRjE1MzY2NyUyRmFydGNsVmlldy5kbyUzRg%3D%3D",
+      "date": "2022-05-12",
+      "local_image": "aerospace_stop_map.jpg",
+      "visually_verified": true
+    },
+    {
+      "id": "autonomous_trial",
+      "url": "https://www.ihopenews.com/news/articleView.html?idxno=245443",
+      "date": "2025-06-29",
+      "local_image": "autonomous_2025.jpg"
+    }
+  ],
+  "stops": [
+    {
+      "id": "monument",
+      "name": "설립기념탑",
+      "landmark_ids": [],
+      "landmark_reference_points": [
+        {
+          "name": "설립기념탑",
+          "lat": 35.1425152,
+          "lon": 126.9282106,
+          "xy": [
+            -95.506,
+            -578.035
+          ],
+          "source": "https://www.openstreetmap.org/node/4664813406",
+          "source_timestamp": "2023-08-17T12:06:16Z"
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "2021 photo identifies this stop across road from gym; shelter south of main stadium / by monument. Monument coordinates are reference only.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "art",
+      "name": "미대",
+      "landmark_ids": [
+        "135"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 135,
+          "name": "미술대학(미술관)",
+          "lat": 35.144038,
+          "lon": 126.930452,
+          "x": -220.55,
+          "y": -344.5
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Use roadside near art college, not building center.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "library",
+      "name": "중앙도서관",
+      "landmark_ids": [
+        "127"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 127,
+          "name": "중앙도서관",
+          "lat": 35.141815,
+          "lon": 126.932368,
+          "x": 55.83,
+          "y": -222.575
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Road in front of central library (Gaon cherry road).",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "engineering2",
+      "name": "공대 제2공학관",
+      "landmark_ids": [
+        "150",
+        "138"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 150,
+          "name": "공과대학 제2공학관",
+          "lat": 35.138576,
+          "lon": 126.933451,
+          "x": 427.62,
+          "y": -197.364
+        },
+        {
+          "id": 138,
+          "name": "IT융합대학",
+          "lat": 35.139877,
+          "lon": 126.934182,
+          "x": 299.374,
+          "y": -103.467
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "2023 text names IT convergence / Engineering 2; do not use far-west Engineering 1.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "law_business",
+      "name": "법대·경상대",
+      "landmark_ids": [
+        "131",
+        "133"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 131,
+          "name": "법과대학",
+          "lat": 35.139327,
+          "lon": 126.935109,
+          "x": 375.947,
+          "y": -32.891
+        },
+        {
+          "id": 133,
+          "name": "경상대학",
+          "lat": 35.139916,
+          "lon": 126.935668,
+          "x": 322.012,
+          "y": 29.964
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Shared named stop near these buildings; exact curb unverified.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "main_north",
+      "name": "본관 북쪽",
+      "landmark_ids": [
+        "126"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 126,
+          "name": "본관",
+          "lat": 35.142722,
+          "lon": 126.934734,
+          "x": 0.0,
+          "y": 8.5
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "North END of long main building, NOT main center. Official pictorial map shows end stop.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "student_union",
+      "name": "학생회관",
+      "landmark_ids": [
+        "145"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 145,
+          "name": "학생회관(동아리연합회)",
+          "lat": 35.144275,
+          "lon": 126.933096,
+          "x": -198.497,
+          "y": -103.394
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Roadside by student union, descending toward art/stadium.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "global_house",
+      "name": "글로벌하우스",
+      "landmark_ids": [
+        "142"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 142,
+          "name": "글로벌하우스(기숙사)",
+          "lat": 35.137887,
+          "lon": 126.934265,
+          "x": 517.263,
+          "y": -139.934
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Dormitory route.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "aerospace",
+      "name": "항공우주·선박해양공학관",
+      "landmark_ids": [
+        "148"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 148,
+          "name": "항공우주ㆍ선박해양공학관",
+          "lat": 35.137754,
+          "lon": 126.931456,
+          "x": 480.917,
+          "y": -393.467
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "2022 official notice explicitly says adjacent three-way intersection.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "haeoreum",
+      "name": "해오름관",
+      "landmark_ids": [
+        "128"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 128,
+          "name": "해오름관",
+          "lat": 35.140886,
+          "lon": 126.933033,
+          "x": 168.875,
+          "y": -183.729
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Dormitory route.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "international",
+      "name": "국제관",
+      "landmark_ids": [
+        "146"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 146,
+          "name": "국제관(언어교육원,인권윤리원)",
+          "lat": 35.142876,
+          "lon": 126.931987,
+          "x": -66.432,
+          "y": -233.175
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Only undated official current webpage includes this in outbound Global House sequence.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    },
+    {
+      "id": "social_science",
+      "name": "사회과학관",
+      "landmark_ids": [
+        "136"
+      ],
+      "landmark_reference_points": [
+        {
+          "id": 136,
+          "name": "사회과학ㆍ사범대학",
+          "lat": 35.145889,
+          "lon": 126.934401,
+          "x": -350.395,
+          "y": 48.612
+        }
+      ],
+      "actual_stop_latlon": null,
+      "actual_stop_xy": null,
+      "placement_note": "Separate short route; do not conflate with main loop.",
+      "coordinate_confidence": "Landmark pins only; not measured stop positions"
+    }
+  ],
+  "routes": [
+    {
+      "id": "main_loop",
+      "stop_ids": [
+        "monument",
+        "art",
+        "library",
+        "engineering2",
+        "law_business",
+        "main_north",
+        "student_union",
+        "monument"
+      ],
+      "source_ids": [
+        "official_route_page",
+        "dated_route_2023"
+      ],
+      "geometry": null,
+      "confidence": "Official sequence verified; exact drivable polyline requires reconstruction",
+      "game_label": "공식 정류장 순서 기반 게임용 주행 경로"
+    },
+    {
+      "id": "global_house_undated",
+      "stop_ids": [
+        "global_house",
+        "haeoreum",
+        "international",
+        "monument",
+        "haeoreum",
+        "aerospace",
+        "global_house"
+      ],
+      "source_ids": [
+        "official_route_page"
+      ],
+      "note": "Differs from dated 2023 bidirectional abbreviated sequence; do not merge the two as exact surveyed geometry."
+    },
+    {
+      "id": "global_house_2023",
+      "stop_ids": [
+        "global_house",
+        "aerospace",
+        "haeoreum",
+        "monument"
+      ],
+      "bidirectional": true,
+      "source_ids": [
+        "dated_route_2023"
+      ]
+    },
+    {
+      "id": "social_science",
+      "stop_ids": [
+        "monument",
+        "art",
+        "social_science",
+        "monument"
+      ],
+      "source_ids": [
+        "official_route_page"
+      ]
+    }
+  ],
+  "visual_assets": [
+    {
+      "id": "monument_shelter",
+      "type": "bus_shelter",
+      "stop_id": "monument",
+      "source_id": "shelter_photo",
+      "visually_verified": true,
+      "features": [
+        "translucent turquoise shallow barrel-vault roof divided by gray curved ribs",
+        "deep blue horizontal beams",
+        "salmon orange rectangular columns",
+        "open sides, no glazed side walls visible",
+        "green molded square backless seats, paired opposite-facing rows, black V/braced legs",
+        "gray/red interlocking paving",
+        "low clipped hedge between shelter and curb"
+      ],
+      "dimensions_m": null,
+      "replication_note": "Only this shelter appearance is photo-verified; reuse elsewhere is illustrative."
+    },
+    {
+      "id": "monument_sign",
+      "type": "bus_stop_sign",
+      "source_id": "shelter_photo",
+      "visually_verified": true,
+      "features": [
+        "yellow circular face, thick gray rim",
+        "large white BUS",
+        "dark Korean 설립기념탑 and 사회과학관",
+        "slim round metal pole",
+        "blue header and white timetable rectangle below"
+      ],
+      "dimensions_m": null
+    },
+    {
+      "id": "conventional_shuttle",
+      "type": "vehicle",
+      "source_id": "bus_library_photo",
+      "visually_verified": true,
+      "features": [
+        "white high-bodied conventional bus",
+        "large nearly black windshield",
+        "black side mirrors",
+        "rectangular paired headlamp clusters",
+        "dark Korean university name on front",
+        "green registration plate in historical photo"
+      ],
+      "make_model": null,
+      "capacity": null,
+      "dimensions_m": null,
+      "current_fleet_verified": false,
+      "model_note": "White large-bus visual reconstruction from 2015 photo; side/rear livery unknown."
+    },
+    {
+      "id": "gaon_road",
+      "type": "road_details",
+      "source_id": "bus_library_photo",
+      "visually_verified": true,
+      "features": [
+        "single yellow center line",
+        "white zebra crossings",
+        "yellow curbside line",
+        "white direction arrows",
+        "brown lamp poles with banners",
+        "young cherry trees with tripod wooden braces",
+        "brick-colored sidewalks"
+      ],
+      "placement_note": "Central Library–Haeoreum frontage; positions of each marking not survey-verified."
+    },
+    {
+      "id": "autonomous_trial_pod",
+      "type": "historical_vehicle",
+      "source_id": "autonomous_trial",
+      "visually_verified": true,
+      "features": [
+        "bright cyan blue perimeter body",
+        "white lower sides with red/orange graphic",
+        "black wraparound tall windows",
+        "black roof sensor boxes",
+        "short wheelbase four-wheel cabin",
+        "blue portable rectangular stop 2 board"
+      ],
+      "service_start": "2025-06-04",
+      "service_end": "2025-06-19",
+      "do_not_use_as_current_regular_shuttle": true
+    }
+  ],
+  "osm_crossings_and_city_stops": [
+    {
+      "osm_id": "2007834442",
+      "lat": 35.1407745,
+      "lon": 126.9297155,
+      "xy": [
+        120.994,
+        -482.153
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/2007834442",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "4659169737",
+      "lat": 35.1426532,
+      "lon": 126.9288192,
+      "xy": [
+        -99.504,
+        -520.697
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/4659169737",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "4707562681",
+      "lat": 35.141913,
+      "lon": 126.9273295,
+      "xy": [
+        -45.961,
+        -669.917
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/4707562681",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "7863602408",
+      "lat": 35.1418691,
+      "lon": 126.9281233,
+      "xy": [
+        -26.83,
+        -600.067
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/7863602408",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "7863602409",
+      "lat": 35.1419658,
+      "lon": 126.9285403,
+      "xy": [
+        -29.802,
+        -560.733
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      },
+      "source": "https://www.openstreetmap.org/node/7863602409",
+      "timestamp": "2026-03-06T07:03:18Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "7863602412",
+      "lat": 35.1409277,
+      "lon": 126.9280696,
+      "xy": [
+        74.565,
+        -625.612
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/7863602412",
+      "timestamp": "2026-02-05T04:15:50Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "7863602414",
+      "lat": 35.1434119,
+      "lon": 126.9270626,
+      "xy": [
+        -213.776,
+        -660.683
+      ],
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/7863602414",
+      "timestamp": "2023-08-16T07:12:45Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "8726985918",
+      "lat": 35.1436622,
+      "lon": 126.932346,
+      "xy": [
+        -145.428,
+        -183.814
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/8726985918",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "8745101674",
+      "lat": 35.1415226,
+      "lon": 126.93471,
+      "xy": [
+        129.986,
+        -20.083
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/8745101674",
+      "timestamp": "2025-05-30T06:57:37Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "8745101676",
+      "lat": 35.142713,
+      "lon": 126.9344317,
+      "xy": [
+        -4.489,
+        -18.668
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/8745101676",
+      "timestamp": "2025-05-30T06:57:44Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "8747851763",
+      "lat": 35.1407947,
+      "lon": 126.9305014,
+      "xy": [
+        133.012,
+        -411.595
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/8747851763",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "9352295758",
+      "lat": 35.141788,
+      "lon": 126.927905,
+      "xy": [
+        -21.96,
+        -621.33
+      ],
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "조선대병원입구",
+        "name:en": "Chosun University Hospital Entrance",
+        "name:ko": "조선대병원입구",
+        "phone": "+82 62 613 5700",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      },
+      "source": "https://www.openstreetmap.org/node/9352295758",
+      "timestamp": "2023-08-12T14:06:58Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "9352295759",
+      "lat": 35.141979,
+      "lon": 126.92805,
+      "xy": [
+        -40.106,
+        -604.184
+      ],
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "조선대장미원",
+        "name:en": "Chosun University Rose Garden",
+        "name:ko": "조선대장미원",
+        "phone": "+82 62 613 5700",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      },
+      "source": "https://www.openstreetmap.org/node/9352295759",
+      "timestamp": "2023-08-12T14:06:56Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "11121991569",
+      "lat": 35.1442568,
+      "lon": 126.9320238,
+      "xy": [
+        -215.912,
+        -199.45
+      ],
+      "tags": {
+        "crossing": "uncontrolled",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/11121991569",
+      "timestamp": "2023-08-17T12:30:10Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13621892246",
+      "lat": 35.1399248,
+      "lon": 126.9312231,
+      "xy": [
+        240.657,
+        -366.387
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13621892246",
+      "timestamp": "2026-03-06T03:59:10Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13621892251",
+      "lat": 35.1396219,
+      "lon": 126.9312655,
+      "xy": [
+        274.361,
+        -369.282
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13621892251",
+      "timestamp": "2026-03-06T03:59:10Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042705",
+      "lat": 35.1425016,
+      "lon": 126.9331829,
+      "xy": [
+        -4.09,
+        -134.738
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042705",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042733",
+      "lat": 35.1434738,
+      "lon": 126.9321762,
+      "xy": [
+        -128.014,
+        -203.116
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042733",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042745",
+      "lat": 35.1423188,
+      "lon": 126.9317229,
+      "xy": [
+        -10.621,
+        -269.02
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042745",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042753",
+      "lat": 35.1434868,
+      "lon": 126.9313713,
+      "xy": [
+        -143.986,
+        -274.638
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042753",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042760",
+      "lat": 35.1434687,
+      "lon": 126.9303782,
+      "xy": [
+        -159.981,
+        -363.635
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042760",
+      "timestamp": "2026-03-06T07:03:18Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042763",
+      "lat": 35.1433833,
+      "lon": 126.9296586,
+      "xy": [
+        -163.71,
+        -429.715
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042763",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042866",
+      "lat": 35.1411548,
+      "lon": 126.929212,
+      "xy": [
+        70.534,
+        -518.688
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042866",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042991",
+      "lat": 35.1412705,
+      "lon": 126.9319407,
+      "xy": [
+        107.308,
+        -272.7
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042991",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622042993",
+      "lat": 35.1415574,
+      "lon": 126.9318248,
+      "xy": [
+        74.015,
+        -276.715
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622042993",
+      "timestamp": "2026-03-06T05:54:03Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622090994",
+      "lat": 35.1422806,
+      "lon": 126.9272383,
+      "xy": [
+        -87.583,
+        -669.949
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622090994",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622090997",
+      "lat": 35.1422123,
+      "lon": 126.9271044,
+      "xy": [
+        -82.578,
+        -683.401
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622090997",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622090998",
+      "lat": 35.1421313,
+      "lon": 126.9271704,
+      "xy": [
+        -72.576,
+        -679.298
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622090998",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622091000",
+      "lat": 35.1420082,
+      "lon": 126.9270741,
+      "xy": [
+        -60.933,
+        -690.603
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622091000",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622091937",
+      "lat": 35.1414172,
+      "lon": 126.9271454,
+      "xy": [
+        4.621,
+        -697.272
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622091937",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622091998",
+      "lat": 35.1408705,
+      "lon": 126.9319813,
+      "xy": [
+        151.538,
+        -277.896
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622091998",
+      "timestamp": "2026-03-06T06:42:09Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622108218",
+      "lat": 35.1405223,
+      "lon": 126.9288268,
+      "xy": [
+        132.343,
+        -566.997
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622108218",
+      "timestamp": "2026-03-06T07:03:18Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    },
+    {
+      "osm_id": "13622108225",
+      "lat": 35.141372,
+      "lon": 126.9282871,
+      "xy": [
+        30.187,
+        -596.413
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      },
+      "source": "https://www.openstreetmap.org/node/13622108225",
+      "timestamp": "2026-03-06T07:03:18Z",
+      "confidence": "OSM community mapping, not site survey/photo verification"
+    }
+  ],
+  "unknowns": [
+    "2026 actual daily fleet, make/model, side and rear livery",
+    "Exact curb stop coordinates and shelter dimensions",
+    "Whether 2021 shelter persists unchanged",
+    "Actual travel times, stop dwell times, collision/navigation path"
+  ],
+  "osm_attribution": "© OpenStreetMap contributors; ODbL 1.0; https://www.openstreetmap.org/copyright"
+}

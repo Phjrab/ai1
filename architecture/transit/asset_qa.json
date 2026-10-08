@@ -1,0 +1,37 @@
+{
+  "bus_stop_generic.glb": {
+    "bytes": 110204,
+    "meshes": 6,
+    "nodes": 7,
+    "triangles": 2008,
+    "has_images": false
+  },
+  "bus_stop_sign.glb": {
+    "bytes": 129856,
+    "meshes": 6,
+    "nodes": 7,
+    "triangles": 2452,
+    "has_images": false
+  },
+  "shuttle_bus.glb": {
+    "bytes": 1069644,
+    "meshes": 18,
+    "nodes": 27,
+    "triangles": 19418,
+    "has_images": false
+  },
+  "shelter_reference.glb": {
+    "bytes": 646928,
+    "meshes": 7,
+    "nodes": 8,
+    "triangles": 10128,
+    "has_images": false
+  },
+  "shelter_education.glb": {
+    "bytes": 128888,
+    "meshes": 5,
+    "nodes": 6,
+    "triangles": 1832,
+    "has_images": false
+  }
+}

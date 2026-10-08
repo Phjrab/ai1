@@ -1,0 +1,242 @@
+{
+  "index": 35,
+  "name": "의성관(연구동)",
+  "building_id": 154,
+  "osm_id": "488165874",
+  "catalog_record": {
+    "index": 35,
+    "id": 154,
+    "osm_id": "488165874",
+    "name": "의성관(연구동)",
+    "collection": "CAMPUS_BUILDING 154 의성관(연구동)",
+    "bbox": {
+      "min": [
+        136.50379943847656,
+        -929.4068603515625,
+        -31.691545486450195
+      ],
+      "max": [
+        217.08628845214844,
+        -867.1931762695312,
+        -9.255598068237305
+      ]
+    },
+    "target": [
+      176.7950439453125,
+      -898.3000183105469,
+      -20.47357177734375
+    ],
+    "camera": [
+      161.32879051156894,
+      -1003.6186681519329,
+      14.176898498535152
+    ],
+    "orthographic_scale": 114.42713439941406,
+    "entrance": [
+      143.63417075740492,
+      -923.9409328452816,
+      -27.5255982655
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554800000741100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/154/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      161.32876586914062,
+      -1003.61865234375,
+      14.176881790161133
+    ],
+    "rotation": [
+      1.2560988664627075,
+      6.059365009747353e-09,
+      -0.1458098292350769
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 104.7446517944336
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        161.32876586914062,
+        -1003.61865234375,
+        14.176881790161133
+      ],
+      "rotation": [
+        1.2560988664627075,
+        6.059365009747353e-09,
+        -0.1458098292350769
+      ],
+      "scale": 104.7446517944336,
+      "score": 1.0,
+      "hit": 69,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.0308432191531,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        163.5572967529297,
+        -988.4435424804688,
+        44.57087326049805
+      ],
+      "rotation": [
+        0.9507965445518494,
+        1.4579513596402194e-08,
+        -0.14580976963043213
+      ],
+      "scale": 104.74464416503906,
+      "score": 1.0,
+      "hit": 59,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        108.62798309326172,
+        -970.4999389648438,
+        31.220666885375977
+      ],
+      "rotation": [
+        1.0907962322235107,
+        -4.532152786396182e-08,
+        -0.7566752433776855
+      ],
+      "scale": 119.5381851196289,
+      "score": 1.0,
+      "hit": 39,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        221.3262939453125,
+        -987.0499267578125,
+        31.220684051513672
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -4.1567094655192705e-08,
+        0.46505555510520935
+      ],
+      "scale": 117.91207122802734,
+      "score": 1.0,
+      "hit": 50,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        89.5113296508789,
+        -916.2893676757812,
+        47.27452850341797
+      ],
+      "rotation": [
+        0.920796275138855,
+        5.200928399062832e-08,
+        -1.3675401210784912
+      ],
+      "scale": 115.20671844482422,
+      "score": 1.0,
+      "hit": 54,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        255.2215576171875,
+        -940.624267578125,
+        47.274532318115234
+      ],
+      "rotation": [
+        0.920796275138855,
+        -1.179429105491181e-07,
+        1.0759210586547852
+      ],
+      "scale": 123.75655364990234,
+      "score": 1.0,
+      "hit": 44,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        189.7433624267578,
+        -810.12744140625,
+        47.27450180053711
+      ],
+      "rotation": [
+        0.9207966327667236,
+        6.133261365448561e-08,
+        2.9957828521728516
+      ],
+      "scale": 104.7446517944336,
+      "score": 0.9454545454545454,
+      "hit": 52,
+      "other": 3,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5548489037457867
+    },
+    {
+      "location": [
+        166.68453979492188,
+        -967.1483154296875,
+        67.21656036376953
+      ],
+      "rotation": [
+        0.670796275138855,
+        -1.4677952187014398e-08,
+        -0.14580991864204407
+      ],
+      "scale": 112.23247528076172,
+      "score": 1.0,
+      "hit": 50,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "035_의성관(연구동).jpg",
+  "file_sha256": "fab26bbefbb475c2d3cadcd226edd7e76b9a978fb3904c4efd3e39c363995ed2",
+  "render_seconds": 59.82,
+  "visual_review_notes": "Direct final-sheet review: subject complete and recognisable, neighbouring context retained; source uncertainty follows catalog record.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

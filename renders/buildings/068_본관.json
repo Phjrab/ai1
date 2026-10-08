@@ -1,0 +1,233 @@
+{
+  "index": 68,
+  "name": "본관",
+  "building_id": 126,
+  "osm_id": null,
+  "catalog_record": {
+    "id": 126,
+    "name": "본관",
+    "collections": [
+      "CHOSUN | Building — original reconstruction"
+    ],
+    "asset": "../building/chosun_main_building.blend",
+    "bbox": {
+      "min": [
+        -187.7100067138672,
+        -7.664999961853027,
+        -0.3149999976158142
+      ],
+      "max": [
+        187.7100067138672,
+        18.209999084472656,
+        32.65999984741211
+      ]
+    },
+    "target": [
+      0,
+      12,
+      22
+    ],
+    "camera": [
+      200,
+      -420,
+      160
+    ],
+    "orthographic_scale": 420,
+    "entrance": [
+      0,
+      0,
+      0
+    ],
+    "review_status": "Preserved detailed main building, unchanged in this revision",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/126/detailView.do",
+    "index": 68
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      198.28866577148438,
+      -423.0310363769531,
+      152.99171447753906
+    ],
+    "rotation": [
+      1.2886446714401245,
+      -1.420040973698633e-09,
+      0.43358147144317627
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 414.831298828125
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        198.28866577148438,
+        -423.0310363769531,
+        152.99171447753906
+      ],
+      "rotation": [
+        1.2886446714401245,
+        -1.420040973698633e-09,
+        0.43358147144317627
+      ],
+      "scale": 414.831298828125,
+      "score": 1.0,
+      "hit": 41,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 16.166094810359052,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        168.93588256835938,
+        -359.6289978027344,
+        303.24237060546875
+      ],
+      "rotation": [
+        0.9507964253425598,
+        -2.2015001377440058e-08,
+        0.43358150124549866
+      ],
+      "scale": 414.831298828125,
+      "score": 1.0,
+      "hit": 30,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -77.03522491455078,
+        -424.6961669921875,
+        243.58319091796875
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -1.8261513190509504e-08,
+        -0.17728376388549805
+      ],
+      "scale": 441.4368896484375,
+      "score": 0.9791666666666666,
+      "hit": 47,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9029117312509679
+    },
+    {
+      "location": [
+        379.896484375,
+        -215.45635986328125,
+        244.9111785888672
+      ],
+      "rotation": [
+        1.0907964706420898,
+        1.667798699145351e-08,
+        1.0444468259811401
+      ],
+      "scale": 388.15179443359375,
+      "score": 1.0,
+      "hit": 24,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -279.6343078613281,
+        -272.8276062011719,
+        315.98138427734375
+      ],
+      "rotation": [
+        0.920796275138855,
+        -9.135662537573808e-08,
+        -0.7881488800048828
+      ],
+      "scale": 415.9107360839844,
+      "score": 1.0,
+      "hit": 21,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        396.32598876953125,
+        38.84825134277344,
+        318.54052734375
+      ],
+      "rotation": [
+        0.920796275138855,
+        1.124928843410089e-07,
+        1.655311942100525
+      ],
+      "scale": 532.4154663085938,
+      "score": 0.9574468085106383,
+      "hit": 45,
+      "other": 2,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7868411668018795
+    },
+    {
+      "location": [
+        -168.5765838623047,
+        369.39794921875,
+        321.2081604003906
+      ],
+      "rotation": [
+        0.9207963347434998,
+        -7.601303053661468e-08,
+        -2.7080111503601074
+      ],
+      "scale": 414.831298828125,
+      "score": 1.0,
+      "hit": 26,
+      "other": 0,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6093943582912411
+    },
+    {
+      "location": [
+        129.64134216308594,
+        -274.75274658203125,
+        405.0308837890625
+      ],
+      "rotation": [
+        0.6707963347434998,
+        3.177630247819252e-08,
+        0.43358150124549866
+      ],
+      "scale": 414.831298828125,
+      "score": 1.0,
+      "hit": 26,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 788,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "068_본관.jpg",
+  "file_sha256": "44d42f85ffd4bde3a9fa5f4ad1fad2d398fbe6c95a16acdc929621f664d30726",
+  "render_seconds": 42.08,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

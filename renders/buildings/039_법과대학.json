@@ -1,0 +1,101 @@
+{
+  "index": 39,
+  "name": "법과대학",
+  "building_id": 131,
+  "osm_id": "683118524",
+  "catalog_record": {
+    "index": 39,
+    "id": 131,
+    "osm_id": "683118524",
+    "name": "법과대학",
+    "collection": "CAMPUS_BUILDING 131 법과대학",
+    "bbox": {
+      "min": [
+        380.42529296875,
+        -50.635868072509766,
+        7.623351573944092
+      ],
+      "max": [
+        424.0968322753906,
+        27.64784049987793,
+        42.22458267211914
+      ]
+    },
+    "target": [
+      402.2610626220703,
+      -11.494013786315918,
+      24.923967123031616
+    ],
+    "camera": [
+      308.139300782734,
+      -54.33144545362573,
+      58.58596180915833
+    ],
+    "orthographic_scale": 111.16286617279052,
+    "entrance": [
+      383.96202473039034,
+      -31.283607887574277,
+      12.220583477882059
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798800152100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/131/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      353.2613220214844,
+      -94.58490753173828,
+      75.14353942871094
+    ],
+    "rotation": [
+      1.0907963514328003,
+      -1.4533121373005997e-08,
+      -0.5328209400177002
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 113.3958969116211
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        353.2613220214844,
+        -94.58490753173828,
+        75.14353942871094
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -1.4533121373005997e-08,
+        -0.5328209400177002
+      ],
+      "scale": 113.3958969116211,
+      "score": 0.95,
+      "hit": 57,
+      "other": 3,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083994138673
+    }
+  ],
+  "camera_visibility_score": 0.95,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "039_법과대학.jpg",
+  "file_sha256": "6cad4af3120b840d812ad85068ced96d0fdfcc327b6a92c696f22d434a4607fa",
+  "render_seconds": 67.86,
+  "visual_review_notes": "Direct full-size inspection: target is clear and framed; whole central staircase visible in the context shot. No original geometry edited."
+}

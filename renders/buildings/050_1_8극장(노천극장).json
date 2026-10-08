@@ -1,0 +1,235 @@
+{
+  "index": 50,
+  "name": "1.8극장(노천극장)",
+  "building_id": 167,
+  "osm_id": "1198941239",
+  "catalog_record": {
+    "index": 50,
+    "id": 167,
+    "osm_id": "1198941239",
+    "name": "1.8극장(노천극장)",
+    "collection": "CAMPUS_BUILDING 167 1.8극장(노천극장)",
+    "bbox": {
+      "min": [
+        -190.85499572753906,
+        -270.4960021972656,
+        -41.30303955078125
+      ],
+      "max": [
+        -163.19400024414062,
+        -247.37200927734375,
+        -36.38783264160156
+      ]
+    },
+    "target": [
+      -177.02449798583984,
+      -258.9340057373047,
+      -38.845436096191406
+    ],
+    "camera": [
+      -184.50537363060894,
+      -294.69976479137574,
+      -26.95120803833008
+    ],
+    "orthographic_scale": 39.27861358642578,
+    "entrance": [
+      -177.4936392328577,
+      -267.7916450697551,
+      -40.88783309352208
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554796810591100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/167/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -189.75086975097656,
+      -319.7783203125,
+      39.48727035522461
+    ],
+    "rotation": [
+      0.670796275138855,
+      4.198925651621721e-10,
+      -0.20619022846221924
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 39.68159484863281
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -196.49229431152344,
+        -352.00885009765625,
+        -7.892524719238281
+      ],
+      "rotation": [
+        1.2560986280441284,
+        -1.0139398654018805e-08,
+        -0.2061903178691864
+      ],
+      "scale": 37.534996032714844,
+      "score": 0.6219512195121951,
+      "hit": 51,
+      "other": 31,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030841865972203,
+      "selection_score": 0.6219512195121951
+    },
+    {
+      "location": [
+        -193.68722534179688,
+        -338.597900390625,
+        19.2580623626709
+      ],
+      "rotation": [
+        0.9507964253425598,
+        8.361091374808893e-09,
+        -0.20619022846221924
+      ],
+      "scale": 37.534976959228516,
+      "score": 0.9444444444444444,
+      "hit": 68,
+      "other": 4,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9181359861991668
+    },
+    {
+      "location": [
+        -241.6983184814453,
+        -319.63739013671875,
+        7.332466125488281
+      ],
+      "rotation": [
+        1.0907964706420898,
+        1.4862756358979823e-08,
+        -0.8170556426048279
+      ],
+      "scale": 42.233219146728516,
+      "score": 0.9811320754716981,
+      "hit": 52,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9048771400559993
+    },
+    {
+      "location": [
+        -142.10174560546875,
+        -340.46929931640625,
+        7.332474708557129
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -2.5895074529103113e-08,
+        0.4046748876571655
+      ],
+      "scale": 40.746829986572266,
+      "score": 0.9682539682539683,
+      "hit": 61,
+      "other": 2,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8919990328382695
+    },
+    {
+      "location": [
+        -255.82171630859375,
+        -270.2694091796875,
+        21.673213958740234
+      ],
+      "rotation": [
+        0.920796275138855,
+        -1.3812474719543388e-07,
+        -1.4279206991195679
+      ],
+      "scale": 35.36075973510742,
+      "score": 0.9315068493150684,
+      "hit": 68,
+      "other": 5,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7609012076063096
+    },
+    {
+      "location": [
+        -109.37603759765625,
+        -300.90045166015625,
+        21.67318344116211
+      ],
+      "rotation": [
+        0.9207965135574341,
+        -6.791048434706681e-08,
+        1.015540361404419
+      ],
+      "scale": 40.39349365234375,
+      "score": 0.9298245614035088,
+      "hit": 53,
+      "other": 4,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.75921891969475
+    },
+    {
+      "location": [
+        -160.72608947753906,
+        -181.0118865966797,
+        21.673181533813477
+      ],
+      "rotation": [
+        0.9207965135574341,
+        -4.904246964088088e-08,
+        2.9354023933410645
+      ],
+      "scale": 37.53498077392578,
+      "score": 0.9014084507042254,
+      "hit": 64,
+      "other": 7,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5108028089954666
+    },
+    {
+      "location": [
+        -189.75086975097656,
+        -319.7783203125,
+        39.48727035522461
+      ],
+      "rotation": [
+        0.670796275138855,
+        4.198925651621721e-10,
+        -0.20619022846221924
+      ],
+      "scale": 39.68159484863281,
+      "score": 1.0,
+      "hit": 68,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "050_1_8극장(노천극장).jpg",
+  "file_sha256": "3f85cc8bc12aa987f7090fe8607c7097a26b40af75e30af0db5a8c76bda450da",
+  "render_seconds": 52.18,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

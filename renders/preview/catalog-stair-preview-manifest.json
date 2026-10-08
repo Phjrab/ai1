@@ -1,0 +1,1379 @@
+[
+  {
+    "file": "building_catalog/001_미술대학(미술관).jpg",
+    "source_render": "building_catalog/001_미술대학(미술관).jpg",
+    "source_render_sha256": "181f294c7e067af5ed70db6861b5f84acbcc3ed42840003c0ca5188365ce5041",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 192428,
+    "sha256": "40de2ba2a6ee6388231bc78709fd8446e5ad4822c4e179445d023df99ce688aa"
+  },
+  {
+    "file": "building_catalog/002_중앙도서관.jpg",
+    "source_render": "building_catalog/002_중앙도서관.jpg",
+    "source_render_sha256": "54d1189cb8b7018b689e4430d6a03720ca12cb3bad44b5859e04080d94b38537",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 224429,
+    "sha256": "1fbae373907a24d6af493b39dd79ea8da2c3564f162cec4e3a363fe3c8e367bf"
+  },
+  {
+    "file": "building_catalog/003_공과대학 제1공학관.jpg",
+    "source_render": "building_catalog/003_공과대학 제1공학관.jpg",
+    "source_render_sha256": "c98e63c3f2358fd8f8499e1be4d7f88a7b68eeabbfaa6b4813edcec3808ce90e",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 236413,
+    "sha256": "737e0925c1a4d3664c9f0e11c271170d10be870d70dbddd812fbf7391191cc89"
+  },
+  {
+    "file": "building_catalog/004_약학대학 2호관.jpg",
+    "source_render": "building_catalog/004_약학대학 2호관.jpg",
+    "source_render_sha256": "4ce0437873b077616d23ab00733f2ae2ef15d9fa29f6e832a9f93bc20bb53045",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 183150,
+    "sha256": "16d7a2eb7d647b7b5783e39eb49a6e8fb2766fc1b5cac5339de9394ac5c862ce"
+  },
+  {
+    "file": "building_catalog/005_약학대학 1호관(약학관).jpg",
+    "source_render": "building_catalog/005_약학대학 1호관(약학관).jpg",
+    "source_render_sha256": "459e4a7bc2b3e13cf95bef82f9eaa0f43928c997e9eb02e32061c48645f40c16",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 196476,
+    "sha256": "5f98eef21a4157b212064fedaaa8ce354863a08816bd92d264f0d0717a8b1d79"
+  },
+  {
+    "file": "building_catalog/006_약학대학 3호관(강의동).jpg",
+    "source_render": "building_catalog/006_약학대학 3호관(강의동).jpg",
+    "source_render_sha256": "b5be31d41752a16e5b8a9cef11f0668bafa084ec7a23d13a499dd5b620072ebc",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 184603,
+    "sha256": "3b79ca9dceccf3731e2994429054f2989be1bdbef5ed2b7fbb42091fa6d32eeb"
+  },
+  {
+    "file": "building_catalog/007_해오름관.jpg",
+    "source_render": "building_catalog/007_해오름관.jpg",
+    "source_render_sha256": "6817a67df3880b187bb4b7831c68512c774b614e383a650ad4597f284d19731d",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 148874,
+    "sha256": "635f487862725dfd8ce561709b7fe6375b564a3450cedd78dc36ebda1c8848ce"
+  },
+  {
+    "file": "building_catalog/008_IT융합대학.jpg",
+    "source_render": "building_catalog/008_IT융합대학.jpg",
+    "source_render_sha256": "85a70251550829d3a42fd958401046796436ce149d527d58db3bb725f1608e56",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 217028,
+    "sha256": "9f3f249865721eafb703c6e72fe70ccf150234440272a0adb387cd9bb5f75127"
+  },
+  {
+    "file": "building_catalog/009_공과대학 제2공학관.jpg",
+    "source_render": "building_catalog/009_공과대학 제2공학관.jpg",
+    "source_render_sha256": "48c7c7f2dee14a16adb0c3045fa6d679d4867dc507e337014c8f6ad6a7f1edb9",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 198456,
+    "sha256": "aff4bd82148d76403e2313b367b78bca3fa6ee53d8994df6093323f3bee93f28"
+  },
+  {
+    "file": "building_catalog/010_사회과학ㆍ사범대학.jpg",
+    "source_render": "building_catalog/010_사회과학ㆍ사범대학.jpg",
+    "source_render_sha256": "3e96dd90b3fe5692895b470c455124fade310d23adaed0154b802186f60c2c54",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 194627,
+    "sha256": "841ab0ff2fdbea8ab125dbc126e42ceb4da8d45ce7d36b4d5a502a43d817b7a2"
+  },
+  {
+    "file": "building_catalog/011_체육대학.jpg",
+    "source_render": "building_catalog/011_체육대학.jpg",
+    "source_render_sha256": "95bcbd6a4bbd421488f6fd117e43a187df24c62398e9b217a7c50e84260a13c2",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 209972,
+    "sha256": "5e19cd8554f46913dba24e5e7729722ac780a8c0b70e4b08b559e198f014c1ce"
+  },
+  {
+    "file": "building_catalog/012_생명공학관.jpg",
+    "source_render": "building_catalog/012_생명공학관.jpg",
+    "source_render_sha256": "eb663241f8cfdc9283b8b0b61bf54abd9142fbfb038a597b2f5780790077012e",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 163021,
+    "sha256": "34c06831b5b96d5b15c865745d235b7766ed38ef52fdc501c66312ffa14a07e3"
+  },
+  {
+    "file": "building_catalog/013_의과대학 3호관.jpg",
+    "source_render": "building_catalog/013_의과대학 3호관.jpg",
+    "source_render_sha256": "d016ca7fe4b1db3c64a39f588459af59e4db7137d825c61cc6b43ecbd4d0aed2",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 159829,
+    "sha256": "00f59abdb6859d49bbc2fb0ccc4a5e433874b90a7c21dbf42452fdc7e52252be"
+  },
+  {
+    "file": "building_catalog/014_의과대학 1호관.jpg",
+    "source_render": "building_catalog/014_의과대학 1호관.jpg",
+    "source_render_sha256": "4dbaf05325b8de9a10a0d3bb35f1c2a591b6da5244750c0e23f57f4fbafac780",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 168082,
+    "sha256": "b80819b0debffad82877b73de5d77e85728d6109f0a60d1ca9916e1ec133b4ac"
+  },
+  {
+    "file": "building_catalog/015_의과대학 2호관.jpg",
+    "source_render": "building_catalog/015_의과대학 2호관.jpg",
+    "source_render_sha256": "c2a49ff4403f9e9e13dd8a954087bc53e0f4cd2ec8a33dc0f386a8a41db21f45",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 221337,
+    "sha256": "d99d196b145a1a2bac5b67207e714a9d06a7f3b40ca91475cbfa1a4523c8df0a"
+  },
+  {
+    "file": "building_catalog/016_실험동물센터.jpg",
+    "source_render": "building_catalog/016_실험동물센터.jpg",
+    "source_render_sha256": "cc8a9db473c528e92668e3010624f7f8c125d418b05c6f68f3b429c00b36f9c4",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 122537,
+    "sha256": "cb1b9179832fe7a11b29c57134c7ab80d8cc34902f3a5a41b24f2fedd05dd721"
+  },
+  {
+    "file": "building_catalog/017_조선이공대학교 1호관.jpg",
+    "source_render": "building_catalog/017_조선이공대학교 1호관.jpg",
+    "source_render_sha256": "3d862d5c69acb72b10d044243d6185fd8516c39fa690fad58d1e8c4dd67a3cf3",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 220659,
+    "sha256": "61915878069cab27a15a54983a470c2f5a64acafa4f3b33c0c9eaf14e9d04584"
+  },
+  {
+    "file": "building_catalog/018_조선이공대학교 본부동.jpg",
+    "source_render": "building_catalog/018_조선이공대학교 본부동.jpg",
+    "source_render_sha256": "111e1bd2d73944531ca49e430222077b382da008afdab5c2c428f2931d309ea4",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 189867,
+    "sha256": "3a64973d50bb158436db9a2972ca22f8f732d0f9606439b461419e5f5b3fba69"
+  },
+  {
+    "file": "building_catalog/019_조선이공대학교 3호관.jpg",
+    "source_render": "building_catalog/019_조선이공대학교 3호관.jpg",
+    "source_render_sha256": "15a7bd32553121717208fe8094cd7d9e45d37cad9275f09b7dbe5228cbb70001",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 183884,
+    "sha256": "d75763b777ed7f13837e8c16718d636349504eb8ec3e11f04b09dca071acbffc"
+  },
+  {
+    "file": "building_catalog/020_항공우주ㆍ선박해양공학관.jpg",
+    "source_render": "building_catalog/020_항공우주ㆍ선박해양공학관.jpg",
+    "source_render_sha256": "feef02b84ad254af9779e77d4f2474e642ea19a2994b836ef93b6bcbe83df457",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 144359,
+    "sha256": "7f2bed2faafabcab15fddbf08f842ef011699600cdf4cf192bedfbcd0ca564f1"
+  },
+  {
+    "file": "building_catalog/021_항공우주ㆍ선박해양공학관.jpg",
+    "source_render": "building_catalog/021_항공우주ㆍ선박해양공학관.jpg",
+    "source_render_sha256": "0222659a4095fa1ae5683d5564e4022eedb3acb967602b982961367d6e7a001a",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 138410,
+    "sha256": "b071d9e8b34a0f03f6917729d8ff8f7bf3bb13282fb876d7257749469ba8ecfe"
+  },
+  {
+    "file": "building_catalog/022_글로벌하우스(기숙사).jpg",
+    "source_render": "building_catalog/022_글로벌하우스(기숙사).jpg",
+    "source_render_sha256": "01bca1d53b5c5ed1c19b2607016f0c5c2c1cdbeb2f2a415fd22c62f3f5a9a8e3",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 201403,
+    "sha256": "8bfec8bbdc824d23641e7ed42010029360b9731b78c3972b9ee41379ba9f13a0"
+  },
+  {
+    "file": "building_catalog/023_황금추관(고시원).jpg",
+    "source_render": "building_catalog/023_황금추관(고시원).jpg",
+    "source_render_sha256": "74fd5f69a3802300bdb78444e2f85434d85703f3ab2599b7ca8f456cd0efb9b6",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 111861,
+    "sha256": "10846abecf1e311941417e1e3c44f398328a9721e9820146fba3e0a7505b9cde"
+  },
+  {
+    "file": "building_catalog/024_학군단(ROTC).jpg",
+    "source_render": "building_catalog/024_학군단(ROTC).jpg",
+    "source_render_sha256": "97758577aca025770fa9d27691e4c8f4ab668b94fd854b8ebfce7eea19e17d69",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 163526,
+    "sha256": "17bdb288013335f66cc946934c4855ebaee930b6cb17cc410be7cbef0e75652d"
+  },
+  {
+    "file": "building_catalog/025_학생회관(동아리연합회).jpg",
+    "source_render": "building_catalog/025_학생회관(동아리연합회).jpg",
+    "source_render_sha256": "da2d444b0a7f0a7ef6cacc640663c662d7748ce41d7fc64b66683fc5043bb63c",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 270667,
+    "sha256": "bee73ae7a0c3a17356600db584d54bb89d0fe64b0639b47c3a4b2049ff57fb95"
+  },
+  {
+    "file": "building_catalog/026_국제관(언어교육원_인권윤리원).jpg",
+    "source_render": "building_catalog/026_국제관(언어교육원_인권윤리원).jpg",
+    "source_render_sha256": "d8003d30598381857255fc9b49cb253469dedc8f01e556c2c88cd04856d92f3d",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 179733,
+    "sha256": "bb9bb45cc71519fe1a338d1d2e68a6d311052f30bb95cf14b494e46598943b91"
+  },
+  {
+    "file": "building_catalog/027_솔마루(식당).jpg",
+    "source_render": "building_catalog/027_솔마루(식당).jpg",
+    "source_render_sha256": "3686e51578030f18f313bf74c7f425d3af4eb55eb09ae2128ef4720967959187",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 132255,
+    "sha256": "1c05c06b3895e1b8f2c50d98653a47634f494bafc021fb95d6642c30b3dfc57d"
+  },
+  {
+    "file": "building_catalog/028_입석홀(식당).jpg",
+    "source_render": "building_catalog/028_입석홀(식당).jpg",
+    "source_render_sha256": "81da7ce2a70865a61a96a5579eee823142ff3dea3f3c84ae928d69f149bd14d3",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 161306,
+    "sha256": "e26f858866c7976671ba926414db3f59c07442c6d226548ad0d436ab2051573d"
+  },
+  {
+    "file": "building_catalog/029_조선이공대학교 2호관.jpg",
+    "source_render": "building_catalog/029_조선이공대학교 2호관.jpg",
+    "source_render_sha256": "43f00742e031063e02bdccb9914a43b78a1616f447885c8bade7ac560b2f3d8c",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 180516,
+    "sha256": "b498300f71b86890ac351080bff54894dbfa9d73e9422e3a92bb6d0c2ac5c335"
+  },
+  {
+    "file": "building_catalog/030_조선이공대학교 4호관.jpg",
+    "source_render": "building_catalog/030_조선이공대학교 4호관.jpg",
+    "source_render_sha256": "b4e49f5643c2be5f0242ac5fb019085d0d5e3f293269330ebe784bf7dcc1f120",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 143436,
+    "sha256": "74017d9f23ed08e91423c0d97aeb2d657c537ca8026fca1607c225dfd812376e"
+  },
+  {
+    "file": "building_catalog/031_백학학사(기숙사).jpg",
+    "source_render": "building_catalog/031_백학학사(기숙사).jpg",
+    "source_render_sha256": "b8da7cc1b492416660a0524070773f0bb73435f5a6f2877288a791e740e8b268",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 241144,
+    "sha256": "dc1eba3da9d88606e2ac7abee59d717e85b37f54fa759af75ff0e396b288a3fe"
+  },
+  {
+    "file": "building_catalog/032_백학학사(기숙사).jpg",
+    "source_render": "building_catalog/032_백학학사(기숙사).jpg",
+    "source_render_sha256": "3cb19bcf2a68723703ebab4db5698369a5f80ec23523252f4f6e3c3aa29c5d57",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 228878,
+    "sha256": "72080647dbb32ca15c1bbd2d94c693b89b7202ed45d2a3a0cb53b4be92a7fbb9"
+  },
+  {
+    "file": "building_catalog/033_서석홀(평생교육원_박물관).jpg",
+    "source_render": "building_catalog/033_서석홀(평생교육원_박물관).jpg",
+    "source_render_sha256": "bca98bd892c1102892c984c14cb9d20877cc42642bb32e4e8207837510e50ef5",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 189593,
+    "sha256": "609fcc51b78b87ade58164722402bd52b5241ace5b07ec935693fcb663432226"
+  },
+  {
+    "file": "building_catalog/034_장황남정보통신박물관.jpg",
+    "source_render": "building_catalog/034_장황남정보통신박물관.jpg",
+    "source_render_sha256": "5e9b78fc50616183b10b986259dddc421d86fa63ea8d4b6f91513b74cfcc2288",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 257942,
+    "sha256": "494cc212bb7e727124b0efd3e568b43906572753ee1fad50fc9b92d17f3fab11"
+  },
+  {
+    "file": "building_catalog/035_의성관(연구동).jpg",
+    "source_render": "building_catalog/035_의성관(연구동).jpg",
+    "source_render_sha256": "fab26bbefbb475c2d3cadcd226edd7e76b9a978fb3904c4efd3e39c363995ed2",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 185959,
+    "sha256": "886e50309dc9b8acfde6263fb18fd1fc1a171351d4dfb33b1f5d0dd0f37b06e5"
+  },
+  {
+    "file": "building_catalog/036_조선대학교 병원.jpg",
+    "source_render": "building_catalog/036_조선대학교 병원.jpg",
+    "source_render_sha256": "fad4863f70c87bdc93ec53412bfb7c71f13bcf80e57f257b060a63e031ebadcc",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 206843,
+    "sha256": "d87ba422c1a21ab46daa87177a31606e90d1bc6b26270b984812fceca39bfed9"
+  },
+  {
+    "file": "building_catalog/037_조선대학교 치과병원.jpg",
+    "source_render": "building_catalog/037_조선대학교 치과병원.jpg",
+    "source_render_sha256": "11ad6663348f89f0cb67f51f2e2058acd8ddea41f4548d0d53680a96dbb98cb3",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 119807,
+    "sha256": "7f169999b0818f4f76420e1152a54d6e7dbac26623c1b5875bf5e18b338f3c2b"
+  },
+  {
+    "file": "building_catalog/038_치과대학(교육동).jpg",
+    "source_render": "building_catalog/038_치과대학(교육동).jpg",
+    "source_render_sha256": "5a86cfc490d408480eab08fe6fadc7f5ec6c3aa631b966cb47eba1494f22e79b",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 142285,
+    "sha256": "c85f732fc31f1e90089f78af20737d15facb5ad60f936aa3777ad2d72372a6c8"
+  },
+  {
+    "file": "building_catalog/039_법과대학.jpg",
+    "source_render": "building_catalog/039_법과대학.jpg",
+    "source_render_sha256": "6cad4af3120b840d812ad85068ced96d0fdfcc327b6a92c696f22d434a4607fa",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 186317,
+    "sha256": "a53da50d5365e960dedb5cb748dc059dd9203b8d734b567f785ee37f664d4772"
+  },
+  {
+    "file": "building_catalog/040_경상대학.jpg",
+    "source_render": "building_catalog/040_경상대학.jpg",
+    "source_render_sha256": "99d0f098196cc7fe1d0df2c9ea7a3903e80a01010e33d2662b3913c50bbde67d",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 138318,
+    "sha256": "31faa35f870b5ece88b523ea86accd3df3cbd0dbddf93d923e833dededa1fb09"
+  },
+  {
+    "file": "building_catalog/041_교내 부속동 1127517085.jpg",
+    "source_render": "building_catalog/041_교내 부속동 1127517085.jpg",
+    "source_render_sha256": "da0d8e7bb708e54b1c9002196952ed0dfa06428a7eda5f026080e39798195b38",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 105321,
+    "sha256": "4a948ad45a895c79e6a8ebcdcbf671b03ce88b0df32697ac184ea6e2b896d789"
+  },
+  {
+    "file": "building_catalog/042_교내 부속동 1127517086.jpg",
+    "source_render": "building_catalog/042_교내 부속동 1127517086.jpg",
+    "source_render_sha256": "52507a5c660a7a27a7cac4f8fa6f80c89ca35f3e8ebee1c3889f1abb508211a6",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 151059,
+    "sha256": "8c20ce13c13bebddab7c93940bd90a70178a91838871f282ddd23d43c363ee46"
+  },
+  {
+    "file": "building_catalog/043_교내 부속동 1127517087.jpg",
+    "source_render": "building_catalog/043_교내 부속동 1127517087.jpg",
+    "source_render_sha256": "c912797941dffa9fa21d3349d9842fcd28dbc7ba5ee7e54644c7410458637cd0",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 140018,
+    "sha256": "ceb91832c5578e484c736e2b8e91bb91fe0aad8725d606ab6107d42473171b7d"
+  },
+  {
+    "file": "building_catalog/044_교내 부속동 1127517088.jpg",
+    "source_render": "building_catalog/044_교내 부속동 1127517088.jpg",
+    "source_render_sha256": "070af8526f12e10c4e13cafb0509275983d1b1e9f62330507289ee32b657d26c",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 82843,
+    "sha256": "b60010994e1f0cdcc20112306fed246e73d87dfdf6b5411421524475a3e6cd0f"
+  },
+  {
+    "file": "building_catalog/045_교내 부속동 1127517089.jpg",
+    "source_render": "building_catalog/045_교내 부속동 1127517089.jpg",
+    "source_render_sha256": "49323635f027839d44e01c89d3cb8276b5a7445af2036d31fc62e9022d4ee32d",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 112363,
+    "sha256": "95809340c5652bd01760ad4f1a53ab5672a284f0b707829bd1e12555eebc35ac"
+  },
+  {
+    "file": "building_catalog/046_교내 부속동 1127517090.jpg",
+    "source_render": "building_catalog/046_교내 부속동 1127517090.jpg",
+    "source_render_sha256": "92e151c2a78eee107eca873b3a29d00ec7f7c4280f8268834c06d0266ad71890",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 154908,
+    "sha256": "90d621a432d423ce19d51b0a90103bfaed22c394d0f6342db98b54be7190ccec"
+  },
+  {
+    "file": "building_catalog/047_교내 부속동 1127517091.jpg",
+    "source_render": "building_catalog/047_교내 부속동 1127517091.jpg",
+    "source_render_sha256": "817435eedaf7504d1051eaa545bf446c2274cde48d32f72fd2dd43b77b808b84",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 128746,
+    "sha256": "9bb08f6d1201733c1e50383e3d2db6983f8bd4ef773a8380c856ba411424c677"
+  },
+  {
+    "file": "building_catalog/048_교내 부속동 1127517105.jpg",
+    "source_render": "building_catalog/048_교내 부속동 1127517105.jpg",
+    "source_render_sha256": "92112e9ea9078fb8d3573b8719d940790fe779402e0fe453f5d9d412a56857ea",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 110582,
+    "sha256": "09c14204535203c9dd1e54f79d6bd60aade28300067af06e74feef127c9ec21d"
+  },
+  {
+    "file": "building_catalog/049_교내 부속동 1198559652.jpg",
+    "source_render": "building_catalog/049_교내 부속동 1198559652.jpg",
+    "source_render_sha256": "c53fa08f95166c30d05328e03a304a2ee6ff3fff0c40d2cec7899192b496f5b9",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 152212,
+    "sha256": "e8015e4d6cd42cc6c76137fa6e24364627a1c96d56d00ecbf7a6fe9b09083b46"
+  },
+  {
+    "file": "building_catalog/050_1_8극장(노천극장).jpg",
+    "source_render": "building_catalog/050_1_8극장(노천극장).jpg",
+    "source_render_sha256": "3f85cc8bc12aa987f7090fe8607c7097a26b40af75e30af0db5a8c76bda450da",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 78297,
+    "sha256": "790143179131746d46738ac23d2c108f48668023e73bce67f29273475c9555c3"
+  },
+  {
+    "file": "building_catalog/051_교내 부속동 1201486598.jpg",
+    "source_render": "building_catalog/051_교내 부속동 1201486598.jpg",
+    "source_render_sha256": "8f8c62c10dc01f7cb2f123ed09b0bcd2d1f07770b65a97fac221caeee5396c78",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 83795,
+    "sha256": "52b8547f8886e3ce85e237e6da3a5b2a4f7dcee6a43515e725ab76d621330c93"
+  },
+  {
+    "file": "building_catalog/052_교내 부속동 1202050652.jpg",
+    "source_render": "building_catalog/052_교내 부속동 1202050652.jpg",
+    "source_render_sha256": "5f89a82f5d5f0404630b78457bb5046c3d2e189ee01facd27d685cfc9e77cacc",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 117806,
+    "sha256": "9ec6b9dd2c4c11bac44aa5530a9352c10e8fe3f0203ebae5196ee30d1f5163db"
+  },
+  {
+    "file": "building_catalog/053_생산교육 실험실습동.jpg",
+    "source_render": "building_catalog/053_생산교육 실험실습동.jpg",
+    "source_render_sha256": "7228c45a013c86ea8278f9efdaf1d416c8b92e08c3e278da9c13341f4eb14b18",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 164806,
+    "sha256": "bb08e5b56a4f1040a92d4f51adcd13262d6b06535939396731e3d0fbe3b65c83"
+  },
+  {
+    "file": "building_catalog/054_창업보육센터.jpg",
+    "source_render": "building_catalog/054_창업보육센터.jpg",
+    "source_render_sha256": "2febf7a4132b5e2240ed2347576c5969eea8863295f297f9b41e2743f8e0fbc3",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 191435,
+    "sha256": "30096908a1137729bcbd32ead308bef4be27482eb47cf7303f5cd2bf7cbb22f8"
+  },
+  {
+    "file": "building_catalog/055_자동차공학실험실.jpg",
+    "source_render": "building_catalog/055_자동차공학실험실.jpg",
+    "source_render_sha256": "951312ab5d57bcbf339bb8b3ebdee637b9923336101ff2ce404bb20a662cb0f8",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 145756,
+    "sha256": "01521d534434faad82a6a9052ad5fbb4927e1979e3213a97db40c379a9afc236"
+  },
+  {
+    "file": "building_catalog/056_약초원.jpg",
+    "source_render": "building_catalog/056_약초원.jpg",
+    "source_render_sha256": "3b0839e029623e1d431f3aa4c74c6aabeebdfee484a4ebfa8a52c26a1b30c371",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 108980,
+    "sha256": "9291bb89c65dcdb9d4a9ab8dc8b05b7673e1a1773fede800cb1b7ec95d971fda"
+  },
+  {
+    "file": "building_catalog/057_건설실험동.jpg",
+    "source_render": "building_catalog/057_건설실험동.jpg",
+    "source_render_sha256": "df1cb1dededc2187db661b85e117543b7e022332b1ffb302d78ecf753146480c",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 147349,
+    "sha256": "9492ae49eb8fbcd644477efcd2b9549f02707c3164129ca6bae15f7f4e0b682f"
+  },
+  {
+    "file": "building_catalog/058_교내 부속동 1359353587.jpg",
+    "source_render": "building_catalog/058_교내 부속동 1359353587.jpg",
+    "source_render_sha256": "3fc12374259a538df6d2db432822afb86b758976f2cc41ac1a10e311f5c0be67",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 96338,
+    "sha256": "fa7ba1793680534a41b953d3b4a5232d8bfc2aafc42d5b7c9e77934b3802c275"
+  },
+  {
+    "file": "building_catalog/059_교내 부속동 1359353588.jpg",
+    "source_render": "building_catalog/059_교내 부속동 1359353588.jpg",
+    "source_render_sha256": "87c011a359770e65b2b604c995f2e7fe660444b873f44a9f2a98731c6ca08311",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 73698,
+    "sha256": "a34bf34c3701a908f182bc2d823466907528c0600f458beefbe72413c867f732"
+  },
+  {
+    "file": "building_catalog/060_교내 부속동 1359353590.jpg",
+    "source_render": "building_catalog/060_교내 부속동 1359353590.jpg",
+    "source_render_sha256": "1e9721d2f55437e76083a88a80406ce7374ae66c3f200b55de6bb3c845119826",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 99469,
+    "sha256": "c1e662e6c9e8676af6201e41f65d94241b1c15f64e9aaba7a4f1a3e6f4bdecbd"
+  },
+  {
+    "file": "building_catalog/061_자연과학관.jpg",
+    "source_render": "building_catalog/061_자연과학관.jpg",
+    "source_render_sha256": "1b3a475522c26ddc104b7d26a640473bc17af25f3e798178de4bfe692459c029",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 170705,
+    "sha256": "2531b37396de062c5b72fefc3fedacccf724c561498d54e6e1ea261d3b8b1e90"
+  },
+  {
+    "file": "building_catalog/062_그린빌리지(기숙사).jpg",
+    "source_render": "building_catalog/062_그린빌리지(기숙사).jpg",
+    "source_render_sha256": "c665050883b2e65eb47af7e33aafd7411d97d8c2b258475dde77f551e3a10975",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 127516,
+    "sha256": "22e205099ca3270af2ddeba1bd65e0c50981477b0ba97f587d453724c7871809"
+  },
+  {
+    "file": "building_catalog/063_조선대학교 어린이집.jpg",
+    "source_render": "building_catalog/063_조선대학교 어린이집.jpg",
+    "source_render_sha256": "ce727b87a20864d37a5a95450f01f745ff33be90754decc435e79011c0d6bb9a",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 127385,
+    "sha256": "1ab23fc6b562462cdf3d1e9f78bc246ebbc91d6b3d154566a3bc8ce6e25cb3c3"
+  },
+  {
+    "file": "building_catalog/064_조선대학교병원 장례식장.jpg",
+    "source_render": "building_catalog/064_조선대학교병원 장례식장.jpg",
+    "source_render_sha256": "92559e8d308645e1fad00934db0be586a1b03eda5b7cf71f82f9066bc554e0ac",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 78993,
+    "sha256": "67f3fb87e2aad12492d2d8ac1f41602cc54174973d259da5684dfb8c1daa4993"
+  },
+  {
+    "file": "building_catalog/065_주차빌딩.jpg",
+    "source_render": "building_catalog/065_주차빌딩.jpg",
+    "source_render_sha256": "d2311dadeeb57570dbb2a86ddd9a475d4db967e18f624da9c1fc69fb57199b7d",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 188635,
+    "sha256": "3fa08a9036884d1c4b0a570d57a1dd3b70afcbfdf3ec7fe1ab27850208b850ea"
+  },
+  {
+    "file": "building_catalog/066_태양에너지실증연구단지.jpg",
+    "source_render": "building_catalog/066_태양에너지실증연구단지.jpg",
+    "source_render_sha256": "8fd3166302dbc2c1a30ebcf9c8504332f0adf3c32a7d77a9ce7450c76260f69a",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 76641,
+    "sha256": "81e7353b870d452df4677990ce493021b46e33b704def263367cd9832e5ac297"
+  },
+  {
+    "file": "building_catalog/067_치과대학(연구동).jpg",
+    "source_render": "building_catalog/067_치과대학(연구동).jpg",
+    "source_render_sha256": "f633307bd1e1ed56100e0b716a5946f55187a2da98c6d1a6e8c7b8bbfe80fc91",
+    "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 201397,
+    "sha256": "a418af266e99796e2d46f9e3cc6d54f2fa943894519c60b1547b724515b65288"
+  },
+  {
+    "file": "building_catalog/068_본관.jpg",
+    "source_render": "building_catalog/068_본관.jpg",
+    "source_render_sha256": "44d42f85ffd4bde3a9fa5f4ad1fad2d398fbe6c95a16acdc929621f664d30726",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      788
+    ],
+    "preview_size": [
+      1400,
+      788
+    ],
+    "quality": 85,
+    "bytes": 217442,
+    "sha256": "2349e9420c153bcf984c3e17a4ae4c12c7934dccaa4ce5a8dfdebcc9d830c3a3"
+  },
+  {
+    "file": "building_catalog/069_교수연구동 (본관 서측 원형 부속동).jpg",
+    "source_render": "building_catalog/069_교수연구동 (본관 서측 원형 부속동).jpg",
+    "source_render_sha256": "a749e5d769332301abebb34108900115a77d5b21d6e9a904fcfbf96746061935",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1400,
+      1050
+    ],
+    "preview_size": [
+      1400,
+      1050
+    ],
+    "quality": 85,
+    "bytes": 208487,
+    "sha256": "df35fe2d60fb4140639c7a067804fe21fd33c8c6ef57917fc777c8a818281b09"
+  },
+  {
+    "file": "building_catalog/review-sheet-01.jpg",
+    "source_render": "building_catalog/review-sheet-01.jpg",
+    "source_render_sha256": "58c37a2de94348ae2a33ad16dca699092d7cc9dc2408b7153c74603ca2394ab2",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 308354,
+    "sha256": "836739a597cb1dd15e19c714c548dc2c325f20e25a28c0b863a08e458af76c2f"
+  },
+  {
+    "file": "building_catalog/review-sheet-02.jpg",
+    "source_render": "building_catalog/review-sheet-02.jpg",
+    "source_render_sha256": "e763cb860c6eb71927213c343eed9585f6ad65eddc92a5d9e82b8549780211e8",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 292172,
+    "sha256": "b6c3d46fc80b146dc9fee34ebab01134080edfd1258ffe75b536732248ceefc4"
+  },
+  {
+    "file": "building_catalog/review-sheet-03.jpg",
+    "source_render": "building_catalog/review-sheet-03.jpg",
+    "source_render_sha256": "ce77f1828480fff14afc70483144758dbcd065114f5cb524a82e3958002faad6",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 277135,
+    "sha256": "875e55f97effddcbef3f1d8e8e05d33046ecdde84c3d252c258cc5bf309bef10"
+  },
+  {
+    "file": "building_catalog/review-sheet-04.jpg",
+    "source_render": "building_catalog/review-sheet-04.jpg",
+    "source_render_sha256": "d506b1fbfe9ab9f208bef6da8de70368f95fc62991a2b882303a4dc227da087d",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 310583,
+    "sha256": "8f1094fa73d223d7d6038dd7fa370898dc5bb5dcc9fe5c3cb0d442d603904291"
+  },
+  {
+    "file": "building_catalog/review-sheet-05.jpg",
+    "source_render": "building_catalog/review-sheet-05.jpg",
+    "source_render_sha256": "193551519ffa3d88f82097a2cca9fd788a1fad7d29e86f7a3b45b66804bd5a67",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 193660,
+    "sha256": "f70f5ce0ca32b71cb543ad38963cb116e5ba9f0920b65c6885e6642cd297c85c"
+  },
+  {
+    "file": "building_catalog/review-sheet-06.jpg",
+    "source_render": "building_catalog/review-sheet-06.jpg",
+    "source_render_sha256": "faa3bc4338d746ee437190b94470be90f2ac2421b45a0d340661c601110aa88e",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 181063,
+    "sha256": "36c87c9bee3677dd24e8b30b9749f5d98d2dd4739072130da3fe366b2bb42481"
+  },
+  {
+    "file": "building_catalog/review-sheet-07.jpg",
+    "source_render": "building_catalog/review-sheet-07.jpg",
+    "source_render_sha256": "ad80d6f6194a140a94f792b531f8cc3e72f46f4a9661462ed12f1a981dfdf3fd",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 189501,
+    "sha256": "74ed64050c04fe41908086123cfa2c394eda0cfd5a18db6fbe108b16dc623473"
+  },
+  {
+    "file": "building_catalog/review-sheet-08.jpg",
+    "source_render": "building_catalog/review-sheet-08.jpg",
+    "source_render_sha256": "45b4dac1b1c00fdfebaf60244cf7ee455e553767ae4019aa73f552bccf2c2b38",
+    "actual_render_source_sha256": null,
+    "native_size": [
+      1440,
+      1170
+    ],
+    "preview_size": [
+      1440,
+      1170
+    ],
+    "quality": 85,
+    "bytes": 172484,
+    "sha256": "48e5e2c041cda14740eb149cccf170b59c0db825981cb05556522bf9fd058812"
+  },
+  {
+    "file": "stair_details_final/70_중앙108계단_전체.jpg",
+    "source_render": "stair_details_final/70_중앙108계단_전체.png",
+    "source_render_sha256": "26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1600,
+      1000
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 249132,
+    "sha256": "f0179ab5c6a3098c49b470df4cb9f60ced533d99e8776f18800d5551159713ce"
+  },
+  {
+    "file": "stair_details_final/71_중앙108계단_상세.jpg",
+    "source_render": "stair_details_final/71_중앙108계단_상세.png",
+    "source_render_sha256": "1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1600,
+      1000
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 180252,
+    "sha256": "ce3092adae79a6727fab1529071d501b7e998c11862e24544994817d28357714"
+  },
+  {
+    "file": "stair_details_final/72_실험실습동_금속계단.jpg",
+    "source_render": "stair_details_final/72_실험실습동_금속계단.png",
+    "source_render_sha256": "a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1600,
+      1000
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 126241,
+    "sha256": "af0af4cea5226b51da5fa5ac73516949ae761bec8ba9bab5ad760843bc4a1b9c"
+  },
+  {
+    "file": "stair_details_final/73_보행연결계단_추정.jpg",
+    "source_render": "stair_details_final/73_보행연결계단_추정.png",
+    "source_render_sha256": "e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1",
+    "actual_render_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "native_size": [
+      1600,
+      1000
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 79711,
+    "sha256": "c8917ad5e99c2173625c12e253c395496c901b802011de72b186364314bb85dd"
+  }
+]

@@ -1,0 +1,235 @@
+{
+  "index": 34,
+  "name": "장황남정보통신박물관",
+  "building_id": 129,
+  "osm_id": "472263777",
+  "catalog_record": {
+    "index": 34,
+    "id": 129,
+    "osm_id": "472263777",
+    "name": "장황남정보통신박물관",
+    "collection": "CAMPUS_BUILDING 129 장황남정보통신박물관",
+    "bbox": {
+      "min": [
+        -237.98500061035156,
+        -158.1074676513672,
+        -24.064878463745117
+      ],
+      "max": [
+        -157.7989959716797,
+        -130.76199340820312,
+        -12.222159385681152
+      ]
+    },
+    "target": [
+      -197.89199829101562,
+      -144.43473052978516,
+      -18.143518924713135
+    ],
+    "camera": [
+      -158.09751354915366,
+      -242.59985596788607,
+      16.336463069915773
+    ],
+    "orthographic_scale": 113.86412658691405,
+    "entrance": [
+      -178.59008114271944,
+      -155.07666029006666,
+      -19.6221592355581
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801454832100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/129/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -158.09750366210938,
+      -242.599853515625,
+      16.336448669433594
+    ],
+    "rotation": [
+      1.256098985671997,
+      2.0018653401621123e-09,
+      0.3851383328437805
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 99.8108139038086
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -158.09750366210938,
+        -242.599853515625,
+        16.336448669433594
+      ],
+      "rotation": [
+        1.256098985671997,
+        2.0018653401621123e-09,
+        0.3851383328437805
+      ],
+      "scale": 99.8108139038086,
+      "score": 1.0,
+      "hit": 67,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030834411141246,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -163.83140563964844,
+        -228.45547485351562,
+        46.58091354370117
+      ],
+      "rotation": [
+        0.9507965445518494,
+        -3.000037906986108e-08,
+        0.3851383328437805
+      ],
+      "scale": 99.8108139038086,
+      "score": 1.0,
+      "hit": 64,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -220.00643920898438,
+        -240.73501586914062,
+        33.29640579223633
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -4.487775484562917e-09,
+        -0.22572703659534454
+      ],
+      "scale": 99.4411392211914,
+      "score": 1.0,
+      "hit": 78,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -114.96292114257812,
+        -198.15216064453125,
+        33.296417236328125
+      ],
+      "rotation": [
+        1.0907962322235107,
+        -1.1709069269727479e-07,
+        0.9960035085678101
+      ],
+      "scale": 78.5233154296875,
+      "score": 1.0,
+      "hit": 55,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -263.7247314453125,
+        -203.84988403320312,
+        49.271263122558594
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.7288730447262424e-08,
+        -0.8365923762321472
+      ],
+      "scale": 88.9573974609375,
+      "score": 1.0,
+      "hit": 53,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -109.26988220214844,
+        -141.2364959716797,
+        49.271278381347656
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.226122066100288e-07,
+        1.6068689823150635
+      ],
+      "scale": 92.07231903076172,
+      "score": 1.0,
+      "hit": 106,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -231.2078857421875,
+        -62.25102233886719,
+        49.27128219604492
+      ],
+      "rotation": [
+        0.920796275138855,
+        -6.542931174635669e-08,
+        -2.7564542293548584
+      ],
+      "scale": 99.8108139038086,
+      "score": 0.8070175438596491,
+      "hit": 46,
+      "other": 11,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.41641190215089025
+    },
+    {
+      "location": [
+        -171.87777709960938,
+        -208.60662841796875,
+        69.115234375
+      ],
+      "rotation": [
+        0.6707964539527893,
+        -1.0148273332788449e-09,
+        0.3851384222507477
+      ],
+      "scale": 99.8108139038086,
+      "score": 1.0,
+      "hit": 62,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "034_장황남정보통신박물관.jpg",
+  "file_sha256": "5e9b78fc50616183b10b986259dddc421d86fa63ea8d4b6f91513b74cfcc2288",
+  "render_seconds": 65.76,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

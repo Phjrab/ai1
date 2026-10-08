@@ -1,0 +1,184 @@
+{
+  "status": "FROZEN FOR PBR INTEGRATION AND RENDER",
+  "date": "2026-10-08",
+  "counts": {
+    "campus_building_records": 67,
+    "preserved_original_records": 62,
+    "navigation_destinations": 50,
+    "preserved_original_destinations": 47,
+    "photographic_and_inferred_walk_surfaces": 435,
+    "central_stair_treads": 108,
+    "inferred_connections": 17,
+    "inferred_connection_treads": 181,
+    "parking_cars": 117
+  },
+  "files": {
+    "campus.blend": {
+      "bytes": 18191955,
+      "sha256": "72e40d2c02e3f423ec1e1277f75fbdb81eae6e035d2c912d7426b7db82eaee74"
+    },
+    "campus.glb": {
+      "bytes": 72063316,
+      "sha256": "6fa57ea01562262c1621e3ca0f9fbb5a9566c9decf697387bcbae34591375ee9"
+    },
+    "navigation.json": {
+      "bytes": 2279530,
+      "sha256": "41eff1390c30ea7f0d6285a182b8ce0dd1d1dd831524c1cd64bd9ce5e805430e"
+    },
+    "road_graph_3d.json": {
+      "bytes": 542714,
+      "sha256": "559e31627d83891c84d8afa597353051e0cf0f775456683e07f1955c056cc0d4"
+    },
+    "ground_elevation.json": {
+      "bytes": 588198,
+      "sha256": "4cf2273a7a9711ff52bade91dbb38444c08d213864f8925e3d1102465ce1840a"
+    },
+    "transit_placements.json": {
+      "bytes": 128811,
+      "sha256": "575940ebdf9f509d6d8b997fc95ba9218408599a6c57611fa29ffc96621fe686"
+    },
+    "building_render_catalog.json": {
+      "bytes": 79087,
+      "sha256": "9d3b0d494a167097b1b97272244af0c4f00d40509525f224692dd542608f7162"
+    },
+    "main_building_catalog.json": {
+      "bytes": 689,
+      "sha256": "b6a4f486ef36151e8bbb980d0482177673a4e22051dd4a951219779eb64acab7"
+    },
+    "professor_annex_catalog.json": {
+      "bytes": 701,
+      "sha256": "bcdf5edce0707aff94f2ceaaa47984a45b789466c95aee718b03e24195c7d41f"
+    },
+    "terrain_building_pads.json": {
+      "bytes": 65582,
+      "sha256": "4f731b17ba3301f350b28f46b891c84d26463017f30ffcf343ebcb8f2e21a617"
+    },
+    "roadbed_corrections.json": {
+      "bytes": 6505,
+      "sha256": "3bf2f883f69309f3ab76aee32670415695681127b7afbe28b2819d185c8d18dd"
+    },
+    "footbed_corrections.json": {
+      "bytes": 3482,
+      "sha256": "fb6abcc3531e3a550ae889cf14229ceff289f4f6e72b07281da88e943584ed66"
+    },
+    "inferred_walk_connections.json": {
+      "bytes": 6854,
+      "sha256": "6b3bf732560377434ba65c7457ab7976db82819b61386b642932c97cba7e573f"
+    },
+    "remaining_verification.json": {
+      "bytes": 3576,
+      "sha256": "ce677301aac9e318b9e3ef9d7a7b197ea324b916f7ff8ccb44c681db4defaf46"
+    },
+    "final_native_verification.json": {
+      "bytes": 7147,
+      "sha256": "0b5fcade9c05732aa6a850e04c585678d99113e4abab474f8e04e3b96fbad33d"
+    },
+    "source_data/architectural_review.json": {
+      "bytes": 80064,
+      "sha256": "e4acc0486f7d8d4c58c2953529ec8727adb4df1ddf096e8abbc182855b947d48"
+    },
+    "build_campus.py": {
+      "bytes": 32645,
+      "sha256": "7cccf8159d685d3971d18209b06b877c3010eb2815324dc0026bda7f3c1cbb5a"
+    },
+    "remaining_architecture.py": {
+      "bytes": 18134,
+      "sha256": "c924d8469768ed57fa36d90260e5e8fd3784494ee2baa88e9f4e903fb1af2329"
+    },
+    "detailed_stairs.py": {
+      "bytes": 11087,
+      "sha256": "0d6f9fd0f183b2771ec32a128ed52b2e7ca7b8bf6f532f4dd16e743641d6d1e0"
+    },
+    "grounded_areas.py": {
+      "bytes": 1849,
+      "sha256": "7ce5ba7184d1ea87063cb8dce9b264633757a7ae78530f1368927f417d263261"
+    },
+    "resample_transit.py": {
+      "bytes": 3715,
+      "sha256": "67512848bbf26651814b5dd5fb11cecb73936109aeebbf71774611d5ca64e27a"
+    },
+    "terrain_elevation.py": {
+      "bytes": 3929,
+      "sha256": "6fb01cca6112d8db2f90e2474427a189215f0215dc647b580c32a838aa8ae7b8"
+    },
+    "terrain_roadbeds.py": {
+      "bytes": 5136,
+      "sha256": "40064342702ea3fd1b889b5d837250f17f1997b24b8975a812536967b56c085d"
+    },
+    "terrain_walksteps.py": {
+      "bytes": 5339,
+      "sha256": "7fecf31e2ea267b0cec41fb83548c61ae60a720ce1d9cd95dde1be8a1cc63cc8"
+    },
+    "terrain_cutouts.py": {
+      "bytes": 3129,
+      "sha256": "f4c41409d961b7772c783318ac5f7c9604c5497a7911f36ba71bb53cf5fd819d"
+    },
+    "road_continuity.py": {
+      "bytes": 2394,
+      "sha256": "da4c89f04cd441bf225dd3b9d71f6f1a93a8b2db7c8b80cc6063adcc28a4fb7c"
+    },
+    "road_details.py": {
+      "bytes": 3546,
+      "sha256": "21e0f23b699c72d34154b844db4c26d69f842dac7486cd982ed69be718d46e53"
+    },
+    "road_surface_cache.json": {
+      "bytes": 1574654,
+      "sha256": "4c680142e0f29d0ecc5b8bfafe71bcdf25cc00d2ae583796bf0da282f3e40a06"
+    },
+    "road_details_cache.json": {
+      "bytes": 737362,
+      "sha256": "7fd2ec26a01c985381eb7a736c660f2be5b01d00382a0eaa76210702f945c821"
+    },
+    "dense_walk_surface_verification.json": {
+      "bytes": 336,
+      "sha256": "4d6bda860f208dfdf3c81f0541bd460812e734fd87b0aa7017d737e5e06d88dd"
+    },
+    "local_entry_fix_report.json": {
+      "bytes": 538,
+      "sha256": "52f182e8bcbb3e6e584bacdcc50c344d7343066ba71f1024c05c14cd7b339463"
+    },
+    "verify_walk_surfaces_dense.py": {
+      "bytes": 1784,
+      "sha256": "4872ff7d0f02a8e9b3de151399bd40435fb95f444350435ead332a60bcdbd381"
+    },
+    "local_walk_clearance.py": {
+      "bytes": 2712,
+      "sha256": "bf187356dd126376b8d6670268de63e588a4927f78e038356d6ef6a9529e0d0d"
+    },
+    "local_walk_clearance.json": {
+      "bytes": 536,
+      "sha256": "89c4bedb94bcb99ec7f9012f655e2143f5e2931b8d40e3bde9154aa375d7ad07"
+    },
+    "walk_clearance_revision_report.json": {
+      "bytes": 1015,
+      "sha256": "9b1c22c486c66ff731a811e1de75e8b04f9577dd3d5bb6092e74f08a4156df8c"
+    }
+  },
+  "main_building_glb": {
+    "bytes": 10919700,
+    "sha256": "268ebdc8332dbcef5afa67440bfccd55e08398d07ae7d1005f1c3ab6a9362120"
+  },
+  "validation": {
+    "remaining_contract": "pass",
+    "mapped_plaza_faces": 15383,
+    "mapped_plaza_terrain_violations": 0,
+    "parking_tire_min_contact_m": 0.0049949053344731445,
+    "tree_ground_max_error_m": 2.36581727008911e-05,
+    "transit_native_json_max_error_m": 1.704068687047311e-06,
+    "transit_xy_order_preserved": true,
+    "dense_walk_surface_samples": 31320,
+    "dense_walk_surface_terrain_conflicts": 0,
+    "dense_walk_surface_building_conflicts": 0,
+    "runtime_walk_regression": "Game worker: all435 surfaces and24 approach paths in both directions passed actual walkStep on web-compressed6fa57e geometry;144/944 stops resolved.",
+    "inferred944_xy_overlap_m2": 0.0,
+    "entry144_paving_edge_faces_split_or_removed": 6
+  },
+  "limits": [
+    "Exact dimensions, hidden elevations, some floor interpretations and entrance placements are approximate.",
+    "18 accessory exteriors unverified; speculative office details removed, plain massing retained.",
+    "5 CIT buildings have group-level evidence with unresolved individual attribution.",
+    "The 17 inferred terrain connectors are game-only grade accommodations, explicitly not claims that real stairs exist.",
+    "Official reference photography may be older, often 2019; no 2026 as-built guarantee."
+  ],
+  "revision": "Entry133 terrain cutout and153 apron; subsequent144 paving-edge opening and944 shared-miter connector"
+}

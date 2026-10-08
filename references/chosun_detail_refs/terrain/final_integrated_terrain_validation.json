@@ -1,0 +1,32 @@
+{
+  "status": "final candidate JSON verified",
+  "ground_sha256": "4cf2273a7a9711ff52bade91dbb38444c08d213864f8925e3d1102465ce1840a",
+  "vehicle_segments": 7654,
+  "vehicle_max_grade": 0.2768156393151013,
+  "vehicle_over30_count": 0,
+  "road_ground_offset_range_m": [
+    0.09499509821065999,
+    0.09500491465289684
+  ],
+  "road_points_outside_render_bounds": 0,
+  "destinations": 50,
+  "destination_ground_offset_range_m": [
+    0.11953394000000372,
+    0.15012913800000405
+  ],
+  "destination_below_ground_count": 0,
+  "inferred_connections": 17,
+  "inferred_treads": 181,
+  "inferred_walkable_surfaces": 215,
+  "inferred_tread_ground_clearance_min_m": 0.14692588789185734,
+  "inferred_max_step_m": 0.1666401170558771,
+  "inferred_max_xy_gap_m": 1.4210854715202004e-14,
+  "nonfinite_walkable_vertices": 0,
+  "blender_inferred_collection_verified": true,
+  "blender_inferred_mesh": {
+    "vertices": 1720,
+    "faces": 1290,
+    "separate_collection": true,
+    "evidence_status": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  }
+}

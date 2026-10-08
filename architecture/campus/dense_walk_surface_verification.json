@@ -1,0 +1,8 @@
+{
+  "sample_count": 31320,
+  "walkable_surface_count": 435,
+  "terrain_interior_violations": [],
+  "building_collision_interior_violations": [],
+  "status": "pass",
+  "method": "Every triangle: positive barycentric i/10,j/10,1-(i+j)/10; actual Blender terrain BVH down-ray, threshold -.015m; strict collision-box XY interior and z+1m"
+}

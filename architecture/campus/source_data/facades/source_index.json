@@ -1,0 +1,206 @@
+[
+  {
+    "id": 138,
+    "name": "IT융합대학",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/138/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554797749064100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층",
+      "지상 9층",
+      "지상 10층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/138.jpg"
+  },
+  {
+    "id": 134,
+    "name": "공과대학 제1공학관",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/134/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798083056100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층",
+      "지상 9층",
+      "지상 10층",
+      "지상 11층",
+      "지상 12층",
+      "지상 13층",
+      "지상 14층",
+      "지상 15층",
+      "지상 16층",
+      "지상 17층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/134.jpg"
+  },
+  {
+    "id": 150,
+    "name": "공과대학 제2공학관",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/150/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798168712100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/150.jpg"
+  },
+  {
+    "id": 142,
+    "name": "글로벌하우스(기숙사)",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/142/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555046339547100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층",
+      "지상 9층",
+      "지상 10층",
+      "지상 11층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/142.jpg"
+  },
+  {
+    "id": 135,
+    "name": "미술대학(미술관)",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/135/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798680094100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/135.jpg"
+  },
+  {
+    "id": 147,
+    "name": "백학학사(기숙사)",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/147/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층",
+      "지상 9층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/147.jpg"
+  },
+  {
+    "id": 136,
+    "name": "사회과학ㆍ사범대학",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/136/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798885430100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/136.jpg"
+  },
+  {
+    "id": 141,
+    "name": "서석홀(평생교육원,박물관)",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/141/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799320404100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/141.jpg"
+  },
+  {
+    "id": 127,
+    "name": "중앙도서관",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/127/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802666144100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/127.jpg"
+  },
+  {
+    "id": 145,
+    "name": "학생회관(동아리연합회)",
+    "page_url": "https://csu.chosun.ac.kr/campusMap/chosun/145/detailView.do",
+    "image_url": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층"
+    ],
+    "file": "/workspace/shared/chosun_campus_refs/facades/145.jpg"
+  },
+  {
+    "id": 146,
+    "name": "국제관(언어교육원,인권윤리원)",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층"
+    ],
+    "page_url": "https://www3.chosun.ac.kr/campusMap/chosun/146/detailView.do",
+    "image_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+    "note": "Retrieved and verified 2026-10-08; no photograph embedded."
+  },
+  {
+    "id": 133,
+    "name": "경상대학",
+    "floors": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층"
+    ],
+    "page_url": "https://www3.chosun.ac.kr/campusMap/chosun/133/detailView.do",
+    "image_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555055946682100.jpg",
+    "note": "Retrieved and verified 2026-10-08; no photograph embedded."
+  }
+]

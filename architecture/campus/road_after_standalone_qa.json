@@ -1,0 +1,8 @@
+{
+  "samples": 152320,
+  "below_terrain": 0,
+  "min_clearance": 0.294677734375,
+  "max_clearance": 0.2951164245605469,
+  "invalid_faces": 0,
+  "scope": "Standalone new module on existing terrain; full integrated-model QA separate."
+}

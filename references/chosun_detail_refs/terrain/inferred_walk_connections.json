@@ -1,0 +1,172 @@
+[
+  {
+    "id": "inferred_walk_connector_651840249_0",
+    "osm_id": "651840249",
+    "source_type": "footway",
+    "modeled_treads": 10,
+    "width_m": 2.0,
+    "support_lift_m": 0.2195,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_942433747_0",
+    "osm_id": "942433747",
+    "source_type": "footway",
+    "modeled_treads": 14,
+    "width_m": 2.0,
+    "support_lift_m": 0.3752,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_944569917_0",
+    "osm_id": "944569917",
+    "source_type": "footway",
+    "modeled_treads": 10,
+    "width_m": 2.0,
+    "support_lift_m": 0.1929,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_944569946_0",
+    "osm_id": "944569946",
+    "source_type": "steps",
+    "modeled_treads": 6,
+    "width_m": 2.0,
+    "support_lift_m": 0.6388,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1120518152_0",
+    "osm_id": "1120518152",
+    "source_type": "path",
+    "modeled_treads": 6,
+    "width_m": 2.0,
+    "support_lift_m": 0.2088,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1120518152_1",
+    "osm_id": "1120518152",
+    "source_type": "path",
+    "modeled_treads": 6,
+    "width_m": 2.0,
+    "support_lift_m": 0.2751,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_0",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.1812,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_1",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.2024,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_2",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 41,
+    "width_m": 2.0,
+    "support_lift_m": 0.4754,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_3",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.1854,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_4",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.248,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1125125519_5",
+    "osm_id": "1125125519",
+    "source_type": "path",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.14,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1198945326_0",
+    "osm_id": "1198945326",
+    "source_type": "footway",
+    "modeled_treads": 5,
+    "width_m": 2.0,
+    "support_lift_m": 0.1881,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1485907433_0",
+    "osm_id": "1485907433",
+    "source_type": "footway",
+    "modeled_treads": 22,
+    "width_m": 2.0,
+    "support_lift_m": 0.463,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1485907455_0",
+    "osm_id": "1485907455",
+    "source_type": "footway",
+    "modeled_treads": 28,
+    "width_m": 2.0,
+    "support_lift_m": 0.1602,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1485914602_0",
+    "osm_id": "1485914602",
+    "source_type": "footway",
+    "modeled_treads": 2,
+    "width_m": 2.0,
+    "support_lift_m": 0.325,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  },
+  {
+    "id": "inferred_walk_connector_1485914602_1",
+    "osm_id": "1485914602",
+    "source_type": "footway",
+    "modeled_treads": 6,
+    "width_m": 2.0,
+    "support_lift_m": 0.2376,
+    "source": "OSM pedestrian centerline plus modeled terrain grade; no photograph or surveyed stair count",
+    "confidence": "INFERRED GAME TERRAIN CONNECTION ONLY; not an assertion that real stairs exist here"
+  }
+]

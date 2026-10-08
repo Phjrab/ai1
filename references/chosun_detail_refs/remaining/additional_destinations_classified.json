@@ -1,0 +1,354 @@
+[
+  {
+    "id": 149,
+    "name": "교수연구동",
+    "included_in_manifest": true,
+    "observed_features": "Rounded/cylindrical white annex beside historic main building, tall narrow round columns/fins, stacked horizontal glass and balcony bands, disc-like projecting roof.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/149.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/149/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층"
+    ],
+    "classification": "already_modeled",
+    "reason": "Original main model has rounded end annex at x≈-178,y=8.5; official research pin x=-175.038,y=14.545. Explicit OSM exclusion prevents duplicate.",
+    "official_pin_world": [
+      -175.038,
+      14.545
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 168,
+    "name": "대운동장",
+    "included_in_manifest": true,
+    "observed_features": "Open sports field with track/perimeter, not a building.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/168.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/168/detailView.do",
+    "official_directory_floor_labels": [],
+    "classification": "already_modeled",
+    "reason": "Sports pitch/track implemented from OSM area polygons, not counted as building.",
+    "official_pin_world": [
+      3.727,
+      -404.739
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 126,
+    "name": "본관",
+    "included_in_manifest": true,
+    "observed_features": "White multi-gable historic main building, stacked narrow vertical windows; retain protected original.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/126.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/126/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층",
+      "지상 8층",
+      "지상 9층"
+    ],
+    "classification": "already_modeled",
+    "reason": "Protected original main building supplied separately by building/build_building.py.",
+    "official_pin_world": [
+      0.0,
+      8.5
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 179,
+    "name": "서석홀 지상1층",
+    "included_in_manifest": false,
+    "observed_features": "Duplicate Seoseok Hall ground-floor destination; same photo and identity as 141; do not add separate overlapping building.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/179.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/179/detailView.do",
+    "official_directory_floor_labels": [],
+    "classification": "already_modeled",
+    "reason": "Ground-floor destination alias of Seoseok Hall #141; same photo and footprint, do not duplicate.",
+    "official_pin_world": [
+      -292.823,
+      -142.042
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 161,
+    "name": "조선간호대학",
+    "included_in_manifest": false,
+    "observed_features": "Five visible storeys of pale rectangular grid windows; central shallow canopy and straight front stair with handrails.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/161.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/161/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층"
+    ],
+    "classification": "outside_current_scope",
+    "reason": "Separate nursing college; manifest include:false, official pin outside supplied campus boundary, no mapped footprint.",
+    "official_pin_world": [
+      430.482,
+      -623.802
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 175,
+    "name": "조선대학교 부속고등학교",
+    "included_in_manifest": false,
+    "observed_features": "Red-brick connected school blocks with long horizontal glazing; low curved green-roofed hall alongside.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/175.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/175/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층"
+    ],
+    "classification": "outside_current_scope",
+    "reason": "Affiliated high school; include:false and outside supplied campus boundary and current x<=660 footprint clip.",
+    "official_pin_world": [
+      752.353,
+      -471.812
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 173,
+    "name": "조선대학교 부속중학교",
+    "included_in_manifest": false,
+    "observed_features": "Long low white school block around field, continuous repeated windows and projecting pale bands.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/173.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/173/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층"
+    ],
+    "classification": "outside_current_scope",
+    "reason": "Affiliated middle school; include:false and official pin outside supplied campus boundary.",
+    "official_pin_world": [
+      -228.663,
+      -550.908
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 178,
+    "name": "조선대학교 어린이집",
+    "included_in_manifest": false,
+    "observed_features": "Low red-brick nursery with continuous pale balcony/canopy bands, mint-green rounded roof edge, pale higher rooftop core.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/178.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/178/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층"
+    ],
+    "classification": "missing_in_scope",
+    "reason": "Official nursery pin lies within OSM campus boundary. No containing building footprint or existing named entry; low brick nursery photo supports addition at approximate official pin.",
+    "official_pin_world": [
+      534.791,
+      -390.179
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 174,
+    "name": "조선대학교 여자고등학교",
+    "included_in_manifest": false,
+    "observed_features": "Long white school slab with strong thin red vertical and horizontal facade strips.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/174.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/174/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층"
+    ],
+    "classification": "outside_current_scope",
+    "reason": "Affiliated girls high school; include:false and outside supplied campus boundary.",
+    "official_pin_world": [
+      -433.324,
+      -129.81
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 172,
+    "name": "조선대학교 여자중학교",
+    "included_in_manifest": false,
+    "observed_features": "Long pale strip-window classroom wing plus separate red-brick hall with tall arched openings.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/172.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/172/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층",
+      "지상 6층",
+      "지상 7층"
+    ],
+    "classification": "outside_current_scope",
+    "reason": "Affiliated girls middle school; include:false and official pin outside supplied campus boundary.",
+    "official_pin_world": [
+      -324.906,
+      -217.086
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 166,
+    "name": "조선대학교 치과병원",
+    "included_in_manifest": false,
+    "observed_features": "Five-floor pale paneled dental hospital, strong vertical recessed window bays/piers, deep upper roof colonnade/overhang, teal round porthole windows in side strips, dark projecting entrance canopy.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/166.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/166/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층"
+    ],
+    "classification": "missing_building_being_added",
+    "reason": "Separate official dental hospital excluded in original manifest; current builder now restores its mapped footprint.",
+    "official_pin_world": [
+      -333.599,
+      -660.873
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 171,
+    "name": "조선대학교병원 장례식장",
+    "included_in_manifest": false,
+    "observed_features": "Low pale funeral hall entrance, broad projecting roof/parapet, wide glazed doors and forecourt.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/171.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/171/detailView.do",
+    "official_directory_floor_labels": [],
+    "classification": "missing_in_scope_with_footprint_uncertainty",
+    "reason": "Official hospital funeral-hall pin lies inside campus boundary, without containing OSM building or named entry. Nearest unnamed hospital ancillary centroid is about 50.6m away, so avoid asserting footprint exactness or duplicating that ancillary without spatial check.",
+    "official_pin_world": [
+      109.087,
+      -981.713
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 169,
+    "name": "조선이공대학 1,3호관",
+    "included_in_manifest": false,
+    "observed_features": "Connected pale education blocks around entry court, five/six visible levels, regular strip windows with pale piers and central taller stair bay.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/169.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/169/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층"
+    ],
+    "classification": "already_modeled",
+    "reason": "Replaced by separate cit_1,cit_main,cit_3 building entries.",
+    "official_pin_world": [
+      262.256,
+      -328.979
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 170,
+    "name": "조선이공대학 2, 4호관",
+    "included_in_manifest": false,
+    "observed_features": "Pale L-shaped classroom wings with dense rectangular window grid and large entrance canopy on slender columns.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/170.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/170/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층"
+    ],
+    "classification": "already_modeled",
+    "reason": "Replaced by separate cit_2,cit_4 building entries.",
+    "official_pin_world": [
+      313.012,
+      -511.935
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 139,
+    "name": "치과대학(연구동)",
+    "included_in_manifest": true,
+    "observed_features": "Five-floor pale stone research block; upper dark continuous window band; tall two-level central glazed recess; roof round silver equipment; lower and taller connected parts.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/139.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/139/detailView.do",
+    "official_directory_floor_labels": [
+      "지상 1층",
+      "지상 2층",
+      "지상 3층",
+      "지상 4층",
+      "지상 5층"
+    ],
+    "classification": "already_modeled_but_identity_missing",
+    "reason": "Part of shared compound 503476184 was represented under #152 only. Current implementation separates complementary research/teaching volumes.",
+    "official_pin_world": [
+      -300.36,
+      -623.122
+    ],
+    "footprint_available": true,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  },
+  {
+    "id": 176,
+    "name": "태양에너지실증연구단지",
+    "included_in_manifest": true,
+    "observed_features": "Solar research area includes white flat-roof laboratory mass and multiple small test houses; not one ordinary building.",
+    "photo_path": "/workspace/shared/chosun_detail_refs/remaining/176.jpg",
+    "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/176/detailView.do",
+    "official_directory_floor_labels": [],
+    "classification": "missing_in_scope",
+    "reason": "Official solar research complex was include:true but excluded by nonbuilding set. No nearby mapped building within ~199m; photo shows low laboratory/test-house complex. Pin lies outside the supplied OSM university polygon, but original official scope explicitly included it. Add source-informed approximate complex, not one generic tall block.",
+    "official_pin_world": [
+      476.415,
+      -658.565
+    ],
+    "footprint_available": false,
+    "classification_evidence": "Read current build_campus.py, original building/build_building.py, coverage and OSM points; official campusMap photograph directly inspected."
+  }
+]

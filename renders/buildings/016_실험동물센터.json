@@ -1,0 +1,242 @@
+{
+  "index": 16,
+  "name": "실험동물센터",
+  "building_id": null,
+  "osm_id": "468704883",
+  "catalog_record": {
+    "index": 16,
+    "id": null,
+    "osm_id": "468704883",
+    "name": "실험동물센터",
+    "collection": "CAMPUS_BUILDING 468704883 실험동물센터",
+    "bbox": {
+      "min": [
+        166.91200256347656,
+        -452.3219909667969,
+        -42.34357452392578
+      ],
+      "max": [
+        211.5260009765625,
+        -433.1419982910156,
+        -24.612215042114258
+      ]
+    },
+    "target": [
+      189.21900177001953,
+      -442.73199462890625,
+      -33.47789478302002
+    ],
+    "camera": [
+      214.95245199460987,
+      -495.7513589260334,
+      -14.293875465393068
+    ],
+    "orthographic_scale": 63.351877746582026,
+    "entrance": [
+      188.66898250599613,
+      -451.35621688966495,
+      -38.71221544605198
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/468704883",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      216.361328125,
+      -498.65411376953125,
+      44.854793548583984
+    ],
+    "rotation": [
+      0.6707963943481445,
+      1.3680882204880618e-08,
+      0.4518668055534363
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 62.61530685424805
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        230.73919677734375,
+        -528.2772827148438,
+        -2.525015354156494
+      ],
+      "rotation": [
+        1.2560991048812866,
+        2.3131402571152648e-08,
+        0.45186659693717957
+      ],
+      "scale": 57.243125915527344,
+      "score": 0.6875,
+      "hit": 66,
+      "other": 30,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030828868739537,
+      "selection_score": 0.6875
+    },
+    {
+      "location": [
+        224.7566680908203,
+        -515.9512329101562,
+        24.625608444213867
+      ],
+      "rotation": [
+        0.950796365737915,
+        -7.479599162252271e-10,
+        0.45186683535575867
+      ],
+      "scale": 57.243106842041016,
+      "score": 0.9310344827586207,
+      "hit": 81,
+      "other": 6,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.904726024513343
+    },
+    {
+      "location": [
+        175.17527770996094,
+        -530.3126831054688,
+        12.700006484985352
+      ],
+      "rotation": [
+        1.0907965898513794,
+        -2.0081701634921956e-08,
+        -0.15899839997291565
+      ],
+      "scale": 55.5638542175293,
+      "score": 0.8990825688073395,
+      "hit": 98,
+      "other": 11,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8228276333916408
+    },
+    {
+      "location": [
+        266.7146911621094,
+        -485.88311767578125,
+        12.700002670288086
+      ],
+      "rotation": [
+        1.0907964706420898,
+        -9.61519930342547e-08,
+        1.0627321004867554
+      ],
+      "scale": 59.843223571777344,
+      "score": 0.92,
+      "hit": 69,
+      "other": 6,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8437450645843013
+    },
+    {
+      "location": [
+        133.80856323242188,
+        -499.8912353515625,
+        27.040729522705078
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.2697432438812939e-08,
+        -0.7698638439178467
+      ],
+      "scale": 64.8885726928711,
+      "score": 0.9487179487179487,
+      "hit": 74,
+      "other": 4,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7781123070091899
+    },
+    {
+      "location": [
+        268.4071044921875,
+        -434.56256103515625,
+        27.040740966796875
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -2.991955128095469e-08,
+        1.6735970973968506
+      ],
+      "scale": 66.33809661865234,
+      "score": 0.9423076923076923,
+      "hit": 98,
+      "other": 6,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7717020505989335
+    },
+    {
+      "location": [
+        154.45834350585938,
+        -371.1136169433594,
+        27.040733337402344
+      ],
+      "rotation": [
+        0.9207966327667236,
+        1.0731621813420134e-07,
+        -2.6897261142730713
+      ],
+      "scale": 57.24312973022461,
+      "score": 0.9882352941176471,
+      "hit": 84,
+      "other": 1,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5976296524088882
+    },
+    {
+      "location": [
+        216.361328125,
+        -498.65411376953125,
+        44.854793548583984
+      ],
+      "rotation": [
+        0.6707963943481445,
+        1.3680882204880618e-08,
+        0.4518668055534363
+      ],
+      "scale": 62.61530685424805,
+      "score": 0.972972972972973,
+      "hit": 72,
+      "other": 2,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9065574690685378
+    }
+  ],
+  "camera_visibility_score": 0.972972972972973,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "016_실험동물센터.jpg",
+  "file_sha256": "cc8a9db473c528e92668e3010624f7f8c125d418b05c6f68f3b429c00b36f9c4",
+  "render_seconds": 61.31,
+  "visual_review_notes": "Direct contact-sheet inspection, with full-size check for adjoining footprint 021: subject itself is not cropped; neighbouring volumes may continue outside frame. Unverified masses are labelled as estimates.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

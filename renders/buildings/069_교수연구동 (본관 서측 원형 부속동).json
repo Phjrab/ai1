@@ -1,0 +1,228 @@
+{
+  "index": 69,
+  "name": "교수연구동 (본관 서측 원형 부속동)",
+  "building_id": 149,
+  "osm_id": null,
+  "catalog_record": {
+    "id": 149,
+    "name": "교수연구동 (본관 서측 원형 부속동)",
+    "asset": "../building/chosun_main_building.blend",
+    "objects": [
+      "WEST | rounded annex"
+    ],
+    "bbox": {
+      "min": [
+        -187.7100067138672,
+        -1.2100000381469727,
+        0.0
+      ],
+      "max": [
+        -166.0,
+        18.209999084472656,
+        18.549999237060547
+      ]
+    },
+    "target": [
+      -178,
+      8.5,
+      9
+    ],
+    "camera": [
+      -212,
+      -32,
+      30
+    ],
+    "orthographic_scale": 40,
+    "review_status": "Already represented inside the preserved main-building asset; optional detail view, not an additional campus building record",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/149/detailView.do",
+    "index": 69
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -236.9604949951172,
+      -63.096256256103516,
+      46.39897155761719
+    ],
+    "rotation": [
+      1.1927677392959595,
+      -1.3449030689116626e-07,
+      -0.6983703374862671
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 43.867706298828125
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -236.9604949951172,
+        -63.096256256103516,
+        46.39897155761719
+      ],
+      "rotation": [
+        1.1927677392959595,
+        -1.3449030689116626e-07,
+        -0.6983703374862671
+      ],
+      "scale": 43.867706298828125,
+      "score": 1.0,
+      "hit": 87,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 21.659448345456685,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -229.4149169921875,
+        -54.10811996459961,
+        67.6338119506836
+      ],
+      "rotation": [
+        0.950796365737915,
+        -1.530339233113409e-08,
+        -0.6983702778816223
+      ],
+      "scale": 50.11088562011719,
+      "score": 0.9875,
+      "hit": 79,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9611915417547224
+    },
+    {
+      "location": [
+        -263.2694091796875,
+        -14.632572174072266,
+        55.8473014831543
+      ],
+      "rotation": [
+        1.0907964706420898,
+        2.5815978688115138e-08,
+        -1.3092355728149414
+      ],
+      "scale": 44.772274017333984,
+      "score": 0.9896907216494846,
+      "hit": 96,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9134357862337857
+    },
+    {
+      "location": [
+        -184.603759765625,
+        -79.82634735107422,
+        55.43525314331055
+      ],
+      "rotation": [
+        1.0907964706420898,
+        -5.76559022746892e-09,
+        -0.08750491589307785
+      ],
+      "scale": 41.32097625732422,
+      "score": 0.9761904761904762,
+      "hit": 123,
+      "other": 3,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8999355407747774
+    },
+    {
+      "location": [
+        -252.17205810546875,
+        35.93352508544922,
+        70.21124267578125
+      ],
+      "rotation": [
+        0.9207963347434998,
+        5.075923326103293e-08,
+        -1.9201009273529053
+      ],
+      "scale": 48.9854736328125,
+      "score": 0.9882352941176471,
+      "hit": 84,
+      "other": 1,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8176296524088883
+    },
+    {
+      "location": [
+        -137.3147430419922,
+        -60.02349853515625,
+        69.4172134399414
+      ],
+      "rotation": [
+        0.9207963347434998,
+        -5.112934431394933e-08,
+        0.5233603715896606
+      ],
+      "scale": 49.58122634887695,
+      "score": 0.8271604938271605,
+      "hit": 67,
+      "other": 14,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6565548521184017
+    },
+    {
+      "location": [
+        -126.05437469482422,
+        69.0125503540039,
+        69.3382339477539
+      ],
+      "rotation": [
+        0.9207963347434998,
+        9.831607883370452e-08,
+        2.4432225227355957
+      ],
+      "scale": 50.68711853027344,
+      "score": 0.7848101265822784,
+      "hit": 62,
+      "other": 17,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.3942044848735196
+    },
+    {
+      "location": [
+        -216.91949462890625,
+        -39.223873138427734,
+        87.79742431640625
+      ],
+      "rotation": [
+        0.6707964539527893,
+        2.1615271350583498e-08,
+        -0.6983703970909119
+      ],
+      "scale": 53.676055908203125,
+      "score": 0.9726027397260274,
+      "hit": 71,
+      "other": 2,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9061872358215921
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "069_교수연구동 (본관 서측 원형 부속동).jpg",
+  "file_sha256": "a749e5d769332301abebb34108900115a77d5b21d6e9a904fcfbf96746061935",
+  "render_seconds": 65.87,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

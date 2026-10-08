@@ -1,0 +1,257 @@
+{
+  "catalog_collections_missing": [],
+  "mapped_area_meshes": 40,
+  "mapped_area_top_faces": 15383,
+  "mapped_area_terrain_violations": 0,
+  "max_area_height_error_m": 4.858447265746607e-05,
+  "parking_cars": 117,
+  "minimum_car_tire_clearance_m": 0.0049949053344731445,
+  "cars_tires_below_paving_more_than_5cm": [],
+  "max_tree_ground_error_m": 2.36581727008911e-05,
+  "inferred_collection": [
+    "CAMPUS 07 | INFERRED game terrain connections — not photo-ver"
+  ],
+  "transit_native_json_max_position_error_m": 1.704068687047311e-06,
+  "areas": [
+    {
+      "name": "CAMPUS_PLAZA 1190387575 track",
+      "tested_top_faces": 1282,
+      "max_height_error_m": 2.118577576652736e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1190387576 pitch",
+      "tested_top_faces": 752,
+      "max_height_error_m": 2.760534665483677e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1190387578 pitch",
+      "tested_top_faces": 182,
+      "max_height_error_m": 2.7119628854564704e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1190387579 pitch",
+      "tested_top_faces": 112,
+      "max_height_error_m": 1.850238040731339e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1190387580 parking",
+      "tested_top_faces": 177,
+      "max_height_error_m": 7.861877441540932e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1190387581 parking",
+      "tested_top_faces": 235,
+      "max_height_error_m": 9.203063968642178e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1198968919 parking",
+      "tested_top_faces": 54,
+      "max_height_error_m": 4.210540770231697e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1200782411 parking",
+      "tested_top_faces": 92,
+      "max_height_error_m": 7.643203736550086e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1201486597 parking",
+      "tested_top_faces": 130,
+      "max_height_error_m": 8.680145270965889e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1201486599 parking",
+      "tested_top_faces": 92,
+      "max_height_error_m": 3.1380249025970974e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1201486601 pitch",
+      "tested_top_faces": 144,
+      "max_height_error_m": 1.360718251190024e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202050627 pitch",
+      "tested_top_faces": 78,
+      "max_height_error_m": 8.213928224733158e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202050628 pitch",
+      "tested_top_faces": 80,
+      "max_height_error_m": 7.285614009901187e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202050629 pitch",
+      "tested_top_faces": 52,
+      "max_height_error_m": 8.05929565132063e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202050656 parking",
+      "tested_top_faces": 38,
+      "max_height_error_m": 2.5320373544558683e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202050662 parking",
+      "tested_top_faces": 62,
+      "max_height_error_m": 1.636953735669605e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202054714 parking",
+      "tested_top_faces": 34,
+      "max_height_error_m": 8.459934234962552e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 1202054715 parking",
+      "tested_top_faces": 66,
+      "max_height_error_m": 1.605883788528134e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166134 pitch",
+      "tested_top_faces": 908,
+      "max_height_error_m": 8.504135132057777e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166135 pitch",
+      "tested_top_faces": 890,
+      "max_height_error_m": 9.709777828846577e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166136 pitch",
+      "tested_top_faces": 300,
+      "max_height_error_m": 1.0781799310279061e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166137 pitch",
+      "tested_top_faces": 588,
+      "max_height_error_m": 8.539714806375664e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166138 parking",
+      "tested_top_faces": 302,
+      "max_height_error_m": 8.653655975764118e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166139 parking",
+      "tested_top_faces": 204,
+      "max_height_error_m": 1.3020324701927544e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 300166140 parking",
+      "tested_top_faces": 1748,
+      "max_height_error_m": 2.1152038640649684e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468635680 parking",
+      "tested_top_faces": 258,
+      "max_height_error_m": 1.665817260402408e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468635682 parking",
+      "tested_top_faces": 413,
+      "max_height_error_m": 9.780670157367999e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468637894 pitch",
+      "tested_top_faces": 614,
+      "max_height_error_m": 8.080528261587838e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468689591 parking",
+      "tested_top_faces": 84,
+      "max_height_error_m": 6.948181153064448e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468689597 parking",
+      "tested_top_faces": 264,
+      "max_height_error_m": 1.1060501129235567e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 468693339 장지연",
+      "tested_top_faces": 960,
+      "max_height_error_m": 8.637145994895568e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 472263779 parking",
+      "tested_top_faces": 684,
+      "max_height_error_m": 2.1254394536783516e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 472263780 pitch",
+      "tested_top_faces": 855,
+      "max_height_error_m": 1.2554748516323266e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970314418 parking",
+      "tested_top_faces": 352,
+      "max_height_error_m": 1.735919185023166e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970314419 parking",
+      "tested_top_faces": 227,
+      "max_height_error_m": 8.80035400911e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970314420 parking",
+      "tested_top_faces": 443,
+      "max_height_error_m": 1.7688659661417583e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970314421 parking",
+      "tested_top_faces": 1201,
+      "max_height_error_m": 4.858447265746607e-05,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970315546 parking",
+      "tested_top_faces": 114,
+      "max_height_error_m": 6.176788327962035e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970315550 parking",
+      "tested_top_faces": 80,
+      "max_height_error_m": 7.726379386098492e-06,
+      "violations": 0
+    },
+    {
+      "name": "CAMPUS_PLAZA 970315551 parking",
+      "tested_top_faces": 232,
+      "max_height_error_m": 1.2681335442153718e-05,
+      "violations": 0
+    }
+  ]
+}

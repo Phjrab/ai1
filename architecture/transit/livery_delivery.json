@@ -1,0 +1,53 @@
+{
+  "version": "2026-10-08-photo-verified-livery",
+  "files": {
+    "shuttle_bus.glb": {
+      "sha256": "3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532",
+      "bytes": 1069644
+    },
+    "transit_assets.blend": {
+      "sha256": "ae7bfc57456f999bb8423dbf6224796566c3c3dd97770f09f5306923c53a510e",
+      "bytes": 3457608
+    },
+    "build_transit.py": {
+      "sha256": "71b1acb3a882ba7ed425c278be6a90bdc4f3eba0ddecc8bc047f5502698418f4",
+      "bytes": 18419
+    },
+    "asset_contract.json": {
+      "sha256": "ee91cc02abe8c58d545556636dd582a406772380b72fd7b8c0f28ddd0d9a15dd",
+      "bytes": 5636
+    },
+    "transit_placements.json": {
+      "sha256": "fe4056c39b727b14430b290f1b9f35dc3d99ff1ea4f2f5498bf29fefc7914f14",
+      "bytes": 126949
+    },
+    "shuttle_livery_front_left.png": {
+      "sha256": "83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3",
+      "bytes": 2792245
+    },
+    "shuttle_livery_rear_left.png": {
+      "sha256": "1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a",
+      "bytes": 2825847
+    },
+    "shuttle_livery_side.png": {
+      "sha256": "2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a",
+      "bytes": 2647953
+    }
+  },
+  "validation": {
+    "bounds_blender_min": [
+      -1.6299999952316284,
+      -5.3454999923706055,
+      -9.789691546302492e-08
+    ],
+    "bounds_blender_max": [
+      1.6299998760223389,
+      5.3520002365112305,
+      3.4099998474121094
+    ],
+    "mesh_count": 18,
+    "wheel_pivots_verified": true
+  },
+  "placement_files_changed": false,
+  "source_report": "/workspace/shared/chosun_detail_refs/shuttle_livery/RESEARCH_REPORT.md"
+}

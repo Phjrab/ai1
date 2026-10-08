@@ -1,0 +1,21 @@
+{
+  "version": "campus-pbr-1.1",
+  "seconds": 38.4300696849823,
+  "vertices_unchanged": true,
+  "non_foliage_normals_unchanged": true,
+  "counts": {
+    "metal": 15,
+    "bark": 2,
+    "brick": 3,
+    "foliage": 9,
+    "glass": 11,
+    "paving": 4,
+    "grass": 3,
+    "white_masonry": 5,
+    "stone": 5,
+    "roof": 2,
+    "asphalt": 2,
+    "painted_metal": 4,
+    "concrete": 3
+  }
+}

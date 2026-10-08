@@ -1,0 +1,101 @@
+{
+  "index": 55,
+  "name": "자동차공학실험실",
+  "building_id": null,
+  "osm_id": "1202050669",
+  "catalog_record": {
+    "index": 55,
+    "id": null,
+    "osm_id": "1202050669",
+    "name": "자동차공학실험실",
+    "collection": "CAMPUS_BUILDING 1202050669 자동차공학실험실",
+    "bbox": {
+      "min": [
+        35.81700134277344,
+        -855.8660278320312,
+        -38.79914093017578
+      ],
+      "max": [
+        47.395999908447266,
+        -835.948974609375,
+        -22.061819076538086
+      ]
+    },
+    "target": [
+      41.60650062561035,
+      -845.9075012207031,
+      -30.430480003356934
+    ],
+    "camera": [
+      25.331357939764082,
+      -866.5797543971154,
+      -21.866147117614744
+    ],
+    "orthographic_scale": 28.282215576171872,
+    "entrance": [
+      40.10923855155078,
+      -855.5923581242145,
+      -36.16181922185249
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050669",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      38.34613037109375,
+      -903.9844360351562,
+      50.91102981567383
+    ],
+    "rotation": [
+      0.620796799659729,
+      1.1200291805124607e-09,
+      -0.05607995390892029
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 41.59760284423828
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        38.34613037109375,
+        -903.9844360351562,
+        50.91102981567383
+      ],
+      "rotation": [
+        0.620796799659729,
+        1.1200291805124607e-09,
+        -0.05607995390892029
+      ],
+      "scale": 41.59760284423828,
+      "score": 0.9693877551020408,
+      "hit": 95,
+      "other": 3,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03081180080278
+    }
+  ],
+  "camera_visibility_score": 0.9693877551020408,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "055_자동차공학실험실.jpg",
+  "file_sha256": "951312ab5d57bcbf339bb8b3ebdee637b9923336101ff2ce404bb20a662cb0f8",
+  "render_seconds": 64.58,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

@@ -1,0 +1,3111 @@
+{
+  "materials": [
+    {
+      "name": "Amber indicators",
+      "color": [
+        0.9700000286102295,
+        0.4300000071525574,
+        0.03999999910593033,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.001",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.002",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.003",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.004",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.005",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.006",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.007",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.008",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.009",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminium.010",
+      "color": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Brushed aluminum",
+      "color": [
+        0.5099999904632568,
+        0.550000011920929,
+        0.550000011920929,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS ART \u2022 blue",
+      "color": [
+        0.02500000037252903,
+        0.2800000011920929,
+        0.6200000047683716,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS ART \u2022 charcoal",
+      "color": [
+        0.04500000178813934,
+        0.05000000074505806,
+        0.07500000298023224,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS ART \u2022 gold",
+      "color": [
+        0.9599999785423279,
+        0.6600000262260437,
+        0.017999999225139618,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS ART \u2022 red",
+      "color": [
+        0.7300000190734863,
+        0.03500000014901161,
+        0.06499999761581421,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.001",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.002",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.003",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.004",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.005",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.006",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.007",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.008",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.009",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Campus blue.010",
+      "color": [
+        0.02500000037252903,
+        0.11999999731779099,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 bark",
+      "color": [
+        0.2199999988079071,
+        0.17000000178813934,
+        0.11999999731779099,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 brick",
+      "color": [
+        0.44999998807907104,
+        0.1899999976158142,
+        0.13500000536441803,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 canopy 0",
+      "color": [
+        0.07500000298023224,
+        0.18000000715255737,
+        0.08500000089406967,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 canopy 1",
+      "color": [
+        0.11999999731779099,
+        0.23499999940395355,
+        0.10499999672174454,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 canopy 2",
+      "color": [
+        0.20000000298023224,
+        0.30000001192092896,
+        0.10499999672174454,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 canopy 3",
+      "color": [
+        0.28999999165534973,
+        0.33000001311302185,
+        0.11999999731779099,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 faded road white",
+      "color": [
+        0.8299999833106995,
+        0.8299999833106995,
+        0.7300000190734863,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 glass blue",
+      "color": [
+        0.09000000357627869,
+        0.1899999976158142,
+        0.23000000417232513,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 glass dusk",
+      "color": [
+        0.2199999988079071,
+        0.3100000023841858,
+        0.33000001311302185,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 glass green",
+      "color": [
+        0.14000000059604645,
+        0.25999999046325684,
+        0.27000001072883606,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 granite paving",
+      "color": [
+        0.5299999713897705,
+        0.5299999713897705,
+        0.47999998927116394,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 hill grass",
+      "color": [
+        0.1899999976158142,
+        0.28999999165534973,
+        0.12999999523162842,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 ivory",
+      "color": [
+        0.6600000262260437,
+        0.6700000166893005,
+        0.6299999952316284,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 light metal",
+      "color": [
+        0.7300000190734863,
+        0.7799999713897705,
+        0.7699999809265137,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 limestone",
+      "color": [
+        0.699999988079071,
+        0.6499999761581421,
+        0.5199999809265137,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 playing field",
+      "color": [
+        0.10999999940395355,
+        0.30000001192092896,
+        0.17000000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 pond water",
+      "color": [
+        0.10999999940395355,
+        0.2800000011920929,
+        0.2800000011920929,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 roof membrane",
+      "color": [
+        0.25999999046325684,
+        0.33000001311302185,
+        0.3100000023841858,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 rose 0",
+      "color": [
+        0.3700000047683716,
+        0.054999999701976776,
+        0.07999999821186066,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 rose 1",
+      "color": [
+        0.5699999928474426,
+        0.1599999964237213,
+        0.23999999463558197,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 rose 2",
+      "color": [
+        0.6499999761581421,
+        0.5600000023841858,
+        0.23000000417232513,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 rose 3",
+      "color": [
+        0.11999999731779099,
+        0.23999999463558197,
+        0.07999999821186066,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 service dark",
+      "color": [
+        0.20999999344348907,
+        0.23999999463558197,
+        0.23999999463558197,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 track terracotta",
+      "color": [
+        0.4300000071525574,
+        0.18000000715255737,
+        0.125,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 weathered asphalt",
+      "color": [
+        0.0949999988079071,
+        0.10999999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 white trim",
+      "color": [
+        0.8600000143051147,
+        0.8500000238418579,
+        0.7799999713897705,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CAMPUS \u2022 window frame",
+      "color": [
+        0.23999999463558197,
+        0.30000001192092896,
+        0.3100000023841858,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CIT \u2022 buff brick",
+      "color": [
+        0.6399999856948853,
+        0.38999998569488525,
+        0.25,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CIT \u2022 green glazed barrel",
+      "color": [
+        0.11999999731779099,
+        0.38999998569488525,
+        0.36000001430511475,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CIT \u2022 pink stone podium",
+      "color": [
+        0.5799999833106995,
+        0.3700000047683716,
+        0.36000001430511475,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "CIT \u2022 salmon metal roof",
+      "color": [
+        0.6000000238418579,
+        0.3400000035762787,
+        0.3199999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.001",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.002",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.003",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.004",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.005",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.006",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.007",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Coach pearl ivory.008",
+      "color": [
+        0.8799999952316284,
+        0.8999999761581421,
+        0.8600000143051147,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Concrete plinth",
+      "color": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.46000000834465027,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Concrete plinth.001",
+      "color": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.46000000834465027,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Corridor grey lower paint",
+      "color": [
+        0.33000001311302185,
+        0.4000000059604645,
+        0.4099999964237213,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Corridor varnished warm wood",
+      "color": [
+        0.28999999165534973,
+        0.10499999672174454,
+        0.04600000008940697,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Dark cool glass",
+      "color": [
+        0.03500000014901161,
+        0.07500000298023224,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Deep window recess",
+      "color": [
+        0.057999998331069946,
+        0.06700000166893005,
+        0.06400000303983688,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Education shelter orange portal",
+      "color": [
+        0.949999988079071,
+        0.1899999976158142,
+        0.014999999664723873,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Granite plinth | fine grey",
+      "color": [
+        0.3199999928474426,
+        0.3449999988079071,
+        0.3400000035762787,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ],
+        [
+          "TEX_NOISE",
+          "Noise Texture"
+        ],
+        [
+          "BUMP",
+          "Bump"
+        ]
+      ]
+    },
+    {
+      "name": "Green moulded seating",
+      "color": [
+        0.07500000298023224,
+        0.3199999928474426,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Green moulded seating.001",
+      "color": [
+        0.07500000298023224,
+        0.3199999928474426,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Green translucent canopy simplified opaque",
+      "color": [
+        0.11999999731779099,
+        0.5199999809265137,
+        0.4399999976158142,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Green waterproofing",
+      "color": [
+        0.1599999964237213,
+        0.28999999165534973,
+        0.2199999988079071,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Headlamp ivory",
+      "color": [
+        0.949999988079071,
+        0.9399999976158142,
+        0.7400000095367432,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "HOSPITAL \u2022 blue horizontal accent",
+      "color": [
+        0.03500000014901161,
+        0.20999999344348907,
+        0.3499999940395355,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Interior cream plaster",
+      "color": [
+        0.7799999713897705,
+        0.7699999809265137,
+        0.699999988079071,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Pale grey standing seam roof",
+      "color": [
+        0.38999998569488525,
+        0.46000000834465027,
+        0.49000000953674316,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 anodized silver",
+      "color": [
+        0.6200000047683716,
+        0.6800000071525574,
+        0.6700000166893005,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 green canopy glazing",
+      "color": [
+        0.1899999976158142,
+        0.4399999976158142,
+        0.4099999964237213,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 library roof recreation green",
+      "color": [
+        0.10000000149011612,
+        0.36000001430511475,
+        0.23999999463558197,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 limestone white",
+      "color": [
+        0.7900000214576721,
+        0.800000011920929,
+        0.75,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 oxidized teal glazing",
+      "color": [
+        0.12999999523162842,
+        0.3799999952316284,
+        0.4000000059604645,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 pale stone cladding",
+      "color": [
+        0.7599999904632568,
+        0.75,
+        0.6899999976158142,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 perforation shadow",
+      "color": [
+        0.20999999344348907,
+        0.25,
+        0.23999999463558197,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "PHOTO \u2022 warm olive balcony recess",
+      "color": [
+        0.3100000023841858,
+        0.3199999928474426,
+        0.2199999988079071,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rear lower storey | dark red-brown brick",
+      "color": [
+        0.1899999976158142,
+        0.08500000089406967,
+        0.0560000017285347,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ],
+        [
+          "NEW_GEOMETRY",
+          "Geometry"
+        ],
+        [
+          "SEPXYZ",
+          "Separate XYZ"
+        ],
+        [
+          "COMBXYZ",
+          "Combine XYZ"
+        ],
+        [
+          "TEX_BRICK",
+          "Brick Texture"
+        ],
+        [
+          "BUMP",
+          "Bump"
+        ]
+      ]
+    },
+    {
+      "name": "Rear service doors | pale blue paint",
+      "color": [
+        0.3199999928474426,
+        0.5899999737739563,
+        0.6499999761581421,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Red tail lamps",
+      "color": [
+        0.699999988079071,
+        0.014999999664723873,
+        0.014999999664723873,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.001",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.002",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.003",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.004",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.005",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.006",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.007",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.008",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Rubber charcoal.009",
+      "color": [
+        0.01899999938905239,
+        0.020999999716877937,
+        0.024000000208616257,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Salmon shelter columns",
+      "color": [
+        0.699999988079071,
+        0.28999999165534973,
+        0.20000000298023224,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 alloy wheels",
+      "color": [
+        0.3799999952316284,
+        0.4000000059604645,
+        0.41999998688697815,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 asphalt",
+      "color": [
+        0.07500000298023224,
+        0.08399999886751175,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 bark",
+      "color": [
+        0.18000000715255737,
+        0.14000000059604645,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 car tinted glass",
+      "color": [
+        0.02500000037252903,
+        0.05999999865889549,
+        0.07500000298023224,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 center line",
+      "color": [
+        0.7599999904632568,
+        0.550000011920929,
+        0.10000000149011612,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 charcoal painted steel",
+      "color": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.08500000089406967,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 granite curb",
+      "color": [
+        0.6200000047683716,
+        0.6200000047683716,
+        0.5699999928474426,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 headlamp",
+      "color": [
+        0.7799999713897705,
+        0.8100000023841858,
+        0.7799999713897705,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 leaf 0",
+      "color": [
+        0.10499999672174454,
+        0.20000000298023224,
+        0.06700000166893005,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 leaf 1",
+      "color": [
+        0.15000000596046448,
+        0.25,
+        0.08399999886751175,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 leaf 2",
+      "color": [
+        0.1899999976158142,
+        0.2800000011920929,
+        0.07999999821186066,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 leaf 3",
+      "color": [
+        0.10000000149011612,
+        0.18000000715255737,
+        0.09000000357627869,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 leaf 4",
+      "color": [
+        0.2199999988079071,
+        0.28999999165534973,
+        0.10499999672174454,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 oiled timber",
+      "color": [
+        0.2800000011920929,
+        0.18000000715255737,
+        0.10000000149011612,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 pale concrete",
+      "color": [
+        0.47999998927116394,
+        0.4699999988079071,
+        0.4300000071525574,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 road paint",
+      "color": [
+        0.8100000023841858,
+        0.8100000023841858,
+        0.7200000286102295,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 stair granite",
+      "color": [
+        0.4699999988079071,
+        0.46000000834465027,
+        0.41999998688697815,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 taillamp",
+      "color": [
+        0.3700000047683716,
+        0.014999999664723873,
+        0.008999999612569809,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 tire rubber",
+      "color": [
+        0.02500000037252903,
+        0.027000000700354576,
+        0.02800000086426735,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 0",
+      "color": [
+        0.7599999904632568,
+        0.7699999809265137,
+        0.7400000095367432,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 1",
+      "color": [
+        0.14000000059604645,
+        0.15000000596046448,
+        0.17000000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 2",
+      "color": [
+        0.28999999165534973,
+        0.33000001311302185,
+        0.36000001430511475,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 3",
+      "color": [
+        0.05999999865889549,
+        0.12999999523162842,
+        0.20000000298023224,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 4",
+      "color": [
+        0.5799999833106995,
+        0.5799999833106995,
+        0.5299999713897705,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SITE \u2022 vehicle paint 5",
+      "color": [
+        0.28999999165534973,
+        0.054999999701976776,
+        0.03500000014901161,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Smoky blue green glazing",
+      "color": [
+        0.17000000178813934,
+        0.27000001072883606,
+        0.30000001192092896,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "SPORTS \u2022 translucent roof lantern",
+      "color": [
+        0.18000000715255737,
+        0.38999998569488525,
+        0.4000000059604645,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Terrazzo light aggregate",
+      "color": [
+        0.4300000071525574,
+        0.4449999928474426,
+        0.4099999964237213,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ],
+        [
+          "TEX_NOISE",
+          "Noise Texture"
+        ],
+        [
+          "BUMP",
+          "Bump"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.001",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.002",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.003",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.004",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.005",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.006",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Timetable paper.007",
+      "color": [
+        0.9200000166893005,
+        0.9100000262260437,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Warm frosted fluorescent diffusers",
+      "color": [
+        0.8600000143051147,
+        0.8999999761581421,
+        0.8500000238418579,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Warm white painted masonry",
+      "color": [
+        0.8100000023841858,
+        0.8149999976158142,
+        0.7799999713897705,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ],
+        [
+          "TEX_NOISE",
+          "Noise Texture"
+        ],
+        [
+          "BUMP",
+          "Bump"
+        ]
+      ]
+    },
+    {
+      "name": "White projecting cornices and frames",
+      "color": [
+        0.9100000262260437,
+        0.9200000166893005,
+        0.8799999952316284,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Wooden bench slats",
+      "color": [
+        0.3400000035762787,
+        0.20000000298023224,
+        0.0949999988079071,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.001",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.002",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.003",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.004",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.005",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.006",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    },
+    {
+      "name": "Yellow circular BUS sign.007",
+      "color": [
+        0.9599999785423279,
+        0.5699999928474426,
+        0.04500000178813934,
+        1.0
+      ],
+      "nodes": [
+        [
+          "BSDF_PRINCIPLED",
+          "Principled BSDF"
+        ],
+        [
+          "OUTPUT_MATERIAL",
+          "Material Output"
+        ]
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "name": "01_Aerial_Front",
+      "loc": [
+        265.0,
+        -355.0,
+        154.0
+      ],
+      "rot": [
+        1.2552849054336548,
+        5.7340706405284436e-08,
+        0.6549949049949646
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "02_Front_Elevation",
+      "loc": [
+        0.0,
+        -490.0,
+        92.0
+      ],
+      "rot": [
+        1.406320571899414,
+        -0.0,
+        0.0
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "03_Main_Entrance",
+      "loc": [
+        24.0,
+        -24.0,
+        7.0
+      ],
+      "rot": [
+        1.7457653284072876,
+        -6.576950539738391e-08,
+        0.7853981852531433
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "04_Rear_Oblique",
+      "loc": [
+        -210.0,
+        275.0,
+        115.0
+      ],
+      "rot": [
+        1.2805229425430298,
+        -3.267070880497158e-08,
+        -2.471470594406128
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "05_Site_Plan",
+      "loc": [
+        0.0,
+        -14.0,
+        440.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": 515.0
+    },
+    {
+      "name": "06_Corridor",
+      "loc": [
+        10.0,
+        1.899999976158142,
+        1.7200000286102295
+      ],
+      "rot": [
+        1.569844126701355,
+        -2.981650837341476e-08,
+        1.5707964897155762
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "07_Whole_Campus",
+      "loc": [
+        1250.0,
+        -1800.0,
+        1350.0
+      ],
+      "rot": [
+        0.919503927230835,
+        3.7556176835096267e-08,
+        0.7083234786987305
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "08_Campus_Centre",
+      "loc": [
+        720.0,
+        -1020.0,
+        490.0
+      ],
+      "rot": [
+        1.0892146825790405,
+        3.012892335618744e-08,
+        0.7188299894332886
+      ],
+      "scale": 6.0
+    },
+    {
+      "name": "09_Campus_Plan",
+      "loc": [
+        85.0,
+        -440.0,
+        1800.0
+      ],
+      "rot": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "scale": 2350.0
+    }
+  ],
+  "lights": [
+    [
+      "Afternoon sunlight",
+      "SUN",
+      3.0
+    ]
+  ],
+  "unit": 1.0,
+  "objects": 2171
+}

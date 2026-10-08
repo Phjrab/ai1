@@ -1,0 +1,30 @@
+{
+  "camera": "73_보행연결계단_추정",
+  "camera_definition": {
+    "location": [
+      -127,
+      -205,
+      -14
+    ],
+    "target": [
+      -141.29,
+      -198.83,
+      -28.1
+    ],
+    "ortho_scale": 18,
+    "evidence": "실제 존재 미확인. 모델 지형에서 보행을 연결하기 위한 추정 연결계단."
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "width": 1600,
+  "height": 1000,
+  "samples": 64,
+  "denoising": false,
+  "file": "73_보행연결계단_추정.png",
+  "file_sha256": "e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1",
+  "visual_review": "accepted",
+  "visual_review_notes": "Direct full-size review: photographed metal staircase / inferred connector shown without foreground obstruction after camera retake; no geometry or material edits. Detail crop may exclude continuing paths."
+}

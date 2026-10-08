@@ -1,0 +1,235 @@
+{
+  "index": 19,
+  "name": "조선이공대학교 3호관",
+  "building_id": "cit_3",
+  "osm_id": "468704886",
+  "catalog_record": {
+    "index": 19,
+    "id": "cit_3",
+    "osm_id": "468704886",
+    "name": "조선이공대학교 3호관",
+    "collection": "CAMPUS_BUILDING cit_3 조선이공대학교 3호관",
+    "bbox": {
+      "min": [
+        289.5265197753906,
+        -416.79400634765625,
+        -40.3967399597168
+      ],
+      "max": [
+        332.19903564453125,
+        -316.6020812988281,
+        -15.24244213104248
+      ]
+    },
+    "target": [
+      310.86277770996094,
+      -366.6980438232422,
+      -27.81959104537964
+    ],
+    "camera": [
+      191.96362571755864,
+      -424.8361361121637,
+      15.262936725616456
+    ],
+    "orthographic_scale": 142.27253356933593,
+    "entrance": [
+      306.98421181306423,
+      -378.86064745771336,
+      -37.8924422893
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_3/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      251.1167449951172,
+      -474.73712158203125,
+      36.45430374145508
+    ],
+    "rotation": [
+      1.0907963514328003,
+      -5.655191870346243e-09,
+      -0.5051466822624207
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 113.80838012695312
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        191.96359252929688,
+        -424.8360900878906,
+        15.262937545776367
+      ],
+      "rotation": [
+        1.256098985671997,
+        -5.3881173300851515e-08,
+        -1.1160118579864502
+      ],
+      "scale": 128.32818603515625,
+      "score": 0.8169014084507042,
+      "hit": 58,
+      "other": 13,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083332266138,
+      "selection_score": 0.8169014084507042
+    },
+    {
+      "location": [
+        209.09552001953125,
+        -416.45916748046875,
+        53.05321502685547
+      ],
+      "rotation": [
+        0.9507964253425598,
+        4.007318921139813e-08,
+        -1.1160118579864502
+      ],
+      "scale": 128.32818603515625,
+      "score": 0.896551724137931,
+      "hit": 52,
+      "other": 6,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.8702432658926534
+    },
+    {
+      "location": [
+        188.90493774414062,
+        -347.5066223144531,
+        36.454261779785156
+      ],
+      "rotation": [
+        1.0907965898513794,
+        -1.0406642214633166e-09,
+        -1.7268773317337036
+      ],
+      "scale": 124.61668395996094,
+      "score": 0.8292682926829268,
+      "hit": 68,
+      "other": 14,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.7530133572672281
+    },
+    {
+      "location": [
+        251.1167449951172,
+        -474.73712158203125,
+        36.45430374145508
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -5.655191870346243e-09,
+        -0.5051466822624207
+      ],
+      "scale": 113.80838012695312,
+      "score": 0.9821428571428571,
+      "hit": 55,
+      "other": 1,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9058879217271584
+    },
+    {
+      "location": [
+        231.07957458496094,
+        -289.80615234375,
+        56.41476821899414
+      ],
+      "rotation": [
+        0.9207963347434998,
+        -4.325973179675202e-08,
+        -2.337742328643799
+      ],
+      "scale": 126.96255493164062,
+      "score": 0.92,
+      "hit": 46,
+      "other": 4,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7493943582912412
+    },
+    {
+      "location": [
+        322.5550842285156,
+        -476.88433837890625,
+        56.414772033691406
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -8.131122442023297e-10,
+        0.10571850836277008
+      ],
+      "scale": 130.65945434570312,
+      "score": 0.95,
+      "hit": 76,
+      "other": 4,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7793943582912412
+    },
+    {
+      "location": [
+        410.405029296875,
+        -318.0248718261719,
+        56.41474533081055
+      ],
+      "rotation": [
+        0.9207966327667236,
+        1.2069840238382312e-07,
+        2.025580883026123
+      ],
+      "scale": 128.3282012939453,
+      "score": 0.9838709677419355,
+      "hit": 61,
+      "other": 1,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5932653260331766
+    },
+    {
+      "location": [
+        233.1367645263672,
+        -404.7037353515625,
+        81.209716796875
+      ],
+      "rotation": [
+        0.6707963347434998,
+        3.341525811606516e-08,
+        -1.1160117387771606
+      ],
+      "scale": 128.3281707763672,
+      "score": 0.9433962264150944,
+      "hit": 50,
+      "other": 3,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.8769807225106592
+    }
+  ],
+  "camera_visibility_score": 0.9821428571428571,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "019_조선이공대학교 3호관.jpg",
+  "file_sha256": "15a7bd32553121717208fe8094cd7d9e45d37cad9275f09b7dbe5228cbb70001",
+  "render_seconds": 59.15,
+  "visual_review_notes": "Direct final-image/contact-sheet review: subject complete and legible, with camera chosen to limit surrounding obstruction. Model uncertainty preserved."
+}

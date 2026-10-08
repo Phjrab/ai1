@@ -1,0 +1,235 @@
+{
+  "index": 1,
+  "name": "미술대학(미술관)",
+  "building_id": 135,
+  "osm_id": "190176312",
+  "catalog_record": {
+    "index": 1,
+    "id": 135,
+    "osm_id": "190176312",
+    "name": "미술대학(미술관)",
+    "collection": "CAMPUS_BUILDING 135 미술대학(미술관)",
+    "bbox": {
+      "min": [
+        -253.30799865722656,
+        -379.12506103515625,
+        -47.10694122314453
+      ],
+      "max": [
+        -191.83316040039062,
+        -313.9490051269531,
+        -13.578661918640137
+      ]
+    },
+    "target": [
+      -222.5705795288086,
+      -346.5370330810547,
+      -30.342801570892334
+    ],
+    "camera": [
+      -182.26247869080692,
+      -422.61511387359224,
+      -2.3170975303649897
+    ],
+    "orthographic_scale": 92.54999938964843,
+    "entrance": [
+      -223.4308902705597,
+      -374.4668517250271,
+      -44.878661576249996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798680094100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/135/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -178.05242919921875,
+      -430.5611877441406,
+      0.6100745797157288
+    ],
+    "rotation": [
+      1.2560988664627075,
+      3.4094718159849435e-08,
+      0.4872223138809204
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 100.10543060302734
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -178.05242919921875,
+        -430.5611877441406,
+        0.6100745797157288
+      ],
+      "rotation": [
+        1.2560988664627075,
+        3.4094718159849435e-08,
+        0.4872223138809204
+      ],
+      "scale": 100.10543060302734,
+      "score": 1.0,
+      "hit": 74,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030838868282363,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -184.46694946289062,
+        -418.4543151855469,
+        27.76073455810547
+      ],
+      "rotation": [
+        0.950796365737915,
+        -2.1035434727423308e-08,
+        0.48722243309020996
+      ],
+      "scale": 121.89180755615234,
+      "score": 1.0,
+      "hit": 68,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -233.5097198486328,
+        -434.55938720703125,
+        15.835101127624512
+      ],
+      "rotation": [
+        1.0907964706420898,
+        -1.4456575492260981e-08,
+        -0.12364287674427032
+      ],
+      "scale": 99.28929138183594,
+      "score": 1.0,
+      "hit": 94,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -143.59800720214844,
+        -386.921875,
+        15.835124015808105
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -1.8580834648673772e-09,
+        1.0980875492095947
+      ],
+      "scale": 108.11518859863281,
+      "score": 1.0,
+      "hit": 71,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -275.9259338378906,
+        -405.6192626953125,
+        30.175830841064453
+      ],
+      "rotation": [
+        0.9207965731620789,
+        -7.729877893325465e-08,
+        -0.7345081567764282
+      ],
+      "scale": 127.28205871582031,
+      "score": 1.0,
+      "hit": 62,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -143.72076416015625,
+        -335.5736083984375,
+        30.17583656311035
+      ],
+      "rotation": [
+        0.920796275138855,
+        -1.5372776829281065e-08,
+        1.7089531421661377
+      ],
+      "scale": 108.5169906616211,
+      "score": 0.9886363636363636,
+      "hit": 87,
+      "other": 1,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8180307219276048
+    },
+    {
+      "location": [
+        -259.84112548828125,
+        -276.1921691894531,
+        30.175825119018555
+      ],
+      "rotation": [
+        0.9207961559295654,
+        -8.212658286765873e-08,
+        -2.6543703079223633
+      ],
+      "scale": 124.23511505126953,
+      "score": 0.9538461538461539,
+      "hit": 62,
+      "other": 3,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5632405121373951
+    },
+    {
+      "location": [
+        -193.4684600830078,
+        -401.46478271484375,
+        47.98989486694336
+      ],
+      "rotation": [
+        0.6707963943481445,
+        6.827551146670885e-08,
+        0.4872223138809204
+      ],
+      "scale": 139.23948669433594,
+      "score": 0.9841269841269841,
+      "hit": 62,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9177114802225488
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "001_미술대학(미술관).jpg",
+  "file_sha256": "181f294c7e067af5ed70db6861b5f84acbcc3ed42840003c0ca5188365ce5041",
+  "render_seconds": 57.54,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

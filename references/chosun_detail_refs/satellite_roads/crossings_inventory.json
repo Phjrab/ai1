@@ -1,0 +1,1640 @@
+{
+  "schema": 1,
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "crossings": [
+    {
+      "osm_node_id": "13622091938",
+      "source": "https://www.openstreetmap.org/node/13622091938",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -2.15,
+        -714.196
+      ],
+      "lat": 35.1414467,
+      "lon": 126.9269484,
+      "road_osm_id": "190176306",
+      "road_tangent": [
+        0.864528591268273,
+        -0.5025836396856701
+      ],
+      "crossing_direction": [
+        0.5025836396856701,
+        0.864528591268273
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -4.160465573743135,
+          -717.654431411714
+        ],
+        [
+          -0.13979645625777382,
+          -710.7382026815677
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042745",
+      "source": "https://www.openstreetmap.org/node/13622042745",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -10.621,
+        -269.02
+      ],
+      "lat": 35.1423188,
+      "lon": 126.9317229,
+      "road_osm_id": "190176308",
+      "road_tangent": [
+        0.9958886922800407,
+        -0.09058538838438691
+      ],
+      "crossing_direction": [
+        0.09058538838438691,
+        0.9958886922800407
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -10.983061168634656,
+          -273.00343026084386
+        ],
+        [
+          -10.258378061559561,
+          -265.0363207226035
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042993",
+      "source": "https://www.openstreetmap.org/node/13622042993",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        74.015,
+        -276.715
+      ],
+      "lat": 35.1415574,
+      "lon": 126.9318248,
+      "road_osm_id": "190176308",
+      "road_tangent": [
+        0.9958942662183885,
+        -0.09052408802820189
+      ],
+      "crossing_direction": [
+        0.09052408802820189,
+        0.9958942662183885
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          73.65315021209094,
+          -280.6984757981986
+        ],
+        [
+          74.37734291631656,
+          -272.7313216684515
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "8726985918",
+      "source": "https://www.openstreetmap.org/node/8726985918",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -145.428,
+        -183.814
+      ],
+      "lat": 35.1436622,
+      "lon": 126.932346,
+      "road_osm_id": "190176319",
+      "road_tangent": [
+        -0.9991005048653875,
+        -0.042404966427622204
+      ],
+      "crossing_direction": [
+        0.042404966427622204,
+        -0.9991005048653875
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -145.598059661904,
+          -179.81781513290625
+        ],
+        [
+          -145.25881993048299,
+          -187.81061917182936
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042705",
+      "source": "https://www.openstreetmap.org/node/13622042705",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -4.09,
+        -134.738
+      ],
+      "lat": 35.1425016,
+      "lon": 126.9331829,
+      "road_osm_id": "190176323",
+      "road_tangent": [
+        0.9325090290835611,
+        0.36114666089780467
+      ],
+      "crossing_direction": [
+        -0.36114666089780467,
+        0.9325090290835611
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -2.6453982689585516,
+          -138.468116964353
+        ],
+        [
+          -5.534571556140989,
+          -131.0080447316845
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "8745101674",
+      "source": "https://www.openstreetmap.org/node/8745101674",
+      "osm_last_edit": "2025-05-30T06:57:37Z",
+      "position": [
+        129.986,
+        -20.083
+      ],
+      "lat": 35.1415226,
+      "lon": 126.93471,
+      "road_osm_id": "190176323",
+      "road_tangent": [
+        -0.9999460255525704,
+        0.010389705559746868
+      ],
+      "crossing_direction": [
+        -0.010389705559746868,
+        -0.9999460255525704
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "yes",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          130.02737297635971,
+          -16.08340593873825
+        ],
+        [
+          129.94425533188175,
+          -24.08297414315881
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "osm_node_id": "8745101676",
+      "source": "https://www.openstreetmap.org/node/8745101676",
+      "osm_last_edit": "2025-05-30T06:57:44Z",
+      "position": [
+        -4.489,
+        -18.668
+      ],
+      "lat": 35.142713,
+      "lon": 126.9344317,
+      "road_osm_id": "190176323",
+      "road_tangent": [
+        -0.9999449578166136,
+        0.010491965360729025
+      ],
+      "crossing_direction": [
+        -0.010491965360729025,
+        -0.9999449578166136
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "yes",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -4.447291094870741,
+          -14.667888694487456
+        ],
+        [
+          -4.531226817756573,
+          -22.667448357020366
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "osm_node_id": "13622108225",
+      "source": "https://www.openstreetmap.org/node/13622108225",
+      "osm_last_edit": "2026-03-06T07:03:18Z",
+      "position": [
+        30.187,
+        -596.413
+      ],
+      "lat": 35.141372,
+      "lon": 126.9282871,
+      "road_osm_id": "190176324",
+      "road_tangent": [
+        0.8352235222895905,
+        -0.5499105998379828
+      ],
+      "crossing_direction": [
+        0.5499105998379828,
+        0.8352235222895905
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          27.98686959055145,
+          -599.7538840567744
+        ],
+        [
+          32.38615438925531,
+          -593.0720958784576
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "7863602412",
+      "source": "https://www.openstreetmap.org/node/7863602412",
+      "osm_last_edit": "2026-02-05T04:15:50Z",
+      "position": [
+        74.565,
+        -625.612
+      ],
+      "lat": 35.1409277,
+      "lon": 126.9280696,
+      "road_osm_id": "190176324",
+      "road_tangent": [
+        0.83910481132727,
+        -0.5439697745347867
+      ],
+      "crossing_direction": [
+        0.5439697745347867,
+        0.83910481132727
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "yes",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          72.38869889597703,
+          -628.9684267705062
+        ],
+        [
+          76.74045709225533,
+          -622.255588279888
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "osm_node_id": "13622108218",
+      "source": "https://www.openstreetmap.org/node/13622108218",
+      "osm_last_edit": "2026-03-06T07:03:18Z",
+      "position": [
+        132.343,
+        -566.997
+      ],
+      "lat": 35.1405223,
+      "lon": 126.9288268,
+      "road_osm_id": "190176324",
+      "road_tangent": [
+        0.5731492937703675,
+        0.8194509668372655
+      ],
+      "crossing_direction": [
+        -0.8194509668372655,
+        0.5731492937703675
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          135.62058980198714,
+          -569.2895901953788
+        ],
+        [
+          129.064982067289,
+          -564.7043958452158
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042991",
+      "source": "https://www.openstreetmap.org/node/13622042991",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        107.308,
+        -272.7
+      ],
+      "lat": 35.1412705,
+      "lon": 126.9319407,
+      "road_osm_id": "300164463",
+      "road_tangent": [
+        0.08198610433213849,
+        0.996633472594835
+      ],
+      "crossing_direction": [
+        -0.996633472594835,
+        0.08198610433213849
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          109.80001639292553,
+          -272.90503400078387
+        ],
+        [
+          104.81684902995136,
+          -272.49510347912315
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091998",
+      "source": "https://www.openstreetmap.org/node/13622091998",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        151.538,
+        -277.896
+      ],
+      "lat": 35.1408705,
+      "lon": 126.9319813,
+      "road_osm_id": "300164463",
+      "road_tangent": [
+        -0.09297889427133563,
+        -0.9956680798439206
+      ],
+      "crossing_direction": [
+        0.9956680798439206,
+        -0.09297889427133563
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          149.04867471786642,
+          -277.66398257785846
+        ],
+        [
+          154.027015117086,
+          -278.1288770492152
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091988",
+      "source": "https://www.openstreetmap.org/node/13622091988",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -95.309,
+        -706.659
+      ],
+      "lat": 35.1422831,
+      "lon": 126.9268262,
+      "road_osm_id": "399365553",
+      "road_tangent": [
+        0.5724524821745945,
+        -0.8199378974362298
+      ],
+      "crossing_direction": [
+        0.8199378974362298,
+        0.5724524821745945
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -98.58835067704194,
+          -708.9486828501872
+        ],
+        [
+          -92.0288474975521,
+          -704.3690629927905
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090995",
+      "source": "https://www.openstreetmap.org/node/13622090995",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -61.867,
+        -706.101
+      ],
+      "lat": 35.1419887,
+      "lon": 126.9269052,
+      "road_osm_id": "399365553",
+      "road_tangent": [
+        0.8092293321351288,
+        0.5874928833714783
+      ],
+      "crossing_direction": [
+        -0.5874928833714783,
+        0.8092293321351288
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -59.517343569340156,
+          -709.3382855456115
+        ],
+        [
+          -64.21728663631198,
+          -702.8644508885305
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "4707562681",
+      "source": "https://www.openstreetmap.org/node/4707562681",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -45.961,
+        -669.917
+      ],
+      "lat": 35.141913,
+      "lon": 126.9273295,
+      "road_osm_id": "399365553",
+      "road_tangent": [
+        -0.3877178233202283,
+        0.9217781129316449
+      ],
+      "crossing_direction": [
+        -0.9217781129316449,
+        -0.3877178233202283
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -42.274172392795734,
+          -668.3660789806831
+        ],
+        [
+          -49.64839729624889,
+          -671.467821567245
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090994",
+      "source": "https://www.openstreetmap.org/node/13622090994",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -87.583,
+        -669.949
+      ],
+      "lat": 35.1422806,
+      "lon": 126.9272383,
+      "road_osm_id": "399365553",
+      "road_tangent": [
+        -0.9209440560241914,
+        -0.3896948109401909
+      ],
+      "crossing_direction": [
+        0.3896948109401909,
+        -0.9209440560241914
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -89.1416122308204,
+          -666.265311117237
+        ],
+        [
+          -86.02405374329886,
+          -673.6328635654305
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042866",
+      "source": "https://www.openstreetmap.org/node/13622042866",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        70.534,
+        -518.688
+      ],
+      "lat": 35.1411548,
+      "lon": 126.929212,
+      "road_osm_id": "399365556",
+      "road_tangent": [
+        0.9688923689421062,
+        0.24748247898740952
+      ],
+      "crossing_direction": [
+        -0.24748247898740952,
+        0.9688923689421062
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          71.52352668238407,
+          -522.5633621638544
+        ],
+        [
+          69.54366685048478,
+          -514.8122232123176
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "2007834442",
+      "source": "https://www.openstreetmap.org/node/2007834442",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        120.994,
+        -482.153
+      ],
+      "lat": 35.1407745,
+      "lon": 126.9297155,
+      "road_osm_id": "399365556",
+      "road_tangent": [
+        0.5418411694756009,
+        0.8404809022585303
+      ],
+      "crossing_direction": [
+        -0.8404809022585303,
+        0.5418411694756009
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          124.35557601289604,
+          -484.32026199889856
+        ],
+        [
+          117.6317287948278,
+          -479.98553264309373
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "8747851763",
+      "source": "https://www.openstreetmap.org/node/8747851763",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        133.012,
+        -411.595
+      ],
+      "lat": 35.1407947,
+      "lon": 126.9305014,
+      "road_osm_id": "399365556",
+      "road_tangent": [
+        0.09659095407899403,
+        0.995324162064857
+      ],
+      "crossing_direction": [
+        -0.995324162064857,
+        0.09659095407899403
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          136.9935357533508,
+          -411.98100750133386
+        ],
+        [
+          129.03094245683198,
+          -411.20827986870194
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091944",
+      "source": "https://www.openstreetmap.org/node/13622091944",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -78.932,
+        -745.822
+      ],
+      "lat": 35.1420683,
+      "lon": 126.9264403,
+      "road_osm_id": "468619563",
+      "road_tangent": [
+        0.9707790983895052,
+        -0.23997487812281423
+      ],
+      "crossing_direction": [
+        0.23997487812281423,
+        0.9707790983895052
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -79.89168037808317,
+          -749.704992668196
+        ],
+        [
+          -77.97188135310064,
+          -741.93875988108
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "10803968319",
+      "source": "https://www.openstreetmap.org/node/10803968319",
+      "osm_last_edit": "2023-08-12T14:11:21Z",
+      "position": [
+        140.308,
+        -1093.899
+      ],
+      "lat": 35.1395083,
+      "lon": 126.9231713,
+      "road_osm_id": "468673480",
+      "road_tangent": [
+        0.010536310050883062,
+        0.9999444915446615
+      ],
+      "crossing_direction": [
+        -0.9999444915446615,
+        0.010536310050883062
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "no",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          142.80788323194497,
+          -1093.9252444550632
+        ],
+        [
+          137.80816077422168,
+          -1093.8725629048088
+        ]
+      ],
+      "tags": {
+        "crossing": "uncontrolled",
+        "crossing:markings": "yes",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "osm_node_id": "4659169737",
+      "source": "https://www.openstreetmap.org/node/4659169737",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -99.504,
+        -520.697
+      ],
+      "lat": 35.1426532,
+      "lon": 126.9288192,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        -0.8644471787464112,
+        0.5027236568507298
+      ],
+      "crossing_direction": [
+        -0.5027236568507298,
+        -0.8644471787464112
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -97.4928092188248,
+          -517.2392412638893
+        ],
+        [
+          -101.51459847363064,
+          -524.1548186938606
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "7863602408",
+      "source": "https://www.openstreetmap.org/node/7863602408",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -26.83,
+        -600.067
+      ],
+      "lat": 35.1418691,
+      "lon": 126.9281233,
+      "road_osm_id": "1485914581",
+      "road_tangent": [
+        0.5682765406001132,
+        0.8228376348974127
+      ],
+      "crossing_direction": [
+        -0.8228376348974127,
+        0.5682765406001132
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "yes",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -23.53837282149933,
+          -602.3401693666767
+        ],
+        [
+          -30.12107390067863,
+          -597.7939570418757
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "osm_node_id": "7863602409",
+      "source": "https://www.openstreetmap.org/node/7863602409",
+      "osm_last_edit": "2026-03-06T07:03:18Z",
+      "position": [
+        -29.802,
+        -560.733
+      ],
+      "lat": 35.1419658,
+      "lon": 126.9285403,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        -0.7884131061977557,
+        0.615146140340331
+      ],
+      "crossing_direction": [
+        -0.615146140340331,
+        -0.7884131061977557
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "no",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -27.341516458806716,
+          -557.5795079818771
+        ],
+        [
+          -32.26268558152936,
+          -563.8868128314592
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "osm_node_id": "13622042763",
+      "source": "https://www.openstreetmap.org/node/13622042763",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -163.71,
+        -429.715
+      ],
+      "lat": 35.1433833,
+      "lon": 126.9296586,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        -0.011594668208873038,
+        0.9999327795752704
+      ],
+      "crossing_direction": [
+        -0.9999327795752704,
+        -0.011594668208873038
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -159.71054271529016,
+          -429.668962935687
+        ],
+        [
+          -167.7100049518923,
+          -429.76172028135795
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042760",
+      "source": "https://www.openstreetmap.org/node/13622042760",
+      "osm_last_edit": "2026-03-06T07:03:18Z",
+      "position": [
+        -159.981,
+        -363.635
+      ],
+      "lat": 35.1434687,
+      "lon": 126.9303782,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        0.07168135414746864,
+        0.9974275830693601
+      ],
+      "crossing_direction": [
+        -0.9974275830693601,
+        0.07168135414746864
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -155.99088194377222,
+          -363.9212670058779
+        ],
+        [
+          -163.9703026083271,
+          -363.3478161726981
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042753",
+      "source": "https://www.openstreetmap.org/node/13622042753",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -143.986,
+        -274.638
+      ],
+      "lat": 35.1434868,
+      "lon": 126.9313713,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        0.23847943840437505,
+        0.9711475466984066
+      ],
+      "crossing_direction": [
+        -0.9711475466984066,
+        0.23847943840437505
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -140.10130454762808,
+          -275.5914565099545
+        ],
+        [
+          -147.8704849212153,
+          -273.6836210027196
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622042733",
+      "source": "https://www.openstreetmap.org/node/13622042733",
+      "osm_last_edit": "2026-03-06T05:54:03Z",
+      "position": [
+        -128.014,
+        -203.116
+      ],
+      "lat": 35.1434738,
+      "lon": 126.9321762,
+      "road_osm_id": "479887405",
+      "road_tangent": [
+        0.14286314445588177,
+        0.9897424523360498
+      ],
+      "crossing_direction": [
+        -0.9897424523360498,
+        0.14286314445588177
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -124.05458336883497,
+          -203.68761015796534
+        ],
+        [
+          -131.97252298752338,
+          -202.5447050023183
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "7863602414",
+      "source": "https://www.openstreetmap.org/node/7863602414",
+      "osm_last_edit": "2023-08-16T07:12:45Z",
+      "position": [
+        -213.776,
+        -660.683
+      ],
+      "lat": 35.1434119,
+      "lon": 126.9270626,
+      "road_osm_id": "488362735",
+      "road_tangent": [
+        0.04672364286056457,
+        0.9989078542077034
+      ],
+      "crossing_direction": [
+        -0.9989078542077034,
+        0.04672364286056457
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "yes",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -211.27844906011566,
+          -660.7999886604821
+        ],
+        [
+          -216.27298833115415,
+          -660.5663704461792
+        ]
+      ],
+      "tags": {
+        "crossing": "marked",
+        "highway": "crossing",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "osm_node_id": "13621892246",
+      "source": "https://www.openstreetmap.org/node/13621892246",
+      "osm_last_edit": "2026-03-06T03:59:10Z",
+      "position": [
+        240.657,
+        -366.387
+      ],
+      "lat": 35.1399248,
+      "lon": 126.9312231,
+      "road_osm_id": "1485889767",
+      "road_tangent": [
+        0.07101256088252031,
+        0.9974754213497726
+      ],
+      "crossing_direction": [
+        -0.9974754213497726,
+        0.07101256088252031
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          243.15065474468685,
+          -366.5646442044811
+        ],
+        [
+          238.163277637938,
+          -366.20958140006854
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13621892251",
+      "source": "https://www.openstreetmap.org/node/13621892251",
+      "osm_last_edit": "2026-03-06T03:59:10Z",
+      "position": [
+        274.361,
+        -369.282
+      ],
+      "lat": 35.1396219,
+      "lon": 126.9312655,
+      "road_osm_id": "1485889768",
+      "road_tangent": [
+        -0.10248985741542165,
+        -0.994734049445864
+      ],
+      "crossing_direction": [
+        0.994734049445864,
+        -0.10248985741542165
+      ],
+      "crossing_length_m": 5,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          271.873676819577,
+          -369.0259907582374
+        ],
+        [
+          276.84734706680626,
+          -369.5384400453145
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090999",
+      "source": "https://www.openstreetmap.org/node/13622090999",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -79.516,
+        -702.189
+      ],
+      "lat": 35.1421516,
+      "lon": 126.9269088,
+      "road_osm_id": "1485914578",
+      "road_tangent": [
+        -0.17946553332089973,
+        -0.9837642615738005
+      ],
+      "crossing_direction": [
+        0.9837642615738005,
+        -0.17946553332089973
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -83.45061712305717,
+          -701.4710313501935
+        ],
+        [
+          -75.58050303046677,
+          -702.9067556167606
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090997",
+      "source": "https://www.openstreetmap.org/node/13622090997",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -82.578,
+        -683.401
+      ],
+      "lat": 35.1422123,
+      "lon": 126.9271044,
+      "road_osm_id": "1485914580",
+      "road_tangent": [
+        -0.9909244349675664,
+        0.13442010334845503
+      ],
+      "crossing_direction": [
+        -0.13442010334845503,
+        -0.9909244349675664
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -82.04030899918797,
+          -679.4368299866085
+        ],
+        [
+          -83.1156698259756,
+          -687.3642254663489
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091914",
+      "source": "https://www.openstreetmap.org/node/13622091914",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -233.329,
+        -675.044
+      ],
+      "lat": 35.1435589,
+      "lon": 126.9268653,
+      "road_osm_id": "1485914580",
+      "road_tangent": [
+        -0.9093337181254602,
+        -0.41606752947102976
+      ],
+      "crossing_direction": [
+        0.41606752947102976,
+        -0.9093337181254602
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -234.99311500502895,
+          -671.406903219543
+        ],
+        [
+          -231.66457476926072,
+          -678.6815729645466
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090998",
+      "source": "https://www.openstreetmap.org/node/13622090998",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -72.576,
+        -679.298
+      ],
+      "lat": 35.1421313,
+      "lon": 126.9271704,
+      "road_osm_id": "1485914581",
+      "road_tangent": [
+        0.4707489351818135,
+        0.8822672157714968
+      ],
+      "crossing_direction": [
+        -0.8822672157714968,
+        0.4707489351818135
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -69.04738708962235,
+          -681.1811619330002
+        ],
+        [
+          -76.10552481579431,
+          -677.4151704515458
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091915",
+      "source": "https://www.openstreetmap.org/node/13622091915",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -227.501,
+        -689.851
+      ],
+      "lat": 35.1434809,
+      "lon": 126.9267186,
+      "road_osm_id": "1485914582",
+      "road_tangent": [
+        0.8955351919746145,
+        0.4449906964589149
+      ],
+      "crossing_direction": [
+        -0.4449906964589149,
+        0.8955351919746145
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -225.72080544534373,
+          -693.4335995360022
+        ],
+        [
+          -229.28073101701506,
+          -686.2693180002054
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622090996",
+      "source": "https://www.openstreetmap.org/node/13622090996",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -85.93,
+        -695.018
+      ],
+      "lat": 35.1422211,
+      "lon": 126.926972,
+      "road_osm_id": "1485914582",
+      "road_tangent": [
+        0.9885017419332611,
+        -0.15120947786070918
+      ],
+      "crossing_direction": [
+        0.15120947786070918,
+        0.9885017419332611
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -86.5345238268963,
+          -698.9724022119925
+        ],
+        [
+          -85.32484800401062,
+          -691.0643882765265
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091937",
+      "source": "https://www.openstreetmap.org/node/13622091937",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        4.621,
+        -697.272
+      ],
+      "lat": 35.1414172,
+      "lon": 126.9271454,
+      "road_osm_id": "1485918341",
+      "road_tangent": [
+        0.9714200367371711,
+        -0.23736704115262747
+      ],
+      "crossing_direction": [
+        0.23736704115262747,
+        0.9714200367371711
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          3.6714287579915617,
+          -701.1572886430907
+        ],
+        [
+          5.570365087212581,
+          -693.3859283491935
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    },
+    {
+      "osm_node_id": "13622091000",
+      "source": "https://www.openstreetmap.org/node/13622091000",
+      "osm_last_edit": "2026-03-06T06:42:09Z",
+      "position": [
+        -60.933,
+        -690.603
+      ],
+      "lat": 35.1420082,
+      "lon": 126.9270741,
+      "road_osm_id": "1485918320",
+      "road_tangent": [
+        0.9919027462052628,
+        -0.12699977193073242
+      ],
+      "crossing_direction": [
+        0.12699977193073242,
+        0.9919027462052628
+      ],
+      "crossing_length_m": 8,
+      "crossing_width_m": 3.5,
+      "width_status": "Approximate 3.5m; not measured on site",
+      "span_status": "Follows mapped or estimated carriageway width",
+      "direction_status": "Perpendicular to local mapped road centerline",
+      "tactile_paving_source": "unknown",
+      "kerb_status": "Unverified; schematic flush transitions only on mapped pedestrian surface",
+      "endpoint_xy": [
+        [
+          -61.440693367684936,
+          -694.5709134047185
+        ],
+        [
+          -60.42469519223908,
+          -686.6356914350764
+        ]
+      ],
+      "tags": {
+        "crossing:markings": "zebra",
+        "highway": "crossing"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "node": "11121991569",
+      "reason": "Crossing exists but painted marking not established"
+    },
+    {
+      "node": "11118354446",
+      "reason": "Crossing exists but painted marking not established"
+    }
+  ],
+  "marking_section": {
+    "osm_way": "190176308",
+    "between_crossing_nodes": [
+      "13622042745",
+      "13622042993"
+    ],
+    "source": "Naver streetview 2026-03 library frontage",
+    "status": "Yellow center/edge marking presence visually checked; width/extent approximate"
+  },
+  "limits": "Coordinates are source-mapped; orientation derived from roadway. Widths, stripe spacing and curb transitions are reconstruction estimates. Not an accessibility or legal routing survey. Kakao satellite latest layer has no exposed capture date. Naver streetview March 2026 visually corroborates library-road crossing, yellow edge lines, raised paver sidewalks and tactile guidance; this is not exhaustive per-node verification."
+}

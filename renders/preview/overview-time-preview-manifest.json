@@ -1,0 +1,92 @@
+[
+  {
+    "file": "time_of_day_final/night.jpg",
+    "source_png": "time_of_day_final/night.png",
+    "native_size": [
+      2200,
+      1375
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 74393,
+    "sha256": "3589b3e1550e874d9da105b4e509d0fb7e0e073a71299e7f10341c1a25fa4991"
+  },
+  {
+    "file": "time_of_day_final/morning.jpg",
+    "source_png": "time_of_day_final/morning.png",
+    "native_size": [
+      2200,
+      1375
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 113799,
+    "sha256": "56958f57828d267eeb80fbdd1cd6d30c17c77ea85d99fe3a505cc60828333e30"
+  },
+  {
+    "file": "time_of_day_final/sunset.jpg",
+    "source_png": "time_of_day_final/sunset.png",
+    "native_size": [
+      2200,
+      1375
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 95887,
+    "sha256": "8fb7d7c48770d5725cfc3e4194560469037b22fac76f5a346cac67b92ce003f8"
+  },
+  {
+    "file": "time_of_day_final/noon.jpg",
+    "source_png": "time_of_day_final/noon.png",
+    "native_size": [
+      2200,
+      1375
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 119784,
+    "sha256": "4607c7378359a17197e5832bcae298dd2366fa45da16184ccd271ba86a826764"
+  },
+  {
+    "file": "final_overview/07_Whole_Campus_VM.jpg",
+    "source_png": "final_overview/07_Whole_Campus_VM.png",
+    "native_size": [
+      1280,
+      800
+    ],
+    "preview_size": [
+      1280,
+      800
+    ],
+    "quality": 85,
+    "bytes": 82413,
+    "sha256": "d7791d1bde14f615b4a858ddfecb0170de541c9986b00f390964a5e5d95cd2e9"
+  },
+  {
+    "file": "final_overview/07_Whole_Campus_Final.jpg",
+    "source_png": "final_overview/07_Whole_Campus_Final.png",
+    "native_size": [
+      1600,
+      1000
+    ],
+    "preview_size": [
+      1600,
+      1000
+    ],
+    "quality": 85,
+    "bytes": 121325,
+    "sha256": "4cd07e6b4a5501edd5fabeef22e8110c8cf68a2f3554c60e87aafd1b7fbc058c"
+  }
+]

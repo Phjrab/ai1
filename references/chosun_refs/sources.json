@@ -1,0 +1,73 @@
+{
+  "references": [
+    {
+      "file": "09_01.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_01.jpg",
+      "description": "Frontal aerial view and wooded slope"
+    },
+    {
+      "file": "09_02.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_02.jpg",
+      "description": "Best frontal aerial: all nineteen gables and both rounded end annexes"
+    },
+    {
+      "file": "09_03.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_03.jpg",
+      "description": "Outer tall wing front entrance and window rhythm"
+    },
+    {
+      "file": "09_04.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_04.jpg",
+      "description": "Central front entrance and streetscape"
+    },
+    {
+      "file": "09_05.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_05.jpg",
+      "description": "Heritage designation plaque"
+    },
+    {
+      "file": "09_07.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_07.jpg",
+      "description": "Oblique distant campus site context"
+    },
+    {
+      "file": "aerial_aks.jpg",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_06.jpg",
+      "description": "Oblique building and roof geometry"
+    },
+    {
+      "file": "09_screen_01.png",
+      "source_url": "https://dh.aks.ac.kr/~gwangju/asset/2022/ref/09_screen_01.png",
+      "description": "Existing public 2022 reconstruction screenshot; supplementary, not survey evidence"
+    },
+    {
+      "file": "official_film_locations.pdf",
+      "source_url": "https://eng.chosun.ac.kr/sites/chosun/files/news_2023/%EC%A1%B0%EC%84%A0%EB%8C%80_%EC%84%9C%EC%9A%B8%EC%9D%98%EB%B4%84.pdf",
+      "description": "University primary source: page 2 corridors floors 1-3; page3 real rear facade bottom; page4 real rear shelter stair bottom. Top film stills may include fictional dressing."
+    },
+    {
+      "file": "corridor.jpg",
+      "source_url": "https://news.nateimg.co.kr/orgImg/di/2023/12/07/107660_93014_413.jpg",
+      "description": "Public main building corridor photo also reproduced in university PDF"
+    }
+  ],
+  "building_sources": [
+    "https://www3.chosun.ac.kr/chosun/162/subview.do",
+    "https://dh.aks.ac.kr/~gwangju/wiki/index.php/제작기록:3d-광주조선대학교본관",
+    "https://dh.aks.ac.kr/~heritage/wiki/index.php/광주_조선대학교_본관"
+  ],
+  "verified_facts": {
+    "gable_count": 19,
+    "length_m_reported": 375,
+    "building_footprint_m2": 6585.48,
+    "gross_floor_area_m2": 42605.43,
+    "registered_max_storeys_above": 9,
+    "registered_below_storeys": 2
+  },
+  "uncertainties": [
+    "No verified dimensioned floorplans found.",
+    "Exterior floor counts and dimensions should follow photographs; registry storey number is aggregate maximum, not uniform across bar.",
+    "Interior corridor/stair visual details supported; room layouts unknown.",
+    "Both ends rounded annexes visible in 09_02; older/distant aerial perspective can make right annex look rectangular."
+  ]
+}

@@ -1,0 +1,4465 @@
+{
+  "status": "official GPS pins; OSM footprint-derived axis; metric unscaled site geometry",
+  "anchor": {
+    "name": "본관",
+    "lat": 35.142722,
+    "lon": 126.934734,
+    "world_x": 0,
+    "world_y": 8.5,
+    "world_z": 0
+  },
+  "transform": {
+    "origin_lat": 35.142722,
+    "origin_lon": 126.934734,
+    "x_axis_east_north": [
+      0.19870281411851848,
+      -0.9800597898400799
+    ],
+    "y_axis_east_north": [
+      0.9800597898400799,
+      0.19870281411851848
+    ],
+    "offset_y": 8.5,
+    "scale": 1.0,
+    "instructions": "For lat/lon, compute east/north in meters, dot with each axis; add 8.5 to y. Geometry already converted. Keep existing main building and do not extrude OSM main building."
+  },
+  "buildings": [
+    {
+      "id": 167,
+      "name": "1.8극장(노천극장)",
+      "lat": 35.143908,
+      "lon": 126.931711,
+      "east_m": -275.18,
+      "north_m": 131.59,
+      "x": -183.642,
+      "y": -235.046,
+      "z": null,
+      "footprint": [
+        [
+          -187.653,
+          -260.248
+        ],
+        [
+          -190.675,
+          -252.818
+        ],
+        [
+          -175.513,
+          -247.552
+        ],
+        [
+          -172.37,
+          -255.777
+        ],
+        [
+          -165.816,
+          -253.605
+        ],
+        [
+          -163.374,
+          -260.991
+        ],
+        [
+          -168.614,
+          -262.771
+        ],
+        [
+          -168.49,
+          -264.505
+        ],
+        [
+          -186.74,
+          -270.316
+        ],
+        [
+          -190.17,
+          -261.438
+        ],
+        [
+          -187.653,
+          -260.248
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "1198941239",
+          "name": "1.8극장",
+          "distance_m": 24.74,
+          "contains_official_pin": false
+        }
+      ],
+      "osm_id": "1198941239",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 138,
+      "name": "IT융합대학",
+      "lat": 35.139877,
+      "lon": 126.934182,
+      "east_m": -50.25,
+      "north_m": -315.65,
+      "x": 299.374,
+      "y": -103.467,
+      "z": null,
+      "footprint": [
+        [
+          246.092,
+          -94.512
+        ],
+        [
+          239.1,
+          -93.485
+        ],
+        [
+          233.916,
+          -117.883
+        ],
+        [
+          263.07,
+          -124.064
+        ],
+        [
+          268.385,
+          -99.023
+        ],
+        [
+          341.965,
+          -113.672
+        ],
+        [
+          343.411,
+          -106.488
+        ],
+        [
+          347.11,
+          -107.229
+        ],
+        [
+          348.947,
+          -97.997
+        ],
+        [
+          343.235,
+          -96.858
+        ],
+        [
+          343.512,
+          -95.493
+        ],
+        [
+          305.071,
+          -87.82
+        ],
+        [
+          305.509,
+          -85.605
+        ],
+        [
+          289.666,
+          -82.449
+        ],
+        [
+          288.967,
+          -83.83
+        ],
+        [
+          245.588,
+          -75.11
+        ],
+        [
+          244.385,
+          -81.098
+        ],
+        [
+          235.726,
+          -79.361
+        ],
+        [
+          235.004,
+          -82.976
+        ],
+        [
+          239.78,
+          -83.935
+        ],
+        [
+          239.497,
+          -85.383
+        ],
+        [
+          239.183,
+          -86.935
+        ],
+        [
+          247.287,
+          -88.56
+        ],
+        [
+          246.676,
+          -91.575
+        ],
+        [
+          246.092,
+          -94.512
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468692593",
+          "name": "IT융합대학",
+          "distance_m": 24.44,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468692593",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": "10"
+    },
+    {
+      "id": 133,
+      "name": "경상대학",
+      "lat": 35.139916,
+      "lon": 126.935668,
+      "east_m": 85.02,
+      "north_m": -311.33,
+      "x": 322.012,
+      "y": 29.964,
+      "z": null,
+      "footprint": [
+        [
+          416.144,
+          48.561
+        ],
+        [
+          417.154,
+          57.171
+        ],
+        [
+          387.869,
+          57.628
+        ],
+        [
+          386.004,
+          41.167
+        ],
+        [
+          307.597,
+          41.617
+        ],
+        [
+          307.552,
+          35.589
+        ],
+        [
+          304.522,
+          35.609
+        ],
+        [
+          304.479,
+          29.033
+        ],
+        [
+          307.498,
+          29.015
+        ],
+        [
+          307.457,
+          23.896
+        ],
+        [
+          323.333,
+          23.808
+        ],
+        [
+          323.323,
+          22.695
+        ],
+        [
+          396.353,
+          21.523
+        ],
+        [
+          396.853,
+          27.339
+        ],
+        [
+          422.073,
+          25.151
+        ],
+        [
+          425.069,
+          47.801
+        ],
+        [
+          416.144,
+          48.561
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "683118525",
+          "name": "경상대",
+          "distance_m": 40.21,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "683118525",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 134,
+      "name": "공과대학 제1공학관",
+      "lat": 35.14177,
+      "lon": 126.925545,
+      "east_m": -836.46,
+      "north_m": -105.62,
+      "x": -62.689,
+      "y": -832.271,
+      "z": null,
+      "footprint": [
+        [
+          -62.097,
+          -878.098
+        ],
+        [
+          -56.72,
+          -840.912
+        ],
+        [
+          -53.763,
+          -841.344
+        ],
+        [
+          -53.28,
+          -838.015
+        ],
+        [
+          -42.544,
+          -839.56
+        ],
+        [
+          -41.216,
+          -830.327
+        ],
+        [
+          -51.346,
+          -828.868
+        ],
+        [
+          -50.857,
+          -825.447
+        ],
+        [
+          -53.903,
+          -825.006
+        ],
+        [
+          -48.316,
+          -786.451
+        ],
+        [
+          -74.889,
+          -782.614
+        ],
+        [
+          -82.285,
+          -833.667
+        ],
+        [
+          -88.176,
+          -874.334
+        ],
+        [
+          -62.097,
+          -878.098
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468619568",
+          "name": "공과대학 1호관",
+          "distance_m": 5.42,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468619568",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 150,
+      "name": "공과대학 제2공학관",
+      "lat": 35.138576,
+      "lon": 126.933451,
+      "east_m": -116.79,
+      "north_m": -460.0,
+      "x": 427.62,
+      "y": -197.364,
+      "z": null,
+      "footprint": [
+        [
+          397.69,
+          -277.591
+        ],
+        [
+          416.222,
+          -280.048
+        ],
+        [
+          416.692,
+          -276.391
+        ],
+        [
+          418.031,
+          -276.653
+        ],
+        [
+          422.324,
+          -242.861
+        ],
+        [
+          425.611,
+          -243.23
+        ],
+        [
+          427.135,
+          -231.808
+        ],
+        [
+          431.091,
+          -232.341
+        ],
+        [
+          431.186,
+          -231.589
+        ],
+        [
+          433.203,
+          -231.859
+        ],
+        [
+          433.643,
+          -228.576
+        ],
+        [
+          437.484,
+          -229.058
+        ],
+        [
+          438.728,
+          -221.304
+        ],
+        [
+          436.717,
+          -221.007
+        ],
+        [
+          442.389,
+          -187.281
+        ],
+        [
+          438.316,
+          -186.594
+        ],
+        [
+          438.96,
+          -182.694
+        ],
+        [
+          437.117,
+          -182.237
+        ],
+        [
+          438.044,
+          -174.539
+        ],
+        [
+          430.255,
+          -173.424
+        ],
+        [
+          430.724,
+          -169.544
+        ],
+        [
+          427.303,
+          -165.089
+        ],
+        [
+          423.43,
+          -164.647
+        ],
+        [
+          423.915,
+          -161.309
+        ],
+        [
+          385.633,
+          -155.368
+        ],
+        [
+          384.483,
+          -163.494
+        ],
+        [
+          379.771,
+          -166.69
+        ],
+        [
+          383.248,
+          -171.538
+        ],
+        [
+          386.752,
+          -172.239
+        ],
+        [
+          385.894,
+          -179.709
+        ],
+        [
+          412.869,
+          -183.237
+        ],
+        [
+          407.419,
+          -228.154
+        ],
+        [
+          403.644,
+          -227.733
+        ],
+        [
+          397.69,
+          -277.591
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468692594",
+          "name": "공과대학 2호관",
+          "distance_m": 14.69,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468692594",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 149,
+      "name": "교수연구동",
+      "lat": 35.144279,
+      "lon": 126.934417,
+      "east_m": -28.86,
+      "north_m": 172.75,
+      "x": -175.038,
+      "y": 14.545,
+      "z": null,
+      "footprint": [
+        [
+          -188.338,
+          0.263
+        ],
+        [
+          -182.924,
+          -2.293
+        ],
+        [
+          -177.598,
+          -2.881
+        ],
+        [
+          -172.354,
+          -1.808
+        ],
+        [
+          -167.687,
+          0.831
+        ],
+        [
+          -164.047,
+          4.766
+        ],
+        [
+          -161.771,
+          9.626
+        ],
+        [
+          -161.098,
+          14.96
+        ],
+        [
+          -162.078,
+          20.23
+        ],
+        [
+          -164.619,
+          24.953
+        ],
+        [
+          -168.473,
+          28.669
+        ],
+        [
+          -173.916,
+          31.194
+        ],
+        [
+          -179.891,
+          31.709
+        ],
+        [
+          -185.674,
+          30.151
+        ],
+        [
+          -190.586,
+          26.697
+        ],
+        [
+          -194.031,
+          21.767
+        ],
+        [
+          -195.592,
+          15.963
+        ],
+        [
+          -195.086,
+          9.972
+        ],
+        [
+          -192.569,
+          4.52
+        ],
+        [
+          -188.338,
+          0.263
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "190176326",
+          "name": "교수연구동",
+          "distance_m": 3.46,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "190176326",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 146,
+      "name": "국제관(언어교육원,인권윤리원)",
+      "lat": 35.142876,
+      "lon": 126.931987,
+      "east_m": -250.06,
+      "north_m": 17.09,
+      "x": -66.432,
+      "y": -233.175,
+      "z": null,
+      "footprint": [
+        [
+          -84.325,
+          -250.231
+        ],
+        [
+          -64.69,
+          -250.822
+        ],
+        [
+          -53.671,
+          -248.737
+        ],
+        [
+          -17.758,
+          -252.461
+        ],
+        [
+          -14.387,
+          -220.534
+        ],
+        [
+          -39.311,
+          -217.162
+        ],
+        [
+          -38.836,
+          -212.977
+        ],
+        [
+          -61.68,
+          -210.574
+        ],
+        [
+          -62.355,
+          -214.793
+        ],
+        [
+          -80.691,
+          -212.599
+        ],
+        [
+          -82.148,
+          -220.904
+        ],
+        [
+          -84.095,
+          -221.011
+        ],
+        [
+          -84.325,
+          -250.231
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468706015",
+          "name": "국제관",
+          "distance_m": 8.22,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468706015",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 165,
+      "name": "그린빌리지(기숙사)",
+      "lat": 35.137204,
+      "lon": 126.927133,
+      "east_m": -691.91,
+      "north_m": -612.22,
+      "x": 462.53,
+      "y": -791.262,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": []
+    },
+    {
+      "id": 142,
+      "name": "글로벌하우스(기숙사)",
+      "lat": 35.137887,
+      "lon": 126.934265,
+      "east_m": -42.69,
+      "north_m": -536.44,
+      "x": 517.263,
+      "y": -139.934,
+      "z": null,
+      "footprint": [
+        [
+          449.828,
+          -146.51
+        ],
+        [
+          473.788,
+          -150.225
+        ],
+        [
+          474.805,
+          -146.716
+        ],
+        [
+          497.582,
+          -151.018
+        ],
+        [
+          515.864,
+          -154.26
+        ],
+        [
+          514.979,
+          -157.508
+        ],
+        [
+          525.816,
+          -157.328
+        ],
+        [
+          529.174,
+          -158.018
+        ],
+        [
+          539.113,
+          -161.593
+        ],
+        [
+          555.698,
+          -113.017
+        ],
+        [
+          543.173,
+          -110.914
+        ],
+        [
+          545.483,
+          -103.933
+        ],
+        [
+          535.653,
+          -101.104
+        ],
+        [
+          532.371,
+          -111.594
+        ],
+        [
+          477.745,
+          -99.776
+        ],
+        [
+          479.655,
+          -93.931
+        ],
+        [
+          471.356,
+          -92.313
+        ],
+        [
+          449.828,
+          -146.51
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704897",
+          "name": "글로벌하우스",
+          "distance_m": 14.27,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704897",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 168,
+      "name": "대운동장",
+      "lat": 35.141949,
+      "lon": 126.930293,
+      "east_m": -404.26,
+      "north_m": -85.76,
+      "x": 3.727,
+      "y": -404.739,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": []
+    },
+    {
+      "id": 135,
+      "name": "미술대학(미술관)",
+      "lat": 35.144038,
+      "lon": 126.930452,
+      "east_m": -389.78,
+      "north_m": 146.01,
+      "x": -220.55,
+      "y": -344.5,
+      "z": null,
+      "footprint": [
+        [
+          -212.174,
+          -316.922
+        ],
+        [
+          -221.688,
+          -315.049
+        ],
+        [
+          -231.294,
+          -316.361
+        ],
+        [
+          -239.975,
+          -320.704
+        ],
+        [
+          -246.789,
+          -327.626
+        ],
+        [
+          -251.021,
+          -336.381
+        ],
+        [
+          -252.208,
+          -346.032
+        ],
+        [
+          -250.171,
+          -355.696
+        ],
+        [
+          -245.103,
+          -364.144
+        ],
+        [
+          -237.54,
+          -370.452
+        ],
+        [
+          -228.34,
+          -373.933
+        ],
+        [
+          -218.5,
+          -374.201
+        ],
+        [
+          -209.122,
+          -371.217
+        ],
+        [
+          -201.225,
+          -365.322
+        ],
+        [
+          -195.675,
+          -357.159
+        ],
+        [
+          -193.116,
+          -347.777
+        ],
+        [
+          -193.718,
+          -338.07
+        ],
+        [
+          -197.398,
+          -329.085
+        ],
+        [
+          -203.784,
+          -321.772
+        ],
+        [
+          -212.174,
+          -316.922
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "190176312",
+          "name": "미술대학",
+          "distance_m": 1.96,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "190176312",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 147,
+      "name": "백학학사(기숙사)",
+      "lat": 35.145407,
+      "lon": 126.932963,
+      "east_m": -161.21,
+      "north_m": 297.9,
+      "x": -323.994,
+      "y": -90.303,
+      "z": null,
+      "footprint": [
+        [
+          -353.425,
+          -138.532
+        ],
+        [
+          -363.36,
+          -136.945
+        ],
+        [
+          -361.496,
+          -120.382
+        ],
+        [
+          -329.933,
+          -83.081
+        ],
+        [
+          -324.482,
+          -79.142
+        ],
+        [
+          -308.911,
+          -72.64
+        ],
+        [
+          -305.183,
+          -81.281
+        ],
+        [
+          -309.133,
+          -82.784
+        ],
+        [
+          -308.729,
+          -84.696
+        ],
+        [
+          -320.176,
+          -90.065
+        ],
+        [
+          -331.228,
+          -104.376
+        ],
+        [
+          -329.878,
+          -105.42
+        ],
+        [
+          -333.658,
+          -110.329
+        ],
+        [
+          -337.239,
+          -114.423
+        ],
+        [
+          -338.752,
+          -113.401
+        ],
+        [
+          -341.491,
+          -116.747
+        ],
+        [
+          -342.752,
+          -116.101
+        ],
+        [
+          -349.295,
+          -125.196
+        ],
+        [
+          -350.982,
+          -135.025
+        ],
+        [
+          -352.569,
+          -134.87
+        ],
+        [
+          -353.425,
+          -138.532
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "472263774",
+          "name": "백학여학사",
+          "distance_m": 21.76,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "472263774",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null,
+      "additional_osm_ids": [
+        "472263773"
+      ]
+    },
+    {
+      "id": 131,
+      "name": "법과대학",
+      "lat": 35.139327,
+      "lon": 126.935109,
+      "east_m": 34.14,
+      "north_m": -376.68,
+      "x": 375.947,
+      "y": -32.891,
+      "z": null,
+      "footprint": [
+        [
+          403.763,
+          -44.893
+        ],
+        [
+          408.225,
+          6.095
+        ],
+        [
+          422.03,
+          4.893
+        ],
+        [
+          423.788,
+          25.008
+        ],
+        [
+          422.073,
+          25.151
+        ],
+        [
+          396.853,
+          27.339
+        ],
+        [
+          396.353,
+          21.523
+        ],
+        [
+          395.29,
+          9.414
+        ],
+        [
+          384.555,
+          10.346
+        ],
+        [
+          383.27,
+          -4.255
+        ],
+        [
+          382.121,
+          -17.462
+        ],
+        [
+          385.548,
+          -17.757
+        ],
+        [
+          383.173,
+          -44.88
+        ],
+        [
+          388.871,
+          -49.667
+        ],
+        [
+          396.571,
+          -50.327
+        ],
+        [
+          397.098,
+          -44.322
+        ],
+        [
+          403.763,
+          -44.893
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [],
+      "osm_id": "683118524",
+      "footprint_confidence": "OSM named building matched to official map",
+      "holes": []
+    },
+    {
+      "id": 126,
+      "name": "본관",
+      "lat": 35.142722,
+      "lon": 126.934734,
+      "east_m": 0.0,
+      "north_m": 0.0,
+      "x": 0.0,
+      "y": 8.5,
+      "z": null,
+      "footprint": [
+        [
+          -161.066,
+          -0.966
+        ],
+        [
+          -159.351,
+          35.356
+        ],
+        [
+          -146.316,
+          34.766
+        ],
+        [
+          -146.133,
+          39.019
+        ],
+        [
+          -107.33,
+          37.543
+        ],
+        [
+          -107.434,
+          34.461
+        ],
+        [
+          -93.138,
+          34.061
+        ],
+        [
+          -93.371,
+          25.656
+        ],
+        [
+          11.465,
+          23.061
+        ],
+        [
+          9.59,
+          16.55
+        ],
+        [
+          72.513,
+          13.935
+        ],
+        [
+          72.921,
+          23.261
+        ],
+        [
+          74.077,
+          23.212
+        ],
+        [
+          73.72,
+          14.861
+        ],
+        [
+          99.659,
+          13.762
+        ],
+        [
+          100.243,
+          27.195
+        ],
+        [
+          112.412,
+          26.688
+        ],
+        [
+          112.512,
+          29.194
+        ],
+        [
+          139.996,
+          28.173
+        ],
+        [
+          139.948,
+          26.594
+        ],
+        [
+          154.469,
+          26.186
+        ],
+        [
+          153.478,
+          -7.849
+        ],
+        [
+          132.096,
+          -7.053
+        ],
+        [
+          105.036,
+          -6.006
+        ],
+        [
+          105.18,
+          -3.286
+        ],
+        [
+          93.511,
+          -2.657
+        ],
+        [
+          93.778,
+          2.063
+        ],
+        [
+          21.265,
+          5.953
+        ],
+        [
+          20.889,
+          -0.927
+        ],
+        [
+          6.027,
+          -0.134
+        ],
+        [
+          4.121,
+          -5.069
+        ],
+        [
+          -3.875,
+          -4.693
+        ],
+        [
+          -19.211,
+          -4.342
+        ],
+        [
+          -19.125,
+          -1.685
+        ],
+        [
+          -32.008,
+          -1.293
+        ],
+        [
+          -31.892,
+          2.464
+        ],
+        [
+          -101.758,
+          4.611
+        ],
+        [
+          -103.55,
+          -0.376
+        ],
+        [
+          -119.378,
+          0.511
+        ],
+        [
+          -119.711,
+          -5.542
+        ],
+        [
+          -130.986,
+          -5.04
+        ],
+        [
+          -148.746,
+          -3.965
+        ],
+        [
+          -148.618,
+          -1.549
+        ],
+        [
+          -161.066,
+          -0.966
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "190176334",
+          "name": "본관",
+          "distance_m": 6.12,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "190176334",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 136,
+      "name": "사회과학ㆍ사범대학",
+      "lat": 35.145889,
+      "lon": 126.934401,
+      "east_m": -30.31,
+      "north_m": 351.38,
+      "x": -350.395,
+      "y": 48.612,
+      "z": null,
+      "footprint": [
+        [
+          -436.54,
+          30.383
+        ],
+        [
+          -373.21,
+          28.996
+        ],
+        [
+          -314.084,
+          27.699
+        ],
+        [
+          -313.241,
+          64.634
+        ],
+        [
+          -322.212,
+          64.836
+        ],
+        [
+          -322.138,
+          67.933
+        ],
+        [
+          -336.304,
+          68.251
+        ],
+        [
+          -336.395,
+          64.675
+        ],
+        [
+          -354.327,
+          65.069
+        ],
+        [
+          -354.198,
+          70.56
+        ],
+        [
+          -396.52,
+          71.487
+        ],
+        [
+          -396.637,
+          66.551
+        ],
+        [
+          -435.691,
+          67.401
+        ],
+        [
+          -436.54,
+          30.383
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704876",
+          "name": "사회대 사범대",
+          "distance_m": 17.68,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704876",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 160,
+      "name": "생명공학관",
+      "lat": 35.141213,
+      "lon": 126.928457,
+      "east_m": -571.39,
+      "north_m": -167.42,
+      "x": 50.549,
+      "y": -584.761,
+      "z": null,
+      "footprint": [
+        [
+          20.017,
+          -572.088
+        ],
+        [
+          30.509,
+          -558.193
+        ],
+        [
+          70.676,
+          -588.674
+        ],
+        [
+          60.196,
+          -602.562
+        ],
+        [
+          20.017,
+          -572.088
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704879",
+          "name": "생명공학관",
+          "distance_m": 11.91,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704879",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 158,
+      "name": "생산교육 실험실습동",
+      "lat": 35.141559,
+      "lon": 126.925803,
+      "east_m": -812.98,
+      "north_m": -129.03,
+      "x": -35.079,
+      "y": -813.906,
+      "z": null,
+      "footprint": [
+        [
+          -0.482,
+          -855.11
+        ],
+        [
+          5.205,
+          -817.345
+        ],
+        [
+          -10.317,
+          -815.006
+        ],
+        [
+          -11.485,
+          -822.776
+        ],
+        [
+          -24.415,
+          -820.833
+        ],
+        [
+          -30.221,
+          -859.241
+        ],
+        [
+          -4.165,
+          -863.168
+        ],
+        [
+          -2.887,
+          -854.743
+        ],
+        [
+          -0.482,
+          -855.11
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [],
+      "osm_id": "1202050665",
+      "footprint_confidence": "OSM named building matched to official map",
+      "holes": []
+    },
+    {
+      "id": 179,
+      "name": "서석홀 지상1층",
+      "lat": 35.145039,
+      "lon": 126.932474,
+      "east_m": -205.72,
+      "north_m": 257.07,
+      "x": -292.823,
+      "y": -142.042,
+      "z": null,
+      "footprint": [
+        [
+          -293.523,
+          -173.637
+        ],
+        [
+          -276.096,
+          -150.105
+        ],
+        [
+          -266.147,
+          -136.658
+        ],
+        [
+          -296.065,
+          -114.366
+        ],
+        [
+          -325.375,
+          -151.78
+        ],
+        [
+          -332.982,
+          -161.773
+        ],
+        [
+          -332.954,
+          -168.281
+        ],
+        [
+          -325.694,
+          -175.019
+        ],
+        [
+          -319.283,
+          -178.576
+        ],
+        [
+          -309.702,
+          -179.394
+        ],
+        [
+          -300.102,
+          -178.332
+        ],
+        [
+          -293.523,
+          -173.637
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": [
+        {
+          "osm_id": "472263776",
+          "name": "서석홀",
+          "distance_m": 23.72,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "472263776",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 141,
+      "name": "서석홀(평생교육원,박물관)",
+      "lat": 35.145039,
+      "lon": 126.932474,
+      "east_m": -205.72,
+      "north_m": 257.07,
+      "x": -292.823,
+      "y": -142.042,
+      "z": null,
+      "footprint": [
+        [
+          -293.523,
+          -173.637
+        ],
+        [
+          -276.096,
+          -150.105
+        ],
+        [
+          -266.147,
+          -136.658
+        ],
+        [
+          -296.065,
+          -114.366
+        ],
+        [
+          -325.375,
+          -151.78
+        ],
+        [
+          -332.982,
+          -161.773
+        ],
+        [
+          -332.954,
+          -168.281
+        ],
+        [
+          -325.694,
+          -175.019
+        ],
+        [
+          -319.283,
+          -178.576
+        ],
+        [
+          -309.702,
+          -179.394
+        ],
+        [
+          -300.102,
+          -178.332
+        ],
+        [
+          -293.523,
+          -173.637
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "472263776",
+          "name": "서석홀",
+          "distance_m": 23.72,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "472263776",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 143,
+      "name": "솔마루(식당)",
+      "lat": 35.14181,
+      "lon": 126.933229,
+      "east_m": -137.0,
+      "north_m": -101.19,
+      "x": 71.947,
+      "y": -145.872,
+      "z": null,
+      "footprint": [
+        [
+          41.324,
+          -153.299
+        ],
+        [
+          93.942,
+          -153.137
+        ],
+        [
+          93.89,
+          -126.256
+        ],
+        [
+          68.413,
+          -126.338
+        ],
+        [
+          56.11,
+          -126.38
+        ],
+        [
+          56.117,
+          -130.31
+        ],
+        [
+          56.126,
+          -133.897
+        ],
+        [
+          41.286,
+          -133.944
+        ],
+        [
+          41.31,
+          -144.101
+        ],
+        [
+          41.315,
+          -149.377
+        ],
+        [
+          41.324,
+          -153.299
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468706016",
+          "name": "솔마루",
+          "distance_m": 16.06,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468706016",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 157,
+      "name": "약학대학 1호관(약학관)",
+      "lat": 35.140935,
+      "lon": 126.926346,
+      "east_m": -763.55,
+      "north_m": -198.27,
+      "x": 42.595,
+      "y": -779.22,
+      "z": null,
+      "footprint": [
+        [
+          27.39,
+          -799.608
+        ],
+        [
+          41.662,
+          -803.142
+        ],
+        [
+          52.95,
+          -757.514
+        ],
+        [
+          39.206,
+          -754.114
+        ],
+        [
+          37.317,
+          -761.756
+        ],
+        [
+          39.376,
+          -762.266
+        ],
+        [
+          31.894,
+          -792.524
+        ],
+        [
+          29.306,
+          -791.888
+        ],
+        [
+          27.39,
+          -799.608
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468619570",
+          "name": "약학대학 1호관",
+          "distance_m": 6.4,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468619570",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 140,
+      "name": "약학대학 2호관",
+      "lat": 35.141239,
+      "lon": 126.926362,
+      "east_m": -762.09,
+      "north_m": -164.54,
+      "x": 9.828,
+      "y": -771.09,
+      "z": null,
+      "footprint": [
+        [
+          -13.536,
+          -790.567
+        ],
+        [
+          -4.061,
+          -792.86
+        ],
+        [
+          -4.667,
+          -795.347
+        ],
+        [
+          2.227,
+          -797.023
+        ],
+        [
+          2.815,
+          -794.57
+        ],
+        [
+          5.048,
+          -795.115
+        ],
+        [
+          9.689,
+          -775.966
+        ],
+        [
+          14.587,
+          -777.154
+        ],
+        [
+          15.615,
+          -772.923
+        ],
+        [
+          17.005,
+          -767.186
+        ],
+        [
+          12.722,
+          -766.141
+        ],
+        [
+          17.379,
+          -746.912
+        ],
+        [
+          6.891,
+          -744.367
+        ],
+        [
+          -1.839,
+          -742.254
+        ],
+        [
+          -7.552,
+          -765.857
+        ],
+        [
+          -13.536,
+          -790.567
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468619569",
+          "name": "약학대학 2호관",
+          "distance_m": 7.83,
+          "contains_official_pin": true
+        },
+        {
+          "osm_id": "468619570",
+          "name": "약학대학 1호관",
+          "distance_m": 28.0,
+          "contains_official_pin": false
+        }
+      ],
+      "osm_id": "468619569",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 156,
+      "name": "약학대학 3호관(강의동)",
+      "lat": 35.141568,
+      "lon": 126.926668,
+      "east_m": -734.24,
+      "north_m": -128.04,
+      "x": -20.412,
+      "y": -736.538,
+      "z": null,
+      "footprint": [
+        [
+          -58.85,
+          -740.522
+        ],
+        [
+          -31.067,
+          -747.325
+        ],
+        [
+          -29.024,
+          -738.98
+        ],
+        [
+          -17.278,
+          -741.854
+        ],
+        [
+          -16.58,
+          -738.968
+        ],
+        [
+          -15.494,
+          -734.562
+        ],
+        [
+          -11.893,
+          -735.45
+        ],
+        [
+          -9.798,
+          -726.903
+        ],
+        [
+          -52.939,
+          -716.336
+        ],
+        [
+          -58.85,
+          -740.522
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468619571",
+          "name": "약학대학 3호관",
+          "distance_m": 9.77,
+          "contains_official_pin": true
+        },
+        {
+          "osm_id": "1202050652",
+          "name": "",
+          "distance_m": 13.87,
+          "contains_official_pin": false
+        }
+      ],
+      "osm_id": "468619571",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 137,
+      "name": "의과대학 1호관",
+      "lat": 35.14042,
+      "lon": 126.929572,
+      "east_m": -469.89,
+      "north_m": -255.41,
+      "x": 156.946,
+      "y": -502.77,
+      "z": null,
+      "footprint": [
+        [
+          118.582,
+          -536.315
+        ],
+        [
+          138.984,
+          -551.049
+        ],
+        [
+          167.126,
+          -511.856
+        ],
+        [
+          192.155,
+          -477.02
+        ],
+        [
+          171.732,
+          -462.281
+        ],
+        [
+          144.267,
+          -500.534
+        ],
+        [
+          118.582,
+          -536.315
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704881",
+          "name": "의과대학 1호관",
+          "distance_m": 10.46,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704881",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 155,
+      "name": "의과대학 2호관",
+      "lat": 35.1401,
+      "lon": 126.929499,
+      "east_m": -476.54,
+      "north_m": -290.91,
+      "x": 190.421,
+      "y": -516.338,
+      "z": null,
+      "footprint": [
+        [
+          164.691,
+          -547.094
+        ],
+        [
+          180.308,
+          -556.78
+        ],
+        [
+          221.432,
+          -490.191
+        ],
+        [
+          205.815,
+          -480.504
+        ],
+        [
+          183.886,
+          -516.016
+        ],
+        [
+          164.691,
+          -547.094
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704882",
+          "name": "의과대학 2호관",
+          "distance_m": 7.53,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704882",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 177,
+      "name": "의과대학 3호관",
+      "lat": 35.140767,
+      "lon": 126.928673,
+      "east_m": -551.72,
+      "north_m": -216.91,
+      "x": 102.953,
+      "y": -575.323,
+      "z": null,
+      "footprint": [
+        [
+          63.437,
+          -602.829
+        ],
+        [
+          78.067,
+          -613.755
+        ],
+        [
+          122.041,
+          -554.543
+        ],
+        [
+          107.391,
+          -543.604
+        ],
+        [
+          63.437,
+          -602.829
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704880",
+          "name": "의과대학 3호관",
+          "distance_m": 18.04,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704880",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 154,
+      "name": "의성관(연구동)",
+      "lat": 35.139554,
+      "lon": 126.925591,
+      "east_m": -832.28,
+      "north_m": -351.49,
+      "x": 179.105,
+      "y": -877.021,
+      "z": null,
+      "footprint": [
+        [
+          151.01,
+          -929.162
+        ],
+        [
+          182.527,
+          -888.396
+        ],
+        [
+          204.963,
+          -905.828
+        ],
+        [
+          216.841,
+          -890.459
+        ],
+        [
+          193.78,
+          -872.538
+        ],
+        [
+          189.533,
+          -878.021
+        ],
+        [
+          175.909,
+          -867.438
+        ],
+        [
+          154.654,
+          -894.94
+        ],
+        [
+          136.749,
+          -918.088
+        ],
+        [
+          151.01,
+          -929.162
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "488165874",
+          "name": "",
+          "distance_m": 20.66,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "488165874",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 159,
+      "name": "입석홀(식당)",
+      "lat": 35.142109,
+      "lon": 126.925106,
+      "east_m": -876.42,
+      "north_m": -68.01,
+      "x": -107.492,
+      "y": -863.962,
+      "z": null,
+      "footprint": [
+        [
+          -130.814,
+          -868.215
+        ],
+        [
+          -122.87,
+          -869.232
+        ],
+        [
+          -123.348,
+          -873.045
+        ],
+        [
+          -93.234,
+          -876.893
+        ],
+        [
+          -89.747,
+          -849.755
+        ],
+        [
+          -122.951,
+          -845.512
+        ],
+        [
+          -123.679,
+          -851.169
+        ],
+        [
+          -128.545,
+          -850.545
+        ],
+        [
+          -130.814,
+          -868.215
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468730987",
+          "name": "입석홀",
+          "distance_m": 11.25,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468730987",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 130,
+      "name": "자연과학관",
+      "lat": 35.139411,
+      "lon": 126.928292,
+      "east_m": -586.41,
+      "north_m": -367.36,
+      "x": 243.51,
+      "y": -639.208,
+      "z": null,
+      "footprint": [
+        [
+          194.309,
+          -665.011
+        ],
+        [
+          211.393,
+          -673.267
+        ],
+        [
+          209.514,
+          -677.177
+        ],
+        [
+          223.205,
+          -683.798
+        ],
+        [
+          230.629,
+          -687.384
+        ],
+        [
+          236.991,
+          -690.457
+        ],
+        [
+          238.881,
+          -686.549
+        ],
+        [
+          256.513,
+          -695.065
+        ],
+        [
+          291.194,
+          -623.009
+        ],
+        [
+          273.935,
+          -614.661
+        ],
+        [
+          275.455,
+          -611.523
+        ],
+        [
+          258.742,
+          -603.444
+        ],
+        [
+          248.534,
+          -598.514
+        ],
+        [
+          247.015,
+          -601.652
+        ],
+        [
+          228.993,
+          -592.936
+        ],
+        [
+          212.696,
+          -626.803
+        ],
+        [
+          194.309,
+          -665.011
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [],
+      "osm_id": "relation/13257660",
+      "footprint_confidence": "OSM named building matched to official map",
+      "holes": [
+        [
+          [
+            218.83,
+            -654.118
+          ],
+          [
+            243.177,
+            -666.086
+          ],
+          [
+            263.345,
+            -624.904
+          ],
+          [
+            239.0,
+            -612.928
+          ],
+          [
+            218.83,
+            -654.118
+          ]
+        ]
+      ],
+      "levels": 5
+    },
+    {
+      "id": 163,
+      "name": "장미원",
+      "lat": 35.140948,
+      "lon": 126.930103,
+      "east_m": -421.55,
+      "north_m": -196.83,
+      "x": 109.137,
+      "y": -443.758,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": []
+    },
+    {
+      "id": 129,
+      "name": "장황남정보통신박물관",
+      "lat": 35.144171,
+      "lon": 126.9326,
+      "east_m": -194.26,
+      "north_m": 160.77,
+      "x": -196.16,
+      "y": -149.937,
+      "z": null,
+      "footprint": [
+        [
+          -237.585,
+          -147.325
+        ],
+        [
+          -203.435,
+          -151.759
+        ],
+        [
+          -203.948,
+          -155.686
+        ],
+        [
+          -197.362,
+          -156.538
+        ],
+        [
+          -196.81,
+          -152.304
+        ],
+        [
+          -160.267,
+          -157.056
+        ],
+        [
+          -158.199,
+          -141.212
+        ],
+        [
+          -235.485,
+          -131.162
+        ],
+        [
+          -237.585,
+          -147.325
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "472263777",
+          "name": "장황남정보통신박물관",
+          "distance_m": 7.32,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "472263777",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 161,
+      "name": "조선간호대학",
+      "lat": 35.137787,
+      "lon": 126.928866,
+      "east_m": -534.16,
+      "north_m": -547.54,
+      "x": 430.482,
+      "y": -623.802,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 162,
+      "name": "조선대학교 병원",
+      "lat": 35.138609,
+      "lon": 126.926673,
+      "east_m": -733.78,
+      "north_m": -456.34,
+      "x": 301.433,
+      "y": -801.326,
+      "z": null,
+      "footprint": [
+        [
+          276.133,
+          -865.699
+        ],
+        [
+          281.643,
+          -858.513
+        ],
+        [
+          283.622,
+          -859.861
+        ],
+        [
+          306.399,
+          -831.999
+        ],
+        [
+          309.499,
+          -834.801
+        ],
+        [
+          322.865,
+          -819.687
+        ],
+        [
+          353.813,
+          -784.694
+        ],
+        [
+          338.091,
+          -770.835
+        ],
+        [
+          369.178,
+          -731.635
+        ],
+        [
+          353.474,
+          -717.687
+        ],
+        [
+          354.254,
+          -715.681
+        ],
+        [
+          354.375,
+          -713.244
+        ],
+        [
+          353.945,
+          -712.126
+        ],
+        [
+          345.506,
+          -704.554
+        ],
+        [
+          343.263,
+          -704.954
+        ],
+        [
+          341.332,
+          -702.862
+        ],
+        [
+          339.973,
+          -702.587
+        ],
+        [
+          337.891,
+          -702.638
+        ],
+        [
+          335.093,
+          -703.483
+        ],
+        [
+          333.329,
+          -701.741
+        ],
+        [
+          310.003,
+          -729.743
+        ],
+        [
+          306.903,
+          -726.941
+        ],
+        [
+          291.842,
+          -746.449
+        ],
+        [
+          294.881,
+          -749.61
+        ],
+        [
+          276.417,
+          -773.34
+        ],
+        [
+          272.073,
+          -769.246
+        ],
+        [
+          268.818,
+          -773.462
+        ],
+        [
+          224.589,
+          -830.803
+        ],
+        [
+          226.358,
+          -832.294
+        ],
+        [
+          207.489,
+          -857.633
+        ],
+        [
+          211.602,
+          -861.021
+        ],
+        [
+          208.224,
+          -865.231
+        ],
+        [
+          222.599,
+          -876.802
+        ],
+        [
+          225.396,
+          -875.735
+        ],
+        [
+          226.586,
+          -873.998
+        ],
+        [
+          227.151,
+          -871.381
+        ],
+        [
+          226.804,
+          -869.574
+        ],
+        [
+          232.632,
+          -875.112
+        ],
+        [
+          252.288,
+          -849.022
+        ],
+        [
+          250.491,
+          -847.385
+        ],
+        [
+          270.74,
+          -822.224
+        ],
+        [
+          262.61,
+          -815.477
+        ],
+        [
+          278.014,
+          -794.72
+        ],
+        [
+          296.682,
+          -810.301
+        ],
+        [
+          286.933,
+          -822.201
+        ],
+        [
+          289.092,
+          -824.059
+        ],
+        [
+          263.424,
+          -855.571
+        ],
+        [
+          276.133,
+          -865.699
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://hosp.chosun.ac.kr",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "488165875",
+          "name": "",
+          "distance_m": 14.55,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "488165875",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": 8
+    },
+    {
+      "id": 175,
+      "name": "조선대학교 부속고등학교",
+      "lat": 35.135216,
+      "lon": 126.931205,
+      "east_m": -321.24,
+      "north_m": -832.79,
+      "x": 752.353,
+      "y": -471.812,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 173,
+      "name": "조선대학교 부속중학교",
+      "lat": 35.14374,
+      "lon": 126.928212,
+      "east_m": -593.69,
+      "north_m": 112.95,
+      "x": -228.663,
+      "y": -550.908,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 178,
+      "name": "조선대학교 어린이집",
+      "lat": 35.137284,
+      "lon": 126.931609,
+      "east_m": -284.46,
+      "north_m": -603.35,
+      "x": 534.791,
+      "y": -390.179,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 174,
+      "name": "조선대학교 여자고등학교",
+      "lat": 35.146302,
+      "lon": 126.932299,
+      "east_m": -221.65,
+      "north_m": 397.2,
+      "x": -433.324,
+      "y": -129.81,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 172,
+      "name": "조선대학교 여자중학교",
+      "lat": 35.145188,
+      "lon": 126.931596,
+      "east_m": -285.65,
+      "north_m": 273.6,
+      "x": -324.906,
+      "y": -217.086,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 166,
+      "name": "조선대학교 치과병원",
+      "lat": 35.14447,
+      "lon": 126.926799,
+      "east_m": -722.31,
+      "north_m": 193.94,
+      "x": -333.599,
+      "y": -660.873,
+      "z": null,
+      "footprint": [
+        [
+          -321.92,
+          -687.529
+        ],
+        [
+          -306.318,
+          -668.141
+        ],
+        [
+          -335.664,
+          -644.312
+        ],
+        [
+          -340.371,
+          -640.617
+        ],
+        [
+          -348.019,
+          -634.395
+        ],
+        [
+          -349.941,
+          -636.782
+        ],
+        [
+          -357.601,
+          -635.981
+        ],
+        [
+          -368.648,
+          -649.708
+        ],
+        [
+          -321.92,
+          -687.529
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": [
+        {
+          "osm_id": "493566726",
+          "name": "조선대학교치과병원",
+          "distance_m": 8.79,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "493566726",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 171,
+      "name": "조선대학교병원 장례식장",
+      "lat": 35.139985,
+      "lon": 126.924311,
+      "east_m": -948.79,
+      "north_m": -303.67,
+      "x": 109.087,
+      "y": -981.713,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": []
+    },
+    {
+      "id": 169,
+      "name": "조선이공대학 1,3호관",
+      "lat": 35.139801,
+      "lon": 126.931673,
+      "east_m": -278.64,
+      "north_m": -324.08,
+      "x": 262.256,
+      "y": -328.979,
+      "z": null,
+      "footprint": [
+        [
+          239.567,
+          -341.107
+        ],
+        [
+          281.516,
+          -343.705
+        ],
+        [
+          283.098,
+          -316.022
+        ],
+        [
+          241.684,
+          -312.297
+        ],
+        [
+          239.567,
+          -341.107
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": [
+        {
+          "osm_id": "468704885",
+          "name": "조선이공대학 본관",
+          "distance_m": 5.5,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704885",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 170,
+      "name": "조선이공대학 2, 4호관",
+      "lat": 35.139025,
+      "lon": 126.929814,
+      "east_m": -447.86,
+      "north_m": -410.18,
+      "x": 313.012,
+      "y": -511.935,
+      "z": null,
+      "footprint": [
+        [
+          304.446,
+          -569.428
+        ],
+        [
+          312.069,
+          -553.327
+        ],
+        [
+          310.151,
+          -551.173
+        ],
+        [
+          314.331,
+          -540.94
+        ],
+        [
+          312.138,
+          -538.414
+        ],
+        [
+          316.626,
+          -528.838
+        ],
+        [
+          330.88,
+          -535.536
+        ],
+        [
+          332.678,
+          -531.693
+        ],
+        [
+          335.513,
+          -525.636
+        ],
+        [
+          322.655,
+          -519.593
+        ],
+        [
+          327.001,
+          -510.332
+        ],
+        [
+          330.307,
+          -511.893
+        ],
+        [
+          334.642,
+          -502.63
+        ],
+        [
+          337.057,
+          -502.72
+        ],
+        [
+          346.444,
+          -482.945
+        ],
+        [
+          307.597,
+          -464.434
+        ],
+        [
+          298.087,
+          -484.481
+        ],
+        [
+          289.085,
+          -480.195
+        ],
+        [
+          284.891,
+          -489.041
+        ],
+        [
+          297.756,
+          -495.161
+        ],
+        [
+          290.001,
+          -511.524
+        ],
+        [
+          281.217,
+          -530.056
+        ],
+        [
+          267.941,
+          -523.732
+        ],
+        [
+          263.572,
+          -532.943
+        ],
+        [
+          272.915,
+          -537.391
+        ],
+        [
+          266.326,
+          -551.297
+        ],
+        [
+          304.446,
+          -569.428
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": false,
+      "osm_candidates": [
+        {
+          "osm_id": "471778462",
+          "name": "조선이공대학 2호관",
+          "distance_m": 11.08,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "471778462",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 164,
+      "name": "주차빌딩",
+      "lat": 35.140135,
+      "lon": 126.926794,
+      "east_m": -722.77,
+      "north_m": -287.03,
+      "x": 137.688,
+      "y": -756.889,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": []
+    },
+    {
+      "id": 127,
+      "name": "중앙도서관",
+      "lat": 35.141815,
+      "lon": 126.932368,
+      "east_m": -215.37,
+      "north_m": -100.63,
+      "x": 55.83,
+      "y": -222.575,
+      "z": null,
+      "footprint": [
+        [
+          -3.296,
+          -253.498
+        ],
+        [
+          -1.807,
+          -238.614
+        ],
+        [
+          4.895,
+          -239.286
+        ],
+        [
+          7.42,
+          -214.153
+        ],
+        [
+          27.726,
+          -216.181
+        ],
+        [
+          30.275,
+          -190.821
+        ],
+        [
+          71.199,
+          -194.901
+        ],
+        [
+          68.827,
+          -218.495
+        ],
+        [
+          102.826,
+          -221.886
+        ],
+        [
+          100.78,
+          -242.249
+        ],
+        [
+          93.722,
+          -241.552
+        ],
+        [
+          91.581,
+          -262.945
+        ],
+        [
+          -3.296,
+          -253.498
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "300164485",
+          "name": "중앙도서관",
+          "distance_m": 12.68,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "300164485",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 153,
+      "name": "창업보육센터",
+      "lat": 35.141013,
+      "lon": 126.925827,
+      "east_m": -810.79,
+      "north_m": -189.61,
+      "x": 24.726,
+      "y": -823.802,
+      "z": null,
+      "footprint": [
+        [
+          17.375,
+          -849.172
+        ],
+        [
+          29.297,
+          -844.865
+        ],
+        [
+          30.607,
+          -835.388
+        ],
+        [
+          35.707,
+          -836.087
+        ],
+        [
+          39.457,
+          -808.825
+        ],
+        [
+          28.784,
+          -807.358
+        ],
+        [
+          27.998,
+          -813.078
+        ],
+        [
+          23.417,
+          -812.446
+        ],
+        [
+          23.757,
+          -809.989
+        ],
+        [
+          18.211,
+          -812.775
+        ],
+        [
+          17.366,
+          -817.61
+        ],
+        [
+          16.645,
+          -817.482
+        ],
+        [
+          14.558,
+          -829.505
+        ],
+        [
+          16.876,
+          -829.91
+        ],
+        [
+          14.791,
+          -841.924
+        ],
+        [
+          17.375,
+          -849.172
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "1202050668",
+          "name": "창업보육센터",
+          "distance_m": 2.62,
+          "contains_official_pin": true
+        },
+        {
+          "osm_id": "1202050669",
+          "name": "자동차공학실험실",
+          "distance_m": 28.55,
+          "contains_official_pin": false
+        },
+        {
+          "osm_id": "1202050670",
+          "name": "약초원",
+          "distance_m": 28.74,
+          "contains_official_pin": false
+        }
+      ],
+      "osm_id": "1202050668",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 132,
+      "name": "체육대학",
+      "lat": 35.140332,
+      "lon": 126.927508,
+      "east_m": -657.77,
+      "north_m": -265.17,
+      "x": 129.182,
+      "y": -688.847,
+      "z": null,
+      "footprint": [
+        [
+          47.197,
+          -700.182
+        ],
+        [
+          177.671,
+          -735.069
+        ],
+        [
+          193.398,
+          -676.148
+        ],
+        [
+          62.92,
+          -641.279
+        ],
+        [
+          55.132,
+          -670.481
+        ],
+        [
+          47.197,
+          -700.182
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704877",
+          "name": "체육대학",
+          "distance_m": 31.97,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704877",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": 7
+    },
+    {
+      "id": 152,
+      "name": "치과대학(교육동)",
+      "lat": 35.14449,
+      "lon": 126.927637,
+      "east_m": -646.03,
+      "north_m": 196.16,
+      "x": -320.616,
+      "y": -585.671,
+      "z": null,
+      "footprint": [
+        [
+          -289.444,
+          -647.172
+        ],
+        [
+          -277.084,
+          -631.491
+        ],
+        [
+          -314.614,
+          -601.74
+        ],
+        [
+          -316.349,
+          -603.933
+        ],
+        [
+          -319.579,
+          -601.383
+        ],
+        [
+          -299.842,
+          -576.341
+        ],
+        [
+          -318.444,
+          -561.61
+        ],
+        [
+          -345.546,
+          -596.007
+        ],
+        [
+          -338.279,
+          -601.762
+        ],
+        [
+          -336.614,
+          -599.638
+        ],
+        [
+          -327.61,
+          -606.767
+        ],
+        [
+          -328.813,
+          -608.288
+        ],
+        [
+          -323.536,
+          -612.47
+        ],
+        [
+          -327.269,
+          -617.202
+        ],
+        [
+          -319.388,
+          -623.444
+        ],
+        [
+          -289.444,
+          -647.172
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "503476184",
+          "name": "치과대",
+          "distance_m": 23.14,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "503476184",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 139,
+      "name": "치과대학(연구동)",
+      "lat": 35.144244,
+      "lon": 126.927278,
+      "east_m": -678.71,
+      "north_m": 168.87,
+      "x": -300.36,
+      "y": -623.122,
+      "z": null,
+      "footprint": [
+        [
+          -289.444,
+          -647.172
+        ],
+        [
+          -277.084,
+          -631.491
+        ],
+        [
+          -314.614,
+          -601.74
+        ],
+        [
+          -316.349,
+          -603.933
+        ],
+        [
+          -319.579,
+          -601.383
+        ],
+        [
+          -299.842,
+          -576.341
+        ],
+        [
+          -318.444,
+          -561.61
+        ],
+        [
+          -345.546,
+          -596.007
+        ],
+        [
+          -338.279,
+          -601.762
+        ],
+        [
+          -336.614,
+          -599.638
+        ],
+        [
+          -327.61,
+          -606.767
+        ],
+        [
+          -328.813,
+          -608.288
+        ],
+        [
+          -323.536,
+          -612.47
+        ],
+        [
+          -327.269,
+          -617.202
+        ],
+        [
+          -319.388,
+          -623.444
+        ],
+        [
+          -289.444,
+          -647.172
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "503476184",
+          "name": "치과대",
+          "distance_m": 22.13,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "503476184",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 176,
+      "name": "태양에너지실증연구단지",
+      "lat": 35.137319,
+      "lon": 126.928592,
+      "east_m": -559.1,
+      "north_m": -599.46,
+      "x": 476.415,
+      "y": -658.565,
+      "z": null,
+      "footprint": null,
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": []
+    },
+    {
+      "id": 151,
+      "name": "학군단(ROTC)",
+      "lat": 35.137133,
+      "lon": 126.933962,
+      "east_m": -70.27,
+      "north_m": -620.1,
+      "x": 593.771,
+      "y": -183.588,
+      "z": null,
+      "footprint": [
+        [
+          594.393,
+          -219.046
+        ],
+        [
+          597.932,
+          -218.12
+        ],
+        [
+          617.549,
+          -212.995
+        ],
+        [
+          614.999,
+          -203.125
+        ],
+        [
+          607.108,
+          -205.194
+        ],
+        [
+          598.638,
+          -172.426
+        ],
+        [
+          600.874,
+          -171.839
+        ],
+        [
+          596.727,
+          -155.775
+        ],
+        [
+          571.051,
+          -162.477
+        ],
+        [
+          574.416,
+          -175.531
+        ],
+        [
+          579.006,
+          -174.335
+        ],
+        [
+          579.889,
+          -177.737
+        ],
+        [
+          584.707,
+          -176.475
+        ],
+        [
+          592.228,
+          -205.604
+        ],
+        [
+          593.843,
+          -205.179
+        ],
+        [
+          595.396,
+          -211.197
+        ],
+        [
+          592.551,
+          -211.939
+        ],
+        [
+          594.393,
+          -219.046
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704902",
+          "name": "118 학군단",
+          "distance_m": 9.64,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704902",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 145,
+      "name": "학생회관(동아리연합회)",
+      "lat": 35.144275,
+      "lon": 126.933096,
+      "east_m": -149.1,
+      "north_m": 172.31,
+      "x": -198.497,
+      "y": -103.394,
+      "z": null,
+      "footprint": [
+        [
+          -272.104,
+          -101.548
+        ],
+        [
+          -244.587,
+          -105.474
+        ],
+        [
+          -199.157,
+          -111.954
+        ],
+        [
+          -144.628,
+          -119.731
+        ],
+        [
+          -121.754,
+          -122.994
+        ],
+        [
+          -118.644,
+          -101.287
+        ],
+        [
+          -137.302,
+          -98.618
+        ],
+        [
+          -138.745,
+          -108.691
+        ],
+        [
+          -195.34,
+          -100.607
+        ],
+        [
+          -194.233,
+          -92.918
+        ],
+        [
+          -197.555,
+          -92.439
+        ],
+        [
+          -201.033,
+          -91.948
+        ],
+        [
+          -202.141,
+          -99.646
+        ],
+        [
+          -258.114,
+          -91.679
+        ],
+        [
+          -257.019,
+          -83.987
+        ],
+        [
+          -269.342,
+          -82.232
+        ],
+        [
+          -272.104,
+          -101.548
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468706014",
+          "name": "학생회관",
+          "distance_m": 4.15,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468706014",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 148,
+      "name": "항공우주ㆍ선박해양공학관",
+      "lat": 35.137754,
+      "lon": 126.931456,
+      "east_m": -298.39,
+      "north_m": -551.2,
+      "x": 480.917,
+      "y": -393.467,
+      "z": null,
+      "footprint": [
+        [
+          474.334,
+          -397.909
+        ],
+        [
+          494.326,
+          -396.288
+        ],
+        [
+          488.363,
+          -321.118
+        ],
+        [
+          455.696,
+          -323.774
+        ],
+        [
+          456.765,
+          -337.319
+        ],
+        [
+          469.437,
+          -336.293
+        ],
+        [
+          471.411,
+          -361.177
+        ],
+        [
+          474.334,
+          -397.909
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704892",
+          "name": "항공우주 공학관",
+          "distance_m": 35.37,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704892",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": "4",
+      "additional_osm_ids": [
+        "468704895"
+      ]
+    },
+    {
+      "id": 128,
+      "name": "해오름관",
+      "lat": 35.140886,
+      "lon": 126.933033,
+      "east_m": -154.84,
+      "north_m": -203.7,
+      "x": 168.875,
+      "y": -183.729,
+      "z": null,
+      "footprint": [
+        [
+          146.668,
+          -214.252
+        ],
+        [
+          158.734,
+          -215.379
+        ],
+        [
+          159.073,
+          -211.863
+        ],
+        [
+          174.127,
+          -213.271
+        ],
+        [
+          192.614,
+          -215.003
+        ],
+        [
+          192.274,
+          -218.52
+        ],
+        [
+          206.027,
+          -219.813
+        ],
+        [
+          206.345,
+          -216.459
+        ],
+        [
+          211.785,
+          -158.75
+        ],
+        [
+          190.419,
+          -156.759
+        ],
+        [
+          191.191,
+          -148.482
+        ],
+        [
+          168.504,
+          -146.362
+        ],
+        [
+          167.737,
+          -154.612
+        ],
+        [
+          145.139,
+          -152.501
+        ],
+        [
+          143.574,
+          -169.153
+        ],
+        [
+          145.64,
+          -169.349
+        ],
+        [
+          145.041,
+          -175.711
+        ],
+        [
+          146.918,
+          -175.887
+        ],
+        [
+          146.611,
+          -179.187
+        ],
+        [
+          149.244,
+          -179.433
+        ],
+        [
+          146.9,
+          -204.23
+        ],
+        [
+          150.154,
+          -204.537
+        ],
+        [
+          149.553,
+          -210.908
+        ],
+        [
+          147.009,
+          -210.671
+        ],
+        [
+          146.668,
+          -214.252
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468692592",
+          "name": "해오름관",
+          "distance_m": 6.81,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468692592",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": 144,
+      "name": "황금추관(고시원)",
+      "lat": 35.138867,
+      "lon": 126.934483,
+      "east_m": -22.85,
+      "north_m": -427.71,
+      "x": 414.644,
+      "y": -98.88,
+      "z": null,
+      "footprint": [
+        [
+          397.441,
+          -90.089
+        ],
+        [
+          399.716,
+          -91.656
+        ],
+        [
+          398.72,
+          -93.107
+        ],
+        [
+          408.484,
+          -99.833
+        ],
+        [
+          407.936,
+          -100.641
+        ],
+        [
+          412.097,
+          -103.51
+        ],
+        [
+          423.162,
+          -111.14
+        ],
+        [
+          424.178,
+          -110.315
+        ],
+        [
+          433.961,
+          -117.063
+        ],
+        [
+          435.2,
+          -115.252
+        ],
+        [
+          437.772,
+          -117.028
+        ],
+        [
+          441.032,
+          -112.283
+        ],
+        [
+          438.768,
+          -110.719
+        ],
+        [
+          441.965,
+          -106.063
+        ],
+        [
+          404.304,
+          -80.084
+        ],
+        [
+          397.441,
+          -90.089
+        ]
+      ],
+      "height": null,
+      "position_confidence": "official map pin; not survey",
+      "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "include": true,
+      "osm_candidates": [
+        {
+          "osm_id": "468704900",
+          "name": "황금추관",
+          "distance_m": 5.95,
+          "contains_official_pin": true
+        }
+      ],
+      "osm_id": "468704900",
+      "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+      "levels": null
+    },
+    {
+      "id": "cit_1",
+      "name": "조선이공대학교 1호관",
+      "x": 204.774,
+      "y": -368.171,
+      "z": null,
+      "footprint": [
+        [
+          194.409,
+          -410.566
+        ],
+        [
+          220.478,
+          -412.201
+        ],
+        [
+          226.39,
+          -319.107
+        ],
+        [
+          200.097,
+          -317.463
+        ],
+        [
+          199.4,
+          -328.496
+        ],
+        [
+          210.052,
+          -329.169
+        ],
+        [
+          208.083,
+          -360.099
+        ],
+        [
+          199.977,
+          -359.598
+        ],
+        [
+          199.354,
+          -369.428
+        ],
+        [
+          208.107,
+          -369.977
+        ],
+        [
+          206.195,
+          -400.119
+        ],
+        [
+          195.116,
+          -399.433
+        ],
+        [
+          194.409,
+          -410.566
+        ]
+      ],
+      "height": null,
+      "osm_id": "468704884",
+      "levels": 7,
+      "include": true,
+      "source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "position_confidence": "OSM named footprint aligned with official campus tour; not surveyed",
+      "footprint_confidence": "OSM traced outline; official photo/map verified building identity",
+      "institution": "Chosun College of Science and Technology"
+    },
+    {
+      "id": "cit_main",
+      "name": "조선이공대학교 본부동",
+      "x": 257.086,
+      "y": -330.848,
+      "z": null,
+      "footprint": [
+        [
+          239.567,
+          -341.107
+        ],
+        [
+          281.516,
+          -343.705
+        ],
+        [
+          283.098,
+          -316.022
+        ],
+        [
+          241.684,
+          -312.297
+        ],
+        [
+          239.567,
+          -341.107
+        ]
+      ],
+      "height": null,
+      "osm_id": "468704885",
+      "levels": 5,
+      "include": true,
+      "source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "position_confidence": "OSM named footprint aligned with official campus tour; not surveyed",
+      "footprint_confidence": "OSM traced outline; official photo/map verified building identity",
+      "institution": "Chosun College of Science and Technology"
+    },
+    {
+      "id": "cit_3",
+      "name": "조선이공대학교 3호관",
+      "x": 305.256,
+      "y": -356.12,
+      "z": null,
+      "footprint": [
+        [
+          305.473,
+          -410.866
+        ],
+        [
+          326.371,
+          -412.094
+        ],
+        [
+          331.926,
+          -318.807
+        ],
+        [
+          298.285,
+          -316.835
+        ],
+        [
+          297.701,
+          -326.636
+        ],
+        [
+          290.911,
+          -326.235
+        ],
+        [
+          289.749,
+          -345.755
+        ],
+        [
+          297.379,
+          -346.206
+        ],
+        [
+          309.294,
+          -346.903
+        ],
+        [
+          305.473,
+          -410.866
+        ]
+      ],
+      "height": null,
+      "osm_id": "468704886",
+      "levels": 5,
+      "include": true,
+      "source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "position_confidence": "OSM named footprint aligned with official campus tour; not surveyed",
+      "footprint_confidence": "OSM traced outline; official photo/map verified building identity",
+      "institution": "Chosun College of Science and Technology"
+    },
+    {
+      "id": "cit_2",
+      "name": "조선이공대학교 2호관",
+      "x": 307.066,
+      "y": -521.288,
+      "z": null,
+      "footprint": [
+        [
+          304.446,
+          -569.428
+        ],
+        [
+          312.069,
+          -553.327
+        ],
+        [
+          310.151,
+          -551.173
+        ],
+        [
+          314.331,
+          -540.94
+        ],
+        [
+          312.138,
+          -538.414
+        ],
+        [
+          316.626,
+          -528.838
+        ],
+        [
+          330.88,
+          -535.536
+        ],
+        [
+          332.678,
+          -531.693
+        ],
+        [
+          335.513,
+          -525.636
+        ],
+        [
+          322.655,
+          -519.593
+        ],
+        [
+          327.001,
+          -510.332
+        ],
+        [
+          330.307,
+          -511.893
+        ],
+        [
+          334.642,
+          -502.63
+        ],
+        [
+          337.057,
+          -502.72
+        ],
+        [
+          346.444,
+          -482.945
+        ],
+        [
+          307.597,
+          -464.434
+        ],
+        [
+          298.087,
+          -484.481
+        ],
+        [
+          289.085,
+          -480.195
+        ],
+        [
+          284.891,
+          -489.041
+        ],
+        [
+          297.756,
+          -495.161
+        ],
+        [
+          290.001,
+          -511.524
+        ],
+        [
+          281.217,
+          -530.056
+        ],
+        [
+          267.941,
+          -523.732
+        ],
+        [
+          263.572,
+          -532.943
+        ],
+        [
+          272.915,
+          -537.391
+        ],
+        [
+          266.326,
+          -551.297
+        ],
+        [
+          304.446,
+          -569.428
+        ]
+      ],
+      "height": null,
+      "osm_id": "471778462",
+      "levels": 5,
+      "include": true,
+      "source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "position_confidence": "OSM named footprint aligned with official campus tour; not surveyed",
+      "footprint_confidence": "OSM traced outline; official photo/map verified building identity",
+      "institution": "Chosun College of Science and Technology"
+    },
+    {
+      "id": "cit_4",
+      "name": "조선이공대학교 4호관",
+      "x": 356.948,
+      "y": -499.427,
+      "z": null,
+      "footprint": [
+        [
+          373.427,
+          -477.502
+        ],
+        [
+          365.611,
+          -497.847
+        ],
+        [
+          369.254,
+          -499.254
+        ],
+        [
+          365.645,
+          -508.627
+        ],
+        [
+          360.44,
+          -522.182
+        ],
+        [
+          351.042,
+          -518.559
+        ],
+        [
+          345.719,
+          -516.504
+        ],
+        [
+          347.463,
+          -511.982
+        ],
+        [
+          340.017,
+          -509.116
+        ],
+        [
+          343.841,
+          -499.191
+        ],
+        [
+          347.563,
+          -489.488
+        ],
+        [
+          353.232,
+          -491.677
+        ],
+        [
+          360.586,
+          -472.549
+        ],
+        [
+          373.427,
+          -477.502
+        ]
+      ],
+      "height": null,
+      "osm_id": "471778465",
+      "levels": 3,
+      "include": true,
+      "source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "position_confidence": "OSM named footprint aligned with official campus tour; not surveyed",
+      "footprint_confidence": "OSM traced outline; official photo/map verified building identity",
+      "institution": "Chosun College of Science and Technology"
+    }
+  ],
+  "notes": [
+    "Existing model length375m differs from approximately320m OSM main bar; geometry exported in true local meter approximation without stretching. Optional uniform site scale1.15 can better accommodate model; disclose schematic scaling.",
+    "Elevation and most heights unavailable. Terrain must be photographic approximation, not surveyed.",
+    "Official map pin coordinates may be entrances or centers.",
+    "OSM boundary includes associated facilities; include flags omit hospital/school footprints when recognized."
+  ],
+  "geometry_version": 2,
+  "provenance": {
+    "retrieved_utc": "2026-10-08T04:40:00Z",
+    "official_pins": {
+      "source_url": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+      "role": "University-published building names and navigation pin centers. Pins may be centers/entrances; not survey control.",
+      "cached_file": "official_geo.html"
+    },
+    "osm": {
+      "attribution": "© OpenStreetMap contributors",
+      "license": "Open Database License (ODbL) 1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "attribution_url": "https://www.openstreetmap.org/copyright",
+      "source_endpoint": "https://api.openstreetmap.org/api/0.6/map?bbox=126.924,35.134,126.938,35.148",
+      "bbox_lonlat": [
+        126.924,
+        35.134,
+        126.938,
+        35.148
+      ],
+      "cached_file": "osm_map.xml",
+      "role": "Community-traced footprints, roads, paths, landuse, sport areas and campus boundary; no claim of survey accuracy or exhaustive present-day coverage.",
+      "share_alike_note": "Retain OpenStreetMap attribution and comply with ODbL for any distributed derived database."
+    },
+    "geometry": {
+      "role": "Local approximate meter projection; rigid axis orientation estimated by PCA of OSM main building polygon; no surveyed terrain elevations.",
+      "scale": 1,
+      "anchor": "University official main-building pin at 35.142722,126.934734 maps to (0,8.5). Existing modeled facade y0.",
+      "precision_note": "Decimal coordinates aid geometry processing; do not imply positional accuracy."
+    },
+    "height_elevation": {
+      "role": "No measured terrain elevations obtained; height values null unless source tags explicitly contain height/levels. Any rendered massing/floor-derived height or terrain is an illustration and must be labeled estimated."
+    },
+    "photo_reference": {
+      "role": "University photos and campus-map artwork are research references only, copyright retained by owner. Do not redistribute as original art or imply OSM license covers these."
+    }
+  }
+}

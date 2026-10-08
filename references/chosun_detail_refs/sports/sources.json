@@ -1,0 +1,20 @@
+{
+  "researched_utc": "2026-10-08",
+  "sources": [
+    {
+      "page": "https://www3.chosun.ac.kr/chosun/646/subview.do",
+      "image": "https://www3.chosun.ac.kr/sites/chosun/images/contents/museum05.jpg",
+      "local": "official_gym.jpg",
+      "observations": "Official oblique low-angle view: slim rounded eave cornice; continuous band of narrow pointed arch windows below eave; square glazing and tall vertical facade piers. No large central rectangular roof cap visible.",
+      "capture_date": "unknown"
+    },
+    {
+      "page": "https://csu.chosun.ac.kr/campusMap/chosun/132/detailView.do",
+      "image": "https://csu.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802746163100.jpg",
+      "local": "/workspace/shared/chosun_hospital_refs/sports.jpg",
+      "observations": "Existing official aerial photo viewed: broad nearly flat main roof; small elevated translucent roof feature toward rear; low adjoining turquoise roof canopy.",
+      "capture_date": "unknown"
+    }
+  ],
+  "rights": "Reference only; source photos not redistributed with model."
+}

@@ -1,0 +1,4831 @@
+{
+  "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "old_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "before_geometry_source_sha256": "9627e996ab8324068a0e1a17d0cd5ab60a6beba7fc6c0668f49506f8ab012826",
+  "after_geometry_source_sha256": "72e40d2c02e3f423ec1e1277f75fbdb81eae6e035d2c912d7426b7db82eaee74",
+  "mesh_objects_before": 2078,
+  "mesh_objects_after": 2078,
+  "unchanged_mesh_objects": 2076,
+  "changed_mesh_objects": [
+    "CAMPUS_PAVING_EDGE 0",
+    "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey"
+  ],
+  "method": "Per-mesh exact vertex/topology/material-index/transform hashes. Changed polygon world-coordinate symmetric difference (rounded to 1 micrometre). Orthographic projection of each changed-region AABB expanded 100 metres on every axis. Views outside these boxes are unchanged for local geometry and conservative shadow influence. Same PBR v1.1 material and daylight setup module as original render, confirmed by integration owner.",
+  "shadow_margin_m": 100,
+  "regions": [
+    {
+      "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+      "removed_faces": 45,
+      "added_faces": 44,
+      "changed_bbox": {
+        "min": [
+          -185.283615,
+          -208.362152,
+          -31.039755
+        ],
+        "max": [
+          -181.550812,
+          -202.823456,
+          -28.276052
+        ]
+      }
+    },
+    {
+      "object": "CAMPUS_PAVING_EDGE 0",
+      "removed_faces": 6,
+      "added_faces": 2,
+      "changed_bbox": {
+        "min": [
+          413.653351,
+          -112.224342,
+          0.695816
+        ],
+        "max": [
+          422.775665,
+          -106.346649,
+          2.525088
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "index": 1,
+      "name": "미술대학(미술관)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -37.543087005615234,
+              -105.7460708618164,
+              -363.86553955078125
+            ],
+            "max": [
+              238.7104034423828,
+              172.80055236816406,
+              -37.704185485839844
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              536.708740234375,
+              -136.84909057617188,
+              -168.47073364257812
+            ],
+            "max": [
+              817.88330078125,
+              141.68270874023438,
+              160.08551025390625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 2,
+      "name": "중앙도서관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -345.35577392578125,
+              -184.8009033203125,
+              -208.060791015625
+            ],
+            "max": [
+              -60.43083953857422,
+              96.33258056640625,
+              126.04759979248047
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              88.73023986816406,
+              -23.532821655273438,
+              -604.1719970703125
+            ],
+            "max": [
+              378.25640869140625,
+              257.7586364746094,
+              -267.137939453125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 3,
+      "name": "공과대학 제1공학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -15.923494338989258,
+              47.5654182434082,
+              -892.5502319335938
+            ],
+            "max": [
+              248.4789581298828,
+              322.52972412109375,
+              -577.393798828125
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              577.1053466796875,
+              37.63807678222656,
+              -761.6829223632812
+            ],
+            "max": [
+              846.6533813476562,
+              312.4165954589844,
+              -444.6568298339844
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 4,
+      "name": "약학대학 2호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -150.10523986816406,
+              195.17210388183594,
+              -740.1232299804688
+            ],
+            "max": [
+              102.07176208496094,
+              507.44317626953125,
+              -416.0571594238281
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              452.2904357910156,
+              178.7018585205078,
+              -663.898681640625
+            ],
+            "max": [
+              709.7442016601562,
+              491.25830078125,
+              -338.91058349609375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 5,
+      "name": "약학대학 1호관(약학관)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -187.02651977539062,
+              202.44093322753906,
+              -759.082275390625
+            ],
+            "max": [
+              64.39515686035156,
+              514.2799682617188,
+              -435.621337890625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              415.7384033203125,
+              187.84051513671875,
+              -685.4549560546875
+            ],
+            "max": [
+              672.44287109375,
+              499.94921875,
+              -361.09393310546875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 6,
+      "name": "약학대학 3호관(강의동)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -126.76344299316406,
+              172.1705322265625,
+              -700.0465087890625
+            ],
+            "max": [
+              125.02975463867188,
+              484.2220458984375,
+              -376.2879638671875
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              475.8224182128906,
+              156.65245056152344,
+              -625.1445922851562
+            ],
+            "max": [
+              732.8954467773438,
+              468.98138427734375,
+              -300.4751281738281
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 7,
+      "name": "해오름관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -472.54962158203125,
+              -108.53154754638672,
+              -394.4594421386719
+            ],
+            "max": [
+              -201.68983459472656,
+              168.38848876953125,
+              -73.29509735107422
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              111.9555892944336,
+              -129.26754760742188,
+              -230.65762329101562
+            ],
+            "max": [
+              387.8557434082031,
+              147.5546112060547,
+              92.64644622802734
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 8,
+      "name": "IT융합대학",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -612.626220703125,
+              -151.93690490722656,
+              -363.81512451171875
+            ],
+            "max": [
+              -356.5025939941406,
+              120.5116195678711,
+              -56.387428283691406
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -12.509535789489746,
+              -149.64739990234375,
+              -270.1688232421875
+            ],
+            "max": [
+              248.85592651367188,
+              122.51445007324219,
+              38.81863021850586
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 9,
+      "name": "공과대학 제2공학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -678.0690307617188,
+              -78.5213623046875,
+              -562.510498046875
+            ],
+            "max": [
+              -412.3277282714844,
+              196.84902954101562,
+              -246.10667419433594
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -86.55070495605469,
+              -90.58002471923828,
+              -425.1492614746094
+            ],
+            "max": [
+              184.31689453125,
+              184.6220245361328,
+              -106.82218933105469
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 10,
+      "name": "사회과학ㆍ사범대학",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -90.2340316772461,
+              -280.022705078125,
+              -56.53929138183594
+            ],
+            "max": [
+              186.4723358154297,
+              -1.339914083480835,
+              270.0403747558594
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              482.97454833984375,
+              -312.0740966796875,
+              141.74571228027344
+            ],
+            "max": [
+              764.5901489257812,
+              -33.39857482910156,
+              470.743408203125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 11,
+      "name": "체육대학",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -297.5162353515625,
+              158.40951538085938,
+              -811.796142578125
+            ],
+            "max": [
+              -48.794647216796875,
+              468.7035217285156,
+              -490.4994201660156
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              306.408203125,
+              150.36459350585938,
+              -747.274169921875
+            ],
+            "max": [
+              560.4324340820312,
+              460.8731384277344,
+              -425.154541015625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 12,
+      "name": "생명공학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -419.3025817871094,
+              12.321779251098633,
+              -534.3922119140625
+            ],
+            "max": [
+              -178.64157104492188,
+              303.955078125,
+              -226.04518127441406
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              148.32240295410156,
+              139.18063354492188,
+              -710.589599609375
+            ],
+            "max": [
+              394.33209228515625,
+              430.6352844238281,
+              -401.42523193359375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 13,
+      "name": "의과대학 3호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              221.3514404296875,
+              -24.230289459228516,
+              -541.4869384765625
+            ],
+            "max": [
+              450.5688171386719,
+              239.0396728515625,
+              -262.25628662109375
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              391.0223693847656,
+              -175.97535705566406,
+              22.086366653442383
+            ],
+            "max": [
+              621.2445068359375,
+              88.07440948486328,
+              306.1530456542969
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 14,
+      "name": "의과대학 1호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -482.677734375,
+              9.053695678710938,
+              -484.3475036621094
+            ],
+            "max": [
+              -257.4291687011719,
+              305.88262939453125,
+              -181.91183471679688
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              101.88488006591797,
+              128.95034790039062,
+              -598.4325561523438
+            ],
+            "max": [
+              332.5273132324219,
+              425.5614013671875,
+              -295.7796630859375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 15,
+      "name": "의과대학 2호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -404.8423156738281,
+              -250.1144256591797,
+              130.36849975585938
+            ],
+            "max": [
+              -191.5480194091797,
+              8.175405502319336,
+              394.29986572265625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -524.7112426757812,
+              -35.848453521728516,
+              -430.47357177734375
+            ],
+            "max": [
+              -310.86895751953125,
+              223.223876953125,
+              -161.69796752929688
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 16,
+      "name": "실험동물센터",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -368.2064208984375,
+              126.6590576171875,
+              -495.2979736328125
+            ],
+            "max": [
+              -95.17398071289062,
+              467.2276306152344,
+              -166.22828674316406
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              212.5955047607422,
+              7.4336090087890625,
+              -361.8250427246094
+            ],
+            "max": [
+              490.6245422363281,
+              349.50360107421875,
+              -31.834915161132812
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 17,
+      "name": "조선이공대학교 1호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -420.7051086425781,
+              23.147605895996094,
+              -563.3630981445312
+            ],
+            "max": [
+              -147.6776123046875,
+              347.29705810546875,
+              -222.65847778320312
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              160.1058807373047,
+              -54.07444763183594,
+              -402.7394714355469
+            ],
+            "max": [
+              438.1300964355469,
+              270.85888671875,
+              -60.41448974609375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 18,
+      "name": "조선이공대학교 본부동",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -482.502685546875,
+              15.299476623535156,
+              -519.3020629882812
+            ],
+            "max": [
+              -209.400146484375,
+              339.49139404296875,
+              -178.5378875732422
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              98.17109680175781,
+              -62.18893814086914,
+              -358.3082275390625
+            ],
+            "max": [
+              376.26873779296875,
+              262.7890319824219,
+              -15.920719146728516
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 19,
+      "name": "조선이공대학교 3호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -649.3881225585938,
+              -201.20364379882812,
+              -223.232177734375
+            ],
+            "max": [
+              -371.6333312988281,
+              107.23429870605469,
+              117.3935546875
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -171.94491577148438,
+              -0.3593330383300781,
+              -542.8701171875
+            ],
+            "max": [
+              110.69029235839844,
+              308.5911865234375,
+              -200.0993194580078
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 20,
+      "name": "항공우주ㆍ선박해양공학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -247.18917846679688,
+              -454.09686279296875,
+              333.4781799316406
+            ],
+            "max": [
+              -38.215946197509766,
+              -178.56661987304688,
+              610.8941040039062
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -353.927978515625,
+              -150.16844177246094,
+              -186.3739471435547
+            ],
+            "max": [
+              -144.52415466308594,
+              127.02403259277344,
+              95.39533233642578
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 21,
+      "name": "항공우주ㆍ선박해양공학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -570.6998901367188,
+              256.0984802246094,
+              -625.6836547851562
+            ],
+            "max": [
+              -286.49700927734375,
+              605.1309814453125,
+              -289.8973388671875
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -22.088214874267578,
+              70.69317626953125,
+              -440.106689453125
+            ],
+            "max": [
+              266.7543029785156,
+              421.74774169921875,
+              -102.98680877685547
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 22,
+      "name": "글로벌하우스(기숙사)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -803.1510620117188,
+              -141.7037811279297,
+              -468.03411865234375
+            ],
+            "max": [
+              -542.6696166992188,
+              132.0700225830078,
+              -156.53518676757812
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -206.32469177246094,
+              -145.6568145751953,
+              -355.36962890625
+            ],
+            "max": [
+              59.35226058959961,
+              127.88206481933594,
+              -42.1519660949707
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 23,
+      "name": "황금추관(고시원)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -701.802734375,
+              -269.032958984375,
+              -139.52825927734375
+            ],
+            "max": [
+              -480.5638427734375,
+              25.491294860839844,
+              159.6791534423828
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -113.84651184082031,
+              -156.55416870117188,
+              -243.12832641601562
+            ],
+            "max": [
+              112.79073333740234,
+              137.68479919433594,
+              56.20185852050781
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 24,
+      "name": "학군단(ROTC)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -715.6333618164062,
+              -24.22334098815918,
+              -786.552490234375
+            ],
+            "max": [
+              -426.2886657714844,
+              258.1553039550781,
+              -448.6189880371094
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -218.72251892089844,
+              -102.89854431152344,
+              -446.12823486328125
+            ],
+            "max": [
+              74.727294921875,
+              179.82818603515625,
+              -104.68496704101562
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 25,
+      "name": "학생회관(동아리연합회)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -158.2462615966797,
+              -190.03602600097656,
+              -285.5589904785156
+            ],
+            "max": [
+              106.34945678710938,
+              84.9869613647461,
+              29.77756690979004
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              434.57177734375,
+              -200.26800537109375,
+              -153.76368713378906
+            ],
+            "max": [
+              704.310302734375,
+              74.57171630859375,
+              163.45021057128906
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 26,
+      "name": "국제관(언어교육원,인권윤리원)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -245.5623016357422,
+              -112.29823303222656,
+              -334.3323669433594
+            ],
+            "max": [
+              23.335533142089844,
+              164.02838134765625,
+              -14.99101734161377
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              341.8868103027344,
+              -129.5989227294922,
+              -180.99862670898438
+            ],
+            "max": [
+              615.8605346679688,
+              146.60203552246094,
+              140.39703369140625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 27,
+      "name": "솔마루(식당)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -389.31268310546875,
+              -136.68817138671875,
+              -337.3292541503906
+            ],
+            "max": [
+              -110.5727310180664,
+              190.6873016357422,
+              7.89417839050293
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              178.7525177001953,
+              -236.03378295898438,
+              -145.96286010742188
+            ],
+            "max": [
+              462.3438720703125,
+              92.30160522460938,
+              201.12750244140625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 28,
+      "name": "입석홀(식당)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -339.1974182128906,
+              158.39019775390625,
+              -801.6559448242188
+            ],
+            "max": [
+              -94.97457122802734,
+              451.6459045410156,
+              -490.1925964355469
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              223.45773315429688,
+              291.1328125,
+              -989.259033203125
+            ],
+            "max": [
+              473.0111083984375,
+              584.2639770507812,
+              -676.8743286132812
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 29,
+      "name": "조선이공대학교 2호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              235.93649291992188,
+              108.71971130371094,
+              -683.8004150390625
+            ],
+            "max": [
+              455.6495361328125,
+              400.4349060058594,
+              -388.5277099609375
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              288.18707275390625,
+              -219.71730041503906,
+              -173.52163696289062
+            ],
+            "max": [
+              508.62738037109375,
+              74.3749008178711,
+              125.60298156738281
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 30,
+      "name": "조선이공대학교 4호관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -714.2923583984375,
+              -367.8222961425781,
+              -140.34104919433594
+            ],
+            "max": [
+              -426.1305236816406,
+              -16.25124168395996,
+              197.4596710205078
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -408.2947082519531,
+              62.066864013671875,
+              -443.6873779296875
+            ],
+            "max": [
+              -116.44717407226562,
+              416.486083984375,
+              -103.89750671386719
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 31,
+      "name": "백학학사(기숙사)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -263.9878234863281,
+              -78.91781616210938,
+              -432.28729248046875
+            ],
+            "max": [
+              -0.18617895245552063,
+              239.9894256591797,
+              -98.92562103271484
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -862.810791015625,
+              19.12358856201172,
+              -516.826171875
+            ],
+            "max": [
+              -593.8552856445312,
+              338.5750427246094,
+              -182.1798553466797
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 32,
+      "name": "백학학사(기숙사)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -152.9822235107422,
+              -48.907569885253906,
+              -401.01165771484375
+            ],
+            "max": [
+              132.97357177734375,
+              300.8127136230469,
+              -64.6795883178711
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -585.4696044921875,
+              306.5657043457031,
+              -645.4214477539062
+            ],
+            "max": [
+              -296.0791320800781,
+              659.28076171875,
+              -306.9839172363281
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 33,
+      "name": "서석홀(평생교육원,박물관)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -156.8926544189453,
+              -228.34410095214844,
+              -158.0167999267578
+            ],
+            "max": [
+              72.08649444580078,
+              68.81317901611328,
+              144.87884521484375
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              11.993571281433105,
+              -544.1454467773438,
+              334.5702209472656
+            ],
+            "max": [
+              241.97030639648438,
+              -244.6166534423828,
+              641.3101196289062
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 34,
+      "name": "장황남정보통신박물관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -142.57533264160156,
+              -167.9040985107422,
+              -214.22850036621094
+            ],
+            "max": [
+              123.45159912109375,
+              107.55289459228516,
+              102.44132995605469
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              448.6051330566406,
+              -180.4241943359375,
+              -75.46142578125
+            ],
+            "max": [
+              719.754150390625,
+              94.86822509765625,
+              243.14324951171875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 35,
+      "name": "의성관(연구동)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -572.7530517578125,
+              54.74793243408203,
+              -858.8607788085938
+            ],
+            "max": [
+              -341.31866455078125,
+              319.6613464355469,
+              -574.5814208984375
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              5.810851573944092,
+              141.3023681640625,
+              -1023.2957763671875
+            ],
+            "max": [
+              242.62681579589844,
+              405.6734619140625,
+              -738.2421875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 36,
+      "name": "조선대학교 병원",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              403.1364440917969,
+              25.125202178955078,
+              -909.5215454101562
+            ],
+            "max": [
+              633.5648193359375,
+              288.7742919921875,
+              -629.1260375976562
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              576.8132934570312,
+              -126.25263214111328,
+              -347.07440185546875
+            ],
+            "max": [
+              808.2828979492188,
+              138.17552185058594,
+              -61.845245361328125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 37,
+      "name": "조선대학교 치과병원",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              356.3968200683594,
+              -142.86441040039062,
+              -164.06640625
+            ],
+            "max": [
+              592.3001098632812,
+              122.49971771240234,
+              121.59739685058594
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              548.54931640625,
+              -292.4256896972656,
+              392.81353759765625
+            ],
+            "max": [
+              785.6625366210938,
+              -26.287025451660156,
+              683.2971801757812
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 38,
+      "name": "치과대학(교육동)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              233.14657592773438,
+              -263.8348388671875,
+              -88.99075317382812
+            ],
+            "max": [
+              469.4219055175781,
+              39.674598693847656,
+              220.63265991210938
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              228.48023986816406,
+              -608.9226684570312,
+              413.1131896972656
+            ],
+            "max": [
+              465.97723388671875,
+              -302.90618896484375,
+              726.4473876953125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 39,
+      "name": "법과대학",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -201.68499755859375,
+              -380.0657958984375,
+              297.6708068847656
+            ],
+            "max": [
+              69.7842025756836,
+              -103.50947570800781,
+              617.7177734375
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -41.390018463134766,
+              -168.8277587890625,
+              -253.53366088867188
+            ],
+            "max": [
+              232.62026977539062,
+              108.40181732177734,
+              71.02201080322266
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 40,
+      "name": "경상대학",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -734.86572265625,
+              -169.34091186523438,
+              -414.45556640625
+            ],
+            "max": [
+              -457.6651916503906,
+              174.40399169921875,
+              -82.86529541015625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -162.83535766601562,
+              -309.75762939453125,
+              -264.3004150390625
+            ],
+            "max": [
+              119.26105499267578,
+              35.65772247314453,
+              68.34442138671875
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 41,
+      "name": "교내 부속동 1127517085",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -2.5073037147521973,
+              -95.13542938232422,
+              -309.4464416503906
+            ],
+            "max": [
+              260.6138000488281,
+              237.8393096923828,
+              13.597171783447266
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              591.8602905273438,
+              -171.85430908203125,
+              -209.4307098388672
+            ],
+            "max": [
+              860.144287109375,
+              162.27664184570312,
+              114.2593994140625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 42,
+      "name": "교내 부속동 1127517086",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -139.28048706054688,
+              -256.9052734375,
+              -139.39151000976562
+            ],
+            "max": [
+              139.099853515625,
+              73.39950561523438,
+              205.4794921875
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -618.6519775390625,
+              -461.99432373046875,
+              180.48861694335938
+            ],
+            "max": [
+              -335.409423828125,
+              -130.65402221679688,
+              527.1348266601562
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 43,
+      "name": "교내 부속동 1127517087",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -70.60619354248047,
+              -77.4775161743164,
+              -392.3231506347656
+            ],
+            "max": [
+              167.61419677734375,
+              189.51052856445312,
+              -101.67041015625
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              500.1694641113281,
+              16.21822738647461,
+              -578.8974609375
+            ],
+            "max": [
+              743.7491455078125,
+              282.7292785644531,
+              -287.2696838378906
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 44,
+      "name": "교내 부속동 1127517088",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              4.078974723815918,
+              -221.78761291503906,
+              -191.1036376953125
+            ],
+            "max": [
+              239.6131591796875,
+              87.58297729492188,
+              113.20887756347656
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              194.96629333496094,
+              -657.2565307617188,
+              191.63653564453125
+            ],
+            "max": [
+              431.6988830566406,
+              -344.2570495605469,
+              498.5577392578125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 45,
+      "name": "교내 부속동 1127517089",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -12.768086433410645,
+              -131.65658569335938,
+              -294.4679260253906
+            ],
+            "max": [
+              256.5216369628906,
+              172.97329711914062,
+              38.843162536621094
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              574.1205444335938,
+              -175.34439086914062,
+              -144.02871704101562
+            ],
+            "max": [
+              848.4793090820312,
+              129.6029052734375,
+              191.05262756347656
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 46,
+      "name": "교내 부속동 1127517090",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -45.534793853759766,
+              -150.08248901367188,
+              -179.04811096191406
+            ],
+            "max": [
+              195.31271362304688,
+              116.83158874511719,
+              111.37726593017578
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              163.86764526367188,
+              -297.7618408203125,
+              372.0681457519531
+            ],
+            "max": [
+              406.0831604003906,
+              -30.079002380371094,
+              667.2955322265625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 47,
+      "name": "교내 부속동 1127517091",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -57.48860549926758,
+              -190.42807006835938,
+              -231.76931762695312
+            ],
+            "max": [
+              220.78440856933594,
+              138.96482849121094,
+              111.90211486816406
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              315.35211181640625,
+              -457.6007995605469,
+              168.2289276123047
+            ],
+            "max": [
+              596.5191650390625,
+              -125.99488830566406,
+              515.2244873046875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 48,
+      "name": "교내 부속동 1127517105",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              38.587772369384766,
+              -108.80352783203125,
+              -338.1282958984375
+            ],
+            "max": [
+              327.71343994140625,
+              173.45721435546875,
+              -0.5570335388183594
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              512.4276733398438,
+              -197.09230041503906,
+              31.61779022216797
+            ],
+            "max": [
+              805.427734375,
+              85.58537292480469,
+              372.9102783203125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 49,
+      "name": "교내 부속동 1198559652",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -552.8934936523438,
+              -226.57374572753906,
+              -106.3627700805664
+            ],
+            "max": [
+              -263.5630798339844,
+              86.85205841064453,
+              243.8437042236328
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -1038.7200927734375,
+              -28.382286071777344,
+              -422.0041809082031
+            ],
+            "max": [
+              -745.435302734375,
+              286.12835693359375,
+              -68.55343627929688
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 50,
+      "name": "1.8극장(노천극장)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -137.9268341064453,
+              -112.56892395019531,
+              -279.3529968261719
+            ],
+            "max": [
+              103.57090759277344,
+              203.73770141601562,
+              30.463611602783203
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              428.571533203125,
+              76.9233169555664,
+              -390.10308837890625
+            ],
+            "max": [
+              675.4140014648438,
+              393.7733459472656,
+              -80.12631225585938
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 51,
+      "name": "교내 부속동 1201486598",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -615.0609130859375,
+              -347.44110107421875,
+              246.92062377929688
+            ],
+            "max": [
+              -326.2796325683594,
+              -65.30411529541016,
+              584.1115112304688
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -294.97589111328125,
+              -157.81903076171875,
+              -237.1591339111328
+            ],
+            "max": [
+              -2.4032599925994873,
+              124.75735473632812,
+              103.82198333740234
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 52,
+      "name": "교내 부속동 1202050652",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              409.74755859375,
+              -8.423028945922852,
+              -415.7016296386719
+            ],
+            "max": [
+              629.4262084960938,
+              284.9290466308594,
+              -119.43952178955078
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              548.77392578125,
+              -343.7486877441406,
+              73.5382080078125
+            ],
+            "max": [
+              769.1788940429688,
+              -47.872535705566406,
+              373.5335998535156
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 53,
+      "name": "생산교육 실험실습동",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -65.16824340820312,
+              350.904541015625,
+              -660.7360229492188
+            ],
+            "max": [
+              198.49398803710938,
+              684.294921875,
+              -337.3625793457031
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              528.646240234375,
+              272.0677490234375,
+              -559.0534057617188
+            ],
+            "max": [
+              797.4641723632812,
+              606.6317138671875,
+              -235.0196533203125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 54,
+      "name": "창업보육센터",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              191.97413635253906,
+              267.94635009765625,
+              -620.5951538085938
+            ],
+            "max": [
+              480.6399230957031,
+              619.9546508789062,
+              -282.44744873046875
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              655.1593627929688,
+              -22.356719970703125,
+              -352.3896484375
+            ],
+            "max": [
+              947.5940551757812,
+              332.4462890625,
+              -12.295272827148438
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 55,
+      "name": "자동차공학실험실",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -368.0256652832031,
+              150.13638305664062,
+              -798.4120483398438
+            ],
+            "max": [
+              -153.09280395507812,
+              430.0241394042969,
+              -512.6260986328125
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              224.562255859375,
+              238.11227416992188,
+              -899.2415161132812
+            ],
+            "max": [
+              444.8951416015625,
+              517.467041015625,
+              -613.3189697265625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "camera visibility improvement"
+    },
+    {
+      "index": 56,
+      "name": "약초원",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -693.3687744140625,
+              112.51498413085938,
+              -496.0942687988281
+            ],
+            "max": [
+              -408.3468322753906,
+              462.1583251953125,
+              -159.82330322265625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -260.0990905761719,
+              464.6494445800781,
+              -737.123779296875
+            ],
+            "max": [
+              29.5186767578125,
+              816.3666381835938,
+              -399.47808837890625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 57,
+      "name": "건설실험동",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -708.263916015625,
+              -19.519031524658203,
+              -631.9583129882812
+            ],
+            "max": [
+              -420.8569030761719,
+              262.33685302734375,
+              -295.63067626953125
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -299.763671875,
+              149.4024658203125,
+              -1051.8104248046875
+            ],
+            "max": [
+              -7.928955078125,
+              431.49090576171875,
+              -712.327880859375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 58,
+      "name": "교내 부속동 1359353587",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -575.8884887695312,
+              39.408443450927734,
+              -806.46728515625
+            ],
+            "max": [
+              -319.4270935058594,
+              311.9598693847656,
+              -498.7237548828125
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -34.396278381347656,
+              154.1513671875,
+              -1058.2962646484375
+            ],
+            "max": [
+              227.30369567871094,
+              426.4200134277344,
+              -748.98095703125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 59,
+      "name": "교내 부속동 1359353588",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -557.9807739257812,
+              58.76293182373047,
+              -866.1260375976562
+            ],
+            "max": [
+              -311.0140686035156,
+              328.42138671875,
+              -567.269775390625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              0.5181108713150024,
+              162.15936279296875,
+              -1082.7752685546875
+            ],
+            "max": [
+              252.79904174804688,
+              431.42999267578125,
+              -782.6699829101562
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 60,
+      "name": "교내 부속동 1359353590",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -789.5205078125,
+              -4.466667175292969,
+              -511.7286682128906
+            ],
+            "max": [
+              -500.1731872558594,
+              328.70147705078125,
+              -158.39122009277344
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -426.9267883300781,
+              303.82086181640625,
+              -892.1929931640625
+            ],
+            "max": [
+              -133.47592163085938,
+              638.55078125,
+              -536.1455078125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 61,
+      "name": "자연과학관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              356.257080078125,
+              79.31143951416016,
+              -616.3310546875
+            ],
+            "max": [
+              574.7603759765625,
+              370.3165283203125,
+              -322.0530090332031
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              412.4078369140625,
+              -248.9228057861328,
+              -106.33653259277344
+            ],
+            "max": [
+              631.6041259765625,
+              44.45945739746094,
+              191.79364013671875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 62,
+      "name": "그린빌리지(기숙사)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -412.6070556640625,
+              116.17024993896484,
+              -1052.7919921875
+            ],
+            "max": [
+              -134.1080322265625,
+              395.3912658691406,
+              -724.558837890625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              156.11044311523438,
+              80.2105484008789,
+              -842.5952758789062
+            ],
+            "max": [
+              439.4681701660156,
+              359.4552001953125,
+              -511.84906005859375
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 63,
+      "name": "조선대학교 어린이집",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -673.66796875,
+              117.91841125488281,
+              -703.1826782226562
+            ],
+            "max": [
+              -395.16888427734375,
+              445.1582946777344,
+              -358.1492004394531
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -104.95036315917969,
+              19.598003387451172,
+              -513.2410278320312
+            ],
+            "max": [
+              178.40733337402344,
+              347.7897033691406,
+              -166.35189819335938
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 64,
+      "name": "조선대학교병원 장례식장",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -11.300819396972656,
+              112.42012023925781,
+              -1045.291259765625
+            ],
+            "max": [
+              267.1982116699219,
+              391.6411437988281,
+              -717.05810546875
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              557.4166870117188,
+              76.46031188964844,
+              -835.094482421875
+            ],
+            "max": [
+              840.7744750976562,
+              355.70501708984375,
+              -504.3482666015625
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 65,
+      "name": "주차빌딩",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -147.52232360839844,
+              205.70382690429688,
+              -792.6805419921875
+            ],
+            "max": [
+              130.9767303466797,
+              532.9437255859375,
+              -447.64703369140625
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              421.1952209472656,
+              107.38336944580078,
+              -602.7387084960938
+            ],
+            "max": [
+              704.552978515625,
+              435.5750732421875,
+              -255.84957885742188
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 66,
+      "name": "태양에너지실증연구단지",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -488.3979797363281,
+              59.723731994628906,
+              -959.824951171875
+            ],
+            "max": [
+              -209.89898681640625,
+              338.9447326660156,
+              -631.5918579101562
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              80.31953430175781,
+              23.764007568359375,
+              -749.628173828125
+            ],
+            "max": [
+              363.6772766113281,
+              303.0086669921875,
+              -418.88201904296875
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 67,
+      "name": "치과대학(연구동)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": true,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              316.71923828125,
+              -136.38417053222656,
+              -185.97256469726562
+            ],
+            "max": [
+              550.9171752929688,
+              128.445556640625,
+              98.0497817993164
+            ]
+          },
+          "intersects_view": false
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              503.05035400390625,
+              -286.53955078125,
+              372.7283020019531
+            ],
+            "max": [
+              738.405029296875,
+              -20.933650970458984,
+              661.5755004882812
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": false,
+      "reason": "unchanged view region verified"
+    },
+    {
+      "index": 68,
+      "name": "본관",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -390.65069580078125,
+              -211.09487915039062,
+              -553.295654296875
+            ],
+            "max": [
+              -119.41830444335938,
+              59.4135856628418,
+              -235.48880004882812
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              193.25448608398438,
+              -227.01333618164062,
+              -386.86962890625
+            ],
+            "max": [
+              469.5201110839844,
+              43.31373596191406,
+              -66.85274505615234
+            ]
+          },
+          "intersects_view": true
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    },
+    {
+      "index": 69,
+      "name": "교수연구동 (본관 서측 원형 부속동)",
+      "actual_render_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+      "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "same_source": false,
+      "view_outside_all_change_regions_with_100m_margin": false,
+      "regions": [
+        {
+          "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+          "expanded_world_bbox": {
+            "min": [
+              -285.283615,
+              -308.36215200000004,
+              -131.039755
+            ],
+            "max": [
+              -81.55081200000001,
+              -102.823456,
+              71.72394800000001
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              -11.466841697692871,
+              -245.71044921875,
+              -130.08090209960938
+            ],
+            "max": [
+              276.7255859375,
+              49.18748474121094,
+              212.80758666992188
+            ]
+          },
+          "intersects_view": true
+        },
+        {
+          "object": "CAMPUS_PAVING_EDGE 0",
+          "expanded_world_bbox": {
+            "min": [
+              313.653351,
+              -212.22434199999998,
+              -99.304184
+            ],
+            "max": [
+              522.775665,
+              -6.346648999999999,
+              102.525088
+            ]
+          },
+          "camera_space_bbox": {
+            "min": [
+              385.2218322753906,
+              -46.9035530090332,
+              -548.1703491210938
+            ],
+            "max": [
+              677.760009765625,
+              248.50076293945312,
+              -202.16485595703125
+            ]
+          },
+          "intersects_view": false
+        }
+      ],
+      "requires_rerender": true,
+      "reason": "change influence region intersects view"
+    }
+  ],
+  "rerender_indices": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12,
+    13,
+    17,
+    19,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    31,
+    32,
+    33,
+    34,
+    37,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    50,
+    51,
+    52,
+    54,
+    55,
+    63,
+    68,
+    69
+  ],
+  "reusable_indices": [
+    4,
+    7,
+    11,
+    14,
+    15,
+    16,
+    18,
+    20,
+    21,
+    28,
+    30,
+    35,
+    36,
+    38,
+    48,
+    49,
+    53,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    64,
+    65,
+    66,
+    67
+  ],
+  "evidence_files": {
+    "source-geometry-before.json": "210dc9957b814e050e84bbeafe501a7c4d33e1ab4ae446be0d48c41685224142",
+    "source-geometry-after.json": "3622a5dadc51a4ade601a55181dc85f8e2f167b2a60028eb883c45aaabfba195",
+    "source-changed-regions.json": "af8fafba18ffe60f3fc275171a558862faef4d58275242357be1ac7d14317d82",
+    "source-material-equivalence.json": "826c020d69c21cee3d344e85bd099bb0d55c660ccc0226fc99cdac91960d3439"
+  },
+  "current_pbr_module_sha256": "b2ab9cb2fe0d465951113b18cbb49d889b472f9bd66be878dcbb69fded682620",
+  "source_material_equivalence": {
+    "before_count": 199,
+    "after_count": 199,
+    "shader_graphs_identical": true,
+    "verified_directly": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "researched_at": "2026-10-08",
+  "sources": [
+    {
+      "id": "magazine_2025",
+      "url": "https://eng.chosun.ac.kr/sites/chosun/files/2025_%EB%AF%BC%EC%A3%BC%EC%A1%B0%EC%84%A0_%EA%B5%90%EC%A7%80%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%9A%A9.pdf",
+      "publication_date": "2025-10-15",
+      "capture_date": null,
+      "page": 77,
+      "image": "livery2025-000.png",
+      "visually_verified": true,
+      "vehicle": "Hyundai badge visible; exact model/year not established",
+      "view": "front and left side",
+      "colors": [
+        "white upper body",
+        "cobalt blue sweeping lower body and rear quarters",
+        "dark glazing"
+      ],
+      "lettering": [
+        "조선대학교",
+        "CHOSUN UNIVERSITY",
+        "지역과 함께 100년, 학생과 함께 미래로! 조선대학교",
+        "100 years with the region,",
+        "To the future with our students"
+      ]
+    },
+    {
+      "id": "newspaper_1178",
+      "url": "https://www3.chosun.ac.kr/magazine/chnews/175/setupFileDownload.do",
+      "publication_date": "2026-05-11",
+      "capture_date": null,
+      "page": 6,
+      "image": "newsimg-000.png",
+      "visually_verified": true,
+      "view": "rear and small left side of parked bus in background",
+      "colors": [
+        "white upper rear",
+        "broad cobalt blue lower rear"
+      ],
+      "lettering": [
+        "CHOSUN UNIVERSITY"
+      ],
+      "same_vehicle_as_2025": null
+    }
+  ],
+  "model_limitations": [
+    "Right-hand door side mirrored from left; unverified",
+    "Exact make model dimensions not asserted",
+    "2026 entire fleet uniform livery not established",
+    "Reference images not embedded in distributed model"
+  ]
+}

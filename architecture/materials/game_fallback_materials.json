@@ -1,0 +1,890 @@
+{
+  "version": "campus-pbr-1.1",
+  "colorSpace": "linear-sRGB",
+  "materials": {
+    "Brushed aluminium": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.001": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.002": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.003": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.004": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.005": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.006": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.007": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.008": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.009": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminium.010": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.49000000953674316,
+        0.5,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Brushed aluminum": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.5099999904632568,
+        0.550000011920929,
+        0.550000011920929,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • bark": {
+      "profile": "bark",
+      "baseColorLinear": [
+        0.2199999988079071,
+        0.17000000178813934,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.93,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • brick": {
+      "profile": "brick",
+      "baseColorLinear": [
+        0.44999998807907104,
+        0.1899999976158142,
+        0.13500000536441803,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • canopy 0": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.05475000217556953,
+        0.14040000557899476,
+        0.05780000060796738,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • canopy 1": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.08759999804198741,
+        0.18329999953508377,
+        0.07139999777078629,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • canopy 2": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.14600000217556952,
+        0.2340000092983246,
+        0.07139999777078629,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • canopy 3": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.2116999939084053,
+        0.25740001022815706,
+        0.08159999817609788,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • glass blue": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.04950000196695328,
+        0.12349999845027924,
+        0.1656000030040741,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • glass dusk": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.12099999934434892,
+        0.20150000154972078,
+        0.23760000944137571,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • glass green": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.07700000032782556,
+        0.16899999380111694,
+        0.19440000772476196,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • granite paving": {
+      "profile": "paving",
+      "baseColorLinear": [
+        0.5299999713897705,
+        0.5299999713897705,
+        0.47999998927116394,
+        1.0
+      ],
+      "roughness": 0.81,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • hill grass": {
+      "profile": "grass",
+      "baseColorLinear": [
+        0.12349999845027924,
+        0.2029999941587448,
+        0.08059999704360962,
+        1.0
+      ],
+      "roughness": 0.96,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • ivory": {
+      "profile": "white_masonry",
+      "baseColorLinear": [
+        0.6600000262260437,
+        0.6700000166893005,
+        0.6299999952316284,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • light metal": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.7300000190734863,
+        0.7799999713897705,
+        0.7699999809265137,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • limestone": {
+      "profile": "stone",
+      "baseColorLinear": [
+        0.699999988079071,
+        0.6499999761581421,
+        0.5199999809265137,
+        1.0
+      ],
+      "roughness": 0.7,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • playing field": {
+      "profile": "grass",
+      "baseColorLinear": [
+        0.07149999961256981,
+        0.21000000834465027,
+        0.10540000110864639,
+        1.0
+      ],
+      "roughness": 0.96,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • roof membrane": {
+      "profile": "roof",
+      "baseColorLinear": [
+        0.25999999046325684,
+        0.33000001311302185,
+        0.3100000023841858,
+        1.0
+      ],
+      "roughness": 0.79,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • weathered asphalt": {
+      "profile": "asphalt",
+      "baseColorLinear": [
+        0.0949999988079071,
+        0.10999999940395355,
+        0.11999999731779099,
+        1.0
+      ],
+      "roughness": 0.91,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • white trim": {
+      "profile": "white_masonry",
+      "baseColorLinear": [
+        0.79,
+        0.79,
+        0.7799999713897705,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CAMPUS • window frame": {
+      "profile": "painted_metal",
+      "baseColorLinear": [
+        0.23999999463558197,
+        0.30000001192092896,
+        0.3100000023841858,
+        1.0
+      ],
+      "roughness": 0.46,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CIT • buff brick": {
+      "profile": "brick",
+      "baseColorLinear": [
+        0.6399999856948853,
+        0.38999998569488525,
+        0.25,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CIT • green glazed barrel": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.06599999852478505,
+        0.25349999070167545,
+        0.2592000102996826,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CIT • pink stone podium": {
+      "profile": "stone",
+      "baseColorLinear": [
+        0.5799999833106995,
+        0.3700000047683716,
+        0.36000001430511475,
+        1.0
+      ],
+      "roughness": 0.7,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "CIT • salmon metal roof": {
+      "profile": "painted_metal",
+      "baseColorLinear": [
+        0.6000000238418579,
+        0.3400000035762787,
+        0.3199999928474426,
+        1.0
+      ],
+      "roughness": 0.46,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Concrete plinth": {
+      "profile": "concrete",
+      "baseColorLinear": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Concrete plinth.001": {
+      "profile": "concrete",
+      "baseColorLinear": [
+        0.47999998927116394,
+        0.49000000953674316,
+        0.46000000834465027,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Dark cool glass": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.01925000008195639,
+        0.048750001937150955,
+        0.06480000257492065,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Granite plinth | fine grey": {
+      "profile": "stone",
+      "baseColorLinear": [
+        0.3199999928474426,
+        0.3449999988079071,
+        0.3400000035762787,
+        1.0
+      ],
+      "roughness": 0.7,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Green translucent canopy simplified opaque": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.06599999852478505,
+        0.3379999876022339,
+        0.31679999828338623,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Green waterproofing": {
+      "profile": "roof",
+      "baseColorLinear": [
+        0.1599999964237213,
+        0.28999999165534973,
+        0.2199999988079071,
+        1.0
+      ],
+      "roughness": 0.79,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Interior cream plaster": {
+      "profile": "white_masonry",
+      "baseColorLinear": [
+        0.7799999713897705,
+        0.7699999809265137,
+        0.699999988079071,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Pale grey standing seam roof": {
+      "profile": "painted_metal",
+      "baseColorLinear": [
+        0.38999998569488525,
+        0.46000000834465027,
+        0.49000000953674316,
+        1.0
+      ],
+      "roughness": 0.46,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • anodized silver": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.6200000047683716,
+        0.6800000071525574,
+        0.6700000166893005,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • green canopy glazing": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.10449999868869782,
+        0.28599999845027924,
+        0.29519999742507935,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • library roof recreation green": {
+      "profile": "grass",
+      "baseColorLinear": [
+        0.06500000096857549,
+        0.2520000100135803,
+        0.14879999667406082,
+        1.0
+      ],
+      "roughness": 0.96,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • limestone white": {
+      "profile": "stone",
+      "baseColorLinear": [
+        0.7900000214576721,
+        0.800000011920929,
+        0.75,
+        1.0
+      ],
+      "roughness": 0.7,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • oxidized teal glazing": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.07149999737739564,
+        0.2469999969005585,
+        0.28800000429153444,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "PHOTO • pale stone cladding": {
+      "profile": "stone",
+      "baseColorLinear": [
+        0.7599999904632568,
+        0.75,
+        0.6899999976158142,
+        1.0
+      ],
+      "roughness": 0.7,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Rear lower storey | dark red-brown brick": {
+      "profile": "brick",
+      "baseColorLinear": [
+        0.1899999976158142,
+        0.08500000089406967,
+        0.0560000017285347,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • alloy wheels": {
+      "profile": "metal",
+      "baseColorLinear": [
+        0.3799999952316284,
+        0.4000000059604645,
+        0.41999998688697815,
+        1.0
+      ],
+      "roughness": 0.31,
+      "metalness": 0.92,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • asphalt": {
+      "profile": "asphalt",
+      "baseColorLinear": [
+        0.07500000298023224,
+        0.08399999886751175,
+        0.09000000357627869,
+        1.0
+      ],
+      "roughness": 0.91,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • bark": {
+      "profile": "bark",
+      "baseColorLinear": [
+        0.18000000715255737,
+        0.14000000059604645,
+        0.09000000357627869,
+        1.0
+      ],
+      "roughness": 0.93,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • car tinted glass": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.013750000204890967,
+        0.03899999912828207,
+        0.05400000214576721,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • charcoal painted steel": {
+      "profile": "painted_metal",
+      "baseColorLinear": [
+        0.07500000298023224,
+        0.08500000089406967,
+        0.08500000089406967,
+        1.0
+      ],
+      "roughness": 0.46,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • granite curb": {
+      "profile": "paving",
+      "baseColorLinear": [
+        0.6200000047683716,
+        0.6200000047683716,
+        0.5699999928474426,
+        1.0
+      ],
+      "roughness": 0.81,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • leaf 0": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.07664999760687351,
+        0.15600000232458114,
+        0.04556000113487244,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • leaf 1": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.10950000435113906,
+        0.195,
+        0.05711999922990799,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • leaf 2": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.13869999825954438,
+        0.21840000092983247,
+        0.05439999878406525,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • leaf 3": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.07300000108778476,
+        0.14040000557899476,
+        0.06120000243186951,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • leaf 4": {
+      "profile": "foliage",
+      "baseColorLinear": [
+        0.1605999991297722,
+        0.22619999349117278,
+        0.07139999777078629,
+        1.0
+      ],
+      "roughness": 0.86,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • pale concrete": {
+      "profile": "concrete",
+      "baseColorLinear": [
+        0.47999998927116394,
+        0.4699999988079071,
+        0.4300000071525574,
+        1.0
+      ],
+      "roughness": 0.82,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SITE • stair granite": {
+      "profile": "paving",
+      "baseColorLinear": [
+        0.4699999988079071,
+        0.46000000834465027,
+        0.41999998688697815,
+        1.0
+      ],
+      "roughness": 0.81,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Smoky blue green glazing": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.09350000098347665,
+        0.17550000697374343,
+        0.21600000858306884,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "SPORTS • translucent roof lantern": {
+      "profile": "glass",
+      "baseColorLinear": [
+        0.09900000393390657,
+        0.25349999070167545,
+        0.28800000429153444,
+        1.0
+      ],
+      "roughness": 0.16,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Terrazzo light aggregate": {
+      "profile": "paving",
+      "baseColorLinear": [
+        0.4300000071525574,
+        0.4449999928474426,
+        0.4099999964237213,
+        1.0
+      ],
+      "roughness": 0.81,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "Warm white painted masonry": {
+      "profile": "white_masonry",
+      "baseColorLinear": [
+        0.79,
+        0.79,
+        0.7799999713897705,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    },
+    "White projecting cornices and frames": {
+      "profile": "white_masonry",
+      "baseColorLinear": [
+        0.79,
+        0.79,
+        0.79,
+        1.0
+      ],
+      "roughness": 0.72,
+      "metalness": 0,
+      "alphaMode": "OPAQUE",
+      "transmission": 0
+    }
+  }
+}

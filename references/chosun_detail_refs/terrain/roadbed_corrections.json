@@ -1,0 +1,290 @@
+{
+  "graph_kind": "vehicle",
+  "method": "Road-graph pairwise slope projection; road corridor graded; exposed foundations require skirts; original detailed core locked; smooth corridor earthwork",
+  "purpose": "approximate game/model traversability, NOT surveyed road grades",
+  "outside_core_target_grade": 0.14,
+  "locked_core_interface_grade": 0.29,
+  "nodes": 4354,
+  "segments": 4409,
+  "iterations": 2500,
+  "max_node_shift_m": 14.353453109050207,
+  "modified_roads": [
+    {
+      "osm_id": "190176305",
+      "max_abs_height_adjustment_m": 0.2972
+    },
+    {
+      "osm_id": "190176306",
+      "max_abs_height_adjustment_m": 5.6929
+    },
+    {
+      "osm_id": "190176308",
+      "max_abs_height_adjustment_m": 9.511
+    },
+    {
+      "osm_id": "190176316",
+      "max_abs_height_adjustment_m": 0.984
+    },
+    {
+      "osm_id": "190176319",
+      "max_abs_height_adjustment_m": 2.5086
+    },
+    {
+      "osm_id": "190176320",
+      "max_abs_height_adjustment_m": 0.987
+    },
+    {
+      "osm_id": "190176323",
+      "max_abs_height_adjustment_m": 1.656
+    },
+    {
+      "osm_id": "190176324",
+      "max_abs_height_adjustment_m": 1.5817
+    },
+    {
+      "osm_id": "300164463",
+      "max_abs_height_adjustment_m": 1.0636
+    },
+    {
+      "osm_id": "300164464",
+      "max_abs_height_adjustment_m": 1.0892
+    },
+    {
+      "osm_id": "300164484",
+      "max_abs_height_adjustment_m": 0.0875
+    },
+    {
+      "osm_id": "399365556",
+      "max_abs_height_adjustment_m": 0.4188
+    },
+    {
+      "osm_id": "468619563",
+      "max_abs_height_adjustment_m": 0.6971
+    },
+    {
+      "osm_id": "468619564",
+      "max_abs_height_adjustment_m": 0.9353
+    },
+    {
+      "osm_id": "468673479",
+      "max_abs_height_adjustment_m": 1.8379
+    },
+    {
+      "osm_id": "468673480",
+      "max_abs_height_adjustment_m": 1.4478
+    },
+    {
+      "osm_id": "468674928",
+      "max_abs_height_adjustment_m": 1.9942
+    },
+    {
+      "osm_id": "468704904",
+      "max_abs_height_adjustment_m": 4.5252
+    },
+    {
+      "osm_id": "468704905",
+      "max_abs_height_adjustment_m": 7.6401
+    },
+    {
+      "osm_id": "470872959",
+      "max_abs_height_adjustment_m": 2.288
+    },
+    {
+      "osm_id": "470872992",
+      "max_abs_height_adjustment_m": 2.3761
+    },
+    {
+      "osm_id": "470873001",
+      "max_abs_height_adjustment_m": 0.7447
+    },
+    {
+      "osm_id": "471758926",
+      "max_abs_height_adjustment_m": 14.3535
+    },
+    {
+      "osm_id": "471778463",
+      "max_abs_height_adjustment_m": 2.3119
+    },
+    {
+      "osm_id": "474301321",
+      "max_abs_height_adjustment_m": 3.5888
+    },
+    {
+      "osm_id": "474301322",
+      "max_abs_height_adjustment_m": 0.0742
+    },
+    {
+      "osm_id": "479886698",
+      "max_abs_height_adjustment_m": 2.2842
+    },
+    {
+      "osm_id": "479887403",
+      "max_abs_height_adjustment_m": 0.1661
+    },
+    {
+      "osm_id": "479887404",
+      "max_abs_height_adjustment_m": 0.871
+    },
+    {
+      "osm_id": "479887405",
+      "max_abs_height_adjustment_m": 2.8865
+    },
+    {
+      "osm_id": "481110611",
+      "max_abs_height_adjustment_m": 0.9731
+    },
+    {
+      "osm_id": "481110613",
+      "max_abs_height_adjustment_m": 0.9795
+    },
+    {
+      "osm_id": "683118527",
+      "max_abs_height_adjustment_m": 0.9634
+    },
+    {
+      "osm_id": "942433744",
+      "max_abs_height_adjustment_m": 0.7025
+    },
+    {
+      "osm_id": "942433746",
+      "max_abs_height_adjustment_m": 2.0073
+    },
+    {
+      "osm_id": "942433751",
+      "max_abs_height_adjustment_m": 1.6753
+    },
+    {
+      "osm_id": "970315549",
+      "max_abs_height_adjustment_m": 0.0875
+    },
+    {
+      "osm_id": "1190387583",
+      "max_abs_height_adjustment_m": 1.373
+    },
+    {
+      "osm_id": "1190387584",
+      "max_abs_height_adjustment_m": 0.5683
+    },
+    {
+      "osm_id": "1198941231",
+      "max_abs_height_adjustment_m": 0.0625
+    },
+    {
+      "osm_id": "1198945322",
+      "max_abs_height_adjustment_m": 2.5086
+    },
+    {
+      "osm_id": "1200782412",
+      "max_abs_height_adjustment_m": 1.0302
+    },
+    {
+      "osm_id": "1200782415",
+      "max_abs_height_adjustment_m": 2.4576
+    },
+    {
+      "osm_id": "1200820565",
+      "max_abs_height_adjustment_m": 2.4116
+    },
+    {
+      "osm_id": "1200820566",
+      "max_abs_height_adjustment_m": 0.4854
+    },
+    {
+      "osm_id": "1200820575",
+      "max_abs_height_adjustment_m": 1.6513
+    },
+    {
+      "osm_id": "1200820583",
+      "max_abs_height_adjustment_m": 8.8635
+    },
+    {
+      "osm_id": "1202050657",
+      "max_abs_height_adjustment_m": 0.7694
+    },
+    {
+      "osm_id": "1202050667",
+      "max_abs_height_adjustment_m": 1.7713
+    },
+    {
+      "osm_id": "1202054719",
+      "max_abs_height_adjustment_m": 1.558
+    },
+    {
+      "osm_id": "1202054725",
+      "max_abs_height_adjustment_m": 1.7098
+    },
+    {
+      "osm_id": "1202054734",
+      "max_abs_height_adjustment_m": 1.5173
+    },
+    {
+      "osm_id": "1202054735",
+      "max_abs_height_adjustment_m": 1.1666
+    },
+    {
+      "osm_id": "1202054736",
+      "max_abs_height_adjustment_m": 0.6166
+    },
+    {
+      "osm_id": "1204873773",
+      "max_abs_height_adjustment_m": 3.5632
+    },
+    {
+      "osm_id": "1378582150",
+      "max_abs_height_adjustment_m": 2.1856
+    },
+    {
+      "osm_id": "1388264528",
+      "max_abs_height_adjustment_m": 1.3841
+    },
+    {
+      "osm_id": "1388264532",
+      "max_abs_height_adjustment_m": 0.5918
+    },
+    {
+      "osm_id": "1443949792",
+      "max_abs_height_adjustment_m": 0.3374
+    },
+    {
+      "osm_id": "1477333513",
+      "max_abs_height_adjustment_m": 0.3382
+    },
+    {
+      "osm_id": "1485889767",
+      "max_abs_height_adjustment_m": 1.8665
+    },
+    {
+      "osm_id": "1485889768",
+      "max_abs_height_adjustment_m": 0.1022
+    },
+    {
+      "osm_id": "1485889770",
+      "max_abs_height_adjustment_m": 0.2084
+    },
+    {
+      "osm_id": "1485907449",
+      "max_abs_height_adjustment_m": 1.4063
+    },
+    {
+      "osm_id": "1485907450",
+      "max_abs_height_adjustment_m": 0.701
+    },
+    {
+      "osm_id": "1485907451",
+      "max_abs_height_adjustment_m": 1.4063
+    },
+    {
+      "osm_id": "1485907456",
+      "max_abs_height_adjustment_m": 2.3698
+    },
+    {
+      "osm_id": "1485918341",
+      "max_abs_height_adjustment_m": 1.558
+    },
+    {
+      "osm_id": "1485919431",
+      "max_abs_height_adjustment_m": 0.0071
+    }
+  ],
+  "remaining_unlocked_constraint_excess_m": 0.00022301608708041876
+}

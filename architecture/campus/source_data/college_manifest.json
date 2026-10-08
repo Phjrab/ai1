@@ -1,0 +1,2514 @@
+{
+  "college": "조선이공대학교 / Chosun College of Science & Technology",
+  "date_checked": "2026-10-08",
+  "transform": {
+    "origin_lat": 35.142722,
+    "origin_lon": 126.934734,
+    "x_axis_east_north": [
+      0.19870281411851848,
+      -0.9800597898400799
+    ],
+    "y_axis_east_north": [
+      0.9800597898400799,
+      0.19870281411851848
+    ],
+    "offset_y": 8.5,
+    "scale": 1.0,
+    "instructions": "For lat/lon, compute east/north in meters, dot with each axis; add 8.5 to y. Geometry already converted. Keep existing main building and do not extrude OSM main building."
+  },
+  "buildings": [
+    {
+      "osm_id": "468704885",
+      "category": "building",
+      "name": "조선이공대학교 본부동",
+      "tags": {
+        "building": "college",
+        "name": "조선이공대학 본관",
+        "name:ja": "朝鮮理工大学 本館",
+        "name:ko": "조선이공대학 본관"
+      },
+      "points": [
+        [
+          239.567,
+          -341.107
+        ],
+        [
+          281.516,
+          -343.705
+        ],
+        [
+          283.098,
+          -316.022
+        ],
+        [
+          241.684,
+          -312.297
+        ],
+        [
+          239.567,
+          -341.107
+        ]
+      ],
+      "centroid": [
+        257.086,
+        -330.848
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/468704885",
+      "height_m": null,
+      "levels": null,
+      "official_name": "본부동",
+      "floor_count": 5,
+      "basement_floors": 0,
+      "official_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "floor_evidence": "Official public campus directory lists highest above-ground floor; story heights not published",
+      "photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img0.jpg",
+      "photo_file": "/workspace/shared/chosun_college_refs/photo_0.jpg",
+      "illustration_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/cam_0.png",
+      "facade_observations": [
+        "Buff-orange brick side wings",
+        "Broad blue glazed central curtain wall",
+        "Green translucent barrel-vault rooftop with silver ribs",
+        "Semicircular entrance canopy on pale stone piers",
+        "Rectangular side windows, taller narrow upper windows"
+      ],
+      "photo_observation_confidence": "direct visual inspection of official exterior photo; capture date unspecified",
+      "in_existing_56_building_model": false,
+      "model_action": "add previously excluded footprint"
+    },
+    {
+      "osm_id": "468704884",
+      "category": "building",
+      "name": "조선이공대학교 1호관",
+      "tags": {
+        "building": "college",
+        "name": "조선이공대학 1호관",
+        "name:ja": "朝鮮理工大学 1号館",
+        "name:ko": "조선이공대학 1호관"
+      },
+      "points": [
+        [
+          194.409,
+          -410.566
+        ],
+        [
+          220.478,
+          -412.201
+        ],
+        [
+          226.39,
+          -319.107
+        ],
+        [
+          200.097,
+          -317.463
+        ],
+        [
+          199.4,
+          -328.496
+        ],
+        [
+          210.052,
+          -329.169
+        ],
+        [
+          208.083,
+          -360.099
+        ],
+        [
+          199.977,
+          -359.598
+        ],
+        [
+          199.354,
+          -369.428
+        ],
+        [
+          208.107,
+          -369.977
+        ],
+        [
+          206.195,
+          -400.119
+        ],
+        [
+          195.116,
+          -399.433
+        ],
+        [
+          194.409,
+          -410.566
+        ]
+      ],
+      "centroid": [
+        204.774,
+        -368.171
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/468704884",
+      "height_m": null,
+      "levels": null,
+      "official_name": "1호관",
+      "floor_count": 7,
+      "basement_floors": 0,
+      "official_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "floor_evidence": "Official public campus directory lists highest above-ground floor; story heights not published",
+      "photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img1.jpg",
+      "photo_file": "/workspace/shared/chosun_college_refs/photo_1.jpg",
+      "illustration_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/cam_1.png",
+      "facade_observations": [
+        "White/light gray structural grid",
+        "Dark green continuous horizontal window bands",
+        "Pink/brown lower two-floor podium",
+        "Projecting curved green-glass central bay and entrance porch",
+        "Flat green rooftop, visible mechanical equipment; preserve irregular long footprint"
+      ],
+      "photo_observation_confidence": "direct visual inspection of official exterior photo; capture date unspecified",
+      "in_existing_56_building_model": false,
+      "model_action": "add previously excluded footprint"
+    },
+    {
+      "osm_id": "471778462",
+      "category": "building",
+      "name": "조선이공대학교 2호관",
+      "tags": {
+        "building": "university",
+        "name": "조선이공대학 2호관",
+        "name:ja": "朝鮮理工大学 2号館",
+        "name:ko": "조선이공대학 2호관"
+      },
+      "points": [
+        [
+          304.446,
+          -569.428
+        ],
+        [
+          312.069,
+          -553.327
+        ],
+        [
+          310.151,
+          -551.173
+        ],
+        [
+          314.331,
+          -540.94
+        ],
+        [
+          312.138,
+          -538.414
+        ],
+        [
+          316.626,
+          -528.838
+        ],
+        [
+          330.88,
+          -535.536
+        ],
+        [
+          332.678,
+          -531.693
+        ],
+        [
+          335.513,
+          -525.636
+        ],
+        [
+          322.655,
+          -519.593
+        ],
+        [
+          327.001,
+          -510.332
+        ],
+        [
+          330.307,
+          -511.893
+        ],
+        [
+          334.642,
+          -502.63
+        ],
+        [
+          337.057,
+          -502.72
+        ],
+        [
+          346.444,
+          -482.945
+        ],
+        [
+          307.597,
+          -464.434
+        ],
+        [
+          298.087,
+          -484.481
+        ],
+        [
+          289.085,
+          -480.195
+        ],
+        [
+          284.891,
+          -489.041
+        ],
+        [
+          297.756,
+          -495.161
+        ],
+        [
+          290.001,
+          -511.524
+        ],
+        [
+          281.217,
+          -530.056
+        ],
+        [
+          267.941,
+          -523.732
+        ],
+        [
+          263.572,
+          -532.943
+        ],
+        [
+          272.915,
+          -537.391
+        ],
+        [
+          266.326,
+          -551.297
+        ],
+        [
+          304.446,
+          -569.428
+        ]
+      ],
+      "centroid": [
+        307.066,
+        -521.288
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/471778462",
+      "height_m": null,
+      "levels": null,
+      "official_name": "2호관",
+      "floor_count": 5,
+      "basement_floors": 0,
+      "official_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "floor_evidence": "Official public campus directory lists highest above-ground floor; story heights not published",
+      "photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img2.jpg",
+      "photo_file": "/workspace/shared/chosun_college_refs/photo_2.jpg",
+      "illustration_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/cam_2.png",
+      "facade_observations": [
+        "White concrete grid facade with deep rectangular bays",
+        "Large green glazed panes",
+        "Curved projecting central glazed bay",
+        "Flat gray roof with small service structures",
+        "Front entrance canopy on slim supports; preserve stepped multi-wing footprint"
+      ],
+      "photo_observation_confidence": "direct visual inspection of official exterior photo; capture date unspecified",
+      "in_existing_56_building_model": false,
+      "model_action": "add previously excluded footprint"
+    },
+    {
+      "osm_id": "468704886",
+      "category": "building",
+      "name": "조선이공대학교 3호관",
+      "tags": {
+        "building": "college",
+        "name": "조선이공대학 3호관",
+        "name:ja": "朝鮮理工大学 3号館",
+        "name:ko": "조선이공대학 3호관"
+      },
+      "points": [
+        [
+          305.473,
+          -410.866
+        ],
+        [
+          326.371,
+          -412.094
+        ],
+        [
+          331.926,
+          -318.807
+        ],
+        [
+          298.285,
+          -316.835
+        ],
+        [
+          297.701,
+          -326.636
+        ],
+        [
+          290.911,
+          -326.235
+        ],
+        [
+          289.749,
+          -345.755
+        ],
+        [
+          297.379,
+          -346.206
+        ],
+        [
+          309.294,
+          -346.903
+        ],
+        [
+          305.473,
+          -410.866
+        ]
+      ],
+      "centroid": [
+        305.256,
+        -356.12
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/468704886",
+      "height_m": null,
+      "levels": null,
+      "official_name": "3호관",
+      "floor_count": 5,
+      "basement_floors": 1,
+      "official_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "floor_evidence": "Official public campus directory lists highest above-ground floor; story heights not published",
+      "photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img3.jpg",
+      "photo_file": "/workspace/shared/chosun_college_refs/photo_3.jpg",
+      "illustration_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/cam_3.png",
+      "facade_observations": [
+        "Pink-brown brick facade",
+        "Thin white horizontal floor bands",
+        "Continuous rows of green-framed rectangular windows",
+        "Long salmon-pink pitched roof",
+        "Broad green rectangular entrance canopy on white cylindrical columns"
+      ],
+      "photo_observation_confidence": "direct visual inspection of official exterior photo; capture date unspecified",
+      "in_existing_56_building_model": false,
+      "model_action": "add previously excluded footprint"
+    },
+    {
+      "osm_id": "471778465",
+      "category": "building",
+      "name": "조선이공대학교 4호관",
+      "tags": {
+        "building": "university",
+        "name": "조선이공대학 4호관",
+        "name:ja": "朝鮮理工大学 4号館",
+        "name:ko": "조선이공대학 4호관"
+      },
+      "points": [
+        [
+          373.427,
+          -477.502
+        ],
+        [
+          365.611,
+          -497.847
+        ],
+        [
+          369.254,
+          -499.254
+        ],
+        [
+          365.645,
+          -508.627
+        ],
+        [
+          360.44,
+          -522.182
+        ],
+        [
+          351.042,
+          -518.559
+        ],
+        [
+          345.719,
+          -516.504
+        ],
+        [
+          347.463,
+          -511.982
+        ],
+        [
+          340.017,
+          -509.116
+        ],
+        [
+          343.841,
+          -499.191
+        ],
+        [
+          347.563,
+          -489.488
+        ],
+        [
+          353.232,
+          -491.677
+        ],
+        [
+          360.586,
+          -472.549
+        ],
+        [
+          373.427,
+          -477.502
+        ]
+      ],
+      "centroid": [
+        356.948,
+        -499.427
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/471778465",
+      "height_m": null,
+      "levels": null,
+      "official_name": "4호관",
+      "floor_count": 3,
+      "basement_floors": 1,
+      "official_source": "https://www.cst.ac.kr/page/?mn=952&site=basic",
+      "floor_evidence": "Official public campus directory lists highest above-ground floor; story heights not published",
+      "photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img4.jpg",
+      "photo_file": "/workspace/shared/chosun_college_refs/photo_4.jpg",
+      "illustration_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/cam_4.png",
+      "facade_observations": [
+        "Red brick facade",
+        "Thin continuous white horizontal bands",
+        "Green-framed windows in rows",
+        "Broad gray hip/gable roof",
+        "Taller rear gabled hall volume; lower foreground wing three occupied floors"
+      ],
+      "photo_observation_confidence": "direct visual inspection of official exterior photo; capture date unspecified",
+      "in_existing_56_building_model": false,
+      "model_action": "add previously excluded footprint"
+    }
+  ],
+  "roads": [
+    {
+      "osm_id": "470872959",
+      "category": "road",
+      "name": "조선이공대길",
+      "tags": {
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "조선이공대길",
+        "name:en": "Chosunigongdae-gil",
+        "name:ko": "조선이공대길",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          131.932,
+          -424.964
+        ],
+        [
+          155.75,
+          -427.425
+        ],
+        [
+          168.321,
+          -428.348
+        ],
+        [
+          221.9,
+          -430.982
+        ],
+        [
+          224.825,
+          -431.129
+        ],
+        [
+          232.508,
+          -430.253
+        ],
+        [
+          285.021,
+          -424.246
+        ],
+        [
+          287.416,
+          -424.379
+        ],
+        [
+          331.714,
+          -428.512
+        ],
+        [
+          434.707,
+          -445.056
+        ],
+        [
+          456.287,
+          -451.019
+        ],
+        [
+          458.369,
+          -461.742
+        ],
+        [
+          485.547,
+          -517.203
+        ],
+        [
+          489.152,
+          -522.318
+        ],
+        [
+          498.084,
+          -531.141
+        ]
+      ],
+      "centroid": [
+        324.102,
+        -451.914
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/470872959",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "470872992",
+      "category": "road",
+      "name": "조선이공대길",
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "조선이공대길",
+        "name:en": "Chosunigongdae-gil",
+        "name:ko": "조선이공대길",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          331.714,
+          -428.512
+        ],
+        [
+          338.775,
+          -319.815
+        ],
+        [
+          339.933,
+          -301.928
+        ]
+      ],
+      "centroid": [
+        336.807,
+        -350.085
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/470872992",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "471778463",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          214.882,
+          -569.177
+        ],
+        [
+          217.282,
+          -552.202
+        ],
+        [
+          221.468,
+          -529.487
+        ],
+        [
+          233.973,
+          -502.263
+        ],
+        [
+          248.468,
+          -482.641
+        ],
+        [
+          263.673,
+          -471.244
+        ],
+        [
+          266.438,
+          -470.003
+        ],
+        [
+          271.506,
+          -467.733
+        ],
+        [
+          279.063,
+          -465.188
+        ],
+        [
+          288.651,
+          -463.073
+        ],
+        [
+          295.052,
+          -461.928
+        ],
+        [
+          316.787,
+          -465.285
+        ],
+        [
+          331.787,
+          -471.372
+        ],
+        [
+          349.555,
+          -480.613
+        ],
+        [
+          343.121,
+          -498.386
+        ],
+        [
+          338.825,
+          -510.416
+        ],
+        [
+          340.116,
+          -515.777
+        ],
+        [
+          339.92,
+          -520.595
+        ]
+      ],
+      "centroid": [
+        286.698,
+        -494.299
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/471778463",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "479887404",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          320.345,
+          -626.021
+        ],
+        [
+          322.337,
+          -616.533
+        ],
+        [
+          320.195,
+          -586.786
+        ],
+        [
+          319.605,
+          -580.146
+        ],
+        [
+          320.294,
+          -572.001
+        ],
+        [
+          321.329,
+          -566.396
+        ],
+        [
+          323.003,
+          -560.485
+        ],
+        [
+          334.911,
+          -533.075
+        ],
+        [
+          339.92,
+          -520.595
+        ]
+      ],
+      "centroid": [
+        324.66,
+        -573.56
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/479887404",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "942433744",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          287.758,
+          -297.452
+        ],
+        [
+          284.556,
+          -347.08
+        ],
+        [
+          294.062,
+          -348.273
+        ],
+        [
+          292.095,
+          -370.816
+        ],
+        [
+          291.415,
+          -378.638
+        ],
+        [
+          287.416,
+          -424.379
+        ]
+      ],
+      "centroid": [
+        289.55,
+        -361.106
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/942433744",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "942433746",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          232.508,
+          -430.253
+        ],
+        [
+          229.896,
+          -446.21
+        ],
+        [
+          230.762,
+          -455.395
+        ],
+        [
+          233.442,
+          -458.483
+        ],
+        [
+          236.162,
+          -460.419
+        ],
+        [
+          238.966,
+          -460.773
+        ],
+        [
+          241.918,
+          -460.229
+        ],
+        [
+          245.626,
+          -458.408
+        ],
+        [
+          256.179,
+          -449.189
+        ],
+        [
+          262.822,
+          -444.117
+        ],
+        [
+          268.674,
+          -442.053
+        ],
+        [
+          280.54,
+          -441.542
+        ],
+        [
+          287.978,
+          -442.382
+        ],
+        [
+          291.952,
+          -444.441
+        ],
+        [
+          294.685,
+          -448.441
+        ],
+        [
+          295.593,
+          -454.514
+        ],
+        [
+          295.052,
+          -461.928
+        ]
+      ],
+      "centroid": [
+        260.162,
+        -450.516
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/942433746",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569923",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "points": [
+        [
+          334.911,
+          -533.075
+        ],
+        [
+          332.678,
+          -531.693
+        ]
+      ],
+      "centroid": [
+        333.794,
+        -532.384
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569923",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569924",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          343.121,
+          -498.386
+        ],
+        [
+          343.841,
+          -499.191
+        ]
+      ],
+      "centroid": [
+        343.481,
+        -498.788
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569924",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569942",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "points": [
+        [
+          159.484,
+          -558.818
+        ],
+        [
+          164.691,
+          -547.094
+        ]
+      ],
+      "centroid": [
+        162.088,
+        -552.956
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569942",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569949",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "points": [
+        [
+          227.203,
+          -365.35
+        ],
+        [
+          240.657,
+          -366.387
+        ],
+        [
+          274.361,
+          -369.282
+        ],
+        [
+          292.095,
+          -370.816
+        ]
+      ],
+      "centroid": [
+        258.579,
+        -367.959
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569949",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569951",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "compacted"
+      },
+      "points": [
+        [
+          318.162,
+          -283.842
+        ],
+        [
+          339.933,
+          -301.928
+        ]
+      ],
+      "centroid": [
+        329.048,
+        -292.885
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569951",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "944569956",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "points": [
+        [
+          167.126,
+          -511.856
+        ],
+        [
+          183.886,
+          -516.016
+        ]
+      ],
+      "centroid": [
+        175.506,
+        -513.936
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/944569956",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1190387582",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          138.38,
+          -358.71
+        ],
+        [
+          191.448,
+          -362.689
+        ],
+        [
+          194.493,
+          -333.714
+        ],
+        [
+          193.766,
+          -318.706
+        ],
+        [
+          153.178,
+          -315.428
+        ]
+      ],
+      "centroid": [
+        174.253,
+        -337.849
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1190387582",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1190387583",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          191.448,
+          -362.689
+        ],
+        [
+          186.063,
+          -401.592
+        ],
+        [
+          180.021,
+          -401.295
+        ],
+        [
+          178.806,
+          -412.984
+        ],
+        [
+          157.54,
+          -411.227
+        ],
+        [
+          155.75,
+          -427.425
+        ]
+      ],
+      "centroid": [
+        174.938,
+        -402.869
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1190387583",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1190387584",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      },
+      "points": [
+        [
+          180.021,
+          -401.295
+        ],
+        [
+          158.617,
+          -399.826
+        ],
+        [
+          157.54,
+          -411.227
+        ]
+      ],
+      "centroid": [
+        165.393,
+        -404.116
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1190387584",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485889767",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          224.825,
+          -431.129
+        ],
+        [
+          237.505,
+          -411.195
+        ],
+        [
+          237.789,
+          -407.166
+        ],
+        [
+          240.657,
+          -366.387
+        ],
+        [
+          241.874,
+          -349.497
+        ],
+        [
+          276.117,
+          -352.13
+        ],
+        [
+          278.201,
+          -352.293
+        ],
+        [
+          284.556,
+          -347.08
+        ]
+      ],
+      "centroid": [
+        252.69,
+        -377.11
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485889767",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485889768",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          276.117,
+          -352.13
+        ],
+        [
+          274.361,
+          -369.282
+        ],
+        [
+          273.579,
+          -376.824
+        ],
+        [
+          291.415,
+          -378.638
+        ]
+      ],
+      "centroid": [
+        278.868,
+        -369.219
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485889768",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485889770",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          241.874,
+          -349.497
+        ],
+        [
+          236.624,
+          -345.461
+        ],
+        [
+          239.839,
+          -316.818
+        ],
+        [
+          237.2,
+          -310.013
+        ],
+        [
+          228.782,
+          -299.548
+        ],
+        [
+          227.038,
+          -292.238
+        ]
+      ],
+      "centroid": [
+        235.226,
+        -318.929
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485889770",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907448",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "footway"
+      },
+      "points": [
+        [
+          282.461,
+          -508.62
+        ],
+        [
+          290.001,
+          -511.524
+        ]
+      ],
+      "centroid": [
+        286.231,
+        -510.072
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907448",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907449",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "points": [
+        [
+          295.052,
+          -461.928
+        ],
+        [
+          284.219,
+          -484.818
+        ],
+        [
+          277.733,
+          -492.968
+        ],
+        [
+          276.147,
+          -496.157
+        ],
+        [
+          264.697,
+          -519.294
+        ],
+        [
+          259.234,
+          -530.326
+        ]
+      ],
+      "centroid": [
+        276.18,
+        -497.582
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907449",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907450",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "points": [
+        [
+          264.697,
+          -519.294
+        ],
+        [
+          275.615,
+          -524.127
+        ],
+        [
+          282.461,
+          -508.62
+        ],
+        [
+          286.026,
+          -500.529
+        ],
+        [
+          276.147,
+          -496.157
+        ]
+      ],
+      "centroid": [
+        276.989,
+        -509.745
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907450",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907451",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service",
+        "service": "parking_aisle"
+      },
+      "points": [
+        [
+          266.438,
+          -470.003
+        ],
+        [
+          270.907,
+          -475.766
+        ],
+        [
+          276.601,
+          -481.407
+        ],
+        [
+          284.219,
+          -484.818
+        ]
+      ],
+      "centroid": [
+        274.541,
+        -477.998
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907451",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907456",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          221.9,
+          -430.982
+        ],
+        [
+          220.362,
+          -445.215
+        ],
+        [
+          200.4,
+          -470.193
+        ],
+        [
+          193.692,
+          -472.065
+        ],
+        [
+          186.634,
+          -469.52
+        ],
+        [
+          171.879,
+          -458.429
+        ],
+        [
+          167.311,
+          -459.184
+        ],
+        [
+          137.826,
+          -495.448
+        ],
+        [
+          127.548,
+          -509.293
+        ],
+        [
+          130.851,
+          -512.266
+        ],
+        [
+          111.017,
+          -538.45
+        ]
+      ],
+      "centroid": [
+        169.947,
+        -478.277
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907456",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485919429",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          358.372,
+          -321.986
+        ],
+        [
+          358.901,
+          -316.418
+        ]
+      ],
+      "centroid": [
+        358.637,
+        -319.202
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485919429",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485919430",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          358.372,
+          -321.986
+        ],
+        [
+          356.149,
+          -345.628
+        ]
+      ],
+      "centroid": [
+        357.26,
+        -333.807
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485919430",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485919431",
+      "category": "road",
+      "name": "",
+      "tags": {
+        "highway": "service"
+      },
+      "points": [
+        [
+          338.775,
+          -319.815
+        ],
+        [
+          358.372,
+          -321.986
+        ]
+      ],
+      "centroid": [
+        348.573,
+        -320.9
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485919431",
+      "height_m": null,
+      "levels": null
+    }
+  ],
+  "landscape_and_parking": [
+    {
+      "osm_id": "970314418",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "points": [
+        [
+          155.558,
+          -423.122
+        ],
+        [
+          179.921,
+          -425.406
+        ],
+        [
+          182.483,
+          -398.256
+        ],
+        [
+          194.849,
+          -399.407
+        ],
+        [
+          197.134,
+          -375.183
+        ],
+        [
+          189.38,
+          -374.456
+        ],
+        [
+          190.905,
+          -358.39
+        ],
+        [
+          197.871,
+          -359.041
+        ],
+        [
+          200.019,
+          -336.274
+        ],
+        [
+          191.086,
+          -335.439
+        ],
+        [
+          189.007,
+          -357.476
+        ],
+        [
+          187.987,
+          -368.313
+        ],
+        [
+          185.482,
+          -394.851
+        ],
+        [
+          158.462,
+          -392.327
+        ],
+        [
+          155.558,
+          -423.122
+        ]
+      ],
+      "centroid": [
+        183.713,
+        -381.404
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/970314418",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "970314419",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "points": [
+        [
+          148.561,
+          -325.693
+        ],
+        [
+          165.949,
+          -327.314
+        ],
+        [
+          184.823,
+          -329.088
+        ],
+        [
+          185.724,
+          -319.453
+        ],
+        [
+          195.067,
+          -320.326
+        ],
+        [
+          195.963,
+          -310.885
+        ],
+        [
+          150.356,
+          -306.617
+        ],
+        [
+          148.561,
+          -325.693
+        ]
+      ],
+      "centroid": [
+        171.875,
+        -320.634
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/970314419",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "970315550",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "points": [
+        [
+          245.415,
+          -363.581
+        ],
+        [
+          273.094,
+          -365.7
+        ],
+        [
+          274.054,
+          -353.207
+        ],
+        [
+          246.383,
+          -351.099
+        ],
+        [
+          245.415,
+          -363.581
+        ]
+      ],
+      "centroid": [
+        256.872,
+        -359.434
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/970315550",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "970315551",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "points": [
+        [
+          330.245,
+          -425.873
+        ],
+        [
+          330.748,
+          -418.48
+        ],
+        [
+          290.524,
+          -415.749
+        ],
+        [
+          292.986,
+          -379.876
+        ],
+        [
+          282.78,
+          -379.181
+        ],
+        [
+          279.804,
+          -422.446
+        ],
+        [
+          330.245,
+          -425.873
+        ]
+      ],
+      "centroid": [
+        305.333,
+        -409.64
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/970315551",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1190387579",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "leisure": "pitch",
+        "sport": "basketball"
+      },
+      "points": [
+        [
+          370.679,
+          -332.924
+        ],
+        [
+          402.556,
+          -336.118
+        ],
+        [
+          404.419,
+          -317.715
+        ],
+        [
+          372.542,
+          -314.521
+        ],
+        [
+          370.679,
+          -332.924
+        ]
+      ],
+      "centroid": [
+        384.175,
+        -326.84
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1190387579",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1190387580",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "surface"
+      },
+      "points": [
+        [
+          347.539,
+          -346.883
+        ],
+        [
+          363.887,
+          -347.94
+        ],
+        [
+          367.542,
+          -314.334
+        ],
+        [
+          363.201,
+          -312.126
+        ],
+        [
+          357.567,
+          -311.494
+        ],
+        [
+          352.135,
+          -316.681
+        ],
+        [
+          348.885,
+          -316.124
+        ],
+        [
+          347.539,
+          -346.883
+        ]
+      ],
+      "centroid": [
+        356.037,
+        -326.558
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1190387580",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907447",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "landuse": "forest"
+      },
+      "points": [
+        [
+          383.529,
+          -498.981
+        ],
+        [
+          377.076,
+          -472.01
+        ],
+        [
+          350.676,
+          -460.174
+        ],
+        [
+          346.185,
+          -474.338
+        ],
+        [
+          307.833,
+          -459.587
+        ],
+        [
+          311.815,
+          -433.858
+        ],
+        [
+          347.453,
+          -438.102
+        ],
+        [
+          361.168,
+          -435.394
+        ],
+        [
+          399.953,
+          -442.765
+        ],
+        [
+          440.544,
+          -450.493
+        ],
+        [
+          443.735,
+          -453.295
+        ],
+        [
+          404.305,
+          -455.582
+        ],
+        [
+          391.884,
+          -463.299
+        ],
+        [
+          400.097,
+          -485.269
+        ],
+        [
+          402.782,
+          -493.411
+        ],
+        [
+          383.529,
+          -498.981
+        ]
+      ],
+      "centroid": [
+        378.285,
+        -463.471
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907447",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907452",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "landuse": "grass"
+      },
+      "points": [
+        [
+          191.086,
+          -335.439
+        ],
+        [
+          191.622,
+          -329.724
+        ],
+        [
+          184.823,
+          -329.088
+        ],
+        [
+          165.949,
+          -327.314
+        ],
+        [
+          163.332,
+          -355.075
+        ],
+        [
+          189.007,
+          -357.476
+        ],
+        [
+          191.086,
+          -335.439
+        ]
+      ],
+      "centroid": [
+        182.415,
+        -338.508
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907452",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907453",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "landuse": "grass"
+      },
+      "points": [
+        [
+          158.462,
+          -392.327
+        ],
+        [
+          160.969,
+          -365.779
+        ],
+        [
+          187.987,
+          -368.313
+        ],
+        [
+          185.482,
+          -394.851
+        ],
+        [
+          158.462,
+          -392.327
+        ]
+      ],
+      "centroid": [
+        170.272,
+        -382.719
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907453",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907473",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          236.679,
+          -303.536
+        ],
+        [
+          283.367,
+          -308.386
+        ]
+      ],
+      "centroid": [
+        260.023,
+        -305.961
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907473",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907474",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          143.167,
+          -347.104
+        ],
+        [
+          144.928,
+          -305.359
+        ],
+        [
+          153.61,
+          -299.893
+        ],
+        [
+          168.389,
+          -297.409
+        ],
+        [
+          223.501,
+          -302.982
+        ],
+        [
+          232.178,
+          -313.454
+        ]
+      ],
+      "centroid": [
+        177.629,
+        -311.034
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907474",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907478",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "landuse": "forest"
+      },
+      "points": [
+        [
+          223.321,
+          -548.829
+        ],
+        [
+          233.441,
+          -519.738
+        ],
+        [
+          236.586,
+          -521.369
+        ],
+        [
+          259.766,
+          -533.174
+        ],
+        [
+          246.046,
+          -561.034
+        ],
+        [
+          223.321,
+          -548.829
+        ]
+      ],
+      "centroid": [
+        237.08,
+        -538.829
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907478",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907479",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          271.549,
+          -486.113
+        ],
+        [
+          264.718,
+          -479.992
+        ],
+        [
+          249.582,
+          -495.239
+        ],
+        [
+          236.586,
+          -521.369
+        ]
+      ],
+      "centroid": [
+        255.609,
+        -495.678
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907479",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907480",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          236.622,
+          -421.353
+        ],
+        [
+          242.131,
+          -410.767
+        ],
+        [
+          245.397,
+          -389.129
+        ]
+      ],
+      "centroid": [
+        241.383,
+        -407.083
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907480",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907481",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          267.036,
+          -418.306
+        ],
+        [
+          270.753,
+          -384.062
+        ]
+      ],
+      "centroid": [
+        268.894,
+        -401.184
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907481",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907482",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          229.035,
+          -401.88
+        ],
+        [
+          232.794,
+          -374.74
+        ]
+      ],
+      "centroid": [
+        230.915,
+        -388.31
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907482",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907483",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          175.005,
+          -421.567
+        ],
+        [
+          215.788,
+          -422.488
+        ],
+        [
+          227.895,
+          -411.745
+        ]
+      ],
+      "centroid": [
+        206.229,
+        -418.6
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907483",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907484",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          277.588,
+          -420.817
+        ],
+        [
+          280.213,
+          -382.738
+        ]
+      ],
+      "centroid": [
+        278.901,
+        -401.778
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907484",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907490",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "landuse": "forest"
+      },
+      "points": [
+        [
+          205.815,
+          -480.504
+        ],
+        [
+          198.314,
+          -475.621
+        ],
+        [
+          214.085,
+          -455.404
+        ],
+        [
+          221.586,
+          -452.689
+        ],
+        [
+          226.125,
+          -465.814
+        ],
+        [
+          238.375,
+          -469.05
+        ],
+        [
+          256.837,
+          -458.842
+        ],
+        [
+          260.973,
+          -465.412
+        ],
+        [
+          245.559,
+          -477.723
+        ],
+        [
+          231.513,
+          -496.805
+        ],
+        [
+          229.884,
+          -495.741
+        ],
+        [
+          221.432,
+          -490.191
+        ],
+        [
+          205.815,
+          -480.504
+        ]
+      ],
+      "centroid": [
+        227.409,
+        -474.177
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907490",
+      "height_m": null,
+      "levels": null
+    },
+    {
+      "osm_id": "1485907491",
+      "category": "area",
+      "name": "",
+      "tags": {
+        "natural": "tree_row"
+      },
+      "points": [
+        [
+          197.74,
+          -561.708
+        ],
+        [
+          208.847,
+          -553.492
+        ],
+        [
+          213.075,
+          -530.182
+        ],
+        [
+          219.909,
+          -512.387
+        ],
+        [
+          227.448,
+          -499.714
+        ],
+        [
+          229.884,
+          -495.741
+        ]
+      ],
+      "centroid": [
+        216.15,
+        -525.537
+      ],
+      "include": true,
+      "source": "https://www.openstreetmap.org/way/1485907491",
+      "height_m": null,
+      "levels": null
+    }
+  ],
+  "official_map_url": "https://www.cst.ac.kr/pages/ipsi/img/sub/s1_7_2_img.jpg",
+  "official_map_file": "/workspace/shared/chosun_college_refs/map.jpg",
+  "official_linked_streetviews": [
+    [
+      "https://map.naver.com/v5/?c=14129912.5717414,4182997.2636492,16,0,0,0,dh&p=LlNn5NCWWNrpt_hrwJI7ZA,167.17,6.65,80,Float",
+      "거리뷰(파노라마) 보기"
+    ],
+    [
+      "https://map.naver.com/v5/?c=14129944.8186127,4182884.9967639,16,0,0,0,dh&p=Y5zXoVm99K2nl84JzNHkXg,69.38,15.39,80,Float",
+      "본부동"
+    ],
+    [
+      "https://map.naver.com/v5/?c=14129912.5717414,4182997.2636492,16,0,0,0,dh&p=LlNn5NCWWNrpt_hrwJI7ZA,167.17,6.65,80,Float",
+      "1호관"
+    ],
+    [
+      "https://map.naver.com/v5/?c=14129756.1146991,4182839.6122784,16,0,0,0,dh&p=lR1Ylq2l0nJo-6Zp4Sz2XQ,155.32,7.2,80,Float",
+      "2호관"
+    ],
+    [
+      "https://map.naver.com/v5/?c=14129947.2072698,4182853.9442212,16,0,0,0,dh&p=O7QhVbv49hv44c8-npxyig,-162.49,5.29,80,Float",
+      "3호관"
+    ],
+    [
+      "https://map.naver.com/v5/?c=14129814.6367989,4182767.9525643,16,0,0,0,dh&p=WNDX513qXAPF_AwqSOdiOg,-166.12,-2.12,80,Float",
+      "4호관"
+    ]
+  ],
+  "warnings": [
+    "Five college buildings were excluded, not anonymous masses already in existing 56-building model. Add each existing OSM footprint exactly once.",
+    "Suppress grouped Chosun University map markers 169 and 170; marker 169 name conflates 1 and 3 but actually points into HQ footprint.",
+    "OSM footprints are community traces, not surveyed geometry. Floor counts are official; roof heights and floor-to-floor spacing approximate.",
+    "No internal floor plans inferred; public floor directory used only to establish storey counts.",
+    "Photos and map retained as research reference only; build original mesh facade features, do not bundle source photos as game textures.",
+    "Official photos have no capture dates and may predate renovations."
+  ],
+  "road_connectivity": "Existing included OSM road 470872959 runs across college frontages; road 470872992 branches at model [331.714,-428.512] along the east edge of 3호관 and continues to shared campus road network at [339.933,-301.928]. Preserve existing road coordinates. Service ways and pedestrian paths supplied, not access guarantees.",
+  "source_pages": [
+    "https://www.cst.ac.kr/page/?mn=952&site=basic",
+    "https://computer.cst.ac.kr/page/?mn=3647&site=computer",
+    "https://car.cst.ac.kr/page/?mn=1957&site=car",
+    "https://healthcare.cst.ac.kr/page/?mn=3718&site=healthcare"
+  ],
+  "map_attribution": "© OpenStreetMap contributors, ODbL 1.0; https://www.openstreetmap.org/copyright"
+}

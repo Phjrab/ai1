@@ -1,0 +1,24 @@
+{
+  "preset": "night",
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "228b0c08375db31253724d778589543a68d39ec2e2ca030a91db8926c53eed08",
+  "engine": "CYCLES",
+  "camera": "07_Whole_Campus",
+  "camera_location": [
+    1250.0,
+    -1750.0,
+    1350.0
+  ],
+  "camera_rotation": [
+    0.919503927230835,
+    3.7556176835096267e-08,
+    0.7083234786987305
+  ],
+  "lens": 40.0,
+  "width": 1000,
+  "height": 625,
+  "samples": 96,
+  "illuminated_faces": 33476,
+  "lights": 43,
+  "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting."
+}

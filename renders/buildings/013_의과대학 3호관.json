@@ -1,0 +1,101 @@
+{
+  "index": 13,
+  "name": "의과대학 3호관",
+  "building_id": 177,
+  "osm_id": "468704880",
+  "catalog_record": {
+    "index": 13,
+    "id": 177,
+    "osm_id": "468704880",
+    "name": "의과대학 3호관",
+    "collection": "CAMPUS_BUILDING 177 의과대학 3호관",
+    "bbox": {
+      "min": [
+        63.18806457519531,
+        -614.0033569335938,
+        -47.731571197509766
+      ],
+      "max": [
+        122.28987121582031,
+        -543.3555908203125,
+        -28.968595504760742
+      ]
+    },
+    "target": [
+      92.73896789550781,
+      -578.6794738769531,
+      -38.350083351135254
+    ],
+    "camera": [
+      185.34317908629794,
+      -590.2527851940359,
+      -7.971543922424317
+    ],
+    "orthographic_scale": 100.31982788085936,
+    "entrance": [
+      100.21456441925075,
+      -584.2682437305298,
+      -46.2185964416835
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801142174100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/177/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      154.4201202392578,
+      -586.3881225585938,
+      39.98261642456055
+    ],
+    "rotation": [
+      0.6707961559295654,
+      1.3358987871470163e-07,
+      1.4464646577835083
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 101.42455291748047
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        154.4201202392578,
+        -586.3881225585938,
+        39.98261642456055
+      ],
+      "rotation": [
+        0.6707961559295654,
+        1.3358987871470163e-07,
+        1.4464646577835083
+      ],
+      "scale": 101.42455291748047,
+      "score": 0.9642857142857143,
+      "hit": 54,
+      "other": 2,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083255713039
+    }
+  ],
+  "camera_visibility_score": 0.9642857142857143,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "013_의과대학 3호관.jpg",
+  "file_sha256": "d016ca7fe4b1db3c64a39f588459af59e4db7137d825c61cc6b43ecbd4d0aed2",
+  "render_seconds": 62.67,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

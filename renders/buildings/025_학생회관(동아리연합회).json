@@ -1,0 +1,235 @@
+{
+  "index": 25,
+  "name": "학생회관(동아리연합회)",
+  "building_id": 145,
+  "osm_id": "468706014",
+  "catalog_record": {
+    "index": 25,
+    "id": 145,
+    "osm_id": "468706014",
+    "name": "학생회관(동아리연합회)",
+    "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+    "bbox": {
+      "min": [
+        -272.7941589355469,
+        -125.6485595703125,
+        -19.716690063476562
+      ],
+      "max": [
+        -117.95379638671875,
+        -81.88119506835938,
+        6.300000190734863
+      ]
+    },
+    "target": [
+      -195.3739776611328,
+      -103.76487731933594,
+      -6.70834493637085
+    ],
+    "camera": [
+      -120.88320371203186,
+      -294.26012184537296,
+      59.87301095962525
+    ],
+    "orthographic_scale": 219.87331481933592,
+    "entrance": [
+      -133.24748856060245,
+      -121.75849121520693,
+      -17.9
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 6,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/145/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -120.88320922851562,
+      -294.2601318359375,
+      59.87302017211914
+    ],
+    "rotation": [
+      1.2560988664627075,
+      2.2080850925476625e-08,
+      0.3727562129497528
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 188.97274780273438
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -120.88320922851562,
+        -294.2601318359375,
+        59.87302017211914
+      ],
+      "rotation": [
+        1.2560988664627075,
+        2.2080850925476625e-08,
+        0.3727562129497528
+      ],
+      "scale": 188.97274780273438,
+      "score": 1.0,
+      "hit": 58,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030835774259884,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -131.61642456054688,
+        -266.8121032714844,
+        118.2755355834961
+      ],
+      "rotation": [
+        0.950796365737915,
+        3.1834488822823914e-08,
+        0.3727562129497528
+      ],
+      "scale": 188.9727325439453,
+      "score": 1.0,
+      "hit": 45,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -240.37652587890625,
+        -289.17919921875,
+        92.62291717529297
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -1.265836235830875e-08,
+        -0.2381090372800827
+      ],
+      "scale": 189.73794555664062,
+      "score": 1.0,
+      "hit": 65,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -36.53330612182617,
+        -209.46885681152344,
+        92.62293243408203
+      ],
+      "rotation": [
+        1.0907962322235107,
+        4.5566984852030146e-08,
+        0.9836214184761047
+      ],
+      "scale": 147.5784149169922,
+      "score": 1.0,
+      "hit": 36,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -323.9087829589844,
+        -216.9136505126953,
+        123.47057342529297
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -2.7386322543065944e-08,
+        -0.8489741683006287
+      ],
+      "scale": 170.7854461669922,
+      "score": 1.0,
+      "hit": 38,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -24.180007934570312,
+        -99.70843505859375,
+        123.47062683105469
+      ],
+      "rotation": [
+        0.920796275138855,
+        7.730953655027406e-08,
+        1.5944868326187134
+      ],
+      "scale": 180.96466064453125,
+      "score": 1.0,
+      "hit": 67,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        -257.737548828125,
+        55.71748352050781,
+        123.47061157226562
+      ],
+      "rotation": [
+        0.9207963347434998,
+        3.017327188103991e-08,
+        -2.768836498260498
+      ],
+      "scale": 188.9727325439453,
+      "score": 0.9767441860465116,
+      "hit": 42,
+      "other": 1,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5861385443377527
+    },
+    {
+      "location": [
+        -146.67831420898438,
+        -228.2942352294922,
+        161.7896270751953
+      ],
+      "rotation": [
+        0.6707962155342102,
+        1.4655219260362173e-08,
+        0.3727562427520752
+      ],
+      "scale": 188.97274780273438,
+      "score": 1.0,
+      "hit": 36,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "025_학생회관(동아리연합회).jpg",
+  "file_sha256": "da2d444b0a7f0a7ef6cacc640663c662d7748ce41d7fc64b66683fc5043bb63c",
+  "render_seconds": 64.6,
+  "visual_review_notes": "Direct final-image/contact-sheet review: subject complete and legible, with camera chosen to limit surrounding obstruction. Model uncertainty preserved."
+}

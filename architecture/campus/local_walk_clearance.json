@@ -1,0 +1,28 @@
+{
+  "id": "entry144_paving_edge_clearance",
+  "cut_polygon_xy": [
+    [
+      418.1290070196015,
+      -114.73899303596716
+    ],
+    [
+      421.620243914502,
+      -109.67601318772694
+    ],
+    [
+      415.3882508330096,
+      -105.37866956262185
+    ],
+    [
+      411.89701393810907,
+      -110.44164941086207
+    ]
+  ],
+  "changed_objects": [
+    {
+      "object": "CAMPUS_PAVING_EDGE 0",
+      "edge_faces_split_or_removed": 6
+    }
+  ],
+  "scope": "Boundary skirt only; no road/top surface/terrain/grid/nav-centerline changes"
+}

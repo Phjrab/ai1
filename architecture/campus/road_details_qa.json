@@ -1,0 +1,10 @@
+{
+  "surface_samples": 163164,
+  "below_terrain": 0,
+  "min_clearance": 0.2948780059814453,
+  "max_clearance": 0.3551216125488281,
+  "invalid_faces": 0,
+  "crossings": 39,
+  "objects": 157,
+  "scope": "Standalone new road detail module on existing campus terrain. Grounding skirts intentionally penetrate 0.015m."
+}

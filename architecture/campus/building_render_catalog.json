@@ -1,0 +1,2749 @@
+[
+  {
+    "index": 1,
+    "id": 135,
+    "osm_id": "190176312",
+    "name": "미술대학(미술관)",
+    "collection": "CAMPUS_BUILDING 135 미술대학(미술관)",
+    "bbox": {
+      "min": [
+        -253.30799865722656,
+        -379.12506103515625,
+        -47.10694122314453
+      ],
+      "max": [
+        -191.83316040039062,
+        -313.9490051269531,
+        -13.578661918640137
+      ]
+    },
+    "target": [
+      -222.5705795288086,
+      -346.5370330810547,
+      -30.342801570892334
+    ],
+    "camera": [
+      -182.26247869080692,
+      -422.61511387359224,
+      -2.3170975303649897
+    ],
+    "orthographic_scale": 92.54999938964843,
+    "entrance": [
+      -223.4308902705597,
+      -374.4668517250271,
+      -44.878661576249996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798680094100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/135/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 2,
+    "id": 127,
+    "osm_id": "300164485",
+    "name": "중앙도서관",
+    "collection": "CAMPUS_BUILDING 127 중앙도서관",
+    "bbox": {
+      "min": [
+        -4.052239418029785,
+        -263.70111083984375,
+        -40.62821960449219
+      ],
+      "max": [
+        103.58235931396484,
+        -190.06484985351562,
+        -1.7441946268081665
+      ]
+    },
+    "target": [
+      49.76505994796753,
+      -226.8829803466797,
+      -21.186207115650177
+    ],
+    "camera": [
+      -32.11740330463533,
+      -343.12173530736726,
+      25.09667033910751
+    ],
+    "orthographic_scale": 152.84113019943237,
+    "entrance": [
+      44.102867571675915,
+      -258.6195317457504,
+      -36.409644358188174
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 7,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802666144100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/127/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 3,
+    "id": 134,
+    "osm_id": "468619568",
+    "name": "공과대학 제1공학관",
+    "collection": "CAMPUS_BUILDING 134 공과대학 제1공학관",
+    "bbox": {
+      "min": [
+        -88.67475891113281,
+        -880.509765625,
+        -53.2853889465332
+      ],
+      "max": [
+        -40.71554946899414,
+        -782.116455078125,
+        12.421163558959961
+      ]
+    },
+    "target": [
+      -64.69515419006348,
+      -831.3131103515625,
+      -20.43211269378662
+    ],
+    "camera": [
+      -17.55927405524512,
+      -952.4410543478522,
+      21.877010841369625
+    ],
+    "orthographic_scale": 139.7185009765625,
+    "entrance": [
+      -75.19364018904136,
+      -876.6118977125423,
+      -50.828836780159996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 17,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798083056100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/134/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 4,
+    "id": 140,
+    "osm_id": "468619569",
+    "name": "약학대학 2호관",
+    "collection": "CAMPUS_BUILDING 140 약학대학 2호관",
+    "bbox": {
+      "min": [
+        -13.83729076385498,
+        -797.32421875,
+        -47.407310485839844
+      ],
+      "max": [
+        17.68029022216797,
+        -741.9526977539062,
+        -28.17734718322754
+      ]
+    },
+    "target": [
+      1.9214997291564941,
+      -769.6384582519531,
+      -37.79232883453369
+    ],
+    "camera": [
+      21.925315201268806,
+      -839.9948842580903,
+      -13.982574806213378
+    ],
+    "orthographic_scale": 78.62755981445312,
+    "entrance": [
+      -8.89258615991255,
+      -792.1022773070962,
+      -43.277346537333
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799559265100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/140/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 5,
+    "id": 157,
+    "osm_id": "468619570",
+    "name": "약학대학 1호관(약학관)",
+    "collection": "CAMPUS_BUILDING 157 약학대학 1호관(약학관)",
+    "bbox": {
+      "min": [
+        27.089128494262695,
+        -805.4879150390625,
+        -41.0424919128418
+      ],
+      "max": [
+        53.25092697143555,
+        -753.8130493164062,
+        -23.639192581176758
+      ]
+    },
+    "target": [
+      40.17002773284912,
+      -779.6504821777344,
+      -32.34084224700928
+    ],
+    "camera": [
+      58.490438024976925,
+      -845.4077758114926,
+      -10.12064998626709
+    ],
+    "orthographic_scale": 73.37830932617187,
+    "entrance": [
+      34.42985656287272,
+      -801.7632736657273,
+      -38.019192486520005
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799526134100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/157/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 6,
+    "id": 156,
+    "osm_id": "468619571",
+    "name": "약학대학 3호관(강의동)",
+    "collection": "CAMPUS_BUILDING 156 약학대학 3호관(강의동)",
+    "bbox": {
+      "min": [
+        -59.15113830566406,
+        -748.3715209960938,
+        -50.40142059326172
+      ],
+      "max": [
+        -9.496912956237793,
+        -716.034912109375,
+        -33.95692825317383
+      ]
+    },
+    "target": [
+      -34.32402563095093,
+      -732.2032165527344,
+      -42.17917442321777
+    ],
+    "camera": [
+      -16.5558870573161,
+      -795.3432530390492,
+      -20.82785752296448
+    ],
+    "orthographic_scale": 70.5089999961853,
+    "entrance": [
+      -45.053634298773964,
+      -744.3120221553488,
+      -48.556927256848
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799624908100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/156/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 7,
+    "id": 128,
+    "osm_id": "468692592",
+    "name": "해오름관",
+    "collection": "CAMPUS_BUILDING 128 해오름관",
+    "bbox": {
+      "min": [
+        143.44955444335938,
+        -222.33428955078125,
+        -28.826820373535156
+      ],
+      "max": [
+        211.91128540039062,
+        -146.237548828125,
+        -8.066019058227539
+      ]
+    },
+    "target": [
+      177.680419921875,
+      -184.28591918945312,
+      -18.446419715881348
+    ],
+    "camera": [
+      219.57691571079906,
+      -275.661405403947,
+      14.275178794860842
+    ],
+    "orthographic_scale": 108.05737182617187,
+    "entrance": [
+      176.46622276932553,
+      -217.89857132195877,
+      -25.636019070790496
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 2,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803344114100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/128/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 8,
+    "id": 138,
+    "osm_id": "468692593",
+    "name": "IT융합대학",
+    "collection": "CAMPUS_BUILDING 138 IT융합대학",
+    "bbox": {
+      "min": [
+        233.7008056640625,
+        -125.56702423095703,
+        -17.9471378326416
+      ],
+      "max": [
+        349.19232177734375,
+        -74.89431762695312,
+        19.25535011291504
+      ]
+    },
+    "target": [
+      291.4465637207031,
+      -100.23067092895508,
+      0.6541061401367188
+    ],
+    "camera": [
+      337.3375703348572,
+      -245.72751651407924,
+      50.315458068847654
+    ],
+    "orthographic_scale": 163.99795288085937,
+    "entrance": [
+      248.41003918434487,
+      -121.36480231671412,
+      -17.024649745730965
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 10,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554797749064100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/138/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 9,
+    "id": 150,
+    "osm_id": "468692594",
+    "name": "공과대학 제2공학관",
+    "collection": "CAMPUS_BUILDING 150 공과대학 제2공학관",
+    "bbox": {
+      "min": [
+        376.7928466796875,
+        -282.9549865722656,
+        -28.207033157348633
+      ],
+      "max": [
+        442.60595703125,
+        -155.15060424804688,
+        -3.2469770908355713
+      ]
+    },
+    "target": [
+      409.69940185546875,
+      -219.05279541015625,
+      -15.727005124092102
+    ],
+    "camera": [
+      472.73448481100536,
+      -375.6712450363533,
+      39.22887927532196
+    ],
+    "orthographic_scale": 181.4822229003906,
+    "entrance": [
+      406.90342745105494,
+      -279.21603010868967,
+      -23.89697710096002
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798168712100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/150/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 10,
+    "id": 136,
+    "osm_id": "468704876",
+    "name": "사회과학ㆍ사범대학",
+    "collection": "CAMPUS_BUILDING 136 사회과학ㆍ사범대학",
+    "bbox": {
+      "min": [
+        -439.31793212890625,
+        24.63832664489746,
+        2.7101681232452393
+      ],
+      "max": [
+        -310.46319580078125,
+        74.26371002197266,
+        28.619169235229492
+      ]
+    },
+    "target": [
+      -374.89056396484375,
+      49.45101833343506,
+      15.664668679237366
+    ],
+    "camera": [
+      -294.40491910548525,
+      -100.53312628204031,
+      71.07220530033112
+    ],
+    "orthographic_scale": 182.9737255859375,
+    "entrance": [
+      -343.6557723712498,
+      27.94759620469086,
+      4.419170075349918
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 6,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798885430100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/136/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 11,
+    "id": 132,
+    "osm_id": "468704877",
+    "name": "체육대학",
+    "collection": "CAMPUS_BUILDING 132 체육대학",
+    "bbox": {
+      "min": [
+        45.618770599365234,
+        -736.6472778320312,
+        -43.02787399291992
+      ],
+      "max": [
+        194.97621154785156,
+        -639.7007446289062,
+        -11.118467330932617
+      ]
+    },
+    "target": [
+      120.2974910736084,
+      -688.1740112304688,
+      -27.07317066192627
+    ],
+    "camera": [
+      169.71707627436433,
+      -879.183292194622,
+      37.150528945922844
+    ],
+    "orthographic_scale": 212.08756614685058,
+    "entrance": [
+      112.33067523070841,
+      -718.0119246266102,
+      -37.1784674761
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 7,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802746163100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/132/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 12,
+    "id": 160,
+    "osm_id": "468704879",
+    "name": "생명공학관",
+    "collection": "CAMPUS_BUILDING 160 생명공학관",
+    "bbox": {
+      "min": [
+        19.76960563659668,
+        -602.8090209960938,
+        -50.5799446105957
+      ],
+      "max": [
+        70.92345428466797,
+        -557.946044921875,
+        -30.473573684692383
+      ]
+    },
+    "target": [
+      45.346529960632324,
+      -580.3775329589844,
+      -40.52675914764404
+    ],
+    "camera": [
+      72.27580517024955,
+      -642.3532052882884,
+      -18.530604228973388
+    ],
+    "orthographic_scale": 72.63846508026123,
+    "entrance": [
+      65.7552923456152,
+      -595.8589406525091,
+      -48.40357441111375
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798942183100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/160/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 13,
+    "id": 177,
+    "osm_id": "468704880",
+    "name": "의과대학 3호관",
+    "collection": "CAMPUS_BUILDING 177 의과대학 3호관",
+    "bbox": {
+      "min": [
+        63.18806457519531,
+        -614.0033569335938,
+        -47.731571197509766
+      ],
+      "max": [
+        122.28987121582031,
+        -543.3555908203125,
+        -28.968595504760742
+      ]
+    },
+    "target": [
+      92.73896789550781,
+      -578.6794738769531,
+      -38.350083351135254
+    ],
+    "camera": [
+      185.34317908629794,
+      -590.2527851940359,
+      -7.971543922424317
+    ],
+    "orthographic_scale": 100.31982788085936,
+    "entrance": [
+      100.21456441925075,
+      -584.2682437305298,
+      -46.2185964416835
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801142174100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/177/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 14,
+    "id": 137,
+    "osm_id": "468704881",
+    "name": "의과대학 1호관",
+    "collection": "CAMPUS_BUILDING 137 의과대학 1호관",
+    "bbox": {
+      "min": [
+        118.33016967773438,
+        -551.30029296875,
+        -42.481666564941406
+      ],
+      "max": [
+        192.40675354003906,
+        -462.0296325683594,
+        -30.14875030517578
+      ]
+    },
+    "target": [
+      155.36846160888672,
+      -506.6649627685547,
+      -36.315208435058594
+    ],
+    "camera": [
+      142.3046158952254,
+      -623.8642741815972,
+      2.071175537109376
+    ],
+    "orthographic_scale": 126.76433776855468,
+    "entrance": [
+      128.54881190305693,
+      -544.0062775589679,
+      -40.97875019696
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801005198100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/137/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 15,
+    "id": 155,
+    "osm_id": "468704882",
+    "name": "의과대학 2호관",
+    "collection": "CAMPUS_BUILDING 155 의과대학 2호관",
+    "bbox": {
+      "min": [
+        164.42724609375,
+        -557.04345703125,
+        -38.74935531616211
+      ],
+      "max": [
+        221.6957550048828,
+        -480.2405700683594,
+        -18.959430694580078
+      ]
+    },
+    "target": [
+      193.0615005493164,
+      -518.6420135498047,
+      -28.854393005371094
+    ],
+    "camera": [
+      91.68258446993156,
+      -514.7027258539971,
+      4.170848388671871
+    ],
+    "orthographic_scale": 109.06009948730468,
+    "entrance": [
+      173.94817964909655,
+      -531.3448047128004,
+      -34.059431094192995
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801097555100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/155/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 16,
+    "id": null,
+    "osm_id": "468704883",
+    "name": "실험동물센터",
+    "collection": "CAMPUS_BUILDING 468704883 실험동물센터",
+    "bbox": {
+      "min": [
+        166.91200256347656,
+        -452.3219909667969,
+        -42.34357452392578
+      ],
+      "max": [
+        211.5260009765625,
+        -433.1419982910156,
+        -24.612215042114258
+      ]
+    },
+    "target": [
+      189.21900177001953,
+      -442.73199462890625,
+      -33.47789478302002
+    ],
+    "camera": [
+      214.95245199460987,
+      -495.7513589260334,
+      -14.293875465393068
+    ],
+    "orthographic_scale": 63.351877746582026,
+    "entrance": [
+      188.66898250599613,
+      -451.35621688966495,
+      -38.71221544605198
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/468704883",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 17,
+    "id": "cit_1",
+    "osm_id": "468704884",
+    "name": "조선이공대학교 1호관",
+    "collection": "CAMPUS_BUILDING cit_1 조선이공대학교 1호관",
+    "bbox": {
+      "min": [
+        193.9950714111328,
+        -415.29254150390625,
+        -45.78361129760742
+      ],
+      "max": [
+        226.80392456054688,
+        -317.04913330078125,
+        -16.92293357849121
+      ]
+    },
+    "target": [
+      210.39949798583984,
+      -366.17083740234375,
+      -31.353272438049316
+    ],
+    "camera": [
+      267.0604888267581,
+      -482.9264196138114,
+      10.891393089294432
+    ],
+    "orthographic_scale": 139.5056396484375,
+    "entrance": [
+      207.41846192775736,
+      -411.78271559956795,
+      -44.67293296977599
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 7,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_1/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  {
+    "index": 18,
+    "id": "cit_main",
+    "osm_id": "468704885",
+    "name": "조선이공대학교 본부동",
+    "collection": "CAMPUS_BUILDING cit_main 조선이공대학교 본부동",
+    "bbox": {
+      "min": [
+        239.33587646484375,
+        -346.3112487792969,
+        -42.66165542602539
+      ],
+      "max": [
+        283.4031066894531,
+        -312.077880859375,
+        -16.148399353027344
+      ]
+    },
+    "target": [
+      261.36949157714844,
+      -329.19456481933594,
+      -29.405027389526367
+    ],
+    "camera": [
+      286.82585252763704,
+      -381.54554807352486,
+      -10.456118392944337
+    ],
+    "orthographic_scale": 62.57546691894531,
+    "entrance": [
+      260.51677443492935,
+      -342.80523507665526,
+      -41.28420262799499
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_main/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  {
+    "index": 19,
+    "id": "cit_3",
+    "osm_id": "468704886",
+    "name": "조선이공대학교 3호관",
+    "collection": "CAMPUS_BUILDING cit_3 조선이공대학교 3호관",
+    "bbox": {
+      "min": [
+        289.5265197753906,
+        -416.79400634765625,
+        -40.3967399597168
+      ],
+      "max": [
+        332.19903564453125,
+        -316.6020812988281,
+        -15.24244213104248
+      ]
+    },
+    "target": [
+      310.86277770996094,
+      -366.6980438232422,
+      -27.81959104537964
+    ],
+    "camera": [
+      191.96362571755864,
+      -424.8361361121637,
+      15.262936725616456
+    ],
+    "orthographic_scale": 142.27253356933593,
+    "entrance": [
+      306.98421181306423,
+      -378.86064745771336,
+      -37.8924422893
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_3/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  {
+    "index": 20,
+    "id": 148,
+    "osm_id": "468704892",
+    "name": "항공우주ㆍ선박해양공학관",
+    "collection": "CAMPUS_BUILDING 148 항공우주ㆍ선박해양공학관",
+    "bbox": {
+      "min": [
+        455.1177978515625,
+        -398.4870910644531,
+        -24.600154876708984
+      ],
+      "max": [
+        494.9041748046875,
+        -320.5399169921875,
+        -9.645354270935059
+      ]
+    },
+    "target": [
+      475.010986328125,
+      -359.5135040283203,
+      -17.12275457382202
+    ],
+    "camera": [
+      389.6732966546403,
+      -417.1301970669172,
+      16.394530277252194
+    ],
+    "orthographic_scale": 110.68498718261718,
+    "entrance": [
+      472.47376049707435,
+      -379.5747302506548,
+      -24.02535460834952
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803181032100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/148/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 21,
+    "id": 148,
+    "osm_id": "468704895",
+    "name": "항공우주ㆍ선박해양공학관",
+    "collection": "CAMPUS_BUILDING 148 항공우주ㆍ선박해양공학관.001",
+    "bbox": {
+      "min": [
+        474.1770324707031,
+        -453.35040283203125,
+        -25.076112747192383
+      ],
+      "max": [
+        498.5379333496094,
+        -397.75811767578125,
+        -9.054899215698242
+      ]
+    },
+    "target": [
+      486.35748291015625,
+      -425.55426025390625,
+      -17.065505981445312
+    ],
+    "camera": [
+      527.8218774930931,
+      -486.16474009518635,
+      6.839176635742188
+    ],
+    "orthographic_scale": 78.94104492187499,
+    "entrance": [
+      488.51217118566575,
+      -449.8775377398317,
+      -23.434899618264993
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803181032100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/148/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 22,
+    "id": 142,
+    "osm_id": "468704897",
+    "name": "글로벌하우스(기숙사)",
+    "collection": "CAMPUS_BUILDING 142 글로벌하우스(기숙사)",
+    "bbox": {
+      "min": [
+        449.62353515625,
+        -164.09182739257812,
+        6.547147274017334
+      ],
+      "max": [
+        555.9061889648438,
+        -92.0970687866211,
+        45.21689224243164
+      ]
+    },
+    "target": [
+      502.7648620605469,
+      -128.0944480895996,
+      25.882019758224487
+    ],
+    "camera": [
+      549.445760004872,
+      -260.50448596684646,
+      71.5835608959198
+    ],
+    "orthographic_scale": 150.9213684082031,
+    "entrance": [
+      506.6531565235809,
+      -153.03285516221283,
+      9.786890413424967
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 11,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555046339547100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/142/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 23,
+    "id": 144,
+    "osm_id": "468704900",
+    "name": "황금추관(고시원)",
+    "collection": "CAMPUS_BUILDING 144 황금추관(고시원)",
+    "bbox": {
+      "min": [
+        397.18536376953125,
+        -117.31818389892578,
+        0.026052143424749374
+      ],
+      "max": [
+        442.2205505371094,
+        -79.82881927490234,
+        10.95605182647705
+      ]
+    },
+    "target": [
+      419.7029571533203,
+      -98.57350158691406,
+      5.4910519849509
+    ],
+    "camera": [
+      414.40135984265936,
+      -157.82758421674865,
+      24.856182295009493
+    ],
+    "orthographic_scale": 63.949965209960936,
+    "entrance": [
+      417.51596384081626,
+      -107.48964975116229,
+      0.6660521436679925
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803450073100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/144/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 24,
+    "id": 151,
+    "osm_id": "468704902",
+    "name": "학군단(ROTC)",
+    "collection": "CAMPUS_BUILDING 151 학군단(ROTC)",
+    "bbox": {
+      "min": [
+        570.2509765625,
+        -219.93746948242188,
+        9.0076265335083
+      ],
+      "max": [
+        618.3489990234375,
+        -154.97500610351562,
+        29.648456573486328
+      ]
+    },
+    "target": [
+      594.2999877929688,
+      -187.45623779296875,
+      19.328041553497314
+    ],
+    "camera": [
+      654.0379681301754,
+      -249.0637534175885,
+      47.261900806427
+    ],
+    "orthographic_scale": 92.24669799804687,
+    "entrance": [
+      607.8416076886776,
+      -215.94451063976365,
+      16.898455921600018
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802913321100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/151/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 25,
+    "id": 145,
+    "osm_id": "468706014",
+    "name": "학생회관(동아리연합회)",
+    "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+    "bbox": {
+      "min": [
+        -272.7941589355469,
+        -125.6485595703125,
+        -19.716690063476562
+      ],
+      "max": [
+        -117.95379638671875,
+        -81.88119506835938,
+        6.300000190734863
+      ]
+    },
+    "target": [
+      -195.3739776611328,
+      -103.76487731933594,
+      -6.70834493637085
+    ],
+    "camera": [
+      -120.88320371203186,
+      -294.26012184537296,
+      59.87301095962525
+    ],
+    "orthographic_scale": 219.87331481933592,
+    "entrance": [
+      -133.24748856060245,
+      -121.75849121520693,
+      -17.9
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 6,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/145/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 26,
+    "id": 146,
+    "osm_id": "468706015",
+    "name": "국제관(언어교육원,인권윤리원)",
+    "collection": "CAMPUS_BUILDING 146 국제관(언어교육원,인권윤리원)",
+    "bbox": {
+      "min": [
+        -85.9910659790039,
+        -257.00396728515625,
+        -43.52947998046875
+      ],
+      "max": [
+        -13.99915599822998,
+        -210.18614196777344,
+        -18.763412475585938
+      ]
+    },
+    "target": [
+      -49.99511098861694,
+      -233.59505462646484,
+      -31.146446228027344
+    ],
+    "camera": [
+      -11.989140470778302,
+      -320.77070179454455,
+      -0.1899249362945561
+    ],
+    "orthographic_scale": 102.22851217269897,
+    "entrance": [
+      -35.75575679919752,
+      -250.99686665670797,
+      -36.76341229276657
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/146/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 27,
+    "id": 143,
+    "osm_id": "468706016",
+    "name": "솔마루(식당)",
+    "collection": "CAMPUS_BUILDING 143 솔마루(식당)",
+    "bbox": {
+      "min": [
+        41.2859992980957,
+        -156.43418884277344,
+        -20.43815803527832
+      ],
+      "max": [
+        93.94200134277344,
+        -126.25599670410156,
+        -7.6200480461120605
+      ]
+    },
+    "target": [
+      67.61400032043457,
+      -141.3450927734375,
+      -14.02910304069519
+    ],
+    "camera": [
+      102.02667310198896,
+      -201.79383257915185,
+      8.612977838516237
+    ],
+    "orthographic_scale": 74.77152290344237,
+    "entrance": [
+      67.63423151189485,
+      -153.6179981042186,
+      -19.1680482447854
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799434289100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/143/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 28,
+    "id": 159,
+    "osm_id": "468730987",
+    "name": "입석홀(식당)",
+    "collection": "CAMPUS_BUILDING 159 입석홀(식당)",
+    "bbox": {
+      "min": [
+        -131.12147521972656,
+        -881.2850952148438,
+        -54.239009857177734
+      ],
+      "max": [
+        -89.43952941894531,
+        -845.2045288085938,
+        -41.98295974731445
+      ]
+    },
+    "target": [
+      -110.28050231933594,
+      -863.2448120117188,
+      -48.110984802246094
+    ],
+    "camera": [
+      -89.48144317062153,
+      -914.2265271215824,
+      -30.187748107910156
+    ],
+    "orthographic_scale": 59.18836303710937,
+    "entrance": [
+      -108.34170019869723,
+      -875.3657738522787,
+      -52.812960940712486
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801208119100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/159/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 29,
+    "id": "cit_2",
+    "osm_id": "471778462",
+    "name": "조선이공대학교 2호관",
+    "collection": "CAMPUS_BUILDING cit_2 조선이공대학교 2호관",
+    "bbox": {
+      "min": [
+        263.1694030761719,
+        -569.8304443359375,
+        -22.408235549926758
+      ],
+      "max": [
+        346.8465576171875,
+        -464.0316162109375,
+        0.9654952883720398
+      ]
+    },
+    "target": [
+      305.0079803466797,
+      -516.9310302734375,
+      -10.721370130777359
+    ],
+    "camera": [
+      444.4017796843033,
+      -506.83955847047594,
+      34.77212596297264
+    ],
+    "orthographic_scale": 150.2343359375,
+    "entrance": [
+      308.61902804751736,
+      -561.5486650398252,
+      -19.684504726336
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_2/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  {
+    "index": 30,
+    "id": "cit_4",
+    "osm_id": "471778465",
+    "name": "조선이공대학교 4호관",
+    "collection": "CAMPUS_BUILDING cit_4 조선이공대학교 4호관",
+    "bbox": {
+      "min": [
+        339.81170654296875,
+        -526.8820190429688,
+        -20.00540542602539
+      ],
+      "max": [
+        373.6323547363281,
+        -472.34375,
+        -1.9742544889450073
+      ]
+    },
+    "target": [
+      356.72203063964844,
+      -499.6128845214844,
+      -10.989829957485199
+    ],
+    "camera": [
+      301.084655207379,
+      -545.3824183175956,
+      12.461625730991361
+    ],
+    "orthographic_scale": 77.44434204101562,
+    "entrance": [
+      355.5971183400076,
+      -520.7437265637891,
+      -18.22425444663201
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_4/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  {
+    "index": 31,
+    "id": 147,
+    "osm_id": "472263773",
+    "name": "백학학사(기숙사)",
+    "collection": "CAMPUS_BUILDING 147 백학학사(기숙사)",
+    "bbox": {
+      "min": [
+        -400.552978515625,
+        -115.59258270263672,
+        -16.848648071289062
+      ],
+      "max": [
+        -342.93353271484375,
+        -51.04677963256836,
+        18.886445999145508
+      ]
+    },
+    "target": [
+      -371.7432556152344,
+      -83.31968116760254,
+      1.0188989639282227
+    ],
+    "camera": [
+      -402.260461541432,
+      -3.7040385248509153,
+      28.773594284057616
+    ],
+    "orthographic_scale": 91.65504035949706,
+    "entrance": [
+      -378.794919013393,
+      -77.57028896337671,
+      -12.363553457711234
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 9,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/147/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 32,
+    "id": 147,
+    "osm_id": "472263774",
+    "name": "백학학사(기숙사)",
+    "collection": "CAMPUS_BUILDING 147 백학학사(기숙사).001",
+    "bbox": {
+      "min": [
+        -367.2206726074219,
+        -142.42434692382812,
+        -21.519527435302734
+      ],
+      "max": [
+        -304.9809875488281,
+        -72.4369888305664,
+        13.740049362182617
+      ]
+    },
+    "target": [
+      -336.100830078125,
+      -107.43066787719727,
+      -3.8897390365600586
+    ],
+    "camera": [
+      -410.99386937656936,
+      -53.22324656140708,
+      26.20482494354248
+    ],
+    "orthographic_scale": 99.38204849243164,
+    "entrance": [
+      -362.8254907598538,
+      -128.61876639036603,
+      -17.509951043917724
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 9,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/147/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 33,
+    "id": 141,
+    "osm_id": "472263776",
+    "name": "서석홀(평생교육원,박물관)",
+    "collection": "CAMPUS_BUILDING 141 서석홀(평생교육원,박물관)",
+    "bbox": {
+      "min": [
+        -333.387939453125,
+        -182.7617950439453,
+        -28.844345092773438
+      ],
+      "max": [
+        -265.97015380859375,
+        -114.2303237915039,
+        -9.206099510192871
+      ]
+    },
+    "target": [
+      -299.6790466308594,
+      -148.4960594177246,
+      -19.025222301483154
+    ],
+    "camera": [
+      -209.83381011403677,
+      -159.60169440715404,
+      10.443310337066649
+    ],
+    "orthographic_scale": 97.3146891784668,
+    "entrance": [
+      -284.64877513212934,
+      -161.99002737856458,
+      -22.9460997180995
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799320404100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/141/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 34,
+    "id": 129,
+    "osm_id": "472263777",
+    "name": "장황남정보통신박물관",
+    "collection": "CAMPUS_BUILDING 129 장황남정보통신박물관",
+    "bbox": {
+      "min": [
+        -237.98500061035156,
+        -158.1074676513672,
+        -24.064878463745117
+      ],
+      "max": [
+        -157.7989959716797,
+        -130.76199340820312,
+        -12.222159385681152
+      ]
+    },
+    "target": [
+      -197.89199829101562,
+      -144.43473052978516,
+      -18.143518924713135
+    ],
+    "camera": [
+      -158.09751354915366,
+      -242.59985596788607,
+      16.336463069915773
+    ],
+    "orthographic_scale": 113.86412658691405,
+    "entrance": [
+      -178.59008114271944,
+      -155.07666029006666,
+      -19.6221592355581
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801454832100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/129/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 35,
+    "id": 154,
+    "osm_id": "488165874",
+    "name": "의성관(연구동)",
+    "collection": "CAMPUS_BUILDING 154 의성관(연구동)",
+    "bbox": {
+      "min": [
+        136.50379943847656,
+        -929.4068603515625,
+        -31.691545486450195
+      ],
+      "max": [
+        217.08628845214844,
+        -867.1931762695312,
+        -9.255598068237305
+      ]
+    },
+    "target": [
+      176.7950439453125,
+      -898.3000183105469,
+      -20.47357177734375
+    ],
+    "camera": [
+      161.32879051156894,
+      -1003.6186681519329,
+      14.176898498535152
+    ],
+    "orthographic_scale": 114.42713439941406,
+    "entrance": [
+      143.63417075740492,
+      -923.9409328452816,
+      -27.5255982655
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554800000741100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/154/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 36,
+    "id": 162,
+    "osm_id": "488165875",
+    "name": "조선대학교 병원",
+    "collection": "CAMPUS_BUILDING 162 조선대학교 병원",
+    "bbox": {
+      "min": [
+        207.22833251953125,
+        -879.9772338867188,
+        -31.99932289123535
+      ],
+      "max": [
+        369.4326477050781,
+        -701.4172973632812,
+        -3.106494426727295
+      ]
+    },
+    "target": [
+      288.3304901123047,
+      -790.697265625,
+      -17.552908658981323
+    ],
+    "camera": [
+      522.177665312039,
+      -821.5593706430154,
+      59.2278640460968
+    ],
+    "orthographic_scale": 253.55510986328125,
+    "entrance": [
+      242.77947906934176,
+      -862.3076930083166,
+      -29.086494406309004
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555050063752100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/162/detailView.do",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 37,
+    "id": 166,
+    "osm_id": "493566726",
+    "name": "조선대학교 치과병원",
+    "collection": "CAMPUS_BUILDING 166 조선대학교 치과병원",
+    "bbox": {
+      "min": [
+        -370.9499206542969,
+        -689.829345703125,
+        -53.75819778442383
+      ],
+      "max": [
+        -304.01605224609375,
+        -632.0961303710938,
+        -34.95337677001953
+      ]
+    },
+    "target": [
+      -337.4829864501953,
+      -660.9627380371094,
+      -44.35578727722168
+    ],
+    "camera": [
+      -250.23873550075717,
+      -675.325528772989,
+      -15.574223861694335
+    ],
+    "orthographic_scale": 95.04609313964843,
+    "entrance": [
+      -313.8073719659195,
+      -678.0857747363176,
+      -52.883376483996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802230246100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/166/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 38,
+    "id": 152,
+    "osm_id": "503476184",
+    "name": "치과대학(교육동)",
+    "collection": "CAMPUS_BUILDING 152 치과대학(교육동)",
+    "bbox": {
+      "min": [
+        -345.78948974609375,
+        -608.5999755859375,
+        -52.32069396972656
+      ],
+      "max": [
+        -299.5985412597656,
+        -561.3670043945312,
+        -29.249940872192383
+      ]
+    },
+    "target": [
+      -322.6940155029297,
+      -584.9834899902344,
+      -40.78531742095947
+    ],
+    "camera": [
+      -291.9925842285156,
+      -639.3014068603516,
+      -20.475139808654784
+    ],
+    "orthographic_scale": 67.07081909179688,
+    "entrance": [
+      -320.17167311654896,
+      -605.4,
+      -50.72994021831
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "Complementary split of shared OSM503476184; internal boundary approximate",
+    "modeled_floor_count": 6,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802791800100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/152/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 39,
+    "id": 131,
+    "osm_id": "683118524",
+    "name": "법과대학",
+    "collection": "CAMPUS_BUILDING 131 법과대학",
+    "bbox": {
+      "min": [
+        380.42529296875,
+        -50.635868072509766,
+        7.623351573944092
+      ],
+      "max": [
+        424.0968322753906,
+        27.64784049987793,
+        42.22458267211914
+      ]
+    },
+    "target": [
+      402.2610626220703,
+      -11.494013786315918,
+      24.923967123031616
+    ],
+    "camera": [
+      308.139300782734,
+      -54.33144545362573,
+      58.58596180915833
+    ],
+    "orthographic_scale": 111.16286617279052,
+    "entrance": [
+      383.96202473039034,
+      -31.283607887574277,
+      12.220583477882059
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798800152100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/131/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 40,
+    "id": 133,
+    "osm_id": "683118525",
+    "name": "경상대학",
+    "collection": "CAMPUS_BUILDING 133 경상대학",
+    "bbox": {
+      "min": [
+        304.0780029296875,
+        10.152153968811035,
+        8.036662101745605
+      ],
+      "max": [
+        425.75738525390625,
+        58.29197692871094,
+        54.240997314453125
+      ]
+    },
+    "target": [
+      364.9176940917969,
+      34.222065448760986,
+      31.138829708099365
+    ],
+    "camera": [
+      441.75375364465935,
+      -106.96032274778744,
+      83.46096410751343
+    ],
+    "orthographic_scale": 172.78472290039062,
+    "entrance": [
+      359.834790773359,
+      21.909025749496674,
+      24.040997080576194
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555055946682100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/133/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 41,
+    "id": null,
+    "osm_id": "1127517085",
+    "name": "교내 부속동 1127517085",
+    "collection": "CAMPUS_BUILDING 1127517085 교내 부속동 1127517085",
+    "bbox": {
+      "min": [
+        -289.20599365234375,
+        -345.739990234375,
+        -43.87456130981445
+      ],
+      "max": [
+        -258.7340087890625,
+        -316.81298828125,
+        -29.066089630126953
+      ]
+    },
+    "target": [
+      -273.9700012207031,
+      -331.2764892578125,
+      -36.4703254699707
+    ],
+    "camera": [
+      -259.7767042366463,
+      -368.9441925200755,
+      -23.367371978759763
+    ],
+    "orthographic_scale": 43.270218505859376,
+    "entrance": [
+      -263.09853347356056,
+      -340.40495964915704,
+      -43.16608921611999
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517085",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 42,
+    "id": null,
+    "osm_id": "1127517086",
+    "name": "교내 부속동 1127517086",
+    "collection": "CAMPUS_BUILDING 1127517086 교내 부속동 1127517086",
+    "bbox": {
+      "min": [
+        -267.1050109863281,
+        -350.87298583984375,
+        -44.48721694946289
+      ],
+      "max": [
+        -258.34100341796875,
+        -341.5530090332031,
+        -29.775365829467773
+      ]
+    },
+    "target": [
+      -262.72300720214844,
+      -346.21299743652344,
+      -37.13129138946533
+    ],
+    "camera": [
+      -243.54927208544223,
+      -349.383671618315,
+      -30.80519540786743
+    ],
+    "orthographic_scale": 20.890828590393067,
+    "entrance": [
+      -260.5935522459424,
+      -347.9424985985867,
+      -43.87536602071
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517086",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 43,
+    "id": null,
+    "osm_id": "1127517087",
+    "name": "교내 부속동 1127517087",
+    "collection": "CAMPUS_BUILDING 1127517087 교내 부속동 1127517087",
+    "bbox": {
+      "min": [
+        -262.1510009765625,
+        -353.1099853515625,
+        -44.81203842163086
+      ],
+      "max": [
+        -258.114013671875,
+        -348.9570007324219,
+        -30.03542137145996
+      ]
+    },
+    "target": [
+      -260.13250732421875,
+      -351.0334930419922,
+      -37.42372989654541
+    ],
+    "camera": [
+      -263.7412679995809,
+      -370.2166842354218,
+      -31.069784564971926
+    ],
+    "orthographic_scale": 20.982796211242675,
+    "entrance": [
+      -261.4663091485884,
+      -352.62133401201334,
+      -44.135421210425
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517087",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 44,
+    "id": null,
+    "osm_id": "1127517088",
+    "name": "교내 부속동 1127517088",
+    "collection": "CAMPUS_BUILDING 1127517088 교내 부속동 1127517088",
+    "bbox": {
+      "min": [
+        -304.22601318359375,
+        -322.072998046875,
+        -43.082069396972656
+      ],
+      "max": [
+        -280.3529968261719,
+        -300.6409912109375,
+        -28.459104537963867
+      ]
+    },
+    "target": [
+      -292.2895050048828,
+      -311.35699462890625,
+      -35.77058696746826
+    ],
+    "camera": [
+      -261.16128658944336,
+      -316.411300341239,
+      -25.505189933776855
+    ],
+    "orthographic_scale": 33.89968322753906,
+    "entrance": [
+      -282.4958215015977,
+      -319.25858915437357,
+      -42.559105170932504
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517088",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 45,
+    "id": null,
+    "osm_id": "1127517089",
+    "name": "교내 부속동 1127517089",
+    "collection": "CAMPUS_BUILDING 1127517089 교내 부속동 1127517089",
+    "bbox": {
+      "min": [
+        -299.0270080566406,
+        -305.4320068359375,
+        -42.53083419799805
+      ],
+      "max": [
+        -263.3160095214844,
+        -266.6050109863281,
+        -27.746313095092773
+      ]
+    },
+    "target": [
+      -281.1715087890625,
+      -286.0185089111328,
+      -35.13857364654541
+    ],
+    "camera": [
+      -291.1630821681181,
+      -336.3257459164802,
+      -18.44296543121338
+    ],
+    "orthographic_scale": 55.13433410644531,
+    "entrance": [
+      -294.64188848114543,
+      -301.7377114780242,
+      -41.84631357979425
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517089",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 46,
+    "id": null,
+    "osm_id": "1127517090",
+    "name": "교내 부속동 1127517090",
+    "collection": "CAMPUS_BUILDING 1127517090 교내 부속동 1127517090",
+    "bbox": {
+      "min": [
+        -272.9649963378906,
+        -273.9179992675781,
+        -41.62461853027344
+      ],
+      "max": [
+        -256.22900390625,
+        -258.10699462890625,
+        -27.032968521118164
+      ]
+    },
+    "target": [
+      -264.5970001220703,
+      -266.0124969482422,
+      -34.3287935256958
+    ],
+    "camera": [
+      -242.90076477154687,
+      -270.2594286732901,
+      -27.13231678009033
+    ],
+    "orthographic_scale": 23.765109252929687,
+    "entrance": [
+      -258.22456996407834,
+      -271.490551020503,
+      -41.13296809159201
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517090",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 47,
+    "id": null,
+    "osm_id": "1127517091",
+    "name": "교내 부속동 1127517091",
+    "collection": "CAMPUS_BUILDING 1127517091 교내 부속동 1127517091",
+    "bbox": {
+      "min": [
+        -267.8630065917969,
+        -257.8609924316406,
+        -40.66642379760742
+      ],
+      "max": [
+        -260.8450012207031,
+        -250.66700744628906,
+        -26.175580978393555
+      ]
+    },
+    "target": [
+      -264.35400390625,
+      -254.26399993896484,
+      -33.42100238800049
+    ],
+    "camera": [
+      -267.2846507654644,
+      -273.1805087653327,
+      -27.189939975738525
+    ],
+    "orthographic_scale": 20.57699680328369,
+    "entrance": [
+      -266.3053154238616,
+      -256.7499864896716,
+      -40.27558050687845
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517091",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 48,
+    "id": null,
+    "osm_id": "1127517105",
+    "name": "교내 부속동 1127517105",
+    "collection": "CAMPUS_BUILDING 1127517105 교내 부속동 1127517105",
+    "bbox": {
+      "min": [
+        -257.8559875488281,
+        -402.03900146484375,
+        -46.16632843017578
+      ],
+      "max": [
+        -242.80999755859375,
+        -382.4230041503906,
+        -31.70091438293457
+      ]
+    },
+    "target": [
+      -250.33299255371094,
+      -392.2310028076172,
+      -38.933621406555176
+    ],
+    "camera": [
+      -231.15084432256745,
+      -409.6522288295234,
+      -30.498742561340332
+    ],
+    "orthographic_scale": 27.854716186523437,
+    "entrance": [
+      -247.51954630310144,
+      -400.82181754821823,
+      -45.80091505367301
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1127517105",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 49,
+    "id": null,
+    "osm_id": "1198559652",
+    "name": "교내 부속동 1198559652",
+    "collection": "CAMPUS_BUILDING 1198559652 교내 부속동 1198559652",
+    "bbox": {
+      "min": [
+        -345.1889953613281,
+        -644.31201171875,
+        -53.13760757446289
+      ],
+      "max": [
+        -319.38800048828125,
+        -609.6950073242188,
+        -38.08738327026367
+      ]
+    },
+    "target": [
+      -332.2884979248047,
+      -627.0035095214844,
+      -45.61249542236328
+    ],
+    "camera": [
+      -377.51739356339544,
+      -620.2622149472611,
+      -30.727183532714847
+    ],
+    "orthographic_scale": 49.15614624023437,
+    "entrance": [
+      -336.70190481477965,
+      -635.2624922708251,
+      -52.18738213311425
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1198559652",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 50,
+    "id": 167,
+    "osm_id": "1198941239",
+    "name": "1.8극장(노천극장)",
+    "collection": "CAMPUS_BUILDING 167 1.8극장(노천극장)",
+    "bbox": {
+      "min": [
+        -190.85499572753906,
+        -270.4960021972656,
+        -41.30303955078125
+      ],
+      "max": [
+        -163.19400024414062,
+        -247.37200927734375,
+        -36.38783264160156
+      ]
+    },
+    "target": [
+      -177.02449798583984,
+      -258.9340057373047,
+      -38.845436096191406
+    ],
+    "camera": [
+      -184.50537363060894,
+      -294.69976479137574,
+      -26.95120803833008
+    ],
+    "orthographic_scale": 39.27861358642578,
+    "entrance": [
+      -177.4936392328577,
+      -267.7916450697551,
+      -40.88783309352208
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554796810591100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/167/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 51,
+    "id": null,
+    "osm_id": "1201486598",
+    "name": "교내 부속동 1201486598",
+    "collection": "CAMPUS_BUILDING 1201486598 교내 부속동 1201486598",
+    "bbox": {
+      "min": [
+        538.1079711914062,
+        -200.31399536132812,
+        -0.08759763091802597
+      ],
+      "max": [
+        548.968994140625,
+        -194.41099548339844,
+        14.112401962280273
+      ]
+    },
+    "target": [
+      543.5384826660156,
+      -197.36249542236328,
+      7.012402165681124
+    ],
+    "camera": [
+      529.3806505221014,
+      -209.66768005423577,
+      13.118401990756393
+    ],
+    "orthographic_scale": 20.163999422341583,
+    "entrance": [
+      542.9857877889814,
+      -198.91348944895645,
+      0.012402365587523528
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1201486598",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 52,
+    "id": null,
+    "osm_id": "1202050652",
+    "name": "교내 부속동 1202050652",
+    "collection": "CAMPUS_BUILDING 1202050652 교내 부속동 1202050652",
+    "bbox": {
+      "min": [
+        -16.579999923706055,
+        -744.3670043945312,
+        -45.67725372314453
+      ],
+      "max": [
+        7.909999847412109,
+        -734.56201171875,
+        -30.937646865844727
+      ]
+    },
+    "target": [
+      -4.335000038146973,
+      -739.4645080566406,
+      -38.30745029449463
+    ],
+    "camera": [
+      4.511400141408684,
+      -770.5823897133441,
+      -27.77675039291382
+    ],
+    "orthographic_scale": 34.775799674987795,
+    "entrance": [
+      2.4319014746506635,
+      -743.699274314387,
+      -45.037647218177504
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050652",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 53,
+    "id": 158,
+    "osm_id": "1202050665",
+    "name": "생산교육 실험실습동",
+    "collection": "CAMPUS_BUILDING 158 생산교육 실험실습동",
+    "bbox": {
+      "min": [
+        -30.458303451538086,
+        -864.9591674804688,
+        -44.90591049194336
+      ],
+      "max": [
+        5.442324161529541,
+        -814.7686767578125,
+        -32.728057861328125
+      ]
+    },
+    "target": [
+      -12.507989645004272,
+      -839.8639221191406,
+      -38.81698417663574
+    ],
+    "camera": [
+      11.149588815899996,
+      -901.8003648066899,
+      -17.235073165893557
+    ],
+    "orthographic_scale": 71.27049682617186,
+    "entrance": [
+      -17.25261230373376,
+      -861.6000330242136,
+      -43.72805774298801
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 2,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1556001151136100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/158/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 54,
+    "id": 153,
+    "osm_id": "1202050668",
+    "name": "창업보육센터",
+    "collection": "CAMPUS_BUILDING 153 창업보육센터",
+    "bbox": {
+      "min": [
+        14.252567291259766,
+        -852.30517578125,
+        -40.98578643798828
+      ],
+      "max": [
+        39.76410675048828,
+        -807.0509033203125,
+        -19.54585075378418
+      ]
+    },
+    "target": [
+      27.008337020874023,
+      -829.6780395507812,
+      -30.26581859588623
+    ],
+    "camera": [
+      72.35620725285797,
+      -868.6298299780343,
+      -10.806481437683107
+    ],
+    "orthographic_scale": 64.26106689453124,
+    "entrance": [
+      23.40395448105194,
+      -847.2066015377528,
+      -38.1158514346875
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802714123100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/153/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 55,
+    "id": null,
+    "osm_id": "1202050669",
+    "name": "자동차공학실험실",
+    "collection": "CAMPUS_BUILDING 1202050669 자동차공학실험실",
+    "bbox": {
+      "min": [
+        35.81700134277344,
+        -855.8660278320312,
+        -38.79914093017578
+      ],
+      "max": [
+        47.395999908447266,
+        -835.948974609375,
+        -22.061819076538086
+      ]
+    },
+    "target": [
+      41.60650062561035,
+      -845.9075012207031,
+      -30.430480003356934
+    ],
+    "camera": [
+      25.331357939764082,
+      -866.5797543971154,
+      -21.866147117614744
+    ],
+    "orthographic_scale": 28.282215576171872,
+    "entrance": [
+      40.10923855155078,
+      -855.5923581242145,
+      -36.16181922185249
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050669",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 56,
+    "id": null,
+    "osm_id": "1202050670",
+    "name": "약초원",
+    "collection": "CAMPUS_BUILDING 1202050670 약초원",
+    "bbox": {
+      "min": [
+        49.20600128173828,
+        -832.8170166015625,
+        -38.030555725097656
+      ],
+      "max": [
+        59.8129997253418,
+        -813.4600219726562,
+        -21.3752384185791
+      ]
+    },
+    "target": [
+      54.50950050354004,
+      -823.1385192871094,
+      -29.70289707183838
+    ],
+    "camera": [
+      39.74358196186455,
+      -844.01451879076,
+      -21.379389381408693
+    ],
+    "orthographic_scale": 27.486932373046873,
+    "entrance": [
+      53.524601976115065,
+      -832.77245477088,
+      -35.47523779917349
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050670",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 57,
+    "id": null,
+    "osm_id": "1202050671",
+    "name": "건설실험동",
+    "collection": "CAMPUS_BUILDING 1202050671 건설실험동",
+    "bbox": {
+      "min": [
+        2.638000011444092,
+        -865.6909790039062,
+        -40.20363235473633
+      ],
+      "max": [
+        36.20100021362305,
+        -848.8200073242188,
+        -24.795595169067383
+      ]
+    },
+    "target": [
+      19.41950011253357,
+      -857.2554931640625,
+      -32.499613761901855
+    ],
+    "camera": [
+      -8.193919965639843,
+      -891.9426359719321,
+      -18.067523674964903
+    ],
+    "orthographic_scale": 47.65946028709411,
+    "entrance": [
+      8.55760641274072,
+      -865.1335245519984,
+      -38.89559555635976
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050671",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 58,
+    "id": null,
+    "osm_id": "1359353587",
+    "name": "교내 부속동 1359353587",
+    "collection": "CAMPUS_BUILDING 1359353587 교내 부속동 1359353587",
+    "bbox": {
+      "min": [
+        55.62099838256836,
+        -905.176025390625,
+        -32.96575927734375
+      ],
+      "max": [
+        79.10600280761719,
+        -882.552001953125,
+        -18.373851776123047
+      ]
+    },
+    "target": [
+      67.36350059509277,
+      -893.864013671875,
+      -25.6698055267334
+    ],
+    "camera": [
+      57.95731614316438,
+      -923.4270053061813,
+      -15.571253623962402
+    ],
+    "orthographic_scale": 33.348706283569335,
+    "entrance": [
+      74.1279771528624,
+      -904.5080095738404,
+      -32.473850884996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1359353587",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 59,
+    "id": null,
+    "osm_id": "1359353588",
+    "name": "교내 부속동 1359353588",
+    "collection": "CAMPUS_BUILDING 1359353588 교내 부속동 1359353588",
+    "bbox": {
+      "min": [
+        77.9540023803711,
+        -942.969970703125,
+        -29.956897735595703
+      ],
+      "max": [
+        89.93499755859375,
+        -931.1630249023438,
+        -15.75689697265625
+      ]
+    },
+    "target": [
+      83.94449996948242,
+      -937.0664978027344,
+      -22.856897354125977
+    ],
+    "camera": [
+      79.45961307350444,
+      -955.2804382698612,
+      -16.750897026062013
+    ],
+    "orthographic_scale": 20.16400108337402,
+    "entrance": [
+      85.319856507757,
+      -942.0326843373432,
+      -29.85689691180399
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1359353588",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 60,
+    "id": null,
+    "osm_id": "1359353590",
+    "name": "교내 부속동 1359353590",
+    "collection": "CAMPUS_BUILDING 1359353590 교내 부속동 1359353590",
+    "bbox": {
+      "min": [
+        73.92500305175781,
+        -871.5280151367188,
+        -32.27404022216797
+      ],
+      "max": [
+        87.00900268554688,
+        -847.6430053710938,
+        -17.773344039916992
+      ]
+    },
+    "target": [
+      80.46700286865234,
+      -859.5855102539062,
+      -25.02369213104248
+    ],
+    "camera": [
+      58.49208690787663,
+      -882.2265031692209,
+      -14.75313793182373
+    ],
+    "orthographic_scale": 33.9167138671875,
+    "entrance": [
+      77.52170753766168,
+      -870.9469623199659,
+      -31.873343125059492
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1359353590",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  {
+    "index": 61,
+    "id": 130,
+    "osm_id": "relation/13257660",
+    "name": "자연과학관",
+    "collection": "CAMPUS_BUILDING 130 자연과학관",
+    "bbox": {
+      "min": [
+        194.0296630859375,
+        -695.3441162109375,
+        -32.55147171020508
+      ],
+      "max": [
+        291.47332763671875,
+        -592.6569213867188,
+        -13.246711730957031
+      ]
+    },
+    "target": [
+      242.75149536132812,
+      -644.0005187988281,
+      -22.899091720581055
+    ],
+    "camera": [
+      378.105511109904,
+      -635.0717961943744,
+      21.256402053833007
+    ],
+    "orthographic_scale": 145.81581665039062,
+    "entrance": [
+      274.2139253568412,
+      -659.2104749611498,
+      -31.17671159602848
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801300432100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/130/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 62,
+    "id": 165,
+    "osm_id": null,
+    "name": "그린빌리지(기숙사)",
+    "collection": "CAMPUS_BUILDING 165 그린빌리지(기숙사)",
+    "bbox": {
+      "min": [
+        433.1700134277344,
+        -805.8619995117188,
+        -36.21837615966797
+      ],
+      "max": [
+        491.8900146484375,
+        -779.9019775390625,
+        -21.30078125
+      ]
+    },
+    "target": [
+      462.53001403808594,
+      -792.8819885253906,
+      -28.759578704833984
+    ],
+    "camera": [
+      500.698014831543,
+      -860.4099899291992,
+      -3.5099781799316396
+    ],
+    "orthographic_scale": 83.38240173339844,
+    "entrance": [
+      462.53,
+      -802.6619999999999,
+      -35.68078145893999
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798370780100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/165/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 63,
+    "id": 178,
+    "osm_id": null,
+    "name": "조선대학교 어린이집",
+    "collection": "CAMPUS_BUILDING 178 조선대학교 어린이집",
+    "bbox": {
+      "min": [
+        512.541015625,
+        -399.4289855957031,
+        -14.177323341369629
+      ],
+      "max": [
+        557.041015625,
+        -380.9289855957031,
+        -2.9504334926605225
+      ]
+    },
+    "target": [
+      534.791015625,
+      -390.1789855957031,
+      -8.563878417015076
+    ],
+    "camera": [
+      563.716015625,
+      -441.35398559570314,
+      10.571121582984922
+    ],
+    "orthographic_scale": 63.19,
+    "entrance": [
+      534.791,
+      -398.57899999999995,
+      -13.150433376358974
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 2,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802012748100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/178/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 64,
+    "id": 171,
+    "osm_id": null,
+    "name": "조선대학교병원 장례식장",
+    "collection": "CAMPUS_BUILDING 171 조선대학교병원 장례식장",
+    "bbox": {
+      "min": [
+        89.81700134277344,
+        -992.81298828125,
+        -30.748680114746094
+      ],
+      "max": [
+        128.35699462890625,
+        -973.4429931640625,
+        -24.28184700012207
+      ]
+    },
+    "target": [
+      109.08699798583984,
+      -983.1279907226562,
+      -27.515263557434082
+    ],
+    "camera": [
+      134.13799362182618,
+      -1027.448983001709,
+      -10.943066444396973
+    ],
+    "orthographic_scale": 54.72679046630859,
+    "entrance": [
+      109.08699999999999,
+      -990.1129999999999,
+      -28.431847406592997
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802264587100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/171/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 65,
+    "id": 164,
+    "osm_id": null,
+    "name": "주차빌딩",
+    "collection": "CAMPUS_BUILDING 164 주차빌딩",
+    "bbox": {
+      "min": [
+        105.36299896240234,
+        -778.7139892578125,
+        -37.04594802856445
+      ],
+      "max": [
+        170.01300048828125,
+        -735.0640258789062,
+        -18.9722900390625
+      ]
+    },
+    "target": [
+      137.6879997253418,
+      -756.8890075683594,
+      -28.009119033813477
+    ],
+    "camera": [
+      179.7105007171631,
+      -831.2365093231201,
+      -0.20961837768554759
+    ],
+    "orthographic_scale": 91.80300216674804,
+    "entrance": [
+      137.688,
+      -778.789,
+      -31.572290071079998
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802631182100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/164/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 66,
+    "id": 176,
+    "osm_id": null,
+    "name": "태양에너지실증연구단지",
+    "collection": "CAMPUS_BUILDING 176 태양에너지실증연구단지",
+    "bbox": {
+      "min": [
+        450.0899963378906,
+        -680.3734741210938,
+        -5.7861328125
+      ],
+      "max": [
+        502.739990234375,
+        -646.4650268554688,
+        -1.9361330270767212
+      ]
+    },
+    "target": [
+      476.4149932861328,
+      -663.4192504882812,
+      -3.8611329197883606
+    ],
+    "camera": [
+      510.63748931884766,
+      -723.9667434692383,
+      18.778364455699922
+    ],
+    "orthographic_scale": 74.7629913330078,
+    "entrance": [
+      476.415,
+      -680.965,
+      -5.4361329812750006
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802874410100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/176/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  {
+    "index": 67,
+    "id": 139,
+    "osm_id": "503476184",
+    "name": "치과대학(연구동)",
+    "collection": "CAMPUS_BUILDING 139 치과대학(연구동)",
+    "bbox": {
+      "min": [
+        -330.0341796875,
+        -647.4149780273438,
+        -53.41041564941406
+      ],
+      "max": [
+        -276.8405456542969,
+        -604.6400146484375,
+        -33.04774856567383
+      ]
+    },
+    "target": [
+      -303.43736267089844,
+      -626.0274963378906,
+      -43.229082107543945
+    ],
+    "camera": [
+      -233.99091266505303,
+      -636.7409223062456,
+      -20.355819473266603
+    ],
+    "orthographic_scale": 75.53496032714844,
+    "entrance": [
+      -282.94985468719085,
+      -639.5791140594555,
+      -52.69774921888704
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "Complementary split of shared OSM503476184; internal boundary approximate",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802825077100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/139/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  }
+]

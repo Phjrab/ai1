@@ -1,0 +1,26 @@
+{
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus_Geometry.blend",
+  "output": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "material_counts": {
+    "metal": 16,
+    "bark": 2,
+    "brick": 11,
+    "foliage": 9,
+    "glass": 31,
+    "paving": 4,
+    "grass": 3,
+    "white_masonry": 8,
+    "stone": 20,
+    "roof": 2,
+    "asphalt": 2,
+    "painted_metal": 5,
+    "concrete": 3
+  },
+  "geometry_sha256_before": "65be4fc5eda5dd5321d58f52a22048fc2b6f5cb5353cdb8ea0a8efa4acdb51e0",
+  "geometry_sha256_after": "65be4fc5eda5dd5321d58f52a22048fc2b6f5cb5353cdb8ea0a8efa4acdb51e0",
+  "geometry_unchanged": true,
+  "native_saved_before_fallback": true,
+  "glb": "/workspace/shared/chosun_model/delivery/Chosun_Campus.glb",
+  "fallback_table": "/workspace/shared/chosun_model/delivery/Chosun_Campus_materials.json",
+  "glb_sha256": "7cb8b47393a23183208f1f4c44ce9332bde6073d78dd96a11adb444f482c163e"
+}

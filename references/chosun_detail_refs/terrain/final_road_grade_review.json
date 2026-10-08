@@ -1,0 +1,183 @@
+{
+  "vehicle_max_grade": 0.2768156393151013,
+  "vehicle_gt30": 0,
+  "vehicle_segments": 7654,
+  "steep_pedestrians": [
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 651840249  part0",
+      "type": "footway",
+      "grade": 0.7192915318442451,
+      "point": [
+        -140.388,
+        -200.245,
+        -30.19319427275555
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 651840249  part0",
+      "type": "footway",
+      "grade": 0.6738269588861727,
+      "point": [
+        -141.2115,
+        -198.736,
+        -28.956675171222905
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 944569909  part0",
+      "type": "footway",
+      "grade": 0.6459723679746838,
+      "point": [
+        -199.27913262806635,
+        -164.11023251504147,
+        -23.423460081047843
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 944569909  part0",
+      "type": "footway",
+      "grade": 0.6459723679746898,
+      "point": [
+        -198.8072652561327,
+        -162.24646503008296,
+        -22.18153086042552
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 944569956  part0",
+      "type": "footway",
+      "grade": 0.6618575716409426,
+      "point": [
+        173.4435135079893,
+        -513.424070178594,
+        -39.17333472513512
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 944569956  part0",
+      "type": "footway",
+      "grade": 0.6807143038900152,
+      "point": [
+        175.50755176697612,
+        -513.9363851641182,
+        -37.7657828161632
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 944569956  part0",
+      "type": "footway",
+      "grade": 0.6591939983201562,
+      "point": [
+        177.57159002596296,
+        -514.4487001496424,
+        -36.31812888130018
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485907433  part0",
+      "type": "footway",
+      "grade": 0.9052448310371067,
+      "point": [
+        -123.868,
+        -249.115,
+        -39.93308627970388
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485907433  part0",
+      "type": "footway",
+      "grade": 0.9381409837379043,
+      "point": [
+        -124.67349999999999,
+        -247.6445,
+        -38.41529531084335
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485907455  part0",
+      "type": "footway",
+      "grade": 0.722610109838637,
+      "point": [
+        126.9235,
+        -486.833625,
+        -46.79518047133253
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485907455  part0",
+      "type": "footway",
+      "grade": 1.3121135840952658,
+      "point": [
+        128.481,
+        -488.06425,
+        -45.360795919375285
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485914602  part0",
+      "type": "footway",
+      "grade": 0.9181534767190935,
+      "point": [
+        172.2101323517729,
+        -234.85777911689252,
+        -37.45251315380308
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485914602  part0",
+      "type": "footway",
+      "grade": 0.8823281322260799,
+      "point": [
+        172.40075770185734,
+        -232.711054312935,
+        -35.473734689639286
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485914602  part0",
+      "type": "footway",
+      "grade": 0.8525947007951554,
+      "point": [
+        172.59138305194176,
+        -230.5643295089775,
+        -33.57216599699141
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485914602  part0",
+      "type": "footway",
+      "grade": 0.8035382845199619,
+      "point": [
+        172.78200840202618,
+        -228.41760470501998,
+        -31.73467795673233
+      ]
+    },
+    {
+      "vehicle": false,
+      "name": "CAMPUS_PATH 1485914602  part0",
+      "type": "footway",
+      "grade": 0.6211699297594628,
+      "point": [
+        172.9726337521106,
+        -226.2708799010625,
+        -30.002914920533904
+      ]
+    }
+  ]
+}

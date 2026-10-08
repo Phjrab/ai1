@@ -1,0 +1,19 @@
+{
+  "name": "chosun-campus-walk",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/simulate.mjs",
+    "serve": "python3 -m http.server 8173 --directory dist",
+    "pretest": "python3 ../scripts/restore-assets.py",
+    "preserve": "python3 ../scripts/restore-assets.py"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "^4.2.1",
+    "@gltf-transform/extensions": "^4.2.1",
+    "@gltf-transform/functions": "^4.2.1",
+    "meshoptimizer": "^0.25.0",
+    "three": "0.180.0"
+  }
+}

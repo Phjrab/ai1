@@ -1,0 +1,101 @@
+{
+  "index": 17,
+  "name": "조선이공대학교 1호관",
+  "building_id": "cit_1",
+  "osm_id": "468704884",
+  "catalog_record": {
+    "index": 17,
+    "id": "cit_1",
+    "osm_id": "468704884",
+    "name": "조선이공대학교 1호관",
+    "collection": "CAMPUS_BUILDING cit_1 조선이공대학교 1호관",
+    "bbox": {
+      "min": [
+        193.9950714111328,
+        -415.29254150390625,
+        -45.78361129760742
+      ],
+      "max": [
+        226.80392456054688,
+        -317.04913330078125,
+        -16.92293357849121
+      ]
+    },
+    "target": [
+      210.39949798583984,
+      -366.17083740234375,
+      -31.353272438049316
+    ],
+    "camera": [
+      267.0604888267581,
+      -482.9264196138114,
+      10.891393089294432
+    ],
+    "orthographic_scale": 139.5056396484375,
+    "entrance": [
+      207.41846192775736,
+      -411.78271559956795,
+      -44.67293296977599
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 7,
+    "reference_image": null,
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/cit_1/detailView.do",
+    "review_status": "CIT group photo reviewed; individual attribution incomplete"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      134.77105712890625,
+      -444.17822265625,
+      51.2429084777832
+    ],
+    "rotation": [
+      0.9207965135574341,
+      4.554284060986902e-09,
+      -0.7699152827262878
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 125.0543441772461
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        134.77105712890625,
+        -444.17822265625,
+        51.2429084777832
+      ],
+      "rotation": [
+        0.9207965135574341,
+        4.554284060986902e-09,
+        -0.7699152827262878
+      ],
+      "scale": 125.0543441772461,
+      "score": 0.9811320754716981,
+      "hit": 52,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083499572186
+    }
+  ],
+  "camera_visibility_score": 0.9811320754716981,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "017_조선이공대학교 1호관.jpg",
+  "file_sha256": "3d862d5c69acb72b10d044243d6185fd8516c39fa690fad58d1e8c4dd67a3cf3",
+  "render_seconds": 53.79,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

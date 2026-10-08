@@ -1,0 +1,235 @@
+{
+  "index": 24,
+  "name": "학군단(ROTC)",
+  "building_id": 151,
+  "osm_id": "468704902",
+  "catalog_record": {
+    "index": 24,
+    "id": 151,
+    "osm_id": "468704902",
+    "name": "학군단(ROTC)",
+    "collection": "CAMPUS_BUILDING 151 학군단(ROTC)",
+    "bbox": {
+      "min": [
+        570.2509765625,
+        -219.93746948242188,
+        9.0076265335083
+      ],
+      "max": [
+        618.3489990234375,
+        -154.97500610351562,
+        29.648456573486328
+      ]
+    },
+    "target": [
+      594.2999877929688,
+      -187.45623779296875,
+      19.328041553497314
+    ],
+    "camera": [
+      654.0379681301754,
+      -249.0637534175885,
+      47.261900806427
+    ],
+    "orthographic_scale": 92.24669799804687,
+    "entrance": [
+      607.8416076886776,
+      -215.94451063976365,
+      16.898455921600018
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802913321100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/151/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      660.4942626953125,
+      -255.72215270996094,
+      50.28091812133789
+    ],
+    "rotation": [
+      1.2560988664627075,
+      -3.349854793555096e-08,
+      0.7699923515319824
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 94.10810852050781
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        660.4942626953125,
+        -255.72215270996094,
+        50.28091812133789
+      ],
+      "rotation": [
+        1.2560988664627075,
+        -3.349854793555096e-08,
+        0.7699923515319824
+      ],
+      "scale": 94.10810852050781,
+      "score": 0.9649122807017544,
+      "hit": 55,
+      "other": 2,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083741427746,
+      "selection_score": 0.9649122807017544
+    },
+    {
+      "location": [
+        650.9564819335938,
+        -245.8858642578125,
+        77.43153381347656
+      ],
+      "rotation": [
+        0.9507963061332703,
+        -1.4925545244182103e-08,
+        0.7699924111366272
+      ],
+      "scale": 99.67335510253906,
+      "score": 0.9827586206896551,
+      "hit": 57,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9564501624443775
+    },
+    {
+      "location": [
+        608.3551025390625,
+        -275.03509521484375,
+        65.50595092773438
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -5.520606194409083e-09,
+        0.15912769734859467
+      ],
+      "scale": 80.94336700439453,
+      "score": 0.9883720930232558,
+      "hit": 85,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.912117157607557
+    },
+    {
+      "location": [
+        681.404296875,
+        -204.20254516601562,
+        65.5059585571289
+      ],
+      "rotation": [
+        1.0907964706420898,
+        2.724014080968118e-08,
+        1.3808579444885254
+      ],
+      "scale": 85.99249267578125,
+      "score": 0.961038961038961,
+      "hit": 74,
+      "other": 3,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8847840256232623
+    },
+    {
+      "location": [
+        559.548583984375,
+        -259.0791015625,
+        79.8466796875
+      ],
+      "rotation": [
+        0.9207964539527893,
+        1.8598973028360888e-08,
+        -0.451737642288208
+      ],
+      "scale": 101.49449157714844,
+      "score": 0.9855072463768116,
+      "hit": 68,
+      "other": 1,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8149016046680528
+    },
+    {
+      "location": [
+        666.9594116210938,
+        -154.92771911621094,
+        79.8467025756836
+      ],
+      "rotation": [
+        0.9207963943481445,
+        6.605709756968281e-08,
+        1.9917231798171997
+      ],
+      "scale": 93.15522003173828,
+      "score": 0.96875,
+      "hit": 62,
+      "other": 2,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7981443582912412
+    },
+    {
+      "location": [
+        538.8822631835938,
+        -130.30410766601562,
+        79.84669494628906
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -1.4806849435444747e-07,
+        -2.3716001510620117
+      ],
+      "scale": 102.13980865478516,
+      "score": 1.0,
+      "hit": 56,
+      "other": 0,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6093943582912411
+    },
+    {
+      "location": [
+        637.5721435546875,
+        -232.08261108398438,
+        97.66072845458984
+      ],
+      "rotation": [
+        0.6707965731620789,
+        3.0919284910169154e-08,
+        0.769993007183075
+      ],
+      "scale": 118.92945098876953,
+      "score": 1.0,
+      "hit": 62,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 0.9649122807017544,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "024_학군단(ROTC).jpg",
+  "file_sha256": "97758577aca025770fa9d27691e4c8f4ab668b94fd854b8ebfce7eea19e17d69",
+  "render_seconds": 59.44,
+  "visual_review_notes": "Direct final-image/contact-sheet review: subject complete and legible, with camera chosen to limit surrounding obstruction. Model uncertainty preserved."
+}

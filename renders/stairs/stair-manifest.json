@@ -1,0 +1,127 @@
+{
+  "final_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "count": 4,
+  "all_visually_reviewed": true,
+  "images": [
+    {
+      "camera": "70_중앙108계단_전체",
+      "camera_definition": {
+        "location": [
+          26,
+          -178,
+          30
+        ],
+        "target": [
+          0,
+          -53,
+          -8
+        ],
+        "ortho_scale": 120,
+        "evidence": "사진 근거 중앙계단. 108개 디딤판; 폭·참 분할은 추정."
+      },
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "source_modified": false,
+      "geometry_modified": false,
+      "materials_modified": false,
+      "width": 1600,
+      "height": 1000,
+      "samples": 48,
+      "denoising": false,
+      "file": "70_중앙108계단_전체.png",
+      "file_sha256": "26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-size inspection: target is clear and framed; whole central staircase visible in the context shot. No original geometry edited."
+    },
+    {
+      "camera": "71_중앙108계단_상세",
+      "camera_definition": {
+        "location": [
+          12,
+          -89,
+          1
+        ],
+        "target": [
+          0,
+          -65,
+          -10
+        ],
+        "ortho_scale": 32,
+        "evidence": "사진 근거 중앙계단. 108개 디딤판; 폭·참 분할은 추정."
+      },
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "source_modified": false,
+      "geometry_modified": false,
+      "materials_modified": false,
+      "width": 1600,
+      "height": 1000,
+      "samples": 48,
+      "denoising": false,
+      "file": "71_중앙108계단_상세.png",
+      "file_sha256": "1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-size close-up review: treads, landings, rails and ground relationship visible. Detail crop intentionally does not include the entire staircase."
+    },
+    {
+      "camera": "72_실험실습동_금속계단",
+      "camera_definition": {
+        "location": [
+          -24,
+          -885,
+          -30
+        ],
+        "target": [
+          -17.7,
+          -863.3,
+          -41.4
+        ],
+        "ortho_scale": 16,
+        "evidence": "사진 근거 실험실습동 금속계단; 치수는 추정."
+      },
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "source_modified": false,
+      "geometry_modified": false,
+      "materials_modified": false,
+      "width": 1600,
+      "height": 1000,
+      "samples": 64,
+      "denoising": false,
+      "file": "72_실험실습동_금속계단.png",
+      "file_sha256": "a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-size review: photographed metal staircase / inferred connector shown without foreground obstruction after camera retake; no geometry or material edits. Detail crop may exclude continuing paths."
+    },
+    {
+      "camera": "73_보행연결계단_추정",
+      "camera_definition": {
+        "location": [
+          -127,
+          -205,
+          -14
+        ],
+        "target": [
+          -141.29,
+          -198.83,
+          -28.1
+        ],
+        "ortho_scale": 18,
+        "evidence": "실제 존재 미확인. 모델 지형에서 보행을 연결하기 위한 추정 연결계단."
+      },
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "source_modified": false,
+      "geometry_modified": false,
+      "materials_modified": false,
+      "width": 1600,
+      "height": 1000,
+      "samples": 64,
+      "denoising": false,
+      "file": "73_보행연결계단_추정.png",
+      "file_sha256": "e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-size review: photographed metal staircase / inferred connector shown without foreground obstruction after camera retake; no geometry or material edits. Detail crop may exclude continuing paths."
+    }
+  ]
+}

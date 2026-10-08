@@ -1,0 +1,52 @@
+{
+  "tested_blender": "4.3.2",
+  "engine": "CYCLES",
+  "device": "CPU",
+  "parallel_render_processes": 1,
+  "suggested_threads_during_integration": 2,
+  "denoising": false,
+  "denoising_note": "Installed build has no OpenImageDenoise support. Do not enable without verifying a different build.",
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": -0.35,
+  "presets": {
+    "test": {
+      "width": 1400,
+      "height": 875,
+      "samples": 24,
+      "adaptive_threshold": 0.06
+    },
+    "catalogue": {
+      "width": 1600,
+      "height": 1000,
+      "samples": 48,
+      "adaptive_threshold": 0.035
+    },
+    "hero": {
+      "width": 2400,
+      "height": 1500,
+      "samples": 128,
+      "adaptive_threshold": 0.018
+    }
+  },
+  "measured_intermediate_scene_test": {
+    "objects": 2171,
+    "materials_modified": 68,
+    "before_seconds": 51.87,
+    "after_seconds": 56.36,
+    "peak_blender_memory_mib": 751.57
+  },
+  "planning_estimate_only": {
+    "catalogue_per_image_seconds_2_threads": 150,
+    "catalogue_60_images_hours_2_threads": 2.5,
+    "warning": "Estimate based on pixel/sample scaling only; camera, geometry and adaptive convergence can materially change it. Render sequentially, assess representative final-camera timing first."
+  },
+  "measured_foliage_v11_test": {
+    "threads": 3,
+    "width": 1400,
+    "height": 875,
+    "samples": 24,
+    "seconds": 38.43,
+    "peak_blender_memory_mib": 761.22
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_mesh_sha256": "6ae0b96bf1669ee902eeff7eaf5120448684ba26d967661a1f78ef70084421ae",
+  "preview_mesh_sha256": "6ae0b96bf1669ee902eeff7eaf5120448684ba26d967661a1f78ef70084421ae",
+  "geometry_unchanged": true,
+  "idempotence_second_call_changed": {},
+  "material_profile_count": 68,
+  "all_inputs_have_metres_scale": true
+}

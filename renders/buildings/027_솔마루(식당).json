@@ -1,0 +1,101 @@
+{
+  "index": 27,
+  "name": "솔마루(식당)",
+  "building_id": 143,
+  "osm_id": "468706016",
+  "catalog_record": {
+    "index": 27,
+    "id": 143,
+    "osm_id": "468706016",
+    "name": "솔마루(식당)",
+    "collection": "CAMPUS_BUILDING 143 솔마루(식당)",
+    "bbox": {
+      "min": [
+        41.2859992980957,
+        -156.43418884277344,
+        -20.43815803527832
+      ],
+      "max": [
+        93.94200134277344,
+        -126.25599670410156,
+        -7.6200480461120605
+      ]
+    },
+    "target": [
+      67.61400032043457,
+      -141.3450927734375,
+      -14.02910304069519
+    ],
+    "camera": [
+      102.02667310198896,
+      -201.79383257915185,
+      8.612977838516237
+    ],
+    "orthographic_scale": 74.77152290344237,
+    "entrance": [
+      67.63423151189485,
+      -153.6179981042186,
+      -19.1680482447854
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799434289100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/143/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      98.36724090576172,
+      -195.36572265625,
+      64.3035888671875
+    ],
+    "rotation": [
+      0.6707963943481445,
+      -8.383465477379559e-09,
+      0.5175302028656006
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 76.9640121459961
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        98.36724090576172,
+        -195.36572265625,
+        64.3035888671875
+      ],
+      "rotation": [
+        0.6707963943481445,
+        -8.383465477379559e-09,
+        0.5175302028656006
+      ],
+      "scale": 76.9640121459961,
+      "score": 1.0,
+      "hit": 70,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030835206539805
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "027_솔마루(식당).jpg",
+  "file_sha256": "3686e51578030f18f313bf74c7f425d3af4eb55eb09ae2128ef4720967959187",
+  "render_seconds": 54.7,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

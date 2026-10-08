@@ -1,0 +1,46 @@
+{
+  "mapped_ways": 286,
+  "old_skipped_mapped_centerline_m": 2207.017,
+  "new_skipped_centerline_due_to_main_rectangle_m": 0,
+  "new_centerlines_added": 0,
+  "building_footprint_exclusion": true,
+  "excluded_centerline_inside_building_m": 9.9,
+  "union_overlap_free": true,
+  "terrain_partition": "Every face contained in one exact 5m terrain triangle",
+  "surface_meshes": [
+    {
+      "vertices": 19804,
+      "faces": 23789,
+      "area_m2": 96898.5130362475,
+      "triangle_area_error_m2": 1.2367687304504216e-05,
+      "faces_crossing_terrain_partition": 0,
+      "removed_numerical_slivers": 6,
+      "removed_sliver_area_m2": 7.980290538414102e-06
+    },
+    {
+      "vertices": 13152,
+      "faces": 14304,
+      "area_m2": 31518.248163398894,
+      "triangle_area_error_m2": 2.3399774363497272e-05,
+      "faces_crossing_terrain_partition": 0,
+      "removed_numerical_slivers": 6,
+      "removed_sliver_area_m2": 1.729314000500554e-05
+    }
+  ],
+  "graph_components": {
+    "walking": [
+      1536,
+      8,
+      2
+    ],
+    "vehicle": [
+      942
+    ]
+  },
+  "limits": "OSM disconnected ways/dead ends intentionally retained; terrain and mapped widths approximate. Road presence does not establish legal motor/bus access.",
+  "render_only_exclusions": {
+    "central_108_stairs_and_landings": true,
+    "navigation_paths_graph_and_widths_unchanged": true,
+    "bounds_contract": "road_surface_masks.py"
+  }
+}

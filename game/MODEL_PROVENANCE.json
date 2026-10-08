@@ -1,0 +1,50 @@
+{
+  "engine": "Three.js 0.180.0",
+  "project": "Independent whole-campus exploration game",
+  "assets": {
+    "building.glb": {
+      "bytes": 1414984,
+      "sha256": "e4e44f59dadd515c4a9f673e93dcaf022e5493013ee82235ca1621e34b908f9f",
+      "source_bytes": 10919700,
+      "source_sha256": "268ebdc8332dbcef5afa67440bfccd55e08398d07ae7d1005f1c3ab6a9362120"
+    },
+    "campus.glb": {
+      "bytes": 14767272,
+      "sha256": "e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766",
+      "source_bytes": 72063316,
+      "source_sha256": "6fa57ea01562262c1621e3ca0f9fbb5a9566c9decf697387bcbae34591375ee9"
+    },
+    "shuttle_bus.glb": {
+      "bytes": 1068028,
+      "sha256": "4a07ea33a842d9f082a910d596730f080d864b63855e178b8bf19bd4a016d474",
+      "source_bytes": 1069644,
+      "source_sha256": "3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532"
+    }
+  },
+  "navigation": {
+    "bytes": 2279530,
+    "sha256": "41eff1390c30ea7f0d6285a182b8ce0dd1d1dd831524c1cd64bd9ce5e805430e"
+  },
+  "road_graph": {
+    "bytes": 542714,
+    "sha256": "559e31627d83891c84d8afa597353051e0cf0f775456683e07f1955c056cc0d4"
+  },
+  "transit_placements": {
+    "bytes": 128811,
+    "sha256": "575940ebdf9f509d6d8b997fc95ba9218408599a6c57611fa29ffc96621fe686"
+  },
+  "ground_elevation": {
+    "bytes": 588198,
+    "sha256": "4cf2273a7a9711ff52bade91dbb38444c08d213864f8925e3d1102465ce1840a"
+  },
+  "material_table": {
+    "bytes": 34921,
+    "sha256": "383ab71d4d1d7e45ab0bc4162f4c77ba8268a035e09639d36e5c3391771940c7"
+  },
+  "destination_count": 50,
+  "campus_building_count": 67,
+  "walkable_surface_count": 435,
+  "accuracy": "Photo/map-informed approximate reconstruction; not surveyed BIM. Inferred connectors, interiors and gameplay characters are labeled. Official shuttle stop order with approximate game route and timing.",
+  "compression": "Main and campus: Meshopt 16-bit positions; small quantization differences, not lossless. Bus pivot hierarchy preserved.",
+  "materials": "Name-matched constant linear baseColor/roughness/metalness fallback; unmatched materials retain asset originals. Blender procedural effects are not fully exported."
+}

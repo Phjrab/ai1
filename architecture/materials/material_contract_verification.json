@@ -1,0 +1,21 @@
+{
+  "cases": {
+    "REVIEW 130 • observed facade": "brick",
+    "REVIEW 131 • observed facade": "stone",
+    "REVIEW 159 • observed facade": "white_masonry",
+    "REVIEW 153 • observed glazing": "glass",
+    "REVIEW • parking sky blue cladding": "painted_metal",
+    "REVIEW • chalk stone": "stone",
+    "REVIEW • pharmacy ochre stone": "stone",
+    "STAIRS • entry pale granite": "stone",
+    "STAIRS • honed gray granite": "stone",
+    "STAIRS • granite nosing": "stone",
+    "STAIRS • metal handrail": "metal",
+    "Coach pearl ivory": null,
+    "Yellow circular BUS sign": null
+  },
+  "all_passed": true,
+  "photo_colors_preserved": true,
+  "livery_excluded": true,
+  "idempotent": true
+}

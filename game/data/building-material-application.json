@@ -1,0 +1,27 @@
+{
+  "input": "chosun_main_building.glb",
+  "output": "building.glb",
+  "inputBytes": 10919700,
+  "outputBytes": 1414984,
+  "materialCount": 15,
+  "matched": [
+    "Warm white painted masonry",
+    "Smoky blue green glazing",
+    "White projecting cornices and frames",
+    "Brushed aluminum",
+    "Granite plinth | fine grey",
+    "Rear lower storey | dark red-brown brick",
+    "Terrazzo light aggregate",
+    "Green waterproofing",
+    "Pale grey standing seam roof",
+    "Interior cream plaster"
+  ],
+  "unmatched": [
+    "Deep window recess",
+    "Rear service doors | pale blue paint",
+    "Corridor grey lower paint",
+    "Corridor varnished warm wood",
+    "Warm frosted fluorescent diffusers"
+  ],
+  "compression": "Meshopt with 16-bit position quantization"
+}

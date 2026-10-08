@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "routeMaxGradePercent": 27.748122891863414,
+  "maxWheelContactGapMeters": 0.07728035859055127,
+  "thresholdMeters": 0.35,
+  "busCount": 2,
+  "carCount": 11,
+  "failures": []
+}

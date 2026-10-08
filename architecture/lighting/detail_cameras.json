@@ -1,0 +1,106 @@
+{
+  "01_Library_International_Oblique": {
+    "location": [
+      -155,
+      -425,
+      115
+    ],
+    "target": [
+      8,
+      -227,
+      -10
+    ],
+    "lens": 47
+  },
+  "02_Library_International_Front": {
+    "location": [
+      5,
+      -470,
+      56
+    ],
+    "target": [
+      8,
+      -227,
+      -7
+    ],
+    "lens": 39
+  },
+  "03_Sports_Oblique": {
+    "location": [
+      278,
+      -905,
+      80
+    ],
+    "target": [
+      121,
+      -690,
+      -34
+    ],
+    "lens": 49
+  },
+  "04_Sports_Front": {
+    "location": [
+      82,
+      -919,
+      12
+    ],
+    "target": [
+      121,
+      -690,
+      -34
+    ],
+    "lens": 48
+  },
+  "07_Road_Main_Southwest": {
+    "location": [
+      -345,
+      -125,
+      180
+    ],
+    "target": [
+      -223,
+      -62,
+      -6
+    ],
+    "lens": 48
+  },
+  "08_Road_Hospital_Connection": {
+    "location": [
+      -393,
+      -647,
+      39
+    ],
+    "target": [
+      -312,
+      -550,
+      -36
+    ],
+    "lens": 49
+  },
+  "05_Shuttle_Coach": {
+    "location": [
+      -80.35,
+      -519.9,
+      -31.6
+    ],
+    "target": [
+      -72.1,
+      -535.9,
+      -37.8
+    ],
+    "lens": 43
+  },
+  "06_Campus_Shelter": {
+    "location": [
+      -88,
+      -526,
+      -32.5
+    ],
+    "target": [
+      -77.1,
+      -543.8,
+      -38.7
+    ],
+    "lens": 43
+  }
+}

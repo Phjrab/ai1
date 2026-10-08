@@ -1,0 +1,30 @@
+{
+  "camera": "71_중앙108계단_상세",
+  "camera_definition": {
+    "location": [
+      12,
+      -89,
+      1
+    ],
+    "target": [
+      0,
+      -65,
+      -10
+    ],
+    "ortho_scale": 32,
+    "evidence": "사진 근거 중앙계단. 108개 디딤판; 폭·참 분할은 추정."
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "width": 1600,
+  "height": 1000,
+  "samples": 48,
+  "denoising": false,
+  "file": "71_중앙108계단_상세.png",
+  "file_sha256": "1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167",
+  "visual_review": "accepted",
+  "visual_review_notes": "Direct full-size close-up review: treads, landings, rails and ground relationship visible. Detail crop intentionally does not include the entire staircase."
+}

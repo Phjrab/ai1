@@ -1,0 +1,11 @@
+{
+  "mode": "before",
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "sha256": "5662152700bdce411785bf2b57c704a4b4322a25c2a954775ca76862f824c372",
+  "camera": "01_Aerial_Front",
+  "seconds": 51.86930775642395,
+  "samples": 24,
+  "width": 1400,
+  "material_counts": {},
+  "lighting": "identical original procedural daylight"
+}

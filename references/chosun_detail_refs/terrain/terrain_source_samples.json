@@ -1,0 +1,600 @@
+{
+  "datum_egm2008_m": 109.8402297915503,
+  "samples": [
+    {
+      "id": 167,
+      "name": "1.8극장(노천극장)",
+      "x": -183.642,
+      "y": -235.046,
+      "dsm_egm2008_m": 66.787,
+      "masked_smoothed_egm2008_m": 69.1,
+      "relative_trend_m": -40.74,
+      "preservation_blend": 0.801,
+      "model_base_before_pads": -37.424
+    },
+    {
+      "id": 138,
+      "name": "IT융합대학",
+      "x": 299.374,
+      "y": -103.467,
+      "dsm_egm2008_m": 86.222,
+      "masked_smoothed_egm2008_m": 92.201,
+      "relative_trend_m": -17.639,
+      "preservation_blend": 0.3945,
+      "model_base_before_pads": -17.148
+    },
+    {
+      "id": 133,
+      "name": "경상대학",
+      "x": 322.012,
+      "y": 29.964,
+      "dsm_egm2008_m": 116.672,
+      "masked_smoothed_egm2008_m": 123.533,
+      "relative_trend_m": 13.692,
+      "preservation_blend": 0.6191,
+      "model_base_before_pads": 9.076
+    },
+    {
+      "id": 134,
+      "name": "공과대학 제1공학관",
+      "x": -62.689,
+      "y": -832.271,
+      "dsm_egm2008_m": 58.558,
+      "masked_smoothed_egm2008_m": 59.18,
+      "relative_trend_m": -50.66,
+      "preservation_blend": 1,
+      "model_base_before_pads": -50.659
+    },
+    {
+      "id": 150,
+      "name": "공과대학 제2공학관",
+      "x": 427.62,
+      "y": -197.364,
+      "dsm_egm2008_m": 87.195,
+      "masked_smoothed_egm2008_m": 89.731,
+      "relative_trend_m": -20.11,
+      "preservation_blend": 1,
+      "model_base_before_pads": -20.094
+    },
+    {
+      "id": 149,
+      "name": "교수연구동",
+      "x": -175.038,
+      "y": 14.545,
+      "dsm_egm2008_m": 125.326,
+      "masked_smoothed_egm2008_m": 125.967,
+      "relative_trend_m": 16.127,
+      "preservation_blend": 0.0,
+      "model_base_before_pads": 0.0
+    },
+    {
+      "id": 146,
+      "name": "국제관(언어교육원,인권윤리원)",
+      "x": -66.432,
+      "y": -233.175,
+      "dsm_egm2008_m": 72.877,
+      "masked_smoothed_egm2008_m": 69.11,
+      "relative_trend_m": -40.731,
+      "preservation_blend": 0.7855,
+      "model_base_before_pads": -37.125
+    },
+    {
+      "id": 165,
+      "name": "그린빌리지(기숙사)",
+      "x": 462.53,
+      "y": -791.262,
+      "dsm_egm2008_m": 72.061,
+      "masked_smoothed_egm2008_m": 74.039,
+      "relative_trend_m": -35.801,
+      "preservation_blend": 1,
+      "model_base_before_pads": -35.781
+    },
+    {
+      "id": 142,
+      "name": "글로벌하우스(기숙사)",
+      "x": 517.263,
+      "y": -139.934,
+      "dsm_egm2008_m": 111.485,
+      "masked_smoothed_egm2008_m": 117.551,
+      "relative_trend_m": 7.711,
+      "preservation_blend": 1,
+      "model_base_before_pads": 7.712
+    },
+    {
+      "id": 168,
+      "name": "대운동장",
+      "x": 3.727,
+      "y": -404.739,
+      "dsm_egm2008_m": 59.161,
+      "masked_smoothed_egm2008_m": 58.374,
+      "relative_trend_m": -51.467,
+      "preservation_blend": 1,
+      "model_base_before_pads": -51.511
+    },
+    {
+      "id": 135,
+      "name": "미술대학(미술관)",
+      "x": -220.55,
+      "y": -344.5,
+      "dsm_egm2008_m": 69.407,
+      "masked_smoothed_egm2008_m": 64.792,
+      "relative_trend_m": -45.048,
+      "preservation_blend": 1,
+      "model_base_before_pads": -45.048
+    },
+    {
+      "id": 147,
+      "name": "백학학사(기숙사)",
+      "x": -323.994,
+      "y": -90.303,
+      "dsm_egm2008_m": 85.931,
+      "masked_smoothed_egm2008_m": 98.909,
+      "relative_trend_m": -10.931,
+      "preservation_blend": 0.6383,
+      "model_base_before_pads": -12.738
+    },
+    {
+      "id": 131,
+      "name": "법과대학",
+      "x": 375.947,
+      "y": -32.891,
+      "dsm_egm2008_m": 105.935,
+      "masked_smoothed_egm2008_m": 109.617,
+      "relative_trend_m": -0.223,
+      "preservation_blend": 0.9895,
+      "model_base_before_pads": -0.21
+    },
+    {
+      "id": 126,
+      "name": "본관",
+      "x": 0.0,
+      "y": 8.5,
+      "dsm_egm2008_m": 120.077,
+      "masked_smoothed_egm2008_m": 123.236,
+      "relative_trend_m": 13.396,
+      "preservation_blend": 0.0,
+      "model_base_before_pads": 0.0
+    },
+    {
+      "id": 136,
+      "name": "사회과학ㆍ사범대학",
+      "x": -350.395,
+      "y": 48.612,
+      "dsm_egm2008_m": 123.103,
+      "masked_smoothed_egm2008_m": 116.543,
+      "relative_trend_m": 6.702,
+      "preservation_blend": 0.8649,
+      "model_base_before_pads": 6.708
+    },
+    {
+      "id": 160,
+      "name": "생명공학관",
+      "x": 50.549,
+      "y": -584.761,
+      "dsm_egm2008_m": 65.071,
+      "masked_smoothed_egm2008_m": 61.752,
+      "relative_trend_m": -48.088,
+      "preservation_blend": 1,
+      "model_base_before_pads": -48.087
+    },
+    {
+      "id": 158,
+      "name": "생산교육 실험실습동",
+      "x": -35.079,
+      "y": -813.906,
+      "dsm_egm2008_m": 63.607,
+      "masked_smoothed_egm2008_m": 61.703,
+      "relative_trend_m": -48.137,
+      "preservation_blend": 1,
+      "model_base_before_pads": -48.13
+    },
+    {
+      "id": 141,
+      "name": "서석홀(평생교육원,박물관)",
+      "x": -292.823,
+      "y": -142.042,
+      "dsm_egm2008_m": 78.353,
+      "masked_smoothed_egm2008_m": 78.554,
+      "relative_trend_m": -31.286,
+      "preservation_blend": 0.3472,
+      "model_base_before_pads": -22.75
+    },
+    {
+      "id": 143,
+      "name": "솔마루(식당)",
+      "x": 71.947,
+      "y": -145.872,
+      "dsm_egm2008_m": 86.998,
+      "masked_smoothed_egm2008_m": 81.7,
+      "relative_trend_m": -28.14,
+      "preservation_blend": 0.0392,
+      "model_base_before_pads": -19.79
+    },
+    {
+      "id": 157,
+      "name": "약학대학 1호관(약학관)",
+      "x": 42.595,
+      "y": -779.22,
+      "dsm_egm2008_m": 67.607,
+      "masked_smoothed_egm2008_m": 71.988,
+      "relative_trend_m": -37.852,
+      "preservation_blend": 1,
+      "model_base_before_pads": -37.851
+    },
+    {
+      "id": 140,
+      "name": "약학대학 2호관",
+      "x": 9.828,
+      "y": -771.09,
+      "dsm_egm2008_m": 66.446,
+      "masked_smoothed_egm2008_m": 67.699,
+      "relative_trend_m": -42.141,
+      "preservation_blend": 1,
+      "model_base_before_pads": -42.14
+    },
+    {
+      "id": 156,
+      "name": "약학대학 3호관(강의동)",
+      "x": -20.412,
+      "y": -736.538,
+      "dsm_egm2008_m": 61.725,
+      "masked_smoothed_egm2008_m": 62.766,
+      "relative_trend_m": -47.074,
+      "preservation_blend": 1,
+      "model_base_before_pads": -47.107
+    },
+    {
+      "id": 137,
+      "name": "의과대학 1호관",
+      "x": 156.946,
+      "y": -502.77,
+      "dsm_egm2008_m": 70.572,
+      "masked_smoothed_egm2008_m": 68.906,
+      "relative_trend_m": -40.934,
+      "preservation_blend": 1,
+      "model_base_before_pads": -40.934
+    },
+    {
+      "id": 155,
+      "name": "의과대학 2호관",
+      "x": 190.421,
+      "y": -516.338,
+      "dsm_egm2008_m": 75.148,
+      "masked_smoothed_egm2008_m": 75.228,
+      "relative_trend_m": -34.612,
+      "preservation_blend": 1,
+      "model_base_before_pads": -34.618
+    },
+    {
+      "id": 177,
+      "name": "의과대학 3호관",
+      "x": 102.953,
+      "y": -575.323,
+      "dsm_egm2008_m": 64.913,
+      "masked_smoothed_egm2008_m": 63.206,
+      "relative_trend_m": -46.634,
+      "preservation_blend": 1,
+      "model_base_before_pads": -46.632
+    },
+    {
+      "id": 154,
+      "name": "의성관(연구동)",
+      "x": 179.105,
+      "y": -877.021,
+      "dsm_egm2008_m": 88.606,
+      "masked_smoothed_egm2008_m": 82.47,
+      "relative_trend_m": -27.371,
+      "preservation_blend": 1,
+      "model_base_before_pads": -27.377
+    },
+    {
+      "id": 159,
+      "name": "입석홀(식당)",
+      "x": -107.492,
+      "y": -863.962,
+      "dsm_egm2008_m": 56.245,
+      "masked_smoothed_egm2008_m": 57.118,
+      "relative_trend_m": -52.723,
+      "preservation_blend": 1,
+      "model_base_before_pads": -52.723
+    },
+    {
+      "id": 130,
+      "name": "자연과학관",
+      "x": 243.51,
+      "y": -639.208,
+      "dsm_egm2008_m": 79.728,
+      "masked_smoothed_egm2008_m": 78.272,
+      "relative_trend_m": -31.569,
+      "preservation_blend": 1,
+      "model_base_before_pads": -31.548
+    },
+    {
+      "id": 163,
+      "name": "장미원",
+      "x": 109.137,
+      "y": -443.758,
+      "dsm_egm2008_m": 60.728,
+      "masked_smoothed_egm2008_m": 60.939,
+      "relative_trend_m": -48.902,
+      "preservation_blend": 1,
+      "model_base_before_pads": -48.901
+    },
+    {
+      "id": 129,
+      "name": "장황남정보통신박물관",
+      "x": -196.16,
+      "y": -149.937,
+      "dsm_egm2008_m": 74.981,
+      "masked_smoothed_egm2008_m": 77.487,
+      "relative_trend_m": -32.353,
+      "preservation_blend": 0.0579,
+      "model_base_before_pads": -20.395
+    },
+    {
+      "id": 162,
+      "name": "조선대학교 병원",
+      "x": 301.433,
+      "y": -801.326,
+      "dsm_egm2008_m": 88.075,
+      "masked_smoothed_egm2008_m": 77.848,
+      "relative_trend_m": -31.992,
+      "preservation_blend": 1,
+      "model_base_before_pads": -31.959
+    },
+    {
+      "id": 164,
+      "name": "주차빌딩",
+      "x": 137.688,
+      "y": -756.889,
+      "dsm_egm2008_m": 78.212,
+      "masked_smoothed_egm2008_m": 78.168,
+      "relative_trend_m": -31.672,
+      "preservation_blend": 1,
+      "model_base_before_pads": -31.672
+    },
+    {
+      "id": 127,
+      "name": "중앙도서관",
+      "x": 55.83,
+      "y": -222.575,
+      "dsm_egm2008_m": 73.113,
+      "masked_smoothed_egm2008_m": 69.172,
+      "relative_trend_m": -40.669,
+      "preservation_blend": 0.6913,
+      "model_base_before_pads": -35.35
+    },
+    {
+      "id": 153,
+      "name": "창업보육센터",
+      "x": 24.726,
+      "y": -823.802,
+      "dsm_egm2008_m": 64.955,
+      "masked_smoothed_egm2008_m": 71.239,
+      "relative_trend_m": -38.601,
+      "preservation_blend": 1,
+      "model_base_before_pads": -38.624
+    },
+    {
+      "id": 132,
+      "name": "체육대학",
+      "x": 129.182,
+      "y": -688.847,
+      "dsm_egm2008_m": 71.087,
+      "masked_smoothed_egm2008_m": 73.033,
+      "relative_trend_m": -36.807,
+      "preservation_blend": 1,
+      "model_base_before_pads": -36.809
+    },
+    {
+      "id": 152,
+      "name": "치과대학(교육동)",
+      "x": -320.616,
+      "y": -585.671,
+      "dsm_egm2008_m": 64.246,
+      "masked_smoothed_egm2008_m": 58.896,
+      "relative_trend_m": -50.944,
+      "preservation_blend": 1,
+      "model_base_before_pads": -50.943
+    },
+    {
+      "id": 139,
+      "name": "치과대학(연구동)",
+      "x": -300.36,
+      "y": -623.122,
+      "dsm_egm2008_m": 62.016,
+      "masked_smoothed_egm2008_m": 57.08,
+      "relative_trend_m": -52.76,
+      "preservation_blend": 1,
+      "model_base_before_pads": -52.749
+    },
+    {
+      "id": 176,
+      "name": "태양에너지실증연구단지",
+      "x": 476.415,
+      "y": -658.565,
+      "dsm_egm2008_m": 106.366,
+      "masked_smoothed_egm2008_m": 104.401,
+      "relative_trend_m": -5.439,
+      "preservation_blend": 1,
+      "model_base_before_pads": -5.536
+    },
+    {
+      "id": 151,
+      "name": "학군단(ROTC)",
+      "x": 593.771,
+      "y": -183.588,
+      "dsm_egm2008_m": 120.522,
+      "masked_smoothed_egm2008_m": 127.603,
+      "relative_trend_m": 17.762,
+      "preservation_blend": 1,
+      "model_base_before_pads": 17.772
+    },
+    {
+      "id": 145,
+      "name": "학생회관(동아리연합회)",
+      "x": -198.497,
+      "y": -103.394,
+      "dsm_egm2008_m": 85.527,
+      "masked_smoothed_egm2008_m": 93.223,
+      "relative_trend_m": -16.618,
+      "preservation_blend": 0.0,
+      "model_base_before_pads": -18.0
+    },
+    {
+      "id": 148,
+      "name": "항공우주ㆍ선박해양공학관",
+      "x": 480.917,
+      "y": -393.467,
+      "dsm_egm2008_m": 86.412,
+      "masked_smoothed_egm2008_m": 85.275,
+      "relative_trend_m": -24.566,
+      "preservation_blend": 1,
+      "model_base_before_pads": -24.551
+    },
+    {
+      "id": 128,
+      "name": "해오름관",
+      "x": 168.875,
+      "y": -183.729,
+      "dsm_egm2008_m": 78.27,
+      "masked_smoothed_egm2008_m": 74.117,
+      "relative_trend_m": -35.723,
+      "preservation_blend": 0.3115,
+      "model_base_before_pads": -25.864
+    },
+    {
+      "id": 144,
+      "name": "황금추관(고시원)",
+      "x": 414.644,
+      "y": -98.88,
+      "dsm_egm2008_m": 105.766,
+      "masked_smoothed_egm2008_m": 108.327,
+      "relative_trend_m": -1.513,
+      "preservation_blend": 1,
+      "model_base_before_pads": -1.443
+    },
+    {
+      "id": "cit_1",
+      "name": "조선이공대학교 1호관",
+      "x": 204.774,
+      "y": -368.171,
+      "dsm_egm2008_m": 66.325,
+      "masked_smoothed_egm2008_m": 64.797,
+      "relative_trend_m": -45.043,
+      "preservation_blend": 1,
+      "model_base_before_pads": -44.995
+    },
+    {
+      "id": "cit_main",
+      "name": "조선이공대학교 본부동",
+      "x": 257.086,
+      "y": -330.848,
+      "dsm_egm2008_m": 71.698,
+      "masked_smoothed_egm2008_m": 68.073,
+      "relative_trend_m": -41.768,
+      "preservation_blend": 1,
+      "model_base_before_pads": -41.768
+    },
+    {
+      "id": "cit_3",
+      "name": "조선이공대학교 3호관",
+      "x": 305.256,
+      "y": -356.12,
+      "dsm_egm2008_m": 73.017,
+      "masked_smoothed_egm2008_m": 71.458,
+      "relative_trend_m": -38.382,
+      "preservation_blend": 1,
+      "model_base_before_pads": -38.382
+    },
+    {
+      "id": "cit_2",
+      "name": "조선이공대학교 2호관",
+      "x": 307.066,
+      "y": -521.288,
+      "dsm_egm2008_m": 91.859,
+      "masked_smoothed_egm2008_m": 90.626,
+      "relative_trend_m": -19.214,
+      "preservation_blend": 1,
+      "model_base_before_pads": -19.216
+    },
+    {
+      "id": "cit_4",
+      "name": "조선이공대학교 4호관",
+      "x": 356.948,
+      "y": -499.427,
+      "dsm_egm2008_m": 91.347,
+      "masked_smoothed_egm2008_m": 91.923,
+      "relative_trend_m": -17.917,
+      "preservation_blend": 1,
+      "model_base_before_pads": -17.923
+    }
+  ],
+  "metadata": {
+    "dataset": "Copernicus DEM GLO-30 Public, AWS 2021 release",
+    "source_url": "https://copernicus-dem-30m.s3.amazonaws.com/Copernicus_DSM_COG_10_N35_00_E126_00_DEM/Copernicus_DSM_COG_10_N35_00_E126_00_DEM.tif",
+    "source_sha256": "de25b78d939cea3d3582cba2845ea99b22770b2d246572f21602bcfce126cd32",
+    "accessed": "2026-10-08",
+    "source_resolution_arcseconds": 1,
+    "source_resolution_m_approx": [
+      25.3,
+      30.9
+    ],
+    "resampling_grid_m": 10,
+    "horizontal_crs": "EPSG:4326",
+    "vertical_datum": "EGM2008 orthometric meters (EPSG:3855)",
+    "attribution": "produced using Copernicus WorldDEM-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved",
+    "license_url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM/resources/license/License-COPDEM-30.pdf",
+    "limitations": "DSM includes structures and canopy. OSM footprint + 18m masks are interpolated from 8 unaffected neighbors and smoothed sigma=1 source pixel. This is a relative approximate ground trend, not a surveyed DTM or step/retaining-wall measurement. Unmapped roofs and canopy may remain. 10m output grid does not improve source resolution.",
+    "mask_source": "OpenStreetMap footprints in campus_osm_geometry.json, ODbL 1.0",
+    "masked_pixels": 429,
+    "source_crop_pixels": [
+      72,
+      93
+    ],
+    "model_zero_method": "median of smoothed masked DSM at five main-building front-apron points; original detailed core geometry retained",
+    "datum_egm2008_m": 109.8402297915503,
+    "anchor_apron_points": [
+      [
+        -80,
+        -25
+      ],
+      [
+        -40,
+        -25
+      ],
+      [
+        0,
+        -25
+      ],
+      [
+        40,
+        -25
+      ],
+      [
+        80,
+        -25
+      ]
+    ],
+    "transform": {
+      "origin_lat": 35.142722,
+      "origin_lon": 126.934734,
+      "x_axis_east_north": [
+        0.19870281411851848,
+        -0.9800597898400799
+      ],
+      "y_axis_east_north": [
+        0.9800597898400799,
+        0.19870281411851848
+      ],
+      "offset_y": 8.5,
+      "scale": 1.0,
+      "instructions": "For lat/lon, compute east/north in meters, dot with each axis; add 8.5 to y. Geometry already converted. Keep existing main building and do not extrude OSM main building."
+    },
+    "x0": -700,
+    "y0": -1350,
+    "step": 10,
+    "nx": 157,
+    "ny": 177
+  }
+}

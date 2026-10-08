@@ -1,0 +1,101 @@
+{
+  "index": 32,
+  "name": "백학학사(기숙사)",
+  "building_id": 147,
+  "osm_id": "472263774",
+  "catalog_record": {
+    "index": 32,
+    "id": 147,
+    "osm_id": "472263774",
+    "name": "백학학사(기숙사)",
+    "collection": "CAMPUS_BUILDING 147 백학학사(기숙사).001",
+    "bbox": {
+      "min": [
+        -367.2206726074219,
+        -142.42434692382812,
+        -21.519527435302734
+      ],
+      "max": [
+        -304.9809875488281,
+        -72.4369888305664,
+        13.740049362182617
+      ]
+    },
+    "target": [
+      -336.100830078125,
+      -107.43066787719727,
+      -3.8897390365600586
+    ],
+    "camera": [
+      -410.99386937656936,
+      -53.22324656140708,
+      26.20482494354248
+    ],
+    "orthographic_scale": 99.38204849243164,
+    "entrance": [
+      -362.8254907598538,
+      -128.61876639036603,
+      -17.509951043917724
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 9,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/147/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -402.0190124511719,
+      -152.06573486328125,
+      56.62887954711914
+    ],
+    "rotation": [
+      0.9207963943481445,
+      1.8877841512221494e-09,
+      -0.9755856990814209
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 130.59707641601562
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -402.0190124511719,
+        -152.06573486328125,
+        56.62887954711914
+      ],
+      "rotation": [
+        0.9207963943481445,
+        1.8877841512221494e-09,
+        -0.9755856990814209
+      ],
+      "scale": 130.59707641601562,
+      "score": 1.0,
+      "hit": 27,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030835802897613
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "032_백학학사(기숙사).jpg",
+  "file_sha256": "3cb19bcf2a68723703ebab4db5698369a5f80ec23523252f4f6e3c3aa29c5d57",
+  "render_seconds": 70.63,
+  "visual_review_notes": "Direct final retake review: reduced foreground overlap, complete target within frame. Other adjoining buildings intentionally remain as context."
+}

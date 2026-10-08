@@ -1,0 +1,32 @@
+{
+  "scope": "Public repository copy after lossless split-asset restoration; local checks before remote commit",
+  "date_utc": "2026-10-08",
+  "native_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "glb_sha256": "7cb8b47393a23183208f1f4c44ce9332bde6073d78dd96a11adb444f482c163e",
+  "restore_asset_count_before_renders": 14,
+  "restore_checks": [
+    "full-file SHA-256 match",
+    "idempotent rerun",
+    "corrupt-part rejection"
+  ],
+  "npm_ci": "passed (27 packages; --ignore-scripts)",
+  "node_tests": {
+    "simulate": "passed",
+    "actors": "passed",
+    "transit-integration": "passed",
+    "walkable-paths": "passed",
+    "vehicle-grounding": "passed"
+  },
+  "serve_http_200": [
+    "index.html",
+    "game.js",
+    "vendor/three.core.js",
+    "assets/campus.glb",
+    "assets/shuttle_bus.glb"
+  ],
+  "python_source_compile": "passed",
+  "limitations": [
+    "This verification does not measure real browser WebGL rendering or iPhone performance.",
+    "Model is approximate, not surveyed BIM or navigation/safety guidance."
+  ]
+}

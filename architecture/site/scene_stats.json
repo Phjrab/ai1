@@ -1,0 +1,12 @@
+{
+  "objects": 600,
+  "trees": 490,
+  "vehicles": 92,
+  "unique_meshes": 34,
+  "instanced_polygons": 457214,
+  "unique_polygons": 18306,
+  "nonfinite_vertices": 0,
+  "road_height": 0,
+  "lower_road_height": -18,
+  "main_building_clearance": "No vegetation within building footprint x \u00b1190, y 0..30; rear service road at y18..32."
+}

@@ -1,0 +1,235 @@
+{
+  "index": 22,
+  "name": "글로벌하우스(기숙사)",
+  "building_id": 142,
+  "osm_id": "468704897",
+  "catalog_record": {
+    "index": 22,
+    "id": 142,
+    "osm_id": "468704897",
+    "name": "글로벌하우스(기숙사)",
+    "collection": "CAMPUS_BUILDING 142 글로벌하우스(기숙사)",
+    "bbox": {
+      "min": [
+        449.62353515625,
+        -164.09182739257812,
+        6.547147274017334
+      ],
+      "max": [
+        555.9061889648438,
+        -92.0970687866211,
+        45.21689224243164
+      ]
+    },
+    "target": [
+      502.7648620605469,
+      -128.0944480895996,
+      25.882019758224487
+    ],
+    "camera": [
+      549.445760004872,
+      -260.50448596684646,
+      71.5835608959198
+    ],
+    "orthographic_scale": 150.9213684082031,
+    "entrance": [
+      506.6531565235809,
+      -153.03285516221283,
+      9.786890413424967
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 11,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555046339547100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/142/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      549.4457397460938,
+      -260.5044860839844,
+      71.58355712890625
+    ],
+    "rotation": [
+      1.2560988664627075,
+      -5.6298407713484266e-08,
+      0.33894288539886475
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 146.52468872070312
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        549.4457397460938,
+        -260.5044860839844,
+        71.58355712890625
+      ],
+      "rotation": [
+        1.2560988664627075,
+        -5.6298407713484266e-08,
+        0.33894288539886475
+      ],
+      "scale": 146.52468872070312,
+      "score": 0.9848484848484849,
+      "hit": 65,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030835701829048,
+      "selection_score": 0.9848484848484849
+    },
+    {
+      "location": [
+        542.7195434570312,
+        -241.4258270263672,
+        111.6711196899414
+      ],
+      "rotation": [
+        0.9507964253425598,
+        -1.6248975498456275e-08,
+        0.3389430046081543
+      ],
+      "scale": 146.524658203125,
+      "score": 1.0,
+      "hit": 59,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        467.59014892578125,
+        -254.24606323242188,
+        94.06312561035156
+      ],
+      "rotation": [
+        1.0907964706420898,
+        1.0679570117133608e-08,
+        -0.27192234992980957
+      ],
+      "scale": 143.62261962890625,
+      "score": 0.9824561403508771,
+      "hit": 56,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9062012049351783
+    },
+    {
+      "location": [
+        609.2781372070312,
+        -204.2942352294922,
+        94.06316375732422
+      ],
+      "rotation": [
+        1.0907962322235107,
+        2.0904550979139458e-08,
+        0.9498081207275391
+      ],
+      "scale": 147.20065307617188,
+      "score": 0.9636363636363636,
+      "hit": 53,
+      "other": 2,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.8873814282206648
+    },
+    {
+      "location": [
+        411.9631652832031,
+        -202.73284912109375,
+        115.23700714111328
+      ],
+      "rotation": [
+        0.9207965135574341,
+        -6.213990388914681e-08,
+        -0.8827877640724182
+      ],
+      "scale": 170.14036560058594,
+      "score": 1.0,
+      "hit": 49,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        620.2996215820312,
+        -129.28428649902344,
+        115.23701477050781
+      ],
+      "rotation": [
+        0.9207963943481445,
+        5.341452791185475e-08,
+        1.5606732368469238
+      ],
+      "scale": 150.3209228515625,
+      "score": 1.0,
+      "hit": 87,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        463.6837158203125,
+        -17.24094581604004,
+        115.23703002929688
+      ],
+      "rotation": [
+        0.9207963943481445,
+        2.960693468168074e-09,
+        -2.802649736404419
+      ],
+      "scale": 146.7318878173828,
+      "score": 0.9827586206896551,
+      "hit": 57,
+      "other": 1,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5921529789808964
+    },
+    {
+      "location": [
+        533.2808227539062,
+        -214.65272521972656,
+        141.5392303466797
+      ],
+      "rotation": [
+        0.6707964539527893,
+        -1.0718873788562178e-08,
+        0.3389431834220886
+      ],
+      "scale": 165.0514678955078,
+      "score": 1.0,
+      "hit": 57,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 0.9848484848484849,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "022_글로벌하우스(기숙사).jpg",
+  "file_sha256": "01bca1d53b5c5ed1c19b2607016f0c5c2c1cdbeb2f2a415fd22c62f3f5a9a8e3",
+  "render_seconds": 67.69,
+  "visual_review_notes": "Direct final-image/contact-sheet review: subject complete and legible, with camera chosen to limit surrounding obstruction. Model uncertainty preserved."
+}

@@ -1,0 +1,235 @@
+{
+  "index": 2,
+  "name": "중앙도서관",
+  "building_id": 127,
+  "osm_id": "300164485",
+  "catalog_record": {
+    "index": 2,
+    "id": 127,
+    "osm_id": "300164485",
+    "name": "중앙도서관",
+    "collection": "CAMPUS_BUILDING 127 중앙도서관",
+    "bbox": {
+      "min": [
+        -4.052239418029785,
+        -263.70111083984375,
+        -40.62821960449219
+      ],
+      "max": [
+        103.58235931396484,
+        -190.06484985351562,
+        -1.7441946268081665
+      ]
+    },
+    "target": [
+      49.76505994796753,
+      -226.8829803466797,
+      -21.186207115650177
+    ],
+    "camera": [
+      -32.11740330463533,
+      -343.12173530736726,
+      25.09667033910751
+    ],
+    "orthographic_scale": 152.84113019943237,
+    "entrance": [
+      44.102867571675915,
+      -258.6195317457504,
+      -36.409644358188174
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 7,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802666144100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/127/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -32.11741638183594,
+      -343.1217346191406,
+      25.09665298461914
+    ],
+    "rotation": [
+      1.256098985671997,
+      -2.8841920851618852e-08,
+      -0.6136952638626099
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 153.87271118164062
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -32.11741638183594,
+        -343.1217346191406,
+        25.09665298461914
+      ],
+      "rotation": [
+        1.256098985671997,
+        -2.8841920851618852e-08,
+        -0.6136952638626099
+      ],
+      "scale": 153.87271118164062,
+      "score": 1.0,
+      "hit": 50,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030834910979287,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -20.319137573242188,
+        -326.3731689453125,
+        65.69418334960938
+      ],
+      "rotation": [
+        0.950796365737915,
+        2.37509212297482e-08,
+        -0.6136950850486755
+      ],
+      "scale": 161.48837280273438,
+      "score": 1.0,
+      "hit": 50,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -74.99385833740234,
+        -271.89208984375,
+        47.86220932006836
+      ],
+      "rotation": [
+        1.0907962322235107,
+        1.4975502438119292e-07,
+        -1.2245604991912842
+      ],
+      "scale": 145.97900390625,
+      "score": 0.9821428571428571,
+      "hit": 55,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9058879217271584
+    },
+    {
+      "location": [
+        49.38972091674805,
+        -359.51202392578125,
+        47.8621826171875
+      ],
+      "rotation": [
+        1.0907963514328003,
+        3.4448083274796204e-10,
+        -0.0028299877885729074
+      ],
+      "scale": 127.25421905517578,
+      "score": 1.0,
+      "hit": 80,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -65.12716674804688,
+        -195.74893188476562,
+        69.30542755126953
+      ],
+      "rotation": [
+        0.9207963347434998,
+        6.922527973074466e-08,
+        -1.8354257345199585
+      ],
+      "scale": 165.95852661132812,
+      "score": 0.9795918367346939,
+      "hit": 48,
+      "other": 1,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.808986195025935
+    },
+    {
+      "location": [
+        117.76505279541016,
+        -324.5843505859375,
+        69.30543518066406
+      ],
+      "rotation": [
+        0.9207963347434998,
+        1.0072827194562706e-07,
+        0.6080352067947388
+      ],
+      "scale": 164.7949981689453,
+      "score": 1.0,
+      "hit": 50,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        118.31695556640625,
+        -129.56805419921875,
+        69.3053970336914
+      ],
+      "rotation": [
+        0.9207965135574341,
+        6.147429587599618e-08,
+        2.527897357940674
+      ],
+      "scale": 165.0425262451172,
+      "score": 1.0,
+      "hit": 42,
+      "other": 0,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6093943582912411
+    },
+    {
+      "location": [
+        -3.7626543045043945,
+        -302.869873046875,
+        95.94221496582031
+      ],
+      "rotation": [
+        0.6707965135574341,
+        -8.554933117466135e-08,
+        -0.6136950850486755
+      ],
+      "scale": 188.61410522460938,
+      "score": 1.0,
+      "hit": 51,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "002_중앙도서관.jpg",
+  "file_sha256": "54d1189cb8b7018b689e4430d6a03720ca12cb3bad44b5859e04080d94b38537",
+  "render_seconds": 55.18,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

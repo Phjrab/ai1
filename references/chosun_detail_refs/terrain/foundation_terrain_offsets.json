@@ -1,0 +1,404 @@
+[
+  {
+    "id": 135,
+    "name": "미술대학(미술관)",
+    "min_ground_minus_base_m": -1.878,
+    "max_ground_minus_base_m": 2.173
+  },
+  {
+    "id": 127,
+    "name": "중앙도서관",
+    "min_ground_minus_base_m": -3.702,
+    "max_ground_minus_base_m": 2.624
+  },
+  {
+    "id": 134,
+    "name": "공과대학 제1공학관",
+    "min_ground_minus_base_m": -2.107,
+    "max_ground_minus_base_m": 6.692
+  },
+  {
+    "id": 140,
+    "name": "약학대학 2호관",
+    "min_ground_minus_base_m": -2.641,
+    "max_ground_minus_base_m": 2.551
+  },
+  {
+    "id": 157,
+    "name": "약학대학 1호관(약학관)",
+    "min_ground_minus_base_m": -1.503,
+    "max_ground_minus_base_m": 0.178
+  },
+  {
+    "id": 156,
+    "name": "약학대학 3호관(강의동)",
+    "min_ground_minus_base_m": -1.105,
+    "max_ground_minus_base_m": 3.497
+  },
+  {
+    "id": 128,
+    "name": "해오름관",
+    "min_ground_minus_base_m": -2.806,
+    "max_ground_minus_base_m": 0.13
+  },
+  {
+    "id": 138,
+    "name": "IT융합대학",
+    "min_ground_minus_base_m": -0.572,
+    "max_ground_minus_base_m": 4.552
+  },
+  {
+    "id": 150,
+    "name": "공과대학 제2공학관",
+    "min_ground_minus_base_m": -3.96,
+    "max_ground_minus_base_m": 5.113
+  },
+  {
+    "id": 136,
+    "name": "사회과학ㆍ사범대학",
+    "min_ground_minus_base_m": -0.128,
+    "max_ground_minus_base_m": 2.81
+  },
+  {
+    "id": 132,
+    "name": "체육대학",
+    "min_ground_minus_base_m": -5.493,
+    "max_ground_minus_base_m": 1.757
+  },
+  {
+    "id": 160,
+    "name": "생명공학관",
+    "min_ground_minus_base_m": -1.789,
+    "max_ground_minus_base_m": 1.948
+  },
+  {
+    "id": 177,
+    "name": "의과대학 3호관",
+    "min_ground_minus_base_m": 0.73,
+    "max_ground_minus_base_m": 4.178
+  },
+  {
+    "id": 137,
+    "name": "의과대학 1호관",
+    "min_ground_minus_base_m": -1.073,
+    "max_ground_minus_base_m": 2.212
+  },
+  {
+    "id": 155,
+    "name": "의과대학 2호관",
+    "min_ground_minus_base_m": -4.284,
+    "max_ground_minus_base_m": 4.796
+  },
+  {
+    "id": null,
+    "name": "실험동물센터",
+    "min_ground_minus_base_m": -3.029,
+    "max_ground_minus_base_m": 2.86
+  },
+  {
+    "id": "cit_1",
+    "name": "조선이공대학교 1호관",
+    "min_ground_minus_base_m": -0.367,
+    "max_ground_minus_base_m": 7.371
+  },
+  {
+    "id": "cit_main",
+    "name": "조선이공대학교 본부동",
+    "min_ground_minus_base_m": -0.672,
+    "max_ground_minus_base_m": 1.991
+  },
+  {
+    "id": "cit_3",
+    "name": "조선이공대학교 3호관",
+    "min_ground_minus_base_m": -2.13,
+    "max_ground_minus_base_m": 6.402
+  },
+  {
+    "id": 148,
+    "name": "항공우주ㆍ선박해양공학관",
+    "min_ground_minus_base_m": -0.187,
+    "max_ground_minus_base_m": 7.56
+  },
+  {
+    "id": 148,
+    "name": "항공우주ㆍ선박해양공학관",
+    "min_ground_minus_base_m": -1.291,
+    "max_ground_minus_base_m": -0.057
+  },
+  {
+    "id": 142,
+    "name": "글로벌하우스(기숙사)",
+    "min_ground_minus_base_m": -2.873,
+    "max_ground_minus_base_m": 0.083
+  },
+  {
+    "id": 144,
+    "name": "황금추관(고시원)",
+    "min_ground_minus_base_m": 0.413,
+    "max_ground_minus_base_m": 4.513
+  },
+  {
+    "id": 151,
+    "name": "학군단(ROTC)",
+    "min_ground_minus_base_m": -7.541,
+    "max_ground_minus_base_m": 0.579
+  },
+  {
+    "id": 145,
+    "name": "학생회관(동아리연합회)",
+    "min_ground_minus_base_m": -1.467,
+    "max_ground_minus_base_m": 0.228
+  },
+  {
+    "id": 146,
+    "name": "국제관(언어교육원,인권윤리원)",
+    "min_ground_minus_base_m": -5.665,
+    "max_ground_minus_base_m": 0.523
+  },
+  {
+    "id": 143,
+    "name": "솔마루(식당)",
+    "min_ground_minus_base_m": -0.92,
+    "max_ground_minus_base_m": 0.393
+  },
+  {
+    "id": 159,
+    "name": "입석홀(식당)",
+    "min_ground_minus_base_m": -1.076,
+    "max_ground_minus_base_m": 0.584
+  },
+  {
+    "id": "cit_2",
+    "name": "조선이공대학교 2호관",
+    "min_ground_minus_base_m": -2.152,
+    "max_ground_minus_base_m": 2.093
+  },
+  {
+    "id": "cit_4",
+    "name": "조선이공대학교 4호관",
+    "min_ground_minus_base_m": -1.358,
+    "max_ground_minus_base_m": 0.02
+  },
+  {
+    "id": 147,
+    "name": "백학학사(기숙사)",
+    "min_ground_minus_base_m": -4.135,
+    "max_ground_minus_base_m": -0.375
+  },
+  {
+    "id": 147,
+    "name": "백학학사(기숙사)",
+    "min_ground_minus_base_m": -3.66,
+    "max_ground_minus_base_m": 3.421
+  },
+  {
+    "id": 141,
+    "name": "서석홀(평생교육원,박물관)",
+    "min_ground_minus_base_m": -4.308,
+    "max_ground_minus_base_m": 1.981
+  },
+  {
+    "id": 129,
+    "name": "장황남정보통신박물관",
+    "min_ground_minus_base_m": -3.419,
+    "max_ground_minus_base_m": 0.112
+  },
+  {
+    "id": 154,
+    "name": "의성관(연구동)",
+    "min_ground_minus_base_m": -3.174,
+    "max_ground_minus_base_m": 0.223
+  },
+  {
+    "id": 162,
+    "name": "조선대학교 병원",
+    "min_ground_minus_base_m": -2.518,
+    "max_ground_minus_base_m": 7.532
+  },
+  {
+    "id": 166,
+    "name": "조선대학교 치과병원",
+    "min_ground_minus_base_m": -0.517,
+    "max_ground_minus_base_m": 0.879
+  },
+  {
+    "id": 152,
+    "name": "치과대학(교육동)",
+    "min_ground_minus_base_m": -1.241,
+    "max_ground_minus_base_m": 0.116
+  },
+  {
+    "id": 131,
+    "name": "법과대학",
+    "min_ground_minus_base_m": -3.726,
+    "max_ground_minus_base_m": 10.72
+  },
+  {
+    "id": 133,
+    "name": "경상대학",
+    "min_ground_minus_base_m": -14.554,
+    "max_ground_minus_base_m": 0.035
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517085",
+    "min_ground_minus_base_m": -0.358,
+    "max_ground_minus_base_m": 0.748
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517086",
+    "min_ground_minus_base_m": -0.262,
+    "max_ground_minus_base_m": 0.289
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517087",
+    "min_ground_minus_base_m": -0.327,
+    "max_ground_minus_base_m": -0.072
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517088",
+    "min_ground_minus_base_m": -0.173,
+    "max_ground_minus_base_m": 0.333
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517089",
+    "min_ground_minus_base_m": -0.306,
+    "max_ground_minus_base_m": 0.897
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517090",
+    "min_ground_minus_base_m": -0.139,
+    "max_ground_minus_base_m": 0.758
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517091",
+    "min_ground_minus_base_m": -0.025,
+    "max_ground_minus_base_m": -0.009
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1127517105",
+    "min_ground_minus_base_m": -0.015,
+    "max_ground_minus_base_m": 0.337
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1198559652",
+    "min_ground_minus_base_m": -0.6,
+    "max_ground_minus_base_m": 1.154
+  },
+  {
+    "id": 167,
+    "name": "1.8극장(노천극장)",
+    "min_ground_minus_base_m": -0.065,
+    "max_ground_minus_base_m": 2.655
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1201486598",
+    "min_ground_minus_base_m": 1.271,
+    "max_ground_minus_base_m": 1.672
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1202050652",
+    "min_ground_minus_base_m": -0.29,
+    "max_ground_minus_base_m": 1.209
+  },
+  {
+    "id": 158,
+    "name": "생산교육 실험실습동",
+    "min_ground_minus_base_m": -0.828,
+    "max_ground_minus_base_m": 3.882
+  },
+  {
+    "id": 153,
+    "name": "창업보육센터",
+    "min_ground_minus_base_m": -2.337,
+    "max_ground_minus_base_m": 0.401
+  },
+  {
+    "id": null,
+    "name": "자동차공학실험실",
+    "min_ground_minus_base_m": -2.287,
+    "max_ground_minus_base_m": 0.204
+  },
+  {
+    "id": null,
+    "name": "약초원",
+    "min_ground_minus_base_m": -2.205,
+    "max_ground_minus_base_m": -0.059
+  },
+  {
+    "id": null,
+    "name": "건설실험동",
+    "min_ground_minus_base_m": -0.934,
+    "max_ground_minus_base_m": 0.799
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1359353587",
+    "min_ground_minus_base_m": -0.142,
+    "max_ground_minus_base_m": 2.305
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1359353588",
+    "min_ground_minus_base_m": 0.281,
+    "max_ground_minus_base_m": 0.675
+  },
+  {
+    "id": null,
+    "name": "교내 부속동 1359353590",
+    "min_ground_minus_base_m": -0.051,
+    "max_ground_minus_base_m": 1.175
+  },
+  {
+    "id": 130,
+    "name": "자연과학관",
+    "min_ground_minus_base_m": -0.95,
+    "max_ground_minus_base_m": 3.76
+  },
+  {
+    "id": 165,
+    "name": "그린빌리지(기숙사)",
+    "min_ground_minus_base_m": -0.185,
+    "max_ground_minus_base_m": 0.364
+  },
+  {
+    "id": 178,
+    "name": "조선대학교 어린이집",
+    "min_ground_minus_base_m": -0.677,
+    "max_ground_minus_base_m": 0.78
+  },
+  {
+    "id": 171,
+    "name": "조선대학교병원 장례식장",
+    "min_ground_minus_base_m": -1.846,
+    "max_ground_minus_base_m": 0.014
+  },
+  {
+    "id": 164,
+    "name": "주차빌딩",
+    "min_ground_minus_base_m": -4.965,
+    "max_ground_minus_base_m": 1.539
+  },
+  {
+    "id": 176,
+    "name": "태양에너지실증연구단지",
+    "min_ground_minus_base_m": -0.289,
+    "max_ground_minus_base_m": 0.05
+  },
+  {
+    "id": 139,
+    "name": "치과대학(연구동)",
+    "min_ground_minus_base_m": -0.326,
+    "max_ground_minus_base_m": 1.74
+  }
+]

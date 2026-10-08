@@ -1,0 +1,8 @@
+node_modules/
+.sites-runtime/
+*.tar.gz
+*.zip
+qa_*.png
+qa/
+
+__pycache__/

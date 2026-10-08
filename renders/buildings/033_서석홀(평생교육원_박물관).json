@@ -1,0 +1,235 @@
+{
+  "index": 33,
+  "name": "서석홀(평생교육원,박물관)",
+  "building_id": 141,
+  "osm_id": "472263776",
+  "catalog_record": {
+    "index": 33,
+    "id": 141,
+    "osm_id": "472263776",
+    "name": "서석홀(평생교육원,박물관)",
+    "collection": "CAMPUS_BUILDING 141 서석홀(평생교육원,박물관)",
+    "bbox": {
+      "min": [
+        -333.387939453125,
+        -182.7617950439453,
+        -28.844345092773438
+      ],
+      "max": [
+        -265.97015380859375,
+        -114.2303237915039,
+        -9.206099510192871
+      ]
+    },
+    "target": [
+      -299.6790466308594,
+      -148.4960594177246,
+      -19.025222301483154
+    ],
+    "camera": [
+      -209.83381011403677,
+      -159.60169440715404,
+      10.443310337066649
+    ],
+    "orthographic_scale": 97.3146891784668,
+    "entrance": [
+      -284.64877513212934,
+      -161.99002737856458,
+      -22.9460997180995
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799320404100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/141/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -218.9059295654297,
+      -158.4803009033203,
+      39.07829666137695
+    ],
+    "rotation": [
+      0.9507963061332703,
+      8.239908311225008e-09,
+      1.4478116035461426
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 93.9975357055664
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -205.30825805664062,
+        -160.16110229492188,
+        11.927643775939941
+      ],
+      "rotation": [
+        1.256098985671997,
+        5.337786035397585e-08,
+        1.4478117227554321
+      ],
+      "scale": 90.01549530029297,
+      "score": 0.8985507246376812,
+      "hit": 62,
+      "other": 7,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030836705427387,
+      "selection_score": 0.8985507246376812
+    },
+    {
+      "location": [
+        -218.9059295654297,
+        -158.4803009033203,
+        39.07829666137695
+      ],
+      "rotation": [
+        0.9507963061332703,
+        8.239908311225008e-09,
+        1.4478116035461426
+      ],
+      "scale": 93.9975357055664,
+      "score": 1.0,
+      "hit": 63,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -233.81068420410156,
+        -207.90110778808594,
+        27.152692794799805
+      ],
+      "rotation": [
+        1.0907964706420898,
+        6.996280887960893e-09,
+        0.8369463682174683
+      ],
+      "scale": 113.33135223388672,
+      "score": 0.9791666666666666,
+      "hit": 47,
+      "other": 1,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9029117312509679
+    },
+    {
+      "location": [
+        -221.32827758789062,
+        -106.91775512695312,
+        27.152692794799805
+      ],
+      "rotation": [
+        1.0907962322235107,
+        -9.67128670481543e-08,
+        2.0586769580841064
+      ],
+      "scale": 108.72308349609375,
+      "score": 0.8292682926829268,
+      "hit": 34,
+      "other": 7,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.7530133572672281
+    },
+    {
+      "location": [
+        -281.83404541015625,
+        -226.07861328125,
+        41.49339294433594
+      ],
+      "rotation": [
+        0.9207966327667236,
+        -9.957894064882566e-09,
+        0.22608128190040588
+      ],
+      "scale": 102.57877349853516,
+      "score": 0.9692307692307692,
+      "hit": 63,
+      "other": 2,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7986251275220104
+    },
+    {
+      "location": [
+        -263.48004150390625,
+        -77.59382629394531,
+        41.493408203125
+      ],
+      "rotation": [
+        0.9207964539527893,
+        2.6732504210258412e-08,
+        2.669542074203491
+      ],
+      "scale": 111.90291595458984,
+      "score": 0.9047619047619048,
+      "hit": 38,
+      "other": 4,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.734156263053146
+    },
+    {
+      "location": [
+        -378.6861267089844,
+        -138.7301025390625,
+        41.493404388427734
+      ],
+      "rotation": [
+        0.920796275138855,
+        -5.763000032743548e-08,
+        -1.6937810182571411
+      ],
+      "scale": 96.30955505371094,
+      "score": 0.927536231884058,
+      "hit": 64,
+      "other": 5,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5369305901752992
+    },
+    {
+      "location": [
+        -237.98757934570312,
+        -156.1216583251953,
+        59.30747985839844
+      ],
+      "rotation": [
+        0.6707963347434998,
+        1.1503237828947022e-07,
+        1.4478116035461426
+      ],
+      "scale": 112.02784729003906,
+      "score": 1.0,
+      "hit": 67,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "033_서석홀(평생교육원_박물관).jpg",
+  "file_sha256": "bca98bd892c1102892c984c14cb9d20877cc42642bb32e4e8207837510e50ef5",
+  "render_seconds": 63.9,
+  "visual_review_notes": "Direct final contact-sheet inspection: full target framed and recognisable; surrounding context retained. No major obstruction or target clipping. Unverified auxiliary masses remain explicitly labelled."
+}

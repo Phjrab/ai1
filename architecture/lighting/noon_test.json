@@ -1,0 +1,22 @@
+{
+  "preset": "noon",
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "camera": "07_Whole_Campus",
+  "camera_location": [
+    1250.0,
+    -1750.0,
+    1350.0
+  ],
+  "camera_rotation": [
+    0.919503927230835,
+    3.7556176835096267e-08,
+    0.7083234786987305
+  ],
+  "lens": 40.0,
+  "width": 1000,
+  "height": 625,
+  "samples": 32,
+  "illuminated_faces": 0,
+  "lights": 1,
+  "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting."
+}

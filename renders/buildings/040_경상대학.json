@@ -1,0 +1,101 @@
+{
+  "index": 40,
+  "name": "경상대학",
+  "building_id": 133,
+  "osm_id": "683118525",
+  "catalog_record": {
+    "index": 40,
+    "id": 133,
+    "osm_id": "683118525",
+    "name": "경상대학",
+    "collection": "CAMPUS_BUILDING 133 경상대학",
+    "bbox": {
+      "min": [
+        304.0780029296875,
+        10.152153968811035,
+        8.036662101745605
+      ],
+      "max": [
+        425.75738525390625,
+        58.29197692871094,
+        54.240997314453125
+      ]
+    },
+    "target": [
+      364.9176940917969,
+      34.222065448760986,
+      31.138829708099365
+    ],
+    "camera": [
+      441.75375364465935,
+      -106.96032274778744,
+      83.46096410751343
+    ],
+    "orthographic_scale": 172.78472290039062,
+    "entrance": [
+      359.834790773359,
+      21.909025749496674,
+      24.040997080576194
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 8,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555055946682100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/133/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      497.98834228515625,
+      54.24373245239258,
+      133.43833923339844
+    ],
+    "rotation": [
+      0.9207963943481445,
+      -1.1686489997941862e-08,
+      1.7201350927352905
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 179.2596435546875
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        497.98834228515625,
+        54.24373245239258,
+        133.43833923339844
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -1.1686489997941862e-08,
+        1.7201350927352905
+      ],
+      "scale": 179.2596435546875,
+      "score": 1.0,
+      "hit": 61,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030833621857468
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "040_경상대학.jpg",
+  "file_sha256": "99d0f098196cc7fe1d0df2c9ea7a3903e80a01010e33d2662b3913c50bbde67d",
+  "render_seconds": 57.65,
+  "visual_review_notes": "Direct final retake review: reduced foreground overlap, complete target within frame. Other adjoining buildings intentionally remain as context."
+}

@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "npcCount": 19,
+  "npcSampleTimes": 72,
+  "npcFailures": 0,
+  "carCount": 11,
+  "results": [
+    {
+      "type": "car",
+      "index": 0,
+      "entered": true,
+      "distance": 15.506066494664259,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "entered": true,
+      "distance": 15.506066494664282,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "entered": true,
+      "distance": 15.658034771493885,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 3,
+      "entered": true,
+      "distance": 15.58129130134629,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 4,
+      "entered": true,
+      "distance": 15.639233352737554,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 5,
+      "entered": true,
+      "distance": 15.50606649466443,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 6,
+      "entered": true,
+      "distance": 11.893172409757046,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 7,
+      "entered": true,
+      "distance": 15.517819743384159,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 8,
+      "entered": true,
+      "distance": 15.506373793701156,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 9,
+      "entered": true,
+      "distance": 15.547365196743813,
+      "exited": true,
+      "pass": true
+    },
+    {
+      "type": "car",
+      "index": 10,
+      "entered": true,
+      "distance": 15.541670440813766,
+      "exited": true,
+      "pass": true
+    }
+  ]
+}

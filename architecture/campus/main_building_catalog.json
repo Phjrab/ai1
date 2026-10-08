@@ -1,0 +1,38 @@
+{
+  "id": 126,
+  "name": "본관",
+  "collections": [
+    "CHOSUN | Building — original reconstruction"
+  ],
+  "asset": "../building/chosun_main_building.blend",
+  "bbox": {
+    "min": [
+      -187.7100067138672,
+      -7.664999961853027,
+      -0.3149999976158142
+    ],
+    "max": [
+      187.7100067138672,
+      18.209999084472656,
+      32.65999984741211
+    ]
+  },
+  "target": [
+    0,
+    12,
+    22
+  ],
+  "camera": [
+    200,
+    -420,
+    160
+  ],
+  "orthographic_scale": 420,
+  "entrance": [
+    0,
+    0,
+    0
+  ],
+  "review_status": "Preserved detailed main building, unchanged in this revision",
+  "source": "https://www3.chosun.ac.kr/campusMap/chosun/126/detailView.do"
+}

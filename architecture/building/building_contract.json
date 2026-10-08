@@ -1,0 +1,183 @@
+{
+  "objects": 64,
+  "vertices": 144856,
+  "polygons": 107258,
+  "bar_width": 332.0,
+  "overall_width": 375,
+  "depth": 17.0,
+  "front_y": 0,
+  "ground_z": 0,
+  "bays": [
+    {
+      "index": 1,
+      "type": "M",
+      "x": -157.5,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    },
+    {
+      "index": 2,
+      "type": "L",
+      "x": -135.0,
+      "width": 28,
+      "full_rectangular_tiers": 6,
+      "eave": 21.75,
+      "peak": 32.35
+    },
+    {
+      "index": 3,
+      "type": "M",
+      "x": -112.5,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    },
+    {
+      "index": 4,
+      "type": "S",
+      "x": -96.7,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 5,
+      "type": "S",
+      "x": -82.10000000000001,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 6,
+      "type": "S",
+      "x": -67.50000000000001,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 7,
+      "type": "S",
+      "x": -52.90000000000001,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 8,
+      "type": "S",
+      "x": -38.30000000000001,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 9,
+      "type": "M",
+      "x": -22.500000000000007,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    },
+    {
+      "index": 10,
+      "type": "C",
+      "x": -7.105427357601002e-15,
+      "width": 28,
+      "full_rectangular_tiers": 5,
+      "eave": 18.15,
+      "peak": 28.15
+    },
+    {
+      "index": 11,
+      "type": "M",
+      "x": 22.499999999999993,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    },
+    {
+      "index": 12,
+      "type": "S",
+      "x": 38.29999999999999,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 13,
+      "type": "S",
+      "x": 52.89999999999999,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 14,
+      "type": "S",
+      "x": 67.5,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 15,
+      "type": "S",
+      "x": 82.1,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 16,
+      "type": "S",
+      "x": 96.69999999999999,
+      "width": 14.6,
+      "full_rectangular_tiers": 3,
+      "eave": 10.950000000000001,
+      "peak": 17.150000000000002
+    },
+    {
+      "index": 17,
+      "type": "M",
+      "x": 112.49999999999999,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    },
+    {
+      "index": 18,
+      "type": "L",
+      "x": 135.0,
+      "width": 28,
+      "full_rectangular_tiers": 6,
+      "eave": 21.75,
+      "peak": 32.35
+    },
+    {
+      "index": 19,
+      "type": "M",
+      "x": 157.5,
+      "width": 17,
+      "full_rectangular_tiers": 4,
+      "eave": 14.55,
+      "peak": 21.55
+    }
+  ]
+}

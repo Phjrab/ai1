@@ -1,0 +1,101 @@
+{
+  "index": 23,
+  "name": "황금추관(고시원)",
+  "building_id": 144,
+  "osm_id": "468704900",
+  "catalog_record": {
+    "index": 23,
+    "id": 144,
+    "osm_id": "468704900",
+    "name": "황금추관(고시원)",
+    "collection": "CAMPUS_BUILDING 144 황금추관(고시원)",
+    "bbox": {
+      "min": [
+        397.18536376953125,
+        -117.31818389892578,
+        0.026052143424749374
+      ],
+      "max": [
+        442.2205505371094,
+        -79.82881927490234,
+        10.95605182647705
+      ]
+    },
+    "target": [
+      419.7029571533203,
+      -98.57350158691406,
+      5.4910519849509
+    ],
+    "camera": [
+      414.40135984265936,
+      -157.82758421674865,
+      24.856182295009493
+    ],
+    "orthographic_scale": 63.949965209960936,
+    "entrance": [
+      417.51596384081626,
+      -107.48964975116229,
+      0.6660521436679925
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 3,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803450073100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/144/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      362.5544128417969,
+      -166.40895080566406,
+      51.66895294189453
+    ],
+    "rotation": [
+      1.0907965898513794,
+      -6.35314449937141e-08,
+      -0.700099527835846
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 69.14339447021484
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        362.5544128417969,
+        -166.40895080566406,
+        51.66895294189453
+      ],
+      "rotation": [
+        1.0907965898513794,
+        -6.35314449937141e-08,
+        -0.700099527835846
+      ],
+      "scale": 69.14339447021484,
+      "score": 0.9272727272727272,
+      "hit": 51,
+      "other": 4,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083354124401
+    }
+  ],
+  "camera_visibility_score": 0.9272727272727272,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "023_황금추관(고시원).jpg",
+  "file_sha256": "74fd5f69a3802300bdb78444e2f85434d85703f3ab2599b7ca8f456cd0efb9b6",
+  "render_seconds": 53.27,
+  "visual_review_notes": "Direct final retake contact-sheet review: subject unobstructed or only minor edge context, no subject clipping. Camera selected to improve visibility; source-specific uncertainty retained."
+}

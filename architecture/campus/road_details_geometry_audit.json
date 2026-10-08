@@ -1,0 +1,9 @@
+{
+  "crossing_count": 39,
+  "explicitly_unmarked_or_unknown_skipped": 2,
+  "pedestrian_transition_count": 75,
+  "white_paint_outside_carriageway_m2": 0.0,
+  "pedestrian_coverage_difference_m2": 4.916662749949464e-06,
+  "sidewalk_ramp_overlap_m2": 6.708637955892405e-08,
+  "faces_crossing_terrain_partition": 0
+}

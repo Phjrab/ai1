@@ -1,0 +1,101 @@
+{
+  "index": 37,
+  "name": "조선대학교 치과병원",
+  "building_id": 166,
+  "osm_id": "493566726",
+  "catalog_record": {
+    "index": 37,
+    "id": 166,
+    "osm_id": "493566726",
+    "name": "조선대학교 치과병원",
+    "collection": "CAMPUS_BUILDING 166 조선대학교 치과병원",
+    "bbox": {
+      "min": [
+        -370.9499206542969,
+        -689.829345703125,
+        -53.75819778442383
+      ],
+      "max": [
+        -304.01605224609375,
+        -632.0961303710938,
+        -34.95337677001953
+      ]
+    },
+    "target": [
+      -337.4829864501953,
+      -660.9627380371094,
+      -44.35578727722168
+    ],
+    "camera": [
+      -250.23873550075717,
+      -675.325528772989,
+      -15.574223861694335
+    ],
+    "orthographic_scale": 95.04609313964843,
+    "entrance": [
+      -313.8073719659195,
+      -678.0857747363176,
+      -52.883376483996
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802230246100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/166/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -274.05389404296875,
+      -722.965576171875,
+      1.8221629858016968
+    ],
+    "rotation": [
+      1.0907963514328003,
+      3.648510471521149e-08,
+      0.7967678308486938
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 103.92648315429688
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -274.05389404296875,
+        -722.965576171875,
+        1.8221629858016968
+      ],
+      "rotation": [
+        1.0907963514328003,
+        3.648510471521149e-08,
+        0.7967678308486938
+      ],
+      "scale": 103.92648315429688,
+      "score": 1.0,
+      "hit": 39,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03084283198271
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "037_조선대학교 치과병원.jpg",
+  "file_sha256": "11ad6663348f89f0cb67f51f2e2058acd8ddea41f4548d0d53680a96dbb98cb3",
+  "render_seconds": 53.16,
+  "visual_review_notes": "Direct final retake review: reduced foreground overlap, complete target within frame. Other adjoining buildings intentionally remain as context."
+}

@@ -1,0 +1,242 @@
+{
+  "index": 57,
+  "name": "건설실험동",
+  "building_id": null,
+  "osm_id": "1202050671",
+  "catalog_record": {
+    "index": 57,
+    "id": null,
+    "osm_id": "1202050671",
+    "name": "건설실험동",
+    "collection": "CAMPUS_BUILDING 1202050671 건설실험동",
+    "bbox": {
+      "min": [
+        2.638000011444092,
+        -865.6909790039062,
+        -40.20363235473633
+      ],
+      "max": [
+        36.20100021362305,
+        -848.8200073242188,
+        -24.795595169067383
+      ]
+    },
+    "target": [
+      19.41950011253357,
+      -857.2554931640625,
+      -32.499613761901855
+    ],
+    "camera": [
+      -8.193919965639843,
+      -891.9426359719321,
+      -18.067523674964903
+    ],
+    "orthographic_scale": 47.65946028709411,
+    "entrance": [
+      8.55760641274072,
+      -865.1335245519984,
+      -38.89559555635976
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 4,
+    "reference_image": null,
+    "source": "https://www.openstreetmap.org/way/1202050671",
+    "review_status": "unidentified accessory: exterior/height unverified; preserved contextual estimate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -39.80374526977539,
+      -931.64990234375,
+      -1.5467472076416016
+    ],
+    "rotation": [
+      1.256098985671997,
+      1.3022010136864992e-09,
+      -0.6723407506942749
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 43.38401794433594
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -39.80374526977539,
+        -931.64990234375,
+        -1.5467472076416016
+      ],
+      "rotation": [
+        1.256098985671997,
+        1.3022010136864992e-09,
+        -0.6723407506942749
+      ],
+      "scale": 43.38401794433594,
+      "score": 1.0,
+      "hit": 70,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030838972719916,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        -31.270448684692383,
+        -920.9305419921875,
+        25.603900909423828
+      ],
+      "rotation": [
+        0.9507964253425598,
+        1.7065282520434266e-08,
+        -0.672340452671051
+      ],
+      "scale": 50.9056510925293,
+      "score": 1.0,
+      "hit": 61,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        -65.63711547851562,
+        -882.4144897460938,
+        13.678279876708984
+      ],
+      "rotation": [
+        1.0907964706420898,
+        9.591317962076573e-08,
+        -1.2832059860229492
+      ],
+      "scale": 48.36234664916992,
+      "score": 0.859375,
+      "hit": 55,
+      "other": 9,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.7831200645843012
+    },
+    {
+      "location": [
+        13.970102310180664,
+        -945.7874145507812,
+        13.678277969360352
+      ],
+      "rotation": [
+        1.0907963514328003,
+        -5.730920626945135e-09,
+        -0.06147538125514984
+      ],
+      "scale": 40.752593994140625,
+      "score": 1.0,
+      "hit": 112,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        -56.0651741027832,
+        -831.9660034179688,
+        28.01902961730957
+      ],
+      "rotation": [
+        0.920796275138855,
+        -1.7398426166437275e-07,
+        -1.894071340560913
+      ],
+      "scale": 54.703670501708984,
+      "score": 0.7246376811594203,
+      "hit": 50,
+      "other": 19,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.5540320394506615
+    },
+    {
+      "location": [
+        60.98839569091797,
+        -925.1489868164062,
+        28.019001007080078
+      ],
+      "rotation": [
+        0.9207963347434998,
+        -4.4668873044884094e-08,
+        0.549389660358429
+      ],
+      "scale": 49.68568420410156,
+      "score": 1.0,
+      "hit": 74,
+      "other": 0,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        69.00113677978516,
+        -794.97265625,
+        28.01902961730957
+      ],
+      "rotation": [
+        0.9207963943481445,
+        -4.940618225646176e-08,
+        2.469252109527588
+      ],
+      "scale": 51.770118713378906,
+      "score": 0.4666666666666667,
+      "hit": 28,
+      "other": 32,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.07606102495790784
+    },
+    {
+      "location": [
+        -19.295574188232422,
+        -905.8881225585938,
+        45.833065032958984
+      ],
+      "rotation": [
+        0.670796275138855,
+        -1.5769435535162302e-08,
+        -0.6723410487174988
+      ],
+      "scale": 57.09872817993164,
+      "score": 1.0,
+      "hit": 53,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "057_건설실험동.jpg",
+  "file_sha256": "df1cb1dededc2187db661b85e117543b7e022332b1ffb302d78ecf753146480c",
+  "render_seconds": 67.84,
+  "visual_review_notes": "Direct contact-sheet inspection: target visible in its original campus context. Flagged minor foreground occlusion for a different camera where possible.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "shuttle_bus.glb": {
+    "bounds_blender_min": [
+      -1.6299999952316284,
+      -5.3454999923706055,
+      -9.789691546302492e-08
+    ],
+    "bounds_blender_max": [
+      1.6299998760223389,
+      5.3520002365112305,
+      3.4099998474121094
+    ],
+    "mesh_count": 18,
+    "wheel_pivots_verified": true
+  },
+  "shelter_reference.glb": {
+    "bounds_blender_min": [
+      -4.900000095367432,
+      -1.6749999523162842,
+      0.0
+    ],
+    "bounds_blender_max": [
+      4.900000095367432,
+      1.6749999523162842,
+      3.241997718811035
+    ],
+    "mesh_count": 7
+  },
+  "shelter_education.glb": {
+    "bounds_blender_min": [
+      -2.4749999046325684,
+      -1.399999976158142,
+      0.0
+    ],
+    "bounds_blender_max": [
+      2.4749999046325684,
+      1.399999976158142,
+      3.9149999618530273
+    ],
+    "mesh_count": 5
+  },
+  "bus_stop_sign.glb": {
+    "bounds_blender_min": [
+      -0.5199999809265137,
+      -0.1499999761581421,
+      0.0
+    ],
+    "bounds_blender_max": [
+      0.5199999809265137,
+      0.04500000178813934,
+      3.5
+    ],
+    "mesh_count": 6
+  },
+  "bus_stop_generic.glb": {
+    "bounds_blender_min": [
+      -0.5199999809265137,
+      -0.1499999761581421,
+      0.0
+    ],
+    "bounds_blender_max": [
+      0.5199999809265137,
+      0.04500000178813934,
+      3.5
+    ],
+    "mesh_count": 6
+  }
+}

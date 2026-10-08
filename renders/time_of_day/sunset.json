@@ -1,0 +1,32 @@
+{
+  "preset": "sunset",
+  "file": "sunset.png",
+  "file_sha256": "5fa0c27b9b6f8dcd582af25089174430ce48597969314ecfdc5c517307259afc",
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "engine": "CYCLES",
+  "camera": "07_Whole_Campus",
+  "camera_location": [
+    1250.0,
+    -1800.0,
+    1350.0
+  ],
+  "camera_rotation": [
+    0.919503927230835,
+    3.7556176835096267e-08,
+    0.7083234786987305
+  ],
+  "lens": 38.0,
+  "width": 2200,
+  "height": 1375,
+  "samples": 64,
+  "illuminated_faces": 0,
+  "materials_modified": false,
+  "geometry_modified": false,
+  "source_modified": false,
+  "denoising": false,
+  "lights": 34,
+  "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting.",
+  "visual_review": "accepted",
+  "visual_review_notes": "Direct full-image review: same camera07, correct conceptual illumination, campus legible, original building materials unchanged."
+}

@@ -1,0 +1,144 @@
+{
+  "status": "pass",
+  "buildings": 67,
+  "destinations": 50,
+  "original_buildings_preserved": 62,
+  "original_destination_ids_preserved": 47,
+  "building_catalog_entries": 67,
+  "separate_main_building_catalog": "main_building_catalog.json",
+  "walkable_surfaces": 435,
+  "positive_upward_winding": true,
+  "walk_surface_center_collision_conflicts": [],
+  "central_individual_treads": 108,
+  "stair_paths": [
+    {
+      "id": "central108",
+      "steps": 108,
+      "max_riser": 0.16666666666666666
+    },
+    {
+      "id": "entry_177_468704880",
+      "steps": 2,
+      "max_riser": 0.1642313993247022
+    },
+    {
+      "id": "entry_144_468704900",
+      "steps": 5,
+      "max_riser": 0.15867116318687247
+    },
+    {
+      "id": "entry_141_472263776",
+      "steps": 28,
+      "max_riser": 0.17933830687689664
+    },
+    {
+      "id": "entry_133_683118525",
+      "steps": 24,
+      "max_riser": 0.18237098166972432
+    },
+    {
+      "id": "workshop158",
+      "steps": 24,
+      "max_riser": 0.165
+    },
+    {
+      "id": "entry_153_1202050668",
+      "steps": 10,
+      "max_riser": 0.16741780697607425
+    },
+    {
+      "id": "inferred_walk_connector_651840249_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_942433747_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_944569917_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_944569946_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1120518152_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1120518152_1",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_1",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_2",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_3",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_4",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1125125519_5",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1198945326_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1485907433_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1485907455_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1485914602_0",
+      "steps": null,
+      "max_riser": null
+    },
+    {
+      "id": "inferred_walk_connector_1485914602_1",
+      "steps": null,
+      "max_riser": null
+    }
+  ],
+  "dental_split_area_error_m2": 1.4551915228366852e-11,
+  "no_reference_photo_textures": "All new geometry procedural; researched photo pixels not embedded.",
+  "limits": [
+    "Exterior reconstruction, not a measurement survey.",
+    "Exact riser allocation, entrance alignment, footprint-less buildings and hidden elevations remain estimates.",
+    "Eighteen unnamed/accessory OSM records remain exterior-unverified.",
+    "Five CIT buildings use group evidence; individual wing attribution remains incomplete.",
+    "Official photo timestamps vary; many images predate 2026."
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "final_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "count": 4,
+  "same_camera_verified": true,
+  "materials_modified": false,
+  "images": [
+    {
+      "preset": "morning",
+      "file": "morning.png",
+      "file_sha256": "9f28e1c20aa53255a64043d3309db0706799c7802932eea40f0ccfb5175ce30a",
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "engine": "CYCLES",
+      "camera": "07_Whole_Campus",
+      "camera_location": [
+        1250.0,
+        -1800.0,
+        1350.0
+      ],
+      "camera_rotation": [
+        0.919503927230835,
+        3.7556176835096267e-08,
+        0.7083234786987305
+      ],
+      "lens": 38.0,
+      "width": 2200,
+      "height": 1375,
+      "samples": 64,
+      "illuminated_faces": 0,
+      "materials_modified": false,
+      "geometry_modified": false,
+      "source_modified": false,
+      "denoising": false,
+      "lights": 1,
+      "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting.",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-image review: same camera07, correct conceptual illumination, campus legible, original building materials unchanged."
+    },
+    {
+      "preset": "noon",
+      "file": "noon.png",
+      "file_sha256": "2a02d9050c130b91a4173ad45b90956f580886e918bd0a2511655e0b639dd794",
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "engine": "CYCLES",
+      "camera": "07_Whole_Campus",
+      "camera_location": [
+        1250.0,
+        -1800.0,
+        1350.0
+      ],
+      "camera_rotation": [
+        0.919503927230835,
+        3.7556176835096267e-08,
+        0.7083234786987305
+      ],
+      "lens": 38.0,
+      "width": 2200,
+      "height": 1375,
+      "samples": 64,
+      "illuminated_faces": 0,
+      "materials_modified": false,
+      "geometry_modified": false,
+      "source_modified": false,
+      "denoising": false,
+      "lights": 1,
+      "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting.",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-image review: same camera07, correct conceptual illumination, campus legible, original building materials unchanged."
+    },
+    {
+      "preset": "sunset",
+      "file": "sunset.png",
+      "file_sha256": "5fa0c27b9b6f8dcd582af25089174430ce48597969314ecfdc5c517307259afc",
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "engine": "CYCLES",
+      "camera": "07_Whole_Campus",
+      "camera_location": [
+        1250.0,
+        -1800.0,
+        1350.0
+      ],
+      "camera_rotation": [
+        0.919503927230835,
+        3.7556176835096267e-08,
+        0.7083234786987305
+      ],
+      "lens": 38.0,
+      "width": 2200,
+      "height": 1375,
+      "samples": 64,
+      "illuminated_faces": 0,
+      "materials_modified": false,
+      "geometry_modified": false,
+      "source_modified": false,
+      "denoising": false,
+      "lights": 34,
+      "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting.",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-image review: same camera07, correct conceptual illumination, campus legible, original building materials unchanged."
+    },
+    {
+      "preset": "night",
+      "file": "night.png",
+      "file_sha256": "7e49f09995fb035f3cf52a0d8b527ac4a0d929e46c7a6c1d3a445f119c50ad6f",
+      "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+      "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+      "engine": "CYCLES",
+      "camera": "07_Whole_Campus",
+      "camera_location": [
+        1250.0,
+        -1800.0,
+        1350.0
+      ],
+      "camera_rotation": [
+        0.919503927230835,
+        3.7556176835096267e-08,
+        0.7083234786987305
+      ],
+      "lens": 38.0,
+      "width": 2200,
+      "height": 1375,
+      "samples": 64,
+      "illuminated_faces": 0,
+      "materials_modified": false,
+      "geometry_modified": false,
+      "source_modified": false,
+      "denoising": false,
+      "lights": 41,
+      "disclaimer": "Conceptual time-of-day lighting. Not a solar study or verified building lighting.",
+      "visual_review": "accepted",
+      "visual_review_notes": "Direct full-image review: same camera07, correct conceptual illumination, campus legible, original building materials unchanged."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "source_verified": true,
+  "nonfinite_raw_samples": [],
+  "raw_min_max_m": [
+    -58.0147,
+    89.96979579272347
+  ],
+  "protected_core_max_difference_m": 0.0,
+  "core_boundary_max_2mm_difference_m": 0.0007615367216686764,
+  "pad_order_max_difference_m": 0,
+  "notes": [
+    "Source DSM mask and smoothing mitigate mapped roofs; canopy and unmapped roofs remain possible.",
+    "Core authored slopes, stairs and retaining walls are preserved; they are not DEM measurements.",
+    "Final road penetration, entrance, stop, dynamic vehicle checks require final build outputs."
+  ],
+  "final_ground": {
+    "nonfinite": 0,
+    "road_z_offset_min_max": [
+      0.09499509821065999,
+      0.09500491465289684
+    ],
+    "road_segments_grade_over_35percent": 39,
+    "steep_examples": [
+      {
+        "name": "CAMPUS_PATH 1485907455  part0",
+        "grade": 0.662,
+        "point": [
+          128.481,
+          -488.06425,
+          -46.07267457277695
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1485907455  part0",
+        "grade": 0.62,
+        "point": [
+          130.0385,
+          -489.294875,
+          -44.759303350659586
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1485907455  part0",
+        "grade": 0.554,
+        "point": [
+          131.596,
+          -490.52549999999997,
+          -43.52949505372866
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1485907433  part0",
+        "grade": 0.483,
+        "point": [
+          -126.28450000000001,
+          -244.70350000000002,
+          -37.38121062215119
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 942433747  part0",
+        "grade": 0.473,
+        "point": [
+          -239.27,
+          -231.18233333333333,
+          -36.49308286044601
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 942433747  part0",
+        "grade": 0.473,
+        "point": [
+          -239.605,
+          -232.83566666666667,
+          -37.29103962219736
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 651840249  part0",
+        "grade": 0.464,
+        "point": [
+          -140.388,
+          -200.245,
+          -29.123129104590863
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1485907433  part0",
+        "grade": 0.46,
+        "point": [
+          -125.479,
+          -246.174,
+          -38.15263140541228
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 944569946  part0",
+        "grade": 0.456,
+        "point": [
+          -182.74806666666666,
+          -206.18673333333334,
+          -29.9771477617467
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1120518152  part0",
+        "grade": 0.447,
+        "point": [
+          17.3972,
+          205.37019999999998,
+          75.90142207256392
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 651840249  part0",
+        "grade": 0.445,
+        "point": [
+          -141.2115,
+          -198.736,
+          -28.324904801717945
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1125125519  part0",
+        "grade": 0.433,
+        "point": [
+          -79.1164,
+          129.3878,
+          32.07164881516771
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1120518152  part0",
+        "grade": 0.419,
+        "point": [
+          11.738,
+          216.4298,
+          80.03375739593534
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1125125519  part0",
+        "grade": 0.416,
+        "point": [
+          -78.1776,
+          131.1592,
+          32.90484940044709
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1125125519  part0",
+        "grade": 0.401,
+        "point": [
+          -93.008,
+          202.28279999999998,
+          57.23933954274833
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1485914602  part0",
+        "grade": 0.4,
+        "point": [
+          170.87575490118195,
+          -249.884852744595,
+          -39.901476518081395
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1125125519  part0",
+        "grade": 0.398,
+        "point": [
+          -77.2388,
+          132.9306,
+          33.70352701905414
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 944569917  part0",
+        "grade": 0.389,
+        "point": [
+          38.75087797400228,
+          -667.0408602249897,
+          -42.14265912706312
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1198945326  part0",
+        "grade": 0.384,
+        "point": [
+          -261.01619999999997,
+          -209.5598,
+          -34.07080286512282
+        ]
+      },
+      {
+        "name": "CAMPUS_PATH 1125125519  part0",
+        "grade": 0.376,
+        "point": [
+          -76.3,
+          134.702,
+          34.45665381166843
+        ]
+      }
+    ]
+  }
+}

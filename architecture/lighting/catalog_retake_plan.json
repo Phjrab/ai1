@@ -1,0 +1,98 @@
+[
+  {
+    "index": 5,
+    "name": "약학대학 1호관(약학관)",
+    "previous_visibility": 0.9032258064516129,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 6,
+    "name": "약학대학 3호관(강의동)",
+    "previous_visibility": 0.8888888888888888,
+    "new_candidate_visibility": 0.9827586206896551
+  },
+  {
+    "index": 12,
+    "name": "생명공학관",
+    "previous_visibility": 0.9411764705882353,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 13,
+    "name": "의과대학 3호관",
+    "previous_visibility": 0.9166666666666666,
+    "new_candidate_visibility": 0.9642857142857143
+  },
+  {
+    "index": 17,
+    "name": "조선이공대학교 1호관",
+    "previous_visibility": 0.9206349206349206,
+    "new_candidate_visibility": 0.9811320754716981
+  },
+  {
+    "index": 23,
+    "name": "황금추관(고시원)",
+    "previous_visibility": 0.88,
+    "new_candidate_visibility": 0.9272727272727272
+  },
+  {
+    "index": 29,
+    "name": "조선이공대학교 2호관",
+    "previous_visibility": 0.9459459459459459,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 32,
+    "name": "백학학사(기숙사)",
+    "previous_visibility": 0.926829268292683,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 37,
+    "name": "조선대학교 치과병원",
+    "previous_visibility": 0.9420289855072463,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 39,
+    "name": "법과대학",
+    "previous_visibility": 0.922077922077922,
+    "new_candidate_visibility": 0.9880952380952381
+  },
+  {
+    "index": 40,
+    "name": "경상대학",
+    "previous_visibility": 0.9148936170212766,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 41,
+    "name": "교내 부속동 1127517085",
+    "previous_visibility": 0.9090909090909091,
+    "new_candidate_visibility": 1.0
+  },
+  {
+    "index": 44,
+    "name": "교내 부속동 1127517088",
+    "previous_visibility": 0.8148148148148148,
+    "new_candidate_visibility": 0.9841269841269841
+  },
+  {
+    "index": 45,
+    "name": "교내 부속동 1127517089",
+    "previous_visibility": 0.9047619047619048,
+    "new_candidate_visibility": 0.9636363636363636
+  },
+  {
+    "index": 51,
+    "name": "교내 부속동 1201486598",
+    "previous_visibility": 0.8787878787878788,
+    "new_candidate_visibility": 0.9159663865546218
+  },
+  {
+    "index": 54,
+    "name": "창업보육센터",
+    "previous_visibility": 0.8709677419354839,
+    "new_candidate_visibility": 0.9863013698630136
+  }
+]

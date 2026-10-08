@@ -1,0 +1,101 @@
+{
+  "index": 54,
+  "name": "창업보육센터",
+  "building_id": 153,
+  "osm_id": "1202050668",
+  "catalog_record": {
+    "index": 54,
+    "id": 153,
+    "osm_id": "1202050668",
+    "name": "창업보육센터",
+    "collection": "CAMPUS_BUILDING 153 창업보육센터",
+    "bbox": {
+      "min": [
+        14.252567291259766,
+        -852.30517578125,
+        -40.98578643798828
+      ],
+      "max": [
+        39.76410675048828,
+        -807.0509033203125,
+        -19.54585075378418
+      ]
+    },
+    "target": [
+      27.008337020874023,
+      -829.6780395507812,
+      -30.26581859588623
+    ],
+    "camera": [
+      72.35620725285797,
+      -868.6298299780343,
+      -10.806481437683107
+    ],
+    "orthographic_scale": 64.26106689453124,
+    "entrance": [
+      23.40395448105194,
+      -847.2066015377528,
+      -38.1158514346875
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "OSM traced",
+    "modeled_floor_count": 5,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802714123100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/153/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      -33.380706787109375,
+      -777.8064575195312,
+      30.252817153930664
+    ],
+    "rotation": [
+      0.9207963943481445,
+      5.6628920219736756e-08,
+      -2.2804665565490723
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 73.3565444946289
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        -33.380706787109375,
+        -777.8064575195312,
+        30.252817153930664
+      ],
+      "rotation": [
+        0.9207963943481445,
+        5.6628920219736756e-08,
+        -2.2804665565490723
+      ],
+      "scale": 73.3565444946289,
+      "score": 0.9863013698630136,
+      "hit": 72,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030838903212207
+    }
+  ],
+  "camera_visibility_score": 0.9863013698630136,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "054_창업보육센터.jpg",
+  "file_sha256": "2febf7a4132b5e2240ed2347576c5969eea8863295f297f9b41e2743f8e0fbc3",
+  "render_seconds": 64.31,
+  "visual_review_notes": "Direct final-image/contact-sheet review: subject complete and legible, with camera chosen to limit surrounding obstruction. Model uncertainty preserved."
+}

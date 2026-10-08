@@ -1,0 +1,250 @@
+[
+  {
+    "id": 166,
+    "name": "조선대학교 치과병원",
+    "lat": 35.14447,
+    "lon": 126.926799,
+    "east_m": -722.31,
+    "north_m": 193.94,
+    "x": -333.599,
+    "y": -660.873,
+    "z": null,
+    "footprint": [
+      [
+        -321.92,
+        -687.529
+      ],
+      [
+        -306.318,
+        -668.141
+      ],
+      [
+        -335.664,
+        -644.312
+      ],
+      [
+        -340.371,
+        -640.617
+      ],
+      [
+        -348.019,
+        -634.395
+      ],
+      [
+        -349.941,
+        -636.782
+      ],
+      [
+        -357.601,
+        -635.981
+      ],
+      [
+        -368.648,
+        -649.708
+      ],
+      [
+        -321.92,
+        -687.529
+      ]
+    ],
+    "height": null,
+    "position_confidence": "official map pin; not survey",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+    "include": false,
+    "osm_candidates": [
+      {
+        "osm_id": "493566726",
+        "name": "조선대학교치과병원",
+        "distance_m": 8.79,
+        "contains_official_pin": true
+      }
+    ],
+    "osm_id": "493566726",
+    "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+    "levels": null
+  },
+  {
+    "id": 152,
+    "name": "치과대학(교육동)",
+    "lat": 35.14449,
+    "lon": 126.927637,
+    "east_m": -646.03,
+    "north_m": 196.16,
+    "x": -320.616,
+    "y": -585.671,
+    "z": null,
+    "footprint": [
+      [
+        -289.444,
+        -647.172
+      ],
+      [
+        -277.084,
+        -631.491
+      ],
+      [
+        -314.614,
+        -601.74
+      ],
+      [
+        -316.349,
+        -603.933
+      ],
+      [
+        -319.579,
+        -601.383
+      ],
+      [
+        -299.842,
+        -576.341
+      ],
+      [
+        -318.444,
+        -561.61
+      ],
+      [
+        -345.546,
+        -596.007
+      ],
+      [
+        -338.279,
+        -601.762
+      ],
+      [
+        -336.614,
+        -599.638
+      ],
+      [
+        -327.61,
+        -606.767
+      ],
+      [
+        -328.813,
+        -608.288
+      ],
+      [
+        -323.536,
+        -612.47
+      ],
+      [
+        -327.269,
+        -617.202
+      ],
+      [
+        -319.388,
+        -623.444
+      ],
+      [
+        -289.444,
+        -647.172
+      ]
+    ],
+    "height": null,
+    "position_confidence": "official map pin; not survey",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+    "include": true,
+    "osm_candidates": [
+      {
+        "osm_id": "503476184",
+        "name": "치과대",
+        "distance_m": 23.14,
+        "contains_official_pin": true
+      }
+    ],
+    "osm_id": "503476184",
+    "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+    "levels": null
+  },
+  {
+    "id": 139,
+    "name": "치과대학(연구동)",
+    "lat": 35.144244,
+    "lon": 126.927278,
+    "east_m": -678.71,
+    "north_m": 168.87,
+    "x": -300.36,
+    "y": -623.122,
+    "z": null,
+    "footprint": [
+      [
+        -289.444,
+        -647.172
+      ],
+      [
+        -277.084,
+        -631.491
+      ],
+      [
+        -314.614,
+        -601.74
+      ],
+      [
+        -316.349,
+        -603.933
+      ],
+      [
+        -319.579,
+        -601.383
+      ],
+      [
+        -299.842,
+        -576.341
+      ],
+      [
+        -318.444,
+        -561.61
+      ],
+      [
+        -345.546,
+        -596.007
+      ],
+      [
+        -338.279,
+        -601.762
+      ],
+      [
+        -336.614,
+        -599.638
+      ],
+      [
+        -327.61,
+        -606.767
+      ],
+      [
+        -328.813,
+        -608.288
+      ],
+      [
+        -323.536,
+        -612.47
+      ],
+      [
+        -327.269,
+        -617.202
+      ],
+      [
+        -319.388,
+        -623.444
+      ],
+      [
+        -289.444,
+        -647.172
+      ]
+    ],
+    "height": null,
+    "position_confidence": "official map pin; not survey",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/view.do",
+    "include": true,
+    "osm_candidates": [
+      {
+        "osm_id": "503476184",
+        "name": "치과대",
+        "distance_m": 22.13,
+        "contains_official_pin": true
+      }
+    ],
+    "osm_id": "503476184",
+    "footprint_confidence": "OSM community traced footprint; official pin matches; verify multi-wing groups",
+    "levels": null
+  }
+]

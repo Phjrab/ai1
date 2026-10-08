@@ -1,0 +1,41 @@
+{
+  "revision": "Entry144 skirt corridor and inferred944 mitered shared boundaries",
+  "geometric_surface_changes_over_1e_9": [
+    [
+      "inferred_walk_connector_944569946_0_approach_13",
+      0.10930729060171984
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_0",
+      0.19797537826789835
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_1",
+      0.3959507565357967
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_2",
+      0.5939261348036666
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_3",
+      0.791901513071565
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_4",
+      0.9898768913394633
+    ],
+    [
+      "inferred_walk_connector_944569946_0_tread_5",
+      1.1878522696073333
+    ],
+    [
+      "inferred_walk_connector_944569946_0_approach_15",
+      1.149321139927082
+    ]
+  ],
+  "collision_boxes_unchanged": true,
+  "road_samples_unchanged": true,
+  "landmarks_unchanged": true,
+  "inferred944_pairwise_xy_overlap_m2": 0.0
+}

@@ -1,0 +1,206 @@
+{
+  "coordinate_system": "Blender meters, X right, Y forward, Z up. glTF conversion (x,z,-y).",
+  "shuttle": {
+    "file": "shuttle_bus.glb",
+    "origin": "Center of vehicle footprint, tire contact ground plane z=0",
+    "body_dimensions_xyz_m": [
+      2.5,
+      10.7,
+      3.42
+    ],
+    "maximum_mirror_width_m": 3.26,
+    "collision_half_extents_blender": [
+      1.3,
+      5.4,
+      1.71
+    ],
+    "collision_center_blender": [
+      0,
+      0,
+      1.71
+    ],
+    "wheel_radius_m": 0.51,
+    "wheel_spin_axis": "local X in Blender and glTF; rotation increment = distance / .51",
+    "front_steering_nodes": [
+      "steer_front_L",
+      "steer_front_R"
+    ],
+    "steering_axis": "local Blender Z / glTF Y",
+    "wheel_nodes": [
+      "wheel_front_L",
+      "wheel_front_R",
+      "wheel_rear_L",
+      "wheel_rear_R"
+    ],
+    "door_animation": "Not rigged; fixed closed two-leaf door geometry",
+    "accuracy": "2025-10-15 Minju Chosun magazine p77 front/left livery visually verified; 2026-05-11 Chodae Newspaper p6 rear blue/white and CHOSUN UNIVERSITY corroborated. Right side mirrored inference. Stylized original geometry; exact model, dimensions, capture date and fleet-wide current identity unverified.",
+    "lod": "Static components batched by material; four separate wheel pivots. Recommended visibility 450m, shadow distance 100m. No mesh LOD swap required for this low-poly asset.",
+    "height_m": 3.41
+  },
+  "shelter": {
+    "file": "shelter_reference.glb",
+    "origin": "Center of paving footprint, ground z=0",
+    "front_axis_blender": "-Y toward road",
+    "footprint_dimensions_xy_m": [
+      9.8,
+      3.35
+    ],
+    "height_m": 3.242,
+    "waiting_point_local": [
+      2.2,
+      -1.0,
+      0.08
+    ],
+    "column_collision_boxes_local": [
+      {
+        "center": [
+          -4.4,
+          -1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      },
+      {
+        "center": [
+          -4.4,
+          1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      },
+      {
+        "center": [
+          0,
+          -1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      },
+      {
+        "center": [
+          0,
+          1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      },
+      {
+        "center": [
+          4.4,
+          -1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      },
+      {
+        "center": [
+          4.4,
+          1.23,
+          1.3
+        ],
+        "halfExtents": [
+          0.15,
+          0.15,
+          1.3
+        ]
+      }
+    ],
+    "bench_collision_boxes_local": [
+      {
+        "center": [
+          -2.2,
+          0,
+          0.28
+        ],
+        "halfExtents": [
+          1.13,
+          0.7,
+          0.3
+        ]
+      },
+      {
+        "center": [
+          2.2,
+          0,
+          0.28
+        ],
+        "halfExtents": [
+          1.13,
+          0.7,
+          0.3
+        ]
+      }
+    ],
+    "accuracy": "Shelter form verified in 2021 Seollip Monument photograph; dimensions inferred. Only place this shelter at monument unless representative geometry is explicitly marked. Keep footprint behind sidewalk, never centered on route or crosswalk."
+  },
+  "sign": {
+    "monument_file": "bus_stop_sign.glb",
+    "other_stops_file": "bus_stop_generic.glb",
+    "front_axis_blender": "-Y toward road",
+    "origin": "Pole ground point",
+    "maximum_size_xyz_m": [
+      1.04,
+      0.3,
+      3.5
+    ],
+    "collision_cylinder": {
+      "radius_m": 0.07,
+      "height_m": 3.5
+    },
+    "monument_shelter_offset_local": [
+      0,
+      -1.8,
+      0
+    ],
+    "accuracy": "Monument label copied as original geometric text from readable photograph. Generic sign form at other stops is representative, not surveyed. Timetable lines are schematic, no operational times are invented."
+  },
+  "placement": {
+    "owner": "build_campus_exploration_game",
+    "pending_file": "transit_placements.json",
+    "source_reference": "data/shuttle-sources.json",
+    "route_label": "공식 정류장 순서 기반 게임용 주행 경로",
+    "rules": [
+      "Use repaired existing road graph",
+      "Separate stop vehicle center from shelter/sign and safe waiting point",
+      "Do not treat landmark centers as measured curb stop locations",
+      "Check all existing destination approaches and crossing widths after adding collisions"
+    ],
+    "height_modes": {
+      "placementZ": "Use supplied Z without change",
+      "groundHeight": "Sample caller height_fn(x,y) + item height_offset, default .025",
+      "roadHeight": "Sample caller height_fn(x,y) + item height_offset, default .105; campus road mesh uses same height_fn + .095"
+    }
+  },
+  "education_shelter": {
+    "file": "shelter_education.glb",
+    "origin": "Center of apron, z=0",
+    "front_axis_blender": "-Y",
+    "footprint_dimensions_xy_m": [
+      4.95,
+      2.8
+    ],
+    "height_m": 3.915,
+    "source": "https://edutrain.chosun.ac.kr/atchmnfl/sites/edutrain/atchmnfl/bbs/420/20210308_100310380_31426.jpg",
+    "accuracy": "2021 College of Education photo-confirmed typology, inferred dimensions. Only for social_science / education stop; this is outside main seven-stop loop."
+  }
+}

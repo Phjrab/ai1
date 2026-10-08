@@ -1,0 +1,57 @@
+{
+  "buildings": 62,
+  "destinations": 47,
+  "same_destination_ids": true,
+  "photo_objects": {
+    "127": [
+      "CAMPUS_BUILDING 127 | PHOTO corrected volumes",
+      "CAMPUS_BUILDING 127 | PHOTO source-specific glazing",
+      "CAMPUS_BUILDING 127 | PHOTO architectural relief",
+      "CAMPUS_BUILDING 127 | PHOTO verified roof profile"
+    ],
+    "146": [
+      "CAMPUS_BUILDING 146 | PHOTO corrected volumes",
+      "CAMPUS_BUILDING 146 | PHOTO source-specific glazing",
+      "CAMPUS_BUILDING 146 | PHOTO architectural relief",
+      "CAMPUS_BUILDING 146 | PHOTO verified roof profile"
+    ],
+    "132": [
+      "CAMPUS_BUILDING 132 | PHOTO corrected volumes",
+      "CAMPUS_BUILDING 132 | PHOTO source-specific glazing",
+      "CAMPUS_BUILDING 132 | PHOTO architectural relief",
+      "CAMPUS_BUILDING 132 | PHOTO verified roof profile"
+    ],
+    "133": [
+      "CAMPUS_BUILDING 133 | PHOTO verified secondary accents"
+    ],
+    "141": [
+      "CAMPUS_BUILDING 141 | PHOTO verified secondary accents"
+    ],
+    "142": [
+      "CAMPUS_BUILDING 142 | PHOTO verified secondary accents"
+    ],
+    "145": [
+      "CAMPUS_BUILDING 145 | PHOTO verified secondary accents"
+    ],
+    "150": [
+      "CAMPUS_BUILDING 150 | PHOTO verified secondary accents"
+    ],
+    "135": [
+      "CAMPUS_BUILDING 135 | PHOTO verified secondary accents"
+    ]
+  },
+  "transit_under_root": true,
+  "legacy_roads_removed": true,
+  "meshes_finite": true,
+  "file_sha256": {
+    "campus.blend": "4d5519919e64cbf28d870a6276c5b86bd6d586cded8bdc003cc543ef46309f70",
+    "campus.glb": "404ab4ba8fb636dd1919c1ae2ae4c9f44934c40b654451cf064f10e99a4a6058",
+    "navigation.json": "3ac60f2cc708be18c3e739f1872029918e75545fba2324b7b004d58adb61aa9e",
+    "road_graph_3d.json": "40dc3736c09c856ee0c340b4b34de379c25347ce51d6a0a7bfb1696c0ff5cf88",
+    "build_campus.py": "7d3ec8ae1733426ad3ccb750f689bc1379bcd4e35117afd7141e54c517aaeb84",
+    "photo_refinements.py": "50420d9ead018d037cedcd0948a4e35682acee110612bc2380caa5e4832b4612",
+    "transit/append_transit.py": "eab85c47dd8fd03dbb2cb85d9ffd2f8515516626e0c035d2d7c788a8cd7ec3df",
+    "transit/transit_placements.json": "fe4056c39b727b14430b290f1b9f35dc3d99ff1ea4f2f5498bf29fefc7914f14"
+  },
+  "passed": true
+}

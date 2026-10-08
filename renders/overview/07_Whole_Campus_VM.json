@@ -1,0 +1,14 @@
+{
+  "camera": "07_Whole_Campus",
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "width": 1280,
+  "height": 800,
+  "samples": 32,
+  "seconds": 14.491065502166748,
+  "file": "07_Whole_Campus_VM.png",
+  "file_sha256": "7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d"
+}

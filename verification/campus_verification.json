@@ -1,0 +1,19 @@
+{
+  "mesh_objects": 2142,
+  "unique_meshes": 736,
+  "instanced_polygons": 1450162,
+  "nonfinite_objects": [],
+  "cameras": [
+    "01_Aerial_Front",
+    "02_Front_Elevation",
+    "03_Main_Entrance",
+    "04_Rear_Oblique",
+    "05_Site_Plan",
+    "06_Corridor",
+    "07_Whole_Campus",
+    "08_Campus_Centre",
+    "09_Campus_Plan"
+  ],
+  "units": "meters",
+  "map_attribution": "Map data © OpenStreetMap contributors, ODbL 1.0. https://www.openstreetmap.org/copyright"
+}

@@ -1,0 +1,33 @@
+{
+  "id": 149,
+  "name": "교수연구동 (본관 서측 원형 부속동)",
+  "asset": "../building/chosun_main_building.blend",
+  "objects": [
+    "WEST | rounded annex"
+  ],
+  "bbox": {
+    "min": [
+      -187.7100067138672,
+      -1.2100000381469727,
+      0.0
+    ],
+    "max": [
+      -166.0,
+      18.209999084472656,
+      18.549999237060547
+    ]
+  },
+  "target": [
+    -178,
+    8.5,
+    9
+  ],
+  "camera": [
+    -212,
+    -32,
+    30
+  ],
+  "orthographic_scale": 40,
+  "review_status": "Already represented inside the preserved main-building asset; optional detail view, not an additional campus building record",
+  "source": "https://www3.chosun.ac.kr/campusMap/chosun/149/detailView.do"
+}

@@ -1,0 +1,242 @@
+{
+  "index": 66,
+  "name": "태양에너지실증연구단지",
+  "building_id": 176,
+  "osm_id": null,
+  "catalog_record": {
+    "index": 66,
+    "id": 176,
+    "osm_id": null,
+    "name": "태양에너지실증연구단지",
+    "collection": "CAMPUS_BUILDING 176 태양에너지실증연구단지",
+    "bbox": {
+      "min": [
+        450.0899963378906,
+        -680.3734741210938,
+        -5.7861328125
+      ],
+      "max": [
+        502.739990234375,
+        -646.4650268554688,
+        -1.9361330270767212
+      ]
+    },
+    "target": [
+      476.4149932861328,
+      -663.4192504882812,
+      -3.8611329197883606
+    ],
+    "camera": [
+      510.63748931884766,
+      -723.9667434692383,
+      18.778364455699922
+    ],
+    "orthographic_scale": 74.7629913330078,
+    "entrance": [
+      476.415,
+      -680.965,
+      -5.4361329812750006
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 1,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802874410100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/176/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      523.2042236328125,
+      -746.2001953125,
+      27.091716766357422
+    ],
+    "rotation": [
+      1.256098985671997,
+      4.279042897792351e-08,
+      0.5144514441490173
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 73.77362060546875
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        523.2042236328125,
+        -746.2001953125,
+        27.091716766357422
+      ],
+      "rotation": [
+        1.256098985671997,
+        4.279042897792351e-08,
+        0.5144514441490173
+      ],
+      "scale": 73.77362060546875,
+      "score": 0.975,
+      "hit": 39,
+      "other": 1,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.030836584335013,
+      "selection_score": 0.975
+    },
+    {
+      "location": [
+        516.4625244140625,
+        -734.2724609375,
+        54.24238204956055
+      ],
+      "rotation": [
+        0.9507963061332703,
+        5.661902235942762e-08,
+        0.5144515633583069
+      ],
+      "scale": 73.77362060546875,
+      "score": 1.0,
+      "hit": 27,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        467.87640380859375,
+        -751.706787109375,
+        42.31679153442383
+      ],
+      "rotation": [
+        1.0907964706420898,
+        4.38958203119455e-09,
+        -0.096413753926754
+      ],
+      "scale": 65.6902084350586,
+      "score": 1.0,
+      "hit": 43,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        556.457763671875,
+        -701.6390380859375,
+        42.316802978515625
+      ],
+      "rotation": [
+        1.0907962322235107,
+        -4.1028659580888416e-08,
+        1.1253167390823364
+      ],
+      "scale": 62.87689971923828,
+      "score": 1.0,
+      "hit": 26,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        424.68804931640625,
+        -723.9322509765625,
+        56.65748977661133
+      ],
+      "rotation": [
+        0.9207964539527893,
+        4.6116703344978305e-08,
+        -0.7072789072990417
+      ],
+      "scale": 73.22323608398438,
+      "score": 1.0,
+      "hit": 29,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        554.9371337890625,
+        -650.3130493164062,
+        56.65748596191406
+      ],
+      "rotation": [
+        0.9207966327667236,
+        -3.467434339654574e-08,
+        1.7361817359924316
+      ],
+      "scale": 59.58469009399414,
+      "score": 0.967741935483871,
+      "hit": 30,
+      "other": 1,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.7971362937751122
+    },
+    {
+      "location": [
+        437.2431335449219,
+        -594.1151123046875,
+        56.65750503540039
+      ],
+      "rotation": [
+        0.9207964539527893,
+        -3.1720542637003746e-08,
+        -2.627141237258911
+      ],
+      "scale": 73.77362060546875,
+      "score": 1.0,
+      "hit": 22,
+      "other": 0,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.6093943582912411
+    },
+    {
+      "location": [
+        507.0018005371094,
+        -717.5342407226562,
+        74.47159576416016
+      ],
+      "rotation": [
+        0.6707963943481445,
+        4.959742838650527e-08,
+        0.5144516229629517
+      ],
+      "scale": 73.77362060546875,
+      "score": 1.0,
+      "hit": 23,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 0.975,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "066_태양에너지실증연구단지.jpg",
+  "file_sha256": "8fd3166302dbc2c1a30ebcf9c8504332f0adf3c32a7d77a9ce7450c76260f69a",
+  "render_seconds": 40.22,
+  "visual_review_notes": "Direct final-sheet review: subject complete and recognisable, neighbouring context retained; source uncertainty follows catalog record.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

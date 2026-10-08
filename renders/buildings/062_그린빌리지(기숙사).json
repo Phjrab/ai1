@@ -1,0 +1,242 @@
+{
+  "index": 62,
+  "name": "그린빌리지(기숙사)",
+  "building_id": 165,
+  "osm_id": null,
+  "catalog_record": {
+    "index": 62,
+    "id": 165,
+    "osm_id": null,
+    "name": "그린빌리지(기숙사)",
+    "collection": "CAMPUS_BUILDING 165 그린빌리지(기숙사)",
+    "bbox": {
+      "min": [
+        433.1700134277344,
+        -805.8619995117188,
+        -36.21837615966797
+      ],
+      "max": [
+        491.8900146484375,
+        -779.9019775390625,
+        -21.30078125
+      ]
+    },
+    "target": [
+      462.53001403808594,
+      -792.8819885253906,
+      -28.759578704833984
+    ],
+    "camera": [
+      500.698014831543,
+      -860.4099899291992,
+      -3.5099781799316396
+    ],
+    "orthographic_scale": 83.38240173339844,
+    "entrance": [
+      462.53,
+      -802.6619999999999,
+      -35.68078145893999
+    ],
+    "entrance_orientation_status": "photo-informed facade assumption; no surveyed entrance coordinate",
+    "footprint_status": "approximate footprint around official pin",
+    "modeled_floor_count": 4,
+    "reference_image": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798370780100.jpg",
+    "source": "https://www3.chosun.ac.kr/campusMap/chosun/165/detailView.do",
+    "review_status": "photo individually inspected; hidden sides/dimensions approximate"
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "surrounding_geometry_visible": true,
+  "camera": {
+    "location": [
+      509.3192138671875,
+      -875.6629638671875,
+      2.193239212036133
+    ],
+    "rotation": [
+      1.256098985671997,
+      4.279042897792351e-08,
+      0.5144514441490173
+    ],
+    "type": "ORTHO",
+    "ortho_scale": 75.39399719238281
+  },
+  "camera_candidates": [
+    {
+      "location": [
+        509.3192138671875,
+        -875.6629638671875,
+        2.193239212036133
+      ],
+      "rotation": [
+        1.256098985671997,
+        4.279042897792351e-08,
+        0.5144514441490173
+      ],
+      "scale": 75.39399719238281,
+      "score": 1.0,
+      "hit": 97,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 18.03083245068682,
+      "selection_score": 1.0
+    },
+    {
+      "location": [
+        502.5775146484375,
+        -863.7352294921875,
+        29.343917846679688
+      ],
+      "rotation": [
+        0.9507966637611389,
+        9.527730782110666e-08,
+        0.5144511461257935
+      ],
+      "scale": 75.39407348632812,
+      "score": 1.0,
+      "hit": 81,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 35.52338329811104,
+      "selection_score": 0.9736915417547224
+    },
+    {
+      "location": [
+        453.9914245605469,
+        -881.1694946289062,
+        17.418317794799805
+      ],
+      "rotation": [
+        1.0907963514328003,
+        9.296377001533074e-10,
+        -0.09641408920288086
+      ],
+      "scale": 71.91667175292969,
+      "score": 1.0,
+      "hit": 122,
+      "other": 0,
+      "azimuth_delta": -35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        542.5728149414062,
+        -831.101806640625,
+        17.418354034423828
+      ],
+      "rotation": [
+        1.0907962322235107,
+        -4.1028659580888416e-08,
+        1.1253167390823364
+      ],
+      "scale": 67.44338989257812,
+      "score": 1.0,
+      "hit": 84,
+      "other": 0,
+      "azimuth_delta": 35,
+      "elevation_degrees": 27.501974166279513,
+      "selection_score": 0.9237450645843012
+    },
+    {
+      "location": [
+        410.802978515625,
+        -853.3948974609375,
+        31.759014129638672
+      ],
+      "rotation": [
+        0.9207966327667236,
+        6.795273677084879e-09,
+        -0.7072793245315552
+      ],
+      "scale": 73.80242919921875,
+      "score": 1.0,
+      "hit": 74,
+      "other": 0,
+      "azimuth_delta": -70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8293943582912412
+    },
+    {
+      "location": [
+        541.0521240234375,
+        -779.7758178710938,
+        31.75902557373047
+      ],
+      "rotation": [
+        0.9207962155342102,
+        -3.6826858007543706e-08,
+        1.7361820936203003
+      ],
+      "scale": 77.90172576904297,
+      "score": 0.9900990099009901,
+      "hit": 100,
+      "other": 1,
+      "azimuth_delta": 70,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.8194933681922313
+    },
+    {
+      "location": [
+        423.358154296875,
+        -723.577880859375,
+        31.759092330932617
+      ],
+      "rotation": [
+        0.9207960963249207,
+        -6.905769822651564e-08,
+        -2.627141237258911
+      ],
+      "scale": 75.39407348632812,
+      "score": 0.9873417721518988,
+      "hit": 78,
+      "other": 1,
+      "azimuth_delta": 180,
+      "elevation_degrees": 37.24225668350351,
+      "selection_score": 0.59673613044314
+    },
+    {
+      "location": [
+        493.1167907714844,
+        -846.9970703125,
+        49.57309341430664
+      ],
+      "rotation": [
+        0.6707963943481445,
+        8.522892613882505e-08,
+        0.5144512057304382
+      ],
+      "scale": 78.05168914794922,
+      "score": 1.0,
+      "hit": 77,
+      "other": 0,
+      "azimuth_delta": 0,
+      "elevation_degrees": 51.56620156177409,
+      "selection_score": 0.9335844960955648
+    }
+  ],
+  "camera_visibility_score": 1.0,
+  "width": 1400,
+  "height": 1050,
+  "samples": 32,
+  "denoising": false,
+  "engine": "CYCLES",
+  "format": "JPEG",
+  "quality": 95,
+  "visual_review": "accepted",
+  "disclaimer": "Photo-informed reconstruction where verified; hidden sides and dimensions approximate. Unverified auxiliary buildings are contextual estimates, not exact reconstructions.",
+  "file": "062_그린빌리지(기숙사).jpg",
+  "file_sha256": "c665050883b2e65eb47af7e33aafd7411d97d8c2b258475dde77f551e3a10975",
+  "render_seconds": 55.32,
+  "visual_review_notes": "Direct contact-sheet review: complete target footprint visible, surrounding adjoining buildings may continue outside frame; source caveats retained.",
+  "release_equivalence": {
+    "verified": true,
+    "final_release_source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+    "evidence": "release-equivalence.json",
+    "method": "Exact source mesh comparison and exclusion from changed regions expanded by 100m on all axes, projected to this exact camera. PBR v1.1 and lighting setup unchanged.",
+    "actual_original_source_sha256": "7ae0ed014809c0c5548925deb93855bdafd50cb939a13fd824e5acb489dfbad2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "camera": "72_실험실습동_금속계단",
+  "camera_definition": {
+    "location": [
+      -24,
+      -885,
+      -30
+    ],
+    "target": [
+      -17.7,
+      -863.3,
+      -41.4
+    ],
+    "ortho_scale": 16,
+    "evidence": "사진 근거 실험실습동 금속계단; 치수는 추정."
+  },
+  "source": "/workspace/shared/chosun_model/delivery/Chosun_Campus.blend",
+  "source_sha256": "c3fe1badbd4ae69070fda18e8c2ba48be518ca19ced62cce35a4ec91e71fbc73",
+  "source_modified": false,
+  "geometry_modified": false,
+  "materials_modified": false,
+  "width": 1600,
+  "height": 1000,
+  "samples": 64,
+  "denoising": false,
+  "file": "72_실험실습동_금속계단.png",
+  "file_sha256": "a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079",
+  "visual_review": "accepted",
+  "visual_review_notes": "Direct full-size review: photographed metal staircase / inferred connector shown without foreground obstruction after camera retake; no geometry or material edits. Detail crop may exclude continuing paths."
+}
