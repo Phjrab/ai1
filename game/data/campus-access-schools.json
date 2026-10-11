@@ -1,0 +1,1799 @@
+{
+  "version": "affiliated_schools_1.1",
+  "schools": [
+    {
+      "school_id": 174,
+      "name": "조선대학교여자고등학교",
+      "boundary_osm_id": "485774197",
+      "base_z": -36.41412353515625,
+      "base_method": "Mapped entrance-road anchor; relative DSM trend where outside visible terrain; illustrative flat site pad",
+      "buildings": [
+        {
+          "osm_id": "1200735410",
+          "footprint": [
+            [
+              -402.753,
+              -183.22
+            ],
+            [
+              -388.201,
+              -169.739
+            ],
+            [
+              -392.004,
+              -165.606
+            ],
+            [
+              -398.069,
+              -171.231
+            ],
+            [
+              -434.717,
+              -131.432
+            ],
+            [
+              -429.895,
+              -126.967
+            ],
+            [
+              -435.515,
+              -120.849
+            ],
+            [
+              -439.71,
+              -124.735
+            ],
+            [
+              -475.163,
+              -86.246
+            ],
+            [
+              -469.919,
+              -81.374
+            ],
+            [
+              -467.116,
+              -84.413
+            ],
+            [
+              -448.537,
+              -67.208
+            ],
+            [
+              -456.48,
+              -58.585
+            ],
+            [
+              -486.169,
+              -86.086
+            ],
+            [
+              -489.402,
+              -89.081
+            ]
+          ],
+          "height_m": 14.4,
+          "floors": 4,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/1200735410"
+        },
+        {
+          "osm_id": "1200735412",
+          "footprint": [
+            [
+              -486.169,
+              -86.086
+            ],
+            [
+              -489.309,
+              -81.307
+            ],
+            [
+              -487.511,
+              -72.439
+            ],
+            [
+              -471.134,
+              -65.756
+            ],
+            [
+              -470.611,
+              -63.457
+            ],
+            [
+              -467.309,
+              -64.201
+            ],
+            [
+              -458.415,
+              -25.08
+            ],
+            [
+              -466.975,
+              -23.131
+            ],
+            [
+              -465.381,
+              -16.163
+            ],
+            [
+              -498.581,
+              -8.606
+            ],
+            [
+              -510.32,
+              -60.199
+            ],
+            [
+              -495.43,
+              -63.589
+            ],
+            [
+              -495.685,
+              -64.68
+            ],
+            [
+              -493.704,
+              -65.128
+            ],
+            [
+              -495.472,
+              -72.841
+            ],
+            [
+              -492.692,
+              -73.479
+            ],
+            [
+              -494.772,
+              -82.512
+            ],
+            [
+              -489.402,
+              -89.081
+            ]
+          ],
+          "height_m": 8.5,
+          "floors": 2,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/1200735412"
+        }
+      ],
+      "public_exterior_only": true,
+      "middle_schools_added": false,
+      "field": {
+        "osm_id": "1200735413",
+        "boundary": [
+          [
+            -495.715,
+            -154.499
+          ],
+          [
+            -464.662,
+            -124.627
+          ],
+          [
+            -402.052,
+            -186.575
+          ],
+          [
+            -426.345,
+            -212.589
+          ],
+          [
+            -495.715,
+            -154.499
+          ]
+        ],
+        "height": -36.36412353515625,
+        "dimensions": "Source polygon retained",
+        "surface": "Photo-informed stylized ground"
+      },
+      "road_surface_union": "Exact planar clipping removes duplicate road junction faces and fills corner wedges",
+      "connection_to_existing_roads": {
+        "points": [
+          [
+            -524.387,
+            -148.175
+          ],
+          [
+            -532.27,
+            -141.83
+          ],
+          [
+            -538.564,
+            -176.165
+          ],
+          [
+            -543.457,
+            -202.535
+          ],
+          [
+            -545.32,
+            -207.145
+          ],
+          [
+            -582.406,
+            -299.046
+          ],
+          [
+            -585.719,
+            -311.257
+          ],
+          [
+            -587.443,
+            -319.926
+          ],
+          [
+            -588.094,
+            -326.379
+          ],
+          [
+            -588.139,
+            -337.153
+          ],
+          [
+            -586.196,
+            -348.061
+          ],
+          [
+            -581.523,
+            -362.309
+          ],
+          [
+            -569.446,
+            -405.096
+          ],
+          [
+            -553.61,
+            -438.883
+          ],
+          [
+            -550.007,
+            -455.227
+          ],
+          [
+            -547.181,
+            -465.636
+          ],
+          [
+            -542.324,
+            -477.19
+          ],
+          [
+            -535.815,
+            -486.516
+          ],
+          [
+            -521.974,
+            -522.722
+          ],
+          [
+            -506.157,
+            -549.177
+          ],
+          [
+            -487.492,
+            -570.581
+          ],
+          [
+            -474.883,
+            -585.611
+          ],
+          [
+            -494.399,
+            -608.107
+          ],
+          [
+            -419.91,
+            -665.294
+          ],
+          [
+            -345.342,
+            -722.533
+          ]
+        ],
+        "osm_ways": [
+          "248191565",
+          "727942697",
+          "460533923",
+          "105240454",
+          "1442402567"
+        ],
+        "length_m": 709.243894933988,
+        "accuracy": "Exact OSM connected nodes, shortest public network linkage to included campus roads; pavement width approximate"
+      }
+    },
+    {
+      "school_id": 175,
+      "name": "조선대부속고등학교",
+      "boundary_osm_id": "488279362",
+      "base_z": -33.855985407993025,
+      "base_method": "Mapped entrance-road anchor; relative DSM trend where outside visible terrain; illustrative flat site pad",
+      "buildings": [
+        {
+          "osm_id": "987253232",
+          "footprint": [
+            [
+              753.965,
+              -512.106
+            ],
+            [
+              759.056,
+              -499.782
+            ],
+            [
+              752.999,
+              -497.272
+            ],
+            [
+              754.053,
+              -494.699
+            ],
+            [
+              740.059,
+              -488.899
+            ],
+            [
+              744.0,
+              -479.342
+            ],
+            [
+              749.641,
+              -481.674
+            ],
+            [
+              769.963,
+              -432.416
+            ],
+            [
+              762.255,
+              -429.228
+            ],
+            [
+              757.475,
+              -440.798
+            ],
+            [
+              754.458,
+              -439.545
+            ],
+            [
+              745.347,
+              -461.643
+            ],
+            [
+              748.053,
+              -462.758
+            ],
+            [
+              736.26,
+              -491.389
+            ],
+            [
+              721.061,
+              -485.112
+            ],
+            [
+              742.357,
+              -433.395
+            ],
+            [
+              731.871,
+              -429.058
+            ],
+            [
+              719.118,
+              -460.021
+            ],
+            [
+              715.598,
+              -458.565
+            ],
+            [
+              705.106,
+              -484.014
+            ],
+            [
+              720.7,
+              -490.463
+            ],
+            [
+              721.388,
+              -488.801
+            ],
+            [
+              734.141,
+              -494.08
+            ],
+            [
+              733.635,
+              -495.287
+            ],
+            [
+              735.859,
+              -496.212
+            ],
+            [
+              732.901,
+              -503.377
+            ]
+          ],
+          "height_m": 14.4,
+          "floors": 4,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/987253232"
+        },
+        {
+          "osm_id": "987253233",
+          "footprint": [
+            [
+              770.93,
+              -510.01
+            ],
+            [
+              773.166,
+              -504.454
+            ],
+            [
+              760.979,
+              -499.512
+            ],
+            [
+              751.845,
+              -522.116
+            ],
+            [
+              785.328,
+              -535.703
+            ],
+            [
+              792.217,
+              -518.644
+            ]
+          ],
+          "height_m": 7.5,
+          "floors": 2,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/987253233"
+        },
+        {
+          "osm_id": "1183326637",
+          "footprint": [
+            [
+              743.83,
+              -536.299
+            ],
+            [
+              757.478,
+              -541.908
+            ],
+            [
+              761.444,
+              -532.226
+            ],
+            [
+              747.797,
+              -526.617
+            ]
+          ],
+          "height_m": 4.0,
+          "floors": 1,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/1183326637"
+        },
+        {
+          "osm_id": "1183326638",
+          "footprint": [
+            [
+              696.532,
+              -507.093
+            ],
+            [
+              709.312,
+              -512.35
+            ],
+            [
+              716.887,
+              -493.861
+            ],
+            [
+              704.095,
+              -488.611
+            ]
+          ],
+          "height_m": 10.8,
+          "floors": 3,
+          "height_accuracy": "Photo-scaled exterior estimate, not directory-wide floor label",
+          "source": "https://www.openstreetmap.org/way/1183326638"
+        }
+      ],
+      "public_exterior_only": true,
+      "middle_schools_added": false,
+      "field": {
+        "osm_id": "598553085",
+        "boundary": [
+          [
+            765.926,
+            -485.886
+          ],
+          [
+            815.103,
+            -506.102
+          ],
+          [
+            843.164,
+            -437.607
+          ],
+          [
+            840.916,
+            -432.164
+          ],
+          [
+            795.575,
+            -413.525
+          ],
+          [
+            765.926,
+            -485.886
+          ]
+        ],
+        "height": -33.80598540799303,
+        "dimensions": "Source polygon retained",
+        "surface": "Photo-informed stylized ground"
+      },
+      "road_surface_union": "Exact planar clipping removes duplicate road junction faces and fills corner wedges",
+      "connection_to_existing_roads": {
+        "points": [
+          [
+            673.426,
+            -475.826
+          ],
+          [
+            666.494,
+            -477.411
+          ],
+          [
+            552.187,
+            -431.239
+          ]
+        ],
+        "osm_ways": [
+          "727942658",
+          "190176311"
+        ],
+        "length_m": 130.3908374166615,
+        "accuracy": "Exact OSM connected nodes, shortest public network linkage to included campus roads; pavement width approximate"
+      }
+    }
+  ],
+  "terrain": {
+    "source": "CAMPUS_TERRAIN | continuous hillside ground",
+    "clone": "RV2_SCHOOL_Locally graded terrain preserved original clone",
+    "refined_source_triangles": 16393,
+    "untouched_source_triangles": 2015611,
+    "source_mesh_unchanged": true,
+    "visible_vertices": 1212318,
+    "visible_triangles": 2080416,
+    "copy_strategy": "Untouched source vertex indices retained; only local triangles subdivided"
+  },
+  "obstacles": [
+    {
+      "id": "school_1200735410",
+      "polygon": [
+        [
+          -402.753,
+          -183.22
+        ],
+        [
+          -388.201,
+          -169.739
+        ],
+        [
+          -392.004,
+          -165.606
+        ],
+        [
+          -398.069,
+          -171.231
+        ],
+        [
+          -434.717,
+          -131.432
+        ],
+        [
+          -429.895,
+          -126.967
+        ],
+        [
+          -435.515,
+          -120.849
+        ],
+        [
+          -439.71,
+          -124.735
+        ],
+        [
+          -475.163,
+          -86.246
+        ],
+        [
+          -469.919,
+          -81.374
+        ],
+        [
+          -467.116,
+          -84.413
+        ],
+        [
+          -448.537,
+          -67.208
+        ],
+        [
+          -456.48,
+          -58.585
+        ],
+        [
+          -486.169,
+          -86.086
+        ],
+        [
+          -489.402,
+          -89.081
+        ]
+      ],
+      "min_z": -36.43412353515625,
+      "max_z": -19.034123535156255,
+      "type": "solid",
+      "school_id": 174
+    },
+    {
+      "id": "school_1200735412",
+      "polygon": [
+        [
+          -486.169,
+          -86.086
+        ],
+        [
+          -489.309,
+          -81.307
+        ],
+        [
+          -487.511,
+          -72.439
+        ],
+        [
+          -471.134,
+          -65.756
+        ],
+        [
+          -470.611,
+          -63.457
+        ],
+        [
+          -467.309,
+          -64.201
+        ],
+        [
+          -458.415,
+          -25.08
+        ],
+        [
+          -466.975,
+          -23.131
+        ],
+        [
+          -465.381,
+          -16.163
+        ],
+        [
+          -498.581,
+          -8.606
+        ],
+        [
+          -510.32,
+          -60.199
+        ],
+        [
+          -495.43,
+          -63.589
+        ],
+        [
+          -495.685,
+          -64.68
+        ],
+        [
+          -493.704,
+          -65.128
+        ],
+        [
+          -495.472,
+          -72.841
+        ],
+        [
+          -492.692,
+          -73.479
+        ],
+        [
+          -494.772,
+          -82.512
+        ],
+        [
+          -489.402,
+          -89.081
+        ]
+      ],
+      "min_z": -36.43412353515625,
+      "max_z": -24.934123535156253,
+      "type": "solid",
+      "school_id": 174
+    },
+    {
+      "id": "school_987253232",
+      "polygon": [
+        [
+          753.965,
+          -512.106
+        ],
+        [
+          759.056,
+          -499.782
+        ],
+        [
+          752.999,
+          -497.272
+        ],
+        [
+          754.053,
+          -494.699
+        ],
+        [
+          740.059,
+          -488.899
+        ],
+        [
+          744.0,
+          -479.342
+        ],
+        [
+          749.641,
+          -481.674
+        ],
+        [
+          769.963,
+          -432.416
+        ],
+        [
+          762.255,
+          -429.228
+        ],
+        [
+          757.475,
+          -440.798
+        ],
+        [
+          754.458,
+          -439.545
+        ],
+        [
+          745.347,
+          -461.643
+        ],
+        [
+          748.053,
+          -462.758
+        ],
+        [
+          736.26,
+          -491.389
+        ],
+        [
+          721.061,
+          -485.112
+        ],
+        [
+          742.357,
+          -433.395
+        ],
+        [
+          731.871,
+          -429.058
+        ],
+        [
+          719.118,
+          -460.021
+        ],
+        [
+          715.598,
+          -458.565
+        ],
+        [
+          705.106,
+          -484.014
+        ],
+        [
+          720.7,
+          -490.463
+        ],
+        [
+          721.388,
+          -488.801
+        ],
+        [
+          734.141,
+          -494.08
+        ],
+        [
+          733.635,
+          -495.287
+        ],
+        [
+          735.859,
+          -496.212
+        ],
+        [
+          732.901,
+          -503.377
+        ]
+      ],
+      "min_z": -33.87598540799303,
+      "max_z": -16.47598540799303,
+      "type": "solid",
+      "school_id": 175
+    },
+    {
+      "id": "school_987253233",
+      "polygon": [
+        [
+          770.93,
+          -510.01
+        ],
+        [
+          773.166,
+          -504.454
+        ],
+        [
+          760.979,
+          -499.512
+        ],
+        [
+          751.845,
+          -522.116
+        ],
+        [
+          785.328,
+          -535.703
+        ],
+        [
+          792.217,
+          -518.644
+        ]
+      ],
+      "min_z": -33.87598540799303,
+      "max_z": -23.375985407993028,
+      "type": "solid",
+      "school_id": 175
+    },
+    {
+      "id": "school_1183326637",
+      "polygon": [
+        [
+          743.83,
+          -536.299
+        ],
+        [
+          757.478,
+          -541.908
+        ],
+        [
+          761.444,
+          -532.226
+        ],
+        [
+          747.797,
+          -526.617
+        ]
+      ],
+      "min_z": -33.87598540799303,
+      "max_z": -26.875985407993028,
+      "type": "solid",
+      "school_id": 175
+    },
+    {
+      "id": "school_1183326638",
+      "polygon": [
+        [
+          696.532,
+          -507.093
+        ],
+        [
+          709.312,
+          -512.35
+        ],
+        [
+          716.887,
+          -493.861
+        ],
+        [
+          704.095,
+          -488.611
+        ]
+      ],
+      "min_z": -33.87598540799303,
+      "max_z": -20.075985407993027,
+      "type": "solid",
+      "school_id": 175
+    }
+  ],
+  "navigation_segments": [
+    {
+      "school_id": 174,
+      "osm_way": "1200735417",
+      "from": [
+        -524.387,
+        -148.175,
+        -36.516336480368636
+      ],
+      "to": [
+        -515.789,
+        -136.478,
+        -36.36214156227891
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735417",
+      "from": [
+        -515.789,
+        -136.478,
+        -36.36214156227891
+      ],
+      "to": [
+        -486.987,
+        -97.27,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735418",
+      "from": [
+        -515.789,
+        -136.478,
+        -36.36214156227891
+      ],
+      "to": [
+        -518.759,
+        -127.953,
+        -36.36212353515624
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735418",
+      "from": [
+        -518.759,
+        -127.953,
+        -36.36212353515624
+      ],
+      "to": [
+        -503.373,
+        -86.908,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735418",
+      "from": [
+        -503.373,
+        -86.908,
+        -36.36212353515625
+      ],
+      "to": [
+        -498.997,
+        -75.21,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735418",
+      "from": [
+        -498.997,
+        -75.21,
+        -36.36212353515625
+      ],
+      "to": [
+        -508.878,
+        -72.24,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735419",
+      "from": [
+        -503.373,
+        -86.908,
+        -36.36212353515625
+      ],
+      "to": [
+        -495.349,
+        -90.271,
+        -36.36212353515626
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735419",
+      "from": [
+        -495.349,
+        -90.271,
+        -36.36212353515626
+      ],
+      "to": [
+        -486.987,
+        -97.27,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735419",
+      "from": [
+        -486.987,
+        -97.27,
+        -36.36212353515625
+      ],
+      "to": [
+        -471.944,
+        -112.971,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735419",
+      "from": [
+        -471.944,
+        -112.971,
+        -36.36212353515625
+      ],
+      "to": [
+        -458.703,
+        -126.782,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "1200735420",
+      "from": [
+        -471.944,
+        -112.971,
+        -36.36212353515625
+      ],
+      "to": [
+        -499.31,
+        -144.983,
+        -36.36212353515625
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -524.387,
+        -148.175,
+        -36.516336480368636
+      ],
+      "to": [
+        -532.27,
+        -141.83,
+        -36.544514051899164
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -532.27,
+        -141.83,
+        -36.544514051899164
+      ],
+      "to": [
+        -538.564,
+        -176.165,
+        -40.46930510634
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -538.564,
+        -176.165,
+        -40.46930510634
+      ],
+      "to": [
+        -543.457,
+        -202.535,
+        -40.464738415050455
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -543.457,
+        -202.535,
+        -40.464738415050455
+      ],
+      "to": [
+        -545.32,
+        -207.145,
+        -40.50354720545456
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -545.32,
+        -207.145,
+        -40.50354720545456
+      ],
+      "to": [
+        -582.406,
+        -299.046,
+        -43.18465523213095
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -582.406,
+        -299.046,
+        -43.18465523213095
+      ],
+      "to": [
+        -585.719,
+        -311.257,
+        -43.697790056744786
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -585.719,
+        -311.257,
+        -43.697790056744786
+      ],
+      "to": [
+        -587.443,
+        -319.926,
+        -44.0146522493963
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -587.443,
+        -319.926,
+        -44.0146522493963
+      ],
+      "to": [
+        -588.094,
+        -326.379,
+        -44.23626514168684
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -588.094,
+        -326.379,
+        -44.23626514168684
+      ],
+      "to": [
+        -588.139,
+        -337.153,
+        -44.5681927313345
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -588.139,
+        -337.153,
+        -44.5681927313345
+      ],
+      "to": [
+        -586.196,
+        -348.061,
+        -44.77917258907474
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -586.196,
+        -348.061,
+        -44.77917258907474
+      ],
+      "to": [
+        -581.523,
+        -362.309,
+        -44.953825252701606
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -581.523,
+        -362.309,
+        -44.953825252701606
+      ],
+      "to": [
+        -569.446,
+        -405.096,
+        -45.21074954193601
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -569.446,
+        -405.096,
+        -45.21074954193601
+      ],
+      "to": [
+        -553.61,
+        -438.883,
+        -46.21940148368001
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -553.61,
+        -438.883,
+        -46.21940148368001
+      ],
+      "to": [
+        -550.007,
+        -455.227,
+        -46.80032592572166
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -550.007,
+        -455.227,
+        -46.80032592572166
+      ],
+      "to": [
+        -547.181,
+        -465.636,
+        -47.162409550866634
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -547.181,
+        -465.636,
+        -47.162409550866634
+      ],
+      "to": [
+        -542.324,
+        -477.19,
+        -47.64906115239774
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -542.324,
+        -477.19,
+        -47.64906115239774
+      ],
+      "to": [
+        -535.815,
+        -486.516,
+        -48.076968369257536
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -535.815,
+        -486.516,
+        -48.076968369257536
+      ],
+      "to": [
+        -521.974,
+        -522.722,
+        -49.198123484112
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -521.974,
+        -522.722,
+        -49.198123484112
+      ],
+      "to": [
+        -506.157,
+        -549.177,
+        -49.88947495728401
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -506.157,
+        -549.177,
+        -49.88947495728401
+      ],
+      "to": [
+        -487.492,
+        -570.581,
+        -50.593111083984375
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -487.492,
+        -570.581,
+        -50.593111083984375
+      ],
+      "to": [
+        -474.883,
+        -585.611,
+        -51.12396435546875
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -474.883,
+        -585.611,
+        -51.12396435546875
+      ],
+      "to": [
+        -494.399,
+        -608.107,
+        -51.884719340485
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -494.399,
+        -608.107,
+        -51.884719340485
+      ],
+      "to": [
+        -419.91,
+        -665.294,
+        -53.141939208984375
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 174,
+      "osm_way": "mapped_connection",
+      "from": [
+        -419.91,
+        -665.294,
+        -53.141939208984375
+      ],
+      "to": [
+        -345.342,
+        -722.533,
+        -53.45855908203125
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1108554463",
+      "from": [
+        721.367,
+        -404.925,
+        -33.79662013270386
+      ],
+      "to": [
+        781.831,
+        -426.537,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        673.426,
+        -475.826,
+        -23.556028313438006
+      ],
+      "to": [
+        674.909,
+        -485.21,
+        -24.150309216452584
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        674.909,
+        -485.21,
+        -24.150309216452584
+      ],
+      "to": [
+        674.212,
+        -488.645,
+        -24.35551383361729
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        674.212,
+        -488.645,
+        -24.35551383361729
+      ],
+      "to": [
+        671.153,
+        -496.756,
+        -24.89779327273962
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        671.153,
+        -496.756,
+        -24.89779327273962
+      ],
+      "to": [
+        666.618,
+        -508.57,
+        -25.681873863676103
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        666.618,
+        -508.57,
+        -25.681873863676103
+      ],
+      "to": [
+        690.406,
+        -518.548,
+        -27.279452871552103
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        690.406,
+        -518.548,
+        -27.279452871552103
+      ],
+      "to": [
+        732.994,
+        -538.486,
+        -30.191297271801215
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        732.994,
+        -538.486,
+        -30.191297271801215
+      ],
+      "to": [
+        765.805,
+        -553.823,
+        -32.43404012439298
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486347",
+      "from": [
+        765.805,
+        -553.823,
+        -32.43404012439298
+      ],
+      "to": [
+        785.844,
+        -563.198,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486348",
+      "from": [
+        763.361,
+        -534.333,
+        -33.80398540799303
+      ],
+      "to": [
+        772.136,
+        -538.063,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486348",
+      "from": [
+        772.136,
+        -538.063,
+        -33.803985407993025
+      ],
+      "to": [
+        792.771,
+        -546.844,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486348",
+      "from": [
+        792.771,
+        -546.844,
+        -33.803985407993025
+      ],
+      "to": [
+        785.844,
+        -563.198,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486348",
+      "from": [
+        785.844,
+        -563.198,
+        -33.803985407993025
+      ],
+      "to": [
+        775.837,
+        -586.814,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486348",
+      "from": [
+        775.837,
+        -586.814,
+        -33.803985407993025
+      ],
+      "to": [
+        762.934,
+        -581.328,
+        -33.803985407993025
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "1366486349",
+      "from": [
+        772.136,
+        -538.063,
+        -33.803985407993025
+      ],
+      "to": [
+        765.805,
+        -553.823,
+        -32.43404012439298
+      ],
+      "width": 4.4,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "mapped_connection",
+      "from": [
+        673.426,
+        -475.826,
+        -23.556028313438006
+      ],
+      "to": [
+        666.494,
+        -477.411,
+        -23.14103137358847
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    },
+    {
+      "school_id": 175,
+      "osm_way": "mapped_connection",
+      "from": [
+        666.494,
+        -477.411,
+        -23.14103137358847
+      ],
+      "to": [
+        552.187,
+        -431.239,
+        -14.608430908203125
+      ],
+      "width": 5.5,
+      "source": "OSM mapped centerline; width reconstructed"
+    }
+  ],
+  "arrival_grade": {
+    "school175_back_road": "Continuous grade along exact OSM1366486347, from source road elevation to school pad. Reconstructed profile, not surveyed.",
+    "start_z": -23.608392680476,
+    "end_z": -33.855985407993025,
+    "length_m": 165.49076128219016,
+    "mean_grade": 0.06192244599106725
+  },
+  "ground_accuracy": "Copernicus DSM trend and visible campus border; illustrative flat pads and grade blend, not survey",
+  "existing_meshes_preserved": true,
+  "original_xy_scale_preserved": true,
+  "objects": [
+    "RV2_SCHOOL_Locally graded terrain preserved original clone",
+    "RV2_SCHOOL_Minimal outer terrain extension",
+    "RV2_SCHOOL_174 1200735410 mass",
+    "RV2_SCHOOL_174 1200735410 window bands and facade grid",
+    "RV2_SCHOOL_174 1200735410 roof",
+    "RV2_SCHOOL_174 1200735412 mass",
+    "RV2_SCHOOL_174 1200735412 window bands and facade grid",
+    "RV2_SCHOOL_174 1200735412 roof",
+    "RV2_SCHOOL_174 1200735413 mapped sports field",
+    "RV2_SCHOOL_174 unified nonoverlapping access roads",
+    "RV2_SCHOOL_175 598553085 mapped sports field",
+    "RV2_SCHOOL_175 illustrative sport linework",
+    "RV2_SCHOOL_175 987253232 mass",
+    "RV2_SCHOOL_175 987253232 window bands and facade grid",
+    "RV2_SCHOOL_175 987253232 roof",
+    "RV2_SCHOOL_175 987253233 mass",
+    "RV2_SCHOOL_175 987253233 window bands and facade grid",
+    "RV2_SCHOOL_175 987253233 roof",
+    "RV2_SCHOOL_175 1183326637 mass",
+    "RV2_SCHOOL_175 1183326637 window bands and facade grid",
+    "RV2_SCHOOL_175 1183326637 roof",
+    "RV2_SCHOOL_175 1183326638 mass",
+    "RV2_SCHOOL_175 1183326638 window bands and facade grid",
+    "RV2_SCHOOL_175 1183326638 roof",
+    "RV2_SCHOOL_175 unified nonoverlapping access roads"
+  ]
+}

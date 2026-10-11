@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "sourceRawSha256": "a0428ca9a5484ebc1347e4d354d646489eb3044c9df9d0c827c286c04bc569c5",
+  "toleranceMetres": 0.0001,
+  "exactSeamCorrection": 31.085723876953125,
+  "nextActualRampHeight": 30.937176181722112,
+  "farSliverRejected": true,
+  "doesNotCreateFloorPastEdge": true,
+  "doesNotChangeLayers": true,
+  "geometryChanged": false,
+  "scope": "Generic finite-edge and preceding-foot-level numerical tolerance. Walking only; vehicle/ceiling queries are unchanged."
+}

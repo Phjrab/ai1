@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import {Box3,CylinderGeometry,BoxGeometry,Triangle,Vector3,Group,Mesh} from 'three';
+import {componentIntersectsTriangle,parkingVolumeProbe} from './helpers/parking-volume.mjs';
+import {vehicleOverlapsStaticBox} from '../dist/parking-system.js';
+const wheel=new CylinderGeometry(.36,.36,.22,16);wheel.computeBoundingBox();
+const corner=new Triangle(new Vector3(.33,-.1,.33),new Vector3(.35,.1,.33),new Vector3(.33,.1,.35));assert.ok(wheel.boundingBox.intersectsTriangle(corner));assert.equal(componentIntersectsTriangle(wheel.boundingBox,corner,wheel),false,'Empty square wheel-box corners must not count as tyre penetration');
+const through=new Triangle(new Vector3(-.1,0,0),new Vector3(.1,0,0),new Vector3(0,.05,.1));assert.ok(componentIntersectsTriangle(wheel.boundingBox,through,wheel));
+const shallow=new Triangle(new Vector3(-.02,0,.355),new Vector3(.02,0,.355),new Vector3(0,.05,.355));assert.ok(componentIntersectsTriangle(wheel.boundingBox,shallow,wheel),'Real shallow contact remains detectable');
+const body=new BoxGeometry(1,1,1);body.computeBoundingBox();assert.ok(componentIntersectsTriangle(body.boundingBox,corner,body));
+console.log('PARKING_VOLUME: exact tyre polygon refines only empty AABB corners; real tyre and body contacts remain detected');
+
+const position=new Vector3(0,0,0),cornerPost=new Box3(new Vector3(.9,0,1.85),new Vector3(1.1,2,2.05));
+assert.ok(vehicleOverlapsStaticBox(position,0,cornerPost),'Car nose corners need collision even outside the old centre-radius probe');
+assert.equal(vehicleOverlapsStaticBox(position,Math.PI/2,cornerPost),false,'Rotated car keeps its actual oriented footprint');
+const upstairs=cornerPost.clone().translate(new Vector3(0,3.1,0));
+assert.equal(vehicleOverlapsStaticBox(position,0,upstairs),false,'Upper-deck objects must not block the lower vehicle');
+assert.ok(vehicleOverlapsStaticBox(new Vector3(0,3.1,0),0,upstairs),'The same object blocks the matching floor');
+console.log('PARKING_VOLUME: oriented full-vehicle corner collision and vertical floor separation pass');
+const scene=new Group(),floor=new Mesh(new BoxGeometry(4,.2,4));floor.name='actual_road';floor.position.set(10,-.1,20);scene.add(floor);
+const probe=parkingVolumeProbe(scene,()=>true),support=probe.support(10,20,.5,1);assert.equal(support.object,'actual_road');assert.ok(Math.abs(support.height)<1e-8);assert.equal(probe.height(10,20,.5,1),support.height);assert.equal(probe.support(30,20,.5,1),null);
+const model=new Group(),part=new Mesh(new BoxGeometry(1,1,1));model.position.set(10,0,20);model.add(part);assert.deepEqual(probe(model),['actual_road']);assert.deepEqual(probe(model,()=>false),[],'Requested component filtering must leave source geometry unchanged');assert.equal(part.geometry.attributes.position.count,24);
+console.log('PARKING_VOLUME: actual support object/height and separate component contact reporting pass');

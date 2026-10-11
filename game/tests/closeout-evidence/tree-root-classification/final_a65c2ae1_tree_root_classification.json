@@ -1,0 +1,2987 @@
+{
+  "status": "PASS_CLASSIFIED_INTENTIONAL_ROOT_EMBEDDING",
+  "native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "rows": [
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+007_-083",
+      "planting_id": "infill_+007_-083",
+      "actual_root_blender_xyz": [
+        54.79829025100356,
+        -644.6194458009388,
+        -38.801918029785156
+      ],
+      "source_position": [
+        54.79829025268555,
+        -644.6194458007812,
+        -38.801918029785156
+      ],
+      "coordinate_error_m": 1.6893541674934092e-09,
+      "actual_gap_m": -0.12669234151288578,
+      "expected_center_gap_m": -0.12668505859375045,
+      "expected_actual_gap_difference_m": 7.282919135320753e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -38.67523193359375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24027148437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.736059361354935e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+009_-021",
+      "planting_id": "infill_+009_-021",
+      "actual_root_blender_xyz": [
+        72.01200103857038,
+        -162.74432373188245,
+        -37.085426330566406
+      ],
+      "source_position": [
+        72.01200103759766,
+        -162.74432373046875,
+        -37.085426330566406
+      ],
+      "coordinate_error_m": 1.7160179907130863e-09,
+      "actual_gap_m": -0.11300716146218548,
+      "expected_center_gap_m": -0.11301318359375045,
+      "expected_actual_gap_difference_m": 6.0221315649755525e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -36.972412109375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21402636718750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.436291727431385e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+010_-125",
+      "planting_id": "infill_+010_-125",
+      "actual_root_blender_xyz": [
+        79.64868926903682,
+        -976.0824584948215,
+        -31.240148544311523
+      ],
+      "source_position": [
+        79.64868927001953,
+        -976.0824584960938,
+        -31.240148544311523
+      ],
+      "coordinate_error_m": 1.6076027049347165e-09,
+      "actual_gap_m": -0.10363058112310952,
+      "expected_center_gap_m": -0.10367480468750045,
+      "expected_actual_gap_difference_m": 4.422356439093278e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -31.136474609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19522753906250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720580409208157e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+011_-127",
+      "planting_id": "infill_+011_-127",
+      "actual_root_blender_xyz": [
+        84.67354583876086,
+        -988.4885864246518,
+        -29.511205673217773
+      ],
+      "source_position": [
+        84.67354583740234,
+        -988.4885864257812,
+        -29.511205673217773
+      ],
+      "coordinate_error_m": 1.7667160002355794e-09,
+      "actual_gap_m": -0.13250537470698376,
+      "expected_center_gap_m": -0.13248339843750045,
+      "expected_actual_gap_difference_m": 2.1976269483303668e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -29.37872314453125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25461474609375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.088555581446775e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          84.67354692731585,
+          -988.4885864257812,
+          -29.511205673217773
+        ],
+        "gap": -0.13251304626464844,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+012_-131",
+      "planting_id": "infill_+012_-131",
+      "actual_root_blender_xyz": [
+        92.05660247650333,
+        -1024.5761718751326,
+        -41.778480529785156
+      ],
+      "source_position": [
+        92.05660247802734,
+        -1024.576171875,
+        -41.778480529785156
+      ],
+      "coordinate_error_m": 1.529768816377499e-09,
+      "actual_gap_m": -0.11776841236109448,
+      "expected_center_gap_m": -0.11777392578125045,
+      "expected_actual_gap_difference_m": 5.51342015597811e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -41.66070556640625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22354785156250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7472870200980852e-05,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+014_-038",
+      "planting_id": "infill_+014_-038",
+      "actual_root_blender_xyz": [
+        109.81475067025326,
+        -296.48358154415024,
+        -46.866127014160156
+      ],
+      "source_position": [
+        109.81475067138672,
+        -296.48358154296875,
+        -46.866127014160156
+      ],
+      "coordinate_error_m": 1.6372679165562714e-09,
+      "actual_gap_m": -0.11873682625573423,
+      "expected_center_gap_m": -0.11875048828125045,
+      "expected_actual_gap_difference_m": 1.366202551622564e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -46.74737548828125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22550097656250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6372679165562714e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-014",
+      "planting_id": "infill_+015_-014",
+      "actual_root_blender_xyz": [
+        114.82316589342524,
+        -107.84777832200606,
+        -30.433263778686523
+      ],
+      "source_position": [
+        114.82316589355469,
+        -107.8477783203125,
+        -30.433263778686523
+      ],
+      "coordinate_error_m": 1.698504288541507e-09,
+      "actual_gap_m": -0.10107747759179375,
+      "expected_center_gap_m": -0.10105029296875045,
+      "expected_actual_gap_difference_m": 2.718462304329705e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -30.33221435546875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19016162109375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5424770053311714e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-132",
+      "planting_id": "infill_+015_-132",
+      "actual_root_blender_xyz": [
+        114.34942626887475,
+        -1028.6978759751073,
+        -40.799049377441406
+      ],
+      "source_position": [
+        114.34942626953125,
+        -1028.6978759765625,
+        -40.799049377441406
+      ],
+      "coordinate_error_m": 1.5964251047629264e-09,
+      "actual_gap_m": -0.1127985788126935,
+      "expected_center_gap_m": -0.11283007812500045,
+      "expected_actual_gap_difference_m": 3.149931230694847e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -40.68621826171875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21359912109375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7440071372753603e-05,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-030",
+      "planting_id": "infill_+016_-030",
+      "actual_root_blender_xyz": [
+        124.21609497007779,
+        -235.68374633648585,
+        -44.024330139160156
+      ],
+      "source_position": [
+        124.21609497070312,
+        -235.68374633789062,
+        -44.024330139160156
+      ],
+      "coordinate_error_m": 1.537668979554253e-09,
+      "actual_gap_m": -0.11727225132553087,
+      "expected_center_gap_m": -0.11734667968750045,
+      "expected_actual_gap_difference_m": 7.442836196958069e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -43.906982421875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21658984375000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.537668979554253e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-128",
+      "planting_id": "infill_+016_-128",
+      "actual_root_blender_xyz": [
+        126.45899200592892,
+        -998.818908691622,
+        -30.345190048217773
+      ],
+      "source_position": [
+        126.45899200439453,
+        -998.8189086914062,
+        -30.345190048217773
+      ],
+      "coordinate_error_m": 1.5494864974704022e-09,
+      "actual_gap_m": -0.11820076167362714,
+      "expected_center_gap_m": -0.11814013671875045,
+      "expected_actual_gap_difference_m": 6.062495487668684e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -30.22705078125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22116748046875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7472953791774244e-05,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-131",
+      "planting_id": "infill_+016_-131",
+      "actual_root_blender_xyz": [
+        127.45259857051508,
+        -1023.2711792005134,
+        -41.243629455566406
+      ],
+      "source_position": [
+        127.45259857177734,
+        -1023.2711791992188,
+        -41.243629455566406
+      ],
+      "coordinate_error_m": 1.8081681677005896e-09,
+      "actual_gap_m": -0.10685497568279345,
+      "expected_center_gap_m": -0.10690966796875045,
+      "expected_actual_gap_difference_m": 5.469228595700315e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -41.13671875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20188037109375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.78860494611677e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+017_-030",
+      "planting_id": "infill_+017_-030",
+      "actual_root_blender_xyz": [
+        134.9907226562688,
+        -233.31047057958182,
+        -41.557655334472656
+      ],
+      "source_position": [
+        134.99072265625,
+        -233.3104705810547,
+        -41.557655334472656
+      ],
+      "coordinate_error_m": 1.4729896356105046e-09,
+      "actual_gap_m": -0.11916540233752926,
+      "expected_center_gap_m": -0.11917773437500045,
+      "expected_actual_gap_difference_m": 1.23320374711966e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -41.4384765625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.14511767578125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.1798087319593985e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+018_-008",
+      "planting_id": "infill_+018_-008",
+      "actual_root_blender_xyz": [
+        138.6898345931951,
+        -61.2208366403579,
+        -10.03995418548584
+      ],
+      "source_position": [
+        138.68983459472656,
+        -61.2208366394043,
+        -10.03995418548584
+      ],
+      "coordinate_error_m": 1.8041008122179703e-09,
+      "actual_gap_m": -0.14263472432891078,
+      "expected_center_gap_m": -0.14264575195312545,
+      "expected_actual_gap_difference_m": 1.1027624214676734e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -9.897308349609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23950854492187545,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.2456601715680952e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          138.68983241489954,
+          -61.22083609444754,
+          -10.03995418548584
+        ],
+        "gap": -0.14264583587646484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-073",
+      "planting_id": "infill_+019_-073",
+      "actual_root_blender_xyz": [
+        150.35977172714146,
+        -571.3644409190549,
+        -41.613319396972656
+      ],
+      "source_position": [
+        150.35977172851562,
+        -571.3644409179688,
+        -41.613319396972656
+      ],
+      "coordinate_error_m": 1.7515911116061477e-09,
+      "actual_gap_m": -0.12836585463884376,
+      "expected_center_gap_m": -0.12839404296875045,
+      "expected_actual_gap_difference_m": 2.8188329906697618e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -41.48492431640625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24472705078125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7515911116061477e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          150.35977172851562,
+          -571.3644409179688,
+          -41.613319396972656
+        ],
+        "gap": -0.12836456298828125,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-124",
+      "planting_id": "infill_+019_-124",
+      "actual_root_blender_xyz": [
+        145.86022949134778,
+        -966.3533325207991,
+        -30.319982528686523
+      ],
+      "source_position": [
+        145.8602294921875,
+        -966.3533325195312,
+        -30.319982528686523
+      ],
+      "coordinate_error_m": 1.5207024114376694e-09,
+      "actual_gap_m": -0.10336773375726338,
+      "expected_center_gap_m": -0.10336962890625045,
+      "expected_actual_gap_difference_m": 1.8951489870744354e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -30.21661376953125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19473925781250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.1789876705468574e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-029",
+      "planting_id": "infill_+020_-029",
+      "actual_root_blender_xyz": [
+        158.3962249740459,
+        -228.4285430901712,
+        -40.551551818847656
+      ],
+      "source_position": [
+        158.39622497558594,
+        -228.4285430908203,
+        -40.551551818847656
+      ],
+      "coordinate_error_m": 1.6712434352878456e-09,
+      "actual_gap_m": -0.14286488290220234,
+      "expected_center_gap_m": -0.14292041015625045,
+      "expected_actual_gap_difference_m": 5.552725404811554e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -40.40863037109375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26169482421875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6712434352878456e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          158.39622497558594,
+          -228.4285430908203,
+          -40.551551818847656
+        ],
+        "gap": -0.14286041259765625,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-069",
+      "planting_id": "infill_+020_-069",
+      "actual_root_blender_xyz": [
+        156.27925109962226,
+        -538.0327758803796,
+        -40.307167053222656
+      ],
+      "source_position": [
+        156.2792510986328,
+        -538.0327758789062,
+        -40.307167053222656
+      ],
+      "coordinate_error_m": 1.7747828455997985e-09,
+      "actual_gap_m": -0.1256662845716292,
+      "expected_center_gap_m": -0.12570849609375045,
+      "expected_actual_gap_difference_m": 4.2211522121249345e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -40.18145751953125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23935595703125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7747828455997985e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-012",
+      "planting_id": "infill_+021_-012",
+      "actual_root_blender_xyz": [
+        165.2494811994354,
+        -92.03913879405891,
+        -27.221776962280273
+      ],
+      "source_position": [
+        165.24948120117188,
+        -92.03913879394531,
+        -27.221776962280273
+      ],
+      "coordinate_error_m": 1.7401931529298213e-09,
+      "actual_gap_m": -0.12125632709631518,
+      "expected_center_gap_m": -0.12125292968750045,
+      "expected_actual_gap_difference_m": 3.397408814720393e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -27.10052490234375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23056689453125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.0900284952877859e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-067",
+      "planting_id": "infill_+021_-067",
+      "actual_root_blender_xyz": [
+        165.86141967661266,
+        -523.3500976575527,
+        -40.609718322753906
+      ],
+      "source_position": [
+        165.86141967773438,
+        -523.35009765625,
+        -40.609718322753906
+      ],
+      "coordinate_error_m": 1.7191218105248535e-09,
+      "actual_gap_m": -0.11260243654134428,
+      "expected_center_gap_m": -0.11258593750000045,
+      "expected_actual_gap_difference_m": 1.649904134382041e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -40.49713134765625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20230761718750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.98919298473748e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+022_-100",
+      "planting_id": "infill_+022_-100",
+      "actual_root_blender_xyz": [
+        173.47904968237364,
+        -782.6299438491625,
+        -32.624488830566406
+      ],
+      "source_position": [
+        173.4790496826172,
+        -782.6299438476562,
+        -32.624488830566406
+      ],
+      "coordinate_error_m": 1.5257994989432868e-09,
+      "actual_gap_m": -0.11760918140304,
+      "expected_center_gap_m": -0.11765185546875045,
+      "expected_actual_gap_difference_m": 4.26740657104574e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -32.5068359375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23032275390625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.717801850926159e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+023_-013",
+      "planting_id": "infill_+023_-013",
+      "actual_root_blender_xyz": [
+        178.60313415385127,
+        -101.03323364177797,
+        -30.844701766967773
+      ],
+      "source_position": [
+        178.60313415527344,
+        -101.03323364257812,
+        -30.844701766967773
+      ],
+      "coordinate_error_m": 1.6318103262270446e-09,
+      "actual_gap_m": -0.10066170941301777,
+      "expected_center_gap_m": -0.10062304687500045,
+      "expected_actual_gap_difference_m": 3.866253801732e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -30.74407958984375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.18942919921875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6318103262270446e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+024_-076",
+      "planting_id": "infill_+024_-076",
+      "actual_root_blender_xyz": [
+        189.32763671927097,
+        -594.1967163100722,
+        -40.269325256347656
+      ],
+      "source_position": [
+        189.32763671875,
+        -594.1967163085938,
+        -40.269325256347656
+      ],
+      "coordinate_error_m": 1.5675981662227355e-09,
+      "actual_gap_m": -0.10335482548742192,
+      "expected_center_gap_m": -0.10336962890625045,
+      "expected_actual_gap_difference_m": 1.4803418828535087e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -40.16595458984375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19480029296875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720786597322864e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+025_-081",
+      "planting_id": "infill_+025_-081",
+      "actual_root_blender_xyz": [
+        196.34042358547487,
+        -633.6144409179135,
+        -35.395301818847656
+      ],
+      "source_position": [
+        196.34042358398438,
+        -633.6144409179688,
+        -35.395301818847656
+      ],
+      "coordinate_error_m": 1.4915150134142315e-09,
+      "actual_gap_m": -0.1257664177057265,
+      "expected_center_gap_m": -0.12576953125000045,
+      "expected_actual_gap_difference_m": 3.1135442739582686e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -35.26953125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25101367187500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.181317513095005e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-071",
+      "planting_id": "infill_+026_-071",
+      "actual_root_blender_xyz": [
+        202.17904663174033,
+        -556.1536254897766,
+        -34.538490295410156
+      ],
+      "source_position": [
+        202.17904663085938,
+        -556.1536254882812,
+        -34.538490295410156
+      ],
+      "coordinate_error_m": 1.735534529233308e-09,
+      "actual_gap_m": -0.1282108018547845,
+      "expected_center_gap_m": -0.12821093750000045,
+      "expected_actual_gap_difference_m": 1.3564521594844337e-07,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -34.4102783203125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22269335937500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720803451910202e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          202.17904663085938,
+          -556.1536167689732,
+          -34.538490295410156
+        ],
+        "gap": -0.12824249267578125,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-092",
+      "planting_id": "infill_+026_-092",
+      "actual_root_blender_xyz": [
+        203.50743103159132,
+        -717.1709594734183,
+        -32.828590393066406
+      ],
+      "source_position": [
+        203.50743103027344,
+        -717.1709594726562,
+        -32.828590393066406
+      ],
+      "coordinate_error_m": 1.5223447357011562e-09,
+      "actual_gap_m": -0.1316758883023752,
+      "expected_center_gap_m": -0.13168994140625045,
+      "expected_actual_gap_difference_m": 1.4053103875255601e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -32.6968994140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25028125000000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.743937814785689e-05,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          203.50743103027344,
+          -717.1709420340402,
+          -32.828590393066406
+        ],
+        "gap": -0.13169097900390625,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-078",
+      "planting_id": "infill_+027_-078",
+      "actual_root_blender_xyz": [
+        212.585845947756,
+        -606.3617553724758,
+        -33.135780334472656
+      ],
+      "source_position": [
+        212.58584594726562,
+        -606.3617553710938,
+        -33.135780334472656
+      ],
+      "coordinate_error_m": 1.4665114317208294e-09,
+      "actual_gap_m": -0.11239004866790481,
+      "expected_center_gap_m": -0.11240283203125045,
+      "expected_actual_gap_difference_m": 1.2783363345647558e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -33.02337646484375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21274462890625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.986197292997987e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-091",
+      "planting_id": "infill_+027_-091",
+      "actual_root_blender_xyz": [
+        213.19395446929894,
+        -707.4016723632923,
+        -31.453588485717773
+      ],
+      "source_position": [
+        213.19395446777344,
+        -707.4016723632812,
+        -31.453588485717773
+      ],
+      "coordinate_error_m": 1.5255466898309848e-09,
+      "actual_gap_m": -0.10328848191716844,
+      "expected_center_gap_m": -0.10330859375000045,
+      "expected_actual_gap_difference_m": 2.0111832832014898e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -31.35028076171875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19461718750000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.988037863132246e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-065",
+      "planting_id": "infill_+028_-065",
+      "actual_root_blender_xyz": [
+        218.88076782389848,
+        -506.59451293958006,
+        -32.753334045410156
+      ],
+      "source_position": [
+        218.88076782226562,
+        -506.5945129394531,
+        -32.753334045410156
+      ],
+      "coordinate_error_m": 1.6377817535274381e-09,
+      "actual_gap_m": -0.12382026219006548,
+      "expected_center_gap_m": -0.12381640625000045,
+      "expected_actual_gap_difference_m": 3.855940065022878e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -32.6295166015625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23404589843750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6377817535274381e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-066",
+      "planting_id": "infill_+028_-066",
+      "actual_root_blender_xyz": [
+        217.36421203683702,
+        -515.7810668930277,
+        -31.260290145874023
+      ],
+      "source_position": [
+        217.3642120361328,
+        -515.7810668945312,
+        -31.260290145874023
+      ],
+      "coordinate_error_m": 1.660253549164864e-09,
+      "actual_gap_m": -0.10754523062273336,
+      "expected_center_gap_m": -0.10758105468750045,
+      "expected_actual_gap_difference_m": 3.582406476709821e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -31.1527099609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19998828125000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.717804604450386e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+032_-114",
+      "planting_id": "infill_+032_-114",
+      "actual_root_blender_xyz": [
+        248.25143432768488,
+        -891.2672729493831,
+        -34.111549377441406
+      ],
+      "source_position": [
+        248.25143432617188,
+        -891.2672729492188,
+        -34.111549377441406
+      ],
+      "coordinate_error_m": 1.5219058212098711e-09,
+      "actual_gap_m": -0.1175104547431971,
+      "expected_center_gap_m": -0.11752978515625045,
+      "expected_actual_gap_difference_m": 1.9330413053353368e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -33.9940185546875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22104541015625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.987449706218736e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-006",
+      "planting_id": "infill_+039_-006",
+      "actual_root_blender_xyz": [
+        305.00213622893597,
+        -44.82203292794614,
+        0.3512812554836273
+      ],
+      "source_position": [
+        305.00213623046875,
+        -44.8220329284668,
+        0.3512812554836273
+      ],
+      "coordinate_error_m": 1.6187980414283943e-09,
+      "actual_gap_m": -0.24448942465778456,
+      "expected_center_gap_m": -0.24448291015625,
+      "expected_actual_gap_difference_m": 6.514501534549133e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 0.59576416015625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.25815478515625,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.444382556445133e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          305.00213623046875,
+          -44.82203238351004,
+          0.3512812554836273
+        ],
+        "gap": -0.24451342225074768,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-076",
+      "planting_id": "infill_+039_-076",
+      "actual_root_blender_xyz": [
+        306.1298217758468,
+        -593.0463256841067,
+        -28.701330184936523
+      ],
+      "source_position": [
+        306.12982177734375,
+        -593.0463256835938,
+        -28.701330184936523
+      ],
+      "coordinate_error_m": 1.582417872570494e-09,
+      "actual_gap_m": -0.11314783595915046,
+      "expected_center_gap_m": -0.11313525390625045,
+      "expected_actual_gap_difference_m": 1.2582052900000917e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -28.58819580078125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21433154296875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.719821167944971e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+040_-015",
+      "planting_id": "infill_+040_-015",
+      "actual_root_blender_xyz": [
+        310.963226316883,
+        -118.13968658525283,
+        -18.919836044311523
+      ],
+      "source_position": [
+        310.9632263183594,
+        -118.13968658447266,
+        -18.919836044311523
+      ],
+      "coordinate_error_m": 1.6698545038580086e-09,
+      "actual_gap_m": -0.12149574149182385,
+      "expected_center_gap_m": -0.12155810546875045,
+      "expected_actual_gap_difference_m": 6.236397692660489e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -18.79827880859375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22897998046875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6698545038580086e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+041_-058",
+      "planting_id": "infill_+041_-058",
+      "actual_root_blender_xyz": [
+        322.2263183595085,
+        -450.67788696141133,
+        -24.344152450561523
+      ],
+      "source_position": [
+        322.226318359375,
+        -450.6778869628906,
+        -24.344152450561523
+      ],
+      "coordinate_error_m": 1.485307088878045e-09,
+      "actual_gap_m": -0.12286280613712819,
+      "expected_center_gap_m": -0.12290087890625045,
+      "expected_actual_gap_difference_m": 3.807276912226598e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -24.22125244140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23380175781250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 6.164341512437305e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+042_-021",
+      "planting_id": "infill_+042_-021",
+      "actual_root_blender_xyz": [
+        329.1463928215278,
+        -164.11293029626975,
+        -24.892126083374023
+      ],
+      "source_position": [
+        329.1463928222656,
+        -164.11293029785156,
+        -24.892126083374023
+      ],
+      "coordinate_error_m": 1.745426355722955e-09,
+      "actual_gap_m": -0.11468922605093113,
+      "expected_center_gap_m": -0.11466113281250045,
+      "expected_actual_gap_difference_m": 2.8093238430670908e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -24.7774658203125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22635546875000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.745426355722955e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_+001",
+      "planting_id": "infill_+043_+001",
+      "actual_root_blender_xyz": [
+        336.71829223738206,
+        9.822028161052506,
+        11.59926700592041
+      ],
+      "source_position": [
+        336.7182922363281,
+        9.822028160095215,
+        11.59926700592041
+      ],
+      "coordinate_error_m": 1.4237917100991983e-09,
+      "actual_gap_m": -0.10232748360187571,
+      "expected_center_gap_m": -0.10236254882812545,
+      "expected_actual_gap_difference_m": 3.5065226249741954e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 11.701629638671875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19254199218750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.362865678253e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-003",
+      "planting_id": "infill_+043_-003",
+      "actual_root_blender_xyz": [
+        337.22241210859664,
+        -24.92301750325789,
+        2.638176918029785
+      ],
+      "source_position": [
+        337.222412109375,
+        -24.923017501831055,
+        2.638176918029785
+      ],
+      "coordinate_error_m": 1.6253289213347607e-09,
+      "actual_gap_m": -0.14552712460672357,
+      "expected_center_gap_m": -0.145514404296875,
+      "expected_actual_gap_difference_m": 1.272030984855732e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 2.78369140625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.195441162109375,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.435304752814575e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          337.222412109375,
+          -24.923018046787806,
+          2.638176918029785
+        ],
+        "gap": -0.14551448822021484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-073",
+      "planting_id": "infill_+043_-073",
+      "actual_root_blender_xyz": [
+        337.04592895667747,
+        -568.6490478520166,
+        -19.151708602905273
+      ],
+      "source_position": [
+        337.0459289550781,
+        -568.6490478515625,
+        -19.151708602905273
+      ],
+      "coordinate_error_m": 1.6625535317499684e-09,
+      "actual_gap_m": -0.13292380690418426,
+      "expected_center_gap_m": -0.13297167968750045,
+      "expected_actual_gap_difference_m": 4.7872783316194045e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -19.01873779296875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25388232421875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.71976229634017e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          337.0459289550781,
+          -568.6490391322544,
+          -19.151708602905273
+        ],
+        "gap": -0.13294029235839844,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-057",
+      "planting_id": "infill_+044_-057",
+      "actual_root_blender_xyz": [
+        344.66757202314426,
+        -441.8515319819941,
+        -33.591651916503906
+      ],
+      "source_position": [
+        344.6675720214844,
+        -441.8515319824219,
+        -33.591651916503906
+      ],
+      "coordinate_error_m": 1.7141132966901863e-09,
+      "actual_gap_m": -0.1290934920439213,
+      "expected_center_gap_m": -0.12912646484375045,
+      "expected_actual_gap_difference_m": 3.297279982916734e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -33.4625244140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25131884765625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.360082104904864e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          344.6675720214844,
+          -441.8515363420759,
+          -33.591651916503906
+        ],
+        "gap": -0.12909698486328125,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-072",
+      "planting_id": "infill_+044_-072",
+      "actual_root_blender_xyz": [
+        340.9254150405889,
+        -563.7932128915472,
+        -17.586156845092773
+      ],
+      "source_position": [
+        340.9254150390625,
+        -563.793212890625,
+        -17.586156845092773
+      ],
+      "coordinate_error_m": 1.7833817873431095e-09,
+      "actual_gap_m": -0.14352332761729514,
+      "expected_center_gap_m": -0.14359179687500045,
+      "expected_actual_gap_difference_m": 6.846925770531698e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -17.44256591796875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.27512255859375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7833817873431095e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          340.9254150390625,
+          -563.793212890625,
+          -17.586156845092773
+        ],
+        "gap": -0.14352989196777344,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-074",
+      "planting_id": "infill_+044_-074",
+      "actual_root_blender_xyz": [
+        340.55972289965143,
+        -575.304809571579,
+        -16.876379013061523
+      ],
+      "source_position": [
+        340.5597229003906,
+        -575.3048095703125,
+        -16.876379013061523
+      ],
+      "coordinate_error_m": 1.4664086339517115e-09,
+      "actual_gap_m": -0.12786838292595348,
+      "expected_center_gap_m": -0.12784472656250045,
+      "expected_actual_gap_difference_m": 2.365636345302846e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -16.74853515625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24375048828125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.4664086339517115e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          340.5597229003906,
+          -575.3048095703125,
+          -16.876379013061523
+        ],
+        "gap": -0.12787437438964844,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-078",
+      "planting_id": "infill_+044_-078",
+      "actual_root_blender_xyz": [
+        345.7971496599002,
+        -606.9494628904241,
+        -17.053564071655273
+      ],
+      "source_position": [
+        345.7971496582031,
+        -606.949462890625,
+        -17.053564071655273
+      ],
+      "coordinate_error_m": 1.7089084819877108e-09,
+      "actual_gap_m": -0.1152984067792211,
+      "expected_center_gap_m": -0.11527148437500045,
+      "expected_actual_gap_difference_m": 2.6922404220641738e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -16.93829345703125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21866503906250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.747544276279548e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-085",
+      "planting_id": "infill_+044_-085",
+      "actual_root_blender_xyz": [
+        344.8474731451839,
+        -660.8554077161848,
+        -23.190282821655273
+      ],
+      "source_position": [
+        344.84747314453125,
+        -660.8554077148438,
+        -23.190282821655273
+      ],
+      "coordinate_error_m": 1.4914426148013604e-09,
+      "actual_gap_m": -0.11738188215049306,
+      "expected_center_gap_m": -0.11740771484375045,
+      "expected_actual_gap_difference_m": 2.5832693257399342e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -23.0728759765625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22855273437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.359001572370737e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-071",
+      "planting_id": "infill_+045_-071",
+      "actual_root_blender_xyz": [
+        352.44216919056834,
+        -552.6326904285787,
+        -13.17722225189209
+      ],
+      "source_position": [
+        352.4421691894531,
+        -552.6326904296875,
+        -13.17722225189209
+      ],
+      "coordinate_error_m": 1.5726111656055435e-09,
+      "actual_gap_m": -0.12250275183961712,
+      "expected_center_gap_m": -0.12253466796875045,
+      "expected_actual_gap_difference_m": 3.191612913333586e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -13.0546875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20902148437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.360769394215777e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-085",
+      "planting_id": "infill_+045_-085",
+      "actual_root_blender_xyz": [
+        353.0570068347953,
+        -662.1596069325852,
+        -17.463598251342773
+      ],
+      "source_position": [
+        353.0570068359375,
+        -662.1596069335938,
+        -17.463598251342773
+      ],
+      "coordinate_error_m": 1.523729591844959e-09,
+      "actual_gap_m": -0.13795781799515794,
+      "expected_center_gap_m": -0.13797656250000045,
+      "expected_actual_gap_difference_m": 1.8744504842516108e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -17.32562255859375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26395312500000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.749895670139194e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          353.05701119559154,
+          -662.1596156529018,
+          -17.463598251342773
+        ],
+        "gap": -0.13797569274902344,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+046_-083",
+      "planting_id": "infill_+046_-083",
+      "actual_root_blender_xyz": [
+        357.1457519518942,
+        -646.7058715807054,
+        -15.02970027923584
+      ],
+      "source_position": [
+        357.145751953125,
+        -646.7058715820312,
+        -15.02970027923584
+      ],
+      "coordinate_error_m": 1.8090306017432865e-09,
+      "actual_gap_m": -0.13980692637422365,
+      "expected_center_gap_m": -0.13980761718750045,
+      "expected_actual_gap_difference_m": 6.908132768046471e-07,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -14.889892578125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26761523437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.717982355413831e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          357.145751953125,
+          -646.7058628627232,
+          -15.02970027923584
+        ],
+        "gap": -0.13980770111083984,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-015",
+      "planting_id": "infill_+047_-015",
+      "actual_root_blender_xyz": [
+        367.1936340334567,
+        -119.29383850240849,
+        -15.10336971282959
+      ],
+      "source_position": [
+        367.1936340332031,
+        -119.29383850097656,
+        -15.10336971282959
+      ],
+      "coordinate_error_m": 1.4542079842336107e-09,
+      "actual_gap_m": -0.10995275932120308,
+      "expected_center_gap_m": -0.10996142578125045,
+      "expected_actual_gap_difference_m": 8.666460047379587e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -14.993408203125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20792285156250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.0884816117384845e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-068",
+      "planting_id": "infill_+047_-068",
+      "actual_root_blender_xyz": [
+        367.95404052578533,
+        -532.1542968746678,
+        -13.81040096282959
+      ],
+      "source_position": [
+        367.95404052734375,
+        -532.154296875,
+        -13.81040096282959
+      ],
+      "coordinate_error_m": 1.5934310350087411e-09,
+      "actual_gap_m": -0.16364492940677167,
+      "expected_center_gap_m": -0.16367236328125045,
+      "expected_actual_gap_difference_m": 2.743387447878831e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -13.646728515625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.27152148437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.361212474041641e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          367.9540448869978,
+          -532.154296875,
+          -13.81040096282959
+        ],
+        "gap": -0.16364192962646484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_+001",
+      "planting_id": "infill_+048_+001",
+      "actual_root_blender_xyz": [
+        373.3496704085072,
+        10.458957671887806,
+        12.326653480529785
+      ],
+      "source_position": [
+        373.34967041015625,
+        10.45895767211914,
+        12.326653480529785
+      ],
+      "coordinate_error_m": 1.6651750127372758e-09,
+      "actual_gap_m": -0.12021933720362199,
+      "expected_center_gap_m": -0.12018481445312545,
+      "expected_actual_gap_difference_m": 3.452275049653508e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 12.44683837890625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.18765917968750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6651750127372758e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-093",
+      "planting_id": "infill_+048_-093",
+      "actual_root_blender_xyz": [
+        372.0527648911401,
+        -725.3212280266106,
+        -28.070470809936523
+      ],
+      "source_position": [
+        372.0527648925781,
+        -725.3212280273438,
+        -28.070470809936523
+      ],
+      "coordinate_error_m": 1.6141401269375879e-09,
+      "actual_gap_m": -0.10270734210033439,
+      "expected_center_gap_m": -0.10269824218750045,
+      "expected_actual_gap_difference_m": 9.099912833931967e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -27.9677734375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19339648437500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.749781712104774e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-098",
+      "planting_id": "infill_+048_-098",
+      "actual_root_blender_xyz": [
+        376.740631104252,
+        -767.1411132829094,
+        -31.295080184936523
+      ],
+      "source_position": [
+        376.7406311035156,
+        -767.14111328125,
+        -31.295080184936523
+      ],
+      "coordinate_error_m": 1.8154145074494313e-09,
+      "actual_gap_m": -0.11219987404481557,
+      "expected_center_gap_m": -0.11221972656250045,
+      "expected_actual_gap_difference_m": 1.9852517684881832e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -31.182861328125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21231738281250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.74666930316069e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+052_-068",
+      "planting_id": "infill_+052_-068",
+      "actual_root_blender_xyz": [
+        406.1605224597191,
+        -527.740539549829,
+        -19.663732528686523
+      ],
+      "source_position": [
+        406.1605224609375,
+        -527.7405395507812,
+        -19.663732528686523
+      ],
+      "coordinate_error_m": 1.5463560844168514e-09,
+      "actual_gap_m": -0.11006020106501069,
+      "expected_center_gap_m": -0.11002246093750045,
+      "expected_actual_gap_difference_m": 3.7740127510232924e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -19.5537109375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20804492187500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5463560844168514e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+053_-017",
+      "planting_id": "infill_+053_-017",
+      "actual_root_blender_xyz": [
+        415.62112426769687,
+        -132.04446411293668,
+        0.6515436768531799
+      ],
+      "source_position": [
+        415.6211242675781,
+        -132.04446411132812,
+        0.6515436768531799
+      ],
+      "coordinate_error_m": 1.612932110340039e-09,
+      "actual_gap_m": -0.1255471768082419,
+      "expected_center_gap_m": -0.125525390625,
+      "expected_actual_gap_difference_m": 2.1786183241889745e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 0.777069091796875,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.23911181640625,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.873416018116897e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+055_-070",
+      "planting_id": "infill_+055_-070",
+      "actual_root_blender_xyz": [
+        428.9635925309103,
+        -543.5395507817698,
+        -19.100866317749023
+      ],
+      "source_position": [
+        428.9635925292969,
+        -543.53955078125,
+        -19.100866317749023
+      ],
+      "coordinate_error_m": 1.6951010513987816e-09,
+      "actual_gap_m": -0.12312022387175148,
+      "expected_center_gap_m": -0.12314501953125045,
+      "expected_actual_gap_difference_m": 2.479565949897733e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -18.97772216796875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23429003906250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.749669327848847e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+057_-073",
+      "planting_id": "infill_+057_-073",
+      "actual_root_blender_xyz": [
+        444.85925293125626,
+        -567.3141479491691,
+        -12.53952693939209
+      ],
+      "source_position": [
+        444.8592529296875,
+        -567.3141479492188,
+        -12.53952693939209
+      ],
+      "coordinate_error_m": 1.569551151759195e-09,
+      "actual_gap_m": -0.11141255960118102,
+      "expected_center_gap_m": -0.11142626953125045,
+      "expected_actual_gap_difference_m": 1.370993006943877e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -12.4281005859375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21085253906250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.719258544414814e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-013",
+      "planting_id": "infill_+058_-013",
+      "actual_root_blender_xyz": [
+        454.1889038099165,
+        -100.59957885659287,
+        8.716729164123535
+      ],
+      "source_position": [
+        454.18890380859375,
+        -100.59957885742188,
+        8.716729164123535
+      ],
+      "coordinate_error_m": 1.5610593371657049e-09,
+      "actual_gap_m": -0.13354623685393818,
+      "expected_center_gap_m": -0.13364306640625045,
+      "expected_actual_gap_difference_m": 9.682955231227197e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 8.850372314453125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25510302734375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.494910856957608e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          454.1888994489397,
+          -100.59957776750836,
+          8.716729164123535
+        ],
+        "gap": -0.13358211517333984,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-027",
+      "planting_id": "infill_+058_-027",
+      "actual_root_blender_xyz": [
+        450.1540527329954,
+        -209.70967102078595,
+        -22.773473739624023
+      ],
+      "source_position": [
+        450.154052734375,
+        -209.7096710205078,
+        -22.773473739624023
+      ],
+      "coordinate_error_m": 1.4073474849166514e-09,
+      "actual_gap_m": -0.1011698584835301,
+      "expected_center_gap_m": -0.10117236328125045,
+      "expected_actual_gap_difference_m": 2.504797720348506e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -22.67230224609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19345751953125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.872883084008568e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-028",
+      "planting_id": "infill_+058_-028",
+      "actual_root_blender_xyz": [
+        452.9577941880173,
+        -219.76286315978575,
+        -21.598669052124023
+      ],
+      "source_position": [
+        452.9577941894531,
+        -219.7628631591797,
+        -21.598669052124023
+      ],
+      "coordinate_error_m": 1.5584795768166105e-09,
+      "actual_gap_m": -0.10519448222127892,
+      "expected_center_gap_m": -0.10520068359375045,
+      "expected_actual_gap_difference_m": 6.20137247153707e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -21.49346923828125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19840136718750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.1804335583785097e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-032",
+      "planting_id": "infill_+059_-032",
+      "actual_root_blender_xyz": [
+        462.3688049315761,
+        -250.4026184064254,
+        -16.464941024780273
+      ],
+      "source_position": [
+        462.3688049316406,
+        -250.40261840820312,
+        -16.464941024780273
+      ],
+      "coordinate_error_m": 1.7788914308954385e-09,
+      "actual_gap_m": -0.11286193412680845,
+      "expected_center_gap_m": -0.11283007812500045,
+      "expected_actual_gap_difference_m": 3.185600180799497e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -16.35211181640625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21372119140625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7788914308954385e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-071",
+      "planting_id": "infill_+059_-071",
+      "actual_root_blender_xyz": [
+        457.49487304799794,
+        -555.3834838857189,
+        -19.865209579467773
+      ],
+      "source_position": [
+        457.494873046875,
+        -555.3834838867188,
+        -19.865209579467773
+      ],
+      "coordinate_error_m": 1.5035789442159542e-09,
+      "actual_gap_m": -0.12589221233019288,
+      "expected_center_gap_m": -0.12589160156250045,
+      "expected_actual_gap_difference_m": 6.107676924216321e-07,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -19.73931884765625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23984423828125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.718308281018425e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+060_-026",
+      "planting_id": "infill_+060_-026",
+      "actual_root_blender_xyz": [
+        468.6413879385093,
+        -203.84515380973025,
+        -13.21237850189209
+      ],
+      "source_position": [
+        468.6413879394531,
+        -203.84515380859375,
+        -13.21237850189209
+      ],
+      "coordinate_error_m": 1.477308793446398e-09,
+      "actual_gap_m": -0.10651226881491027,
+      "expected_center_gap_m": -0.10648242187500045,
+      "expected_actual_gap_difference_m": 2.9846939909816683e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -13.10589599609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20108691406250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.1809637242285965e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+061_-024",
+      "planting_id": "infill_+061_-024",
+      "actual_root_blender_xyz": [
+        475.15042114192653,
+        -185.04876709113722,
+        -2.65933895111084
+      ],
+      "source_position": [
+        475.1504211425781,
+        -185.04876708984375,
+        -2.65933895111084
+      ],
+      "coordinate_error_m": 1.4483256871250256e-09,
+      "actual_gap_m": -0.1206543620567544,
+      "expected_center_gap_m": -0.12061206054687501,
+      "expected_actual_gap_difference_m": 4.23015098793833e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -2.538726806640625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.223761474609375,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.36030583018136e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-024",
+      "planting_id": "infill_+062_-024",
+      "actual_root_blender_xyz": [
+        483.86151123019863,
+        -189.9214630141269,
+        -5.056159019470215
+      ],
+      "source_position": [
+        483.86151123046875,
+        -189.9214630126953,
+        -5.056159019470215
+      ],
+      "coordinate_error_m": 1.45686225873787e-09,
+      "actual_gap_m": -0.10853411338631425,
+      "expected_center_gap_m": -0.10849658203124957,
+      "expected_actual_gap_difference_m": 3.753135506467942e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -4.947662353515625,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.20920458984374957,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.45686225873787e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-029",
+      "planting_id": "infill_+062_-029",
+      "actual_root_blender_xyz": [
+        482.06976318221234,
+        -226.76521301325312,
+        -7.94846248626709
+      ],
+      "source_position": [
+        482.06976318359375,
+        -226.7652130126953,
+        -7.94846248626709
+      ],
+      "coordinate_error_m": 1.4897771653499144e-09,
+      "actual_gap_m": -0.10350967818092816,
+      "expected_center_gap_m": -0.10352221679687457,
+      "expected_actual_gap_difference_m": 1.2538615946411369e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -7.844940185546875,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.19507495117187457,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.872756372537428e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-074",
+      "planting_id": "infill_+062_-074",
+      "actual_root_blender_xyz": [
+        481.4090576179623,
+        -576.9573364269773,
+        -13.21970272064209
+      ],
+      "source_position": [
+        481.4090576171875,
+        -576.9573364257812,
+        -13.21970272064209
+      ],
+      "coordinate_error_m": 1.4251073230188663e-09,
+      "actual_gap_m": -0.10768071805687462,
+      "expected_center_gap_m": -0.10770312500000045,
+      "expected_actual_gap_difference_m": 2.2406943125830026e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -13.11199951171875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20340625000000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720504218074478e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-025",
+      "planting_id": "infill_+063_-025",
+      "actual_root_blender_xyz": [
+        493.0700378403834,
+        -194.69126892048607,
+        -5.44242000579834
+      ],
+      "source_position": [
+        493.0700378417969,
+        -194.69126892089844,
+        -5.44242000579834
+      ],
+      "coordinate_error_m": 1.4723934819672002e-09,
+      "actual_gap_m": -0.10916225382601841,
+      "expected_center_gap_m": -0.10922900390624957,
+      "expected_actual_gap_difference_m": 6.675008023115936e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -5.33319091796875,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.20633593749999957,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720721505796927e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-027",
+      "planting_id": "infill_+063_-027",
+      "actual_root_blender_xyz": [
+        491.7182922360761,
+        -212.0153808578879,
+        -6.62015438079834
+      ],
+      "source_position": [
+        491.7182922363281,
+        -212.015380859375,
+        -6.62015438079834
+      ],
+      "coordinate_error_m": 1.5083167834448581e-09,
+      "actual_gap_m": -0.1169840522956136,
+      "expected_center_gap_m": -0.11701098632812457,
+      "expected_actual_gap_difference_m": 2.6934032510972372e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -6.503143310546875,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.22199145507812457,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5083167834448581e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+064_-025",
+      "planting_id": "infill_+064_-025",
+      "actual_root_blender_xyz": [
+        500.0467529287128,
+        -194.527572630792,
+        -3.249823570251465
+      ],
+      "source_position": [
+        500.0467529296875,
+        -194.52757263183594,
+        -3.249823570251465
+      ],
+      "coordinate_error_m": 1.4282216777020417e-09,
+      "actual_gap_m": -0.10474767456226708,
+      "expected_center_gap_m": -0.10474291992187501,
+      "expected_actual_gap_difference_m": 4.75464039206841e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -3.14508056640625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.1940068359375,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720282784182854e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-023",
+      "planting_id": "infill_+065_-023",
+      "actual_root_blender_xyz": [
+        509.56576538243525,
+        -181.17105102613348,
+        5.586785316467285
+      ],
+      "source_position": [
+        509.5657653808594,
+        -181.17105102539062,
+        5.586785316467285
+      ],
+      "coordinate_error_m": 1.742183948260415e-09,
+      "actual_gap_m": -0.10995630509027965,
+      "expected_center_gap_m": -0.10999194335937457,
+      "expected_actual_gap_difference_m": 3.563826909491752e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 5.69677734375,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.20798388671874957,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.720883929333775e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-054",
+      "planting_id": "infill_+065_-054",
+      "actual_root_blender_xyz": [
+        504.85516357527433,
+        -419.4948730457195,
+        -21.706518173217773
+      ],
+      "source_position": [
+        504.85516357421875,
+        -419.494873046875,
+        -21.706518173217773
+      ],
+      "coordinate_error_m": 1.565076452898342e-09,
+      "actual_gap_m": -0.13033674226225145,
+      "expected_center_gap_m": -0.13034716796875045,
+      "expected_actual_gap_difference_m": 1.0425706499006537e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -21.576171875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24814501953125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 6.167045354650382e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          504.8551592145647,
+          -419.49487740652904,
+          -21.706518173217773
+        ],
+        "gap": -0.13034629821777344,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-055",
+      "planting_id": "infill_+065_-055",
+      "actual_root_blender_xyz": [
+        507.00845337061764,
+        -426.20034790081513,
+        -20.858617782592773
+      ],
+      "source_position": [
+        507.0084533691406,
+        -426.2003479003906,
+        -20.858617782592773
+      ],
+      "coordinate_error_m": 1.5368123479623296e-09,
+      "actual_gap_m": -0.12306372834135004,
+      "expected_center_gap_m": -0.12308398437500045,
+      "expected_actual_gap_difference_m": 2.0256033650412064e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -20.73553466796875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23392382812500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 6.166826500632156e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-035",
+      "planting_id": "infill_+066_-035",
+      "actual_root_blender_xyz": [
+        514.4011230454338,
+        -274.04672241112473,
+        -6.827765464782715
+      ],
+      "source_position": [
+        514.401123046875,
+        -274.0467224121094,
+        -6.827765464782715
+      ],
+      "coordinate_error_m": 1.745451202436369e-09,
+      "actual_gap_m": -0.13327003507188007,
+      "expected_center_gap_m": -0.13333789062499957,
+      "expected_actual_gap_difference_m": 6.78555531195002e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -6.694427490234375,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.25458422851562457,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.745451202436369e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          514.401123046875,
+          -274.0467224121094,
+          -6.827765464782715
+        ],
+        "gap": -0.13327693939208984,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-046",
+      "planting_id": "infill_+066_-046",
+      "actual_root_blender_xyz": [
+        516.7572631838873,
+        -360.33111572431045,
+        -12.86539363861084
+      ],
+      "source_position": [
+        516.7572631835938,
+        -360.33111572265625,
+        -12.86539363861084
+      ],
+      "coordinate_error_m": 1.6800428945219538e-09,
+      "actual_gap_m": -0.14232893446062356,
+      "expected_center_gap_m": -0.14231005859375045,
+      "expected_actual_gap_difference_m": 1.887586687310261e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -12.72308349609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26987353515625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 9.74948522052464e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          516.7572544642857,
+          -360.3311113630022,
+          -12.86539363861084
+        ],
+        "gap": -0.14231014251708984,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+068_-041",
+      "planting_id": "infill_+068_-041",
+      "actual_root_blender_xyz": [
+        531.4458618177874,
+        -317.82034301821216,
+        -11.819281578063965
+      ],
+      "source_position": [
+        531.4458618164062,
+        -317.8203430175781,
+        -11.819281578063965
+      ],
+      "coordinate_error_m": 1.5197558920828691e-09,
+      "actual_gap_m": -0.11206769054404475,
+      "expected_center_gap_m": -0.11209765625000045,
+      "expected_actual_gap_difference_m": 2.996570595570347e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -11.707183837890625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21225634765625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5197558920828691e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+072_-025",
+      "planting_id": "infill_+072_-025",
+      "actual_root_blender_xyz": [
+        559.1350708005926,
+        -197.31520080401916,
+        7.96743106842041
+      ],
+      "source_position": [
+        559.1350708007812,
+        -197.31520080566406,
+        7.96743106842041
+      ],
+      "coordinate_error_m": 1.6556840195039712e-09,
+      "actual_gap_m": -0.10800310495110921,
+      "expected_center_gap_m": -0.10800830078124957,
+      "expected_actual_gap_difference_m": 5.195830140358737e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 8.075439453125,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.20801440429687457,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.6556840195039712e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-001_-016",
+      "planting_id": "infill_-001_-016",
+      "actual_root_blender_xyz": [
+        -10.32236766667316,
+        -126.83032989462845,
+        -24.562841415405273
+      ],
+      "source_position": [
+        -10.322367668151855,
+        -126.83032989501953,
+        -24.562841415405273
+      ],
+      "coordinate_error_m": 1.5295386145832962e-09,
+      "actual_gap_m": -0.12771119334877667,
+      "expected_center_gap_m": -0.12778369140625045,
+      "expected_actual_gap_difference_m": 7.249805747377991e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -24.43505859375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24350634765625045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5295386145832962e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -10.322367668151855,
+          -126.83032989501953,
+          -24.562841415405273
+        ],
+        "gap": -0.12772178649902344,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-005_-104",
+      "planting_id": "infill_-005_-104",
+      "actual_root_blender_xyz": [
+        -39.01633834665216,
+        -813.0433959958089,
+        -46.718421936035156
+      ],
+      "source_position": [
+        -39.01633834838867,
+        -813.0433959960938,
+        -46.718421936035156
+      ],
+      "coordinate_error_m": 1.7597253090863158e-09,
+      "actual_gap_m": -0.11004137594115804,
+      "expected_center_gap_m": -0.11008349609375045,
+      "expected_actual_gap_difference_m": 4.2120152592417526e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -46.60833740234375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20816699218750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7597253090863158e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-017",
+      "planting_id": "infill_-006_-017",
+      "actual_root_blender_xyz": [
+        -47.29641723771325,
+        -132.34022522013018,
+        -26.968603134155273
+      ],
+      "source_position": [
+        -47.296417236328125,
+        -132.34022521972656,
+        -26.968603134155273
+      ],
+      "coordinate_error_m": 1.44273262794346e-09,
+      "actual_gap_m": -0.11071100387674804,
+      "expected_center_gap_m": -0.11075488281250045,
+      "expected_actual_gap_difference_m": 4.387893575241719e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -26.85784912109375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21378222656250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.44273262794346e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-026",
+      "planting_id": "infill_-006_-026",
+      "actual_root_blender_xyz": [
+        -45.67473983794961,
+        -203.77590942202625,
+        -41.685035705566406
+      ],
+      "source_position": [
+        -45.674739837646484,
+        -203.77590942382812,
+        -41.685035705566406
+      ],
+      "coordinate_error_m": 1.8271985119280757e-09,
+      "actual_gap_m": -0.13659826587790747,
+      "expected_center_gap_m": -0.13657275390625045,
+      "expected_actual_gap_difference_m": 2.551197165701069e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -41.5484619140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26120654296875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.452628571739501e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -45.67473929268973,
+          -203.77590942382812,
+          -41.685035705566406
+        ],
+        "gap": -0.13660430908203125,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-109",
+      "planting_id": "infill_-006_-109",
+      "actual_root_blender_xyz": [
+        -44.27450180195229,
+        -849.1941528315576,
+        -48.605934143066406
+      ],
+      "source_position": [
+        -44.27450180053711,
+        -849.1941528320312,
+        -48.605934143066406
+      ],
+      "coordinate_error_m": 1.4923311208423356e-09,
+      "actual_gap_m": -0.10285043399159122,
+      "expected_center_gap_m": -0.10282031250000045,
+      "expected_actual_gap_difference_m": 3.012149159076216e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -48.50311279296875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19431201171875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.718834579922449e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-110",
+      "planting_id": "infill_-006_-110",
+      "actual_root_blender_xyz": [
+        -46.30717468361886,
+        -858.9718627919632,
+        -47.263648986816406
+      ],
+      "source_position": [
+        -46.30717468261719,
+        -858.9718627929688,
+        -47.263648986816406
+      ],
+      "coordinate_error_m": 1.4193310733761986e-09,
+      "actual_gap_m": -0.10645667723672148,
+      "expected_center_gap_m": -0.10642138671875045,
+      "expected_actual_gap_difference_m": 3.529051797102056e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -47.1572265625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20090380859375045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.439560113091888e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-112",
+      "planting_id": "infill_-006_-112",
+      "actual_root_blender_xyz": [
+        -47.606170654223284,
+        -873.0611572281291,
+        -47.535316467285156
+      ],
+      "source_position": [
+        -47.606170654296875,
+        -873.0611572265625,
+        -47.535316467285156
+      ],
+      "coordinate_error_m": 1.5683321298521147e-09,
+      "actual_gap_m": -0.11988385605017271,
+      "expected_center_gap_m": -0.11991015625000045,
+      "expected_actual_gap_difference_m": 2.6300199827744564e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -47.4154052734375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22782031250000045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 8.717741480124021e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-009_-019",
+      "planting_id": "infill_-009_-019",
+      "actual_root_blender_xyz": [
+        -68.89669036840837,
+        -145.66842651227446,
+        -34.071022033691406
+      ],
+      "source_position": [
+        -68.89669036865234,
+        -145.66842651367188,
+        -34.071022033691406
+      ],
+      "coordinate_error_m": 1.4185476891970943e-09,
+      "actual_gap_m": -0.13192095665339565,
+      "expected_center_gap_m": -0.13193408203125045,
+      "expected_actual_gap_difference_m": 1.312537785480572e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -33.9390869140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.25186816406250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.181224444941112e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -68.89669036865234,
+          -145.6684286934989,
+          -34.071022033691406
+        ],
+        "gap": -0.13193511962890625,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-016",
+      "planting_id": "infill_-013_-016",
+      "actual_root_blender_xyz": [
+        -101.89040374817958,
+        -124.19544983076632,
+        -24.216894149780273
+      ],
+      "source_position": [
+        -101.8904037475586,
+        -124.19544982910156,
+        -24.216894149780273
+      ],
+      "coordinate_error_m": 1.776807824050797e-09,
+      "actual_gap_m": -0.10342246683967815,
+      "expected_center_gap_m": -0.10336962890625045,
+      "expected_actual_gap_difference_m": 5.283793342769627e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -24.113525390625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19486132812500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.180448628344469e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-020",
+      "planting_id": "infill_-013_-020",
+      "actual_root_blender_xyz": [
+        -98.63132476975721,
+        -154.63493347106603,
+        -36.146461486816406
+      ],
+      "source_position": [
+        -98.6313247680664,
+        -154.6349334716797,
+        -36.146461486816406
+      ],
+      "coordinate_error_m": 1.7987218083137007e-09,
+      "actual_gap_m": -0.12048630218721001,
+      "expected_center_gap_m": -0.12052050781250045,
+      "expected_actual_gap_difference_m": 3.420562529043991e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -36.02593994140625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22897998046875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.0882228760813484e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-014_-031",
+      "planting_id": "infill_-014_-031",
+      "actual_root_blender_xyz": [
+        -111.49341583080941,
+        -240.2181701666567,
+        -43.871437072753906
+      ],
+      "source_position": [
+        -111.49341583251953,
+        -240.21817016601562,
+        -43.871437072753906
+      ],
+      "coordinate_error_m": 1.8263335501943384e-09,
+      "actual_gap_m": -0.10907001135713301,
+      "expected_center_gap_m": -0.10910693359375045,
+      "expected_actual_gap_difference_m": 3.692223661744265e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -43.7623291015625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20621386718750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.8263335501943384e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-018_-021",
+      "planting_id": "infill_-018_-021",
+      "actual_root_blender_xyz": [
+        -139.36032104591928,
+        -161.32588195917697,
+        -34.390419006347656
+      ],
+      "source_position": [
+        -139.36032104492188,
+        -161.3258819580078,
+        -34.390419006347656
+      ],
+      "coordinate_error_m": 1.536794483033361e-09,
+      "actual_gap_m": -0.12715592112560614,
+      "expected_center_gap_m": -0.12717333984375045,
+      "expected_actual_gap_difference_m": 1.741871814431306e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -34.26324462890625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24234667968750045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.178658093978806e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -139.36032104492188,
+          -161.32588413783483,
+          -34.390419006347656
+        ],
+        "gap": -0.12717437744140625,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-031_-006",
+      "planting_id": "infill_-031_-006",
+      "actual_root_blender_xyz": [
+        -239.88310241807213,
+        -45.100399018673684,
+        -3.544684410095215
+      ],
+      "source_position": [
+        -239.8831024169922,
+        -45.100399017333984,
+        -3.544684410095215
+      ],
+      "coordinate_error_m": 1.720774703632334e-09,
+      "actual_gap_m": -0.10210307267083873,
+      "expected_center_gap_m": -0.10211840820312501,
+      "expected_actual_gap_difference_m": 1.533553228627582e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -3.44256591796875,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.18405810546875,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.2476375763380778e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-032_-027",
+      "planting_id": "infill_-032_-027",
+      "actual_root_blender_xyz": [
+        -249.8748779287765,
+        -213.2653350842279,
+        -33.692665100097656
+      ],
+      "source_position": [
+        -249.8748779296875,
+        -213.2653350830078,
+        -33.692665100097656
+      ],
+      "coordinate_error_m": 1.5226738168574703e-09,
+      "actual_gap_m": -0.1040825414804516,
+      "expected_center_gap_m": -0.10410205078125045,
+      "expected_actual_gap_difference_m": 1.950930079885893e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -33.58856201171875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.19034472656250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 3.0842478515376915e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-033_-007",
+      "planting_id": "infill_-033_-007",
+      "actual_root_blender_xyz": [
+        -254.88929748687707,
+        -52.70597839350781,
+        -4.50058650970459
+      ],
+      "source_position": [
+        -254.88929748535156,
+        -52.70597839355469,
+        -4.50058650970459
+      ],
+      "coordinate_error_m": 1.5262268224385422e-09,
+      "actual_gap_m": -0.1404437102570002,
+      "expected_center_gap_m": -0.14044848632812457,
+      "expected_actual_gap_difference_m": 4.776071124368286e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -4.360137939453125,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.26886645507812457,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 2.2454457115633104e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -254.88929966517858,
+          -52.70597893851144,
+          -4.50058650970459
+        ],
+        "gap": -0.14044857025146484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-034_-024",
+      "planting_id": "infill_-034_-024",
+      "actual_root_blender_xyz": [
+        -264.5641784680953,
+        -187.98600769159896,
+        -29.304601669311523
+      ],
+      "source_position": [
+        -264.5641784667969,
+        -187.9860076904297,
+        -29.304601669311523
+      ],
+      "coordinate_error_m": 1.74730591627619e-09,
+      "actual_gap_m": -0.11101278207747,
+      "expected_center_gap_m": -0.11099902343750045,
+      "expected_actual_gap_difference_m": 1.3758639969552178e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -29.193603515625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.21005908203125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.873603243046973e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-012",
+      "planting_id": "infill_-035_-012",
+      "actual_root_blender_xyz": [
+        -275.236450196097,
+        -91.72888183716039,
+        -36.444007873535156
+      ],
+      "source_position": [
+        -275.2364501953125,
+        -91.7288818359375,
+        -36.444007873535156
+      ],
+      "coordinate_error_m": 1.452888793161346e-09,
+      "actual_gap_m": -0.12323851370001648,
+      "expected_center_gap_m": -0.12326708984375045,
+      "expected_actual_gap_difference_m": 2.857614373397155e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -36.32073974609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23538867187500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.452888793161346e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-015",
+      "planting_id": "infill_-035_-015",
+      "actual_root_blender_xyz": [
+        -274.5885620133056,
+        -118.72838592520097,
+        -25.542211532592773
+      ],
+      "source_position": [
+        -274.58856201171875,
+        -118.72838592529297,
+        -25.542211532592773
+      ],
+      "coordinate_error_m": 1.589505639771434e-09,
+      "actual_gap_m": -0.14412068898958452,
+      "expected_center_gap_m": -0.14420214843750045,
+      "expected_actual_gap_difference_m": 8.145944791593251e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -25.39801025390625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.27591601562500045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.0900066666968464e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -274.58856201171875,
+          -118.72838701520648,
+          -25.542211532592773
+        ],
+        "gap": -0.14414024353027344,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_+008",
+      "planting_id": "infill_-037_+008",
+      "actual_root_blender_xyz": [
+        -289.0875549301836,
+        59.69130325390825,
+        8.46395206451416
+      ],
+      "source_position": [
+        -289.0875549316406,
+        59.69130325317383,
+        8.46395206451416
+      ],
+      "coordinate_error_m": 1.6316428401509758e-09,
+      "actual_gap_m": -0.11835660980834994,
+      "expected_center_gap_m": -0.11835375976562545,
+      "expected_actual_gap_difference_m": 2.850042724489299e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 8.582305908203125,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.22473803710937545,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.44224281575741e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-005",
+      "planting_id": "infill_-037_-005",
+      "actual_root_blender_xyz": [
+        -290.45629882675996,
+        -39.430984495890065,
+        -1.9573734998703003
+      ],
+      "source_position": [
+        -290.456298828125,
+        -39.43098449707031,
+        -1.9573734998703003
+      ],
+      "coordinate_error_m": 1.8045252473129746e-09,
+      "actual_gap_m": -0.10769711820102712,
+      "expected_center_gap_m": -0.10767260742187501,
+      "expected_actual_gap_difference_m": 2.4510779152109308e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -1.849700927734375,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.203436767578125,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.3920810484838105e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-007",
+      "planting_id": "infill_-037_-007",
+      "actual_root_blender_xyz": [
+        -290.3745422369709,
+        -52.85214996169539,
+        -8.64401912689209
+      ],
+      "source_position": [
+        -290.3745422363281,
+        -52.852149963378906,
+        -8.64401912689209
+      ],
+      "coordinate_error_m": 1.8020553905941051e-09,
+      "actual_gap_m": -0.130358975364274,
+      "expected_center_gap_m": -0.13037768554687545,
+      "expected_actual_gap_difference_m": 1.871018260146684e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -8.513641357421875,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.24872485351562545,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 5.432736182142999e-07,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -290.3745422363281,
+          -52.85214941842215,
+          -8.64401912689209
+        ],
+        "gap": -0.13037776947021484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-038_-006",
+      "planting_id": "infill_-038_-006",
+      "actual_root_blender_xyz": [
+        -295.38137817552405,
+        -44.05253601087994,
+        -4.861334800720215
+      ],
+      "source_position": [
+        -295.3813781738281,
+        -44.05253601074219,
+        -4.861334800720215
+      ],
+      "coordinate_error_m": 1.7015087573955417e-09,
+      "actual_gap_m": -0.12962991227415355,
+      "expected_center_gap_m": -0.12961474609374957,
+      "expected_actual_gap_difference_m": 1.5166180403980434e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -4.731719970703125,
+      "minimum_root_embed_m": 0.011999999999999567,
+      "maximum_root_embed_m": 0.24722949218749957,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.7015087573955417e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -295.3813781738281,
+          -44.05253601074219,
+          -4.861334800720215
+        ],
+        "gap": -0.12964534759521484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-039_-007",
+      "planting_id": "infill_-039_-007",
+      "actual_root_blender_xyz": [
+        -306.4974670418505,
+        -52.54075240962506,
+        -11.14987850189209
+      ],
+      "source_position": [
+        -306.4974670410156,
+        -52.54075241088867,
+        -11.14987850189209
+      ],
+      "coordinate_error_m": 1.5145008691994218e-09,
+      "actual_gap_m": -0.12217916819597896,
+      "expected_center_gap_m": -0.12216845703125045,
+      "expected_actual_gap_difference_m": 1.0711164728505196e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -11.0277099609375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23239794921875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5145008691994218e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-041_-015",
+      "planting_id": "infill_-041_-015",
+      "actual_root_blender_xyz": [
+        -320.64083862124903,
+        -115.33682250997178,
+        -22.390417098999023
+      ],
+      "source_position": [
+        -320.6408386230469,
+        -115.33682250976562,
+        -22.390417098999023
+      ],
+      "coordinate_error_m": 1.809624947564042e-09,
+      "actual_gap_m": -0.14049888045837378,
+      "expected_center_gap_m": -0.14047900390625045,
+      "expected_actual_gap_difference_m": 1.987655212332129e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -22.24993896484375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26993457031250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.361451890742644e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -320.6408429827009,
+          -115.33682250976562,
+          -22.390417098999023
+        ],
+        "gap": -0.14050865173339844,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-042_-006",
+      "planting_id": "infill_-042_-006",
+      "actual_root_blender_xyz": [
+        -327.6613464352722,
+        -45.832679746961205,
+        -9.24533748626709
+      ],
+      "source_position": [
+        -327.6613464355469,
+        -45.832679748535156,
+        -9.24533748626709
+      ],
+      "coordinate_error_m": 1.5977377544777611e-09,
+      "actual_gap_m": -0.10950857853236506,
+      "expected_center_gap_m": -0.10950366210937545,
+      "expected_actual_gap_difference_m": 4.916422989609259e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -9.135833740234375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.20700732421875045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.5977377544777611e-09,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-002",
+      "planting_id": "infill_-044_-002",
+      "actual_root_blender_xyz": [
+        -341.7923278811115,
+        -14.884940145892687,
+        1.9878474473953247
+      ],
+      "source_position": [
+        -341.7923278808594,
+        -14.884940147399902,
+        1.9878474473953247
+      ],
+      "coordinate_error_m": 1.528153728059597e-09,
+      "actual_gap_m": -0.10628320285280735,
+      "expected_center_gap_m": -0.10629931640625001,
+      "expected_actual_gap_difference_m": 1.6113553442664852e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 2.094146728515625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.19455615234375,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.359906403302811e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-003",
+      "planting_id": "infill_-044_-003",
+      "actual_root_blender_xyz": [
+        -345.2297058094634,
+        -23.667573930232443,
+        -2.907355308532715
+      ],
+      "source_position": [
+        -345.2297058105469,
+        -23.667573928833008,
+        -2.907355308532715
+      ],
+      "coordinate_error_m": 1.7698516240056215e-09,
+      "actual_gap_m": -0.1406291076402142,
+      "expected_center_gap_m": -0.140662109375,
+      "expected_actual_gap_difference_m": 3.300173478582025e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -2.766693115234375,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.269232666015625,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.3669922178429535e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -345.22970145089283,
+          -23.667574201311385,
+          -2.907355308532715
+        ],
+        "gap": -0.14063167572021484,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-018",
+      "planting_id": "infill_-044_-018",
+      "actual_root_blender_xyz": [
+        -342.1523437493972,
+        -139.06164550642868,
+        -23.156530380249023
+      ],
+      "source_position": [
+        -342.15234375,
+        -139.0616455078125,
+        -23.156530380249023
+      ],
+      "coordinate_error_m": 1.5094263408614539e-09,
+      "actual_gap_m": -0.12034784612252736,
+      "expected_center_gap_m": -0.12033740234375045,
+      "expected_actual_gap_difference_m": 1.0443778776902946e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -23.03619384765625,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.23282519531250045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.874321314045096e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-049_-015",
+      "planting_id": "infill_-049_-015",
+      "actual_root_blender_xyz": [
+        -382.01400756983924,
+        -117.72640228215315,
+        -16.733007431030273
+      ],
+      "source_position": [
+        -382.0140075683594,
+        -117.72640228271484,
+        -16.733007431030273
+      ],
+      "coordinate_error_m": 1.582875602530557e-09,
+      "actual_gap_m": -0.13791785764382425,
+      "expected_center_gap_m": -0.13791552734375045,
+      "expected_actual_gap_difference_m": 2.3303000737939783e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": -16.5950927734375,
+      "minimum_root_embed_m": 0.012000000000000455,
+      "maximum_root_embed_m": 0.26377001953125045,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 4.873169101766537e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING",
+      "previous_native_probe": {
+        "xyz": [
+          -382.0140119280134,
+          -117.72640446254185,
+          -16.733007431030273
+        ],
+        "gap": -0.13794517517089844,
+        "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+      }
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-053_+010",
+      "planting_id": "infill_-053_+010",
+      "actual_root_blender_xyz": [
+        -413.73217773267714,
+        78.95551300089157,
+        1.9839411973953247
+      ],
+      "source_position": [
+        -413.732177734375,
+        78.95551300048828,
+        1.9839411973953247
+      ],
+      "coordinate_error_m": 1.7450954017761287e-09,
+      "actual_gap_m": -0.1169756599916405,
+      "expected_center_gap_m": -0.11698046875000001,
+      "expected_actual_gap_difference_m": 4.808758359509113e-06,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 2.100921630859375,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.221930419921875,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.090318122362045e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-057_+009",
+      "planting_id": "infill_-057_+009",
+      "actual_root_blender_xyz": [
+        -444.86416626145143,
+        70.32698822047477,
+        2.71077823638916
+      ],
+      "source_position": [
+        -444.8641662597656,
+        70.32698822021484,
+        2.71077823638916
+      ],
+      "coordinate_error_m": 1.7057266517421226e-09,
+      "actual_gap_m": -0.11544383164107952,
+      "expected_center_gap_m": -0.11545458984375001,
+      "expected_actual_gap_difference_m": 1.0758202670491102e-05,
+      "expected_support_object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "source_ground_center_z": 2.82623291015625,
+      "minimum_root_embed_m": 0.01200000000000001,
+      "maximum_root_embed_m": 0.21054736328125,
+      "root_support_ray_count": 9,
+      "native_inventory_root_error_m": 1.0896548838666621e-06,
+      "classification": "INTENTIONAL_SOURCE_BOUND_SLOPE_ROOT_EMBEDDING"
+    }
+  ],
+  "summary": {
+    "classified_roots": 106,
+    "source_infill_count": 900,
+    "all_native_foliage_roots": 2214,
+    "positive_floating_gaps": 0,
+    "actual_minimum_gap_m": -0.24448942465778456,
+    "actual_maximum_gap_m": -0.10066170941301777,
+    "maximum_gap_difference_from_frozen_planting_m": 9.682955231227197e-05,
+    "maximum_position_difference_m": 1.8271985119280757e-09,
+    "matching_stored_native_worst_probes": 30,
+    "maximum_prior_native_gap_difference_m": 3.5878319401660974e-05
+  },
+  "source_rule": {
+    "path": "/workspace/shared/chosun_qa_cache/final_repairs_build_v5/realism_v2/greenery_infill.py",
+    "lines": [
+      295,
+      305
+    ],
+    "rule": "Nine actual terrain probes: centre and eight positions around the trunk radius. Reject missing support or range over0.28m; place the flat root base at the lowest sampled height minus0.012m. A root below the centre by more0.10m is expected on some slopes."
+  },
+  "conclusion": "The106 warnings match the frozen individually placed infill roots and expected per-tree embedding. They do not indicate positive floating or a new export transform/ground regression. The old native summary and30 retained native worst points corroborate this, and a65 geometry/transforms are independently preserved.",
+  "suggested_game_classification": "Limit the exception to exact frozen planting IDs and expected per-tree embed values; retain positive float, transform mismatch, missing support and unrecognized-row failures. Do not replace the global test by a broad symmetric tolerance.",
+  "evidence": [
+    {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_a65c2ae1/tests/runtime-runs/realism-results/realism-results.json",
+      "sha256": "ffb3eca54878aec187cf10716867432a710101a9a8cf82a1bee6db8ad0875bcf"
+    },
+    {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_a65c2ae1/data/greenery-infill.json",
+      "sha256": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a"
+    },
+    {
+      "path": "/workspace/shared/chosun_qa_cache/final_repairs_build_v5/realism_v2/greenery_infill/game_tree_sidecar.json",
+      "sha256": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a"
+    },
+    {
+      "path": "/workspace/shared/chosun_qa_cache/final_repairs_build_v5/realism_v2/greenery_infill.py",
+      "sha256": "d404a6b2293a357a11025328ec265c9e094c3c3508c4be2c98eb4b86a6c82f18"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a1a2070f_support_probes.json",
+      "sha256": "9710606c3faca0bfcafa977b215dfe29d59fd333865e6e78907ff7c932e9087b"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a65c2ae1_grounding_preservation.json",
+      "sha256": "799d842b4684b13d4ff3072f5646d56578e860d83b79bbe431524f455a8837c4"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a65c2ae1_inventory_preservation.json",
+      "sha256": "232e1bdab16ff0db9bd1589cc7ea358311f61ed670368148634d604c76981d1e"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a65c2ae1_canonical_mesh_comparison.json",
+      "sha256": "78fc07c3820bb3cb82c14e1a1d50d13a4771d14e9891607197c0bae874cf2480"
+    }
+  ],
+  "limits": [
+    "Read-only existing JSON/source/manifest classification; no new native load, ray query or geometry edit.",
+    "The full old native report retains summary for2214 roots and30 worst point rows; all106 are compared to the frozen per-tree sidecar and final actual runtime records, not claimed to exist as106 separate old native rows.",
+    "Planting locations/species/scales are artistic estimates, not a surveyed planting inventory."
+  ]
+}

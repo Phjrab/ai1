@@ -1,0 +1,20 @@
+{
+  "sourceSha256": "cbf652568995444b3fd619235da55489e7aa2378ff490493fd8253f95093116a",
+  "addedDestination": "138_lounge",
+  "tableCount": 6,
+  "walkPaths": 9,
+  "guardBoxes": 117,
+  "evidence": {
+    "user_confirmed": [
+      "Interior balcony-like sitting area at main/annex overlapping floor",
+      "Exactly6bench tables",
+      "Tables are round"
+    ],
+    "approximate": [
+      "Local dimensions19.8×8.8m",
+      "Door position/width",
+      "Three-by-two table layout",
+      "Table dimensions, wood/metal colors and rail/ceiling details"
+    ]
+  }
+}

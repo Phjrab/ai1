@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "checked_on": "2026-10-11",
+  "scope": "Repository packaging and bounded lighting checks; not a full campus gameplay or browser acceptance test.",
+  "native": {
+    "path": "artifacts/Chosun_Campus_Street_Lighting_v6.blend",
+    "bytes": 276659952,
+    "sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+    "gzip_split_roundtrip": "PASS"
+  },
+  "game": {
+    "source_manifest": "game/LIGHTING_SOURCE_MANIFEST.json",
+    "source_manifest_sha256": "6525932fc5517b34857c9a58413446efae238bf92c162b61ee94e03fa72bd5e3",
+    "source_files": 500,
+    "release_verifier": "VERIFIED_BOUNDED_LIGHTING_RELEASE",
+    "game_asset_hashes": "PASS",
+    "fresh_lighting_unit_checks": 67,
+    "fresh_placement_check": {
+      "status": "PASS",
+      "walking_segments": 7008,
+      "destinations": 54,
+      "vehicle_poses": 72723,
+      "shuttle_poses": 11068,
+      "new_fixture_contacts": 0
+    },
+    "test_dependency_method": "Unchanged test and runtime code, with a test-only Node loader resolving the bundled Three.js 0.180.0 modules.",
+    "static_module_syntax": "PASS, 22 modules",
+    "local_http_asset_delivery": "PASS, exact bytes",
+    "npm_ci_verified": false,
+    "npm_ci_note": "Offline install could not complete because an npm package was absent from the local cache.",
+    "full_scene_rerun": false,
+    "browser_webgl_mobile_full_ui_verified": false
+  },
+  "packaging": {
+    "preserved_default_branch_base": "42e96bb9001bd1104abb9938a2d033d619e071d7",
+    "preserve_unrelated_repository_files": true,
+    "large_asset_restoration": "asset-parts/manifest.json and scripts/restore-assets.py",
+    "full_restore_with_public_base_checkout": "PASS, 51 restored assets and unchanged 500-file current game source manifest",
+    "source_credentials_pattern_scan": "No matching credential patterns found; not a security certification."
+  },
+  "limits": [
+    "The exact historical a65 native required to rebuild the lighting addition from scratch is not included; the complete v6 native is independently editable.",
+    "Some test reruns overwrite hash-bound result receipts. Verify the delivered release first and rerun tests in a copy.",
+    "Existing collision, tyre-contact and one-way shuttle terminal limitations remain; see game/QA.md.",
+    "This publication does not deploy or update a separately hosted Site."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "predecessor_native_sha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+  "objects_checked": 29,
+  "actual_triangles_checked": 9213985,
+  "differences": [],
+  "interpretation": "The 29 non-target ordered mesh hash differences are storage ordering only when this report is PASS. Actual finite triangle positions/winding, corner UV/material/smooth, all vertices and edges with multiplicity, edge flags, loose geometry and poses match exactly.",
+  "evidence": [
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a1a2070f_canonical_meshes.json",
+      "sha256": "ccef3f8fdc4125b388f15c6146e8dbc699847f6cb9376807d63574215412234a"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a65c2ae1_canonical_meshes.json",
+      "sha256": "f98e5c81035b0e820c213e5a00b36496aae5f5e111ce0f125ca45bf7d0168d5f"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a1a2070f_canonical_meshes_execution.json",
+      "sha256": "8a64e5858866727fc16e8e20fbb87a3361a022897429b9d54ffcbf61a221d608"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a65c2ae1_canonical_meshes_execution.json",
+      "sha256": "6ea6d94213a543a11aca10fbecfa14f69e309ec876e5465542f38a463e7bd269"
+    },
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/canonical_mesh_hash_fixture.json",
+      "sha256": "f8d863f1d1f47c1763f3fe97576efd3e34e88a478efefb68f968f0063615e04f"
+    }
+  ]
+}

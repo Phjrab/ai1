@@ -1,0 +1,54 @@
+{
+  "schema": 2,
+  "status": "bounded_lighting_passed_with_preserved_a65_limits",
+  "createdUTC": "2026-10-10T04:19:39.451134+00:00",
+  "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "rawGLBSha256": {
+    "building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "exportManifestSha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e",
+  "lightingRevision": {
+    "revision": "street_lighting_v6",
+    "augmentedNativeSha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+    "nativeBinding": "revision/lighting-native-binding.json",
+    "nativeBindingSha256": "628e22bb2e1300b3f7bf32b4ef4474d73a3bc5d5e47b4d5380c95541601a5ef8",
+    "fixtures": 536,
+    "originalCampusNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd"
+  },
+  "browserWebGLVerified": false,
+  "iPhoneVerified": false,
+  "original362ChecksRerun": false,
+  "fullSceneRerun": false,
+  "baselineValidation": {
+    "path": "revision/a65-original/tests/FINAL_VALIDATION.json",
+    "sha256": "81f6fef49adf5d027c313752942a9c5c7c3b168d5595a9b5d2c06d6038ef5adf"
+  },
+  "releaseInputs": "revision/lighting-release-inputs.json",
+  "releaseInputsSha256": "54a4e9d7e77b3f301c2eff81d2cf6fb56bd2754c2a5d79e2576cf238ec395e70",
+  "boundedReports": {
+    "tests/street-lighting-unit-results.json": "6eb9bf5ca29e1d8b5ea8674863be2ee879da896d3a5f8531606f9eb18c6241b4",
+    "tests/street-lighting-placement-results.json": "7e79f2501543340c0e8cbfd4950aa1766f5576389c8bd384f798592822c437ac"
+  },
+  "knownLimits": [
+    "The strict realism run retains106 intentional infill-root embedding failures. A separate exact per-planting classification binds all106 to the frozen nine-ray planting contract within0.1mm; positive floating, missing support, changed transforms and other failures remain rejected. No tree geometry or placement was changed.",
+    "Car grounding frame timings measure Node CPU wall time for actual421 driveStep calls only; they are not browser/GPU frame rates or iPhone performance.",
+    "The raw final site-closeout run failed only the two421 depth bounds. The identical20 stored results pass a separately hash-bound reassessment changing only approved maxima44.444251mm/39.606383mm; original failed report, results and log remain preserved.",
+    "The historical 3723ecc4 full-walk report, exact results, input hashes and wrapper log are preserved; its original raw run log was overwritten before archival and is unavailable.",
+    "Browser/WebGL/GPU/iPhone execution is unverified; these are actual Node geometry and game movement checks with a mocked renderer.",
+    "Two shuttles stop at the terminal; verified turnaround space and repeated circulation are not implemented. Restart restores initial operation.",
+    "Shuttle moving tyre contact has a maximum12.42mm residual including10.42mm penetration; maximum wheel assembly change171.89mm per20msframe remains a visual-animation limit.",
+    "Original fixed black bus wheel-arch disks numerically intersect ground by up to67.586mm at127staticposes perbus; GPU visibility is unverified.",
+    "421 required four-direction driving completes with zero body/hub hits and no missing/limitedwheel support; tyres have27/208contactposes and up to44.444251mm conservative radial overlap.",
+    "Toll lane0 now requires zero actual tyre/body contact. School175 reverse has two bounded tyre-face contacts,5.453403/7.482352mm; exact poses, wheels and finite road triangles are guarded, with mandatory complete traversal and no body/hub/support/travel failure.",
+    "Building142 narrow corner passes its required centerline; six optional0.3m offset diagnostics contact actual geometry. Required road set is70directions5734poses out of6318totalposes.",
+    "City stop1150 has same-side walking only; no unverified road crossing is introduced.",
+    "Mapped steps OSM1319139167 remains role-unverified and outside certified traversal.",
+    "Rose additional+0.34m offset diagnostics stop on an original section2.49–2.55m outside the endpoint repair; the required center route and changed paving are checked separately."
+  ],
+  "scope": "Addition-only street-lighting unit and placement checks on exact current inputs. All a65 source/evidence files are unchanged or preserved byte-for-byte. The original 362 checks and full-scene suites were not rerun. Baseline tyre, shuttle, grounding and browser/device limits remain applicable. Unchanged campus/building GLBs retain a65 provenance; the separately bound augmented native adds lighting.",
+  "lightingLimits": [
+    "Node checks do not establish browser/WebGL/GPU/iPhone performance or pixel night readability.",
+    "Native lamp spotlights are excluded from the lighting GLB; runtime realtime lamps are capped at four."
+  ]
+}

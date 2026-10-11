@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "revision_id": "street_lighting_v6",
+  "source_native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "manifest": {
+    "path": "contracts/street_lighting_manifest.json",
+    "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+  },
+  "reports": [
+    {
+      "path": "qa/placement_report.json",
+      "sha256": "23abc0a054ac3b415724d0c83f3f3d324bee2445737ea0be6db220680b085d53"
+    },
+    {
+      "path": "qa/final_placement_audit.json",
+      "sha256": "96d0cd37810d83371a221c284ce459978e202f9465f5c080d1ba51fbef69cbd3"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts/lighting_core.py",
+      "sha256": "73964595347a0b6e7a0a1705f226a8c80c1406b09eacc4562cb0d2e6d57ad46d"
+    },
+    {
+      "path": "scripts/plan_street_lighting.py",
+      "sha256": "8c4a1820e3b09eb824c678173dace158cc2a630ba17442100f439c51532c55c1"
+    },
+    {
+      "path": "scripts/audit_lighting_contract.py",
+      "sha256": "b51d26a0909d37abe492090faaf8df03926b8c56dddaef351c265b17ba601ea5"
+    }
+  ],
+  "fixture_count": 536,
+  "recovery_status": "REGENERATED_AND_AUDITED_NOT_PRIOR_MANIFEST_IDENTITY"
+}

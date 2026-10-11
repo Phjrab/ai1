@@ -1,0 +1,123 @@
+{
+  "status": "REGENERATED_AND_AUDITED_PASS",
+  "prior_exact_coordinates_available": false,
+  "prior_manifest_sha256_historical_only": "46c355c86a77e4041ceae0045df05377c83b7d10a23b3d3679a066538586a0db",
+  "prior_fixture_count_historical_only": 536,
+  "identity_rule": "No regenerated coordinate or count identity claim until comparison with a recovered original manifest; that manifest is unavailable.",
+  "input_roles": {
+    "campus-navigation.json": "Blender Z-up road/path centers, widths, heights and water hazards. All route segments remain collision constraints, including excluded lighting seeds.",
+    "world-config.js": "Three XYZ final game boxes, oriented static colliders/doors, solid polygons and two main-building roads; convert [x,y,z] to Blender [x,-z,y].",
+    "transit-config.js": "Eight campus shuttle and two modeled city-stop waiting points. Metadata-only city stops excluded.",
+    "evaluated_native_inventory": "Exact visible native object names, collections and evaluated world bounds. Supplies trees, vehicles, small obstacles, outdoor parking seeds and garage envelope.",
+    "campus.glb/building.glb": "Original raw finite mesh support and existing lamp geometry; mmap and bounded numpy batches, never Python object per global triangle."
+  },
+  "placement_criteria": {
+    "pole_height_m": {
+      "road": 6.2,
+      "parking": 6.2,
+      "roadside_transit": 6.2,
+      "walk": 4.2,
+      "stairs": 4.2
+    },
+    "pole_radius_m": 0.085,
+    "base_radius_m": 0.19,
+    "base_above_ground_m": 0.18,
+    "base_burial_m": 0.2,
+    "head_arm_toward_target_m": 1,
+    "vehicle_edge_to_base_edge_m": 0.65,
+    "walk_edge_to_base_edge_m": 0.45,
+    "finite_segment_height_layers_m": {
+      "below_floor": 0.4,
+      "vehicle_above_floor": 4.7,
+      "walk_above_floor": 2.5
+    },
+    "ground_normal_min_z": 0.85,
+    "footing_ring": {
+      "rays": 8,
+      "radius_m": 0.19,
+      "maximum_absolute_height_delta_m": 0.11
+    },
+    "new_pole_min_horizontal_separation_overlapping_height_layers_m": 3,
+    "ordinary_route_spacing_m": {
+      "vehicle": 29,
+      "walk_stair": 19
+    },
+    "target_dedup_radius_m": {
+      "road_parking": 16,
+      "walk_stair_transit": 11
+    },
+    "targeted_stop_base_search": {
+      "stops": [
+        "monument",
+        "engineering2",
+        "student_union"
+      ],
+      "radius_m": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "directions": 24,
+      "unchanged_safety_checks": true
+    },
+    "excluded_unverified_seed_way": "1319139167",
+    "patches": {
+      "road_parking_transit_radius_m": 9,
+      "walk_stair_radius_m": 6,
+      "disc_inscribed_polygon_sides": 16,
+      "same_primitive_connected_component_quantization_m": 0.0001,
+      "height_window_m": "max(1.2, radius*0.32)",
+      "geometry": "Only actual source triangles clipped preserving original planes; no new floor or corridor widening.",
+      "degeneracy": "Discard exact zero-area output triangles only; preserve positive-area thin triangles and source provenance."
+    }
+  },
+  "output_schema": {
+    "manifest": "contracts/street_lighting_manifest.json, schema_version=1, revision_id=street_lighting_v6, Blender Z-up metre coordinates",
+    "fixture_fields": [
+      "id",
+      "kind",
+      "base_position",
+      "lamp_position",
+      "target_position",
+      "color",
+      "cct_kelvin",
+      "power_watts",
+      "pool_radius",
+      "intensity",
+      "fixture_object_names",
+      "beam_object_name",
+      "base_ground_hit",
+      "footing_ground_hits",
+      "ground_hit",
+      "ground_patch_triangles",
+      "ground_patch_provenance",
+      "collision",
+      "route_source",
+      "clearance"
+    ],
+    "object_name_pattern": "RV6_LIGHT_{id}_fixture / RV6_LIGHT_{id}_beam",
+    "emissive_material": "RV6_StreetLight_Emissive_Warm3000K",
+    "warm_rgb": [
+      1,
+      0.63,
+      0.32
+    ],
+    "power_semantics": "Blender radiant-power visual parameter, not electrical consumption or measured illuminance.",
+    "cct_semantics": "3000 K design color target only.",
+    "freeze": "qa/placement_freeze.json hashes manifest, reports and scripts; manifest contains report paths only to avoid hash cycles."
+  },
+  "verification": [
+    "Finite raw triangle plane and edge error in physical metres, not unstable barycentric weights on needle triangles.",
+    "All eight footing ray provenances per fixture.",
+    "Existing lamp local bounds and clearance margin.",
+    "No poles inside expanded native garage footprint envelope.",
+    "Every modeled transit waiting point tested against actual clipped finite patch; nominal radius alone is insufficient.",
+    "Finite strict JSON, file hashes, RSS below 600 MiB."
+  ],
+  "regenerated_fixture_count": 536,
+  "regenerated_manifest_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "coordinate_identity_claim": false
+}

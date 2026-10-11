@@ -1,0 +1,6 @@
+import assert from 'node:assert/strict';
+import {walkSurfaceHeightIndex} from './helpers/walk-surface-index.mjs';
+const surfaces=[{polygon:[[-16,1,-8],[16,3,-8],[-16,5,8]],triangles:[[0,1,2]]},{polygon:[[-2,7,-2],[2,7,-2],[-2,7,2]],triangles:[[0,1,2]]},{polygon:[[8,2,8],[9,2,8],[10,2,8]],triangles:[[0,1,2]]}];
+function reference(x,z,fallback){let top=fallback;for(const s of surfaces)for(const f of s.triangles){const [a,b,c]=f.map(i=>s.polygon[i]),den=(b[2]-c[2])*(a[0]-c[0])+(c[0]-b[0])*(a[2]-c[2]);if(Math.abs(den)<1e-9)continue;const u=((b[2]-c[2])*(x-c[0])+(c[0]-b[0])*(z-c[2]))/den,v=((c[2]-a[2])*(x-c[0])+(a[0]-c[0])*(z-c[2]))/den,w=1-u-v;if(Math.min(u,v,w)>=-1e-7)top=Math.max(top,u*a[1]+v*b[1]+w*c[1]);}return top;}
+surfaces.push({polygon:[[-1000,0,24],[1000,1,24],[1000,1,25]],triangles:[[0,1,2]]});
+const sample=walkSurfaceHeightIndex(surfaces);let count=0;for(let x=-20;x<=20;x+=.125)for(let z=-12;z<=12;z+=.125){assert.equal(sample(x,z,-99),reference(x,z,-99));count++;}for(const [x,z] of [[-16-1e-7,-8],[16+1e-7,-8],[-16,8+1e-7],[0,0],[8,8],[-1000-.00001,24]])assert.equal(sample(x,z,-99),reference(x,z,-99));console.log('PASS: spatial walk-surface lookup exactly matches full scan at '+count+' samples, including stacked, sloped, degenerate and grid-boundary cases.');

@@ -1,0 +1,1959 @@
+{
+  "schema": "chosun.independent.finite_native_hashes.v1",
+  "native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "native": "/workspace/shared/chosun_qa_cache/final_repairs_build_v5/realism_v2/Chosun_Campus_Realism_v2.blend",
+  "selection_sha256": "65faac06ae01f43bfcde4f7e9382b3b733a634084a83f5bb2687eb66c0119a59",
+  "script_sha256": "1d0d2c147c164cf1c90db05c5c04e513044a5ad31e901038fc953a08485f9160",
+  "method": "Exact saved float32 local positions and per-corner UV; canonical cyclic start, preserved winding, sorted multiset retaining multiplicity. Material indices are mapped to sorted material names. No epsilon or triangle removal.",
+  "objects": {
+    "CAMPUS_BUILDING 165 | RV2_FINAL foundation contact": {
+      "mesh": "CAMPUS_BUILDING 165 | RV2_FINAL foundation contact",
+      "counts": {
+        "vertices": 1912,
+        "edges": 5730,
+        "polygons": 3820,
+        "loops": 11460,
+        "triangles": 3820
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "2d79c65c93f58c9066d5df1401fe93d4cba91f0f20555a81d1eb321c3fd759ea",
+      "triangle_position_uv_material_smooth_winding_multiset": "be84f9b86c6fff20a27b418fbf69cee6636e45954f8be6e9f2d66fa4a5471aae",
+      "all_vertex_positions_multiset": "e4e58b2b2bb3a94a138ec9d21c5138e2586722abd3718c89465c2a287d141390",
+      "all_edge_endpoints_multiset": "7f97d1dedf94cb2cc9daac2533feb2cfdc662d2518e2c4fd094056d9af837f8b",
+      "all_edge_endpoints_sharp_seam_multiset": "9b158f51a9b2cb2c1a21a7997e9f6e4e8bea3b334ec7d735b2e406c395159e2a",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "CAMPUS_CONTINUOUS pedestrian paving": {
+      "mesh": "IT approach clipped paving.001",
+      "counts": {
+        "vertices": 61392,
+        "edges": 118874,
+        "polygons": 60806,
+        "loops": 182508,
+        "triangles": 60896
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "uv_layers": [
+        {
+          "name": "RV2_PaverMetricUV",
+          "active_render": true
+        }
+      ],
+      "triangle_position_winding_multiset": "094bfa1653bc209df44b2e2f10d51f4517910a76262efe0a4228da312a107bf6",
+      "triangle_position_uv_material_smooth_winding_multiset": "2066c8572cc820455d4c62b211a7a54614590ee84ebd291619baa4a8bd47fcce",
+      "all_vertex_positions_multiset": "5610b93c11c9a63c6fe475688679d4815947d447f2986bdf454744bc1a4447ea",
+      "all_edge_endpoints_multiset": "ad6d3e9cb8f02b153ad9274b90447d79bf55a7853fd092658ada8a6c71e08cb5",
+      "all_edge_endpoints_sharp_seam_multiset": "845029438b9e03c3473aca6da1d659c7806b47a094ccb4d622e622d330468bb6",
+      "vertices_unused_by_faces": 1223,
+      "unused_vertex_positions_multiset": "de932f3f9aa082dcadac92c1eaa4212596acb53b944499b8c5fdfc4ffcb5665d",
+      "isolated_vertices": 1223,
+      "isolated_vertex_positions_multiset": "de932f3f9aa082dcadac92c1eaa4212596acb53b944499b8c5fdfc4ffcb5665d",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "CAMPUS_CONTINUOUS vehicle asphalt": {
+      "mesh": "RV2_HOSPITAL_CLEAN_CAMPUS_CONTINUOUS vehicle asphalt mesh | gar",
+      "counts": {
+        "vertices": 127330,
+        "edges": 345870,
+        "polygons": 218736,
+        "loops": 656208,
+        "triangles": 218736
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • weathered asphalt"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • weathered asphalt"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "519555ebdf9c91f9d6398efab930a9ca27e0b983052263dd665d61b97e77bbce",
+      "triangle_position_uv_material_smooth_winding_multiset": "93976bc00783aad3d56ce6a05091a7d2f090990a281a2a19761a61cd0ffb116b",
+      "all_vertex_positions_multiset": "439f8cd6ebac6b94ecc55f058d0e743af86e04465e7fbe2e2b9102cba5fe7689",
+      "all_edge_endpoints_multiset": "1b7c1e0ae8dbac28d0ed6c38ba263e9dbd2c5f5512b921cb8558e5d893efca5b",
+      "all_edge_endpoints_sharp_seam_multiset": "c0846912baeca1ef7fa23a8258a9e04619a153a7396ea4cda75cfb979faa3186",
+      "vertices_unused_by_faces": 259,
+      "unused_vertex_positions_multiset": "7fdaa41a77ae239c602f02aad2bd57ac7b5d456cd540c32d3e09f6d6e3dd261c",
+      "isolated_vertices": 254,
+      "isolated_vertex_positions_multiset": "ec6173bccb652e401cfb0dc177afd37e33f41ae7fe51904eb13c0c9950844ba2",
+      "loose_edges": 13,
+      "loose_edge_endpoints_multiset": "a9a02091794ea5d9282264f2765cdbb84151ed26b21bc77a8d692369b21b308b",
+      "hide_render": false
+    },
+    "R2_IT_APPROACH_PRESERVED lower primary bridge paving": {
+      "mesh": "IT approach clipped paving",
+      "counts": {
+        "vertices": 61154,
+        "edges": 119145,
+        "polygons": 60978,
+        "loops": 183003,
+        "triangles": 61047
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "uv_layers": [
+        {
+          "name": "RV2_PaverMetricUV",
+          "active_render": true
+        }
+      ],
+      "triangle_position_winding_multiset": "6508e87be9d83d954dcf388aa865fedd4a31621ae8c06394c6cf7d355b2eecd6",
+      "triangle_position_uv_material_smooth_winding_multiset": "10fe4a55f8e79b6dc22d4df0e37fb2d156ea77d12435b5af2d791d37ae12e3f8",
+      "all_vertex_positions_multiset": "74c98a6c36ed015da000bce9f1bab21f8443c6a242593813bf637be1dab86403",
+      "all_edge_endpoints_multiset": "e7aab64f120168f6085c6280559076a52cf8d0b4a0b922c73a3cdc9e004f6b84",
+      "all_edge_endpoints_sharp_seam_multiset": "71405d1587ff50ae5cff99cd112437fbdafc7094c35837ce00fc706b6efba128",
+      "vertices_unused_by_faces": 918,
+      "unused_vertex_positions_multiset": "24a795c94eb55b425ecdbe8ac0288ec274a0447b190782bc663efb7c0fc8dcb9",
+      "isolated_vertices": 918,
+      "isolated_vertex_positions_multiset": "24a795c94eb55b425ecdbe8ac0288ec274a0447b190782bc663efb7c0fc8dcb9",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "R2_IT_APPROACH_PRESERVED original pedestrian paving": {
+      "mesh": "RV2_WALKCLR_bounded_paving_height_join finite fixed-surface",
+      "counts": {
+        "vertices": 60659,
+        "edges": 119873,
+        "polygons": 61481,
+        "loops": 184443,
+        "triangles": 61481
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "uv_layers": [
+        {
+          "name": "RV2_PaverMetricUV",
+          "active_render": true
+        }
+      ],
+      "triangle_position_winding_multiset": "28a95da5e2ac28f026955ddfbf84497d15f022f54e7dbff94e12dbb0a0857638",
+      "triangle_position_uv_material_smooth_winding_multiset": "8fee48c0821b333b04d7e960f0338feefef7eb58ce8c7b8ec9bcea57e5690c2a",
+      "all_vertex_positions_multiset": "98bf5b07607a2ce962cc29ee154c0126a4f9b4ece84303b47aa1e41b566dc07d",
+      "all_edge_endpoints_multiset": "ea6336716254ab736ab322ec7feda7ab630422d12bcc5a54653f1a35dbc50857",
+      "all_edge_endpoints_sharp_seam_multiset": "5b8b19833fc4c0b99f820d4fe6a6719467230c4aa16a5cfc4f13b650090a1992",
+      "vertices_unused_by_faces": 330,
+      "unused_vertex_positions_multiset": "c371f9165808a6138b7b7032c8ef6445bca85b4173ef0b5be5d959ee83fe6ff2",
+      "isolated_vertices": 330,
+      "isolated_vertex_positions_multiset": "c371f9165808a6138b7b7032c8ef6445bca85b4173ef0b5be5d959ee83fe6ff2",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "R2_IT_APPROACH_PRESERVED pre-restoration final terrain": {
+      "mesh": "RV2_POND_Visible terrain with bounded basin excavation boun",
+      "counts": {
+        "vertices": 1272645,
+        "edges": 3431325,
+        "polygons": 2104703,
+        "loops": 6314109,
+        "triangles": 2104703
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "f5b91420ac37b24729a126b15345059fb8afe07a4473272ff915ecbe9553b898",
+      "triangle_position_uv_material_smooth_winding_multiset": "2c71a5cfd5b5541c034fc69043f5b1eebc272c681414c6fa0ae6520edfe8e710",
+      "all_vertex_positions_multiset": "200af0180ba852d5c57770c7979b05f5741eb4b73aa676a28df08b4523591aa6",
+      "all_edge_endpoints_multiset": "57429c592b42e6a4fa29a493768e4b121c0a27ce7842ea7459b4268ee99df529",
+      "all_edge_endpoints_sharp_seam_multiset": "53542fdd3cb859d74ae6f4a7c50738fcfa0889e287c5080f3edc20ba09ea6564",
+      "vertices_unused_by_faces": 9264,
+      "unused_vertex_positions_multiset": "8c0f029d456bb39bc92f5ccc7e3f05b91e49c0dfab62b2d5fe68d21b681eaf38",
+      "isolated_vertices": 9264,
+      "isolated_vertex_positions_multiset": "8c0f029d456bb39bc92f5ccc7e3f05b91e49c0dfab62b2d5fe68d21b681eaf38",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "R2_IT_APPROACH_UPPER APPROACH WALK top": {
+      "mesh": "R2_IT_APPROACH_UPPER APPROACH WALK top | final outdoor pavers",
+      "counts": {
+        "vertices": 3801,
+        "edges": 3801,
+        "polygons": 1267,
+        "loops": 3801,
+        "triangles": 1267
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "R2_IT_LOUNGE_warm timber",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_warm neutral light",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "canonical_material_names": [
+        "",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_warm neutral light",
+        "R2_IT_LOUNGE_warm timber",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "uv_layers": [
+        {
+          "name": "RV2_PaverMetricUV",
+          "active_render": true
+        }
+      ],
+      "triangle_position_winding_multiset": "4b81154757fa5cbe54707ec3d12c2bc1722acff50df255ddafe7da86f227a646",
+      "triangle_position_uv_material_smooth_winding_multiset": "fec2f07f62fb0c2e183eac35fbd6e12bf89a7fef891dedaff46b5238f9634510",
+      "all_vertex_positions_multiset": "9f5885b2089f29c77a9f980cc007be81cabc047797aa088edeea58447825bcb6",
+      "all_edge_endpoints_multiset": "0adc4822475c0066678416fe839376ec1c555fc2a696f50b98b0f098338087c7",
+      "all_edge_endpoints_sharp_seam_multiset": "34380aee1936a7fd1bebf89d413fa38744a0c5a17c917d84f6065cdb264fe68f",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "R2_IT_APPROACH_approach guard rails": {
+      "mesh": "R2_IT_APPROACH_approach guard rails",
+      "counts": {
+        "vertices": 8208,
+        "edges": 12312,
+        "polygons": 5472,
+        "loops": 24624,
+        "triangles": 13680
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "R2_IT_LOUNGE_warm timber",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_warm neutral light"
+      ],
+      "canonical_material_names": [
+        "",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_warm neutral light",
+        "R2_IT_LOUNGE_warm timber"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "66173da609d669cac5d57e6682dcd7ff279c033e6182df773ad323e9060c1723",
+      "triangle_position_uv_material_smooth_winding_multiset": "a8b794757d75b52784de96e4741949572b3ff0996c7ae258dbd43edf1db71d9e",
+      "all_vertex_positions_multiset": "a831ebac99c62471c423f8ca4dceefa7bb1b3d8191410565e47ade407a9994de",
+      "all_edge_endpoints_multiset": "ec7daf0e1c749d13db10c3bd331d9678c4501a4fefa631fb0417e1465967d924",
+      "all_edge_endpoints_sharp_seam_multiset": "f3626193c3bfe52b03d604764d36a80dc16d17d8310e36c8b9d888245c1f16d5",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "R2_IT_APPROACH_ground-connected retaining fill": {
+      "mesh": "R2_IT_APPROACH_ground-connected retaining fill",
+      "counts": {
+        "vertices": 4689,
+        "edges": 4689,
+        "polygons": 1489,
+        "loops": 4689,
+        "triangles": 1711
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "R2_IT_LOUNGE_warm timber",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_warm neutral light"
+      ],
+      "canonical_material_names": [
+        "",
+        "R2_IT_LOUNGE_light ceiling",
+        "R2_IT_LOUNGE_matte dark metal",
+        "R2_IT_LOUNGE_pale floor",
+        "R2_IT_LOUNGE_warm neutral light",
+        "R2_IT_LOUNGE_warm timber"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "08da9e1806d6ecabf199b4a974c978937ada6fccdfd952d2d89d8d68ed75d900",
+      "triangle_position_uv_material_smooth_winding_multiset": "20208f7c8bf0a2f8d3286e1e327a24229ee845f689f200ea9c4879810569ef2b",
+      "all_vertex_positions_multiset": "2ab5de6433a8886a69600c8b6be969fed90f9b7df1bb5895253cc74abc06e9b2",
+      "all_edge_endpoints_multiset": "66ebbffe0aa14b66b2b94988fba5d3f633790497e1acf7aea0ce7095cc46a639",
+      "all_edge_endpoints_sharp_seam_multiset": "343ab44a84ff56ef8c03d0448efcf377c581fe16192a26fbaa414d8b4672a426",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_CONTACT_SOURCE | bounded soil below unchanged pedestrian to": {
+      "mesh": "RV2_POND_Visible terrain with bounded basin excavation bounded ",
+      "counts": {
+        "vertices": 1224141,
+        "edges": 3384109,
+        "polygons": 2089285,
+        "loops": 6267855,
+        "triangles": 2089285
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "7608e6ad477f7cb1ed2bf7f7392c268414d53577285cf5e7f32edd259d9db65d",
+      "triangle_position_uv_material_smooth_winding_multiset": "8ef179dc1182118f32b6fbc0c2122f09d56dd3bb86cac11a9d80bfe9f1a145ee",
+      "all_vertex_positions_multiset": "b914618c009e755fb3c8436ba7e81880feac36cd52b6ad5f168ee56ac6dc5876",
+      "all_edge_endpoints_multiset": "2b5f86e7431f7ea2d8dcb9aee3f1286869fa2a7aca64e5c5b0b7ef005c2681a5",
+      "all_edge_endpoints_sharp_seam_multiset": "729a7f30266157e646e139176a4e841daac24ec3f544d555f2ad5a538c5ff0e3",
+      "vertices_unused_by_faces": 8906,
+      "unused_vertex_positions_multiset": "e91a94e7c247275fe49fe0b0f2102666a7741393b8283bd81c544af072b9bcb6",
+      "isolated_vertices": 8906,
+      "isolated_vertex_positions_multiset": "e91a94e7c247275fe49fe0b0f2102666a7741393b8283bd81c544af072b9bcb6",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "RV2_FINAL | east road support190176311": {
+      "mesh": "RV2_FINAL | east road support190176311",
+      "counts": {
+        "vertices": 17406,
+        "edges": 27125,
+        "polygons": 15263,
+        "loops": 54250,
+        "triangles": 23724
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "729fd077330440d4b9ff223eb74783a0b83d02ca36b730ec20b5bb76c89745e0",
+      "triangle_position_uv_material_smooth_winding_multiset": "f524f38cb56c4e59be84d17023abe7d4115ebe574b44f1b0aa0afe602fa0fa35",
+      "all_vertex_positions_multiset": "c1b7125e1192d01fa1d2e1e91ac9224564e3656073d71bdc482c4715b39d8b5c",
+      "all_edge_endpoints_multiset": "2b2bf455dff0dc463ea0d2dce355f9baafbe3e03b483d134116e6b266210d0ba",
+      "all_edge_endpoints_sharp_seam_multiset": "dc8fa3b84827fc9bf43ca31631e11882d23b21030c6e35d61e19acecc84b5cf7",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 00": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 00",
+      "counts": {
+        "vertices": 1464,
+        "edges": 2196,
+        "polygons": 1220,
+        "loops": 4392,
+        "triangles": 1952
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "2aa6e6441101524e66d842823fbe29d8437e77af971d819f4302e2ad6941a088",
+      "triangle_position_uv_material_smooth_winding_multiset": "74b5a64a618b4f19152757430848ada86c78d2dcdfd1ce3b26d67e1c7c472546",
+      "all_vertex_positions_multiset": "d4ff80aa01ffcb2df93f6452c11a8ec9b0b9b2fbd154aae7325d487f66a5d2f9",
+      "all_edge_endpoints_multiset": "c76def9997f116976b66acb91af6277864363ca9b5cab4dea82cbcae873101ff",
+      "all_edge_endpoints_sharp_seam_multiset": "2d4498883318a52a23341be80cb8305b4cb717b5c7d191961fa30278624dc7b1",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 01": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 01",
+      "counts": {
+        "vertices": 1926,
+        "edges": 2889,
+        "polygons": 1605,
+        "loops": 5778,
+        "triangles": 2568
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "e42614dca80adeb2d5cdf801cda178a0c194b62675ee122b39756481b41ec1ad",
+      "triangle_position_uv_material_smooth_winding_multiset": "f156f1f3ad17004ee4d6687e9032010ebca5f59517b9703e3b167dfe07991242",
+      "all_vertex_positions_multiset": "dfe66a1ec5e0a1471917eba0bde4583a8e149d56d2727c6aa54041b1338896f7",
+      "all_edge_endpoints_multiset": "526daa6114f57ce4ba61b75e8bff4b5757cbfe92eaaf03a4ad9fd1e55c87c59b",
+      "all_edge_endpoints_sharp_seam_multiset": "977c9dcb2690ee8e5e2b2c17f9d902fa024330e64ee397a29da307a53ce9b2d3",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 03": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 03",
+      "counts": {
+        "vertices": 1872,
+        "edges": 2808,
+        "polygons": 1560,
+        "loops": 5616,
+        "triangles": 2496
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "f10fc1bf8f65ae9ffe80926d9d038608e064ba12d4334678fe543730a0de1218",
+      "triangle_position_uv_material_smooth_winding_multiset": "21ff823fa5fb718d10af9d77b86dca4e4e042b94284a33828ea2434705aec32c",
+      "all_vertex_positions_multiset": "a25c6edf2b867985f5653c3d1421aa660f7dccdcf74a07d4368e65c71f1ef357",
+      "all_edge_endpoints_multiset": "7b21c0b45c7757cc01997a5d3cbce4c876338afc86782385b716c44807ce6255",
+      "all_edge_endpoints_sharp_seam_multiset": "420d419057a8d29c9f1273777ae2535e1b8b5d4e2143fc4c3a05b3b1be118bbc",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 05": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 05",
+      "counts": {
+        "vertices": 5508,
+        "edges": 8262,
+        "polygons": 4590,
+        "loops": 16524,
+        "triangles": 7344
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "2368fde78907c358ea423db00c05eeb48d8fa148b0861fed9a1e2904d6439d65",
+      "triangle_position_uv_material_smooth_winding_multiset": "860b37937a89dd92d4f933ff8ae8b2b33b8151fa2374beae9e683172ca174fd6",
+      "all_vertex_positions_multiset": "b7714c1340d67f7a691f56886f5022f0f198bb255886b7ea0f3f96e75963d0eb",
+      "all_edge_endpoints_multiset": "25861a992482b4010ef6ee035bcb7d47c075534ae7549ecd89f2dd58a335b969",
+      "all_edge_endpoints_sharp_seam_multiset": "99f1cb7d711520b46f18946a79b0547a76159555656f7a2f8b91cecc63aaadac",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 07": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 07",
+      "counts": {
+        "vertices": 1332,
+        "edges": 1998,
+        "polygons": 1110,
+        "loops": 3996,
+        "triangles": 1776
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "aed9120e78c3cfafedd8b5d776e3da132c3c4c670ff9bde0f74aa6128fd9058f",
+      "triangle_position_uv_material_smooth_winding_multiset": "861170614445cec1c622f1b0ea839624eddb72063db5b24e1a778c81d79c4653",
+      "all_vertex_positions_multiset": "122e15497d91cc0601e7dde6918d23833392462ff8723c4e2a6135a78e033fef",
+      "all_edge_endpoints_multiset": "8a0f8dd7afc7c05c9995d690dd1161310d45e3159e7bdcdb094410520ea58ed3",
+      "all_edge_endpoints_sharp_seam_multiset": "6c0852ab512d11e2bcae599311ff2a4923c92623f82c3c3328fff70a1398e694",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 28": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 28",
+      "counts": {
+        "vertices": 1602,
+        "edges": 2403,
+        "polygons": 1335,
+        "loops": 4806,
+        "triangles": 2136
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "df568258775479a83f659331666a6d74dd89ff1e79b274ec205b7d98903e68f0",
+      "triangle_position_uv_material_smooth_winding_multiset": "b28645d3998be86c7e89765d6e1d72cdd77217b715af2514ec3d1d51cfc10398",
+      "all_vertex_positions_multiset": "974cf0c0c2f8adcfa8e79a52c105a188520b57e79ce41bee9c39f736ec5d09db",
+      "all_edge_endpoints_multiset": "4665c87b7c5284572dd6a298e18fd6cac03d4ab8d4c324272773debc95f2f429",
+      "all_edge_endpoints_sharp_seam_multiset": "1aa6a75e79eb01980ae4d59b54520d107688ac6e8d66b2a066630a4e3ab1791c",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 38": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 38",
+      "counts": {
+        "vertices": 5268,
+        "edges": 7902,
+        "polygons": 4390,
+        "loops": 15804,
+        "triangles": 7024
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "e0de20b5ad95d71e76a5de9adefd64a97e50b894eafe41d831fa70d4105890b8",
+      "triangle_position_uv_material_smooth_winding_multiset": "92c44c9618e15ba14597526d7e24e2404221b5d88121f1447dbfa5d70fcc4aa5",
+      "all_vertex_positions_multiset": "b4b58808488fbe23973744be9bd6fed3688a851433662e97c039dc2bf2d6e983",
+      "all_edge_endpoints_multiset": "4d8ffe05d749cc2b0bbc93a55d60f60dcea14b6e0f8ad7a925846fa8a9eb0bab",
+      "all_edge_endpoints_sharp_seam_multiset": "e435bbdf7036d8cf496b43ed86a2ed006f14772558dcdbda01192e73b71c932f",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_FINAL_PED | bounded underside group 43": {
+      "mesh": "RV2_FINAL_PED | bounded underside group 43",
+      "counts": {
+        "vertices": 1356,
+        "edges": 2034,
+        "polygons": 1130,
+        "loops": 4068,
+        "triangles": 1808
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • ivory"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • ivory"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "eb01a308754c133c7b17129dfb977927f62543bd766beb5d0ae3cbd9e438a08e",
+      "triangle_position_uv_material_smooth_winding_multiset": "52619381c226b5ec7d84fb2f56964df1d841413e3940ed970059965b88a14507",
+      "all_vertex_positions_multiset": "cdded4be8c30d6e11905d368e36055327f2ea78ccaa0a5f49428ea184b6ce65e",
+      "all_edge_endpoints_multiset": "54fece4ba1d41ad5adcedf9ca1041bb7a051f38979882a2b5f6132262c01784d",
+      "all_edge_endpoints_sharp_seam_multiset": "295887fa173ca63b8c8f1878f017bd022df27b4eecac27e94682ea4057c29020",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_GARAGE_SW_SOURCE | vehicle asphalt": {
+      "mesh": "RV2_HOSPITAL_CLEAN_CAMPUS_CONTINUOUS vehicle asphalt mesh |",
+      "counts": {
+        "vertices": 127299,
+        "edges": 345823,
+        "polygons": 218725,
+        "loops": 656175,
+        "triangles": 218725
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • weathered asphalt"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • weathered asphalt"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "791326b44d540215cefdb5d14fd5aaa45fbcfce4bbf08b76452144733ed1172f",
+      "triangle_position_uv_material_smooth_winding_multiset": "d1a801f336c709cce2d381c3871373a3733e8bc7ec7074959cf907e376e84640",
+      "all_vertex_positions_multiset": "fd5f82fbecaf56c970d4523c4d63bdcc0e35e5eaa68123a5e30465dc6be04606",
+      "all_edge_endpoints_multiset": "11976be39bbbea893531cdd9d846b3244f6e60aeeab76a862350eda8acbb71ab",
+      "all_edge_endpoints_sharp_seam_multiset": "aa90aeb8ea77c52ff9c9ab695abace9c7c961bbabfc5c019daa8a795593271c7",
+      "vertices_unused_by_faces": 254,
+      "unused_vertex_positions_multiset": "ec6173bccb652e401cfb0dc177afd37e33f41ae7fe51904eb13c0c9950844ba2",
+      "isolated_vertices": 254,
+      "isolated_vertex_positions_multiset": "ec6173bccb652e401cfb0dc177afd37e33f41ae7fe51904eb13c0c9950844ba2",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "RV2_PEDRES_SOURCE | CAMPUS_CONTINUOUS pedestrian paving": {
+      "mesh": "RV2_WALKCLR_bounded_paving_height_join finite fixed-surface own",
+      "counts": {
+        "vertices": 60659,
+        "edges": 119896,
+        "polygons": 61496,
+        "loops": 184488,
+        "triangles": 61496
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • granite paving",
+        "RV2_Sidewalk_Pavers_200x100mm"
+      ],
+      "uv_layers": [
+        {
+          "name": "RV2_PaverMetricUV",
+          "active_render": true
+        }
+      ],
+      "triangle_position_winding_multiset": "53ad3cf365ec2c013ca8d1a863dba8e56d23be5ec60644f4a6f6b93b2165d2c4",
+      "triangle_position_uv_material_smooth_winding_multiset": "77974bc073e292b4301a6487edee54087771650cc1cac41e343aa9e279ac1ea5",
+      "all_vertex_positions_multiset": "98bf5b07607a2ce962cc29ee154c0126a4f9b4ece84303b47aa1e41b566dc07d",
+      "all_edge_endpoints_multiset": "20ff3f6401d37355d4e27ef6a6e2aadeeeda0b74e96b78261d73e24d350d3d37",
+      "all_edge_endpoints_sharp_seam_multiset": "aa692b4ec327ce449dfff17275e5b08030407246471b153bc1b2e38735ebd35e",
+      "vertices_unused_by_faces": 323,
+      "unused_vertex_positions_multiset": "7afd0a8753cbe7049dc1ea584cee4077e908cda0471a2d48783cd752d187d1e3",
+      "isolated_vertices": 323,
+      "isolated_vertex_positions_multiset": "7afd0a8753cbe7049dc1ea584cee4077e908cda0471a2d48783cd752d187d1e3",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "RV2_PEDRES_SOURCE | RV2_PS_public_path_grounded_edge_closures": {
+      "mesh": "RV2_WALKCLR_open_planes.001",
+      "counts": {
+        "vertices": 5052,
+        "edges": 5052,
+        "polygons": 1263,
+        "loops": 5052,
+        "triangles": 2526
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_PS_weathered_sport_green",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_rim_orange",
+        "RV2_PS_net_dark",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_light_granite",
+        "RV2_PS_rose_soil",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_coral",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_fountain_water",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_auxiliary_red_hardcourt"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_PS_auxiliary_red_hardcourt",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_fountain_water",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_light_granite",
+        "RV2_PS_net_dark",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_rim_orange",
+        "RV2_PS_rose_coral",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_soil",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_weathered_sport_green"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "4e445b52b078f827233656328f2785f4bef2d470271982702cabd7f546c1fbec",
+      "triangle_position_uv_material_smooth_winding_multiset": "df17369e78e58adc72a148258c2eb489991f6fe87f6bd84df13395e28f80c630",
+      "all_vertex_positions_multiset": "77218783d32344fabe8b97a60e7c0e79a8f670d78fb335c8c59b1789a3a93693",
+      "all_edge_endpoints_multiset": "bf0db4b26869b9042888132fe0f8ad147c50f200401c77b6fbcdee797e6de1e9",
+      "all_edge_endpoints_sharp_seam_multiset": "5b63796f701d4c1bb1a927793ecd36e68500ad17f3924b4969f3e03407033728",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "RV2_PEDRES_SOURCE | RV2_PS_rose_formal_hedge_boundaries": {
+      "mesh": "RV2_WALKCLR_opened_components",
+      "counts": {
+        "vertices": 26204,
+        "edges": 26204,
+        "polygons": 6551,
+        "loops": 26204,
+        "triangles": 13102
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_PS_weathered_sport_green",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_rim_orange",
+        "RV2_PS_net_dark",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_light_granite",
+        "RV2_PS_rose_soil",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_coral",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_fountain_water",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_auxiliary_red_hardcourt"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_PS_auxiliary_red_hardcourt",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_fountain_water",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_light_granite",
+        "RV2_PS_net_dark",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_rim_orange",
+        "RV2_PS_rose_coral",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_soil",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_weathered_sport_green"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "f63e44278a935740a7cfa3a3cb942c8eda22f14eaa36c583102a317e74dbf5d8",
+      "triangle_position_uv_material_smooth_winding_multiset": "d40a8a2ebfe069607d8db08205d60474c205a21a68f2ced94ded6978bd21dd32",
+      "all_vertex_positions_multiset": "7d7c0d149a22fd5ad21cc52ebccfc8ae155802a7fa9557d7de644e29569aa6bc",
+      "all_edge_endpoints_multiset": "70a62e99fee9141a78643a06522db40a64d59642b1bfce6063b4a2d3de59f880",
+      "all_edge_endpoints_sharp_seam_multiset": "2dec4feebe7bf2e1021315936528dcda3df6dda6a8614314632bab663ab6f02f",
+      "vertices_unused_by_faces": 0,
+      "unused_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "isolated_vertices": 0,
+      "isolated_vertex_positions_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    },
+    "RV2_POND_Visible terrain with bounded basin excavation": {
+      "mesh": "RV2_POND_Visible terrain with bounded basin excavation boun.002",
+      "counts": {
+        "vertices": 1277611,
+        "edges": 3445501,
+        "polygons": 2113904,
+        "loops": 6341748,
+        "triangles": 2113940
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "6067636e76cc404222d821493bf78545f27589dd3d87ddc7b29026f1185fe22b",
+      "triangle_position_uv_material_smooth_winding_multiset": "f55094c2ba801f3961cd0dbff1c98eac5f801961266306c205f8dc4cc1c0595b",
+      "all_vertex_positions_multiset": "41f37d7c5c2247677420af36e2384e2386d9c49501f521459481f7d825cc8d2b",
+      "all_edge_endpoints_multiset": "cb910ab8a9beaa72b6e7f6ce1d9ae6a0b26d15e914e866e6728fdaf90f76b6e6",
+      "all_edge_endpoints_sharp_seam_multiset": "2bb05a1af24523a8f91c67833bf1633acbd1937ce6e4d6025a431b8c8d60de6d",
+      "vertices_unused_by_faces": 9296,
+      "unused_vertex_positions_multiset": "cb0d8182ba77b660a7e8008fb7bb9095b1a0d9f5d188c8a9bd60af933137149b",
+      "isolated_vertices": 9264,
+      "isolated_vertex_positions_multiset": "8c0f029d456bb39bc92f5ccc7e3f05b91e49c0dfab62b2d5fe68d21b681eaf38",
+      "loose_edges": 116,
+      "loose_edge_endpoints_multiset": "7f608cbfdde16c03a8317ddc6e6adb3959705d4f6c44d2b55a85435f13064106",
+      "hide_render": false
+    },
+    "RV2_PS_public_path_grounded_edge_closures": {
+      "mesh": "RV2_WALKCLR_open_planes.001 bounded final residuals",
+      "counts": {
+        "vertices": 5160,
+        "edges": 6393,
+        "polygons": 2550,
+        "loops": 7650,
+        "triangles": 2550
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_PS_weathered_sport_green",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_rim_orange",
+        "RV2_PS_net_dark",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_light_granite",
+        "RV2_PS_rose_soil",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_coral",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_fountain_water",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_auxiliary_red_hardcourt"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_PS_auxiliary_red_hardcourt",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_fountain_water",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_light_granite",
+        "RV2_PS_net_dark",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_rim_orange",
+        "RV2_PS_rose_coral",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_soil",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_weathered_sport_green"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "55decefa75490508c77783b390e0c371c862f19330ccc67a17ea4d564dfe8d4d",
+      "triangle_position_uv_material_smooth_winding_multiset": "3fbae1d8443e2099c97fa640cc20091742d54d2e696fbc9bd4638ab405daa193",
+      "all_vertex_positions_multiset": "98e3935812b3ea2254e1a0323acc5fb684f57708c6ffae65ccb24066dc6993b0",
+      "all_edge_endpoints_multiset": "874ef90e1c5c2b72d2fc8d937603e2e0133a5a70f9f8a316dbc6cf9aac9e0924",
+      "all_edge_endpoints_sharp_seam_multiset": "1b930e162c8149a7eae268963d8582bf82ce014d25c38a646cfc0282b2cdbb74",
+      "vertices_unused_by_faces": 24,
+      "unused_vertex_positions_multiset": "88a04d75a213d5a8008ad4a80246463fc70a8f201413fa6a8f6745bbb14ab11f",
+      "isolated_vertices": 24,
+      "isolated_vertex_positions_multiset": "88a04d75a213d5a8008ad4a80246463fc70a8f201413fa6a8f6745bbb14ab11f",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_PS_rose_bed_soil": {
+      "mesh": "RV2_PS_rose_bed_soil mesh bounded final residuals",
+      "counts": {
+        "vertices": 8939,
+        "edges": 9788,
+        "polygons": 3590,
+        "loops": 10770,
+        "triangles": 3590
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_PS_weathered_sport_green",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_rim_orange",
+        "RV2_PS_net_dark",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_light_granite",
+        "RV2_PS_rose_soil",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_coral",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_fountain_water",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_auxiliary_red_hardcourt"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_PS_auxiliary_red_hardcourt",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_fountain_water",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_light_granite",
+        "RV2_PS_net_dark",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_rim_orange",
+        "RV2_PS_rose_coral",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_soil",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_weathered_sport_green"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "8489470f38ebf4f93b38aba264fc2881320904224ec5f603015e7df3dd0279a0",
+      "triangle_position_uv_material_smooth_winding_multiset": "231e1cd95cb39d37964a0bb6265b8b886ff1766593cf55adb90bf1c6d851f11d",
+      "all_vertex_positions_multiset": "88569d73f920aace601cd522403cba500e345809aaa400b40d3169d2da2e4675",
+      "all_edge_endpoints_multiset": "2e223de3c2e996ed6dbda3cf48d9259fff88a6935704fa0f7a45864b390677bd",
+      "all_edge_endpoints_sharp_seam_multiset": "164847c89984844143eb0a29970ad1f3bcbdd34e81b36d4c07a3483f9299c37e",
+      "vertices_unused_by_faces": 133,
+      "unused_vertex_positions_multiset": "69455d5cba002abf706e5e4ff5bbab01d43ceb8c91a8e810112b54077d8bad31",
+      "isolated_vertices": 133,
+      "isolated_vertex_positions_multiset": "69455d5cba002abf706e5e4ff5bbab01d43ceb8c91a8e810112b54077d8bad31",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_PS_rose_formal_hedge_boundaries": {
+      "mesh": "RV2_WALKCLR_opened_components bounded final residuals",
+      "counts": {
+        "vertices": 26408,
+        "edges": 32149,
+        "polygons": 12846,
+        "loops": 38538,
+        "triangles": 12846
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_PS_weathered_sport_green",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_rim_orange",
+        "RV2_PS_net_dark",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_light_granite",
+        "RV2_PS_rose_soil",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_coral",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_fountain_water",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_auxiliary_red_hardcourt"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_PS_auxiliary_red_hardcourt",
+        "RV2_PS_backboard_pale",
+        "RV2_PS_basketball_faded_key",
+        "RV2_PS_canopy_teal",
+        "RV2_PS_clipped_hedge",
+        "RV2_PS_court_cream_line",
+        "RV2_PS_fence_galvanised",
+        "RV2_PS_fountain_water",
+        "RV2_PS_leaf_dark",
+        "RV2_PS_leaf_light",
+        "RV2_PS_light_granite",
+        "RV2_PS_net_dark",
+        "RV2_PS_recess_shadow",
+        "RV2_PS_rim_orange",
+        "RV2_PS_rose_coral",
+        "RV2_PS_rose_ivory",
+        "RV2_PS_rose_pink",
+        "RV2_PS_rose_red",
+        "RV2_PS_rose_soil",
+        "RV2_PS_stage_light_silver",
+        "RV2_PS_tennis_sand_dressed_sage",
+        "RV2_PS_theatre_wood",
+        "RV2_PS_warm_brick_path",
+        "RV2_PS_weathered_sport_green"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "c913965ce20c7f7268bfd69473a0c44f02043edaa4fdbbad01b2154bb3ee7ef7",
+      "triangle_position_uv_material_smooth_winding_multiset": "550298d9af9a8f5a3a8e8d1fa75fbd3f9eba53d666673af870773c3569bd373c",
+      "all_vertex_positions_multiset": "4c8f19f3fb3f8bc1bec71701e34ddce2c9b04e48cfe7196e67a04c6198e4e4b8",
+      "all_edge_endpoints_multiset": "4546c6ef335967633761cbf160fea39142d7f7b0a8866f5ce22020eebfa4a93e",
+      "all_edge_endpoints_sharp_seam_multiset": "1adc367b5b364eb42fc8dc5963503d92268d0105310b3082d0f0b88f588c3232",
+      "vertices_unused_by_faces": 648,
+      "unused_vertex_positions_multiset": "38ab7082098cce1e7719406d4137608844c7041dc441345f805151dc4ed0b912",
+      "isolated_vertices": 648,
+      "isolated_vertex_positions_multiset": "38ab7082098cce1e7719406d4137608844c7041dc441345f805151dc4ed0b912",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_SCHOOL_175 unified nonoverlapping access roads": {
+      "mesh": "RV2_SCHOOL_175 unified nonoverlapping access roads bounded fina",
+      "counts": {
+        "vertices": 10854,
+        "edges": 11131,
+        "polygons": 3838,
+        "loops": 11514,
+        "triangles": 3838
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "RV2_SCHOOL_warm white render",
+        "RV2_SCHOOL_red school brick",
+        "RV2_SCHOOL_red facade stripes",
+        "RV2_SCHOOL_blue grey glass",
+        "RV2_SCHOOL_aluminium window frames",
+        "RV2_SCHOOL_flat grey roof",
+        "RV2_SCHOOL_green barrel roof",
+        "RV2_SCHOOL_concrete apron",
+        "RV2_SCHOOL_school sandy field",
+        "RV2_SCHOOL_green multi sport",
+        "RV2_SCHOOL_white field marking",
+        "RV2_SCHOOL_asphalt",
+        "RV2_SCHOOL_terrain extension",
+        "RV2_SCHOOL_stone retaining face"
+      ],
+      "canonical_material_names": [
+        "",
+        "RV2_SCHOOL_aluminium window frames",
+        "RV2_SCHOOL_asphalt",
+        "RV2_SCHOOL_blue grey glass",
+        "RV2_SCHOOL_concrete apron",
+        "RV2_SCHOOL_flat grey roof",
+        "RV2_SCHOOL_green barrel roof",
+        "RV2_SCHOOL_green multi sport",
+        "RV2_SCHOOL_red facade stripes",
+        "RV2_SCHOOL_red school brick",
+        "RV2_SCHOOL_school sandy field",
+        "RV2_SCHOOL_stone retaining face",
+        "RV2_SCHOOL_terrain extension",
+        "RV2_SCHOOL_warm white render",
+        "RV2_SCHOOL_white field marking"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "27a6c76940fa8d9ab9279a95309d765973719c08fa3cdf6dbe55ac1174f47294",
+      "triangle_position_uv_material_smooth_winding_multiset": "2ca414d5f110d857acca8a6b7eec2f828cad95ab908fbe36de85e4f079bed091",
+      "all_vertex_positions_multiset": "6bd30bbfa4ef90e0aee2751a7ad79b223bce7c11c82d4adee95147e305955267",
+      "all_edge_endpoints_multiset": "bf73c558b8bc1cbc2a6339caa6043e2864efbaa25cf9a2c5f8cfee76cb6b2461",
+      "all_edge_endpoints_sharp_seam_multiset": "fddab4de359a6c2077d1c0dcb9a7168ac733804949806581502d2693fe68c827",
+      "vertices_unused_by_faces": 157,
+      "unused_vertex_positions_multiset": "0d1b4d79ce9825166970a99d2136f1ec297cfe94dccbd57d0bb548e9fd6366c8",
+      "isolated_vertices": 157,
+      "isolated_vertex_positions_multiset": "0d1b4d79ce9825166970a99d2136f1ec297cfe94dccbd57d0bb548e9fd6366c8",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": false
+    },
+    "RV2_WALKIF_preserved | RV2_POND_Visible terrain with bounded ba": {
+      "mesh": "RV2_POND_Visible terrain with bounded basin excavation boun.001",
+      "counts": {
+        "vertices": 1277392,
+        "edges": 3445282,
+        "polygons": 2113918,
+        "loops": 6341754,
+        "triangles": 2113918
+      },
+      "pose": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_slots": [
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "canonical_material_names": [
+        "",
+        "CAMPUS • hill grass",
+        "RV2_SCHOOL_concrete apron"
+      ],
+      "uv_layers": [],
+      "triangle_position_winding_multiset": "439571370c83e3bfc5383cff73d2b15f0c6605b957d351c0bb1cc2798615a41f",
+      "triangle_position_uv_material_smooth_winding_multiset": "c6dc47ec8c45733635f7478f927a237c92248fee1f4e67bbb522f39c00b1746c",
+      "all_vertex_positions_multiset": "1deb37dad7294c29415629499c1663224dc158c0371d72c49858a660b2e9de4d",
+      "all_edge_endpoints_multiset": "04c258d7cf1b9eca24583238449d86296b61d68613c6f24c33a985761f661c5c",
+      "all_edge_endpoints_sharp_seam_multiset": "ed2948ae550411f00e4185cce7dda8feadea467f8c7509e1f77e42d4818df322",
+      "vertices_unused_by_faces": 9264,
+      "unused_vertex_positions_multiset": "8c0f029d456bb39bc92f5ccc7e3f05b91e49c0dfab62b2d5fe68d21b681eaf38",
+      "isolated_vertices": 9264,
+      "isolated_vertex_positions_multiset": "8c0f029d456bb39bc92f5ccc7e3f05b91e49c0dfab62b2d5fe68d21b681eaf38",
+      "loose_edges": 0,
+      "loose_edge_endpoints_multiset": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "hide_render": true
+    }
+  },
+  "native_unchanged": true,
+  "elapsed_seconds": 31.790029525756836
+}

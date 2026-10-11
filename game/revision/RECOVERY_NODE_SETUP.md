@@ -1,0 +1,1 @@
+Node-only lighting checks resolve bare three to the exact Three.js 0.180.0 module/core/addons already bundled and SHA-verified in the base ZIP. No network installation or version upgrade. node_modules is local-only and excluded from delivery; normal user setup remains npm ci --ignore-scripts.

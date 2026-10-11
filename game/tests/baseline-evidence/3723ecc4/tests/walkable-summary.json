@@ -1,0 +1,90 @@
+{
+  "status": "failed",
+  "elapsedSeconds": 778.918,
+  "maxRSS_MB": 2770.94,
+  "nativeSourceSha256": "3723ecc4013efc6351d77c6674fb74ff2d5464616071c2d268ab303bf0c799a0",
+  "changedInputFiles": [],
+  "paths": 142,
+  "walkOutcomeCount": 284,
+  "surfaceSamples": 44764,
+  "walkFailures": [
+    {
+      "id": "inferred_walk_connector_1125125519_2",
+      "type": "walk_forward",
+      "pass": false,
+      "worstError": 0.41545066798944674,
+      "maxFrameHeightJump": 0.5636497494103452,
+      "steps": 303,
+      "failed": {
+        "kind": "excessive_frame_height_change",
+        "maximum": 0.5636497494103452,
+        "limit": 0.56
+      }
+    },
+    {
+      "id": "final_mapped_footway_947734765",
+      "type": "walk_forward",
+      "pass": false,
+      "worstError": 0.3909321803492647,
+      "maxFrameHeightJump": 0,
+      "steps": 82,
+      "failed": {
+        "target": [
+          100.5987413617228,
+          -50.98199844360332,
+          408.2327734998711
+        ],
+        "position": [
+          100.23813447094167,
+          -50.981998443603516,
+          408.08180780855747
+        ],
+        "horizontalError": 0.3909321803492647,
+        "verticalError": 1.9895196601282805e-13
+      }
+    },
+    {
+      "id": "final_mapped_footway_947734765",
+      "type": "walk_reverse",
+      "pass": false,
+      "worstError": 0.2525772922778078,
+      "maxFrameHeightJump": 0.015662766975182763,
+      "steps": 132,
+      "failed": {
+        "target": [
+          117.53523589639846,
+          -48.06542919837338,
+          410.7342246224204
+        ],
+        "position": [
+          117.54429514007455,
+          -48.052816256389924,
+          410.48180984734097
+        ],
+        "horizontalError": 0.2525772922778078,
+        "verticalError": 0.012612941983455528
+      }
+    }
+  ],
+  "surfaceFailureCounts": {
+    "inferred_walk_connector_942433747_0_approach_60": 1,
+    "inferred_walk_connector_942433747_0_tread_1": 2,
+    "inferred_walk_connector_942433747_0_tread_2": 2,
+    "inferred_walk_connector_942433747_0_tread_3": 2,
+    "inferred_walk_connector_942433747_0_tread_4": 2,
+    "inferred_walk_connector_942433747_0_tread_5": 2,
+    "inferred_walk_connector_942433747_0_tread_6": 2,
+    "verified_entry_144_887_2": 1,
+    "verified_entry_149_5_1": 1,
+    "verified_entry_149_5_2": 1,
+    "RV2_HOSPITAL | photo supported paved forecourt": 93,
+    "RV2_HOSPITAL | entrance pedestrian strip": 6,
+    "RV2_HOSPITAL_CLEAN_RV2_HOSPITAL | Nammun mapped road 477096419": 3,
+    "rv2_pond_surface_4": 3,
+    "central108_tread_005": 2,
+    "central108_tread_006": 2,
+    "central108_tread_007": 6,
+    "IT138_high_approach_1265": 1
+  },
+  "sourceReportSha256": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+}

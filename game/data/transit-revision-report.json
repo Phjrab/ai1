@@ -1,0 +1,82 @@
+{
+  "sourceSha256": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08",
+  "routeXYUnchanged": true,
+  "stopOrder": [
+    "monument",
+    "art",
+    "library",
+    "engineering2",
+    "law_business",
+    "main_north",
+    "student_union"
+  ],
+  "simulatedBusCount": 2,
+  "terminalStopId": "monument",
+  "repeatCirculation": false,
+  "headingSpanMeters": 6.4,
+  "cityMarkers": 8,
+  "metadataOnlyCityStops": 4,
+  "rightHandWaiting": [
+    "monument",
+    "art",
+    "library",
+    "engineering2",
+    "law_business",
+    "main_north",
+    "student_union",
+    "social_science"
+  ],
+  "curbApproachAnimated": false,
+  "source": "https://www3.chosun.ac.kr/chosun/160/subview.do",
+  "sourceReviewDate": "2026-10-09",
+  "geometryReview": {
+    "sourceSha256": "6a58b15c47bbd25914e3c1f7bd917588ae32f982f94c7ced413efaa5b5c2fc36",
+    "issues": [
+      {
+        "id": "hospital_low_roof_black_triangle",
+        "image": "realism_v2/hospital_arrival_review/hospital_arrival_verified.png",
+        "image_pixel_region": [
+          25,
+          210,
+          170,
+          250
+        ],
+        "description": "Large black triangular region on upper-left low connecting roof; roof/source overlap must be inspected separately.",
+        "scope": "Hospital roof; transit module does not modify this geometry",
+        "use_limit": "Do not describe broad hospital image as completed-building verification. Close entrance image may illustrate canopy/ground-contact work only.",
+        "resolution_status": "corrected_and_inspected_in_local_candidate_pending_final_integration",
+        "correction_modules": [
+          "realism_v2/hospital_arrival.py",
+          "realism_v2/hospital_surface_cleanup.py"
+        ],
+        "local_candidate_sha256": "5a5baff6b0264173e2a88019d075538fa5b6ff98ef9a227af5b8c9f02c145099",
+        "local_review_image": "realism_v2/final_repairs/hospital_gentle_approach_local_review.png",
+        "local_review_image_sha256": "6610c13cdd3c4f33743a4bd4f372a6b28ffd5b87292130e221061cda35aa7221",
+        "remaining": "Check exact final integrated native view and actual road interfaces; older diagnostic images remain historical."
+      },
+      {
+        "id": "nammun_road_join_overlap",
+        "image": "realism_v2/transit_review/hospital_stops_1149_1150_oidn.png",
+        "description": "Black overlap artifacts where two new Nammun strips meet crossing/approach ribbons, visible at left lateral connector and far-right upper branch.",
+        "scope": "Hospital module road-to-road intersections; transit road hashes unchanged",
+        "use_limit": "Wide roadway image is diagnostic; use audited stop closeups for stop-specific progress.",
+        "resolution_status": "corrected_and_inspected_in_local_candidate_pending_final_integration",
+        "correction_modules": [
+          "realism_v2/hospital_arrival.py",
+          "realism_v2/hospital_surface_cleanup.py"
+        ],
+        "local_candidate_sha256": "5a5baff6b0264173e2a88019d075538fa5b6ff98ef9a227af5b8c9f02c145099",
+        "local_review_image": "realism_v2/final_repairs/hospital_gentle_approach_local_review.png",
+        "local_review_image_sha256": "6610c13cdd3c4f33743a4bd4f372a6b28ffd5b87292130e221061cda35aa7221",
+        "remaining": "Check exact final integrated native view and actual road interfaces; older diagnostic images remain historical."
+      },
+      {
+        "id": "final_v5_resampling",
+        "description": "All geometry checks in this round use hospital review based on terrain4.4. Reapply transit after finalv5/hospital/entrance modules and repeat raycast clearance/support checks.",
+        "resolution_status": "pending_final_all_scope_native"
+      }
+    ],
+    "status": "Local corrections inspected; final integrated visual/contact QA remains required",
+    "scope": "Source review issues retained verbatim; geometry closure requires final native/runtime evidence."
+  }
+}

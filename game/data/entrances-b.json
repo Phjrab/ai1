@@ -1,0 +1,741 @@
+{
+  "module": "entrances_b",
+  "source_date": "2026-10-09",
+  "records": [
+    {
+      "index": 36,
+      "building_id": 162,
+      "key": "hospital_main",
+      "xy": [
+        322.8653875954242,
+        -819.686841825114
+      ],
+      "u": [
+        0.6624856583165264,
+        0.7490745974366764
+      ],
+      "n": [
+        0.7490745974366764,
+        -0.6624856583165264
+      ],
+      "width": 7.6,
+      "node": "8745103348",
+      "location_confidence": "mapped node + photo-supported central forecourt facade",
+      "role": "main",
+      "role_confidence": "OSM entrance=main and photographed primary canopy",
+      "old_modeled_door": [
+        338.339,
+        -802.1904999999999,
+        -29.186494827270508
+      ],
+      "add": false,
+      "threshold_basis": {
+        "visible_mesh_base_z": -29.186494827270508,
+        "inner_floor_support": {
+          "object": "CAMPUS_BUILDING 162 | RV2 foundation floor 36",
+          "z": -29.21149444580078,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_CONTINUOUS pedestrian paving",
+          "z": -28.856508255004883,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": -28.831508255004884,
+      "new_door": [
+        323.0901099746552,
+        -819.885587522609,
+        -28.831508255004884
+      ],
+      "outward_normal": [
+        0.7490745974366764,
+        -0.6624856583165264
+      ],
+      "old_destination": [
+        242.77947906934176,
+        -862.3076930083166,
+        -29.086494406309004
+      ],
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/162/detailView.do",
+        "https://www.openstreetmap.org/node/8745103348"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            323.2399248941425,
+            -820.0180846542722
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -28.856508255004883,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.02499999999999858
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            323.76427711234817,
+            -820.4818246150938
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -28.85696029663086,
+            "normal_z": 0.9999995827674866
+          },
+          "threshold_minus_support_m": 0.02545204162597514
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            324.73807408901587,
+            -821.3430559709053
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -28.87531852722168,
+            "normal_z": 0.999159574508667
+          },
+          "threshold_minus_support_m": 0.043810272216795454
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            326.61076058260755,
+            -822.9992701166966
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -29.062637329101562,
+            "normal_z": 0.9940388202667236
+          },
+          "threshold_minus_support_m": 0.23112907409667827
+        }
+      ],
+      "movement_from_catalogue_xy_m": 90.82638642074227,
+      "movement_from_previous_modeled_door_xy_m": 23.359040422026183,
+      "safe_arrival": [
+        324.73807408901587,
+        -821.3430559709053,
+        -28.87531852722168
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "mapped node + photo-supported central forecourt facade"
+    },
+    {
+      "index": 39,
+      "building_id": 131,
+      "key": "law_main",
+      "xy": [
+        383.2700467509294,
+        -4.254819504158597
+      ],
+      "width": 4.8,
+      "node": "11134046451",
+      "location_confidence": "mapped exact facade vertex; photo supports west-facing portal family",
+      "role": "main",
+      "role_confidence": "OSM entrance=main",
+      "old_modeled_door": [
+        384.3605,
+        -31.3185,
+        14.0
+      ],
+      "canopy": true,
+      "u": [
+        -0.08766881276123563,
+        -0.9961496771414602
+      ],
+      "n": [
+        -0.9961496771414602,
+        0.08766881276123563
+      ],
+      "threshold_basis": {
+        "visible_mesh_base_z": 14.0,
+        "inner_floor_support": {
+          "object": "CAMPUS_BUILDING 131 | RV2 foundation floor 39",
+          "z": 13.975000381469727,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_TERRAIN | continuous hillside ground",
+          "z": 13.975000381469727,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": 14.000000381469727,
+      "new_door": [
+        382.971201847787,
+        -4.228518860330226,
+        14.000000381469727
+      ],
+      "outward_normal": [
+        -0.9961496771414602,
+        0.08766881276123563
+      ],
+      "old_destination": [
+        383.96202473039034,
+        -31.283607887574277,
+        12.220583477882059
+      ],
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/131/detailView.do",
+        "https://www.openstreetmap.org/node/11134046451"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            382.77197191235865,
+            -4.2109850977779795
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": 13.975000381469727,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.025000000000000355
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            382.07466713835964,
+            -4.149616928845115
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": 13.974774360656738,
+            "normal_z": 0.9999988079071045
+          },
+          "threshold_minus_support_m": 0.025226020812988637
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            380.77967255807573,
+            -4.035647472255508
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": 13.951669692993164,
+            "normal_z": 0.9984239339828491
+          },
+          "threshold_minus_support_m": 0.048330688476562855
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            378.28929836522207,
+            -3.816475440352419
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": 13.628251075744629,
+            "normal_z": 0.971954345703125
+          },
+          "threshold_minus_support_m": 0.371749305725098
+        }
+      ],
+      "movement_from_catalogue_xy_m": 27.07322611468371,
+      "movement_from_previous_modeled_door_xy_m": 27.125582528369904,
+      "safe_arrival": [
+        380.77967255807573,
+        -4.035647472255508,
+        13.951669692993164
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "mapped exact facade vertex; photo supports west-facing portal family"
+    },
+    {
+      "index": 61,
+      "building_id": 130,
+      "key": "science_west",
+      "xy": [
+        212.69649321614617,
+        -626.8029780635973
+      ],
+      "width": 4.0,
+      "node": "8745101699",
+      "location_confidence": "mapped outer-way vertex and photographed central west entry bay",
+      "role": "main",
+      "role_confidence": "OSM entrance=main; photo-visible entrance",
+      "canopy": true,
+      "u": [
+        -0.43361401112526615,
+        -0.9010987123261567
+      ],
+      "n": [
+        -0.9010987123261567,
+        0.43361401112526615
+      ],
+      "threshold_basis": {
+        "visible_mesh_base_z": -31.27671241760254,
+        "inner_floor_support": {
+          "object": "CAMPUS_BUILDING 130 | RV2 foundation floor 61",
+          "z": -31.301712036132812,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_CONTINUOUS pedestrian paving",
+          "z": -30.94670867919922,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": -30.92170867919922,
+      "new_door": [
+        212.42616360244833,
+        -626.6728938602597,
+        -30.92170867919922
+      ],
+      "outward_normal": [
+        -0.9010987123261567,
+        0.43361401112526615
+      ],
+      "old_destination": [
+        274.2139253568412,
+        -659.2104749611498,
+        -31.17671159602848
+      ],
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/130/detailView.do",
+        "https://www.openstreetmap.org/node/8745101699"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            212.2459438599831,
+            -626.5861710580347
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -30.94670867919922,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.02499999999999858
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            211.61517476135478,
+            -626.2826412502469
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -30.947219848632812,
+            "normal_z": 0.9999464154243469
+          },
+          "threshold_minus_support_m": 0.02551116943359233
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            210.44374643533078,
+            -625.7189430357842
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -30.98004913330078,
+            "normal_z": 0.9977654814720154
+          },
+          "threshold_minus_support_m": 0.05834045410156108
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            208.1909996545154,
+            -624.6349080079709
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -31.364818572998047,
+            "normal_z": 0.9582199454307556
+          },
+          "threshold_minus_support_m": 0.4431098937988267
+        }
+      ],
+      "movement_from_catalogue_xy_m": 69.83138038528674,
+      "movement_from_previous_modeled_door_xy_m": null,
+      "safe_arrival": [
+        210.44374643533078,
+        -625.7189430357842,
+        -30.98004913330078
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "mapped outer-way vertex and photographed central west entry bay"
+    },
+    {
+      "index": 61,
+      "building_id": 130,
+      "key": "science_southwest",
+      "xy": [
+        223.2050810858728,
+        -683.7981979388793
+      ],
+      "width": 3.2,
+      "node": "13622043037",
+      "location_confidence": "mapped outer-way vertex and connected sidewalk944569919; no close photo",
+      "role": "main",
+      "role_confidence": "OSM entrance=main; relative priority unverified",
+      "canopy": false,
+      "u": [
+        0.900456641447794,
+        -0.4349457861303624
+      ],
+      "n": [
+        -0.4349457861303624,
+        -0.900456641447794
+      ],
+      "threshold_basis": {
+        "visible_mesh_base_z": -31.27671241760254,
+        "inner_floor_support": {
+          "object": "CAMPUS_BUILDING 130 | RV2 foundation floor 61",
+          "z": -31.301712036132812,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_CONTINUOUS pedestrian paving",
+          "z": -30.94292449951172,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": -30.91792449951172,
+      "new_door": [
+        223.07459735003368,
+        -684.0683349313136,
+        -30.91792449951172
+      ],
+      "outward_normal": [
+        -0.4349457861303624,
+        -0.900456641447794
+      ],
+      "old_destination": [
+        274.2139253568412,
+        -659.2104749611498,
+        -31.17671159602848
+      ],
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/130/detailView.do",
+        "https://www.openstreetmap.org/node/13622043037"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            222.9876081928076,
+            -684.2484262596032
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -30.94292449951172,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.02499999999999858
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            222.68314614251636,
+            -684.8787459086167
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS pedestrian paving",
+            "z": -30.94292449951172,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.02499999999999858
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            222.11771662054687,
+            -686.0493395424987
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS vehicle asphalt",
+            "z": -31.002933502197266,
+            "normal_z": 0.9999999403953552
+          },
+          "threshold_minus_support_m": 0.08500900268554545
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            221.03035215522098,
+            -688.3004811461183
+          ],
+          "support": {
+            "object": "CAMPUS_CONTINUOUS vehicle asphalt",
+            "z": -30.988492965698242,
+            "normal_z": 0.9998756051063538
+          },
+          "threshold_minus_support_m": 0.07056846618652202
+        }
+      ],
+      "movement_from_catalogue_xy_m": 56.86074279574723,
+      "movement_from_previous_modeled_door_xy_m": null,
+      "safe_arrival": [
+        222.11771662054687,
+        -686.0493395424987,
+        -31.002933502197266
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "mapped outer-way vertex and connected sidewalk944569919; no close photo"
+    },
+    {
+      "index": 37,
+      "building_id": 166,
+      "key": "dental_main",
+      "xy": [
+        -340.6112,
+        -672.4005999999999
+      ],
+      "width": 5.6,
+      "location_confidence": "long forecourt facade confirmed by official photos; relative 60% position approximate",
+      "role": "main",
+      "role_confidence": "photographed named primary canopy",
+      "u": [
+        0.7772971641730653,
+        -0.6291336253678632
+      ],
+      "n": [
+        -0.6291336253678632,
+        -0.7772971641730653
+      ],
+      "canopy": true,
+      "threshold_basis": {
+        "visible_mesh_base_z": -52.983375549316406,
+        "inner_floor_support": {
+          "object": "CAMPUS_BUILDING 166 | RV2 foundation floor 37",
+          "z": -53.00837707519531,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_TERRAIN | continuous hillside ground",
+          "z": -53.00838851928711,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": -52.983377075195314,
+      "new_door": [
+        -340.79994008761037,
+        -672.6337891492518,
+        -52.983377075195314
+      ],
+      "outward_normal": [
+        -0.6291336253678632,
+        -0.7772971641730653
+      ],
+      "old_destination": [
+        -313.8073719659195,
+        -678.0857747363176,
+        -52.883376483996
+      ],
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/166/detailView.do"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            -340.92576681268395,
+            -672.7892485820864
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -53.00838851928711,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.025011444091795454
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            -341.3661603504414,
+            -673.3333565970077
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -53.00840759277344,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.02503051757812358
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            -342.18403406341963,
+            -674.3438429104326
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -53.016746520996094,
+            "normal_z": 0.9999454021453857
+          },
+          "threshold_minus_support_m": 0.03336944580077983
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            -343.7568681268393,
+            -676.2870858208653
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -53.060794830322266,
+            "normal_z": 0.9996849298477173
+          },
+          "threshold_minus_support_m": 0.0774177551269517
+        }
+      ],
+      "movement_from_catalogue_xy_m": 27.53766294814602,
+      "movement_from_previous_modeled_door_xy_m": null,
+      "safe_arrival": [
+        -342.18403406341963,
+        -674.3438429104326,
+        -53.016746520996094
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "long forecourt facade confirmed by official photos; relative 60% position approximate"
+    },
+    {
+      "index": "annex149",
+      "building_id": 149,
+      "key": "professor_annex_main",
+      "xy": [
+        -181.94300407471,
+        -0.14307346184332914
+      ],
+      "raw_mapped_xy": [
+        -182.92381756428748,
+        -2.2930187528353514
+      ],
+      "projection_offset_m": 2.3631038605181818,
+      "u": [
+        0.9097972065098241,
+        -0.4150530604957885
+      ],
+      "n": [
+        -0.4150530604957885,
+        -0.9097972065098241
+      ],
+      "width": 4.0,
+      "node": "4631691594",
+      "location_confidence": "mapped direction projected to preserved photo-model circle; projected point approximate",
+      "role": "main",
+      "role_confidence": "OSM entrance=main and official photo entry canopy",
+      "canopy": true,
+      "threshold_basis": {
+        "visible_mesh_base_z": 0.15,
+        "inner_floor_support": {
+          "object": "CAMPUS_TERRAIN | continuous hillside ground",
+          "z": -0.20000016689300537,
+          "normal_z": 1.0
+        },
+        "front_paving_support": {
+          "object": "CAMPUS_TERRAIN | continuous hillside ground",
+          "z": -0.20000004768371582,
+          "normal_z": 1.0
+        },
+        "selection": "Highest adjacent supported threshold within0.6m of current base; annex retains historic0.15m interior floor."
+      },
+      "threshold_z": 0.15,
+      "new_door": [
+        -182.06751999285873,
+        -0.41601262379627635,
+        0.15
+      ],
+      "outward_normal": [
+        -0.4150530604957885,
+        -0.9097972065098241
+      ],
+      "old_destination": null,
+      "sources": [
+        "https://www3.chosun.ac.kr/campusMap/chosun/149/detailView.do",
+        "https://www.openstreetmap.org/node/4631691594"
+      ],
+      "level": "ground-level in current model; no level tag supplied by source",
+      "source_date": "2026-10-09",
+      "support_checks": [
+        {
+          "outward_distance_m": 0.5,
+          "xy": [
+            -182.15053060495788,
+            -0.5979720650982412
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -0.20000004768371582,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.35000004768371584
+        },
+        {
+          "outward_distance_m": 1.2,
+          "xy": [
+            -182.44106774730494,
+            -1.234830109655118
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -0.20000004768371582,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.35000004768371584
+        },
+        {
+          "outward_distance_m": 2.5,
+          "xy": [
+            -182.98063672594947,
+            -2.417566478117889
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -0.20000004768371582,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.35000004768371584
+        },
+        {
+          "outward_distance_m": 5,
+          "xy": [
+            -184.01826937718894,
+            -4.692059494392449
+          ],
+          "support": {
+            "object": "CAMPUS_TERRAIN | continuous hillside ground",
+            "z": -0.20000004768371582,
+            "normal_z": 1.0
+          },
+          "threshold_minus_support_m": 0.35000004768371584
+        }
+      ],
+      "movement_from_catalogue_xy_m": null,
+      "movement_from_previous_modeled_door_xy_m": null,
+      "safe_arrival": [
+        -182.98063672594947,
+        -2.417566478117889,
+        -0.20000004768371582
+      ],
+      "safe_arrival_status": "candidate support ray only; collision/connectivity must be checked by terrain/game add-on",
+      "source_confidence": "mapped direction projected to preserved photo-model circle; projected point approximate"
+    }
+  ]
+}

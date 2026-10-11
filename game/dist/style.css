@@ -14,3 +14,7 @@
 @media(max-width:600px){#location{max-width:calc(100vw - 40px)}#location h1{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}}
 
 dialog{max-height:85dvh;overflow-y:auto}dialog p.credits{font-size:11px;line-height:1.6}
+
+/* Lighting controls share the existing menu and leave touch movement clear. */
+.lighting-settings{border:1px solid #ffffff30;border-radius:8px;padding:12px;margin:0 0 22px;font-size:14px}.lighting-settings legend{color:#e9c876;padding:0 6px}.lighting-settings select{font:inherit;color:#fff;background:#24434c;border:1px solid #ffffff44;border-radius:5px;padding:6px;margin-left:10px}.lighting-settings select:focus-visible{outline:3px solid #edca75;outline-offset:3px}.lighting-detail{display:flex;align-items:center;gap:8px;margin-top:12px}.lighting-detail input{width:18px;height:18px;accent-color:#e9c876}.lighting-settings p{font-size:12px;line-height:1.6;margin-bottom:0;color:#c3d4db}#timeToggle{min-width:56px}
+@media(max-width:430px){header{left:12px;right:12px}.header-actions button{padding:8px}.wordmark{gap:5px}.wordmark strong{font-size:14px}.wordmark div>span{font-size:7px}.crest{width:25px;height:30px;font-size:18px}#timeToggle{min-width:44px}}

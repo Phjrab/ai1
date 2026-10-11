@@ -1,0 +1,463 @@
+{
+  "passed": true,
+  "simulatedSeconds": 1200,
+  "realSourceUpdateSeconds": 22.020327804999994,
+  "blockedFrames": 0,
+  "buses": [
+    {
+      "id": "main_loop_0",
+      "laps": 0,
+      "visits": [
+        "monument",
+        "art",
+        "library",
+        "engineering2",
+        "law_business",
+        "main_north",
+        "student_union"
+      ],
+      "uniqueStops": [
+        "monument",
+        "art",
+        "library",
+        "engineering2",
+        "law_business",
+        "main_north",
+        "student_union"
+      ],
+      "phase": "terminal_queue",
+      "position": [
+        -83.43320231478175,
+        -51.862103411264734,
+        529.6307210521394
+      ],
+      "yaw": -2.078156318400549,
+      "speed": 0
+    },
+    {
+      "id": "main_loop_1",
+      "laps": 0,
+      "visits": [
+        "main_north",
+        "student_union",
+        "monument"
+      ],
+      "uniqueStops": [
+        "main_north",
+        "student_union",
+        "monument"
+      ],
+      "phase": "terminal",
+      "position": [
+        -72.10029094248378,
+        -51.93537465135499,
+        535.9306615337405
+      ],
+      "yaw": -2.078156318400554,
+      "speed": 0
+    }
+  ],
+  "samples": [
+    {
+      "seconds": 0,
+      "buses": [
+        {
+          "distance": 0,
+          "speed": 0,
+          "phase": "dwelling",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 1188.2682610579575,
+          "speed": 0.3,
+          "phase": "driving",
+          "nextStop": "main_north",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 60,
+      "buses": [
+        {
+          "distance": 234.36787922827932,
+          "speed": 0,
+          "phase": "dwelling",
+          "nextStop": "art",
+          "laps": 0
+        },
+        {
+          "distance": 1537.533261058035,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "main_north",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 120,
+      "buses": [
+        {
+          "distance": 519.4452609062523,
+          "speed": 0,
+          "phase": "dwelling",
+          "nextStop": "library",
+          "laps": 0
+        },
+        {
+          "distance": 1819.0861151913393,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "student_union",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 180,
+      "buses": [
+        {
+          "distance": 852.1452609063246,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "engineering2",
+          "laps": 0
+        },
+        {
+          "distance": 2100.5527283784722,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 240,
+      "buses": [
+        {
+          "distance": 1063.6595517054902,
+          "speed": 0.9500000000000003,
+          "phase": "driving",
+          "nextStop": "main_north",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 300,
+      "buses": [
+        {
+          "distance": 1415.242885038901,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "main_north",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 360,
+      "buses": [
+        {
+          "distance": 1696.686115191311,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "student_union",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 420,
+      "buses": [
+        {
+          "distance": 1978.152728378504,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 480,
+      "buses": [
+        {
+          "distance": 2338.152728378256,
+          "speed": 6,
+          "phase": "driving",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 540,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 600,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 660,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 720,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 780,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 840,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 900,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 960,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 1020,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 1080,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    },
+    {
+      "seconds": 1140,
+      "buses": [
+        {
+          "distance": 2363.5000108284135,
+          "speed": 0,
+          "phase": "terminal_queue",
+          "nextStop": "monument",
+          "laps": 0
+        },
+        {
+          "distance": 2376.4665221159144,
+          "speed": 0,
+          "phase": "terminal",
+          "nextStop": "monument",
+          "laps": 0
+        }
+      ]
+    }
+  ],
+  "expectedVisits": [
+    [
+      "monument",
+      "art",
+      "library",
+      "engineering2",
+      "law_business",
+      "main_north",
+      "student_union",
+      "monument"
+    ],
+    [
+      "main_north",
+      "student_union",
+      "monument"
+    ]
+  ],
+  "stoppedVehicleOverlap": false,
+  "terminalPolicy": "종점 회차 동선 미확인으로 반복 순환 미구현",
+  "decorativeVehiclesCleared": [],
+  "failure": null
+}

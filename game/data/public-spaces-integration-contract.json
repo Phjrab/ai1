@@ -1,0 +1,26 @@
+{
+  "module": "realism_v2/public_spaces.py",
+  "module_sha256": "c656c7cf2e30f152644a83c67b3143a7a9cf38a7cf3fbda48d3facf632586153",
+  "apply_order": "Existing architecture/grounding v4 baseline -> public_spaces.apply -> terrain v5 apply -> game export",
+  "native_game_same_collection": "RV2 | Source-grounded public spaces",
+  "game_export": true,
+  "ground_height_source": "Final visible glTF support triangles and post-v5 sidecar; not original elevation grid",
+  "sidecar": "realism_v2/public_spaces_review/public_spaces_navigation.json",
+  "required_nav_actions": [
+    "Merge bounded collisionBoxes; do not add aggregate garden/stage obstacle",
+    "Suppress legacy walk surfaces inside theatre and rose polygons",
+    "Keep sports compound -51.025 terrain / -51.0 court",
+    "Keep native/game 4 shared rose prototypes and 1477 placements"
+  ],
+  "open_integration_checks": [
+    "Rose-adjacent road/sidewalk dark/open-looking underbody seams; not certified by garden completion",
+    "Theatre outer hillside-to-road contact after v5",
+    "Runtime GLB inclusion, navigation and actor contact tests"
+  ],
+  "removeLegacyCollisionLabels": [
+    "1.8극장(노천극장)"
+  ],
+  "legacyTheatreColliderCount": 11,
+  "finalNativeReviewSHA256": "4cb5d72bf09fbc5ae6342ad249b3b822df952056bf32a84566c988df1fc5e5b1",
+  "deliveredZoneRenderManifest": "realism_v2/public_spaces_review/delivered_zone_render_manifest.json"
+}

@@ -1,0 +1,404 @@
+{
+  "schema": "chosun.site17.resolution-index.v1",
+  "status": "all17_required_behaviors_closed_with_documented_limits",
+  "originalResult": {
+    "path": "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions-results/site-additions-results.json",
+    "sha256": "34a23b594628045af0133746baad93b079bc641a296c9f4adfa0993bea9942ef"
+  },
+  "originalTotalRecords": 68,
+  "originalPassedRecords": 51,
+  "originalFailedRecords": 17,
+  "evidenceFiles": [
+    {
+      "path": "tests/closeout-evidence/site_failures_export2_diagnostic.json",
+      "sha256": "f289cab80267c2f8a079b554d2a81fadbc6e1f9f804951130a081d2aa48a94e2"
+    },
+    {
+      "path": "tests/closeout-evidence/site_failures_export2_after_guard.json",
+      "sha256": "eab67631c112f1915703833d2f30b69a048d2660e1294c5f93384bf714563383"
+    },
+    {
+      "path": "tests/closeout-evidence/421_tyre_contacts_measured.json",
+      "sha256": "48bb4abd82ad73b3d36a62c4639d8ad55a25396ef45f74c12733a227157d38e6"
+    },
+    {
+      "path": "tests/closeout-evidence/rose_endpoint_candidate_results.json",
+      "sha256": "8dac15e9ebfa780e7935fffe1cf6beff3f4a87a0028caa6d3fffde84e48b78cd"
+    }
+  ],
+  "records": [
+    {
+      "originalRowIndex": 14,
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": false,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Actual 0.4856m apron-to-first-tread height discontinuity.",
+        "change": "Two real lower treads; original upper treads and water constraints retained.",
+        "candidateEvidence": "rose_endpoint_candidate_results.json: pond_south_steps six directions passed with 0.34m radius and offsets -0.34/0/+0.34m.",
+        "requiredFinalCheck": "Exact new native pond route both directions; water exclusion."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "rv2_pond_cheongram_route",
+        "reverse": false,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 15,
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": true,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Actual 0.4856m apron-to-first-tread height discontinuity.",
+        "change": "Two real lower treads; original upper treads and water constraints retained.",
+        "candidateEvidence": "rose_endpoint_candidate_results.json: pond_south_steps six directions passed with 0.34m radius and offsets -0.34/0/+0.34m.",
+        "requiredFinalCheck": "Exact new native pond route both directions; water exclusion."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "rv2_pond_cheongram_route",
+        "reverse": true,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 16,
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": false,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Last mapped paving is below the soil; physical walking completes but source target Y is stale.",
+        "change": "Only18 original finite paving triangles replaced with200 triangles at actual soil+5mm where needed;53 path-point Z values consumed from exact replacement surface.",
+        "candidateEvidence": "rose_endpoint_candidate_results.json: center and negative0.34m offset both directions passed, new support error<=1.43e-14m. Positive0.34m diagnostic stalls are2.49-2.55m outside changed footprint and remain separate original-route width limitations.",
+        "requiredFinalCheck": "Exact final centerline both directions and actual rendered paving support."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "public_rose_spine",
+        "reverse": false,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 17,
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": true,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Last mapped paving is below the soil; physical walking completes but source target Y is stale.",
+        "change": "Only18 original finite paving triangles replaced with200 triangles at actual soil+5mm where needed;53 path-point Z values consumed from exact replacement surface.",
+        "candidateEvidence": "rose_endpoint_candidate_results.json: center and negative0.34m offset both directions passed, new support error<=1.43e-14m. Positive0.34m diagnostic stalls are2.49-2.55m outside changed footprint and remain separate original-route width limitations.",
+        "requiredFinalCheck": "Exact final centerline both directions and actual rendered paving support."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "public_rose_spine",
+        "reverse": true,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 20,
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": false,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "An exact Float32 road vertex ray selected lower soil about0.292m below actual road. Player/car completed or reached adjacent correct upper surface; saved target Y was wrong.",
+        "change": "Source-height continuous finite-edge floor query in sync-actor-heights.mjs; no geometry or path XY changes.",
+        "evidence": "site_failures_export2_after_guard.json schoolSourceHeightProbes and short walk records",
+        "requiredFinalCheck": "Both school174 walking directions and school175 reverse driving on freshly sampled targets."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "school_174_mapped_access",
+        "reverse": false,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 21,
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": true,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "An exact Float32 road vertex ray selected lower soil about0.292m below actual road. Player/car completed or reached adjacent correct upper surface; saved target Y was wrong.",
+        "change": "Source-height continuous finite-edge floor query in sync-actor-heights.mjs; no geometry or path XY changes.",
+        "evidence": "site_failures_export2_after_guard.json schoolSourceHeightProbes and short walk records",
+        "requiredFinalCheck": "Both school174 walking directions and school175 reverse driving on freshly sampled targets."
+      },
+      "finalResultKey": {
+        "kind": "walk",
+        "id": "school_174_mapped_access",
+        "reverse": true,
+        "pass": true,
+        "strictZeroContactPass": null
+      }
+    },
+    {
+      "originalRowIndex": 49,
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane0",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Early center-circle clearance guard duplicated preciseVehicle full-body oriented-box collision and rejected actually open lanes.",
+        "change": "Driving passes actual yaw to the existing full vehicle OBB only for preciseVehicle solids; walking and actual booth/boom/island collisions preserved.",
+        "evidence": "site_failures_export2_after_guard.json: four lanes complete; eight deliberate side offsets blocked.",
+        "knownLimit": "Lane0 tyres have two paving-edge side contacts; conservative radial upper bounds4.9854mm and3.9851mm. Body/booth/boom contacts0.",
+        "requiredFinalCheck": "Actual same four lane driveStep routes; preserve known tyre-only contact distinction."
+      },
+      "finalResultKey": {
+        "kind": "gate_continuous_drive",
+        "id": "main_campus_toll_lane0",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    },
+    {
+      "originalRowIndex": 50,
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane1",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Early center-circle clearance guard duplicated preciseVehicle full-body oriented-box collision and rejected actually open lanes.",
+        "change": "Driving passes actual yaw to the existing full vehicle OBB only for preciseVehicle solids; walking and actual booth/boom/island collisions preserved.",
+        "evidence": "site_failures_export2_after_guard.json: four lanes complete; eight deliberate side offsets blocked.",
+        "knownLimit": null,
+        "requiredFinalCheck": "Actual same four lane driveStep routes; preserve known tyre-only contact distinction."
+      },
+      "finalResultKey": {
+        "kind": "gate_continuous_drive",
+        "id": "main_campus_toll_lane1",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    },
+    {
+      "originalRowIndex": 51,
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane2",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Early center-circle clearance guard duplicated preciseVehicle full-body oriented-box collision and rejected actually open lanes.",
+        "change": "Driving passes actual yaw to the existing full vehicle OBB only for preciseVehicle solids; walking and actual booth/boom/island collisions preserved.",
+        "evidence": "site_failures_export2_after_guard.json: four lanes complete; eight deliberate side offsets blocked.",
+        "knownLimit": null,
+        "requiredFinalCheck": "Actual same four lane driveStep routes; preserve known tyre-only contact distinction."
+      },
+      "finalResultKey": {
+        "kind": "gate_continuous_drive",
+        "id": "main_campus_toll_lane2",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    },
+    {
+      "originalRowIndex": 52,
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane3",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Early center-circle clearance guard duplicated preciseVehicle full-body oriented-box collision and rejected actually open lanes.",
+        "change": "Driving passes actual yaw to the existing full vehicle OBB only for preciseVehicle solids; walking and actual booth/boom/island collisions preserved.",
+        "evidence": "site_failures_export2_after_guard.json: four lanes complete; eight deliberate side offsets blocked.",
+        "knownLimit": null,
+        "requiredFinalCheck": "Actual same four lane driveStep routes; preserve known tyre-only contact distinction."
+      },
+      "finalResultKey": {
+        "kind": "gate_continuous_drive",
+        "id": "main_campus_toll_lane3",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    },
+    {
+      "originalRowIndex": 55,
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_reverse",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "An exact Float32 road vertex ray selected lower soil about0.292m below actual road. Player/car completed or reached adjacent correct upper surface; saved target Y was wrong.",
+        "change": "Source-height continuous finite-edge floor query in sync-actor-heights.mjs; no geometry or path XY changes.",
+        "evidence": "site_failures_export2_after_guard.json schoolSourceHeightProbes and short walk records",
+        "requiredFinalCheck": "Both school174 walking directions and school175 reverse driving on freshly sampled targets."
+      },
+      "finalResultKey": {
+        "kind": "school_continuous_drive",
+        "id": "school175_paved_yard_connection_reverse",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": false
+      }
+    },
+    {
+      "originalRowIndex": 56,
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_forward",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Original inferred centerline and dead-end put full car near preserved095 parked vehicle/curb.",
+        "change": "Verified centerline lateral shift0.25m, middle-to-east terminal shortened1m; actual pavement, static cars, source OSM graph and curb unchanged.",
+        "evidence": "terrace_drive_alignment/validation.json and421_tyre_contacts_measured.json: four complete directions,3373driveSteps,208poses,body/hub contact0,missing/limitedwheel0.",
+        "knownLimit": "Required driving passes with tyre-side visual overlap;27/208pose contacts and maximum radial conservative upper bound0.044424644726126616m. Original strict zero-contact result remains false.",
+        "requiredFinalCheck": "Native-bound two route contract consumed and same four actual directions."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "421_middle_to_east_forward",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": false
+      }
+    },
+    {
+      "originalRowIndex": 57,
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_reverse",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Original inferred centerline and dead-end put full car near preserved095 parked vehicle/curb.",
+        "change": "Verified centerline lateral shift0.25m, middle-to-east terminal shortened1m; actual pavement, static cars, source OSM graph and curb unchanged.",
+        "evidence": "terrace_drive_alignment/validation.json and421_tyre_contacts_measured.json: four complete directions,3373driveSteps,208poses,body/hub contact0,missing/limitedwheel0.",
+        "knownLimit": "Required driving passes with tyre-side visual overlap;27/208pose contacts and maximum radial conservative upper bound0.044424644726126616m. Original strict zero-contact result remains false.",
+        "requiredFinalCheck": "Native-bound two route contract consumed and same four actual directions."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "421_middle_to_east_reverse",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": false
+      }
+    },
+    {
+      "originalRowIndex": 58,
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_forward",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Original inferred centerline and dead-end put full car near preserved095 parked vehicle/curb.",
+        "change": "Verified centerline lateral shift0.25m, middle-to-east terminal shortened1m; actual pavement, static cars, source OSM graph and curb unchanged.",
+        "evidence": "terrace_drive_alignment/validation.json and421_tyre_contacts_measured.json: four complete directions,3373driveSteps,208poses,body/hub contact0,missing/limitedwheel0.",
+        "knownLimit": "Required driving passes with tyre-side visual overlap;27/208pose contacts and maximum radial conservative upper bound0.044424644726126616m. Original strict zero-contact result remains false.",
+        "requiredFinalCheck": "Native-bound two route contract consumed and same four actual directions."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "421_front_to_middle_forward",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": false
+      }
+    },
+    {
+      "originalRowIndex": 59,
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_reverse",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Original inferred centerline and dead-end put full car near preserved095 parked vehicle/curb.",
+        "change": "Verified centerline lateral shift0.25m, middle-to-east terminal shortened1m; actual pavement, static cars, source OSM graph and curb unchanged.",
+        "evidence": "terrace_drive_alignment/validation.json and421_tyre_contacts_measured.json: four complete directions,3373driveSteps,208poses,body/hub contact0,missing/limitedwheel0.",
+        "knownLimit": "Required driving passes with tyre-side visual overlap;27/208pose contacts and maximum radial conservative upper bound0.044424644726126616m. Original strict zero-contact result remains false.",
+        "requiredFinalCheck": "Native-bound two route contract consumed and same four actual directions."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "421_front_to_middle_reverse",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": false
+      }
+    },
+    {
+      "originalRowIndex": 66,
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_forward",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Exactly zero-area curb triangles were mistaken for solid obstacles by the volume-only QA.",
+        "change": "General exact zero-area rejection in componentIntersectsTriangle; positive-area curb intersections still tested.",
+        "evidence": "site_tyre_contacts_classification.json and zero-area/positive-area counterexample fixture. Original two driveStep routes already completed.",
+        "requiredFinalCheck": "Both exact551directions with valid finite-face contact checks."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "551_rows_to_east_terminal_forward",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    },
+    {
+      "originalRowIndex": 67,
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_reverse",
+      "reverse": null,
+      "originalPass": false,
+      "status": "closed_by_final_required_behavior_with_explicit_limits",
+      "resolution": {
+        "cause": "Exactly zero-area curb triangles were mistaken for solid obstacles by the volume-only QA.",
+        "change": "General exact zero-area rejection in componentIntersectsTriangle; positive-area curb intersections still tested.",
+        "evidence": "site_tyre_contacts_classification.json and zero-area/positive-area counterexample fixture. Original two driveStep routes already completed.",
+        "requiredFinalCheck": "Both exact551directions with valid finite-face contact checks."
+      },
+      "finalResultKey": {
+        "kind": "terrace_continuous_drive",
+        "id": "551_rows_to_east_terminal_reverse",
+        "reverse": null,
+        "pass": true,
+        "strictZeroContactPass": true
+      }
+    }
+  ],
+  "policy": "Preserve original seventeen failures. This index explains each correction or classification; it does not claim a final new-asset run has occurred.",
+  "finalNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "finalReport": "tests/runtime-runs/site-closeout.json",
+  "acceptanceSupplement": {
+    "path": "tests/site-closeout-acceptance-results.json",
+    "sha256": "e76ec1d24051835c2e525b9fef4d742ee3200fa05d5b49d927764a80786b0a8d",
+    "role": "exact_saved_results_reassessment_for_two_approved_depth_bounds"
+  }
+}

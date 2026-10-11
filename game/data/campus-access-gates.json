@@ -1,0 +1,843 @@
+{
+  "version": "gates_access_1.2",
+  "main_arch": {
+    "source_osm_node": "4963786922",
+    "center_xy": [
+      -275.949,
+      -711.664
+    ],
+    "pillar_xy": [
+      [
+        -272.0974,
+        -732.2772
+      ],
+      [
+        -296.6246,
+        -708.1628000000001
+      ],
+      [
+        -279.80060000000003,
+        -691.0508
+      ],
+      [
+        -255.27340000000004,
+        -715.1651999999999
+      ]
+    ],
+    "height_estimate_m": 18.8,
+    "section_estimate_m": [
+      1.75,
+      2.2
+    ],
+    "top_z": -34.95262451171875,
+    "geometry": "Four square columns, two diagonal crossed top beams, dark plinths",
+    "lettering": "None added: permanent inscription not readable in verified official or March2026 street-view sources"
+  },
+  "obstacles": [
+    {
+      "id": "main_arch_pillar_1",
+      "polygon": [
+        [
+          -272.07939999999996,
+          -734.3982
+        ],
+        [
+          -269.9764,
+          -732.2592000000001
+        ],
+        [
+          -272.1154,
+          -730.1562
+        ],
+        [
+          -274.2184,
+          -732.2951999999999
+        ]
+      ],
+      "min_z": -54.02924682617188,
+      "max_z": -34.00262451171875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -54.02924682617188,
+        -54.01755859375,
+        -54.01392700195313,
+        -54.025859375
+      ],
+      "bottom_contact_error_m": -0.02
+    },
+    {
+      "id": "main_arch_pillar_2",
+      "polygon": [
+        [
+          -296.60659999999996,
+          -710.2838
+        ],
+        [
+          -294.5036,
+          -708.1448000000001
+        ],
+        [
+          -296.6426,
+          -706.0418000000001
+        ],
+        [
+          -298.74559999999997,
+          -708.1808
+        ]
+      ],
+      "min_z": -53.87208129882813,
+      "max_z": -34.00262451171875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -53.78580810546875,
+        -53.87208129882813,
+        -53.77704956054688,
+        -53.64564086914063
+      ],
+      "bottom_contact_error_m": -0.02
+    },
+    {
+      "id": "main_arch_pillar_3",
+      "polygon": [
+        [
+          -279.7826,
+          -693.1718
+        ],
+        [
+          -277.67960000000005,
+          -691.0328000000001
+        ],
+        [
+          -279.81860000000006,
+          -688.9298
+        ],
+        [
+          -281.9216,
+          -691.0687999999999
+        ]
+      ],
+      "min_z": -54.09269287109375,
+      "max_z": -34.00262451171875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -54.05378295898438,
+        -54.09269287109375,
+        -54.08195068359375,
+        -54.03739501953125
+      ],
+      "bottom_contact_error_m": -0.02
+    },
+    {
+      "id": "main_arch_pillar_4",
+      "polygon": [
+        [
+          -255.2554,
+          -717.2861999999999
+        ],
+        [
+          -253.15240000000003,
+          -715.1472
+        ],
+        [
+          -255.29140000000004,
+          -713.0441999999999
+        ],
+        [
+          -257.3944,
+          -715.1831999999998
+        ]
+      ],
+      "min_z": -54.10529663085938,
+      "max_z": -34.00262451171875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -54.080546875,
+        -54.10529663085938,
+        -54.103984375,
+        -54.07905151367188
+      ],
+      "bottom_contact_error_m": -0.02
+    },
+    {
+      "id": "main_campus_toll_island0",
+      "polygon": [
+        [
+          -148.31169825870467,
+          -691.8990613002793
+        ],
+        [
+          -139.43807537966336,
+          -693.4019974268513
+        ],
+        [
+          -139.29613141215378,
+          -692.5639330438307
+        ],
+        [
+          -148.1697542911951,
+          -691.0609969172588
+        ]
+      ],
+      "min_z": -53.170848388671885,
+      "max_z": -52.8376171875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -53.17084838867188,
+        -53.07792236328125,
+        -53.0776171875,
+        -53.17054321289063
+      ]
+    },
+    {
+      "id": "main_campus_toll_post0",
+      "polygon": [
+        [
+          -144.16132964562257,
+          -692.4853763824178
+        ],
+        [
+          -143.5500356250664,
+          -692.5889119822484
+        ],
+        [
+          -143.44650002523588,
+          -691.9776179616922
+        ],
+        [
+          -144.05779404579204,
+          -691.8740823618616
+        ]
+      ],
+      "min_z": -52.8376171875,
+      "max_z": -47.77564086914063,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_island1",
+      "polygon": [
+        [
+          -147.64372664689492,
+          -687.9552289095943
+        ],
+        [
+          -138.7701037678536,
+          -689.4581650361663
+        ],
+        [
+          -138.62815980034404,
+          -688.6201006531458
+        ],
+        [
+          -147.50178267938534,
+          -687.1171645265738
+        ]
+      ],
+      "min_z": -52.87412597656251,
+      "max_z": -52.54116943359375,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -52.8741259765625,
+        -52.781474609375,
+        -52.78116943359375,
+        -52.87372924804688
+      ]
+    },
+    {
+      "id": "main_campus_toll_booth1",
+      "polygon": [
+        [
+          -144.67913763925043,
+          -688.7159765785055
+        ],
+        [
+          -141.81985915600382,
+          -689.2002559970675
+        ],
+        [
+          -141.59274880798853,
+          -687.8593529842345
+        ],
+        [
+          -144.45202729123514,
+          -687.3750735656726
+        ]
+      ],
+      "min_z": -52.711169433593746,
+      "max_z": -50.11116943359375,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_island2",
+      "polygon": [
+        [
+          -146.9757550350852,
+          -684.0113965189092
+        ],
+        [
+          -138.1021321560439,
+          -685.5143326454812
+        ],
+        [
+          -137.96018818853432,
+          -684.6762682624607
+        ],
+        [
+          -146.83381106757562,
+          -683.1733321358887
+        ]
+      ],
+      "min_z": -52.85312988281251,
+      "max_z": -52.53341796875,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -52.8531298828125,
+        -52.78031494140625,
+        -52.77341796875,
+        -52.83625366210938
+      ]
+    },
+    {
+      "id": "main_campus_toll_post2",
+      "polygon": [
+        [
+          -142.8253864220031,
+          -684.5977116010478
+        ],
+        [
+          -142.21409240144695,
+          -684.7012472008784
+        ],
+        [
+          -142.1105568016164,
+          -684.0899531803221
+        ],
+        [
+          -142.72185082217257,
+          -683.9864175804915
+        ]
+      ],
+      "min_z": -52.53341796875,
+      "max_z": -47.77564086914063,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_island3",
+      "polygon": [
+        [
+          -145.7066089726467,
+          -676.5181149766078
+        ],
+        [
+          -136.8329860936054,
+          -678.0210511031797
+        ],
+        [
+          -136.69104212609582,
+          -677.1829867201592
+        ],
+        [
+          -145.56466500513713,
+          -675.6800505935872
+        ]
+      ],
+      "min_z": -52.743052978515635,
+      "max_z": -52.442750244140626,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -52.74305297851563,
+        -52.6841845703125,
+        -52.68275024414063,
+        -52.74103881835938
+      ]
+    },
+    {
+      "id": "main_campus_toll_post3",
+      "polygon": [
+        [
+          -141.5562403595646,
+          -677.1044300587463
+        ],
+        [
+          -140.94494633900845,
+          -677.2079656585769
+        ],
+        [
+          -140.84141073917792,
+          -676.5966716380207
+        ],
+        [
+          -141.45270475973408,
+          -676.4931360381901
+        ]
+      ],
+      "min_z": -52.442750244140626,
+      "max_z": -47.77564086914063,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_island4",
+      "polygon": [
+        [
+          -145.03863736083696,
+          -672.5742825859227
+        ],
+        [
+          -136.16501448179565,
+          -674.0772187124946
+        ],
+        [
+          -136.02307051428608,
+          -673.2391543294741
+        ],
+        [
+          -144.89669339332738,
+          -671.7362182029021
+        ]
+      ],
+      "min_z": -52.73539306640626,
+      "max_z": -52.42642333984375,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -52.73539306640625,
+        -52.67103149414063,
+        -52.66642333984375,
+        -52.73514892578125
+      ]
+    },
+    {
+      "id": "main_campus_toll_booth4",
+      "polygon": [
+        [
+          -142.07404835319247,
+          -673.3350302548339
+        ],
+        [
+          -139.21476986994585,
+          -673.8193096733959
+        ],
+        [
+          -138.98765952193057,
+          -672.4784066605629
+        ],
+        [
+          -141.84693800517718,
+          -671.9941272420009
+        ]
+      ],
+      "min_z": -52.596423339843746,
+      "max_z": -49.99642333984375,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_island5",
+      "polygon": [
+        [
+          -144.3706657490272,
+          -668.6304501952377
+        ],
+        [
+          -135.4970428699859,
+          -670.1333863218097
+        ],
+        [
+          -135.35509890247633,
+          -669.2953219387891
+        ],
+        [
+          -144.22872178151763,
+          -667.7923858122172
+        ]
+      ],
+      "min_z": -52.863475341796885,
+      "max_z": -52.404725341796876,
+      "type": "solid",
+      "bottom_vertex_z": [
+        -52.80631591796875,
+        -52.64933349609375,
+        -52.64472534179688,
+        -52.86347534179688
+      ]
+    },
+    {
+      "id": "main_campus_toll_post5",
+      "polygon": [
+        [
+          -140.22029713594512,
+          -669.2167652773762
+        ],
+        [
+          -139.60900311538896,
+          -669.3203008772068
+        ],
+        [
+          -139.50546751555842,
+          -668.7090068566506
+        ],
+        [
+          -140.11676153611458,
+          -668.60547125682
+        ]
+      ],
+      "min_z": -52.404725341796876,
+      "max_z": -47.77564086914063,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_boom_base0",
+      "polygon": [
+        [
+          -146.76516398501462,
+          -691.4510303411904
+        ],
+        [
+          -146.27218493617897,
+          -691.5345267926667
+        ],
+        [
+          -146.1970381298504,
+          -691.0908456487147
+        ],
+        [
+          -146.69001717868605,
+          -691.0073491972383
+        ]
+      ],
+      "min_z": -53.01689697265625,
+      "max_z": -51.76689697265625,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_reader_housing0",
+      "polygon": [
+        [
+          -143.02674786432362,
+          -691.7748665784428
+        ],
+        [
+          -142.6126454633017,
+          -691.8450035976829
+        ],
+        [
+          -142.5558678762979,
+          -691.5097778444746
+        ],
+        [
+          -142.96997027731982,
+          -691.4396408252345
+        ]
+      ],
+      "min_z": -53.093048095703125,
+      "max_z": -51.63304809570313,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_boom_base1",
+      "polygon": [
+        [
+          -146.13059095379538,
+          -687.7043895700397
+        ],
+        [
+          -145.63761190495973,
+          -687.787886021516
+        ],
+        [
+          -145.56246509863115,
+          -687.3442048775639
+        ],
+        [
+          -146.0554441474668,
+          -687.2607084260876
+        ]
+      ],
+      "min_z": -52.72014404296875,
+      "max_z": -51.47014404296875,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_reader_housing1",
+      "polygon": [
+        [
+          -142.39217483310438,
+          -688.0282258072921
+        ],
+        [
+          -141.97807243208246,
+          -688.0983628265321
+        ],
+        [
+          -141.92129484507865,
+          -687.7631370733238
+        ],
+        [
+          -142.33539724610057,
+          -687.6930000540838
+        ]
+      ],
+      "min_z": -52.796356201171875,
+      "max_z": -51.33635620117188,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_boom_base2",
+      "polygon": [
+        [
+          -138.63870935199762,
+          -677.0052442740525
+        ],
+        [
+          -138.14573030316197,
+          -677.0887407255289
+        ],
+        [
+          -138.0705834968334,
+          -676.6450595815768
+        ],
+        [
+          -138.56356254566904,
+          -676.5615631301005
+        ]
+      ],
+      "min_z": -52.56477905273437,
+      "max_z": -51.31477905273437,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_reader_housing2",
+      "polygon": [
+        [
+          -142.1963831540739,
+          -676.093333029457
+        ],
+        [
+          -141.782280753052,
+          -676.163470048697
+        ],
+        [
+          -141.72550316604818,
+          -675.8282442954887
+        ],
+        [
+          -142.1396055670701,
+          -675.7581072762487
+        ]
+      ],
+      "min_z": -52.702178955078125,
+      "max_z": -51.24217895507813,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_boom_base3",
+      "polygon": [
+        [
+          -138.00413632077837,
+          -673.2586035029018
+        ],
+        [
+          -137.51115727194272,
+          -673.3420999543781
+        ],
+        [
+          -137.43601046561415,
+          -672.898418810426
+        ],
+        [
+          -137.9289895144498,
+          -672.8149223589497
+        ]
+      ],
+      "min_z": -52.54787231445312,
+      "max_z": -51.29787231445312,
+      "type": "solid"
+    },
+    {
+      "id": "main_campus_toll_reader_housing3",
+      "polygon": [
+        [
+          -141.56181012285467,
+          -672.3466922583062
+        ],
+        [
+          -141.14770772183275,
+          -672.4168292775463
+        ],
+        [
+          -141.09093013482894,
+          -672.081603524338
+        ],
+        [
+          -141.50503253585086,
+          -672.0114665050979
+        ]
+      ],
+      "min_z": -52.68701171875,
+      "max_z": -51.227011718750006,
+      "type": "solid"
+    }
+  ],
+  "ground_sampling": "Actual visible triangles after final grading; per-footing ray sample",
+  "source_scene_preserved": true,
+  "vehicle_contract": "All pillars and kiosks solid. Boom arms may be statically raised with explicit elevation geometry; never invisible collision bypass.",
+  "toll_gates": [
+    {
+      "id": "main_campus_toll",
+      "name": "주진입 주차정산소",
+      "center_xy": [
+        -141.8,
+        -680.4
+      ],
+      "road_tangent": [
+        0.986,
+        -0.167
+      ],
+      "canopy_across_m": 25.0,
+      "canopy_along_m": 10.5,
+      "source_url": "https://map.naver.com/p/search/%EC%A1%B0%EC%84%A0%EB%8C%80%ED%95%99%EA%B5%90%20%EC%A0%95%EB%AC%B8/place/16267489?c=18.00,0,0,2,adh&p=Lb14f3N08xs4rBXuJ0xcvw,140.93,10,80,Float",
+      "streetview_capture": "2026-03 latest as displayed",
+      "position_method": "Satellite canopy registered between OSM school driveway488362735 and public intersection1485914581; center estimate ±5m, road tangent follows OSM carriageways",
+      "observed": "Broad flat grey canopy, round pale posts, blue lower glass booths, red-white boom gates, yellow/black curb tips and lane separator islands; exterior equipment housings only",
+      "limits": "Four modeled vehicle passages are a simplified two-per-existing-carriageway fit, not survey lane count. Unseen minor equipment and rates not invented. Other access points not duplicated without exterior evidence.",
+      "roof_z": -47.525640869140624,
+      "lanes": [
+        {
+          "id": "main_campus_toll_lane0",
+          "center_xy": [
+            -143.4532297392291,
+            -690.1609851669454
+          ],
+          "oneway": true,
+          "direction_xy": [
+            0.9859580976712544,
+            -0.16699290295243358
+          ],
+          "direction_source": "https://www.openstreetmap.org/way/1485914582",
+          "direction_basis": "OSM oneway=yes, node-order tangent; lane allocation reconstructed",
+          "passage_width_m": 2.7,
+          "boom_base_clearance_from_lane_center_m": 1.375,
+          "boom_lateral_correction_m": 0.25,
+          "boom_angle_degrees": 82,
+          "boom_start": [
+            -146.48109436035156,
+            -691.2709350585938,
+            -51.86189651489258
+          ],
+          "boom_end": [
+            -146.4078826904297,
+            -690.8386840820312,
+            -48.7425537109375
+          ],
+          "state": "physically_raised_visual_open",
+          "no_payment_simulation": true,
+          "ground_z": -52.806732177734375
+        },
+        {
+          "id": "main_campus_toll_lane1",
+          "center_xy": [
+            -142.81865670800985,
+            -686.4143443957946
+          ],
+          "oneway": true,
+          "direction_xy": [
+            0.9859580976712544,
+            -0.16699290295243358
+          ],
+          "direction_source": "https://www.openstreetmap.org/way/1485914582",
+          "direction_basis": "OSM oneway=yes, node-order tangent; lane allocation reconstructed",
+          "passage_width_m": 2.7,
+          "boom_base_clearance_from_lane_center_m": 1.375,
+          "boom_lateral_correction_m": 0.25,
+          "boom_angle_degrees": 82,
+          "boom_start": [
+            -145.84652709960938,
+            -687.5242919921875,
+            -51.56514358520508
+          ],
+          "boom_end": [
+            -145.7733154296875,
+            -687.092041015625,
+            -48.44580078125
+          ],
+          "state": "physically_raised_visual_open",
+          "no_payment_simulation": true,
+          "ground_z": -52.8050537109375
+        },
+        {
+          "id": "main_campus_toll_lane2",
+          "center_xy": [
+            -140.84814045317114,
+            -674.7800388432738
+          ],
+          "oneway": true,
+          "direction_xy": [
+            -0.9859580976712544,
+            0.16699290295243358
+          ],
+          "direction_source": "https://www.openstreetmap.org/way/1485914580",
+          "direction_basis": "OSM oneway=yes, node-order tangent; lane allocation reconstructed",
+          "passage_width_m": 2.7,
+          "boom_base_clearance_from_lane_center_m": 1.375,
+          "boom_lateral_correction_m": 0.25,
+          "boom_angle_degrees": 82,
+          "boom_start": [
+            -138.35464477539062,
+            -676.8251342773438,
+            -51.4097785949707
+          ],
+          "boom_end": [
+            -138.28143310546875,
+            -676.3928833007812,
+            -48.290435791015625
+          ],
+          "state": "physically_raised_visual_open",
+          "no_payment_simulation": true,
+          "ground_z": -52.695159912109375
+        },
+        {
+          "id": "main_campus_toll_lane3",
+          "center_xy": [
+            -140.2135674219519,
+            -671.0333980721231
+          ],
+          "oneway": true,
+          "direction_xy": [
+            -0.9859580976712544,
+            0.16699290295243358
+          ],
+          "direction_source": "https://www.openstreetmap.org/way/1485914580",
+          "direction_basis": "OSM oneway=yes, node-order tangent; lane allocation reconstructed",
+          "passage_width_m": 2.7,
+          "boom_base_clearance_from_lane_center_m": 1.375,
+          "boom_lateral_correction_m": 0.25,
+          "boom_angle_degrees": 82,
+          "boom_start": [
+            -137.72007751464844,
+            -673.0784912109375,
+            -51.39287185668945
+          ],
+          "boom_end": [
+            -137.64686584472656,
+            -672.646240234375,
+            -48.273529052734375
+          ],
+          "state": "physically_raised_visual_open",
+          "no_payment_simulation": true,
+          "ground_z": -52.6787109375
+        }
+      ],
+      "construction_accuracy": "Appearance checked; dimensions, individual device details and lane allocation reconstructed to existing mapped roadway",
+      "rates_displayed": false,
+      "other_entrances": "Not duplicated without separate photo confirmation",
+      "solid_objects": 20
+    }
+  ],
+  "objects": [
+    "RV2_GATE_Main arch cross beam 0",
+    "RV2_GATE_Main arch four columns",
+    "RV2_GATE_Main arch four grounded dark plinths",
+    "RV2_GATE_main_campus_toll flat canopy and silver posts",
+    "RV2_GATE_main_campus_toll grounded lane separator islands",
+    "RV2_GATE_main_campus_toll blue glass booths and exterior contro",
+    "RV2_GATE_main_campus_toll visibly raised red white boom arms",
+    "RV2_GATE_main_campus_toll plain identification"
+  ]
+}

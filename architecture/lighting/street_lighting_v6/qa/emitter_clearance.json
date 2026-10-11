@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "fixture_count": 536,
+  "new_emitter_blocked_by_own_fixture": [],
+  "old_center_positive_counterexamples": 536,
+  "old_center_examples": [
+    {
+      "id": "TRANSIT_001",
+      "polygon": 59,
+      "distance_m": 0.0831699974752243
+    },
+    {
+      "id": "TRANSIT_002",
+      "polygon": 59,
+      "distance_m": 0.07716692781385938
+    },
+    {
+      "id": "TRANSIT_003",
+      "polygon": 59,
+      "distance_m": 0.0719221650673936
+    },
+    {
+      "id": "TRANSIT_004",
+      "polygon": 59,
+      "distance_m": 0.06424288163237775
+    },
+    {
+      "id": "TRANSIT_005",
+      "polygon": 59,
+      "distance_m": 0.06425211322870163
+    }
+  ],
+  "native_light_emitter_offset_m": [
+    0.0,
+    0.0,
+    -0.1
+  ],
+  "head_geometry_and_base_positions_unchanged": true,
+  "scope": "Each lamp to its intended actual ground target against its own fixture mesh; no claim about unrelated occluders.",
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "geometry_source_sha256": "db35ad0487d9832425a91453e6ca0bbd83eb4b4172c70450143c75d3c6985d5e",
+  "test_source_sha256": "f921d8ffa2f55c1a15da4e3cf44487e6cd6b216bced94d25e5d56200a9c5e853",
+  "peak_rss_mib": 369.86328125
+}

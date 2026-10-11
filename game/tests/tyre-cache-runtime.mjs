@@ -1,0 +1,13 @@
+import './simulate.mjs';
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+import * as THREE from 'three';
+import {VEHICLE_STEERING} from '../dist/vehicle-steering.js';
+import {createWheelSuspension,tyreContactProfile,tyreContactHeight,createTyreContactSampler} from '../dist/wheel-suspension.js';
+import {PARKING} from '../dist/parking-config.js';
+const a=window.__campus,t=engineTest,data=JSON.parse(await fs.readFile(new URL('../data/tyre-contact-regression-poses.json',import.meta.url),'utf8')),cases=[...data.cases,...PARKING.levelDriveRoutes.map(r=>({id:'garage_level_'+r.level,position:r.points[0],yaw:0}))];
+const text=await fs.readFile(new URL('../dist/game.js',import.meta.url),'utf8'),start=text.indexOf('function fitVehicleToGround('),end=text.indexOf('\nfunction ',start+1),body=text.slice(start,end);
+function model(cached){const group=a.cars[0].g.clone(true),wheels=[];delete group.userData.groundFit;group.traverse(o=>{if(o.name.startsWith('car_wheel_')){o.position.y=.38;wheels.push(o);}});const fit=createWheelSuspension(t.octree,group,wheels,{maxTravel:.12,clearance:.02,refineTyreFaces:true});fit.contactProfiles=wheels.map(w=>tyreContactProfile(w.children[0]));fit.contactSampler=cached?createTyreContactSampler(t.octree):()=>a.floorHeight;const map=new WeakMap([[group,fit]]),fn=new Function('THREE','V','VEHICLE_STEERING','wheelSuspensions','floorHeight','tyreContactHeight',body+';return fitVehicleToGround;')(THREE,THREE.Vector3,VEHICLE_STEERING,map,a.floorHeight,tyreContactHeight);return {group,wheels,fn};}
+const original=model(false),cached=model(true),results=[];let originalMS=0,cachedMS=0;
+for(const p of cases){const poses=[];for(const [i,m] of [original,cached].entries()){m.group.position.set(...p.position);delete m.group.userData.groundFit;const begin=performance.now();m.fn(m.group,p.yaw);const elapsed=performance.now()-begin;if(i)cachedMS+=elapsed;else originalMS+=elapsed;m.group.updateMatrixWorld(true);poses.push({matrix:m.group.matrixWorld.toArray(),fit:m.group.userData.groundFit,wheelPositions:m.wheels.map(w=>w.position.toArray())});}assert.deepEqual(poses[0],poses[1],p.id);results.push({id:p.id,position:p.position,yaw:p.yaw,exactPoseEquality:true});}
+const report={passed:true,nativeSourceSha256:data.native_sha256,poses:results.length,originalMS,cachedMS,speedRatio:originalMS/cachedMS,results,meaning:'Exact same final tyre-contact algorithm and scene triangles; only full-tree versus local cached ray traversal differs. Dynamic route/volume checks remain separate.'};await fs.writeFile(new URL('tyre-cache-runtime-results.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log('TYRE_CACHE_RUNTIME',JSON.stringify({...report,results:undefined}));

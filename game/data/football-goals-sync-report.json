@@ -1,0 +1,7 @@
+{
+  "sourceSha256": "9ddebda0db53e754d7de3a3e6443118acd0d9fe8cf4ac1295541fa3a39030f99",
+  "goals": 4,
+  "narrowColliders": 172,
+  "runtimeLOD": "Shared exported LOD0 and existing distance culling; no unimplemented LOD1 switch claimed",
+  "finalRuntimeTraversal": "pending combined GLB"
+}

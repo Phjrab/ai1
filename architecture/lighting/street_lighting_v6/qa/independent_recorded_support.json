@@ -1,0 +1,170 @@
+{
+  "status": "PASS_RECORDED_FINITE_SUPPORT",
+  "source_native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "placement_manifest": {
+    "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/contracts/street_lighting_manifest.json",
+    "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+  },
+  "scope": "Independently decoded original raw GLB transforms/accessors and tested the5360 recorded base/target/footing points against their exact finite source triangles. No global support index, native load, Node, or geometry mutation.",
+  "fixture_count": 536,
+  "actual_support_points": 5360,
+  "source_objects": 51,
+  "maximum_plane_error_m": 1.5273690223693848e-07,
+  "maximum_finite_triangle_distance_m": 1.5273690223693848e-07,
+  "physical_tolerance_m": 0.0001,
+  "worst_ten": [
+    {
+      "fixture": "TRANSIT_001",
+      "role": "target",
+      "object": "Paving apron.001",
+      "primitive": 0,
+      "triangle": 11,
+      "point": [
+        -69.3308232578572,
+        -530.9486888691458,
+        -51.785369873046875
+      ],
+      "finite_triangle_distance_m": 1.5273690223693848e-07,
+      "plane_error_m": 1.5273690223693848e-07
+    },
+    {
+      "fixture": "STAIRS_016",
+      "role": "target",
+      "object": "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not survey",
+      "primitive": 1,
+      "triangle": 41,
+      "point": [
+        10.861954483840385,
+        218.141884060735,
+        80.56968721691385
+      ],
+      "finite_triangle_distance_m": 8.81239525796218e-15,
+      "plane_error_m": 8.81239525796218e-15
+    },
+    {
+      "fixture": "STAIRS_016",
+      "role": "footing_2",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 395530,
+      "point": [
+        13.034110853238195,
+        219.44334108054483,
+        80.6082040813688
+      ],
+      "finite_triangle_distance_m": 8.215650382226158e-15,
+      "plane_error_m": 8.215650382226158e-15
+    },
+    {
+      "fixture": "ROAD_178",
+      "role": "footing_5",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 175472,
+      "point": [
+        -131.37905377969125,
+        -507.32010850584174,
+        -52.31027297932328
+      ],
+      "finite_triangle_distance_m": 6.8595303048812895e-15,
+      "plane_error_m": 6.8595303048812895e-15
+    },
+    {
+      "fixture": "WALK_079",
+      "role": "footing_1",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 1366801,
+      "point": [
+        -108.4466390471251,
+        -787.092455884435,
+        -54.11942042150959
+      ],
+      "finite_triangle_distance_m": 6.7758298971654085e-15,
+      "plane_error_m": 6.7758298971654085e-15
+    },
+    {
+      "fixture": "ROAD_019",
+      "role": "target",
+      "object": "CAMPUS_CONTINUOUS vehicle asphalt",
+      "primitive": 0,
+      "triangle": 7144,
+      "point": [
+        -60.29763704948482,
+        -658.0747746316707,
+        -51.062253929014645
+      ],
+      "finite_triangle_distance_m": 6.772360450213455e-15,
+      "plane_error_m": 6.772360450213455e-15
+    },
+    {
+      "fixture": "ROAD_152",
+      "role": "footing_5",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 1317113,
+      "point": [
+        -51.86004875929426,
+        -759.325019327379,
+        -50.462099698643286
+      ],
+      "finite_triangle_distance_m": 6.696032617270475e-15,
+      "plane_error_m": 6.696032617270475e-15
+    },
+    {
+      "fixture": "ROAD_269",
+      "role": "base",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 64507,
+      "point": [
+        -163.2451800712905,
+        -825.3531693748066,
+        -54.77605872177946
+      ],
+      "finite_triangle_distance_m": 6.6231742312794495e-15,
+      "plane_error_m": 6.6231742312794495e-15
+    },
+    {
+      "fixture": "WALK_097",
+      "role": "footing_2",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 1189015,
+      "point": [
+        40.66146267785707,
+        -658.1816232730506,
+        -44.22336211427076
+      ],
+      "finite_triangle_distance_m": 6.6231742312794495e-15,
+      "plane_error_m": 6.6231742312794495e-15
+    },
+    {
+      "fixture": "WALK_104",
+      "role": "footing_5",
+      "object": "RV2_POND_Visible terrain with bounded basin excavation",
+      "primitive": 0,
+      "triangle": 211104,
+      "point": [
+        -134.22299528709297,
+        -401.1077443612414,
+        -50.819025703601596
+      ],
+      "finite_triangle_distance_m": 6.619704784327496e-15,
+      "plane_error_m": 6.619704784327496e-15
+    }
+  ],
+  "raw_files": [
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/inputs/raw_glb/campus.glb",
+      "sha256": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+    }
+  ],
+  "elapsed_seconds": 0.8062957349998214,
+  "peak_rss_mib": 217.43359375,
+  "script_sha256": "58fe4235e8289676ff33cf7e7738c87e77006f03cdd84f6505037e2e85c25ac8",
+  "limits": [
+    "This proves each recorded support point belongs to the named original finite surface. It does not perform a global ray search for all possible intervening layers or a full traversal simulation.",
+    "The reconstructed placement is bound to its new hash; no prior coordinate identity is claimed."
+  ]
+}

@@ -33,6 +33,127 @@
       ]
     },
     {
+      "path": "architecture/lighting/inputs/raw_glb/building.glb",
+      "bytes": 18395600,
+      "sha256": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777/large-0000.gzpart",
+          "bytes": 2233147,
+          "sha256": "42bbd3937345ea92b7efa911b8877682d0cec0e9bd6c078671305e22c13a2011"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/inputs/raw_glb/campus.glb",
+      "bytes": 201519748,
+      "sha256": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0000.gzpart",
+          "bytes": 8388608,
+          "sha256": "d7c129c92ef270a3fb302ae443e9a5f08dc532df02b2d18f9f9db02dc3d94651"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0001.gzpart",
+          "bytes": 8388608,
+          "sha256": "ac932193e150c8876dd2438f8229a78988e054598fc52388e2491e80aa7eb681"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0002.gzpart",
+          "bytes": 8388608,
+          "sha256": "b2eb36d9b656bc3f584fc7ed922dce09b20522a5f92f124944741614322de388"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0003.gzpart",
+          "bytes": 8388608,
+          "sha256": "a3d21745c892b8d3ee0aa6104bd0aa2fdce88132b550ceff20926075adf74004"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0004.gzpart",
+          "bytes": 8388608,
+          "sha256": "24936182b56d99472275ce45b9b881fb814a2f5fc37c353e9e32648b38502592"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0005.gzpart",
+          "bytes": 8388608,
+          "sha256": "d569b89e03dd75a7d7ec71d389fea974443250eadf7de1ab96ff26cdd2e11ada"
+        },
+        {
+          "path": "asset-parts/05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0/large-0006.gzpart",
+          "bytes": 7679940,
+          "sha256": "b2610c76a1f31bf806d7784814d09afad1bbe8cd53188a77c6af30069b51a0fb"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/street_lighting_v6/contracts/street_lighting_manifest.json",
+      "bytes": 18270612,
+      "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394/large-0000.gzpart",
+          "bytes": 2584469,
+          "sha256": "4226f889ce447e64553da2a0a6cbd3b655102720280ae65464b9399cd85fad80"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/street_lighting_v6/lighting_manifest.json",
+      "bytes": 48918027,
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d/large-0000.gzpart",
+          "bytes": 3304977,
+          "sha256": "c37a1b5b4f7cc1b521d72d529b801f36d99df271e9c9c5a0b7a89e9723427d97"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/street_lighting_v6/qa/existing_asset_baseline.json",
+      "bytes": 21030975,
+      "sha256": "6e100eb43ac22660a825954e62480794a856e68a0ce2974ab9bfbae09867ac08",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/6e100eb43ac22660a825954e62480794a856e68a0ce2974ab9bfbae09867ac08/large-0000.gzpart",
+          "bytes": 1282529,
+          "sha256": "9c11590a175598fe9831bff762ff746c2d18890be0ec97ff1211f3dabe6812ac"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/street_lighting_v6/qa/initial_mesh_attributes_audit.json",
+      "bytes": 1247597,
+      "sha256": "28a41d1eaf481bb6f03e5d270a11e980e698f15b60abbf15191b9b54e536ecb9",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/28a41d1eaf481bb6f03e5d270a11e980e698f15b60abbf15191b9b54e536ecb9/large-0000.gzpart",
+          "bytes": 37714,
+          "sha256": "a993563c53b7c03095ceb7b2b34f2dd5f2ce543e88b95bb4f803b9c0336859a9"
+        }
+      ]
+    },
+    {
+      "path": "architecture/lighting/street_lighting_v6/qa/recovered_a65_inventory.json",
+      "bytes": 3562954,
+      "sha256": "c91cbc8cbca9aec5e84724946c689d9382e4482119f7f3ffadef8a90c74a191b",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/c91cbc8cbca9aec5e84724946c689d9382e4482119f7f3ffadef8a90c74a191b/large-0000.gzpart",
+          "bytes": 563033,
+          "sha256": "08903ee01c5fc1a562cd3c603c5b7eae624bc0696b007da5c0412d5780845df9"
+        }
+      ]
+    },
+    {
       "path": "architecture/transit/shuttle_bus.glb",
       "bytes": 1069644,
       "sha256": "3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532",
@@ -55,101 +176,6 @@
           "path": "asset-parts/5136cb996f514a59453bd0a755932d8743895b13a100dfe14877a0005d3bb739/0000.gzpart",
           "bytes": 324735,
           "sha256": "ea52de837b2d2f2ea167c835d3597b7fddb4cae283f7f9f6d9feeb9373143cb3"
-        }
-      ]
-    },
-    {
-      "path": "game/data/campus-navigation.json",
-      "bytes": 1273064,
-      "sha256": "4c856dbebdce5d7030a8b545ce52c9c0a78d319dfdb547933ada9a59cbfaba2d",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/4c856dbebdce5d7030a8b545ce52c9c0a78d319dfdb547933ada9a59cbfaba2d/0000.gzpart",
-          "bytes": 343738,
-          "sha256": "617df3e23f0eaec5376a94e3c14cec64478b92260ccca0731f6015ad814abf78"
-        }
-      ]
-    },
-    {
-      "path": "game/dist/assets/building.glb",
-      "bytes": 1414984,
-      "sha256": "e4e44f59dadd515c4a9f673e93dcaf022e5493013ee82235ca1621e34b908f9f",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/e4e44f59dadd515c4a9f673e93dcaf022e5493013ee82235ca1621e34b908f9f/0000.gzpart",
-          "bytes": 139664,
-          "sha256": "2f8dc0036e46220d06a306e4a8d5bd0fa488ec999992f11820fb851555fc6e09"
-        }
-      ]
-    },
-    {
-      "path": "game/dist/assets/campus.glb",
-      "bytes": 14767272,
-      "sha256": "e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "487b6541d27b1682d06a1d3ed967db157471fe426904d1a7171e9d068e3008e3"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "c0d2d6ee36d97ff74993f93a61d5c69636934c3c0a5bd537133db791a0d36369"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "c2c55378ac29a46bfcc88f173d25f1d9dbe44e32a0ccb4f48f480c8abd8053d2"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "d1e2128535359a4a483b58f3597f4e758eb99a75dccb5476b1dadc13537e4026"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "32279ee711278031e4fa5ae902142e15a3da588308b0e5f9e392a62395054770"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0005.gzpart",
-          "bytes": 393216,
-          "sha256": "85b2989f2383011917bb7bbd5b3b61b2d306615c0f45f81c06292ed1be5c120e"
-        },
-        {
-          "path": "asset-parts/e689cd7ad237908cb89379fcaac1cb85ebd8aaa8e104b8bd8baa35a476954766/0006.gzpart",
-          "bytes": 325234,
-          "sha256": "18037392b609232f448c720a6c612c81bc8ebfcfba3f90c21119947bc5dbeeb3"
-        }
-      ]
-    },
-    {
-      "path": "game/dist/assets/shuttle_bus.glb",
-      "bytes": 1068028,
-      "sha256": "4a07ea33a842d9f082a910d596730f080d864b63855e178b8bf19bd4a016d474",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/4a07ea33a842d9f082a910d596730f080d864b63855e178b8bf19bd4a016d474/0000.gzpart",
-          "bytes": 226295,
-          "sha256": "a3e72474f72728d4ddc27f79ead9945bd762f57291b85ec3fa8a0abdd52f93a5"
-        }
-      ]
-    },
-    {
-      "path": "game/dist/vendor/three.core.js",
-      "bytes": 1403455,
-      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20/0000.gzpart",
-          "bytes": 276943,
-          "sha256": "14d4059515293486eaf00fae4917052bdf070a6c87fac32c9547efafb0f7fcf8"
         }
       ]
     },
@@ -575,6 +601,858 @@
       ]
     },
     {
+      "path": "artifacts/Chosun_Campus_Street_Lighting_v6.blend",
+      "bytes": 276659952,
+      "sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0000.gzpart",
+          "bytes": 8388608,
+          "sha256": "424f42653e331972b9314bf383b157d042c5736736532102ced05dc00764dd19"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0001.gzpart",
+          "bytes": 8388608,
+          "sha256": "edd974bb3d182c2b84ce92e7783dc9438db9eb28065b638916914e564bc2011e"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0002.gzpart",
+          "bytes": 8388608,
+          "sha256": "bd19ef5cf30e544b56431aa8d54252a856472007a245ce4e69ac5b8da256f8d0"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0003.gzpart",
+          "bytes": 8388608,
+          "sha256": "61424e9c213f167899e24ace4108632bfe4ad8cc52ab33626035f068b48280b9"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0004.gzpart",
+          "bytes": 8388608,
+          "sha256": "c5213e5727aa9b38949916a3e13430e46ed25da09f7d1e3a7bcb6dffddbcd1f9"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0005.gzpart",
+          "bytes": 8388608,
+          "sha256": "83becd69c1e7096ba6876af9e26be1a752be1dffb2ff54ff7b30f90d66f137b6"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0006.gzpart",
+          "bytes": 8388608,
+          "sha256": "72c26fb932fb759074982abb5e3a9f82ad47748f359d2afbfb8ee1ad9a17713c"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0007.gzpart",
+          "bytes": 8388608,
+          "sha256": "f29e3f0bf0b617e7452cb534d1a3b3735e7668c8fcc66584e4abf5bab262b449"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0008.gzpart",
+          "bytes": 8388608,
+          "sha256": "c61d7bc62a0251d0cfe5ca501fa28a6cb249f05726fd6a2dd36c6bfff9e7cd49"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0009.gzpart",
+          "bytes": 8388608,
+          "sha256": "78c718d89f84e14f19e89b17bce093d050069b75f8aabe23efd1282099321cc8"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0010.gzpart",
+          "bytes": 8388608,
+          "sha256": "7defda3386b27e724b1d2f3d35720f6dd1190b9c89f2ee0753a377dabb2cf202"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0011.gzpart",
+          "bytes": 8388608,
+          "sha256": "2220b6b190dea83518302a12b1f1367692c41d00aa1322179967c56f6eda77a9"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0012.gzpart",
+          "bytes": 8388608,
+          "sha256": "1ee2357dbb254f0e639fe88946b0df6fa74001004ae0d206fa789cb7bc973e22"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0013.gzpart",
+          "bytes": 8388608,
+          "sha256": "ec117ebac81120ec5bc14bb9a3cf4f7d0af18a5ccd89b53318c67de706ca1e20"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0014.gzpart",
+          "bytes": 8388608,
+          "sha256": "5e92fd1bf21552018ffa6811cc7b0ece4c3857fc777702c6cad0180dbc58f61f"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0015.gzpart",
+          "bytes": 8388608,
+          "sha256": "fa025aed0c171225bd4a104b5b533cacc43b11a7ba03b07833c0b03ff6ad209a"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0016.gzpart",
+          "bytes": 8388608,
+          "sha256": "9f6b8909ca791eb4fdc3749f4e703fd0e0acb5ecf52976c19bbf33bdd15f7b73"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0017.gzpart",
+          "bytes": 8388608,
+          "sha256": "c5c5c549433c1a1bb33aa003e4b104ca7d666d992eb2ea52aeedd57cc973eefa"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0018.gzpart",
+          "bytes": 8388608,
+          "sha256": "55047f7c8477bcddc33008f5789cc8eeed1ba164273a47a640e2245845b9113a"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0019.gzpart",
+          "bytes": 8388608,
+          "sha256": "7b8b01a4ae220b68e8b194147cb2e689442148c4088c1f0926b5fac4179f9752"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0020.gzpart",
+          "bytes": 8388608,
+          "sha256": "9cdef5bfdf8075bc6e0f7fc31385d1165e2387b71e53298850464e51ae928a19"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0021.gzpart",
+          "bytes": 8388608,
+          "sha256": "3979f85b3e0c47c3f1dc73b0f73c21a8bff9251865df706097c4314cf6a89534"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0022.gzpart",
+          "bytes": 8388608,
+          "sha256": "788a08569b22847bc00d87429454330c0e1924d972458cadd32317cd1b16fe9d"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0023.gzpart",
+          "bytes": 8388608,
+          "sha256": "5565f469ea1e82102ecabda4ca6e8a58176c1235f5fadeb4f8bd5ca3ce781f97"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0024.gzpart",
+          "bytes": 8388608,
+          "sha256": "ab289a05d85ef3de383b11fd2e2d041d7875b522edd30018d65970abe1fbde8d"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0025.gzpart",
+          "bytes": 8388608,
+          "sha256": "92597ccbafa86e2f371e7087c73614adfe1bea62da8337f4ea15569ebc879f0d"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0026.gzpart",
+          "bytes": 8388608,
+          "sha256": "f262c6466605729911d512e03321f2d526cff939f5f5eda853076e4f305dff35"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0027.gzpart",
+          "bytes": 8388608,
+          "sha256": "75d249e3e1b3728d79060e1bf250954275f1683ae57fb356315eadfcc98d5f7a"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0028.gzpart",
+          "bytes": 8388608,
+          "sha256": "45dd98de63519afa3bd211448491a980ab4606fd4fa182410ee6ff7105c1fa84"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0029.gzpart",
+          "bytes": 8388608,
+          "sha256": "0778ef3618fae81933a58c558493d0a9d16e7eb518ec267b2a07781f7de665d3"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0030.gzpart",
+          "bytes": 8388608,
+          "sha256": "5550b860f9198f5f9fc571caa34e824e9b996a63474c3df43166b79fd7ba5f0d"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0031.gzpart",
+          "bytes": 8388608,
+          "sha256": "be45dfd5b104d582439898afedf0a0d5a4cab05223d71b0f9e57b063368642ce"
+        },
+        {
+          "path": "asset-parts/563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8/large-0032.gzpart",
+          "bytes": 5065234,
+          "sha256": "f8f54ac71e526d1c783405749a7a2108d4e9414d191a9947863919c90721957a"
+        }
+      ]
+    },
+    {
+      "path": "game/data/campus-access-school-road-replacement.json",
+      "bytes": 1259563,
+      "sha256": "7bd564167709399148a27aa0c5db2e2f0eeb521c9d5c0256b621d4b05472beb0",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/7bd564167709399148a27aa0c5db2e2f0eeb521c9d5c0256b621d4b05472beb0/large-0000.gzpart",
+          "bytes": 87811,
+          "sha256": "5925efbc3b1f502b1f10c2090eb9c5d0fd6ea3f0de80a896cea4c85f9b27a330"
+        }
+      ]
+    },
+    {
+      "path": "game/data/campus-navigation.json",
+      "bytes": 9199586,
+      "sha256": "57e82293b29c5787db51ad0bc4a0d357d90a42f2f4d3f002cba0a8da479dca44",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/57e82293b29c5787db51ad0bc4a0d357d90a42f2f4d3f002cba0a8da479dca44/large-0000.gzpart",
+          "bytes": 1516961,
+          "sha256": "f274de42002767106e102fa71fa2a86e27ee9c4a29e90a6e6724974782ef468b"
+        }
+      ]
+    },
+    {
+      "path": "game/data/entrance-surfaces.json",
+      "bytes": 2096967,
+      "sha256": "f90fa31eef697dfbed9a256a9f63649c37715cab4a5fc20c6dad0caa10d699b6",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/f90fa31eef697dfbed9a256a9f63649c37715cab4a5fc20c6dad0caa10d699b6/large-0000.gzpart",
+          "bytes": 95067,
+          "sha256": "3d4e3659a950547154d1802bffb6cd4e755c03b13390a4137d85471bf1e3ba79"
+        }
+      ]
+    },
+    {
+      "path": "game/data/greenery-infill.json",
+      "bytes": 1241690,
+      "sha256": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a/large-0000.gzpart",
+          "bytes": 144933,
+          "sha256": "e6ac1ff03029fd29040eaa4dea61225bda53c7d79a860bbb8b220d8eba6fd72a"
+        }
+      ]
+    },
+    {
+      "path": "game/data/hospital-arrival-overlay.json",
+      "bytes": 10101122,
+      "sha256": "5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f/large-0000.gzpart",
+          "bytes": 737676,
+          "sha256": "e6d3a18e1a6ff38372768315e1ddddca6aa495d2c29c5b3763b854a53845b939"
+        }
+      ]
+    },
+    {
+      "path": "game/data/native-export-campus-inventory.json",
+      "bytes": 4864578,
+      "sha256": "f479a597b9a0c88a4c0bdddfffe7419261f67b027f898f9782747207192ff114",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/f479a597b9a0c88a4c0bdddfffe7419261f67b027f898f9782747207192ff114/large-0000.gzpart",
+          "bytes": 619591,
+          "sha256": "a1816d0c692d345731e967ac43ec2dd128186848e7db41f1e2fcdc3e44db3a7a"
+        }
+      ]
+    },
+    {
+      "path": "game/data/parking-terraces.json",
+      "bytes": 7344173,
+      "sha256": "896672d4f8de987dabe269fd771356f22717a80636843307aa67b82cdec502ed",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/896672d4f8de987dabe269fd771356f22717a80636843307aa67b82cdec502ed/large-0000.gzpart",
+          "bytes": 655965,
+          "sha256": "7b0b26702b63f0892feab8068dae55e9d3ad53b00fc908a2289f5b12affb2738"
+        }
+      ]
+    },
+    {
+      "path": "game/data/road-graph-3d.json",
+      "bytes": 1525960,
+      "sha256": "57d12037872e2034bddefcbd7247ce37142db019937888e1b4f02693a269e9c5",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/57d12037872e2034bddefcbd7247ce37142db019937888e1b4f02693a269e9c5/large-0000.gzpart",
+          "bytes": 216623,
+          "sha256": "42a6573c9f8df18080898e25516226d8dcf9a15ae67e4016003e166bf7e16a82"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/assets/building.glb",
+      "bytes": 8881064,
+      "sha256": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5/large-0000.gzpart",
+          "bytes": 1358902,
+          "sha256": "6e5155f79491b3415a0e1ac06c4812a0a8e7d5b9dfb22a970b476e9722664f29"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/assets/campus.glb",
+      "bytes": 60213892,
+      "sha256": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836/large-0000.gzpart",
+          "bytes": 8388608,
+          "sha256": "bab157560a79fbc748d6edd88e86a24fd92b1fb94fb6d77c29a300f7df96a4ae"
+        },
+        {
+          "path": "asset-parts/c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836/large-0001.gzpart",
+          "bytes": 8388608,
+          "sha256": "2ecadc2fbbcb2df4c50ed5f23d225af1652c3fb08b85b4af8d379fda972849f7"
+        },
+        {
+          "path": "asset-parts/c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836/large-0002.gzpart",
+          "bytes": 8388608,
+          "sha256": "de25aee3d560641c9df077ea20293bf11720505fd57bd72b5b678eadf0450926"
+        },
+        {
+          "path": "asset-parts/c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836/large-0003.gzpart",
+          "bytes": 3123419,
+          "sha256": "930e171fc5ebbf48516123ec35c554ca6c6f685313d076d13142885254dbb804"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/assets/shuttle_bus.glb",
+      "bytes": 1068036,
+      "sha256": "45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48/large-0000.gzpart",
+          "bytes": 226330,
+          "sha256": "4df716c74368ab7c5362b5815d76ef54cfa0cbc5d8c19fb3398ca30b4341e6b8"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/street-lighting.json",
+      "bytes": 18270612,
+      "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394/large-0000.gzpart",
+          "bytes": 2584469,
+          "sha256": "4226f889ce447e64553da2a0a6cbd3b655102720280ae65464b9399cd85fad80"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20/large-0000.gzpart",
+          "bytes": 276943,
+          "sha256": "14d4059515293486eaf00fae4917052bdf070a6c87fac32c9547efafb0f7fcf8"
+        }
+      ]
+    },
+    {
+      "path": "game/dist/world-config.js",
+      "bytes": 13171356,
+      "sha256": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309/large-0000.gzpart",
+          "bytes": 1722990,
+          "sha256": "9f12d1a12aaef1d9fd443990102efa13a9c61d2fdd1b9c052877b885d06b4d66"
+        }
+      ]
+    },
+    {
+      "path": "game/revision/lighting-native-manifest.json",
+      "bytes": 48918027,
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d/large-0000.gzpart",
+          "bytes": 3304977,
+          "sha256": "c37a1b5b4f7cc1b521d72d529b801f36d99df271e9c9c5a0b7a89e9723427d97"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/walkable-results.json",
+      "bytes": 16433563,
+      "sha256": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0/large-0000.gzpart",
+          "bytes": 1651728,
+          "sha256": "ddb4636206ee7e1a28fcb6d04987d671129abd8dcd6438e15c8febfc8c4831ec"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity-results/surface-conformity-results.json",
+      "bytes": 20594206,
+      "sha256": "0d175b8476fad0cbb6db5c833f8fd7784e321ed7b93ef116052f36600706a070",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/0d175b8476fad0cbb6db5c833f8fd7784e321ed7b93ef116052f36600706a070/large-0000.gzpart",
+          "bytes": 1676531,
+          "sha256": "b8c3fae487b4d45e73fc567dfab5a9de4e76245373c5e4a6885912934ff62921"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/parking-clearance-results.json",
+      "bytes": 7411808,
+      "sha256": "9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a/large-0000.gzpart",
+          "bytes": 223578,
+          "sha256": "6e702978e50a1185564d1f9b8f3d5953af44b5130dd1bd1caf5ef8973ec0eda2"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/runtime-runs/parking-clearance-results/parking-clearance-results.json",
+      "bytes": 7411808,
+      "sha256": "9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a/large-0000.gzpart",
+          "bytes": 223578,
+          "sha256": "6e702978e50a1185564d1f9b8f3d5953af44b5130dd1bd1caf5ef8973ec0eda2"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/source-history/a1_export2/dist/vendor/three.core.js",
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20/large-0000.gzpart",
+          "bytes": 276943,
+          "sha256": "14d4059515293486eaf00fae4917052bdf070a6c87fac32c9547efafb0f7fcf8"
+        }
+      ]
+    },
+    {
+      "path": "game/tests/source-history/a1_export2/dist/world-config.js",
+      "bytes": 13167262,
+      "sha256": "97e4007cdad9cb41d6739e1b2399718c404cf2df12f6470d4b278ebabea9a1b1",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/97e4007cdad9cb41d6739e1b2399718c404cf2df12f6470d4b278ebabea9a1b1/large-0000.gzpart",
+          "bytes": 1719804,
+          "sha256": "34065fc3613aee0f51bdaefd1c0c166b904fdd76b3326fc2e6d95af14a0c005a"
+        }
+      ]
+    },
+    {
+      "path": "renders/overview/07_Whole_Campus_Final.png",
+      "bytes": 1809294,
+      "sha256": "1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "d791abc5003d7ae0415ab34e21dfc369b1b7ba47d44f8d46ecb6eb08430dcc73"
+        },
+        {
+          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "9dbcf177b4451ed983f26de77bb3a239b44b9a4b3a4956d55f1fd0ac20dbfbdb"
+        },
+        {
+          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "17402b3b692f5c08f555b1e9ba2580c1555ac438b9a36330038d4757dddfa50f"
+        },
+        {
+          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "70a3d382fd18f1d16b2532a198153673a549f230434513594629874b797d3290"
+        },
+        {
+          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0004.gzpart",
+          "bytes": 236882,
+          "sha256": "0348ca17e96f0e8e1a7698d3ea7274eab649946b2b3247feee5e421e71609927"
+        }
+      ]
+    },
+    {
+      "path": "renders/overview/07_Whole_Campus_VM.png",
+      "bytes": 1178000,
+      "sha256": "7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "0d61530ce14fbf19a5d6e0fcd8a7446df9a3c99864ae852c1d22b1698585f651"
+        },
+        {
+          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "561aa3024ac922ad908e771c16c7aacbcc4b8905da1e550d28afd3a53335523e"
+        },
+        {
+          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0002.gzpart",
+          "bytes": 391827,
+          "sha256": "3f91e861c0d7f9fdee3dd689db7c980f32aa3f2f8a44a6d85b970d54660b8c75"
+        }
+      ]
+    },
+    {
+      "path": "renders/shuttle/shuttle_livery_front_left.png",
+      "bytes": 2792245,
+      "sha256": "83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "85fd7bd7ede92b1cf8ef5b8f429cd7e2ff548ce5a77623dd1c042d995ebe217a"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "91c11491c07acf208bf35cf929f585129fdd20422f86d6802c8f223d4732215f"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "ec2974b7342aacc28c26a670d0b463152c83c16d7200377ab8a40eb2acc838eb"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "352dc47250a022e6fd0079ce49ea7137cfc69c8815ee2157c9ba0613927c9a97"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "6dcce2a56fd9ced7f46fe2906a83ac68b6ad56aa56f4a7ec5384dac43ac1fba3"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0005.gzpart",
+          "bytes": 393216,
+          "sha256": "16a8e33787e8bf3d0e1da08cde558cec2352c4510385df7ff85472394f2d2ae5"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0006.gzpart",
+          "bytes": 393216,
+          "sha256": "f879d35d636182a4215faf44ffbc473a796dd09bceaf620092cd618564acb058"
+        },
+        {
+          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0007.gzpart",
+          "bytes": 36438,
+          "sha256": "5d4ad3491fa8f8c551a37b45a44177bda143d452f1cce94a9d0e5e10dfd9dd13"
+        }
+      ]
+    },
+    {
+      "path": "renders/shuttle/shuttle_livery_rear_left.png",
+      "bytes": 2825847,
+      "sha256": "1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "e3f08ea2e5a57c12fa13d207f0f45945486275f35ec44ec6a2bb18732dbc27fc"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "becf79e0dee1177987ad95bbf9f1d4966526532b96b73652e628d4ba3c2e318c"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "67619ca2c4fe46684677f2dbf01464e59c985fa85873e73c34cb764e781490d6"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "f9b0340eb9a4f08dcbf1688f7825ba0991cbf516567ce8455dc418b8291e6bcf"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "8a6e9deb4a394b1fef6556e95a98acf8816084c497416bf222a7480fd4d6d7fc"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0005.gzpart",
+          "bytes": 393216,
+          "sha256": "5a529288fc81e0a514ada89fafe99d77027393672478cca624cbe53776fde484"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0006.gzpart",
+          "bytes": 393216,
+          "sha256": "5e1ad7ef0900d91c3eea9c382563eb44bf22039e4cf734953654edc5ea885fdc"
+        },
+        {
+          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0007.gzpart",
+          "bytes": 68530,
+          "sha256": "58df7e4108c96578721c5f2144a2b27b4e22888ccb8d1b5af1475d4c950b0a11"
+        }
+      ]
+    },
+    {
+      "path": "renders/shuttle/shuttle_livery_side.png",
+      "bytes": 2647953,
+      "sha256": "2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "322adec9d0c250007a490cf7e80725cc825e677c3e7a6b50f11f20d5b36572fc"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "f0882cdaa42673379730df05fcc01a0639f6be1028722b0dfea50f45863d2948"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "aaf8f22efaa9d347b83aa029cfa11ad89f4ed9e7a3a4177b1aab96027ac6dd05"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "3c50d75673b7df18ea7ab9a7769e114885d84b1c63a7fa6b57600a71bb5f77fe"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "70280e267ecfffe94ae96e5291f039df90d805c935e8e0bfb97d38535bfdf938"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0005.gzpart",
+          "bytes": 393216,
+          "sha256": "1017cb88556fa6f1cd0f62185a146ed68f5f3028cfc0d8229d6392138172ee6f"
+        },
+        {
+          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0006.gzpart",
+          "bytes": 284008,
+          "sha256": "001d8386f7c7c1491144455432fae9d37295d23ca5921e2bef47abe4aaa10785"
+        }
+      ]
+    },
+    {
+      "path": "renders/stairs/70_중앙108계단_전체.png",
+      "bytes": 2517443,
+      "sha256": "26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "b25b15849387404f99f295a6372b5766f42fcd50840d601be488dd5ec42980e5"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "452a6f51eef42dfb71de6413ae07c5380af28c5956df57749103bdf085d76eea"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "5ff65a8b88835dac9bef81c405fdedc1fd596ca119c0da38de62eb2e1f00aaca"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "03a7990be6786db3aa960de4c098a1fadcb000acc3e2c9c1a677c6acfdeb5997"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "f85e2806bbb8182d00673e63f46c58ce8d7ac39a3f6ee1315241fbab55c6f396"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0005.gzpart",
+          "bytes": 393216,
+          "sha256": "11c232df5e1c36561f8c1010f5790aff8a6c406fe87dfb7a749584546329569f"
+        },
+        {
+          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0006.gzpart",
+          "bytes": 158824,
+          "sha256": "c9683c89df9cad045726ebc5a4a247272770a0305d87fa960c1e5df65f2c5262"
+        }
+      ]
+    },
+    {
+      "path": "renders/stairs/71_중앙108계단_상세.png",
+      "bytes": 2346474,
+      "sha256": "1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "adb95b9a4ce1b2649bcd65fee30a97b0ce49cc2d92c87abae774218c36080231"
+        },
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "2a3f4b15720f7dfe0e64ea9835fddef43f39ff4061ddfe41b5f118a3ea168176"
+        },
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "80491b0ea91f019337417f8fda550011ab2ff2f77fc38036cf0f3a306887356d"
+        },
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "9a222d2b422d94bc729040a5e2285afadc983efc717e5f8c942431f64eb165bb"
+        },
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "3c0c219f7509b89f4bb426b525097eb2a47d8752f2e747cc36a26a619330771d"
+        },
+        {
+          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0005.gzpart",
+          "bytes": 381013,
+          "sha256": "0f1beeb863a8c5c11120eca40869ac87d48e0c771c31041ad2407e402f7aa041"
+        }
+      ]
+    },
+    {
+      "path": "renders/stairs/72_실험실습동_금속계단.png",
+      "bytes": 2328501,
+      "sha256": "a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "9afeddd66dd42ee3040eb4e9d05a2544c378f6f1ca1d74b103b6055c6bcdc4c1"
+        },
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "6b238af8770a0bf234001c6c60bdb961054d6474a1252a51a403b1788dc70381"
+        },
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "de209b052a53d592cf394a10de6ed71c7b58d4c04270839e44719385f099a285"
+        },
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "43d928d91b18cbdeb3d2a9fed260d4fc22e97e37ac14fa4ae599a5b4b62b723f"
+        },
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "5fac2462be62501d0db0e981a498fa8a6d8154ac89b7b80b2e5f5c8c63278081"
+        },
+        {
+          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0005.gzpart",
+          "bytes": 363033,
+          "sha256": "acfb984dae586d7e61e03e21aea7c399b0ccc1369341f9f60758a347147c8d54"
+        }
+      ]
+    },
+    {
+      "path": "renders/stairs/73_보행연결계단_추정.png",
+      "bytes": 2046556,
+      "sha256": "e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0000.gzpart",
+          "bytes": 393216,
+          "sha256": "2a7a42d744cafaddc385c64939cf1f96c476b6eb85e1125d0203d17ce623be4b"
+        },
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0001.gzpart",
+          "bytes": 393216,
+          "sha256": "59242e5a4d6e2db5e1f685b0aec511e16a91b58f25dfe1f47b26d2929680fb51"
+        },
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0002.gzpart",
+          "bytes": 393216,
+          "sha256": "3d78c6fd034279822f740569f91ce8d238271f2aaa72c02fa3df48a166552d89"
+        },
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0003.gzpart",
+          "bytes": 393216,
+          "sha256": "c7528a1e06b0cc96ef41efd41ae0873a48da0248dc4a2713185f2afbedddc962"
+        },
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0004.gzpart",
+          "bytes": 393216,
+          "sha256": "bb9c322bcd8e6e2c10f9e3459e4e9236bb257374b0265c2b71c3e41724bec511"
+        },
+        {
+          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0005.gzpart",
+          "bytes": 81009,
+          "sha256": "38a6e61ec4314ca4c28d083704aa9aa8adca833dd9dc5dc619ed335511cb9486"
+        }
+      ]
+    },
+    {
+      "path": "renders/street_lighting_v6/Street_Lighting_detail.png",
+      "bytes": 1346974,
+      "sha256": "f87c6cce70c82ab13e2dddccd94411fd64b1eca93e6040dd63ea2fefa0c56aaa",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/f87c6cce70c82ab13e2dddccd94411fd64b1eca93e6040dd63ea2fefa0c56aaa/large-0000.gzpart",
+          "bytes": 1347280,
+          "sha256": "49625331cb0005f888f99d22381dfb3e92592828aab4890a1e0c8a439140458b"
+        }
+      ]
+    },
+    {
+      "path": "renders/street_lighting_v6/Street_Lighting_evening.png",
+      "bytes": 1667339,
+      "sha256": "e6e9d693bba5fe7823b176c2c163ec0ee6d8a335278a33b71c842e32d3df06d0",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/e6e9d693bba5fe7823b176c2c163ec0ee6d8a335278a33b71c842e32d3df06d0/large-0000.gzpart",
+          "bytes": 1667745,
+          "sha256": "ec9cc2da74a0fd5e81dd0997ea32033930e598132d309b69b57b8bef769f2040"
+        }
+      ]
+    },
+    {
+      "path": "renders/street_lighting_v6/Street_Lighting_night.png",
+      "bytes": 1336848,
+      "sha256": "bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "asset-parts/bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6/large-0000.gzpart",
+          "bytes": 1337159,
+          "sha256": "fac76fa78f9e98620b7b12ffe8f20c3a7e5f85e01612fb70f22e29306c27363d"
+        }
+      ]
+    },
+    {
       "path": "renders/time_of_day/morning.png",
       "bytes": 2814210,
       "sha256": "9f28e1c20aa53255a64043d3309db0706799c7802932eea40f0ccfb5175ce30a",
@@ -768,358 +1646,6 @@
           "path": "asset-parts/5fa0c27b9b6f8dcd582af25089174430ce48597969314ecfdc5c517307259afc/0007.gzpart",
           "bytes": 332845,
           "sha256": "dfd8a153b7de4e64e285a92a744fa2d0fa791bcfec3e90eb1b6326a621559794"
-        }
-      ]
-    },
-    {
-      "path": "renders/overview/07_Whole_Campus_Final.png",
-      "bytes": 1809294,
-      "sha256": "1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "d791abc5003d7ae0415ab34e21dfc369b1b7ba47d44f8d46ecb6eb08430dcc73"
-        },
-        {
-          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "9dbcf177b4451ed983f26de77bb3a239b44b9a4b3a4956d55f1fd0ac20dbfbdb"
-        },
-        {
-          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "17402b3b692f5c08f555b1e9ba2580c1555ac438b9a36330038d4757dddfa50f"
-        },
-        {
-          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "70a3d382fd18f1d16b2532a198153673a549f230434513594629874b797d3290"
-        },
-        {
-          "path": "asset-parts/1f7b8ef28aa88d6732e7a0a3d0d17086d19986710d9b3da7a43e3cd5c7046927/0004.gzpart",
-          "bytes": 236882,
-          "sha256": "0348ca17e96f0e8e1a7698d3ea7274eab649946b2b3247feee5e421e71609927"
-        }
-      ]
-    },
-    {
-      "path": "renders/overview/07_Whole_Campus_VM.png",
-      "bytes": 1178000,
-      "sha256": "7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "0d61530ce14fbf19a5d6e0fcd8a7446df9a3c99864ae852c1d22b1698585f651"
-        },
-        {
-          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "561aa3024ac922ad908e771c16c7aacbcc4b8905da1e550d28afd3a53335523e"
-        },
-        {
-          "path": "asset-parts/7b8d5136de0df3d3ee1990f49270c770a6fa9fc6f7c92512ae666c77c6b2b86d/0002.gzpart",
-          "bytes": 391827,
-          "sha256": "3f91e861c0d7f9fdee3dd689db7c980f32aa3f2f8a44a6d85b970d54660b8c75"
-        }
-      ]
-    },
-    {
-      "path": "renders/stairs/70_중앙108계단_전체.png",
-      "bytes": 2517443,
-      "sha256": "26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "b25b15849387404f99f295a6372b5766f42fcd50840d601be488dd5ec42980e5"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "452a6f51eef42dfb71de6413ae07c5380af28c5956df57749103bdf085d76eea"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "5ff65a8b88835dac9bef81c405fdedc1fd596ca119c0da38de62eb2e1f00aaca"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "03a7990be6786db3aa960de4c098a1fadcb000acc3e2c9c1a677c6acfdeb5997"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "f85e2806bbb8182d00673e63f46c58ce8d7ac39a3f6ee1315241fbab55c6f396"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0005.gzpart",
-          "bytes": 393216,
-          "sha256": "11c232df5e1c36561f8c1010f5790aff8a6c406fe87dfb7a749584546329569f"
-        },
-        {
-          "path": "asset-parts/26d31f3674d98bdc5b48758af4d38b7e1465d68d38bd93f01b59dd406c9edd90/0006.gzpart",
-          "bytes": 158824,
-          "sha256": "c9683c89df9cad045726ebc5a4a247272770a0305d87fa960c1e5df65f2c5262"
-        }
-      ]
-    },
-    {
-      "path": "renders/stairs/71_중앙108계단_상세.png",
-      "bytes": 2346474,
-      "sha256": "1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "adb95b9a4ce1b2649bcd65fee30a97b0ce49cc2d92c87abae774218c36080231"
-        },
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "2a3f4b15720f7dfe0e64ea9835fddef43f39ff4061ddfe41b5f118a3ea168176"
-        },
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "80491b0ea91f019337417f8fda550011ab2ff2f77fc38036cf0f3a306887356d"
-        },
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "9a222d2b422d94bc729040a5e2285afadc983efc717e5f8c942431f64eb165bb"
-        },
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "3c0c219f7509b89f4bb426b525097eb2a47d8752f2e747cc36a26a619330771d"
-        },
-        {
-          "path": "asset-parts/1e24371458fc858af76d5993c27de60302cf7d55e8f9b995bf38605401d1f167/0005.gzpart",
-          "bytes": 381013,
-          "sha256": "0f1beeb863a8c5c11120eca40869ac87d48e0c771c31041ad2407e402f7aa041"
-        }
-      ]
-    },
-    {
-      "path": "renders/stairs/72_실험실습동_금속계단.png",
-      "bytes": 2328501,
-      "sha256": "a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "9afeddd66dd42ee3040eb4e9d05a2544c378f6f1ca1d74b103b6055c6bcdc4c1"
-        },
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "6b238af8770a0bf234001c6c60bdb961054d6474a1252a51a403b1788dc70381"
-        },
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "de209b052a53d592cf394a10de6ed71c7b58d4c04270839e44719385f099a285"
-        },
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "43d928d91b18cbdeb3d2a9fed260d4fc22e97e37ac14fa4ae599a5b4b62b723f"
-        },
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "5fac2462be62501d0db0e981a498fa8a6d8154ac89b7b80b2e5f5c8c63278081"
-        },
-        {
-          "path": "asset-parts/a23e414f9cd50e1143f7a4d5ada733a21627cfb549dbee3afce81decf8981079/0005.gzpart",
-          "bytes": 363033,
-          "sha256": "acfb984dae586d7e61e03e21aea7c399b0ccc1369341f9f60758a347147c8d54"
-        }
-      ]
-    },
-    {
-      "path": "renders/stairs/73_보행연결계단_추정.png",
-      "bytes": 2046556,
-      "sha256": "e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "2a7a42d744cafaddc385c64939cf1f96c476b6eb85e1125d0203d17ce623be4b"
-        },
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "59242e5a4d6e2db5e1f685b0aec511e16a91b58f25dfe1f47b26d2929680fb51"
-        },
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "3d78c6fd034279822f740569f91ce8d238271f2aaa72c02fa3df48a166552d89"
-        },
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "c7528a1e06b0cc96ef41efd41ae0873a48da0248dc4a2713185f2afbedddc962"
-        },
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "bb9c322bcd8e6e2c10f9e3459e4e9236bb257374b0265c2b71c3e41724bec511"
-        },
-        {
-          "path": "asset-parts/e96d5da59b3879c5da3c6b6f83f25fc530f66b7be04cff9fcf66cc30527c92b1/0005.gzpart",
-          "bytes": 81009,
-          "sha256": "38a6e61ec4314ca4c28d083704aa9aa8adca833dd9dc5dc619ed335511cb9486"
-        }
-      ]
-    },
-    {
-      "path": "renders/shuttle/shuttle_livery_front_left.png",
-      "bytes": 2792245,
-      "sha256": "83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "85fd7bd7ede92b1cf8ef5b8f429cd7e2ff548ce5a77623dd1c042d995ebe217a"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "91c11491c07acf208bf35cf929f585129fdd20422f86d6802c8f223d4732215f"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "ec2974b7342aacc28c26a670d0b463152c83c16d7200377ab8a40eb2acc838eb"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "352dc47250a022e6fd0079ce49ea7137cfc69c8815ee2157c9ba0613927c9a97"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "6dcce2a56fd9ced7f46fe2906a83ac68b6ad56aa56f4a7ec5384dac43ac1fba3"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0005.gzpart",
-          "bytes": 393216,
-          "sha256": "16a8e33787e8bf3d0e1da08cde558cec2352c4510385df7ff85472394f2d2ae5"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0006.gzpart",
-          "bytes": 393216,
-          "sha256": "f879d35d636182a4215faf44ffbc473a796dd09bceaf620092cd618564acb058"
-        },
-        {
-          "path": "asset-parts/83e2e9bd5a62bf113710f9f1708e258a71890bcbe1a4430e0c709d5543b04ba3/0007.gzpart",
-          "bytes": 36438,
-          "sha256": "5d4ad3491fa8f8c551a37b45a44177bda143d452f1cce94a9d0e5e10dfd9dd13"
-        }
-      ]
-    },
-    {
-      "path": "renders/shuttle/shuttle_livery_rear_left.png",
-      "bytes": 2825847,
-      "sha256": "1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "e3f08ea2e5a57c12fa13d207f0f45945486275f35ec44ec6a2bb18732dbc27fc"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "becf79e0dee1177987ad95bbf9f1d4966526532b96b73652e628d4ba3c2e318c"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "67619ca2c4fe46684677f2dbf01464e59c985fa85873e73c34cb764e781490d6"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "f9b0340eb9a4f08dcbf1688f7825ba0991cbf516567ce8455dc418b8291e6bcf"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "8a6e9deb4a394b1fef6556e95a98acf8816084c497416bf222a7480fd4d6d7fc"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0005.gzpart",
-          "bytes": 393216,
-          "sha256": "5a529288fc81e0a514ada89fafe99d77027393672478cca624cbe53776fde484"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0006.gzpart",
-          "bytes": 393216,
-          "sha256": "5e1ad7ef0900d91c3eea9c382563eb44bf22039e4cf734953654edc5ea885fdc"
-        },
-        {
-          "path": "asset-parts/1ad7b2f0f7ede319ca19be54dde1e1abe8b27ce16aadffe54445b9bcd5610b2a/0007.gzpart",
-          "bytes": 68530,
-          "sha256": "58df7e4108c96578721c5f2144a2b27b4e22888ccb8d1b5af1475d4c950b0a11"
-        }
-      ]
-    },
-    {
-      "path": "renders/shuttle/shuttle_livery_side.png",
-      "bytes": 2647953,
-      "sha256": "2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a",
-      "compression": "gzip",
-      "parts": [
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0000.gzpart",
-          "bytes": 393216,
-          "sha256": "322adec9d0c250007a490cf7e80725cc825e677c3e7a6b50f11f20d5b36572fc"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0001.gzpart",
-          "bytes": 393216,
-          "sha256": "f0882cdaa42673379730df05fcc01a0639f6be1028722b0dfea50f45863d2948"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0002.gzpart",
-          "bytes": 393216,
-          "sha256": "aaf8f22efaa9d347b83aa029cfa11ad89f4ed9e7a3a4177b1aab96027ac6dd05"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0003.gzpart",
-          "bytes": 393216,
-          "sha256": "3c50d75673b7df18ea7ab9a7769e114885d84b1c63a7fa6b57600a71bb5f77fe"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0004.gzpart",
-          "bytes": 393216,
-          "sha256": "70280e267ecfffe94ae96e5291f039df90d805c935e8e0bfb97d38535bfdf938"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0005.gzpart",
-          "bytes": 393216,
-          "sha256": "1017cb88556fa6f1cd0f62185a146ed68f5f3028cfc0d8229d6392138172ee6f"
-        },
-        {
-          "path": "asset-parts/2da07f39bf55a4900b674f1c324eb850538aad92ce0e6d99ceef0ba82e4cb71a/0006.gzpart",
-          "bytes": 284008,
-          "sha256": "001d8386f7c7c1491144455432fae9d37295d23ca5921e2bef47abe4aaa10785"
         }
       ]
     }

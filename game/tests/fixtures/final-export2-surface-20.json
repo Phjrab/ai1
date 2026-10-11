@@ -1,0 +1,282 @@
+[
+  {
+    "id": "inferred_walk_connector_944569946_0_approach_13",
+    "triangle": 9,
+    "point": [
+      -183.25837836068948,
+      -36.93941417324643,
+      206.23630767146574
+    ],
+    "visibleHeight": -36.939414173246405,
+    "supportObject": "INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1",
+    "runtimeHeight": -36.780582580468355,
+    "runtimeVisibleGap": 0.15883159277804992,
+    "metadataVisibleGap": -2.842170943040401e-14
+  },
+  {
+    "id": "inferred_walk_connector_944569946_0_tread_0",
+    "triangle": 17,
+    "point": [
+      -183.59015021127496,
+      -36.92122061042094,
+      206.26853423396565
+    ],
+    "visibleHeight": -36.921220610420946,
+    "supportObject": "INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1",
+    "runtimeHeight": -36.76238530571052,
+    "runtimeVisibleGap": 0.15883530471042917,
+    "metadataVisibleGap": 7.105427357601002e-15
+  },
+  {
+    "id": "inferred_walk_connector_944569946_0_tread_3",
+    "triangle": 7,
+    "point": [
+      -182.40696122920923,
+      -38.281328850197454,
+      204.34062173507166
+    ],
+    "visibleHeight": -38.28132885019748,
+    "supportObject": "INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1",
+    "runtimeHeight": -38.12249243890108,
+    "runtimeVisibleGap": 0.1588364112964058,
+    "metadataVisibleGap": 2.842170943040401e-14
+  },
+  {
+    "id": "RV2_HOSPITAL | photo supported paved forecourt",
+    "triangle": 85,
+    "point": [
+      328.7550354003906,
+      -29.199675877888996,
+      814.1935831705729
+    ],
+    "visibleHeight": -29.15167259771976,
+    "supportObject": "CAMPUS_BUILDING_162_|_RV2_SH_hospital_entry_canopy_mesh001_1",
+    "runtimeHeight": -29.18467619533798,
+    "runtimeVisibleGap": -0.033003597618218805,
+    "metadataVisibleGap": -0.04800328016923672
+  },
+  {
+    "id": "550_door_side_walk_42",
+    "triangle": 6,
+    "point": [
+      255.65469955920128,
+      -41.20430632389268,
+      344.00652064295525
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.19930557505055,
+    "runtimeVisibleGap": -0.43627528592397624,
+    "metadataVisibleGap": -0.4412760347661049
+  },
+  {
+    "id": "550_door_side_walk_43",
+    "triangle": 6,
+    "point": [
+      255.47345987955728,
+      -41.19463602701823,
+      343.99530029296875
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.18963615114027,
+    "runtimeVisibleGap": -0.42660586201369455,
+    "metadataVisibleGap": -0.43160573789165113
+  },
+  {
+    "id": "550_door_side_walk_44",
+    "triangle": 6,
+    "point": [
+      256.54536797464675,
+      -41.24905133894056,
+      343.96565745983213
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.24405112615179,
+    "runtimeVisibleGap": -0.4810208370252127,
+    "metadataVisibleGap": -0.486021049813985
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 3,
+    "point": [
+      255.84722933505282,
+      -41.21400580437083,
+      343.98925783300785
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.209005667544126,
+    "runtimeVisibleGap": -0.4459753784175504,
+    "metadataVisibleGap": -0.4509755152442523
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 4,
+    "point": [
+      255.75773137405724,
+      -41.21034878126057,
+      343.9287513570728
+    ],
+    "visibleHeight": -40.76303028912658,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.205348015012454,
+    "runtimeVisibleGap": -0.4423177258858715,
+    "metadataVisibleGap": -0.4473184921339879
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 5,
+    "point": [
+      256.0510406828571,
+      -41.225639226988804,
+      343.8756425166587
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.220639375852485,
+    "runtimeVisibleGap": -0.4576090867259097,
+    "metadataVisibleGap": -0.46260893786222823
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 6,
+    "point": [
+      255.9366854387729,
+      -41.21955251179208,
+      343.9058506253262
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.214552703699496,
+    "runtimeVisibleGap": -0.45152241457292064,
+    "metadataVisibleGap": -0.45652222266550524
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 11,
+    "point": [
+      256.209285257105,
+      -41.23221433970844,
+      343.9743898731033
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.2272148538154,
+    "runtimeVisibleGap": -0.4641845646888214,
+    "metadataVisibleGap": -0.4691840505818661
+  },
+  {
+    "id": "550_door_side_walk_45",
+    "triangle": 12,
+    "point": [
+      256.414236750305,
+      -41.24422966318649,
+      343.83610307190247
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.2392295478695,
+    "runtimeVisibleGap": -0.47619925874292335,
+    "metadataVisibleGap": -0.4811993740599121
+  },
+  {
+    "id": "550_door_side_walk_46",
+    "triangle": 1,
+    "point": [
+      257.45467573295184,
+      -41.29410448257215,
+      343.9800313313802
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.28910303304723,
+    "runtimeVisibleGap": -0.5260727439206576,
+    "metadataVisibleGap": -0.5310741934455763
+  },
+  {
+    "id": "550_door_side_walk_46",
+    "triangle": 2,
+    "point": [
+      257.3694943360582,
+      -41.29143456474732,
+      343.86066154109255
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.286433622427005,
+    "runtimeVisibleGap": -0.5234033333004291,
+    "metadataVisibleGap": -0.5284042756207441
+  },
+  {
+    "id": "550_door_side_walk_47",
+    "triangle": 5,
+    "point": [
+      256.6206359863281,
+      -41.25273513793945,
+      343.9703165690104
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.2477347809636,
+    "runtimeVisibleGap": -0.4847044918370216,
+    "metadataVisibleGap": -0.48970484881287746
+  },
+  {
+    "id": "550_door_side_walk_47",
+    "triangle": 6,
+    "point": [
+      257.09312766475796,
+      -41.27565933521046,
+      344.01470244996233
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.27065908458857,
+    "runtimeVisibleGap": -0.5076287954619971,
+    "metadataVisibleGap": -0.5126290460838874
+  },
+  {
+    "id": "550_door_side_walk_47",
+    "triangle": 7,
+    "point": [
+      257.1187517976016,
+      -41.27850253016086,
+      343.89534844379386
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.273502575958375,
+    "runtimeVisibleGap": -0.5104722868317992,
+    "metadataVisibleGap": -0.5154722410342814
+  },
+  {
+    "id": "550_door_side_walk_49",
+    "triangle": 10,
+    "point": [
+      257.63288701455497,
+      -41.3034962316204,
+      343.93766297905523
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.29849463997258,
+    "runtimeVisibleGap": -0.5354643508460057,
+    "metadataVisibleGap": -0.5404659424938245
+  },
+  {
+    "id": "550_door_side_walk_49",
+    "triangle": 12,
+    "point": [
+      257.6983491760326,
+      -41.30679058078687,
+      343.9327483679091
+    ],
+    "visibleHeight": -40.763030289126576,
+    "supportObject": "RV2_PORTAL_a_18_photo1_mesh_1",
+    "runtimeHeight": -41.301789038607595,
+    "runtimeVisibleGap": -0.5387587494810191,
+    "metadataVisibleGap": -0.5437602916602913
+  }
+]

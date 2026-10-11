@@ -1,0 +1,8 @@
+import assert from 'node:assert/strict';
+import {Group,Mesh,PlaneGeometry} from 'three';
+import {createVehicleSurfaceRules} from '../dist/vehicle-surfaces.js';
+const rules=createVehicleSurfaceRules({vehicleSurfaceRules:[{mode:'allow',polygon:[[0,2,0],[10,3,0],[0,2,10]]},{mode:'exclude',polygon:[[15,2,0],[25,4,0],[15,2,10]]}]});
+assert.ok(rules.allows({x:2,y:2.2,z:2}));assert.ok(!rules.allows({x:8,y:2.8,z:8}),'Do not fill the triangle bounding box');assert.ok(!rules.allows({x:2,y:6,z:2}),'Do not jump between levels');
+assert.ok(rules.blocks({x:16,y:2.2,z:2},0));assert.ok(rules.blocks({x:14.5,y:2.2,z:2},0),'Block the full car footprint at the slope edge');assert.ok(!rules.blocks({x:16,y:9,z:2},0));assert.ok(!rules.blocks({x:2,y:2.2,z:2},0));
+console.log('PASS: exact parking/transition triangles allow driving; forbidden slopes block only vehicles at their own level.');
+const root=new Group(),sidewalk=new Group(),top=new Mesh(new PlaneGeometry(4,4).rotateX(-Math.PI/2));sidewalk.name='Source sidewalk';sidewalk.userData.RV2_no_vehicle=true;sidewalk.position.set(30,7,40);sidewalk.rotation.y=.6;sidewalk.add(top);root.add(sidewalk);const original=Array.from(top.geometry.attributes.position.array);assert.deepEqual(rules.attach(root),{objects:1,triangles:2});assert.ok(rules.blocks({x:30,y:7,z:40},0));assert.ok(!rules.blocks({x:30,y:3,z:40},0),'Elevated sidewalk cannot block another floor');assert.deepEqual(Array.from(top.geometry.attributes.position.array),original,'Rendered support buffers remain unchanged');assert.deepEqual(rules.attach(root),{objects:0,triangles:0},'Repeated attachment must not duplicate triangles');console.log('PASS: native no-vehicle tags use actual transformed surface triangles, preserve source geometry and stay height-scoped.');

@@ -1,0 +1,300 @@
+{
+  "sourceSha256": "6af5c30d23bd5ea950df1a7357dc6f95191158cd650b524857802966f2a93805",
+  "updated": [
+    {
+      "kind": "extraNPCs",
+      "index": 0,
+      "floor_z": -22.188262939453125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 1,
+      "floor_z": 5.0200042724609375,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 2,
+      "floor_z": -45.43731689453125,
+      "support_object": "CAMPUS_CONTINUOUS pedestrian paving"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 3,
+      "floor_z": -37.639739990234375,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 4,
+      "floor_z": -27.777801513671875,
+      "support_object": "CAMPUS_CONTINUOUS pedestrian paving"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 5,
+      "floor_z": -50.685089111328125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 6,
+      "floor_z": -26.6456298828125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 7,
+      "floor_z": 9.222091674804688,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 8,
+      "floor_z": -16.69158935546875,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 9,
+      "floor_z": -44.5250244140625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 10,
+      "floor_z": -39.944793701171875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 11,
+      "floor_z": -40.38983154296875,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 12,
+      "floor_z": -31.987091064453125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraCars",
+      "index": 0,
+      "floor_z": -7.623443603515625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 1,
+      "floor_z": 4.718017578125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 2,
+      "floor_z": -38.826629638671875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 3,
+      "floor_z": -43.947601318359375,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 4,
+      "floor_z": -14.721405029296875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 5,
+      "floor_z": -16.64605712890625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 6,
+      "floor_z": -44.52496337890625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 7,
+      "floor_z": -41.589111328125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 8,
+      "floor_z": -27.499969482421875,
+      "support_object": "RV2_V5_PARKING_TERRACE | 421_east_south_terrace"
+    },
+    {
+      "kind": "baseCars",
+      "index": 0,
+      "floor_z": 0.095001220703125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "baseCars",
+      "index": 1,
+      "floor_z": 0.0949859619140625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    }
+  ],
+  "xyChanged": false,
+  "finalGLBSupportVerification": {
+    "status": "sampled_final_glb",
+    "samples": [
+      {
+        "kind": "extraNPCs",
+        "index": 0,
+        "nativeFloor": -22.188262939453125,
+        "gameFloor": -22.188270696197804
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 1,
+        "nativeFloor": 5.0200042724609375,
+        "gameFloor": 5.020028819116911
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 2,
+        "nativeFloor": -45.43731689453125,
+        "gameFloor": -45.437358423876454
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 3,
+        "nativeFloor": -37.639739990234375,
+        "gameFloor": -37.63975069846291
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 4,
+        "nativeFloor": -27.777801513671875,
+        "gameFloor": -27.777760017271476
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 5,
+        "nativeFloor": -50.685089111328125,
+        "gameFloor": -50.68511170531223
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 6,
+        "nativeFloor": -26.6456298828125,
+        "gameFloor": -26.645616026893588
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 7,
+        "nativeFloor": 9.222091674804688,
+        "gameFloor": 9.222095604880554
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 8,
+        "nativeFloor": -16.69158935546875,
+        "gameFloor": -16.691585968729587
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 9,
+        "nativeFloor": -44.5250244140625,
+        "gameFloor": -44.525001525878906
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 10,
+        "nativeFloor": -39.944793701171875,
+        "gameFloor": -39.94476738586406
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 11,
+        "nativeFloor": -40.38983154296875,
+        "gameFloor": -40.38976053453181
+      },
+      {
+        "kind": "extraNPCs",
+        "index": 12,
+        "nativeFloor": -31.987091064453125,
+        "gameFloor": -31.987100192166462
+      },
+      {
+        "kind": "extraCars",
+        "index": 0,
+        "nativeFloor": -7.623443603515625,
+        "gameFloor": -7.623449545217476
+      },
+      {
+        "kind": "extraCars",
+        "index": 1,
+        "nativeFloor": 4.718017578125,
+        "gameFloor": 4.718008283233641
+      },
+      {
+        "kind": "extraCars",
+        "index": 2,
+        "nativeFloor": -38.826629638671875,
+        "gameFloor": -38.826634242269016
+      },
+      {
+        "kind": "extraCars",
+        "index": 3,
+        "nativeFloor": -43.947601318359375,
+        "gameFloor": -43.94762676429892
+      },
+      {
+        "kind": "extraCars",
+        "index": 4,
+        "nativeFloor": -14.721405029296875,
+        "gameFloor": -14.721397751464844
+      },
+      {
+        "kind": "extraCars",
+        "index": 5,
+        "nativeFloor": -16.64605712890625,
+        "gameFloor": -16.646062428588866
+      },
+      {
+        "kind": "extraCars",
+        "index": 6,
+        "nativeFloor": -44.52496337890625,
+        "gameFloor": -44.51099395751953
+      },
+      {
+        "kind": "extraCars",
+        "index": 7,
+        "nativeFloor": -41.589111328125,
+        "gameFloor": -41.58912361642208
+      },
+      {
+        "kind": "extraCars",
+        "index": 8,
+        "nativeFloor": -27.499969482421875,
+        "gameFloor": -27.5
+      },
+      {
+        "kind": "baseCars",
+        "index": 0,
+        "nativeFloor": 0.095001220703125,
+        "gameFloor": 0.0949999988079071
+      },
+      {
+        "kind": "baseCars",
+        "index": 1,
+        "nativeFloor": 0.0949859619140625,
+        "gameFloor": 0.0949999988079071
+      }
+    ],
+    "remaining": "Spawn body clearance, walking and driving remain runtime checks"
+  }
+}

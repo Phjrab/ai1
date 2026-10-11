@@ -1,0 +1,93 @@
+{
+  "status": "PASS_FINAL_ADDITION_ONLY_GAME_BINDING",
+  "native_sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "final_fixture_glb_sha256": "049dc05ce731914ca878de3febdfcd9e4b8b7ee011f647761b518c6559ea5abf",
+  "unit_checks": 67,
+  "fixture_count": 536,
+  "tested_counts": {
+    "pedestrianSegments": 7008,
+    "destinations": 54,
+    "vehiclePoses": 72723,
+    "busPoses": 11068
+  },
+  "interferences": [],
+  "native_emitter_offset_m": [
+    0.0,
+    0.0,
+    -0.1
+  ],
+  "independent_pool_float32": {
+    "source_triangles": 120333,
+    "positive_render_triangles": 120273,
+    "exact_collapsed_draw_triangles": 60,
+    "all_exclusion_ids_coordinates_match": true
+  },
+  "unchanged_existing_physics_and_world": {
+    "world-config.js": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309",
+    "parking-config.js": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b",
+    "parking-system.js": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f",
+    "transit-config.js": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26",
+    "walking-floor.js": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc",
+    "wheel-suspension.js": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3",
+    "vehicle-surfaces.js": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8"
+  },
+  "evidence": [
+    {
+      "path": "street_lighting_v6/lighting_manifest.json",
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+      "bytes": 48918027
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_native_binding.json",
+      "sha256": "36d92c289cdd0c9ea6f86484757bd023323ce473c1633a5f7181c172a9319144",
+      "bytes": 5403
+    },
+    {
+      "path": "game_lighting_v6/tests/FINAL_VALIDATION.json",
+      "sha256": "4f4efda24370fcf8e1de7c06bff392d228a05f6730eafa87152d573c8a229a99",
+      "bytes": 4922
+    },
+    {
+      "path": "game_lighting_v6/dist/release-manifest.json",
+      "sha256": "adba24e10aa60135656fae8ca65c1d875c78892a86d9acdbc2766a8d4ae1bde6",
+      "bytes": 5514
+    },
+    {
+      "path": "game_lighting_v6/revision/lighting-native-binding.json",
+      "sha256": "628e22bb2e1300b3f7bf32b4ef4474d73a3bc5d5e47b4d5380c95541601a5ef8",
+      "bytes": 1061
+    },
+    {
+      "path": "game_lighting_v6/dist/street-lighting-native.js",
+      "sha256": "c389274e48ef876843c477e8248fdb4f647313be19289e094e9d1196a8b33519",
+      "bytes": 373
+    },
+    {
+      "path": "game_lighting_v6/tests/street-lighting-unit-results.json",
+      "sha256": "6eb9bf5ca29e1d8b5ea8674863be2ee879da896d3a5f8531606f9eb18c6241b4",
+      "bytes": 741
+    },
+    {
+      "path": "game_lighting_v6/tests/street-lighting-placement-results.json",
+      "sha256": "7e79f2501543340c0e8cbfd4950aa1766f5576389c8bd384f798592822c437ac",
+      "bytes": 26557
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_final_game_binding.py",
+      "sha256": "9b109bea3bdd5320a5b7f09255f2253f4588e1668e9c46e9b071455e576fb848",
+      "bytes": 5254
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_game_addition_review.py",
+      "sha256": "7d769bc8f645117ad813bbdf08dd78b6c8fbd7e68c0c7e464a54aaf6f01b1d39",
+      "bytes": 6050
+    }
+  ],
+  "limits": [
+    "Lighting-only route-record interference checks; original full-scene game tests were not rerun.",
+    "Browser/WebGL/GPU/mobile and game pixel readability are unverified.",
+    "All approved a65 tyre, bus animation, turnaround and unverified-step limits remain in the final game validation index.",
+    "Native render review and game archive packaging are separate checks."
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "coordinate_system": "Blender XYZ meters",
+  "source_object": "CAMPUS_CONTINUOUS pedestrian paving",
+  "source_way_ids": [
+    "474301324"
+  ],
+  "source_segment_xy": [
+    [
+      234.033,
+      -88.715
+    ],
+    [
+      246.676,
+      -91.575
+    ]
+  ],
+  "source_ribbon_width_m": 3.0,
+  "source_ribbon_polygon_xy": [
+    [
+      233.7020439863795,
+      -90.17803387419718
+    ],
+    [
+      246.3450439863795,
+      -93.03803387419718
+    ],
+    [
+      247.00695601362048,
+      -90.11196612580282
+    ],
+    [
+      234.36395601362048,
+      -87.25196612580282
+    ]
+  ],
+  "primary_bridge_object": "R2_IT_LOUNGE_MAPPED BRIDGE WALK top",
+  "primary_bridge_polygon_xyz": [
+    [
+      233.7020263671875,
+      -90.17803192138672,
+      -2.804650068283081
+    ],
+    [
+      246.34486389160156,
+      -93.0381851196289,
+      -2.7846500873565674
+    ],
+    [
+      247.00682067871094,
+      -90.11212921142578,
+      -2.7846500873565674
+    ],
+    [
+      234.36398315429688,
+      -87.25196838378906,
+      -2.804650068283081
+    ]
+  ],
+  "retirement_polygon_xy": [
+    [
+      233.7020439863795,
+      -90.17803387419718
+    ],
+    [
+      246.34490520959034,
+      -93.03800248120368
+    ],
+    [
+      247.00682067871094,
+      -90.11212921142578
+    ],
+    [
+      234.61235642074703,
+      -87.30815731178573
+    ],
+    [
+      234.36398231892966,
+      -87.25197207638293
+    ],
+    [
+      233.9635650811496,
+      -89.02194604161727
+    ]
+  ],
+  "max_z_plane": [
+    0.001504902453976348,
+    -0.0003404515923822339,
+    -3.487050075827838
+  ],
+  "height_condition": "z <= a*x+b*y+c; apply only inside retirement_polygon_xy",
+  "minimum_below_bridge_top_m": 0.3,
+  "vehicle_access": false,
+  "policy": "Retire only the legacy generic support inside the finite same-way ribbon/primary-bridge intersection and below the stated plane. Preserve all outside and higher fragments. Do not alter graph nodes, paths, upper WALK surfaces, terrain, doors or lounge.",
+  "version": "1.0",
+  "archive_object": "R2_IT_APPROACH_PRESERVED lower primary bridge paving",
+  "archive_excluded_from_active_collision_export": true,
+  "source_geometry_sha256": "c81355c7d1643c1ecb78cc1114d271b879f77ce5fed0612d4b80e72a3ed49d6b",
+  "result_geometry_sha256": "c5de52330765827301edf701af5bfe030f1b11d96a8e3f59495211d00847fd49",
+  "changed_source_polygons": 240,
+  "preserved_input_geometry_sha256": "c81355c7d1643c1ecb78cc1114d271b879f77ce5fed0612d4b80e72a3ed49d6b",
+  "idempotent_exact_result_reused": false,
+  "uv_preservation": {
+    "layers": [
+      {
+        "layer": "RV2_PaverMetricUV",
+        "unchanged_loops": 182270,
+        "interpolated_cut_loops": 238,
+        "unchanged_uv_sha256": "524ba08f5f50f2181f33aac1b57dcaa420510238785d35e73bd2ae99a89363bf",
+        "byte_identical_unchanged_uv": true
+      }
+    ],
+    "source_layer_count": 1,
+    "target_layer_count": 1,
+    "interpolation": "Original actual loop triangles, dominant-plane barycentric coordinates; retained source loops copied exactly."
+  },
+  "primary_bridge_geometry_sha256": "3a190ab1411bdb1377f888eb68625957a0ca07d9854e67971fe275dc78b9b1f0",
+  "upper_geometry_and_pose_unchanged": true,
+  "source_module_sha256": "19836f6506cdf8da30e09c882af042216ae892eacb7c50da120f0bb1775033c6",
+  "source_role": "Old terrain-draped OSM474301324 ribbon, not separately evidenced as a lower walkway.",
+  "authorization_scope": "Parent-approved bounded retirement after final3723ecc4 group18 role review."
+}

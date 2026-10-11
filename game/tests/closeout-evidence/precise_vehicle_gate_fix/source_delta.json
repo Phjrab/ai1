@@ -1,0 +1,16 @@
+{
+  "createdUTC": "2026-10-09T20:08:03.874138+00:00",
+  "scope": "Only preciseVehicle static blockers use existing oriented whole-vehicle narrow phase in the early guard. Same fixed solids, dimensions and margin. Walking/actors/world geometry unchanged.",
+  "records": [
+    {
+      "root": "/workspace/shared/chosun_realism/game",
+      "before": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+      "after": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+    },
+    {
+      "root": "/workspace/shared/chosun_game_validation/chosun_game_final_a1a2070f_export2_verified",
+      "before": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+      "after": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+    }
+  ]
+}

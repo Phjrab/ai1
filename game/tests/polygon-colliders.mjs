@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {Vector3,Ray} from 'three';
+import {polygonCollisionBoxes,pointInPolygon} from '../dist/polygon-colliders.js';
+import {pointInStaticBox,staticBoxRayDistance,vehicleOverlapsStaticBox} from '../dist/parking-system.js';
+const polygon=[[0,0],[5,0],[5,1],[1,1],[1,5],[0,5]],box=polygonCollisionBoxes([{id:'concave campus building',polygon,minY:0,maxY:3}])[0];
+assert.equal(pointInPolygon(3,3,polygon),false);
+assert.equal(pointInStaticBox(new Vector3(3,0,3),box,.34),false,'Empty courtyard inside the broad AABB remains open');
+assert.ok(pointInStaticBox(new Vector3(.5,0,3),box,.34));
+assert.ok(pointInStaticBox(new Vector3(1.2,0,3),box,.34),'Pedestrian radius meets the actual wall');
+assert.equal(pointInStaticBox(new Vector3(.5,3.1,3),box,.34),false,'A separate higher walking level remains clear');
+assert.equal(vehicleOverlapsStaticBox(new Vector3(3,0,3),0,box,{width:1,length:1}),false);
+assert.ok(vehicleOverlapsStaticBox(new Vector3(1.25,0,3),0,box,{width:.6,length:1}));
+assert.equal(staticBoxRayDistance(new Ray(new Vector3(3,1,3),new Vector3(1,0,0)),box),Infinity,'Camera does not hit an empty broad-box corner');
+assert.equal(staticBoxRayDistance(new Ray(new Vector3(3,1,3),new Vector3(-1,0,0)),box),2);
+assert.equal(staticBoxRayDistance(new Ray(new Vector3(.5,5,3),new Vector3(0,-1,0)),box),2);
+assert.equal(staticBoxRayDistance(new Ray(new Vector3(.5,-2,3),new Vector3(0,1,0)),box),2,'Underside camera rays remain two-sided');
+console.log('POLYGON_COLLIDERS: concave footprints, pedestrian radius, full vehicle footprint, separate heights and two-sided camera boundaries pass');

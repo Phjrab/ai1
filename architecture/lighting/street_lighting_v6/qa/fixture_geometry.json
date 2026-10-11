@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "geometry_source_sha256": "810496f637acfa59ffa420c24e43beb0eacaab7a8d34fa8e2292d4f5c865d172",
+  "checker_sha256": "113cba8c8b30fb806e63f632244a1e013161476c92366a8acaeccf6b05db7884",
+  "fixtures": [
+    {
+      "height": 4.2,
+      "vertices": 96,
+      "polygons": 60,
+      "triangles": 168
+    },
+    {
+      "height": 6.2,
+      "vertices": 96,
+      "polygons": 60,
+      "triangles": 168
+    }
+  ],
+  "glb_sha256": "3be2232c31735d4e09727da07e67ff31edd2aed4b956647244cd1c4f737ed507",
+  "glb_bytes": 20056,
+  "emissive_material_retained": true,
+  "native_spotlights_not_exported": true,
+  "installed_cycles_cpu_render": true,
+  "denoising": false,
+  "blender_version": "4.3.2",
+  "binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+  "peak_rss_mib": 308.87890625
+}

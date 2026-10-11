@@ -1,0 +1,1367 @@
+{
+  "passed": false,
+  "maxRSS_MB": 2791,
+  "inputSha256": {
+    "dist/assets/building.glb": "29d09bfe7261b956484b92e6d2940c922ffbfa6c314290ebbca1f88fbab1b4c5",
+    "dist/assets/campus.glb": "bfdfd81550c2d832c7435b55cc0c9f850341215c33f24fef1aa317e2cfd75f5b",
+    "dist/game.js": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+    "dist/shuttle-system.js": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1",
+    "dist/transit-config.js": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26",
+    "dist/world-config.js": "97e4007cdad9cb41d6739e1b2399718c404cf2df12f6470d4b278ebabea9a1b1",
+    "dist/parking-config.js": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b",
+    "dist/parking-system.js": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f",
+    "dist/revision-colliders.js": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c",
+    "dist/vehicle-steering.js": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37",
+    "dist/vehicle-surfaces.js": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8",
+    "dist/wheel-suspension.js": "cd2d2a7c8d4284d0a5d79e588bd60f95273635f5281a385ee6c5debcd00312c9",
+    "dist/walking-floor.js": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc",
+    "dist/polygon-colliders.js": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df",
+    "dist/water-constraints.js": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5",
+    "data/actor-grounding-report.json": "7ae848220165062f6d890dce488682729490adf82abe68643781740d82312545",
+    "data/actor-grounding.json": "6af5c30d23bd5ea950df1a7357dc6f95191158cd650b524857802966f2a93805",
+    "data/building-material-application.json": "0a528eba90cf210d2ec2bde37722b08d6c0ca050c061ac0bf272dd105ce519fe",
+    "data/campus-access-gates.json": "a138c7188838bd4b608ca6471b8ad313f320cc07fd2e1e2d47d1200eae00f6a6",
+    "data/campus-access-school-boundaries.json": "df9f378b299de74a0e5fb6210899aad4224c5b372adb15cc772b818475c4167c",
+    "data/campus-access-school-road-replacement.json": "7bd564167709399148a27aa0c5db2e2f0eeb521c9d5c0256b621d4b05472beb0",
+    "data/campus-access-schools.json": "105c05a540066f53e71087a4e814be75f03da55aa1f4b5bb4f5ba9731e311a72",
+    "data/campus-access-sync-report.json": "4df5941e2a1490e9e705fd50a2f89dad2c4888bd14d8b6f3fe0ab711f46a2163",
+    "data/campus-material-application.json": "f492dfc1faf05a603e6c36dd5a12fb2795d7ff323c39b752c7bd9221a2aa7574",
+    "data/campus-navigation.json": "030fb596f6b91f9119da60e738d1022a493e092e0e38bc7e1813e17929152b4f",
+    "data/entrance-connections.json": "e7241540e83d6618a33b67f86fd11b3005da0d801e29c74c7a8b81e01fbf2bfd",
+    "data/entrance-surfaces.json": "f90fa31eef697dfbed9a256a9f63649c37715cab4a5fc20c6dad0caa10d699b6",
+    "data/entrance-sync-report.json": "52bcd85b894ebf322bd5ec7e49cf99549c8a42ba3fa387eee6a8310a35cc0f75",
+    "data/entrances-a.json": "61d7f140ec7bff527910c36f7a8432f1388aacfa260e060710e0c565c20d80bb",
+    "data/entrances-b.json": "6ede5f5445ad8ca5ea18a303c5e857937a7a3754574dbcdba3258f3be7f6d98e",
+    "data/exported-inferred-support.json": "da24252275fd2a63cb8f4802d5054d2808824b933068c1f3d0a54c9bd9102faf",
+    "data/final-pedestrian-navigation.json": "b2e6d7c5917524b806467aa3d7999613274f0e225d1856b1848df8879f16b96b",
+    "data/football-goals-sync-report.json": "d6bbf249d4c22f0c790e9ba4d3c151628f532179c81e4d0ea9d3d86566bd4973",
+    "data/football-goals.json": "9ddebda0db53e754d7de3a3e6443118acd0d9fe8cf4ac1295541fa3a39030f99",
+    "data/game-materials.json": "0485b3786d41373d2169f9fab22e20841cc80bb23956951900d1b388e661bb5c",
+    "data/garage-exterior-navigation.json": "04c1cc7e368e4acfeac7e34015ad2551b9532d1eef4e32769239faf0095043dc",
+    "data/garage-exterior-sync-report.json": "6708e39457048a7802dae73f5c37e15ed986f93ef577a273b3211b8278472cee",
+    "data/garage-road-boundary-source.json": "b37444accd6e1b0f1e0044d9472fd31c3603dbb13e3cbcd7ce993f7be304a31c",
+    "data/garage-road-boundary.json": "7b00cdc0a60402986928dddf8b9dcdc151423ea6ec14fddb609a30fc05167284",
+    "data/grade-sync-baseline.json": "1e14345a235ef7b30a98bb47f0b701f800bf3eeab057505072a652668c9ed5be",
+    "data/grade-sync-report.json": "42898889243c6c79aacc0cea05d4eee7d5f8a74f66e27f524426a1e5fb9f753d",
+    "data/greenery-infill.json": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a",
+    "data/greenery-sync-report.json": "623149774c8c29ff6a321dc73c69e314ca0a84b9b83742a2479bc29e93c33e31",
+    "data/haeoreum-stair-sync-report.json": "456c84ff6976ee52339dca2765f87d420a4af2f29261876f4a43b4fa630fd160",
+    "data/haeoreum-stair.json": "c7099ea6b0e95c6c3748f9c373aa218c212c7922b2385a26249fa07b907efec0",
+    "data/hospital-arrival-overlay.json": "5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f",
+    "data/hospital-stop-walkways-sync-report.json": "128d1b40095c31fc247521c27a02ae583b88df07d61370866a2a7ddbb436a2fe",
+    "data/hospital-stop-walkways.json": "0dee4086880afb15693cffa563729f1b36a3d2f26a6e7490db279c478e18bd1a",
+    "data/hospital-sync-report.json": "f9ee3647b2f8d60a331578c5aad6165f64e55f86b2983a710348f7367c27d086",
+    "data/it-approach-alignment.json": "a9aa5510524ae8b7dc77cb0b0998ffb3cf96124ea6ae6844b246121d466a876d",
+    "data/it-lounge.json": "cbf652568995444b3fd619235da55489e7aa2378ff490493fd8253f95093116a",
+    "data/it-lower-paving-retirement-report.json": "d33e8de5a3fc95766733ad0da3b7b46a766d29003907d4e84643955ad620a388",
+    "data/it-lower-paving-retirement.json": "a098f50103f61aec3a05a98d3f29716a36e554f7b9717ecf9bdbf2f0b6fa99ea",
+    "data/it-rooftop-bridge.json": "062dbf9b3db6b724fbc4bdc7b145cebe7aebee2452523fee7ecb4317d907be93",
+    "data/lounge-sync-report.json": "cc425bc35ed84fbebab53b8cfebf546dfb446f1073b324944b49fce22dbbe569",
+    "data/native-export-building-inventory.json": "67e28606a9c9bf1c2f57d4f8dcf2ba97320f643327e8cb0895650a76dbb6f8f1",
+    "data/native-export-campus-inventory.json": "4c90d6fe24df136c2745a2faa4c12f1f80ff1c476fe464335c609a4525293acb",
+    "data/native-export-manifest.json": "3cc267140fead2ef7375b8382fb5292cc2e1fcb40ee9f654e0d01c20f180625f",
+    "data/parking-gameplay.json": "beab14ca0393ca4b1ab4b4e36cf6f299b5589bae53843cdc14156e9ce36d8859",
+    "data/parking-terraces-sync-report.json": "10ec6bbfda160575809d4c68d25e1c75e5f99d6ded44fb62ab10f9a419505664",
+    "data/parking-terraces.json": "8b63838468a714f1118a82096e5c410609350d7e701c3493a7a9d77ff696e9c1",
+    "data/pharmacy-entrance.json": "85442425957ae551e55f6d8f3bbf291475e6725287e551b6731548618b976ba0",
+    "data/pharmacy-sync-report.json": "699916817c82a7f2e7ea53c944f14420d24ada478bebe6dcefc0929a8c07845a",
+    "data/pond-overlay.json": "cde7611eed97eb431c98daa5f56f4e9d8a0782271c309a3686a4dc7e3a0ef5a9",
+    "data/pond-sync-report.json": "bbb1775e7c83f56232af242a64f4961d6a67529076052fd302946fa28d329a56",
+    "data/public-spaces-integration-contract.json": "54851def8cba2109712a1145f98a4f513b878f19a32242ca5f33b8ee1b3d2690",
+    "data/public-spaces-sync-report.json": "d816b2b0791e657c8af0633233bac229a4b40df2a9fe2d7b39b0d95cb59f3eca",
+    "data/public-spaces.json": "c8cd6dfe999c6f093045b8511ad0589b09b73e50c2b3c8b60ed85b9b9b841fd9",
+    "data/public-walk-clearance.json": "04d566516be6e936ee5ce20ce83611501c6b276d210b23103979fbf3070435ea",
+    "data/realism-road-probes.json": "4c6e66dd6cfc940d9aeb80c519561cda19d10a1df47fa4afefa44b6d3422720f",
+    "data/road-graph-3d.json": "41f30a836116063b4ed5f6a5a427d2f38aa9b90f68fb56b1dfd2544f2d8bb5c2",
+    "data/road-seam-routes.json": "51c0d149a921b71f21f7ee45214eb8a39352e1b9529a900cdcdca81d1236ff74",
+    "data/rooftop-sync-report.json": "80cd9a0e33886c4d8464458af19134c8c2dc6167d82c683b6a26f5271f98493e",
+    "data/shuttle-material-application.json": "4c2d622ef76ee758a0216e5bba6b993cee08bb52756d91f340b7799e5ee254ab",
+    "data/shuttle-sources.json": "392266ed612f1a2884c12d63de55f44c325925cfab1c3138b543682856a63f9a",
+    "data/static-vehicle-poses.json": "a32282b5304352c59ab278547760cd576cc1a0873eba6c0c98f2387a3820511f",
+    "data/static-vehicle-sync-report.json": "3c81f062450248146d19ac128c8b9896dc070ca65dfbf04a3a32df4d70647915",
+    "data/student-level-contract.json": "50cbe0d190f9d79e838ba7e1faee6136b5f070742d55ab853a6e47640aa83fc6",
+    "data/track-perimeter.json": "f943fb60b008d4e4e55ce4580f8d729b6ef350f5b9b0d616077acca0081ea752",
+    "data/transit-alignment-overlay.json": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08",
+    "data/transit-asset-contract.json": "ae31bba0502c4b10fbfe7d0cdc35806b6ed53bc357cc0d4f3559483d00e39b62",
+    "data/transit-integration-issues.json": "6a58b15c47bbd25914e3c1f7bd917588ae32f982f94c7ced413efaa5b5c2fc36",
+    "data/transit-placements.json": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08",
+    "data/transit-revision-report.json": "62bac389e7f54e9e9832a1c425ee44b1c174e3f13acb0a21396e0926a2f25a97",
+    "data/walk-alignments-sync-report.json": "78fe66023f62146fe189c6639b6c9c94426e842edf17a7db3874db451fbb5bb8",
+    "data/walk-route-alignment.json": "970d7bf6b46eb9b09e49b90715de05fc7bb420f6512bbef07b0cda3190141019",
+    "data/walking-road-graph-3d.json": "1c85e7ba8359e9733d788a71ef1900422dbad89f20051e73c06fc28a14500f26",
+    "nativeSourceSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+    "rawGLB/building.glb": "94c6e0f534aca0e131afaca413133789a1a77d206797098686b437b94c385eda",
+    "rawGLB/campus.glb": "1166e0435c27b614a04317a504674db8ad3bc6eead0d2d1d6285bb18698e9ca7"
+  },
+  "features": [
+    "public",
+    "track",
+    "pond",
+    "schools",
+    "gates",
+    "goals",
+    "trees",
+    "cars",
+    "stops",
+    "terraces"
+  ],
+  "results": [
+    {
+      "kind": "school_destination",
+      "id": 174,
+      "pass": true,
+      "position": [
+        -524.387,
+        -36.80795407676697,
+        148.175
+      ]
+    },
+    {
+      "kind": "school_destination",
+      "id": 175,
+      "pass": true,
+      "position": [
+        673.426,
+        -23.50180779173581,
+        475.826
+      ]
+    },
+    {
+      "kind": "walk",
+      "id": "central_field_library_stair",
+      "reverse": false,
+      "pass": true,
+      "samples": 645,
+      "maxFrameHeightJump": 0.15476226806640625,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "central_field_library_stair",
+      "reverse": true,
+      "pass": true,
+      "samples": 645,
+      "maxFrameHeightJump": 0.15476226806640625,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "haeoreum_approach_stair",
+      "reverse": false,
+      "pass": true,
+      "samples": 409,
+      "maxFrameHeightJump": 0.16208648681640625,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "haeoreum_approach_stair",
+      "reverse": true,
+      "pass": true,
+      "samples": 409,
+      "maxFrameHeightJump": 0.16208648681640625,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "haeoreum_front_horizontal_walk",
+      "reverse": false,
+      "pass": true,
+      "samples": 837,
+      "maxFrameHeightJump": 0,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "haeoreum_front_horizontal_walk",
+      "reverse": true,
+      "pass": true,
+      "samples": 837,
+      "maxFrameHeightJump": 0,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_theatre_side_-1",
+      "reverse": false,
+      "pass": true,
+      "samples": 246,
+      "maxFrameHeightJump": 7.324218742610356e-7,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_theatre_side_-1",
+      "reverse": true,
+      "pass": true,
+      "samples": 246,
+      "maxFrameHeightJump": 7.324218742610356e-7,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_theatre_side_1",
+      "reverse": false,
+      "pass": true,
+      "samples": 246,
+      "maxFrameHeightJump": 7.324218742610356e-7,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_theatre_side_1",
+      "reverse": true,
+      "pass": true,
+      "samples": 246,
+      "maxFrameHeightJump": 7.324218742610356e-7,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school175_paved_yard_connection",
+      "reverse": false,
+      "pass": true,
+      "samples": 1956,
+      "maxFrameHeightJump": 0.21754439809350146,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school175_paved_yard_connection",
+      "reverse": true,
+      "pass": true,
+      "samples": 1956,
+      "maxFrameHeightJump": 0.2172941492945455,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": false,
+      "pass": false,
+      "samples": 59,
+      "maxFrameHeightJump": 0.15942848110498176,
+      "failed": {
+        "kind": "route",
+        "target": [
+          -114.23431396484375,
+          -52.375579833984375,
+          660.5881958007812
+        ],
+        "position": [
+          -114.24484144267105,
+          -52.70133012415955,
+          660.6379343742742
+        ],
+        "horizontalError": 0.0508404709116539,
+        "verticalError": 0.3257502901751721,
+        "supportError": 0.15999984741210938,
+        "actualSupport": -52.215579986572266
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": true,
+      "pass": false,
+      "samples": 1119,
+      "maxFrameHeightJump": 0.15999984741210938,
+      "failed": {
+        "kind": "route",
+        "target": [
+          -114.23431396484375,
+          -52.375579833984375,
+          660.5881958007812
+        ],
+        "position": [
+          -114.219644500448,
+          -52.215579986572266,
+          660.5188911406788
+        ],
+        "horizontalError": 0.07084016584946527,
+        "verticalError": 0.15999984741210938,
+        "supportError": 0.15999984741210938,
+        "actualSupport": -52.215579986572266
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": false,
+      "pass": false,
+      "samples": 3595,
+      "maxFrameHeightJump": 0.028779057423079735,
+      "failed": {
+        "kind": "route",
+        "target": [
+          118.95070422535211,
+          -48.31988376290998,
+          344.67605633802816
+        ],
+        "position": [
+          118.94995438634226,
+          -48.170850475596446,
+          344.70155086436307
+        ],
+        "horizontalError": 0.02550555099546218,
+        "verticalError": 0.14903328731353582,
+        "supportError": 0.15129127229736383,
+        "actualSupport": -48.16859249061262
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": true,
+      "pass": false,
+      "failed": {
+        "kind": "initial_support",
+        "target": [
+          119,
+          -48.27131271362305,
+          343
+        ],
+        "actual": -48.01783676147461
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "red_track_perimeter_loop",
+      "reverse": false,
+      "pass": true,
+      "samples": 8813,
+      "maxFrameHeightJump": 0,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "red_track_perimeter_loop",
+      "reverse": true,
+      "pass": true,
+      "samples": 8813,
+      "maxFrameHeightJump": 0,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": false,
+      "pass": false,
+      "samples": 3065,
+      "maxFrameHeightJump": 0.28771538049476675,
+      "failed": {
+        "kind": "route",
+        "target": [
+          -588.139,
+          -44.85574355125427,
+          337.153
+        ],
+        "position": [
+          -588.1387030446855,
+          -44.568666977648874,
+          337.0909381487978
+        ],
+        "horizontalError": 0.06206256163826211,
+        "verticalError": 0.28707657360539685,
+        "supportError": 0,
+        "actualSupport": -44.85574355125427
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": true,
+      "pass": false,
+      "samples": 3109,
+      "maxFrameHeightJump": 0.052238051299880794,
+      "failed": {
+        "kind": "route",
+        "target": [
+          -474.883,
+          -51.41643071899414,
+          585.611
+        ],
+        "position": [
+          -474.9024075321158,
+          -51.12456712627929,
+          585.6334210384873
+        ],
+        "horizontalError": 0.02965392502984288,
+        "verticalError": 0.2918635927148543,
+        "supportError": 0,
+        "actualSupport": -51.41643071899414
+      }
+    },
+    {
+      "kind": "walk",
+      "id": "school_175_mapped_access",
+      "reverse": false,
+      "pass": true,
+      "samples": 1862,
+      "maxFrameHeightJump": 0.08273667705336507,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school_175_mapped_access",
+      "reverse": true,
+      "pass": true,
+      "samples": 1862,
+      "maxFrameHeightJump": 0.08370811774802078,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "hospital_to_city_1149",
+      "reverse": false,
+      "pass": true,
+      "samples": 5262,
+      "maxFrameHeightJump": 0.13229485710994027,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "hospital_to_city_1149",
+      "reverse": true,
+      "pass": true,
+      "samples": 5263,
+      "maxFrameHeightJump": 0.13229448982288972,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "city_1150_same_side_only",
+      "reverse": false,
+      "pass": true,
+      "samples": 768,
+      "maxFrameHeightJump": 0.005297573578914694,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "city_1150_same_side_only",
+      "reverse": true,
+      "pass": true,
+      "samples": 768,
+      "maxFrameHeightJump": 0.005227101624441843,
+      "failed": null
+    },
+    {
+      "kind": "public_destination",
+      "id": "163",
+      "pass": true,
+      "position": [
+        111,
+        -47.70310592651367,
+        453
+      ]
+    },
+    {
+      "kind": "public_destination",
+      "id": "167",
+      "pass": true,
+      "position": [
+        -184.46,
+        -41.3239588056874,
+        238.81
+      ]
+    },
+    {
+      "kind": "water_entry_rejected",
+      "pass": true,
+      "samples": 310,
+      "blocked": 310
+    },
+    {
+      "kind": "pedestrian_bridge_rejects_vehicle",
+      "pass": true
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166134_end_a",
+      "reverse": false,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166134_end_a",
+      "reverse": true,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "goal_front_aperture",
+      "id": "300166134_end_a",
+      "pass": true
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166134_end_b",
+      "reverse": false,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166134_end_b",
+      "reverse": true,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "goal_front_aperture",
+      "id": "300166134_end_b",
+      "pass": true
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166135_end_a",
+      "reverse": false,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166135_end_a",
+      "reverse": true,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "goal_front_aperture",
+      "id": "300166135_end_a",
+      "pass": true
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166135_end_b",
+      "reverse": false,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "goal_front_300166135_end_b",
+      "reverse": true,
+      "pass": true,
+      "samples": 17,
+      "maxFrameHeightJump": 0.024576919350302262,
+      "failed": null
+    },
+    {
+      "kind": "goal_front_aperture",
+      "id": "300166135_end_b",
+      "pass": true
+    },
+    {
+      "kind": "new_tree_instances",
+      "pass": true,
+      "expected": 900,
+      "actual": 900,
+      "missing": [],
+      "misplaced": [],
+      "unsupported": [],
+      "missingTrunks": [],
+      "denseTrees": []
+    },
+    {
+      "kind": "original_static_car_mapping",
+      "pass": true,
+      "expected": 117,
+      "missing": [],
+      "misplaced": [],
+      "contactFailures": [],
+      "missingBlockers": [],
+      "hiddenByTrafficFilter": []
+    },
+    {
+      "kind": "drivable_spawn_vehicle_volume_clearance",
+      "pass": true,
+      "carCount": 11,
+      "collisions": []
+    },
+    {
+      "kind": "haeoreum_sidewalk_rejects_vehicles",
+      "pass": true,
+      "samples": 36,
+      "failures": []
+    },
+    {
+      "kind": "terrace_actual_support_and_vehicle_policy",
+      "pass": true,
+      "supportSamples": 13884,
+      "excludedSamples": 10176,
+      "failures": [],
+      "failureCount": 0
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane0",
+      "pass": false,
+      "complete": false,
+      "endpointError": 22.043755766572076,
+      "verticalError": 0.22937912217586387,
+      "steps": 965,
+      "volumeSamples": 44,
+      "hits": [],
+      "position": [
+        -145.1652727295556,
+        -52.82504539607682,
+        689.8676703207719
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane1",
+      "pass": false,
+      "complete": false,
+      "endpointError": 21.735195933329482,
+      "verticalError": 0.22760655922448336,
+      "steps": 967,
+      "volumeSamples": 44,
+      "hits": [],
+      "position": [
+        -144.52828865050287,
+        -52.823272833125436,
+        686.1272135670506
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane2",
+      "pass": false,
+      "complete": false,
+      "endpointError": 21.72909347707523,
+      "verticalError": 0.32735672346760225,
+      "steps": 963,
+      "volumeSamples": 44,
+      "hits": [],
+      "position": [
+        -139.14664824467602,
+        -52.68237656221549,
+        675.0676129917164
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane3",
+      "pass": false,
+      "complete": false,
+      "endpointError": 22.11380881391806,
+      "verticalError": 0.3457624476960177,
+      "steps": 975,
+      "volumeSamples": 45,
+      "hits": [],
+      "position": [
+        -138.49323910651194,
+        -52.66397083798707,
+        671.329972044096
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "gate_merge_399365553_312",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5858101958545957,
+      "verticalError": 0.0037696303938687947,
+      "steps": 282,
+      "volumeSamples": 17,
+      "hits": [],
+      "position": [
+        -129.8453150985877,
+        -52.58577506156005,
+        673.1559638140366
+      ]
+    },
+    {
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_forward",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5899456829030589,
+      "verticalError": 0.009902899812352928,
+      "steps": 6687,
+      "volumeSamples": 417,
+      "hits": [],
+      "position": [
+        786.0740100371497,
+        -33.79408254770189,
+        562.6548303909811
+      ]
+    },
+    {
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_reverse",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.6455805293666048,
+      "verticalError": 0.2919351537392245,
+      "steps": 6687,
+      "volumeSamples": 417,
+      "hits": [],
+      "position": [
+        763.5402532530529,
+        -33.80175651540276,
+        419.99880091760787
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_forward",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.6068184335958434,
+      "verticalError": 0.023208810309554906,
+      "steps": 1038,
+      "volumeSamples": 64,
+      "hits": [
+        {
+          "position": [
+            307.72113629425314,
+            -29.344857108725662,
+            613.8291710658557
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            308.04138926933115,
+            -29.32752335706668,
+            614.0929088100376
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            308.3572860394127,
+            -29.30782339512515,
+            614.3530590912811
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            309.9513579734374,
+            -29.16272259669207,
+            615.6658242134191
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            310.2695882118942,
+            -29.128674767202416,
+            615.9278961745013
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        }
+      ],
+      "position": [
+        321.3609844660275,
+        -27.523208810309555,
+        632.4097757682117
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_reverse",
+      "pass": false,
+      "complete": false,
+      "endpointError": 26.468421393286075,
+      "verticalError": 1.891383370066464,
+      "steps": 240,
+      "volumeSamples": 0,
+      "hits": [],
+      "position": [
+        321.5,
+        -27.50861624846381,
+        633
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_forward",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.5823424589314771,
+      "verticalError": 0.005804792909056999,
+      "steps": 681,
+      "volumeSamples": 42,
+      "hits": [
+        {
+          "position": [
+            282.2300458625485,
+            -30.221170873463226,
+            594.4866972416991
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            282.5723568794321,
+            -30.160764013527096,
+            594.7149045862882
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            282.9168771781008,
+            -30.099967784978233,
+            594.9445847854007
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.25879267436164,
+            -30.039629969444373,
+            595.1725284495748
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.60251472225667,
+            -29.978972990057436,
+            595.401676481505
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.94610235545144,
+            -29.91834056304224,
+            595.6307349036348
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.28930974321764,
+            -29.857796008223637,
+            595.8595398288121
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.6322742390165,
+            -29.797369129371774,
+            596.0881828260113
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.97484136675143,
+            -29.738018666562173,
+            596.3165609111679
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            285.3194623038229,
+            -29.68354289164785,
+            596.5463082025486
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            285.66159790171287,
+            -29.6325844757247,
+            596.7743986011418
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.00543277000764,
+            -29.587508955828365,
+            597.0036218466719
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.34921601987907,
+            -29.550693564504332,
+            597.2328106799193
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.6904446573452,
+            -29.51696770332945,
+            597.4602964382301
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            287.03566665352264,
+            -29.486468251394825,
+            597.6904444356817
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            287.3785333266708,
+            -29.45833892182722,
+            597.9190222177806
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        }
+      ],
+      "position": [
+        288.51548585837236,
+        -29.40580441143933,
+        598.6769905722483
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_reverse",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.582339442177264,
+      "verticalError": 0.005493820317859388,
+      "steps": 681,
+      "volumeSamples": 42,
+      "hits": [
+        {
+          "position": [
+            287.6343992693395,
+            -29.4417054782808,
+            598.0895995128931
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            287.2906714856482,
+            -29.464709360235922,
+            597.8604476570989
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.9492061252253,
+            -29.49379017401666,
+            597.6328040834836
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.6058754766608,
+            -29.5246476625069,
+            597.4039169844407
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            286.26068031538654,
+            -29.56000105379523,
+            597.1737868769246
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            285.9201806323853,
+            -29.598704625932093,
+            596.9467870882571
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            285.57550761795164,
+            -29.643630945541975,
+            596.7170050786345
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            285.231094799261,
+            -29.696949825470874,
+            596.4873965328406
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.88939364566227,
+            -29.75298713042145,
+            596.2595957637747
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.54551359241896,
+            -29.81259609726216,
+            596.0303423949457
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            284.20195797351937,
+            -29.87319667346017,
+            595.8013053156793
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.85894308518095,
+            -29.93372124419233,
+            595.5726287234538
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.5159313362698,
+            -29.994252482876313,
+            595.3439542241796
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            283.1733141439206,
+            -30.05471444113828,
+            595.1155427626136
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            282.82886217592244,
+            -30.115499566456155,
+            594.8859081172815
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            282.4868007858859,
+            -30.175861797871132,
+            594.6578671905903
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            282.1428677654011,
+            -30.236554684899843,
+            594.4285785102669
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        }
+      ],
+      "position": [
+        274.48451414162764,
+        -31.294505416742687,
+        589.3230094277517
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "420_middle_to_frontage_forward",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5747224689635858,
+      "verticalError": 0.02665211761690145,
+      "steps": 1081,
+      "volumeSamples": 67,
+      "hits": [],
+      "position": [
+        386.89906362961176,
+        -24.046652575380573,
+        208.56516141949976
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "420_middle_to_frontage_reverse",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5791126026730373,
+      "verticalError": 0.02815643525088518,
+      "steps": 1081,
+      "volumeSamples": 67,
+      "hits": [],
+      "position": [
+        386.51436135864674,
+        -26.12184318327939,
+        235.42794699123607
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "420_lower_to_middle_forward",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5863906297238837,
+      "verticalError": 0.027649409383464274,
+      "steps": 840,
+      "volumeSamples": 52,
+      "hits": [],
+      "position": [
+        386.0364781282067,
+        -26.177649027913738,
+        248.58228382477327
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "420_lower_to_middle_reverse",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5863965036299124,
+      "verticalError": 0.027773704840516444,
+      "steps": 840,
+      "volumeSamples": 52,
+      "hits": [],
+      "position": [
+        383.76352187179333,
+        -27.542225989983702,
+        269.41771617522664
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_north_to_rows_forward",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5725104927751622,
+      "verticalError": 0.073182014193506,
+      "steps": 448,
+      "volumeSamples": 27,
+      "hits": [],
+      "position": [
+        287.4189166246241,
+        -37.37318125125405,
+        397.43250126127975
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_north_to_rows_reverse",
+      "pass": true,
+      "complete": true,
+      "endpointError": 0.5725104294152453,
+      "verticalError": 0.07318151852064858,
+      "steps": 448,
+      "volumeSamples": 27,
+      "hits": [],
+      "position": [
+        287.7810833753759,
+        -38.42681848147935,
+        386.56749873872025
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_forward",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.5896039791151418,
+      "verticalError": 0.029500871931020356,
+      "steps": 953,
+      "volumeSamples": 59,
+      "hits": [
+        {
+          "position": [
+            317.87428120547287,
+            -35.746775970685626,
+            422.42212224568084
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            318.2836995053917,
+            -35.733492053877875,
+            422.4504449910841
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        }
+      ],
+      "position": [
+        318.41253869924606,
+        -35.72950163487047,
+        422.45935801604
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_reverse",
+      "pass": false,
+      "complete": true,
+      "endpointError": 0.5627416013998392,
+      "verticalError": 0.028682813330775048,
+      "steps": 954,
+      "volumeSamples": 59,
+      "hits": [
+        {
+          "position": [
+            318.59642758649846,
+            -35.72380627500704,
+            422.472060371373
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            318.1859197506878,
+            -35.73652725272853,
+            422.44364059812455
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        },
+        {
+          "position": [
+            317.77545663656076,
+            -35.75025149959734,
+            422.4152239209927
+          ],
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ]
+        }
+      ],
+      "position": [
+        294.5613068005822,
+        -37.27131642372977,
+        421.02810839350906
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "stop_id": "1150",
+      "status": "blocked_unverified_crossing",
+      "path_id": "city_1150_same_side_only",
+      "waitingPosition": [
+        505.4186612862402,
+        -954.5021290215859,
+        -51.78102111816406
+      ],
+      "connectToCampus": false,
+      "hospital_route": null
+    }
+  ],
+  "verification": "Actual game movement and final GLB collision/pose/ground checks; renderer and DOM mocked, no browser/GPU/mobile certification."
+}

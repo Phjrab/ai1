@@ -1,0 +1,754 @@
+{
+  "status": "INVENTORIED",
+  "files": [
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/Chosun_Campus_Street_Lighting_v6.blend",
+      "decompressed_bytes": 1439793332,
+      "decompressed_sha256": "73b3665d1ddd107a9750c934295a1dc4c59ba24efe6cd967e3fa81a42a1de853",
+      "native_types": {
+        "raw_data": {
+          "blocks": 46395,
+          "items": 46394,
+          "payload_bytes": 236164884,
+          "all_payload_bytes_zero": false,
+          "struct_size": 0
+        },
+        "FileGlobal": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 1104,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1104
+        },
+        "wmWindowManager": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 1456,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1456
+        },
+        "wmWindow": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 376,
+          "all_payload_bytes_zero": false,
+          "struct_size": 376
+        },
+        "WorkSpaceInstanceHook": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 32,
+          "all_payload_bytes_zero": false,
+          "struct_size": 32
+        },
+        "Stereo3dFormat": {
+          "blocks": 5,
+          "items": 5,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": true,
+          "struct_size": 8
+        },
+        "ScrVert": {
+          "blocks": 136,
+          "items": 136,
+          "payload_bytes": 4352,
+          "all_payload_bytes_zero": false,
+          "struct_size": 32
+        },
+        "ScrEdge": {
+          "blocks": 185,
+          "items": 185,
+          "payload_bytes": 7400,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "ScrArea": {
+          "blocks": 53,
+          "items": 53,
+          "payload_bytes": 9752,
+          "all_payload_bytes_zero": false,
+          "struct_size": 184
+        },
+        "ScrGlobalAreaData": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 24,
+          "all_payload_bytes_zero": false,
+          "struct_size": 12
+        },
+        "ARegion": {
+          "blocks": 224,
+          "items": 224,
+          "payload_bytes": 98560,
+          "all_payload_bytes_zero": false,
+          "struct_size": 440
+        },
+        "SpaceTopBar": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "SpaceStatusBar": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "WorkSpace": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 3608,
+          "all_payload_bytes_zero": false,
+          "struct_size": 328
+        },
+        "WorkSpaceLayout": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 968,
+          "all_payload_bytes_zero": false,
+          "struct_size": 88
+        },
+        "WorkSpaceDataRelation": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 440,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "bScreen": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 3696,
+          "all_payload_bytes_zero": false,
+          "struct_size": 336
+        },
+        "SpaceButs": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 2728,
+          "all_payload_bytes_zero": false,
+          "struct_size": 248
+        },
+        "SpaceOops": {
+          "blocks": 11,
+          "items": 11,
+          "payload_bytes": 3432,
+          "all_payload_bytes_zero": false,
+          "struct_size": 312
+        },
+        "RegionView3D": {
+          "blocks": 10,
+          "items": 10,
+          "payload_bytes": 9280,
+          "all_payload_bytes_zero": false,
+          "struct_size": 928
+        },
+        "View3D": {
+          "blocks": 10,
+          "items": 10,
+          "payload_bytes": 14000,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1400
+        },
+        "SpaceAction": {
+          "blocks": 7,
+          "items": 7,
+          "payload_bytes": 2408,
+          "all_payload_bytes_zero": false,
+          "struct_size": 344
+        },
+        "SpaceNode": {
+          "blocks": 4,
+          "items": 4,
+          "payload_bytes": 1440,
+          "all_payload_bytes_zero": false,
+          "struct_size": 360
+        },
+        "uiList": {
+          "blocks": 6,
+          "items": 6,
+          "payload_bytes": 1968,
+          "all_payload_bytes_zero": false,
+          "struct_size": 328
+        },
+        "SpaceSpreadsheet": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 120,
+          "all_payload_bytes_zero": false,
+          "struct_size": 120
+        },
+        "SpreadsheetColumn": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "SpreadsheetColumnID": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 8,
+          "all_payload_bytes_zero": false,
+          "struct_size": 8
+        },
+        "IDViewerPathElem": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": true,
+          "struct_size": 40
+        },
+        "RegionAssetShelf": {
+          "blocks": 4,
+          "items": 4,
+          "payload_bytes": 96,
+          "all_payload_bytes_zero": true,
+          "struct_size": 24
+        },
+        "SpaceImage": {
+          "blocks": 4,
+          "items": 4,
+          "payload_bytes": 42496,
+          "all_payload_bytes_zero": false,
+          "struct_size": 10624
+        },
+        "SpaceInfo": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 48,
+          "all_payload_bytes_zero": false,
+          "struct_size": 48
+        },
+        "SpaceText": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 600,
+          "all_payload_bytes_zero": false,
+          "struct_size": 600
+        },
+        "ConsoleLine": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 40,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "SpaceConsole": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 376,
+          "all_payload_bytes_zero": false,
+          "struct_size": 376
+        },
+        "bNodeTreePath": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 168,
+          "all_payload_bytes_zero": false,
+          "struct_size": 168
+        },
+        "SpaceFile": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 160,
+          "all_payload_bytes_zero": false,
+          "struct_size": 160
+        },
+        "FileSelectParams": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 2088,
+          "all_payload_bytes_zero": false,
+          "struct_size": 2088
+        },
+        "Scene": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 6744,
+          "all_payload_bytes_zero": false,
+          "struct_size": 6744
+        },
+        "IDProperty": {
+          "blocks": 55398,
+          "items": 55398,
+          "payload_bytes": 7534128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 136
+        },
+        "ToolSettings": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 1072,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1072
+        },
+        "VPaint": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 272,
+          "all_payload_bytes_zero": false,
+          "struct_size": 136
+        },
+        "CurveMapping": {
+          "blocks": 14,
+          "items": 14,
+          "payload_bytes": 5936,
+          "all_payload_bytes_zero": false,
+          "struct_size": 424
+        },
+        "CurveMapPoint": {
+          "blocks": 18,
+          "items": 43,
+          "payload_bytes": 516,
+          "all_payload_bytes_zero": false,
+          "struct_size": 12
+        },
+        "AssetWeakReference": {
+          "blocks": 9,
+          "items": 9,
+          "payload_bytes": 216,
+          "all_payload_bytes_zero": false,
+          "struct_size": 24
+        },
+        "Sculpt": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 216,
+          "all_payload_bytes_zero": false,
+          "struct_size": 216
+        },
+        "GpPaint": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 128
+        },
+        "GpVertexPaint": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 128
+        },
+        "GpSculptPaint": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 128
+        },
+        "GpWeightPaint": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 128
+        },
+        "CurveProfile": {
+          "blocks": 180,
+          "items": 180,
+          "payload_bytes": 12960,
+          "all_payload_bytes_zero": false,
+          "struct_size": 72
+        },
+        "CurveProfilePoint": {
+          "blocks": 180,
+          "items": 360,
+          "payload_bytes": 14400,
+          "all_payload_bytes_zero": false,
+          "struct_size": 40
+        },
+        "SequencerToolSettings": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 20,
+          "all_payload_bytes_zero": false,
+          "struct_size": 20
+        },
+        "Editing": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 3256,
+          "all_payload_bytes_zero": false,
+          "struct_size": 3256
+        },
+        "SeqTimelineChannel": {
+          "blocks": 129,
+          "items": 129,
+          "payload_bytes": 11352,
+          "all_payload_bytes_zero": false,
+          "struct_size": 88
+        },
+        "SceneRenderView": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 304,
+          "all_payload_bytes_zero": false,
+          "struct_size": 152
+        },
+        "ViewLayer": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 336,
+          "all_payload_bytes_zero": false,
+          "struct_size": 336
+        },
+        "Base": {
+          "blocks": 8994,
+          "items": 8994,
+          "payload_bytes": 431712,
+          "all_payload_bytes_zero": false,
+          "struct_size": 48
+        },
+        "FreestyleLineSet": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 128,
+          "all_payload_bytes_zero": false,
+          "struct_size": 128
+        },
+        "LayerCollection": {
+          "blocks": 161,
+          "items": 161,
+          "payload_bytes": 10304,
+          "all_payload_bytes_zero": false,
+          "struct_size": 64
+        },
+        "Collection": {
+          "blocks": 161,
+          "items": 161,
+          "payload_bytes": 60536,
+          "all_payload_bytes_zero": false,
+          "struct_size": 376
+        },
+        "CollectionObject": {
+          "blocks": 8994,
+          "items": 8994,
+          "payload_bytes": 287808,
+          "all_payload_bytes_zero": false,
+          "struct_size": 32
+        },
+        "CollectionChild": {
+          "blocks": 160,
+          "items": 160,
+          "payload_bytes": 5120,
+          "all_payload_bytes_zero": false,
+          "struct_size": 32
+        },
+        "Palette": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 232,
+          "all_payload_bytes_zero": false,
+          "struct_size": 232
+        },
+        "PaletteColor": {
+          "blocks": 120,
+          "items": 120,
+          "payload_bytes": 3840,
+          "all_payload_bytes_zero": false,
+          "struct_size": 32
+        },
+        "LibraryWeakReference": {
+          "blocks": 857,
+          "items": 857,
+          "payload_bytes": 935844,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1092
+        },
+        "Object": {
+          "blocks": 8995,
+          "items": 8995,
+          "payload_bytes": 10434200,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1160
+        },
+        "BevelModifierData": {
+          "blocks": 179,
+          "items": 179,
+          "payload_bytes": 65872,
+          "all_payload_bytes_zero": false,
+          "struct_size": 368
+        },
+        "Camera": {
+          "blocks": 48,
+          "items": 48,
+          "payload_bytes": 35328,
+          "all_payload_bytes_zero": false,
+          "struct_size": 736
+        },
+        "Lamp": {
+          "blocks": 566,
+          "items": 566,
+          "payload_bytes": 208288,
+          "all_payload_bytes_zero": false,
+          "struct_size": 368
+        },
+        "Curve": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 1280,
+          "all_payload_bytes_zero": false,
+          "struct_size": 640
+        },
+        "CharInfo": {
+          "blocks": 2,
+          "items": 12,
+          "payload_bytes": 96,
+          "all_payload_bytes_zero": true,
+          "struct_size": 8
+        },
+        "TextBox": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 32,
+          "all_payload_bytes_zero": true,
+          "struct_size": 16
+        },
+        "Mesh": {
+          "blocks": 1686,
+          "items": 1686,
+          "payload_bytes": 2886432,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1712
+        },
+        "CustomDataLayer": {
+          "blocks": 6721,
+          "items": 14841,
+          "payload_bytes": 1780920,
+          "all_payload_bytes_zero": false,
+          "struct_size": 120
+        },
+        "vec3f": {
+          "blocks": 1680,
+          "items": 15942281,
+          "payload_bytes": 191307372,
+          "all_payload_bytes_zero": false,
+          "struct_size": 12
+        },
+        "vec2i": {
+          "blocks": 1677,
+          "items": 38588731,
+          "payload_bytes": 308709848,
+          "all_payload_bytes_zero": false,
+          "struct_size": 8
+        },
+        "MIntProperty": {
+          "blocks": 4639,
+          "items": 160895231,
+          "payload_bytes": 643580924,
+          "all_payload_bytes_zero": false,
+          "struct_size": 4
+        },
+        "vec2s": {
+          "blocks": 138,
+          "items": 229062,
+          "payload_bytes": 916248,
+          "all_payload_bytes_zero": false,
+          "struct_size": 4
+        },
+        "vec2f": {
+          "blocks": 224,
+          "items": 1717526,
+          "payload_bytes": 13740208,
+          "all_payload_bytes_zero": false,
+          "struct_size": 8
+        },
+        "World": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 400,
+          "all_payload_bytes_zero": false,
+          "struct_size": 400
+        },
+        "bNodeTree": {
+          "blocks": 431,
+          "items": 431,
+          "payload_bytes": 234464,
+          "all_payload_bytes_zero": false,
+          "struct_size": 544
+        },
+        "bNode": {
+          "blocks": 2301,
+          "items": 2301,
+          "payload_bytes": 846768,
+          "all_payload_bytes_zero": false,
+          "struct_size": 368
+        },
+        "bNodeSocket": {
+          "blocks": 24948,
+          "items": 24948,
+          "payload_bytes": 13172544,
+          "all_payload_bytes_zero": false,
+          "struct_size": 528
+        },
+        "bNodeSocketValueVector": {
+          "blocks": 4375,
+          "items": 4375,
+          "payload_bytes": 105000,
+          "all_payload_bytes_zero": false,
+          "struct_size": 24
+        },
+        "bNodeSocketValueRGBA": {
+          "blocks": 2983,
+          "items": 2983,
+          "payload_bytes": 47728,
+          "all_payload_bytes_zero": false,
+          "struct_size": 16
+        },
+        "NodeTexSky": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 1024,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1024
+        },
+        "bNodeSocketValueFloat": {
+          "blocks": 16269,
+          "items": 16269,
+          "payload_bytes": 260304,
+          "all_payload_bytes_zero": false,
+          "struct_size": 16
+        },
+        "NodeTexNoise": {
+          "blocks": 355,
+          "items": 355,
+          "payload_bytes": 343640,
+          "all_payload_bytes_zero": false,
+          "struct_size": 968
+        },
+        "bNodeLink": {
+          "blocks": 2209,
+          "items": 2209,
+          "payload_bytes": 123704,
+          "all_payload_bytes_zero": false,
+          "struct_size": 56
+        },
+        "PreviewImage": {
+          "blocks": 2,
+          "items": 2,
+          "payload_bytes": 96,
+          "all_payload_bytes_zero": false,
+          "struct_size": 48
+        },
+        "FreestyleLineStyle": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 552,
+          "all_payload_bytes_zero": false,
+          "struct_size": 552
+        },
+        "LineStyleGeometryModifier_Sampling": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 104,
+          "all_payload_bytes_zero": false,
+          "struct_size": 104
+        },
+        "Material": {
+          "blocks": 430,
+          "items": 430,
+          "payload_bytes": 168560,
+          "all_payload_bytes_zero": false,
+          "struct_size": 392
+        },
+        "bNodePanelState": {
+          "blocks": 430,
+          "items": 3440,
+          "payload_bytes": 27520,
+          "all_payload_bytes_zero": false,
+          "struct_size": 8
+        },
+        "ColorBand": {
+          "blocks": 214,
+          "items": 214,
+          "payload_bytes": 166064,
+          "all_payload_bytes_zero": false,
+          "struct_size": 776
+        },
+        "NodeMapRange": {
+          "blocks": 14,
+          "items": 14,
+          "payload_bytes": 112,
+          "all_payload_bytes_zero": false,
+          "struct_size": 8
+        },
+        "NodeTexBrick": {
+          "blocks": 6,
+          "items": 6,
+          "payload_bytes": 5856,
+          "all_payload_bytes_zero": false,
+          "struct_size": 976
+        },
+        "NodeShaderUVMap": {
+          "blocks": 1,
+          "items": 1,
+          "payload_bytes": 64,
+          "all_payload_bytes_zero": false,
+          "struct_size": 64
+        },
+        "NodeTexImage": {
+          "blocks": 3,
+          "items": 3,
+          "payload_bytes": 3072,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1024
+        },
+        "Image": {
+          "blocks": 4,
+          "items": 4,
+          "payload_bytes": 6400,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1600
+        },
+        "ImageTile": {
+          "blocks": 4,
+          "items": 4,
+          "payload_bytes": 544,
+          "all_payload_bytes_zero": false,
+          "struct_size": 136
+        },
+        "RenderSlot": {
+          "blocks": 8,
+          "items": 8,
+          "payload_bytes": 704,
+          "all_payload_bytes_zero": false,
+          "struct_size": 88
+        },
+        "ImagePackedFile": {
+          "blocks": 3,
+          "items": 3,
+          "payload_bytes": 3168,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1056
+        },
+        "PackedFile": {
+          "blocks": 5,
+          "items": 5,
+          "payload_bytes": 120,
+          "all_payload_bytes_zero": false,
+          "struct_size": 24
+        },
+        "VFont": {
+          "blocks": 3,
+          "items": 3,
+          "payload_bytes": 3768,
+          "all_payload_bytes_zero": false,
+          "struct_size": 1256
+        }
+      },
+      "seconds": 3.831,
+      "reader_backend": "current_python_streaming_reader",
+      "reader_python_executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "reader_source_sha256": "7edadf8ce05402136d7e226f8b9690d3b3fadece130c4a1b1d1d6ec97b4a8f39",
+      "zstandard_read_across_frames": true
+    }
+  ],
+  "read_only": true,
+  "source_sha256": "7edadf8ce05402136d7e226f8b9690d3b3fadece130c4a1b1d1d6ec97b4a8f39"
+}

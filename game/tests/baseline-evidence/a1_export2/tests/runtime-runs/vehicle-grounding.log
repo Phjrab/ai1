@@ -1,0 +1,880 @@
+[
+  {
+    "name": "Both final GLBs load, octree builds",
+    "pass": true,
+    "detail": {
+      "meshes": 37
+    }
+  },
+  {
+    "name": "Ground surface 0,12",
+    "pass": true,
+    "detail": -0.00014343849034048617
+  },
+  {
+    "name": "Ground surface 0,-2",
+    "pass": true,
+    "detail": 0.14980682730674744
+  },
+  {
+    "name": "Ground surface 0,50",
+    "pass": true,
+    "detail": -6.322372913360596
+  },
+  {
+    "name": "Ground surface 0,100",
+    "pass": true,
+    "detail": -18.199434280395504
+  },
+  {
+    "name": "Ground surface 210,45",
+    "pass": true,
+    "detail": -5.184615612030029
+  },
+  {
+    "name": "Central entrance accessible",
+    "pass": true,
+    "detail": [
+      0,
+      0.14980682730674744,
+      -3.5166666666666875
+    ]
+  },
+  {
+    "name": "Corridor partition blocks movement",
+    "pass": true,
+    "detail": [
+      10.175089537455536,
+      0.14980682730674744,
+      -3.3113165893576375
+    ]
+  },
+  {
+    "name": "Facade wall blocks movement",
+    "pass": true,
+    "detail": [
+      10,
+      0.0019315212266519666,
+      0.6693127867338059
+    ]
+  },
+  {
+    "name": "NPC dialogue opens",
+    "pass": true,
+    "detail": "본관 앞 길을 천천히 걸어보세요. E 키로 주차된 탐험 차량에 탈 수 있어요."
+  },
+  {
+    "name": "Enter vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        10.544395072997757,
+        0.09499999880790705,
+        15.800323785278689
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Drive vehicle moves",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        -21.691824277081835,
+        0.0949999988079071,
+        15.48598011656977
+      ],
+      "carSpeed": 17,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Brake and exit vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        -23.413946329450223,
+        -0.00014343849034048617,
+        12.767624588135227
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Reset safe position",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 본관",
+    "pass": true,
+    "detail": {
+      "destination": "126",
+      "position": [
+        0,
+        0.0019315212266519666,
+        6
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학",
+    "pass": true,
+    "detail": {
+      "destination": "138",
+      "position": [
+        291.432,
+        -21.81471728223411,
+        130.064
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 사회과학ㆍ사범대학",
+    "pass": true,
+    "detail": {
+      "destination": "136",
+      "position": [
+        -373.2758246526761,
+        4.67805540587638,
+        -25.996722231752827
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 미술대학(미술관)",
+    "pass": true,
+    "detail": {
+      "destination": "135",
+      "position": [
+        -192.950407474709,
+        -44.67217136981611,
+        358.41449692162183
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학생회관(동아리연합회)",
+    "pass": true,
+    "detail": {
+      "destination": "145",
+      "position": [
+        -199.58070972293183,
+        -36.83000183105469,
+        114.92392762163776
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 서석홀(평생교육원,박물관)",
+    "pass": true,
+    "detail": {
+      "destination": "141",
+      "position": [
+        -273.1622619628906,
+        -23.948801040649414,
+        152.2765655517578
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제1공학관",
+    "pass": true,
+    "detail": {
+      "destination": "134",
+      "position": [
+        -85.25395665859,
+        -50.62789650069918,
+        833.2365392238979
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제2공학관",
+    "pass": true,
+    "detail": {
+      "destination": "150",
+      "position": [
+        411.08,
+        -26.648132413385987,
+        286.048
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 글로벌하우스(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "142",
+      "position": [
+        497.0418460469685,
+        9.65999984741211,
+        153.96897075088305
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 백학학사(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "147",
+      "position": [
+        -331.3392286471227,
+        -17.687467055556677,
+        112.23248706158022
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 중앙도서관",
+    "pass": true,
+    "detail": {
+      "destination": "127",
+      "position": [
+        49.765,
+        -44.525001525878906,
+        268.945
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 본부동",
+    "pass": true,
+    "detail": {
+      "destination": "cit_main",
+      "position": [
+        260.35655635148987,
+        -40.71119075421029,
+        345.4002939227672
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_1",
+      "position": [
+        196.6715049549447,
+        -44.91840565011189,
+        364.3232800190163
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_2",
+      "position": [
+        287.29022962976666,
+        -20.742626983211018,
+        510.2388057844238
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_3",
+      "position": [
+        304.388810613311,
+        -38.1197401956868,
+        378.70607439228087
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 4호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_4",
+      "position": [
+        341.0406646488468,
+        -18.391221142311917,
+        498.1148384293397
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 병원",
+    "pass": true,
+    "detail": {
+      "destination": "162",
+      "position": [
+        324.73807409,
+        -29.198494057712573,
+        821.34305597
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 1.8극장(노천극장)",
+    "pass": true,
+    "detail": {
+      "destination": "167",
+      "position": [
+        -184.46,
+        -41.3239588056874,
+        238.81
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 경상대학",
+    "pass": true,
+    "detail": {
+      "destination": "133",
+      "position": [
+        359.648,
+        10.823217391967773,
+        -10.281
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 국제관(언어교육원,인권윤리원)",
+    "pass": true,
+    "detail": {
+      "destination": "146",
+      "position": [
+        -46.450571487685885,
+        -44.64500045776367,
+        252.50180849550563
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 그린빌리지(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "165",
+      "position": [
+        462.53,
+        -36.71887677396286,
+        808.262
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 대운동장",
+    "pass": true,
+    "detail": {
+      "destination": "168",
+      "position": [
+        3.727,
+        -50.992000579833984,
+        404.739
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 법과대학",
+    "pass": true,
+    "detail": {
+      "destination": "131",
+      "position": [
+        380.77967255807573,
+        13.951669832170198,
+        4.035647472255508
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생명공학관",
+    "pass": true,
+    "detail": {
+      "destination": "160",
+      "position": [
+        64.09551239013672,
+        -47.44081036745303,
+        599.5790161132812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생산교육 실험실습동",
+    "pass": true,
+    "detail": {
+      "destination": "158",
+      "position": [
+        -12.508,
+        -43.93390217388837,
+        869.168
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 솔마루(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "143",
+      "position": [
+        38.310003152025516,
+        -19.914655034177034,
+        144.105560457296
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 1호관(약학관)",
+    "pass": true,
+    "detail": {
+      "destination": "157",
+      "position": [
+        40.17,
+        -38.164605271637654,
+        809.142
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "140",
+      "position": [
+        16.306798934936523,
+        -43.03066291368543,
+        774.6329956054688
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 3호관(강의동)",
+    "pass": true,
+    "detail": {
+      "destination": "156",
+      "position": [
+        -18.914477463557944,
+        -47.15122398716992,
+        744.6450346259485
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "137",
+      "position": [
+        142.74464416503906,
+        -42.237982445624965,
+        494.2095642089844
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "155",
+      "position": [
+        181.33368191654313,
+        -33.92737460706456,
+        514.439398408833
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "177",
+      "position": [
+        76.50167388916016,
+        -46.43530584463787,
+        616.1184692382812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의성관(연구동)",
+    "pass": true,
+    "detail": {
+      "destination": "154",
+      "position": [
+        152.2803002660609,
+        -27.27761174496437,
+        893.1054562857405
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 입석홀(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "159",
+      "position": [
+        -110.28,
+        -52.94283931101814,
+        882.893
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 자연과학관",
+    "pass": true,
+    "detail": {
+      "destination": "130",
+      "position": [
+        210.44374643533078,
+        -30.980047814038407,
+        625.7189430357842
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장미원",
+    "pass": true,
+    "detail": {
+      "destination": "163",
+      "position": [
+        111,
+        -47.70310592651367,
+        453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장황남정보통신박물관",
+    "pass": true,
+    "detail": {
+      "destination": "129",
+      "position": [
+        -197.74727588405366,
+        -38.83000183105469,
+        159.51315665696725
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 어린이집",
+    "pass": true,
+    "detail": {
+      "destination": "178",
+      "position": [
+        534.791,
+        -13.24582743971431,
+        404.179
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 치과병원",
+    "pass": true,
+    "detail": {
+      "destination": "166",
+      "position": [
+        -342.18403406341963,
+        -53.01674748570276,
+        674.3438429104326
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교병원 장례식장",
+    "pass": true,
+    "detail": {
+      "destination": "171",
+      "position": [
+        109.087,
+        -28.879439798442032,
+        995.713
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 주차빌딩",
+    "pass": true,
+    "detail": {
+      "destination": "164",
+      "position": [
+        137.688,
+        -33.298616086041925,
+        784.389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 창업보육센터",
+    "pass": true,
+    "detail": {
+      "destination": "153",
+      "position": [
+        12.458,
+        -40.181639149420405,
+        848.204
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 체육대학",
+    "pass": true,
+    "detail": {
+      "destination": "132",
+      "position": [
+        52.23348949014323,
+        -36.97296197004625,
+        669.7072837393389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(교육동)",
+    "pass": true,
+    "detail": {
+      "destination": "152",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(연구동) · 공유 건물",
+    "pass": true,
+    "detail": {
+      "destination": "139",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 태양에너지실증연구단지 · 대표 위치",
+    "pass": true,
+    "detail": {
+      "destination": "176",
+      "position": [
+        476.415,
+        -7.238652946709632,
+        686.565
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학군단(ROTC)",
+    "pass": true,
+    "detail": {
+      "destination": "151",
+      "position": [
+        598.6909835718964,
+        9.233048840145205,
+        221.0224031604418
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 항공우주ㆍ선박해양공학관",
+    "pass": true,
+    "detail": {
+      "destination": "148",
+      "position": [
+        476.26849365234375,
+        -24.59238624572754,
+        430.73223876953125
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 해오름관",
+    "pass": true,
+    "detail": {
+      "destination": "128",
+      "position": [
+        171.48699951171875,
+        -44.337913513183594,
+        243
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 황금추관(고시원)",
+    "pass": true,
+    "detail": {
+      "destination": "144",
+      "position": [
+        414.94024658203125,
+        0.9244371123432888,
+        106.16895294189453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 낮은 별관 옥상 · 구름다리",
+    "pass": true,
+    "detail": {
+      "destination": "138_roof_bridge",
+      "position": [
+        250,
+        -2.7846500873565674,
+        106
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 5층 휴게공간 · 원형 테이블 6개",
+    "pass": true,
+    "detail": {
+      "destination": "138_lounge",
+      "position": [
+        254.5997772216797,
+        -2.7846500873565674,
+        91.79539489746094
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교여자고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "174",
+      "position": [
+        -524.387,
+        -36.80795407676697,
+        148.175
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대부속고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "175",
+      "position": [
+        673.426,
+        -23.50180779173581,
+        475.826
+      ]
+    }
+  },
+  {
+    "name": "Campus NPCs distributed",
+    "pass": true,
+    "detail": 19
+  },
+  {
+    "name": "Campus vehicles distributed",
+    "pass": true,
+    "detail": 11
+  },
+  {
+    "name": "Node integration runtime (not browser performance)",
+    "elapsedSeconds": 34.68,
+    "maxRSS_MB": 2621
+  },
+  {
+    "name": "Rendering inventory, not measured performance",
+    "meshes": 2280,
+    "triangles": 6756416,
+    "instances": 17260
+  }
+]
+VEHICLE_BUS_GROUND {"id":"main_loop_0","stations":2719,"bodySamples":2311,"bodyMinimumGap":0.06716190640084818,"wheels":[{"name":"wheel_front_L","minimum":0.0019683471265992125,"maximum":0.0020370616127038943},{"name":"wheel_front_R","minimum":0.0019645692597283215,"maximum":0.002024812324954439},{"name":"wheel_rear_L","minimum":0.0019750673602054736,"maximum":0.0020373138939717705},{"name":"wheel_rear_R","minimum":0.001961684056373869,"maximum":0.002024863761844742}]}
+VEHICLE_BUS_GROUND {"id":"main_loop_1","stations":2719,"bodySamples":2311,"bodyMinimumGap":0.0671619064008766,"wheels":[{"name":"wheel_front_L","minimum":0.0019683471265992125,"maximum":0.0020370616127038943},{"name":"wheel_front_R","minimum":0.0019645692597283215,"maximum":0.002024812324954439},{"name":"wheel_rear_L","minimum":0.0019750673602054736,"maximum":0.0020373138939717705},{"name":"wheel_rear_R","minimum":0.001961684056373869,"maximum":0.002024863761844742}]}
+SHUTTLE_SUSPENSION_CONTINUITY {"bus":"main_loop_0","poses":19805,"stepSeconds":0.02,"maximumOffsetJump":0.17188847484786093,"maximumWheelPivotFrameDisplacement":0.23145688244149737,"maximumChassisFrameDisplacement":0.13453573882896452,"maximumYawFrameStep":0.03370940831691205,"maximumResidual":0.01241859021771785,"limited":1,"missing":0,"worst":{"distance":1960.0799999991843,"wheel":0,"previousOffset":0.009234487002580703,"offset":0.18112296185044163},"assemblyPreserved":true,"visualLimitations":{"contactErrorMeters":0.01241859021771785,"suspensionFrameChangeMeters":0.17188847484786093,"travelLimitSamples":1,"policy":"Bounded original wheel/hub assembly, not a vehicle dynamics simulation. Accepted measured visual residual: up to15mm contact error and180mm wheel adjustment per20ms; no missing support or chassis discontinuity."},"pass":true}
+SHUTTLE_SUSPENSION_CONTINUITY {"bus":"main_loop_1","poses":19805,"stepSeconds":0.02,"maximumOffsetJump":0.17188847484786093,"maximumWheelPivotFrameDisplacement":0.23145688244149737,"maximumChassisFrameDisplacement":0.13453573882896452,"maximumYawFrameStep":0.03370940831691205,"maximumResidual":0.01241859021771785,"limited":1,"missing":0,"worst":{"distance":1960.0799999991843,"wheel":0,"previousOffset":0.009234487002580703,"offset":0.18112296185044163},"assemblyPreserved":true,"visualLimitations":{"contactErrorMeters":0.01241859021771785,"suspensionFrameChangeMeters":0.17188847484786093,"travelLimitSamples":1,"policy":"Bounded original wheel/hub assembly, not a vehicle dynamics simulation. Accepted measured visual residual: up to15mm contact error and180mm wheel adjustment per20ms; no missing support or chassis discontinuity."},"pass":true}
+GROUNDING {"passed":true,"gameSourceSha256":"5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2","sourceAssets":{"building.glb":{"bytes":8858948,"sha256":"29d09bfe7261b956484b92e6d2940c922ffbfa6c314290ebbca1f88fbab1b4c5","source_bytes":18373484,"source_sha256":"94c6e0f534aca0e131afaca413133789a1a77d206797098686b437b94c385eda","source_path":"chosun_final_a1a2070f_export2_verified/realism_v2/game_export_supported_surfaces/building.glb"},"campus.glb":{"bytes":60180264,"sha256":"bfdfd81550c2d832c7435b55cc0c9f850341215c33f24fef1aa317e2cfd75f5b","source_bytes":201480196,"source_sha256":"1166e0435c27b614a04317a504674db8ad3bc6eead0d2d1d6285bb18698e9ca7","source_path":"chosun_final_a1a2070f_export2_verified/realism_v2/game_export_supported_surfaces/campus.glb"},"shuttle_bus.glb":{"bytes":1068036,"sha256":"45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48","source_bytes":1069644,"source_sha256":"3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532","source_path":"shuttle_bus.glb"}},"carGeometry":[{"component":0,"name":null,"geometryType":"BoxGeometry","parameters":{"width":1.85,"height":0.6,"depth":4.3,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.9250000119209292,0.399999988079071,-2.150000095367432],"max":[0.9250000119209292,1.000000011920929,2.150000095367432]},{"component":1,"name":null,"geometryType":"BoxGeometry","parameters":{"width":1.6,"height":0.72,"depth":2.15,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.8000000119209292,0.8599999856948852,-0.9750000476837146],"max":[0.8000000119209292,1.5800000143051147,1.1750000476837175]},{"component":2,"name":null,"geometryType":"BoxGeometry","parameters":{"width":1.67,"height":0.1,"depth":2.25,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.8349999785423281,1.5799999992549418,-1.0249999999999988],"max":[0.8349999785423281,1.680000000745058,1.2250000000000016]},{"component":3,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.07,"height":0.72,"depth":0.12,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.8550000001490101,0.8399999856948852,0.06000000134110549],"max":[-0.7849999998509869,1.5600000143051147,0.1799999986588965]},{"component":4,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.28,"height":0.13,"depth":0.22,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-1.1400000005960482,1.0650000023841857,-0.7899999994039533],"max":[-0.8599999994039553,1.194999997615814,-0.5700000005960462]},{"component":5,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.36,"radiusBottom":0.36,"height":0.22,"radialSegments":16,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[-1.0299999994039535,0.020000000000000018,-1.7100000143051126],"max":[-0.8100000005960463,0.7400000286102295,-0.9899999856948831]},{"component":6,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.2,"radiusBottom":0.2,"height":0.23,"radialSegments":12,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[-1.045000002086164,0.1800000113248825,-1.55000000298023],"max":[-0.8149999979138388,0.580000017285347,-1.1499999970197656]},{"component":7,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.36,"radiusBottom":0.36,"height":0.22,"radialSegments":16,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[-1.0299999994039535,0.020000000000000018,0.9899999856948867],"max":[-0.8100000005960463,0.7400000286102295,1.7100000143051162]},{"component":8,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.2,"radiusBottom":0.2,"height":0.23,"radialSegments":12,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[-1.045000002086164,0.1800000113248825,1.1499999970197656],"max":[-0.8149999979138388,0.580000017285347,1.55000000298023]},{"component":9,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.46,"height":0.16,"depth":0.04,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.7900000041723256,0.7200000017881394,-2.189999999552967],"max":[-0.3299999958276753,0.8799999982118607,-2.1500000004470365]},{"component":10,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.46,"height":0.16,"depth":0.04,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[-0.7900000041723256,0.7200000017881394,2.1500000004470365],"max":[-0.3299999958276753,0.8799999982118607,2.189999999552967]},{"component":11,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.07,"height":0.72,"depth":0.12,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[0.7849999998509869,0.8399999856948852,0.06000000134110549],"max":[0.8550000001490101,1.5600000143051147,0.1799999986588965]},{"component":12,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.28,"height":0.13,"depth":0.22,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[0.8599999994039536,1.0650000023841857,-0.7899999994039533],"max":[1.1400000005960464,1.194999997615814,-0.5700000005960462]},{"component":13,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.36,"radiusBottom":0.36,"height":0.22,"radialSegments":16,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[0.8100000005960463,0.020000000000000018,-1.7100000143051162],"max":[1.0299999994039535,0.7400000286102295,-0.9899999856948867]},{"component":14,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.2,"radiusBottom":0.2,"height":0.23,"radialSegments":12,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[0.8149999979138353,0.1800000113248825,-1.55000000298023],"max":[1.0450000020861605,0.580000017285347,-1.1499999970197656]},{"component":15,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.36,"radiusBottom":0.36,"height":0.22,"radialSegments":16,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[0.8100000005960463,0.020000000000000018,0.9899999856948867],"max":[1.0299999994039535,0.7400000286102295,1.7100000143051162]},{"component":16,"name":null,"geometryType":"CylinderGeometry","parameters":{"radiusTop":0.2,"radiusBottom":0.2,"height":0.23,"radialSegments":12,"heightSegments":1,"openEnded":false,"thetaStart":0,"thetaLength":6.283185307179586},"min":[0.814999997913837,0.1800000113248825,1.1499999970197656],"max":[1.0450000020861623,0.580000017285347,1.55000000298023]},{"component":17,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.46,"height":0.16,"depth":0.04,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[0.32999999582767353,0.7200000017881394,-2.189999999552967],"max":[0.7900000041723239,0.8799999982118607,-2.1500000004470365]},{"component":18,"name":null,"geometryType":"BoxGeometry","parameters":{"width":0.46,"height":0.16,"depth":0.04,"widthSegments":1,"heightSegments":1,"depthSegments":1},"min":[0.3299999958276753,0.7200000017881394,2.1500000004470365],"max":[0.7900000041723256,0.8799999982118607,2.189999999552967]}],"routeMaxGradePercent":28.8830993664771,"maxWheelContactGapMeters":0.09660033068617935,"thresholdMeters":0.35,"carTyreContactThresholdMeters":[-0.05,0.12],"carContacts":[{"car":0,"wheel":0,"minimumGap":0.020000000000000018,"contact":[6.683582902048993,0.11499999880790712,16.815996091768266]},{"car":0,"wheel":1,"minimumGap":0.020000000000000018,"contact":[9.38343205552622,0.11499999880790712,16.84453638728712]},{"car":0,"wheel":2,"minimumGap":0.020000000000000018,"contact":[6.7030325849211,0.11499999880790712,14.976098890880081]},{"car":0,"wheel":3,"minimumGap":0.020000000000000018,"contact":[9.402881738398326,0.11499999880790712,15.004639186398935]},{"car":1,"wheel":0,"minimumGap":0.020000000000000018,"contact":[-59.35,0.11499999880790712,22.02999999940395]},{"car":1,"wheel":1,"minimumGap":0.020000000000000018,"contact":[-56.65,0.11499999880790712,22.029999999403955]},{"car":1,"wheel":2,"minimumGap":0.020000000000000018,"contact":[-59.35,0.11499999880790712,20.189999999403952]},{"car":1,"wheel":3,"minimumGap":0.020000000000000018,"contact":[-56.65,0.11499999880790712,20.189999999403955]},{"car":2,"wheel":0,"minimumGap":0.02000043707909782,"contact":[313.25714225073904,-7.4312359848288905,58.6637867478939]},{"car":2,"wheel":1,"minimumGap":0.01999977295488886,"contact":[315.7829884798835,-7.756914713631918,59.58706400873991]},{"car":2,"wheel":2,"minimumGap":0.02000368008077036,"contact":[313.687394784765,-7.427682984399771,57.101969566047806]},{"car":2,"wheel":3,"minimumGap":0.020000251420918325,"contact":[316.2711625206935,-7.757194633662075,57.81300311306975]},{"car":3,"wheel":0,"minimumGap":0.02000034494512626,"contact":[-383.05356516161356,4.53378118798251,-10.343434835374355]},{"car":3,"wheel":1,"minimumGap":0.019999664312508436,"contact":[-380.3743167083905,4.932904250437001,-10.370461838982333]},{"car":3,"wheel":2,"minimumGap":0.020009871420496594,"contact":[-383.2231218212912,4.533700703641616,-12.175606163383888]},{"car":3,"wheel":3,"minimumGap":0.019993677721972247,"contact":[-380.56381089360843,4.930551618284615,-12.421726691351573]},{"car":4,"wheel":0,"minimumGap":0.019999999999740226,"contact":[-192.97779872509471,-38.80984467535941,186.22949726982853]},{"car":4,"wheel":1,"minimumGap":0.02000000020588999,"contact":[-190.31813282518834,-38.80771343505445,185.76448224155368]},{"car":4,"wheel":2,"minimumGap":0.020000000000344187,"contact":[-193.2946776512086,-38.809888045081884,184.41697448695257]},{"car":4,"wheel":3,"minimumGap":0.019999999970437443,"contact":[-190.67295682894814,-38.789140568846236,183.735327803429]},{"car":5,"wheel":0,"minimumGap":0.019999999999569695,"contact":[-27.60173859145967,-43.928581948602705,834.2779910133494]},{"car":5,"wheel":1,"minimumGap":0.019999999997814655,"contact":[-27.393269440912654,-43.93195195658983,831.577078342456]},{"car":5,"wheel":2,"minimumGap":0.02000000000007418,"contact":[-29.635970774292495,-43.92858196195646,833.9531842686287]},{"car":5,"wheel":3,"minimumGap":0.019999999997502016,"contact":[-29.210253527508925,-43.93195150018378,831.286959695941]},{"car":6,"wheel":0,"minimumGap":0.019995417354870426,"contact":[379.239611604551,-14.474651467305753,125.331252364349]},{"car":6,"wheel":1,"minimumGap":0.01998868560328404,"contact":[378.6545914009526,-14.929089414434321,127.92764169740012]},{"car":6,"wheel":2,"minimumGap":0.019989044035321868,"contact":[381.0346081148706,-14.47459571664343,125.73571197218259]},{"car":6,"wheel":3,"minimumGap":0.019988765253362573,"contact":[380.6636713573571,-14.914803153415784,128.38282815110333]},{"car":7,"wheel":0,"minimumGap":0.020000112869862363,"contact":[-371.9781731014179,-16.536877604497054,115.54179722942006]},{"car":7,"wheel":1,"minimumGap":0.019999781675050343,"contact":[-373.4967269339014,-16.728556901603458,117.77689304598385]},{"car":7,"wheel":2,"minimumGap":0.02000011292078341,"contact":[-370.3741502905092,-16.53687760092265,116.8343570219144]},{"car":7,"wheel":3,"minimumGap":0.01999977796902641,"contact":[-372.0640074979938,-16.728557596424725,118.93141243428903]},{"car":8,"wheel":0,"minimumGap":0.01999999999999602,"contact":[54.02207591796175,-44.50500152587891,276.87539364483445]},{"car":8,"wheel":1,"minimumGap":0.01999999999999602,"contact":[51.33316660433163,-44.50500152587891,276.63092134973095]},{"car":8,"wheel":2,"minimumGap":0.01999999999999602,"contact":[53.85547257611342,-44.50500152587891,278.70783554745645]},{"car":8,"wheel":3,"minimumGap":0.01999999999999602,"contact":[51.1665632624833,-44.50500152587891,278.46336325235296]},{"car":9,"wheel":0,"minimumGap":0.02000221096147925,"contact":[260.2898102417943,-41.41052313774153,297.2908680217217]},{"car":9,"wheel":1,"minimumGap":0.019998274935446148,"contact":[257.64229213440956,-41.76872799877972,296.84265249079067]},{"car":9,"wheel":2,"minimumGap":0.019997927515312597,"contact":[260.1497607933112,-41.40021121598415,298.90479111967005]},{"car":9,"wheel":3,"minimumGap":0.020000359483269392,"contact":[257.4620828078446,-41.7402277120353,298.89472197642357]},{"car":10,"wheel":0,"minimumGap":0.019999999999999574,"contact":[263.8500494287518,-27.48,758.6424555991225]},{"car":10,"wheel":1,"minimumGap":0.019999999999999574,"contact":[262.14665089022066,-27.48,760.7373144055651]},{"car":10,"wheel":2,"minimumGap":0.019999999999999574,"contact":[265.2776569116608,-27.48,759.803290158714]},{"car":10,"wheel":3,"minimumGap":0.019999999999999574,"contact":[263.5742583731297,-27.48,761.8981489651567]}],"busTyreContactThresholdMeters":[-0.01,0.02],"busTyreContacts":[{"bus":"main_loop_0","footing":{"front":3.240000009536743,"rear":3.1600000858306885,"track":2.4100000858306885},"wheels":[{"name":"wheel_front_L","samples":2719,"minimumGap":0.0019683471265992125,"maximumGap":0.0020370616127038943,"lowest":{"distance":1657.0511744694902,"minimumGap":0.0019683471265992125,"contact":[-206.17953605148767,-2.465927932612832,36.25490364462941]},"highest":{"distance":1750.3702225096727,"minimumGap":0.0020370616127038943,"contact":[-122.81969272692305,-10.821188339158262,65.93055321179875]}},{"name":"wheel_front_R","samples":2719,"minimumGap":0.0019645692597283215,"maximumGap":0.002024812324954439,"lowest":{"distance":1661.6870989430674,"minimumGap":0.0019645692597283215,"contact":[-207.63285263816783,-3.809924283362874,41.10820930296523]},"highest":{"distance":315.8018818215143,"minimumGap":0.002024812324954439,"contact":[-140.86425659310072,-39.42210841606356,266.46181003189946]}},{"name":"wheel_rear_L","samples":2719,"minimumGap":0.0019750673602054736,"maximumGap":0.0020373138939717705,"lowest":{"distance":1656.1237171538623,"minimumGap":0.0019750673602054736,"contact":[-206.86178814048148,-0.5706771031389106,29.23384854658869]},"highest":{"distance":1673.6527351365044,"minimumGap":0.0020373138939717705,"contact":[-202.41761420367027,-4.613767796535088,44.011240600932574]}},{"name":"wheel_rear_R","samples":2719,"minimumGap":0.001961684056373869,"maximumGap":0.002024863761844742,"lowest":{"distance":1658.9057485461283,"minimumGap":0.001961684056373869,"contact":[-209.20234250356654,-1.303689747378861,32.104850102971575]},"highest":{"distance":1749.4118163671772,"minimumGap":0.002024863761844742,"contact":[-130.47270889399692,-10.823332968726694,66.43462527542016]}}],"bodyFloor":{"samplesPerPose":2311,"localBounds":{"min":[-1.2445000410080527,0.3999999873340202,-5.352000121958498],"max":[1.3449999913572699,0.9974999427795412,5.345499992370661]},"minimumGap":0.06716190640084818,"worst":{"distance":2047.279101471902,"minimumGap":0.06716190640084818,"contact":[-137.83781477425316,-38.29006191646664,251.53940636468252]}},"suspension":{"minimumOffset":-0.08506433029013141,"maximumOffset":0.11265581749316038,"maximumResidual":0.00003831594362613093,"limited":0,"missing":0}},{"bus":"main_loop_1","footing":{"front":3.240000009536743,"rear":3.1600000858306885,"track":2.4100000858306885},"wheels":[{"name":"wheel_front_L","samples":2719,"minimumGap":0.0019683471265992125,"maximumGap":0.0020370616127038943,"lowest":{"distance":1657.0511744694902,"minimumGap":0.0019683471265992125,"contact":[-206.17953605148767,-2.465927932612832,36.25490364462941]},"highest":{"distance":1750.3702225096727,"minimumGap":0.0020370616127038943,"contact":[-122.81969272692305,-10.821188339158262,65.93055321179875]}},{"name":"wheel_front_R","samples":2719,"minimumGap":0.0019645692597283215,"maximumGap":0.002024812324954439,"lowest":{"distance":1661.6870989430674,"minimumGap":0.0019645692597283215,"contact":[-207.63285263816783,-3.809924283362874,41.10820930296523]},"highest":{"distance":315.8018818215143,"minimumGap":0.002024812324954439,"contact":[-140.86425659310072,-39.42210841606356,266.46181003189946]}},{"name":"wheel_rear_L","samples":2719,"minimumGap":0.0019750673602054736,"maximumGap":0.0020373138939717705,"lowest":{"distance":1656.1237171538623,"minimumGap":0.0019750673602054736,"contact":[-206.86178814048148,-0.5706771031389106,29.23384854658869]},"highest":{"distance":1673.6527351365044,"minimumGap":0.0020373138939717705,"contact":[-202.41761420367027,-4.613767796535088,44.011240600932574]}},{"name":"wheel_rear_R","samples":2719,"minimumGap":0.001961684056373869,"maximumGap":0.002024863761844742,"lowest":{"distance":1658.9057485461283,"minimumGap":0.001961684056373869,"contact":[-209.20234250356654,-1.303689747378861,32.104850102971575]},"highest":{"distance":1749.4118163671772,"minimumGap":0.002024863761844742,"contact":[-130.47270889399692,-10.823332968726694,66.43462527542016]}}],"bodyFloor":{"samplesPerPose":2311,"localBounds":{"min":[-1.2445000410080174,0.399999987334013,-5.352000121958582],"max":[1.3449999913573052,0.9974999427795412,5.345499992370577]},"minimumGap":0.0671619064008766,"worst":{"distance":2047.279101471902,"minimumGap":0.0671619064008766,"contact":[-137.83781477425322,-38.29006191646664,251.53940636468263]}},"suspension":{"minimumOffset":-0.08506433029013141,"maximumOffset":0.11265581749316038,"maximumResidual":0.00003831594362613093,"limited":0,"missing":0}}],"busWheelArchWarnings":[{"bus":"main_loop_0","sampledPoses":2719,"minimumGap":-0.0675863842404354,"intersectingPoses":127,"worst":{"distance":1978.221850424639,"minimumGap":-0.0675863842404354,"contact":[-123.42065579531852,-41.01758714717989,187.261128638619]},"classification":"Original fixed black wheel-arch disks, radius0.57m centered atlocalY0.60m and original axle Z; actual low arch overlap is reported separately from chassis/bumper/step clearance."},{"bus":"main_loop_1","sampledPoses":2719,"minimumGap":-0.06758638424042829,"intersectingPoses":127,"worst":{"distance":1978.221850424639,"minimumGap":-0.06758638424042829,"contact":[-123.42065579531864,-41.01758714717988,187.26112863861903]},"classification":"Original fixed black wheel-arch disks, radius0.57m centered atlocalY0.60m and original axle Z; actual low arch overlap is reported separately from chassis/bumper/step clearance."}],"suspensionContinuity":[{"bus":"main_loop_0","poses":19805,"stepSeconds":0.02,"maximumOffsetJump":0.17188847484786093,"maximumWheelPivotFrameDisplacement":0.23145688244149737,"maximumChassisFrameDisplacement":0.13453573882896452,"maximumYawFrameStep":0.03370940831691205,"maximumResidual":0.01241859021771785,"limited":1,"missing":0,"worst":{"distance":1960.0799999991843,"wheel":0,"previousOffset":0.009234487002580703,"offset":0.18112296185044163},"assemblyPreserved":true,"visualLimitations":{"contactErrorMeters":0.01241859021771785,"suspensionFrameChangeMeters":0.17188847484786093,"travelLimitSamples":1,"policy":"Bounded original wheel/hub assembly, not a vehicle dynamics simulation. Accepted measured visual residual: up to15mm contact error and180mm wheel adjustment per20ms; no missing support or chassis discontinuity."},"pass":true},{"bus":"main_loop_1","poses":19805,"stepSeconds":0.02,"maximumOffsetJump":0.17188847484786093,"maximumWheelPivotFrameDisplacement":0.23145688244149737,"maximumChassisFrameDisplacement":0.13453573882896452,"maximumYawFrameStep":0.03370940831691205,"maximumResidual":0.01241859021771785,"limited":1,"missing":0,"worst":{"distance":1960.0799999991843,"wheel":0,"previousOffset":0.009234487002580703,"offset":0.18112296185044163},"assemblyPreserved":true,"visualLimitations":{"contactErrorMeters":0.01241859021771785,"suspensionFrameChangeMeters":0.17188847484786093,"travelLimitSamples":1,"policy":"Bounded original wheel/hub assembly, not a vehicle dynamics simulation. Accepted measured visual residual: up to15mm contact error and180mm wheel adjustment per20ms; no missing support or chassis discontinuity."},"pass":true}],"tyreContactMethod":"Actual tyre vertices versus the same runtime Octree triangles, queried once per finite 3m-deep tyre box; exact one-sided ray intersection, no height interpolation.","busCount":2,"carCount":11,"failures":[]}

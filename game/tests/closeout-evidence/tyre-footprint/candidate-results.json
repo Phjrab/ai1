@@ -1,0 +1,376 @@
+{
+  "passed": false,
+  "maxRSS_MB": 2830,
+  "inputSha256": {
+    "dist/assets/building.glb": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5",
+    "dist/assets/campus.glb": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+    "dist/game.js": "bacd3d18e393c5f1332047450bcd37d01b473a2e5045cf2d0d2cb30a5a4e10ec",
+    "dist/shuttle-system.js": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1",
+    "dist/transit-config.js": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26",
+    "dist/world-config.js": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309",
+    "dist/parking-config.js": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b",
+    "dist/parking-system.js": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f",
+    "dist/revision-colliders.js": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c",
+    "dist/vehicle-steering.js": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37",
+    "dist/vehicle-surfaces.js": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8",
+    "dist/wheel-suspension.js": "d91100e3738332efe2dc8e7bf7b06e9963037c1a5a0ed14213a25987aae959fd",
+    "dist/walking-floor.js": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc",
+    "dist/polygon-colliders.js": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df",
+    "dist/water-constraints.js": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5",
+    "data/a1_export2_native-export-manifest.json": "3cc267140fead2ef7375b8382fb5292cc2e1fcb40ee9f654e0d01c20f180625f",
+    "data/actor-grounding-report.json": "7ae848220165062f6d890dce488682729490adf82abe68643781740d82312545",
+    "data/actor-grounding.json": "6af5c30d23bd5ea950df1a7357dc6f95191158cd650b524857802966f2a93805",
+    "data/building-material-application.json": "2046a3fcd1aab0d5acce851e819f145d1ef3d8465eae573e00b18f9f4a61de01",
+    "data/campus-access-gates.json": "a138c7188838bd4b608ca6471b8ad313f320cc07fd2e1e2d47d1200eae00f6a6",
+    "data/campus-access-school-boundaries.json": "df9f378b299de74a0e5fb6210899aad4224c5b372adb15cc772b818475c4167c",
+    "data/campus-access-school-road-replacement.json": "7bd564167709399148a27aa0c5db2e2f0eeb521c9d5c0256b621d4b05472beb0",
+    "data/campus-access-schools.json": "105c05a540066f53e71087a4e814be75f03da55aa1f4b5bb4f5ba9731e311a72",
+    "data/campus-access-sync-report.json": "3d8821a61efe3350228a3fd7f60bc8ef9d39aa4196c29a972dbffa7db39eb70a",
+    "data/campus-material-application.json": "d44ce0804f630390d54468bfb2039d9bf86d897188b96f3464f8bf5f87686691",
+    "data/campus-navigation.json": "57e82293b29c5787db51ad0bc4a0d357d90a42f2f4d3f002cba0a8da479dca44",
+    "data/entrance-connections.json": "e7241540e83d6618a33b67f86fd11b3005da0d801e29c74c7a8b81e01fbf2bfd",
+    "data/entrance-surfaces.json": "f90fa31eef697dfbed9a256a9f63649c37715cab4a5fc20c6dad0caa10d699b6",
+    "data/entrance-sync-report.json": "52bcd85b894ebf322bd5ec7e49cf99549c8a42ba3fa387eee6a8310a35cc0f75",
+    "data/entrances-a.json": "61d7f140ec7bff527910c36f7a8432f1388aacfa260e060710e0c565c20d80bb",
+    "data/entrances-b.json": "6ede5f5445ad8ca5ea18a303c5e857937a7a3754574dbcdba3258f3be7f6d98e",
+    "data/exported-inferred-support.json": "dc120de9239e459391cf163937819b2e0f6e5d24f5e4d11ec6734ff2d15cdc73",
+    "data/final-model-delta.json": "b5761d49ed169b3e6a19f0df79ea3e34e253a6edf2e2c166c78d033190184dbb",
+    "data/final-pedestrian-navigation.json": "b2e6d7c5917524b806467aa3d7999613274f0e225d1856b1848df8879f16b96b",
+    "data/football-goals-sync-report.json": "d6bbf249d4c22f0c790e9ba4d3c151628f532179c81e4d0ea9d3d86566bd4973",
+    "data/football-goals.json": "9ddebda0db53e754d7de3a3e6443118acd0d9fe8cf4ac1295541fa3a39030f99",
+    "data/game-materials.json": "0485b3786d41373d2169f9fab22e20841cc80bb23956951900d1b388e661bb5c",
+    "data/garage-exterior-navigation.json": "04c1cc7e368e4acfeac7e34015ad2551b9532d1eef4e32769239faf0095043dc",
+    "data/garage-exterior-sync-report.json": "6708e39457048a7802dae73f5c37e15ed986f93ef577a273b3211b8278472cee",
+    "data/garage-road-boundary-source.json": "b37444accd6e1b0f1e0044d9472fd31c3603dbb13e3cbcd7ce993f7be304a31c",
+    "data/garage-road-boundary.json": "7b00cdc0a60402986928dddf8b9dcdc151423ea6ec14fddb609a30fc05167284",
+    "data/grade-sync-baseline.json": "1e14345a235ef7b30a98bb47f0b701f800bf3eeab057505072a652668c9ed5be",
+    "data/grade-sync-report.json": "42898889243c6c79aacc0cea05d4eee7d5f8a74f66e27f524426a1e5fb9f753d",
+    "data/greenery-infill.json": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a",
+    "data/greenery-sync-report.json": "623149774c8c29ff6a321dc73c69e314ca0a84b9b83742a2479bc29e93c33e31",
+    "data/haeoreum-stair-sync-report.json": "456c84ff6976ee52339dca2765f87d420a4af2f29261876f4a43b4fa630fd160",
+    "data/haeoreum-stair.json": "c7099ea6b0e95c6c3748f9c373aa218c212c7922b2385a26249fa07b907efec0",
+    "data/hospital-arrival-overlay.json": "5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f",
+    "data/hospital-stop-walkways-sync-report.json": "128d1b40095c31fc247521c27a02ae583b88df07d61370866a2a7ddbb436a2fe",
+    "data/hospital-stop-walkways.json": "0dee4086880afb15693cffa563729f1b36a3d2f26a6e7490db279c478e18bd1a",
+    "data/hospital-sync-report.json": "f9ee3647b2f8d60a331578c5aad6165f64e55f86b2983a710348f7367c27d086",
+    "data/it-approach-alignment.json": "a9aa5510524ae8b7dc77cb0b0998ffb3cf96124ea6ae6844b246121d466a876d",
+    "data/it-lounge.json": "cbf652568995444b3fd619235da55489e7aa2378ff490493fd8253f95093116a",
+    "data/it-lower-paving-retirement-report.json": "d33e8de5a3fc95766733ad0da3b7b46a766d29003907d4e84643955ad620a388",
+    "data/it-lower-paving-retirement.json": "a098f50103f61aec3a05a98d3f29716a36e554f7b9717ecf9bdbf2f0b6fa99ea",
+    "data/it-rooftop-bridge.json": "062dbf9b3db6b724fbc4bdc7b145cebe7aebee2452523fee7ecb4317d907be93",
+    "data/known-tyre-contact-limits.json": "a67402725f1ef9c8072b2e227888693ff28441b143257f3f59b093f3b4b51cef",
+    "data/lounge-sync-report.json": "cc425bc35ed84fbebab53b8cfebf546dfb446f1073b324944b49fce22dbbe569",
+    "data/native-export-building-inventory.json": "67e28606a9c9bf1c2f57d4f8dcf2ba97320f643327e8cb0895650a76dbb6f8f1",
+    "data/native-export-campus-inventory.json": "f479a597b9a0c88a4c0bdddfffe7419261f67b027f898f9782747207192ff114",
+    "data/native-export-manifest.json": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e",
+    "data/parking-gameplay.json": "beab14ca0393ca4b1ab4b4e36cf6f299b5589bae53843cdc14156e9ce36d8859",
+    "data/parking-terraces-sync-report.json": "35cc0bc62f9c75cd91acf33dad7de9bb795b43243e2f859b975cb99bac99ec71",
+    "data/parking-terraces.json": "896672d4f8de987dabe269fd771356f22717a80636843307aa67b82cdec502ed",
+    "data/pharmacy-entrance.json": "85442425957ae551e55f6d8f3bbf291475e6725287e551b6731548618b976ba0",
+    "data/pharmacy-sync-report.json": "699916817c82a7f2e7ea53c944f14420d24ada478bebe6dcefc0929a8c07845a",
+    "data/pond-entry-steps.json": "0676444ead4f9983459461a8addfc9c75afe5a260a8d0f93935984c2c1e0b1b9",
+    "data/pond-entry-sync-report.json": "3328faadd8146af71711b48424d6833576c8d8da98d5e3e6a1eacfc5cf1de21d",
+    "data/pond-overlay.json": "cde7611eed97eb431c98daa5f56f4e9d8a0782271c309a3686a4dc7e3a0ef5a9",
+    "data/pond-sync-report.json": "bbb1775e7c83f56232af242a64f4961d6a67529076052fd302946fa28d329a56",
+    "data/public-spaces-integration-contract.json": "54851def8cba2109712a1145f98a4f513b878f19a32242ca5f33b8ee1b3d2690",
+    "data/public-spaces-sync-report.json": "d816b2b0791e657c8af0633233bac229a4b40df2a9fe2d7b39b0d95cb59f3eca",
+    "data/public-spaces.json": "c8cd6dfe999c6f093045b8511ad0589b09b73e50c2b3c8b60ed85b9b9b841fd9",
+    "data/public-walk-clearance.json": "04d566516be6e936ee5ce20ce83611501c6b276d210b23103979fbf3070435ea",
+    "data/realism-road-probes.json": "4c6e66dd6cfc940d9aeb80c519561cda19d10a1df47fa4afefa44b6d3422720f",
+    "data/road-graph-3d.json": "57d12037872e2034bddefcbd7247ce37142db019937888e1b4f02693a269e9c5",
+    "data/road-seam-routes.json": "51c0d149a921b71f21f7ee45214eb8a39352e1b9529a900cdcdca81d1236ff74",
+    "data/rooftop-sync-report.json": "80cd9a0e33886c4d8464458af19134c8c2dc6167d82c683b6a26f5271f98493e",
+    "data/rose-endpoint-navigation.json": "1533887b5cf55d6fb1b3f33eb48dd37c23047efbf9d3e87ea5df399ba13e504c",
+    "data/rose-endpoint-sync-report.json": "2482a5f33c6cd94f6391fbf1e79415077f0bd9626fa7a535b26706e2cea779ed",
+    "data/shuttle-material-application.json": "4c2d622ef76ee758a0216e5bba6b993cee08bb52756d91f340b7799e5ee254ab",
+    "data/shuttle-sources.json": "392266ed612f1a2884c12d63de55f44c325925cfab1c3138b543682856a63f9a",
+    "data/static-vehicle-poses.json": "a32282b5304352c59ab278547760cd576cc1a0873eba6c0c98f2387a3820511f",
+    "data/static-vehicle-sync-report.json": "3c81f062450248146d19ac128c8b9896dc070ca65dfbf04a3a32df4d70647915",
+    "data/student-level-contract.json": "50cbe0d190f9d79e838ba7e1faee6136b5f070742d55ab853a6e47640aa83fc6",
+    "data/terrace-drive-alignment-report.json": "5bfea2f44191c1e124a6603c71bb0014eb70bdcc0ae4b6e3ec1da85b2b5b58f9",
+    "data/terrace-drive-alignment.json": "d4445b531f94bf9c2ce23e2cb9572bbaffa0163b078baf56fddee920d67142cf",
+    "data/track-perimeter.json": "f943fb60b008d4e4e55ce4580f8d729b6ef350f5b9b0d616077acca0081ea752",
+    "data/transit-alignment-overlay.json": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08",
+    "data/transit-asset-contract.json": "ae31bba0502c4b10fbfe7d0cdc35806b6ed53bc357cc0d4f3559483d00e39b62",
+    "data/transit-integration-issues.json": "6a58b15c47bbd25914e3c1f7bd917588ae32f982f94c7ced413efaa5b5c2fc36",
+    "data/transit-placements.json": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08",
+    "data/transit-revision-report.json": "62bac389e7f54e9e9832a1c425ee44b1c174e3f13acb0a21396e0926a2f25a97",
+    "data/walk-alignments-sync-report.json": "78fe66023f62146fe189c6639b6c9c94426e842edf17a7db3874db451fbb5bb8",
+    "data/walk-route-alignment.json": "970d7bf6b46eb9b09e49b90715de05fc7bb420f6512bbef07b0cda3190141019",
+    "data/walking-road-graph-3d.json": "1c85e7ba8359e9733d788a71ef1900422dbad89f20051e73c06fc28a14500f26",
+    "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+    "rawGLB/building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "rawGLB/campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "scope": "17 original failed records plus water constraints, rerun on final inputs; previous full68 records are preserved separately.",
+  "features": [
+    "public",
+    "track",
+    "pond",
+    "schools",
+    "gates",
+    "goals",
+    "trees",
+    "cars",
+    "stops",
+    "terraces"
+  ],
+  "results": [
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": false,
+      "pass": true,
+      "samples": 10130,
+      "maxFrameHeightJump": 0.04640413903290863,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": true,
+      "pass": true,
+      "samples": 10130,
+      "maxFrameHeightJump": 0.052238051299880794,
+      "failed": null
+    },
+    {
+      "kind": "water_entry_rejected",
+      "pass": true,
+      "samples": 310,
+      "blocked": 310
+    },
+    {
+      "kind": "pedestrian_bridge_rejects_vehicle",
+      "pass": true
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane0",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.456109728767993,
+      "verticalError": 0.008967136002347331,
+      "steps": 1564,
+      "volumeSamples": 97,
+      "hits": [],
+      "position": [
+        -123.57837825604761,
+        -52.6046334099033,
+        689.9096250751215
+      ]
+    },
+    {
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_reverse",
+      "pass": false,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": false,
+        "failures": [
+          {
+            "reason": "unlisted contact route"
+          }
+        ]
+      },
+      "unresolvedHits": [
+        {
+          "position": [
+            792.9942624593918,
+            -33.86364288467627,
+            543.1068866941014
+          ],
+          "yaw": -0.12819616742187143,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  793.6324462890625,
+                  -33.803985595703125,
+                  544.8196411132812
+                ],
+                [
+                  790.1900024414062,
+                  -33.80390167236328,
+                  548.1365966796875
+                ],
+                [
+                  791.912841796875,
+                  -33.803985595703125,
+                  544.087890625
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.005453402312589839
+            }
+          ]
+        },
+        {
+          "position": [
+            781.0868832098303,
+            -33.91710064034033,
+            427.49826554708847
+          ],
+          "yaw": -0.0777608055001256,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  779.25830078125,
+                  -33.80376052856445,
+                  427.9537353515625
+                ],
+                [
+                  782.5714721679688,
+                  -33.803985595703125,
+                  424.4653625488281
+                ],
+                [
+                  781.0905151367188,
+                  -33.803985595703125,
+                  428.608642578125
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.007482351521341579
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "endpointError": 0.575802125760953,
+      "verticalError": 0.00006529417304790286,
+      "steps": 6687,
+      "volumeSamples": 417,
+      "hits": [
+        {
+          "position": [
+            792.9942624593918,
+            -33.86364288467627,
+            543.1068866941014
+          ],
+          "yaw": -0.12819616742187143,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  793.6324462890625,
+                  -33.803985595703125,
+                  544.8196411132812
+                ],
+                [
+                  790.1900024414062,
+                  -33.80390167236328,
+                  548.1365966796875
+                ],
+                [
+                  791.912841796875,
+                  -33.803985595703125,
+                  544.087890625
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.005453402312589839
+            }
+          ]
+        },
+        {
+          "position": [
+            781.0868832098303,
+            -33.91710064034033,
+            427.49826554708847
+          ],
+          "yaw": -0.0777608055001256,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  779.25830078125,
+                  -33.80376052856445,
+                  427.9537353515625
+                ],
+                [
+                  782.5714721679688,
+                  -33.803985595703125,
+                  424.4653625488281
+                ],
+                [
+                  781.0905151367188,
+                  -33.803985595703125,
+                  428.608642578125
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.007482351521341579
+            }
+          ]
+        }
+      ],
+      "position": [
+        763.5402532529556,
+        -33.801756501080696,
+        419.9988009175752
+      ]
+    }
+  ],
+  "limitations": [
+    {
+      "stop_id": "1150",
+      "status": "blocked_unverified_crossing",
+      "path_id": "city_1150_same_side_only",
+      "waitingPosition": [
+        505.4186612862402,
+        -954.5021290215859,
+        -51.78102111816406
+      ],
+      "connectToCampus": false,
+      "hospital_route": null
+    }
+  ],
+  "verification": "Actual game movement and final GLB collision/pose/ground checks; renderer and DOM mocked, no browser/GPU/mobile certification."
+}

@@ -1,0 +1,24 @@
+{
+  "status": "authorized_exact_measured_bounds_only",
+  "file": "data/known-tyre-contact-limits.json",
+  "preservedBefore": "tests/closeout-evidence/known-limit-adjustment/known-limits-before.json",
+  "beforeSha256": "5e9f40f202992ff9f2982bebe8bb466ad7d7451a6d51052133f2e657fd0f800c",
+  "afterSha256": "db2eb03bea1e8e7d64d52e413056c36aa3decf51e5d3d21b9054b82d496f47e7",
+  "changes": [
+    {
+      "route": "421_front_to_middle_forward",
+      "field": "maximumRadialOverlapMeters",
+      "before": 0.044424644726126616,
+      "after": 0.04444425121070883,
+      "deltaMeters": 1.9606484582213035e-05
+    },
+    {
+      "route": "421_front_to_middle_reverse",
+      "field": "maximumRadialOverlapMeters",
+      "before": 0.03942113524487989,
+      "after": 0.03960638307697251,
+      "deltaMeters": 0.00018524783209261653
+    }
+  ],
+  "reason": "Final actual tyre footprint support changes measured421 tyre-side overlap by19.607 and185.248micrometers; exact measured bounds approved2026-10-09T21:48UTC. Counts8/9, finite triangles, tyre geometry, pose range, body/hub/support/traversal guards unchanged."
+}

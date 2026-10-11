@@ -1,0 +1,84 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import * as THREE from 'three';
+import {TIME_PRESETS,LIGHTING_LIMITS,fromBlender,validateLightingContract,fixtureCollisionBoxes,nearestFixtures,createGroundPools,createStreetLighting,batchFixtures} from '../dist/street-lighting.js';
+import {pointInStaticBox,vehicleOverlapsStaticBox} from '../dist/parking-system.js';
+
+let checks=0;const check=(truth,label)=>{assert.ok(truth,label);checks++;};
+function fixture(index,x=10*index,z=0){return {id:`lamp_${index}`,kind:'road',base_position:[x,z,2],lamp_position:[x,z,7],target_position:[x+1,z,2],color:[1,.63,.32],CCT:3000,intensity:180,power_watts:40,pool_radius:5,fixture_object_names:[`lamp_${index}`],collision:{pole_radius_m:.1,pole_height_m:5,base_radius_m:.19,base_height_m:.18},ground_patch_triangles:[[[x-2,z-2,2],[x+3,z-2,2],[x+3,z+2,2.4]],[[x-2,z-2,2],[x+3,z+2,2.4],[x-2,z+2,2.4]]]};}
+const contract={schema_version:1,revision_id:'street_lighting_v6',source_native_sha256:'a'.repeat(64),fixtures:Array.from({length:9},(_,i)=>fixture(i))};
+check(validateLightingContract(contract)===contract,'valid input retained');
+assert.throws(()=>createStreetLighting({emitterOffset:[0,0,NaN]}));checks++;
+check(createStreetLighting({}).state.ready===false,'default empty emitter option remains valid');
+const positiveSliver={...contract,fixtures:[{...fixture(0),ground_patch_triangles:[[[0,0,0],[1,0,0],[1,1e-10,0]]]}]};
+check(validateLightingContract(positiveSliver)===positiveSliver,'strictly positive finite visual sliver retained');
+assert.throws(()=>validateLightingContract({...contract,fixtures:[fixture(0),fixture(0)]}));checks++;
+assert.throws(()=>validateLightingContract({...contract,fixtures:[{...fixture(0),ground_patch_triangles:[[[0,0,0],[0,0,0],[0,0,0]]]}]}));checks++;
+assert.deepEqual(fromBlender([3,-4,5]),[3,5,4]);checks++;
+const collapsedFixture={...fixture(0),ground_patch_triangles:[[[1000,1000,2],[1001,1000,2],[1001,1000+1e-8,2]],[[1000,1000,2],[1001,1000,2],[1001,1000+.001,2]]]};
+const normalizedPool=createGroundPools([collapsedFixture]);
+check(normalizedPool.geometry.attributes.position.count===3,'only exact Float32 zero-area render triangle excluded');
+check(normalizedPool.userData.poolNormalization.excludedExactFloat32Degenerates.length===1,'source triangle index retained for collapsed sliver');
+check(collapsedFixture.ground_patch_triangles.length===2,'source finite triangle contract unchanged after render normalization');
+const pools=createGroundPools(contract.fixtures);
+check(pools.geometry.attributes.position.count===54,'only exact patch triangles');
+check(pools.userData.collision===false&&pools.userData.walkable_support===false,'pools do not enter support or collision');
+check(Math.abs(pools.geometry.attributes.position.getY(0)-2.002)<1e-6,'render-only two millimetre lift');
+check(pools.material.depthTest&&!pools.material.depthWrite,'occlusion retained without writing fake floor');
+check(pools.material.side===THREE.DoubleSide,'retained downward native pool winding remains visible from above');
+check(Math.abs(pools.geometry.attributes.poolColor.getY(0)-.63)<1e-7,'native linear RGB preserved without double sRGB conversion');
+const sharedRoot=new THREE.Group(),sharedGeometry=new THREE.BoxGeometry(),sharedMaterial=new THREE.MeshStandardMaterial();
+for(let i=0;i<530;i++){const m=new THREE.Mesh(sharedGeometry,sharedMaterial);m.position.set(i*3,2,-i);sharedRoot.add(m);}
+const batched=batchFixtures(sharedRoot);check(batched.children.length===1&&batched.children[0].count===530,'shared fixture geometry uses one material batch regardless of campus span');
+const transform=new THREE.Matrix4();batched.children[0].getMatrixAt(529,transform);check(transform.elements[12]===1587&&transform.elements[13]===2&&transform.elements[14]===-529,'instancing preserves exact world pose');
+const boxes=fixtureCollisionBoxes([fixture(0)]);
+check(boxes.length===2,'separate physical shaft and base');
+check(pointInStaticBox(new THREE.Vector3(.3,2,0),boxes[0],.34),'capsule blocks deliberate pole contact');
+check(!pointInStaticBox(new THREE.Vector3(.6,2,0),boxes[1],.34),'adjacent clear walk remains open');
+check(!pointInStaticBox(new THREE.Vector3(0,9,0),boxes[0],.34),'upper layer is not blocked by lower pole');
+check(vehicleOverlapsStaticBox(new THREE.Vector3(1,2,0),0,boxes[0]),'real car body hits pole');
+check(!vehicleOverlapsStaticBox(new THREE.Vector3(1.5,2,0),0,boxes[0]),'clear car body passes beside pole');
+check(nearestFixtures(contract.fixtures,new THREE.Vector3(),100).length===4,'hard maximum four lights');
+check(nearestFixtures(contract.fixtures,new THREE.Vector3(10000,0,0)).length===0,'far fixtures never activate');
+check(nearestFixtures(contract.fixtures,new THREE.Vector3(0,100,0)).length===0,'vertical layer distance counts');
+const scene=new THREE.Scene();scene.background=new THREE.Color();scene.fog=new THREE.FogExp2();
+const hemisphere=new THREE.HemisphereLight(),sun=new THREE.DirectionalLight(),renderer={toneMappingExposure:.95};scene.add(hemisphere,sun);
+const baseline=new THREE.Mesh(new THREE.BoxGeometry(2,1,2),new THREE.MeshStandardMaterial());baseline.name='unchanged campus';scene.add(baseline);
+const geometry=baseline.geometry,positions=Array.from(geometry.attributes.position.array),matrix=baseline.matrix.toArray();
+const material=new THREE.MeshStandardMaterial({emissive:'#ffe0ae'});material.name='RV6_StreetLight_Emissive_Warm3000K';
+const fixtureRoot=new THREE.Group();fixtureRoot.add(new THREE.Mesh(new THREE.BoxGeometry(.4,.1,.4),material),new THREE.PointLight());
+const api=createStreetLighting({scene,hemisphere,sun,renderer,mobileQuality:true,emitterOffset:[0,0,-.1]});
+const blockers=await api.load({loadAsync:async()=>({scene:fixtureRoot})},{fetcher:async()=>({ok:true,json:async()=>contract})});
+check(blockers.length===18&&api.state.fixtures===9,'all fixture blockers attached once');
+check(!fixtureRoot.children.some(o=>o.isLight),'uncapped imported lights removed');
+check(api.state.realtimeLights===0&&!api.state.detail,'safe default no realtime lamp lights');
+for(let i=0;i<3;i++)for(const time of Object.keys(TIME_PRESETS)){
+  api.setTime(time);const p=TIME_PRESETS[time];
+  check(api.state.time===time&&hemisphere.intensity===p.hemi&&sun.intensity===p.sunIntensity,'repeated time transition');
+  check(material.emissiveIntensity===p.lamps,'emission follows time');
+}
+api.setTime('night');api.setDetail(true);api.update(new THREE.Vector3(0,2,0),1);
+check(api.state.realtimeLights===4,'detail enables bounded nearby lights');
+check(scene.getObjectByName('RV6_NearLight_0').position.distanceTo(new THREE.Vector3(0,6.9,0))<1e-12,'native downwards emitter offset applies only to shadowless runtime spotlight');
+check(contract.fixtures[0].lamp_position[2]===7&&boxes[0].max.y===7,'emitter offset preserves fixture geometry and pole collision');
+check(scene.children.filter(o=>o.isSpotLight).every(o=>!o.castShadow),'all local lights shadowless');
+api.update(new THREE.Vector3(10000,2,0),1);check(api.state.realtimeLights===0,'teleport updates all light assignments');
+api.update(new THREE.Vector3(0,2,0),1);api.setDetail(false);check(api.state.realtimeLights===0,'disable detail clears active lights');
+check(scene.getObjectByName('RV6_RenderOnly_FiniteLightPools').visible&&scene.getObjectByName('RV6_RenderOnly_FiniteLightPools').material.uniforms.strength.value>0&&material.emissiveIntensity>0,'basic night pools and emissive fixtures stay visible with realtime lighting disabled');
+api.setDetail(true);api.update(new THREE.Vector3(0,2,0),1);api.setTime('day');check(api.state.realtimeLights===0&&material.emissiveIntensity===0,'day turns lamps off');
+assert.throws(()=>api.setTime('unknown'));checks++;
+await assert.rejects(api.load({},{fetcher:()=>{throw Error('must not reload');}}));checks++;
+check(baseline.geometry===geometry&&JSON.stringify(positions)===JSON.stringify(Array.from(geometry.attributes.position.array))&&JSON.stringify(matrix)===JSON.stringify(baseline.matrix.toArray()),'existing geometry and transform untouched');
+check(TIME_PRESETS.night.hemi>.4&&TIME_PRESETS.night.sunIntensity>0&&TIME_PRESETS.evening.hemi>.8,'night readability parameters preserve ambient visibility (not pixel QA)');
+const patches=JSON.parse(fs.readFileSync(new URL('../revision/game-patches.json',import.meta.url)));
+let restored=fs.readFileSync(new URL('../dist/game.js',import.meta.url),'utf8');
+for(const p of [...patches.patches].reverse()){
+  check(restored.split(p.after).length===2,'patch is unique and reversible');
+  restored=restored.replace(p.after,p.before);
+}
+check(crypto.createHash('sha256').update(restored).digest('hex')==='f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e','game returns byte-exact to original after lighting hooks removed');
+const result={status:'PASS_LIGHTWEIGHT_LIGHTING_UNIT',checks,fixtureCount:9,maxRealtimeLights:LIGHTING_LIMITS.realtimeLights,sourceSha256:{},browserWebGLVerified:false,mobilePerformanceVerified:false,pixelNightReadabilityVerified:false};
+for(const p of ['dist/street-lighting-native.js','dist/street-lighting.js','dist/game.js','dist/parking-system.js','tests/street-lighting.mjs'])result.sourceSha256[p]=crypto.createHash('sha256').update(fs.readFileSync(new URL('../'+p,import.meta.url))).digest('hex');
+fs.writeFileSync(new URL('./street-lighting-unit-results.json',import.meta.url),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify(result));

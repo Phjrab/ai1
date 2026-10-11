@@ -1,0 +1,881 @@
+[
+  {
+    "name": "Both final GLBs load, octree builds",
+    "pass": true,
+    "detail": {
+      "meshes": 37
+    }
+  },
+  {
+    "name": "Ground surface 0,12",
+    "pass": true,
+    "detail": -0.00014343849034048617
+  },
+  {
+    "name": "Ground surface 0,-2",
+    "pass": true,
+    "detail": 0.14980682730674744
+  },
+  {
+    "name": "Ground surface 0,50",
+    "pass": true,
+    "detail": -6.322372913360596
+  },
+  {
+    "name": "Ground surface 0,100",
+    "pass": true,
+    "detail": -18.199434280395504
+  },
+  {
+    "name": "Ground surface 210,45",
+    "pass": true,
+    "detail": -5.184615612030029
+  },
+  {
+    "name": "Central entrance accessible",
+    "pass": true,
+    "detail": [
+      0,
+      0.14980682730674744,
+      -3.5166666666666875
+    ]
+  },
+  {
+    "name": "Corridor partition blocks movement",
+    "pass": true,
+    "detail": [
+      10.175089537455536,
+      0.14980682730674744,
+      -3.3113165893576375
+    ]
+  },
+  {
+    "name": "Facade wall blocks movement",
+    "pass": true,
+    "detail": [
+      10,
+      0.0019315212266519666,
+      0.6693127867338059
+    ]
+  },
+  {
+    "name": "NPC dialogue opens",
+    "pass": true,
+    "detail": "본관 앞 길을 천천히 걸어보세요. E 키로 주차된 탐험 차량에 탈 수 있어요."
+  },
+  {
+    "name": "Enter vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        10.544395072997757,
+        0.09499999880790705,
+        15.800323785278689
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Drive vehicle moves",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        -21.691824277081835,
+        0.0949999988079071,
+        15.48598011656977
+      ],
+      "carSpeed": 17,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Brake and exit vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        -23.413946329450223,
+        -0.00014343849034048617,
+        12.767624588135227
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Reset safe position",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 본관",
+    "pass": true,
+    "detail": {
+      "destination": "126",
+      "position": [
+        0,
+        0.0019315212266519666,
+        6
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학",
+    "pass": true,
+    "detail": {
+      "destination": "138",
+      "position": [
+        291.432,
+        -21.81471728223411,
+        130.064
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 사회과학ㆍ사범대학",
+    "pass": true,
+    "detail": {
+      "destination": "136",
+      "position": [
+        -373.2758246526761,
+        4.67805540587638,
+        -25.996722231752827
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 미술대학(미술관)",
+    "pass": true,
+    "detail": {
+      "destination": "135",
+      "position": [
+        -192.950407474709,
+        -44.67217136981611,
+        358.41449692162183
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학생회관(동아리연합회)",
+    "pass": true,
+    "detail": {
+      "destination": "145",
+      "position": [
+        -199.58070972293183,
+        -36.83000183105469,
+        114.92392762163776
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 서석홀(평생교육원,박물관)",
+    "pass": true,
+    "detail": {
+      "destination": "141",
+      "position": [
+        -273.1622619628906,
+        -23.948801040649414,
+        152.2765655517578
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제1공학관",
+    "pass": true,
+    "detail": {
+      "destination": "134",
+      "position": [
+        -85.25395665859,
+        -50.62789650069918,
+        833.2365392238979
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제2공학관",
+    "pass": true,
+    "detail": {
+      "destination": "150",
+      "position": [
+        411.08,
+        -26.648132413385987,
+        286.048
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 글로벌하우스(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "142",
+      "position": [
+        497.0418460469685,
+        9.65999984741211,
+        153.96897075088305
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 백학학사(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "147",
+      "position": [
+        -331.3392286471227,
+        -17.687467055556677,
+        112.23248706158022
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 중앙도서관",
+    "pass": true,
+    "detail": {
+      "destination": "127",
+      "position": [
+        49.765,
+        -44.525001525878906,
+        268.945
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 본부동",
+    "pass": true,
+    "detail": {
+      "destination": "cit_main",
+      "position": [
+        260.35655635148987,
+        -40.71119075421029,
+        345.4002939227672
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_1",
+      "position": [
+        196.6715049549447,
+        -44.91840565011189,
+        364.3232800190163
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_2",
+      "position": [
+        287.29022962976666,
+        -20.742626983211018,
+        510.2388057844238
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_3",
+      "position": [
+        304.388810613311,
+        -38.1197401956868,
+        378.70607439228087
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 4호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_4",
+      "position": [
+        341.0406646488468,
+        -18.391221142311917,
+        498.1148384293397
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 병원",
+    "pass": true,
+    "detail": {
+      "destination": "162",
+      "position": [
+        324.73807409,
+        -29.198494057712573,
+        821.34305597
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 1.8극장(노천극장)",
+    "pass": true,
+    "detail": {
+      "destination": "167",
+      "position": [
+        -184.46,
+        -41.3239588056874,
+        238.81
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 경상대학",
+    "pass": true,
+    "detail": {
+      "destination": "133",
+      "position": [
+        359.648,
+        10.823217391967773,
+        -10.281
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 국제관(언어교육원,인권윤리원)",
+    "pass": true,
+    "detail": {
+      "destination": "146",
+      "position": [
+        -46.450571487685885,
+        -44.64500045776367,
+        252.50180849550563
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 그린빌리지(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "165",
+      "position": [
+        462.53,
+        -36.71887677396286,
+        808.262
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 대운동장",
+    "pass": true,
+    "detail": {
+      "destination": "168",
+      "position": [
+        3.727,
+        -50.992000579833984,
+        404.739
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 법과대학",
+    "pass": true,
+    "detail": {
+      "destination": "131",
+      "position": [
+        380.77967255807573,
+        13.951669832170198,
+        4.035647472255508
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생명공학관",
+    "pass": true,
+    "detail": {
+      "destination": "160",
+      "position": [
+        64.09551239013672,
+        -47.44081036745303,
+        599.5790161132812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생산교육 실험실습동",
+    "pass": true,
+    "detail": {
+      "destination": "158",
+      "position": [
+        -12.508,
+        -43.93390217388837,
+        869.168
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 솔마루(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "143",
+      "position": [
+        38.310003152025516,
+        -19.914655034177034,
+        144.105560457296
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 1호관(약학관)",
+    "pass": true,
+    "detail": {
+      "destination": "157",
+      "position": [
+        40.17,
+        -38.164605271637654,
+        809.142
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "140",
+      "position": [
+        16.306798934936523,
+        -43.03066291368543,
+        774.6329956054688
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 3호관(강의동)",
+    "pass": true,
+    "detail": {
+      "destination": "156",
+      "position": [
+        -18.914477463557944,
+        -47.15122398716992,
+        744.6450346259485
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "137",
+      "position": [
+        142.74464416503906,
+        -42.237982445624965,
+        494.2095642089844
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "155",
+      "position": [
+        181.33368191654313,
+        -33.92737460706456,
+        514.439398408833
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "177",
+      "position": [
+        76.50167388916016,
+        -46.43530584463787,
+        616.1184692382812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의성관(연구동)",
+    "pass": true,
+    "detail": {
+      "destination": "154",
+      "position": [
+        152.2803002660609,
+        -27.27761174496437,
+        893.1054562857405
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 입석홀(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "159",
+      "position": [
+        -110.28,
+        -52.94283931101814,
+        882.893
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 자연과학관",
+    "pass": true,
+    "detail": {
+      "destination": "130",
+      "position": [
+        210.44374643533078,
+        -30.980047814038407,
+        625.7189430357842
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장미원",
+    "pass": true,
+    "detail": {
+      "destination": "163",
+      "position": [
+        111,
+        -47.70310592651367,
+        453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장황남정보통신박물관",
+    "pass": true,
+    "detail": {
+      "destination": "129",
+      "position": [
+        -197.74727588405366,
+        -38.83000183105469,
+        159.51315665696725
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 어린이집",
+    "pass": true,
+    "detail": {
+      "destination": "178",
+      "position": [
+        534.791,
+        -13.24582743971431,
+        404.179
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 치과병원",
+    "pass": true,
+    "detail": {
+      "destination": "166",
+      "position": [
+        -342.18403406341963,
+        -53.01674748570276,
+        674.3438429104326
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교병원 장례식장",
+    "pass": true,
+    "detail": {
+      "destination": "171",
+      "position": [
+        109.087,
+        -28.879439798442032,
+        995.713
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 주차빌딩",
+    "pass": true,
+    "detail": {
+      "destination": "164",
+      "position": [
+        137.688,
+        -33.298616086041925,
+        784.389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 창업보육센터",
+    "pass": true,
+    "detail": {
+      "destination": "153",
+      "position": [
+        12.458,
+        -40.181639149420405,
+        848.204
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 체육대학",
+    "pass": true,
+    "detail": {
+      "destination": "132",
+      "position": [
+        52.23348949014323,
+        -36.97296197004625,
+        669.7072837393389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(교육동)",
+    "pass": true,
+    "detail": {
+      "destination": "152",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(연구동) · 공유 건물",
+    "pass": true,
+    "detail": {
+      "destination": "139",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 태양에너지실증연구단지 · 대표 위치",
+    "pass": true,
+    "detail": {
+      "destination": "176",
+      "position": [
+        476.415,
+        -7.238652946709632,
+        686.565
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학군단(ROTC)",
+    "pass": true,
+    "detail": {
+      "destination": "151",
+      "position": [
+        598.6909835718964,
+        9.233048840145205,
+        221.0224031604418
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 항공우주ㆍ선박해양공학관",
+    "pass": true,
+    "detail": {
+      "destination": "148",
+      "position": [
+        476.26849365234375,
+        -24.59238624572754,
+        430.73223876953125
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 해오름관",
+    "pass": true,
+    "detail": {
+      "destination": "128",
+      "position": [
+        171.48699951171875,
+        -44.337913513183594,
+        243
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 황금추관(고시원)",
+    "pass": true,
+    "detail": {
+      "destination": "144",
+      "position": [
+        414.94024658203125,
+        0.9244371123432888,
+        106.16895294189453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 낮은 별관 옥상 · 구름다리",
+    "pass": true,
+    "detail": {
+      "destination": "138_roof_bridge",
+      "position": [
+        250,
+        -2.7846500873565674,
+        106
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 5층 휴게공간 · 원형 테이블 6개",
+    "pass": true,
+    "detail": {
+      "destination": "138_lounge",
+      "position": [
+        254.5997772216797,
+        -2.7846500873565674,
+        91.79539489746094
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교여자고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "174",
+      "position": [
+        -524.387,
+        -36.80795407676697,
+        148.175
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대부속고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "175",
+      "position": [
+        673.426,
+        -23.50180779173581,
+        475.826
+      ]
+    }
+  },
+  {
+    "name": "Campus NPCs distributed",
+    "pass": true,
+    "detail": 19
+  },
+  {
+    "name": "Campus vehicles distributed",
+    "pass": true,
+    "detail": 11
+  },
+  {
+    "name": "Node integration runtime (not browser performance)",
+    "elapsedSeconds": 33.09,
+    "maxRSS_MB": 2666
+  },
+  {
+    "name": "Rendering inventory, not measured performance",
+    "meshes": 2280,
+    "triangles": 6756416,
+    "instances": 17260
+  }
+]
+GARAGE_EXTERIOR {"reverse":false,"lateral":-0.3,"steps":1649,"poses":164,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.019992733932987505,"maximumTyreGap":0.020008284375542473,"maximumTrackingError":0.3705878020417595,"maximumHeightJump":0.0035406321338626867,"maximumYawJump":0.001851336980137841,"maximumSuspension":0.01804582551774213,"finalPosition":[112.69936283278666,-32.76800317609741,792.8566124777766],"finalYaw":-2.591078420874408,"endpointError":0.5221894941942067,"complete":true,"pass":true}
+GARAGE_EXTERIOR {"reverse":false,"lateral":0,"steps":1643,"poses":163,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.019991702428072244,"maximumTyreGap":0.02000842112796164,"maximumTrackingError":0.3594773434958266,"maximumHeightJump":0.003540726378858494,"maximumYawJump":0.0018159467694762734,"maximumSuspension":0.018436976866813514,"finalPosition":[112.43607952421938,-32.76719856942447,792.9983615206136],"finalYaw":-2.590764913174598,"endpointError":0.5075708932694953,"complete":true,"pass":true}
+GARAGE_EXTERIOR {"reverse":false,"lateral":0.3,"steps":1636,"poses":163,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.019992715205866318,"maximumTyreGap":0.02000827400345173,"maximumTrackingError":0.3466953680672153,"maximumHeightJump":0.0037796882069898174,"maximumYawJump":0.0018853548446902124,"maximumSuspension":0.018858451262927803,"finalPosition":[112.1593334921408,-32.76729530084527,793.1176984024013],"finalYaw":-2.590362313272356,"endpointError":0.5191105327326985,"complete":true,"pass":true}
+GARAGE_EXTERIOR {"reverse":true,"lateral":-0.3,"steps":1633,"poses":162,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.019992603855726543,"maximumTyreGap":0.020009266546459514,"maximumTrackingError":0.2973680011841263,"maximumHeightJump":0.0035666805055001305,"maximumYawJump":0.0013794456376445827,"maximumSuspension":0.017452358507777536,"finalPosition":[85.63090338015324,-34.25593430378662,761.8067605480827],"finalYaw":0.989555061764224,"endpointError":0.597179253602403,"complete":true,"pass":true}
+GARAGE_EXTERIOR {"reverse":true,"lateral":0,"steps":1640,"poses":163,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.01999256515433956,"maximumTyreGap":0.02000835810146384,"maximumTrackingError":0.3102955570511849,"maximumHeightJump":0.003559731687161616,"maximumYawJump":0.0013083852732496126,"maximumSuspension":0.01687551056752023,"finalPosition":[85.77860610646941,-34.25697340090797,761.5451252400494],"finalYaw":0.9894595070650763,"endpointError":0.5842416294826868,"complete":true,"pass":true}
+GARAGE_EXTERIOR {"reverse":true,"lateral":0.3,"steps":1646,"poses":164,"bodyContacts":[],"wheelFailures":[],"blocked":[],"minimumTyreGap":0.019992533799289447,"maximumTyreGap":0.020008444773253586,"maximumTrackingError":0.3280882832039463,"maximumHeightJump":0.0035568326401573813,"maximumYawJump":0.0012517974633322602,"maximumSuspension":0.016370944098904144,"finalPosition":[85.94977475110049,-34.25575925974371,761.2987723799494],"finalYaw":0.9892980319154967,"endpointError":0.5993981393054414,"complete":true,"pass":true}

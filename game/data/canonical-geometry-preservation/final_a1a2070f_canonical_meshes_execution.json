@@ -1,0 +1,31 @@
+{
+  "native": "/workspace/shared/chosun_qa_cache/final_repairs_build_v4/realism_v2/Chosun_Campus_Realism_v2.blend",
+  "native_sha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+  "native_unchanged": true,
+  "binary": "/workspace/shared/tools/blender-official-4.3.2/blender-4.3.2-linux-x64/blender",
+  "binary_sha256": "23fa8e83d8152f11246d7172819baa5a00e8e1e706dbc204cc85912db3f368c4",
+  "script": "/workspace/shared/chosun_realism/realism_v2/independent_qa/hash_native_finite_meshes.py",
+  "script_sha256": "1d0d2c147c164cf1c90db05c5c04e513044a5ad31e901038fc953a08485f9160",
+  "script_unchanged": true,
+  "script_snapshot": "/workspace/shared/chosun_realism/realism_v2/independent_qa/script_snapshots/1d0d2c147c164cf1c90db05c5c04e513044a5ad31e901038fc953a08485f9160_hash_native_finite_meshes.py",
+  "helper_inputs": [
+    {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/native_geometry.py",
+      "sha256": "77e4018129722679bca4b82e228f0d862ab874b9904259b965e43785bcf0dbc4",
+      "snapshot": "/workspace/shared/chosun_realism/realism_v2/independent_qa/script_snapshots/77e4018129722679bca4b82e228f0d862ab874b9904259b965e43785bcf0dbc4_native_geometry.py"
+    }
+  ],
+  "arguments": [
+    "--selection",
+    "/workspace/shared/chosun_qa_cache/final_repairs_v5_preparation/ordered_mesh_delta.json",
+    "--output",
+    "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a1a2070f_canonical_meshes.json"
+  ],
+  "contract_root": "/workspace/shared/chosun_qa_cache/final_repairs_build_v4",
+  "threads": 4,
+  "elapsed_seconds": 39.22152781486511,
+  "maximum_child_rss_kib": 3231428,
+  "exit_code": 0,
+  "log": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_a1a2070f_canonical_meshes.log",
+  "log_sha256": "99635365a48612265aa1d18567b96add4f778844e08b138e71e479ee29ac9cd4"
+}

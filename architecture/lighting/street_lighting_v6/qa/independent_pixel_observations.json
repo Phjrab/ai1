@@ -1,0 +1,53 @@
+{
+  "scope": "Direct inspection of the actual native rendered images. No image editing or synthetic visual evidence.",
+  "observations": [
+    {
+      "view": "evening_initial",
+      "sha256": "bcecbe37cbcb2977788c21eb0ab94d1fd78b1fb1faaa9a0137c2fac913c69f4a",
+      "path_at_review": "renders/Street_Lighting_evening.png",
+      "status": "REVIEW_REQUIRES_LIGHTING_ADJUSTMENT",
+      "direct_pixel_review": true,
+      "notes": "Warm lamps trace portions of the road network, but the majority of terrain and building facades are too dark to read as an evening overview. Main will preserve this first output and adjust only unsaved ambient lighting/exposure for a new render."
+    },
+    {
+      "view": "night_initial",
+      "sha256": "19ea0d378f62eb198e9fbb9f64f6f21e07cd0f1d1dd2e66ccea68193634c9693",
+      "path_at_review": "qa/render_initial/Street_Lighting_night.png",
+      "status": "REVIEW_REQUIRES_LIGHTING_ADJUSTMENT",
+      "direct_pixel_review": true,
+      "notes": "Blue nighttime roof silhouettes and warm route lights are visible, but dark terrain and facades obscure campus detail. This archived first image is not accepted as the final readable overview; the owner is adjusting unsaved exposure."
+    },
+    {
+      "view": "evening",
+      "sha256": "e6e9d693bba5fe7823b176c2c163ec0ee6d8a335278a33b71c842e32d3df06d0",
+      "path_at_review": "renders/Street_Lighting_evening.png",
+      "status": "PASS",
+      "direct_pixel_review": true,
+      "notes": "The complete campus, hill contours, buildings, roads and central sports area are readable in the revised evening view. Small warm fixture points remain subtle at this whole-site scale. Fine rendering grain is visible with the declared 256-sample no-denoising configuration. This overview is not evidence that every individual lamp or doorway is visibly resolved."
+    },
+    {
+      "view": "detail_initial",
+      "sha256": "873f78c78a51a52f2a93903aa1a7a1e9e5cfa543763f0cacd3f80a02f47b9ebe",
+      "path_at_review": "renders/Street_Lighting_detail.png",
+      "status": "REVIEW_REQUIRES_SAMPLE_REFINEMENT",
+      "direct_pixel_review": true,
+      "notes": "The bus shelter, bus, pole and warm pools of ground light are clearly recognizable. Sampling grain is conspicuous in the illuminated pavement and shelter, so the owner will render this detail at1024 samples. The closest lamp head/arm overlaps the bus in projection and a background pole is cut by the frame; this image should be described as bus-stop lighting context, not a fully isolated luminaire-shape view."
+    },
+    {
+      "view": "night",
+      "sha256": "bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6",
+      "path_at_review": "renders/Street_Lighting_night.png",
+      "status": "PASS",
+      "direct_pixel_review": true,
+      "notes": "The revised blue night overview keeps campus massing, roads, trees and sports areas readable while warm pools and fixture points clearly follow the road and pedestrian networks. The view reads as an inferred lighting illustration; it does not establish surveyed positions, illumination levels, complete lamp visibility or browser rendering. Fine no-denoising grain remains."
+    },
+    {
+      "view": "detail",
+      "sha256": "f87c6cce70c82ab13e2dddccd94411fd64b1eca93e6040dd63ea2fefa0c56aaa",
+      "path_at_review": "renders/Street_Lighting_detail.png",
+      "status": "PASS",
+      "direct_pixel_review": true,
+      "notes": "The1024-sample bus-stop detail shows warm light spreading across actual pavement, the bus shelter roof/platform, bus and grounded pole bases. Noise is visibly reduced compared with the256-sample draft, although fine grain remains. The close pole head partly overlaps the bus in projection and another pole is cropped; this is a bus-stop lighting context image rather than an isolated complete luminaire product view. No new geometry or ground-support defect was identified within the added-light scope."
+    }
+  ]
+}

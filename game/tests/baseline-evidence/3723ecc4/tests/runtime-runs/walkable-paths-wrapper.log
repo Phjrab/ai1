@@ -1,0 +1,22 @@
+{
+  "test": "tests/walkable-paths.mjs",
+  "startedUTC": "2026-10-09T16:37:19.548116+00:00",
+  "nativeSourceSha256": "3723ecc4013efc6351d77c6674fb74ff2d5464616071c2d268ab303bf0c799a0",
+  "browserVerified": false,
+  "status": "failed",
+  "exitCode": 1,
+  "elapsedSeconds": 778.918,
+  "maxRSS_MB": 2770.94,
+  "completedUTC": "2026-10-09T16:50:18.467508+00:00",
+  "log": "tests/runtime-runs/walkable-paths.log",
+  "logSha256": "cb99c1d86791d12e6b2df215d25563d22e826134cb442af44da6f4e801f0e69e",
+  "resultsSha256": {
+    "tests/simulation-results.json": "221533f030d303d512a11558a4a06d477fbc6db6d5a5e9fbecc969bae21afc26",
+    "tests/walkable-results.json": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+  },
+  "resultSnapshots": {
+    "tests/runtime-runs/walkable-paths-results/simulation-results.json": "221533f030d303d512a11558a4a06d477fbc6db6d5a5e9fbecc969bae21afc26",
+    "tests/runtime-runs/walkable-paths-results/walkable-results.json": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+  },
+  "changedInputFiles": []
+}

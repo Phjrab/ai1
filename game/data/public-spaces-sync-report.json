@@ -1,0 +1,139 @@
+{
+  "schema": "public-spaces-game-integration-v1",
+  "sourceHashes": {
+    "navigation": "c8cd6dfe999c6f093045b8511ad0589b09b73e50c2b3c8b60ed85b9b9b841fd9",
+    "integrationContract": "54851def8cba2109712a1145f98a4f513b878f19a32242ca5f33b8ee1b3d2690",
+    "nativeModule": "c656c7cf2e30f152644a83c67b3143a7a9cf38a7cf3fbda48d3facf632586153",
+    "trackNavigation": "f943fb60b008d4e4e55ce4580f8d729b6ef350f5b9b0d616077acca0081ea752"
+  },
+  "outputHashes": {
+    "world": "356c967aa2a4938438ad130a515e58b865cfed9e28b8b7c705b37058ab023f63",
+    "navigation": "0fc1225bb6b2bed8f36eda615d824c9722e11315ccac7bc78fad23a22d53cc12"
+  },
+  "coordinateSystem": "Source Blender XYZ; world Three XYZ = (x,z,-y)",
+  "changes": {
+    "world": {
+      "removedLegacyCollisionBoxes": 11,
+      "replacedPublicCollisionBoxes": 0,
+      "removedLegacySurfaces": 0,
+      "changedLegacySurfaces": [],
+      "changedLegacyPaths": [],
+      "replacedPublicSurfaces": 0,
+      "replacedPublicPaths": 0,
+      "track": {
+        "removedLegacySurfaceIds": [],
+        "replacedSurfaces": 0,
+        "replacedPaths": 0,
+        "addedSurfaces": 743,
+        "addedPedestrianPaths": 1,
+        "addedCollisionBoxes": 0,
+        "addedVehicleRoads": 0
+      },
+      "added": {
+        "walkableSurfaces": 20,
+        "supportTriangles": 132,
+        "pedestrianPaths": 3,
+        "collisionBoxes": 116
+      }
+    },
+    "navigation": {
+      "removedLegacyCollisionBoxes": 11,
+      "replacedPublicCollisionBoxes": 0,
+      "removedLegacySurfaces": 0,
+      "changedLegacySurfaces": [],
+      "changedLegacyPaths": [],
+      "replacedPublicSurfaces": 0,
+      "replacedPublicPaths": 0,
+      "track": {
+        "removedLegacySurfaceIds": [],
+        "replacedSurfaces": 0,
+        "replacedPaths": 0,
+        "addedSurfaces": 743,
+        "addedPedestrianPaths": 1,
+        "addedCollisionBoxes": 0,
+        "addedVehicleRoads": 0
+      },
+      "added": {
+        "walkableSurfaces": 20,
+        "supportTriangles": 132,
+        "pedestrianPaths": 3,
+        "collisionBoxes": 116
+      }
+    }
+  },
+  "destinations": [
+    {
+      "id": "167",
+      "label": "1.8극장(노천극장)",
+      "blenderPosition": [
+        -184.46,
+        -238.81,
+        -41.35
+      ],
+      "heightSource": "source public_theatre_court",
+      "finalGLBResamplingRequired": true
+    },
+    {
+      "id": "163",
+      "label": "장미원",
+      "blenderPosition": [
+        111,
+        -453,
+        -47.73310668945312
+      ],
+      "heightSource": "source public_rose_spine vertex",
+      "finalGLBResamplingRequired": true
+    }
+  ],
+  "legacySurfaceMethod": "Original-triangle rose centroid suppression; convex theatre subtraction with linearly interpolated source Z",
+  "legacyPathMethod": "Clip segments to the outside of both polygons; preserve first fragment ID and unrelated route portions",
+  "finalGLBHeightSampling": {
+    "status": "destinations_sampled",
+    "required": true,
+    "sampled": false,
+    "destinationIds": [
+      "167",
+      "163"
+    ],
+    "requirement": "Use final exported visible support triangles after terrain v5 for destination/actor contact and surviving legacy surface/path heights; source metadata heights are not final GLB verification",
+    "pending": true,
+    "destinationsSampled": true,
+    "samples": [
+      {
+        "id": "167",
+        "sourceHeight": -41.35,
+        "runtimeHeight": -41.349998474121094
+      },
+      {
+        "id": "163",
+        "sourceHeight": -47.73310668945312,
+        "runtimeHeight": -47.70310592651367
+      }
+    ],
+    "remaining": "Surviving support/path heights and traversals require final runtime QA"
+  },
+  "preserved": {
+    "extraNPCs": 13,
+    "extraCars": 9,
+    "actorArraysUnchanged": true,
+    "transitAndRenderAssetsUntouched": true,
+    "nativeActorContract": {
+      "NPCs": 19,
+      "cars": 11,
+      "shuttles": 2
+    },
+    "roseRenderingContract": {
+      "sharedPrototypes": 4,
+      "placements": 1477,
+      "visualOnly": true,
+      "rendered": "Required in final GLB; not verified by metadata integration"
+    }
+  },
+  "trackSupport": {
+    "surfaceZ": -50.982,
+    "quadCount": 743,
+    "triangleCount": 1486,
+    "method": "Supplied annular quads only; no filled outer polygon",
+    "vehicleRoad": false
+  }
+}

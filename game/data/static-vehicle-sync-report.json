@@ -1,0 +1,9 @@
+{
+  "sourceSha256": "a32282b5304352c59ab278547760cd576cc1a0873eba6c0c98f2387a3820511f",
+  "originalCampusCars": 117,
+  "deckCars": 85,
+  "spawnedFromSidecar": 0,
+  "controllableCars": 11,
+  "finalGLBPoseAndContactChecks": "pending",
+  "trafficClearanceExpectation": "No correctly grounded source car should be hidden as a substitute for fixing road intrusion."
+}

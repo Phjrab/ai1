@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "timeUTC": "2026-10-09T21:44:01.398479+00:00",
+  "scope": "Exact finite tyre geometry and layers;10005 exact cached rays with moving cells;100 default-bus cases;bounded contacts and unchanged19-mesh car assembly. Actual scene matrix parity is separately checked by tyre-cache-runtime.",
+  "inputs": {
+    "dist/game.js": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+    "dist/wheel-suspension.js": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3",
+    "tests/helpers/known-tyre-limits.mjs": "b99c7ee20df94a7ddfea6a6cab0d40c8193cb7fb335493765c42909303af7f2b",
+    "data/known-tyre-contact-limits.json": "5e9f40f202992ff9f2982bebe8bb466ad7d7451a6d51052133f2e657fd0f800c",
+    "tests/source-history/pre-tyre-footprint/game.js": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b",
+    "tests/source-history/pre-tyre-footprint/wheel-suspension.js": "cd2d2a7c8d4284d0a5d79e588bd60f95273635f5281a385ee6c5debcd00312c9",
+    "tests/tyre-footprint.mjs": "2fc688814d48b18e5ffa9e6a51be4c87d0515bcdba774a6f6c6126fdacee52f9",
+    "tests/tyre-contact-cache.mjs": "d3b8785ec7f87cfb996efbeedb309d239839838ea5ab1e4dc556aebabd32a59c",
+    "tests/bus-suspension-equivalence.mjs": "2ea7721052a0f869a2128fe98b085c951ffb17c5bc3d3021334b946871dbe3bd",
+    "tests/known-tyre-limits.mjs": "eed654abdc1a0f7a6436fa373be6fcd84563d16b37331a73d12bcf7690249e8b",
+    "tests/car-wheel-assembly.mjs": "e273b3419bd14c0e00f1631812881ceee8cf2779ac7c5ee4ae8e7c2abad61b88"
+  },
+  "runs": [
+    {
+      "command": [
+        "node",
+        "tests/tyre-footprint.mjs"
+      ],
+      "returncode": 0,
+      "stdout": "TYRE_FOOTPRINT PASS {\"vertices\":21,\"width\":0.22,\"radius\":0.36,\"actualArcEquivalentHeight\":-0.0664224773645401,\"finiteFootprint\":true,\"missingOutsideAndLayerCounterexamples\":true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/tyre-contact-cache.mjs"
+      ],
+      "returncode": 0,
+      "stdout": "TYRE_CONTACT_CACHE PASS {\"rays\":10005,\"exactHeightEquality\":true,\"geometryChanged\":false,\"originalBackfaceAnd70mDepth\":true,\"layersAndOutside\":true}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/bus-suspension-equivalence.mjs"
+      ],
+      "returncode": 0,
+      "stdout": "BUS_SUSPENSION_EQUIVALENCE:100 exact finite-ground fixtures unchanged\nPASS: exact wheel contact, bounded independent travel, full assembly preservation, unchanged chassis, overhead deck rejection and repeatability.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/known-tyre-limits.mjs"
+      ],
+      "returncode": 0,
+      "stdout": "KNOWN_TYRE_LIMITS: measured contact allowed; new depth/count/pose/object/body contact rejected.\nSCHOOL_LIMITS:per-pose depth and exact wheel guarded; repaired lane0 requires zero contact\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "tests/car-wheel-assembly.mjs"
+      ],
+      "returncode": 0,
+      "stdout": "{\"passed\":true,\"originalSha256\":\"4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b\",\"currentSha256\":\"f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e\",\"meshCount\":19,\"maximumVertexDeltaMeters\":0,\"wheelAssemblies\":4}\n",
+      "stderr": ""
+    }
+  ]
+}

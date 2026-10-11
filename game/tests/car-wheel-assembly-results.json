@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "originalSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b",
+  "currentSha256": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+  "meshCount": 19,
+  "maximumVertexDeltaMeters": 0,
+  "wheelAssemblies": 4
+}

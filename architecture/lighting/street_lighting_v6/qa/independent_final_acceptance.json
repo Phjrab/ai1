@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "revision": "recovered_street_lighting_v6",
+  "native_sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "source_native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "checks": {
+    "restored_source_and_native_preservation": "PASS",
+    "536_fixture_placement_support": "PASS",
+    "saved_native_reopen": "PASS",
+    "final_fixture_glb_and_bounded_game_binding": "PASS",
+    "three_native_render_views": "PASS"
+  },
+  "original_objects_preserved": 7923,
+  "added_fixture_objects": 536,
+  "added_native_spotlights": 536,
+  "final_objects": 8995,
+  "images": [
+    {
+      "view": "evening",
+      "image_sha256": "e6e9d693bba5fe7823b176c2c163ec0ee6d8a335278a33b71c842e32d3df06d0",
+      "dimensions": [
+        1400,
+        875
+      ],
+      "samples": 256,
+      "denoising": false,
+      "threads": 8,
+      "color_management": {
+        "view_transform": "AgX",
+        "look": "AgX - Medium High Contrast",
+        "exposure": 1.2999999523162842,
+        "gamma": 1.0
+      },
+      "renderer_binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+      "render_script_sha256": "031cb86552dc6ef0c47c48ad5e2fa0a66c0660f8522a02643f7bc7053c265b82",
+      "camera": {
+        "name": "RV2_Full_Site",
+        "location": [
+          2145.67333984375,
+          -3293.34228515625,
+          3594.70947265625
+        ],
+        "rotation_euler": [
+          0.7768881320953369,
+          1.2616609978977067e-09,
+          0.6202496290206909
+        ],
+        "type": "ORTHO",
+        "lens": 45.0,
+        "ortho_scale": 2042.9412841796875
+      },
+      "lighting_overrides": {
+        "period": "evening",
+        "sun_energy": 0.7,
+        "world_strength": 0.18,
+        "sky_elevation_degrees": 3,
+        "new_window_emission": false
+      },
+      "pixel_conclusion": "The complete campus, hill contours, buildings, roads and central sports area are readable in the revised evening view. Small warm fixture points remain subtle at this whole-site scale. Fine rendering grain is visible with the declared 256-sample no-denoising configuration. This overview is not evidence that every individual lamp or doorway is visibly resolved."
+    },
+    {
+      "view": "night",
+      "image_sha256": "bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6",
+      "dimensions": [
+        1400,
+        875
+      ],
+      "samples": 256,
+      "denoising": false,
+      "threads": 8,
+      "color_management": {
+        "view_transform": "AgX",
+        "look": "AgX - Medium High Contrast",
+        "exposure": 2.4000000953674316,
+        "gamma": 1.0
+      },
+      "renderer_binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+      "render_script_sha256": "031cb86552dc6ef0c47c48ad5e2fa0a66c0660f8522a02643f7bc7053c265b82",
+      "camera": {
+        "name": "RV2_Full_Site",
+        "location": [
+          2145.67333984375,
+          -3293.34228515625,
+          3594.70947265625
+        ],
+        "rotation_euler": [
+          0.7768881320953369,
+          1.2616609978977067e-09,
+          0.6202496290206909
+        ],
+        "type": "ORTHO",
+        "lens": 45.0,
+        "ortho_scale": 2042.9412841796875
+      },
+      "lighting_overrides": {
+        "period": "night",
+        "sun_energy": 0.09,
+        "world_color": [
+          0.025,
+          0.045,
+          0.085
+        ],
+        "world_strength": 0.45,
+        "new_window_emission": false
+      },
+      "pixel_conclusion": "The revised blue night overview keeps campus massing, roads, trees and sports areas readable while warm pools and fixture points clearly follow the road and pedestrian networks. The view reads as an inferred lighting illustration; it does not establish surveyed positions, illumination levels, complete lamp visibility or browser rendering. Fine no-denoising grain remains."
+    },
+    {
+      "view": "detail",
+      "image_sha256": "f87c6cce70c82ab13e2dddccd94411fd64b1eca93e6040dd63ea2fefa0c56aaa",
+      "dimensions": [
+        1100,
+        825
+      ],
+      "samples": 1024,
+      "denoising": false,
+      "threads": 8,
+      "color_management": {
+        "view_transform": "AgX",
+        "look": "AgX - Medium High Contrast",
+        "exposure": 2.4000000953674316,
+        "gamma": 1.0
+      },
+      "renderer_binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+      "render_script_sha256": "4df38c00e8ac3087ac1b3a5dfa8e9632e5519f41ef70fc501712a3fb3e9b5108",
+      "camera": {
+        "name": "RV6_LIGHT_Detail_Camera",
+        "location": [
+          -80.5173568725586,
+          -508.3243103027344,
+          -37.785369873046875
+        ],
+        "rotation_euler": [
+          1.1269750595092773,
+          -4.330527048068689e-09,
+          -2.6823978424072266
+        ],
+        "type": "ORTHO",
+        "lens": 50.0,
+        "ortho_scale": 35.0
+      },
+      "lighting_overrides": {
+        "period": "night",
+        "sun_energy": 0.09,
+        "world_color": [
+          0.025,
+          0.045,
+          0.085
+        ],
+        "world_strength": 0.45,
+        "new_window_emission": false
+      },
+      "pixel_conclusion": "The1024-sample bus-stop detail shows warm light spreading across actual pavement, the bus shelter roof/platform, bus and grounded pole bases. Noise is visibly reduced compared with the256-sample draft, although fine grain remains. The close pole head partly overlaps the bus in projection and another pole is cropped; this is a bus-stop lighting context image rather than an isolated complete luminaire product view. No new geometry or ground-support defect was identified within the added-light scope."
+    }
+  ],
+  "unresolved_in_this_scope": [],
+  "evidence": [
+    {
+      "path": "street_lighting_v6/lighting_manifest.json",
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+      "bytes": 48918027
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_native_binding.json",
+      "sha256": "36d92c289cdd0c9ea6f86484757bd023323ce473c1633a5f7181c172a9319144",
+      "bytes": 5403
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_final_game_binding.json",
+      "sha256": "e1cf0ae1767ddde3f6b8ac1c293ac1873c39fb0f8e7d7ace8803c40220f2baf1",
+      "bytes": 3774
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_pixel_observations.json",
+      "sha256": "fb7fd3d97a72eb757b06c3b48813b0a1f7000cc50113ecf10c96ad53eb0a3ca0",
+      "bytes": 3955
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_final_acceptance.py",
+      "sha256": "4ee6808383de9d3d58118833603f1221d62f235df63abaeb5db41505aea27774",
+      "bytes": 5940
+    },
+    {
+      "path": "street_lighting_v6/qa/render_evening.json",
+      "sha256": "a2010999a36ae8c1138c05b048594e40d5b374021fa5bd0429cf10c938828bde",
+      "bytes": 2494
+    },
+    {
+      "path": "street_lighting_v6/renders/Street_Lighting_evening.png",
+      "sha256": "e6e9d693bba5fe7823b176c2c163ec0ee6d8a335278a33b71c842e32d3df06d0",
+      "bytes": 1667339
+    },
+    {
+      "path": "street_lighting_v6/qa/detail_initial/render_lighting_revision.py",
+      "sha256": "031cb86552dc6ef0c47c48ad5e2fa0a66c0660f8522a02643f7bc7053c265b82",
+      "bytes": 5537
+    },
+    {
+      "path": "street_lighting_v6/qa/render_night.json",
+      "sha256": "1bf41c0ee718d190c4dcc80aff7712209aa538eb479312bfebfb62cafe735dbf",
+      "bytes": 2523
+    },
+    {
+      "path": "street_lighting_v6/renders/Street_Lighting_night.png",
+      "sha256": "bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6",
+      "bytes": 1336848
+    },
+    {
+      "path": "street_lighting_v6/qa/render_detail.json",
+      "sha256": "4cdd21665441efb0c733f43e9ef2987ec2fb8dba1dbbdc0f2774064f2a924f94",
+      "bytes": 2551
+    },
+    {
+      "path": "street_lighting_v6/renders/Street_Lighting_detail.png",
+      "sha256": "f87c6cce70c82ab13e2dddccd94411fd64b1eca93e6040dd63ea2fefa0c56aaa",
+      "bytes": 1346974
+    },
+    {
+      "path": "street_lighting_v6/scripts/render_lighting_revision.py",
+      "sha256": "4df38c00e8ac3087ac1b3a5dfa8e9632e5519f41ef70fc501712a3fb3e9b5108",
+      "bytes": 5912
+    },
+    {
+      "path": "GAME_LIGHTING_FINAL_HANDOFF.json",
+      "sha256": "c72aeaa2b13cef7a7e08baf4038b965298904655569fa3faa5d6f5852f95a3c2",
+      "bytes": 3066
+    }
+  ],
+  "scope": "Recovered a65 inputs, additive street-lighting native/game relationship, and three actual new native render views. No expansion into old campus deficiencies or repetition of the 47-image/71-catalogue audit.",
+  "limits": [
+    "Placement, radiant powers and color are inferred design; no surveyed installation or certified photometry is claimed.",
+    "Reconstructed placement has a new hash; old pre-recovery coordinate JSON identity is not claimed.",
+    "These use installed Blender 4.3.2 and no denoising: 256 samples for overviews and 1024 for the detail. They do not match the earlier official OIDN render configuration.",
+    "Game validation is lighting-addition-only; original campus full traversal was not rerun and browser/WebGL/mobile night pixels remain unverified.",
+    "Existing a65 source limitations and accepted vehicle/shuttle animation residuals remain unchanged.",
+    "Remote GitHub publishing remains stopped and the Site is not deployed. Local QA does not authorize either action."
+  ]
+}

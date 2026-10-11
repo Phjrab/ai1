@@ -1,0 +1,11 @@
+{
+  "sourceSha256": "a098f50103f61aec3a05a98d3f29716a36e554f7b9717ecf9bdbf2f0b6fa99ea",
+  "sourceModuleSha256": "19836f6506cdf8da30e09c882af042216ae892eacb7c50da120f0bb1775033c6",
+  "sourceWayIds": [
+    "474301324"
+  ],
+  "clippedSupportRecords": [],
+  "geometryModified": false,
+  "graphAndPathsModified": false,
+  "scope": "Exact finite same-way mask AND lower height plane. Actual raw GLB has the native retirement; higher layers, outside support, graph and paths are retained."
+}

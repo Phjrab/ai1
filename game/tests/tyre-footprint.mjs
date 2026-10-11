@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {Mesh,CylinderGeometry} from 'three';
+import {tyreContactHeight,tyreContactProfile} from '../dist/wheel-suspension.js';
+const tyre=new Mesh(new CylinderGeometry(.36,.36,.22,16));tyre.rotation.z=Math.PI/2;
+const profile=tyreContactProfile(tyre);assert.ok(profile.every(p=>Math.abs(p.x)<=.11000001&&Math.abs(p.z)<=.36000002&&p.arcHeight>=0&&p.arcHeight<=.36000002));
+const finite=(x,z,from)=>{const h=[-.3];if(x>=-1&&x<=1&&z>=-1&&z<=1)h.push(0);if(x>=-1&&x<=1&&z>=-1&&z<=1&&from>=2.7)h.push(2.7);return Math.max(...h.filter(v=>v<=from));};
+assert.equal(tyreContactHeight(finite,0,0,.55,1,0,profile).height,0);
+assert.equal(tyreContactHeight(finite,1.043,0,.55,1,0,profile).height,0);
+assert.equal(tyreContactHeight(finite,1.12,0,.55,1,0,profile).height,-.3);
+const longitudinal=tyreContactHeight(finite,0,1.17,.55,1,0,profile);assert.ok(longitudinal.height<-.02&&longitudinal.height>-.3,'Actual rounded arc height must be subtracted');
+assert.equal(tyreContactHeight(finite,0,1.37,.55,1,0,profile).height,-.3,'Cannot reach beyond actual radius');
+assert.equal(tyreContactHeight(finite,0,0,3.25,1,0,profile).height,2.7);
+assert.equal(tyreContactHeight(finite,0,0,.55,1,0,profile).height,0);
+assert.equal(tyreContactHeight(()=>null,0,0,.55,1,0,profile).height,null);
+assert.equal(tyreContactHeight(finite,1.043,0,.55,1,0).height,-.3,'Bus without profile keeps original single center ray');
+console.log('TYRE_FOOTPRINT PASS',JSON.stringify({vertices:profile.length,width:.22,radius:.36,actualArcEquivalentHeight:longitudinal.height,finiteFootprint:true,missingOutsideAndLayerCounterexamples:true}));

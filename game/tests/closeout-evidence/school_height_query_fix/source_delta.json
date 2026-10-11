@@ -1,0 +1,15 @@
+{
+  "scope": "Final campus-access height resampling uses existing finite-edge continuity query from the source road elevation. Physical geometry, XY and route order unchanged. Applies on next fresh build; current runtime metadata not rewritten yet.",
+  "records": [
+    {
+      "root": "/workspace/shared/chosun_realism/game",
+      "before": "133124b987084aa4be0f208c4c72e3c55e9716348ccefec363c8649ec87e858b",
+      "after": "44debf52469ed4d1d9fd3ba63bafa140459f719d9778b321f801d41c1d78a3ce"
+    },
+    {
+      "root": "/workspace/shared/chosun_game_validation/chosun_game_final_a1a2070f_export2_verified",
+      "before": "133124b987084aa4be0f208c4c72e3c55e9716348ccefec363c8649ec87e858b",
+      "after": "44debf52469ed4d1d9fd3ba63bafa140459f719d9778b321f801d41c1d78a3ce"
+    }
+  ]
+}

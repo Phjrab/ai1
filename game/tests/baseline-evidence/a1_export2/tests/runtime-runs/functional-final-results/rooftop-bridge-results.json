@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "routePoints": 10,
+  "destinationCount": 54,
+  "results": [
+    {
+      "kind": "destination",
+      "pass": true,
+      "position": [
+        250,
+        -2.7846500873565674,
+        106
+      ]
+    },
+    {
+      "kind": "walk_solmaru_road_to_roof",
+      "pass": true,
+      "maxFrameHeightJump": 0.0016762810989217058,
+      "failed": null
+    },
+    {
+      "kind": "walk_roof_to_solmaru_road",
+      "pass": true,
+      "maxFrameHeightJump": 0.0016725394785090941,
+      "failed": null
+    },
+    {
+      "kind": "bridge_guard",
+      "side": -1,
+      "pass": true,
+      "offset": 1.1181619783050405,
+      "vertical": 0.00046483786076612077,
+      "position": [
+        240.89501766451272,
+        -2.7941851621392337,
+        89.1209589757494
+      ]
+    },
+    {
+      "kind": "bridge_guard",
+      "side": 1,
+      "pass": true,
+      "offset": 1.119999999999994,
+      "vertical": 6.907597605021465e-9,
+      "position": [
+        240.10729146239652,
+        -2.7946500069075975,
+        91.23747431610741
+      ]
+    },
+    {
+      "kind": "height_aware_guards",
+      "pass": true,
+      "guards": 544,
+      "blockedGuards": 544
+    },
+    {
+      "kind": "pedestrian_only_roof_proxy_exemption",
+      "pass": true
+    },
+    {
+      "kind": "tall_main_block_stays_blocked",
+      "pass": true,
+      "point": [
+        340,
+        -2.78465,
+        112
+      ]
+    }
+  ],
+  "verification": "Actual walkStep, ray support and rail blocking in final GLB runtime; DOM/renderer mocked, no device test"
+}

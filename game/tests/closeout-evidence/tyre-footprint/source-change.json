@@ -1,0 +1,22 @@
+{
+  "changes": [
+    {
+      "file": "dist/game.js",
+      "before": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b",
+      "after": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+      "preserved": "tests/source-history/pre-tyre-footprint/game.js",
+      "uncached_footprint_sha256": "bacd3d18e393c5f1332047450bcd37d01b473a2e5045cf2d0d2cb30a5a4e10ec"
+    },
+    {
+      "file": "dist/wheel-suspension.js",
+      "before": "cd2d2a7c8d4284d0a5d79e588bd60f95273635f5281a385ee6c5debcd00312c9",
+      "after": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3",
+      "preserved": "tests/source-history/pre-tyre-footprint/wheel-suspension.js",
+      "uncached_footprint_sha256": "d91100e3738332efe2dc8e7bf7b06e9963037c1a5a0ed14213a25987aae959fd"
+    }
+  ],
+  "scope": "Actual original car tyre lower faces determine contact; additional finite face samples only across support spread beyond unchanged12cm travel. Bus uses original center query and no facet refinement. No geometry, route, car dimensions or travel changes.",
+  "approvedSchoolTyreLimit": "Two exact poses,5.453402312589839mm and7.482351521341579mm radial upper bounds; body/hub/support/limit/traversal remain required.",
+  "lane0": "Actual contact zero required; old failure retained.",
+  "cache_scope": "Same actual Octree triangle references, original full vertical extent and70m ray cutoff. XZ cache renews every4m cell. No support condition or geometry changes."
+}

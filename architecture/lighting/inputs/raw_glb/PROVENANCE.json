@@ -1,0 +1,36 @@
+{
+  "role": "original_supported_glb_interchange_bundle",
+  "not_included": [
+    "game_runtime_build",
+    "reproduction_source_and_QA_bundle",
+    "intermediate_QA_blend_fixtures"
+  ],
+  "frozen_native": {
+    "file": "realism_v2/Chosun_Campus_Realism_v2.blend",
+    "bytes": 211178375,
+    "sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd"
+  },
+  "original_export_manifest": {
+    "file": "realism_v2/game_export_supported_surfaces/manifest.json",
+    "bytes": 135651,
+    "sha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e"
+  },
+  "exports": [
+    {
+      "archive_member": "building.glb",
+      "source_relative_path": "realism_v2/game_export_supported_surfaces/building.glb",
+      "bytes": 18395600,
+      "sha256": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777"
+    },
+    {
+      "archive_member": "campus.glb",
+      "source_relative_path": "realism_v2/game_export_supported_surfaces/campus.glb",
+      "bytes": 201519748,
+      "sha256": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+    }
+  ],
+  "packaging_transform": "ZIP compression only; archived GLB bytes unchanged; no geometry/material edits or re-export",
+  "existing_export_coordinate_conversion": "Blender Z-up to glTF Y-up; no additional layout transform",
+  "existing_export_procedural_to_pbr_fallback": true,
+  "overall_acceptance": "pending_separate_game_render_independent_acceptance"
+}

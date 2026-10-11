@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import {Box3,Vector3} from 'three';
+import {pointInStaticBox,vehicleOverlapsStaticBox} from '../dist/parking-system.js';
+const box=new Box3(new Vector3(-.04,0,-.04),new Vector3(4.04,1.2,4.04));box.segmentCapsule={a:new Vector3(0,0,0),b:new Vector3(4,0,4),radius:.04};
+assert.equal(pointInStaticBox(new Vector3(.1,0,3.8),box,.34),false,'An empty AABB corner stays open');
+assert.equal(pointInStaticBox(new Vector3(2,0,2),box,.34),true);
+assert.equal(pointInStaticBox(new Vector3(-.26,0,-.26),box,.34),true,'Round rail end remains solid');
+assert.equal(pointInStaticBox(new Vector3(-.28,0,-.28),box,.34),false);
+assert.equal(pointInStaticBox(new Vector3(2,-3,2),box,.34),false,'Separate floor remains clear');
+assert.equal(vehicleOverlapsStaticBox(new Vector3(.1,0,3.8),0,box,{width:.2,length:.2,margin:0}),false);
+assert.equal(vehicleOverlapsStaticBox(new Vector3(2,0,2),Math.PI/4,box),true);
+assert.equal(vehicleOverlapsStaticBox(new Vector3(2,-3,2),0,box),false);
+const ordinary=new Box3(new Vector3(0,0,0),new Vector3(1,2,1));assert.equal(pointInStaticBox(new Vector3(.5,0,.5),ordinary,.34),true);assert.equal(pointInStaticBox(new Vector3(3,0,3),ordinary,.34),false);
+console.log('PASS exact vertical rail capsules, rounded ends, empty corners, vehicles and separate floors');

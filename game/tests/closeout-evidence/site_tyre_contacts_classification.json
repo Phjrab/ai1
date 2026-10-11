@@ -1,0 +1,222 @@
+[
+  {
+    "route": "main_campus_toll_lane0",
+    "position": [
+      -138.91034027689008,
+      -52.83493761507675,
+      690.9303834430087
+    ],
+    "face": 8836,
+    "area": 0.24942183807517251,
+    "radialPenetrationUpperBound_m": 0.00498541349281445
+  },
+  {
+    "route": "main_campus_toll_lane0",
+    "position": [
+      -138.5012911500365,
+      -52.83108680948131,
+      690.99967578017
+    ],
+    "face": 8836,
+    "area": 0.24942183807517251,
+    "radialPenetrationUpperBound_m": 0.003985081333358398
+  },
+  {
+    "route": "421_middle_to_east_forward",
+    "position": [
+      307.72113629425314,
+      -29.344857108725662,
+      613.8291710658557
+    ],
+    "face": 11532,
+    "area": 0.33752061842047604,
+    "radialPenetrationUpperBound_m": 0.036502118672678996
+  },
+  {
+    "route": "421_middle_to_east_forward",
+    "position": [
+      310.2695882118942,
+      -29.128674767202416,
+      615.9278961745013
+    ],
+    "face": 34298,
+    "area": 0.32154782051236697,
+    "radialPenetrationUpperBound_m": 0.03827358319393981
+  },
+  {
+    "route": "421_front_to_middle_forward",
+    "position": [
+      282.2300458625485,
+      -30.221170873463226,
+      594.4866972416991
+    ],
+    "face": 12072,
+    "area": 0.42036977340762277,
+    "radialPenetrationUpperBound_m": 0.041073334550259355
+  },
+  {
+    "route": "421_front_to_middle_forward",
+    "position": [
+      287.3785333266708,
+      -29.45833892182722,
+      597.9190222177806
+    ],
+    "face": 12068,
+    "area": 0.30047245896412367,
+    "radialPenetrationUpperBound_m": 0.013425724913566195
+  },
+  {
+    "route": "421_front_to_middle_reverse",
+    "position": [
+      287.6343992693395,
+      -29.4417054782808,
+      598.0895995128931
+    ],
+    "face": 12068,
+    "area": 0.30047245896412367,
+    "radialPenetrationUpperBound_m": 0.01810415158280132
+  },
+  {
+    "route": "421_front_to_middle_reverse",
+    "position": [
+      282.1428677654011,
+      -30.236554684899843,
+      594.4285785102669
+    ],
+    "face": 12072,
+    "area": 0.42036977340762277,
+    "radialPenetrationUpperBound_m": 0.024945073589746736
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      318.41253869924606,
+      -35.72950163487047,
+      422.45935801604
+    ],
+    "face": 17965,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.11107661705388958
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      318.41253869924606,
+      -35.72950163487047,
+      422.45935801604
+    ],
+    "face": 35033,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.11107661705388958
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      317.87428120547287,
+      -35.746775970685626,
+      422.42212224568084
+    ],
+    "face": 17965,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.0951492802803458
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      317.87428120547287,
+      -35.746775970685626,
+      422.42212224568084
+    ],
+    "face": 35033,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.0951492802803458
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      318.2836995053917,
+      -35.733492053877875,
+      422.4504449910841
+    ],
+    "face": 17965,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.10727632105759444
+  },
+  {
+    "route": "551_rows_to_east_terminal_forward",
+    "position": [
+      318.2836995053917,
+      -35.733492053877875,
+      422.4504449910841
+    ],
+    "face": 35033,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.10727632105759444
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      318.59642758649846,
+      -35.72380627500704,
+      422.472060371373
+    ],
+    "face": 17965,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.11699723486356395
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      318.59642758649846,
+      -35.72380627500704,
+      422.472060371373
+    ],
+    "face": 17966,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.09601237352759728
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      318.59642758649846,
+      -35.72380627500704,
+      422.472060371373
+    ],
+    "face": 35033,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.11699723486356395
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      318.59642758649846,
+      -35.72380627500704,
+      422.472060371373
+    ],
+    "face": 35034,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.09601237352759728
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      317.77545663656076,
+      -35.75025149959734,
+      422.4152239209927
+    ],
+    "face": 17965,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.0927063610692585
+  },
+  {
+    "route": "551_rows_to_east_terminal_reverse",
+    "position": [
+      317.77545663656076,
+      -35.75025149959734,
+      422.4152239209927
+    ],
+    "face": 35033,
+    "area": 0.0,
+    "radialPenetrationUpperBound_m": 0.0927063610692585
+  }
+]

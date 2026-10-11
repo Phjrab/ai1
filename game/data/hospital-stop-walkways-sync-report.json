@@ -1,0 +1,49 @@
+{
+  "sourceSha256": "0dee4086880afb15693cffa563729f1b36a3d2f26a6e7490db279c478e18bd1a",
+  "supportTriangles": 5082,
+  "pedestrianPaths": 2,
+  "exactWalkingGraphAnchors": [
+    {
+      "path": "hospital_to_city_1149",
+      "node": 409,
+      "position": [
+        417.887,
+        -794.639,
+        -35.29606628417969
+      ]
+    }
+  ],
+  "stopConnections": [
+    {
+      "stop_id": "1149",
+      "status": "geometry_backed_shared_drive_connection",
+      "path_id": "hospital_to_city_1149",
+      "waitingPosition": [
+        444.46361617934235,
+        -955.5278754240436,
+        -52.931793212890625
+      ]
+    },
+    {
+      "stop_id": "1150",
+      "status": "blocked_unverified_crossing",
+      "path_id": "city_1150_same_side_only",
+      "waitingPosition": [
+        505.4186612862402,
+        -954.5021290215859,
+        -51.78102111816406
+      ],
+      "connectToCampus": false,
+      "hospital_route": null
+    }
+  ],
+  "vehicleGraphUnchanged": true,
+  "limitations": [
+    "Road alignments and platform points follow OSM; sidewalk widths, paving, roadside offset and curb dimensions are inferred, not surveyed.",
+    "1149 connects through the existing shared hospital service driveway and photo-supported forecourt; that segment is not claimed to be a segregated pedestrian sidewalk.",
+    "1150 has no hospital route. Nearby traffic-signal nodes do not prove a pedestrian crossing; no zebra marking or cross-carriageway navigation edge is generated.",
+    "Mapped minor service/residential branches594197634 and479256076 are outside the existing road-model scope; their junction details are unverified, so roadside continuity is a model reconstruction, not a surveyed pedestrian route.",
+    "No accessibility, legal crossing permission, real bus operation or civil-engineering compliance is asserted."
+  ],
+  "runtimeTraversal": "pending final combined GLB"
+}

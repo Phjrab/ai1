@@ -1,0 +1,21 @@
+{
+  "sourceSha256": "c7099ea6b0e95c6c3748f9c373aa218c212c7922b2385a26249fa07b907efec0",
+  "updates": [
+    {
+      "id": "a_07_12765514877",
+      "safe_arrival": [
+        171.48699951171875,
+        -243.0,
+        -44.5
+      ],
+      "physical_door_plane": [
+        174.06937408447266,
+        -213.88831329345703,
+        -40.569969177246094
+      ],
+      "route_points": 27
+    }
+  ],
+  "surfacesDuplicated": 0,
+  "finalRuntimeTraversal": "pending combined GLB"
+}

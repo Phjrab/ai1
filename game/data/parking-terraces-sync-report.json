@@ -1,0 +1,374 @@
+{
+  "sourceSha256": "8b63838468a714f1118a82096e5c410609350d7e701c3493a7a9d77ff696e9c1",
+  "triangleCounts": {
+    "RV2_V5_PARKING_TRANSITION | 970315551_2": 661,
+    "RV2_V5_PARKING_TERRACE | 420_north_frontage": 3,
+    "RV2_V5_PARKING_TRANSITION | 970314421_1": 1014,
+    "RV2_V5_PARKING_TERRACE | 421_north_bend_middle": 2,
+    "RV2_V5_PARKING_TERRACE | 779_upper_access_apron": 2,
+    "RV2_V5_PARKING_TERRACE | 421_east_south_terrace": 10,
+    "RV2_V5_PARKING_TERRACE | 779_main_parking_deck": 4,
+    "RV2_V5_PARKING_TERRACE | 420_south_lower_arrival": 3,
+    "RV2_V5_PARKING_TERRACE | 550_roadside_flat_deck": 2,
+    "RV2_V5_PARKING_TRANSITION | 970314421_2": 542,
+    "RV2_V5_PARKING_TRANSITION | 970314420_2": 555,
+    "RV2_V5_PARKING_TERRACE | 6599_rotc_frontage_deck": 2,
+    "RV2_V5_PARKING_TERRACE | 551_north_entry_cap": 2,
+    "RV2_V5_PARKING_TERRACE | 551_east_terminal_bays": 2,
+    "RV2_V5_PARKING_TERRACE | 551_vertical_parking_rows": 4,
+    "RV2_V5_PARKING_TRANSITION | 970315551_1": 160,
+    "RV2_V5_PARKING_TRANSITION | 472263779_1": 10176,
+    "RV2_V5_PARKING_TERRACE | 421_natural_sciences_front": 4,
+    "RV2_V5_PARKING_TERRACE | 420_middle_landing": 2,
+    "RV2_V5_PARKING_TRANSITION | 970314420_1": 734
+  },
+  "allowedTriangles": 3708,
+  "excludedTriangles": 10176,
+  "transitionPolicy": "Only lane_top_triangles allow driving; the whole transition polygon is never a drive corridor. Nonvehicle actual top triangles reject vehicle entry.",
+  "rejectedConnections": [
+    {
+      "approval_status": "Proposed geometry only; not a validated final drive path.",
+      "average_grade_percent": 7.577,
+      "building_footprint_intersections_m2": [],
+      "centerline_xy": [
+        [
+          438,
+          -463
+        ],
+        [
+          417,
+          -466.5
+        ],
+        [
+          411.697,
+          -468.697
+        ],
+        [
+          409.5,
+          -474
+        ],
+        [
+          411.697,
+          -479.303
+        ],
+        [
+          417,
+          -481.5
+        ],
+        [
+          427,
+          -481.5
+        ],
+        [
+          427,
+          -484
+        ]
+      ],
+      "connection_id": "779_internal_hairpin",
+      "corridor_status": "no_building_footprint_overlap_in_2d",
+      "ease_m": 4,
+      "endpoint_z_m": [
+        -28.6,
+        -24.3
+      ],
+      "lane_geometry_policy": "Use a single joined pavement mesh at intersections. Keep the final corridor outside parked-car/bay envelopes. Round polyline corners only inside the supplied corridor and recompute profile length/grade.",
+      "maximum_grade_interpretation": "Computed from endpoint delta and the proposed C1 longitudinal profile only. Final triangle crossfall, station masks, intersections, turn radii and neighboring fixed levels are not validated by this number.",
+      "notes": "Inferred 7.5 m centerline-radius hairpin in the wide unused neck; no new retaining wall. Reserve the full lane corridor and daylight adjacent slopes. If swept-path or bay clearance fails, keep this candidate on hold rather than tighten the turn.",
+      "peak_grade_percent": 8.152,
+      "plan_length_m": 56.75,
+      "profile": "C1 trapezoidal grade: slope ramps linearly from 0 to g over ease_m at each end; central grade is constant; g = delta_z/(length-ease_m). Treat as a candidate profile, not as a civil-code certification.",
+      "road_ids": [],
+      "source_confidence": "Mapped road alignment where road_ids are supplied; internal layout and exact grades are inferred.",
+      "source_lot_id": "472263779",
+      "vehicle_parking_exclusion_geojson": {
+        "coordinates": [
+          [
+            [
+              417.6235810756827,
+              -468.6771057695814
+            ],
+            [
+              413.419026602582,
+              -470.419026602582
+            ],
+            [
+              411.9354515405176,
+              -474.0
+            ],
+            [
+              413.419026602582,
+              -477.580973397418
+            ],
+            [
+              417.44763291732585,
+              -479.25
+            ],
+            [
+              427.0,
+              -479.25
+            ],
+            [
+              427.4389532245363,
+              -479.29323311909275
+            ],
+            [
+              427.86103772282144,
+              -479.4212710518496
+            ],
+            [
+              428.2500330242941,
+              -479.62919337231926
+            ],
+            [
+              428.5909902576697,
+              -479.9090097423303
+            ],
+            [
+              428.87080662768074,
+              -480.2499669757059
+            ],
+            [
+              429.0787289481504,
+              -480.63896227717856
+            ],
+            [
+              429.20676688090725,
+              -481.0610467754637
+            ],
+            [
+              429.25,
+              -481.5
+            ],
+            [
+              429.25,
+              -484.0
+            ],
+            [
+              429.20676688090725,
+              -484.4389532245363
+            ],
+            [
+              429.0787289481504,
+              -484.86103772282144
+            ],
+            [
+              428.87080662768074,
+              -485.2500330242941
+            ],
+            [
+              428.5909902576697,
+              -485.5909902576697
+            ],
+            [
+              428.2500330242941,
+              -485.87080662768074
+            ],
+            [
+              427.86103772282144,
+              -486.0787289481504
+            ],
+            [
+              427.4389532245363,
+              -486.20676688090725
+            ],
+            [
+              427.0,
+              -486.25
+            ],
+            [
+              426.5610467754637,
+              -486.20676688090725
+            ],
+            [
+              426.13896227717856,
+              -486.0787289481504
+            ],
+            [
+              425.7499669757059,
+              -485.87080662768074
+            ],
+            [
+              425.4090097423303,
+              -485.5909902576697
+            ],
+            [
+              425.12919337231926,
+              -485.2500330242941
+            ],
+            [
+              424.9212710518496,
+              -484.86103772282144
+            ],
+            [
+              424.79323311909275,
+              -484.4389532245363
+            ],
+            [
+              424.75,
+              -484.0
+            ],
+            [
+              424.75,
+              -483.75
+            ],
+            [
+              417.0,
+              -483.75
+            ],
+            [
+              416.56097121413484,
+              -483.70675184947964
+            ],
+            [
+              416.13881992428196,
+              -483.57866997793934
+            ],
+            [
+              410.83581992428196,
+              -481.38166997793934
+            ],
+            [
+              410.446902918419,
+              -481.1737638243837
+            ],
+            [
+              410.1060097423303,
+              -480.8939902576697
+            ],
+            [
+              409.8262361756163,
+              -480.553097081581
+            ],
+            [
+              409.61833002206066,
+              -480.16418007571804
+            ],
+            [
+              407.42133002206066,
+              -474.86118007571804
+            ],
+            [
+              407.29324815052036,
+              -474.43902878586516
+            ],
+            [
+              407.25,
+              -474.0
+            ],
+            [
+              407.29324815052036,
+              -473.56097121413484
+            ],
+            [
+              407.42133002206066,
+              -473.13881992428196
+            ],
+            [
+              409.61833002206066,
+              -467.83581992428196
+            ],
+            [
+              409.8262361756163,
+              -467.446902918419
+            ],
+            [
+              410.1060097423303,
+              -467.1060097423303
+            ],
+            [
+              410.446902918419,
+              -466.8262361756163
+            ],
+            [
+              410.83581992428196,
+              -466.61833002206066
+            ],
+            [
+              416.13881992428196,
+              -464.42133002206066
+            ],
+            [
+              416.63010227856296,
+              -464.2806136713777
+            ],
+            [
+              437.63010227856296,
+              -460.7806136713777
+            ],
+            [
+              438.070190553089,
+              -460.7510950917709
+            ],
+            [
+              438.5075814440231,
+              -460.8080006665869
+            ],
+            [
+              438.92546626471835,
+              -460.94914354649865
+            ],
+            [
+              439.30778593586797,
+              -461.16909968978484
+            ],
+            [
+              439.63984812691695,
+              -461.4594163052119
+            ],
+            [
+              439.90889187408595,
+              -461.8089366880604
+            ],
+            [
+              440.10457797705277,
+              -462.2042289660307
+            ],
+            [
+              440.2193863286223,
+              -462.63010227856296
+            ],
+            [
+              440.2489049082291,
+              -463.070190553089
+            ],
+            [
+              440.1919993334131,
+              -463.5075814440231
+            ],
+            [
+              440.05085645350135,
+              -463.92546626471835
+            ],
+            [
+              439.83090031021516,
+              -464.30778593586797
+            ],
+            [
+              439.5405836947881,
+              -464.63984812691695
+            ],
+            [
+              439.1910633119396,
+              -464.90889187408595
+            ],
+            [
+              438.7957710339693,
+              -465.10457797705277
+            ],
+            [
+              438.36989772143704,
+              -465.2193863286223
+            ],
+            [
+              417.6235810756827,
+              -468.6771057695814
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "width_m": 4.5
+    }
+  ],
+  "finalRuntimeTraversal": "pending final combined GLB"
+}

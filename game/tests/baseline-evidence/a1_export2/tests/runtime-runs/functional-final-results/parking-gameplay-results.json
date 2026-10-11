@@ -1,0 +1,153 @@
+{
+  "passed": true,
+  "levels": 4,
+  "decorativeParkedCars": 85,
+  "controllableCars": 11,
+  "npcs": 19,
+  "shuttles": 2,
+  "results": [
+    {
+      "kind": "cross_level_boarding_rejected",
+      "pass": true
+    },
+    {
+      "kind": "drive_forward_up",
+      "fromLevel": 0,
+      "toLevel": 1,
+      "pass": true,
+      "steps": 935,
+      "verticalError": 3.8146972514141453e-7,
+      "horizontalError": 0.12602266469224332,
+      "maxFrameHeightJump": 0.005227121787932276,
+      "position": [
+        142.12602266469224,
+        -30.350000381469727,
+        772
+      ]
+    },
+    {
+      "kind": "drive_reverse_down",
+      "fromLevel": 0,
+      "toLevel": 1,
+      "pass": true,
+      "steps": 1087,
+      "verticalError": 7.629394502828291e-7,
+      "horizontalError": 0.08407603178848433,
+      "maxFrameHeightJump": 0.004525240603221903,
+      "position": [
+        108.71592396821151,
+        -33.45000076293945,
+        772
+      ]
+    },
+    {
+      "kind": "drive_forward_up",
+      "fromLevel": 1,
+      "toLevel": 2,
+      "pass": true,
+      "steps": 935,
+      "verticalError": 0,
+      "horizontalError": 0.12602266469224332,
+      "maxFrameHeightJump": 0.00522719223151924,
+      "position": [
+        142.12602266469224,
+        -27.25,
+        772
+      ]
+    },
+    {
+      "kind": "drive_reverse_down",
+      "fromLevel": 1,
+      "toLevel": 2,
+      "pass": true,
+      "steps": 1087,
+      "verticalError": 3.8146972514141453e-7,
+      "horizontalError": 0.08407603178848433,
+      "maxFrameHeightJump": 0.004525240441687117,
+      "position": [
+        108.71592396821151,
+        -30.350000381469727,
+        772
+      ]
+    },
+    {
+      "kind": "drive_forward_up",
+      "fromLevel": 2,
+      "toLevel": 3,
+      "pass": true,
+      "steps": 935,
+      "verticalError": 3.8146972514141453e-7,
+      "horizontalError": 0.12602266469224332,
+      "maxFrameHeightJump": 0.005227192542317738,
+      "position": [
+        142.12602266469224,
+        -24.149999618530273,
+        772
+      ]
+    },
+    {
+      "kind": "drive_reverse_down",
+      "fromLevel": 2,
+      "toLevel": 3,
+      "pass": true,
+      "steps": 1087,
+      "verticalError": 0,
+      "horizontalError": 0.08407603178848433,
+      "maxFrameHeightJump": 0.0045252406032254555,
+      "position": [
+        108.71592396821151,
+        -27.25,
+        772
+      ]
+    },
+    {
+      "kind": "walk_stairs_up",
+      "fromLevel": 0,
+      "toLevel": 1,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    },
+    {
+      "kind": "walk_stairs_down",
+      "fromLevel": 0,
+      "toLevel": 1,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    },
+    {
+      "kind": "walk_stairs_up",
+      "fromLevel": 1,
+      "toLevel": 2,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    },
+    {
+      "kind": "walk_stairs_down",
+      "fromLevel": 1,
+      "toLevel": 2,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    },
+    {
+      "kind": "walk_stairs_up",
+      "fromLevel": 2,
+      "toLevel": 3,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    },
+    {
+      "kind": "walk_stairs_down",
+      "fromLevel": 2,
+      "toLevel": 3,
+      "pass": true,
+      "maxFrameHeightJump": 0.1722240447998047,
+      "failed": null
+    }
+  ],
+  "verification": "Real driveStep/walkStep and GLB collisions; mocked DOM/renderer, not WebGL/device verification"
+}

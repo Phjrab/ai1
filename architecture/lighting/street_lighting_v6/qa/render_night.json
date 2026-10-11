@@ -1,0 +1,98 @@
+{
+  "status": "RENDERED_PENDING_PIXEL_REVIEW",
+  "native_sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "lighting_manifest_sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+  "view": "night",
+  "file": "renders/Street_Lighting_night.png",
+  "sha256": "bf2c925bc312208538a258fe9784f8f79ee41f6b4dcfa0783ce20f3dc9f278c6",
+  "bytes": 1336848,
+  "seconds": 127.24353408813477,
+  "renderer": {
+    "blender_version": "4.3.2",
+    "binary": "/usr/bin/blender",
+    "binary_sha256": "0dfe9af0f3e67643ecf15327fa5e14e7315f61d1a81afdcafe76a71b1918e2b4",
+    "engine": "CYCLES",
+    "device": "CPU",
+    "denoising": false,
+    "reason": "Installed build lacks OIDN; approved 256 sample actual render instead of historical96/OIDN."
+  },
+  "samples": 256,
+  "adaptive_threshold": 0.015,
+  "threads": 8,
+  "width": 1400,
+  "height": 875,
+  "camera": {
+    "name": "RV2_Full_Site",
+    "location": [
+      2145.67333984375,
+      -3293.34228515625,
+      3594.70947265625
+    ],
+    "rotation_euler": [
+      0.7768881320953369,
+      1.2616609978977067e-09,
+      0.6202496290206909
+    ],
+    "type": "ORTHO",
+    "lens": 45.0,
+    "ortho_scale": 2042.9412841796875
+  },
+  "original_sun": {
+    "energy": 2.5999999046325684,
+    "color": [
+      1.0,
+      0.9399999976158142,
+      0.8199999928474426
+    ],
+    "matrix": [
+      [
+        0.7302714586257935,
+        0.4070975184440613,
+        -0.5486120581626892,
+        0.0
+      ],
+      [
+        -0.6831570863723755,
+        0.43517327308654785,
+        -0.5864474773406982,
+        0.0
+      ],
+      [
+        1.9954590868564992e-08,
+        0.8030540347099304,
+        0.5959061980247498,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "lighting_overrides": {
+    "period": "night",
+    "sun_energy": 0.09,
+    "world_color": [
+      0.025,
+      0.045,
+      0.085
+    ],
+    "world_strength": 0.45,
+    "new_window_emission": false
+  },
+  "source_native_unchanged": true,
+  "source_saved": false,
+  "new_window_emission": false,
+  "accuracy": "Inferred lighting design, not surveyed installation or measured photometric performance.",
+  "render_script_sha256": "031cb86552dc6ef0c47c48ad5e2fa0a66c0660f8522a02643f7bc7053c265b82",
+  "peak_rss_mib": 3461.84765625,
+  "color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 2.4000000953674316,
+    "gamma": 1.0
+  },
+  "native_fixture_powers_unchanged": true
+}

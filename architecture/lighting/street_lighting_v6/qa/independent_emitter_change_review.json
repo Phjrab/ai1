@@ -1,0 +1,34 @@
+{
+  "status": "PASS_EMITTER_ONLY_SOURCE_CHANGE",
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "previous_geometry_source_sha256": "810496f637acfa59ffa420c24e43beb0eacaab7a8d34fa8e2292d4f5c865d172",
+  "current_geometry_source_sha256": "db35ad0487d9832425a91453e6ca0bbd83eb4b4172c70450143c75d3c6985d5e",
+  "unchanged_function_asts": [
+    "material",
+    "create_materials",
+    "fixture_mesh",
+    "export_fixture_delta"
+  ],
+  "changed_function_asts": [
+    "add_luminaires"
+  ],
+  "literal_source_diff": "--- previous\n+++ current\n@@ -1,6 +1,7 @@\n \"\"\"Shared geometry for inferred campus luminaires; Blender XYZ in metres.\"\"\"\n import bpy,math\n from mathutils import Vector\n+EMITTER_OFFSET=(0.0,0.0,-0.10)\n MATERIAL_NAMES=('RV6_StreetLight_Charcoal_Metal','RV6_StreetLight_Base_Concrete','RV6_StreetLight_Bronze_Collar','RV6_StreetLight_Emissive_Warm3000K')\n def material(name,color,metallic,roughness,emission=0):\n  assert name not in bpy.data.materials\n@@ -38,7 +39,7 @@\n   lamp=Vector(item['lamp_position']);assert (lamp-(base+Vector((math.cos(yaw),math.sin(yaw),h)))).length<.0001\n   if with_lights:\n    ld=bpy.data.lights.new(name+'_beam','SPOT');ld.energy=item['power_watts'];ld.color=item['color'];ld.spot_size=math.radians(125);ld.spot_blend=.65;ld.shadow_soft_size=.42;ld.use_shadow=True\n-   light=bpy.data.objects.new(ld.name,ld);c.objects.link(light);light.location=lamp;light.rotation_euler=(target-lamp).to_track_quat('-Z','Y').to_euler();light['game_export']=False;light['design_cct_kelvin']=3000;lights.append(light)\n+   light=bpy.data.objects.new(ld.name,ld);c.objects.link(light);light.location=lamp+Vector(EMITTER_OFFSET);light.rotation_euler=(target-light.location).to_track_quat('-Z','Y').to_euler();light['game_export']=False;light['design_cct_kelvin']=3000;lights.append(light)\n  bpy.context.view_layer.update();return fixtures,lights\n \n def export_fixture_delta(fixtures,path):\n",
+  "emitter_offset_from_head_center_m": [
+    0,
+    0,
+    -0.1
+  ],
+  "opaque_lens_lowest_from_head_center_m": -0.075,
+  "emitter_clearance_below_lens_m": 0.025,
+  "owner_actual_fixture_ray_report": {
+    "path": "qa/emitter_clearance.json",
+    "sha256": "3e63c83c12a9c77406bfd68498618abab85ecdf4f305518bbd0bca9bf74ac221",
+    "new_emitter_own_fixture_hits": 0,
+    "old_emitter_positive_counterexamples": 536
+  },
+  "limitations": [
+    "Actual fixture ray results were reviewed from the hash-bound author run; no second Blender process was started.",
+    "Only own-fixture obstruction is tested here. Final pixel readability remains pending."
+  ],
+  "final_native_binding": "PENDING"
+}

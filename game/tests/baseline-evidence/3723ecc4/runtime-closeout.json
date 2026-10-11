@@ -1,0 +1,59 @@
+{
+  "native_sha256": "3723ecc4013efc6351d77c6674fb74ff2d5464616071c2d268ab303bf0c799a0",
+  "raw_glb_sha256": {
+    "building.glb": "f51c2c465bda96d4930b92088833306d3976e84c05d0123694e81b063a28ee41",
+    "campus.glb": "a0428ca9a5484ebc1347e4d354d646489eb3044c9df9d0c827c286c04bc569c5"
+  },
+  "status": "DIAGNOSTIC_REVISION_RETAINED; final geometry revision pending",
+  "full_walk": {
+    "paths": 142,
+    "directions": 284,
+    "passed_directions": 281,
+    "failed_directions": 3,
+    "elapsed_seconds": 778.918,
+    "maximum_rss_mib": 2770.94,
+    "summary": {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_3723ecc4/tests/walkable-summary.json",
+      "sha256": "aaf3b52b611669545af72dd97242f261f6c64acc15dde110475fd19602e3e3cf"
+    },
+    "immutable_original": {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_3723ecc4/tests/runtime-runs/completed-full-walk-3723ecc4/walkable-results.json",
+      "sha256": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+    },
+    "completion_record": {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_3723ecc4/tests/runtime-runs/completed-full-walk-3723ecc4/run.json",
+      "sha256": "c0346dbd15638a1661abc7d4c6e5bd46844107c5103241000d37b0b967ca5c36"
+    }
+  },
+  "finite_edge_runtime_fix": {
+    "directions": 2,
+    "passed": true,
+    "maximum_frame_height_change_m": 0.1666412353515625,
+    "scope": "Only same finite triangle edge within0.1mm and previous foot layer; no geometry change",
+    "run": {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_3723ecc4/tests/runtime-runs/walking-edge-focused-3723ecc4/walkable-paths.json",
+      "sha256": "4f179480025817c1c6cd70e87ebecb55783cad5b896979dababfd45018c34078"
+    },
+    "result": {
+      "path": "/workspace/shared/chosun_game_validation/chosun_game_final_3723ecc4/tests/runtime-runs/walking-edge-focused-3723ecc4/results/walkable-focused-results.json",
+      "sha256": "4a0b17b87f664f78a22e0aea494a287eb7f233901b0a66c8aa014cc1bb14feb0"
+    }
+  },
+  "remaining_actual_contacts": [
+    "947734765 forward: RV2_PS_public_path_grounded_edge_closures",
+    "947734765 reverse: RV2_PS_rose_formal_hedge_boundaries"
+  ],
+  "metadata_centroid_role_check": {
+    "vertical_nonfloor_faces_in_initial_failures": 102,
+    "remaining_centroids": 30,
+    "all30_native_actual_height_match_max_m": 0.001932,
+    "phantom_support_found": 0,
+    "proof": {
+      "path": "/workspace/shared/chosun_realism/realism_v2/independent_qa/final_3723ecc4_runtime_centroid_classification.json",
+      "sha256": "b79c2928d88bf7ade8a9104e6c01a1321573371e801887fdbc31d732a5c1e011"
+    }
+  },
+  "browser_webgl_iphone_verified": false,
+  "site_updated": false,
+  "site_status": "Final QA plus owner-approved short-lived source repository write permission pending; no new credential created"
+}

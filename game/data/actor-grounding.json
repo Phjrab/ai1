@@ -1,0 +1,251 @@
+{
+  "schema": "actor_grounding_v5",
+  "version": 1,
+  "coordinate_system": "Blender Z-up meters; positions are model coordinates, not surveyed altitude.",
+  "source_baseline_path": "game/data/grade-sync-baseline.json",
+  "source_baseline_sha256": "1e14345a235ef7b30a98bb47f0b701f800bf3eeab057505072a652668c9ed5be",
+  "actors": [
+    {
+      "kind": "extraNPCs",
+      "index": 0,
+      "positionXY": [
+        295.432,
+        -132.064
+      ],
+      "floor_z": -22.188262939453125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 1,
+      "positionXY": [
+        -370.89,
+        19.699
+      ],
+      "floor_z": 5.0200042724609375,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 2,
+      "positionXY": [
+        -218.662,
+        -382.201
+      ],
+      "floor_z": -45.43731689453125,
+      "support_object": "CAMPUS_CONTINUOUS pedestrian paving"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 3,
+      "positionXY": [
+        -191.374,
+        -130.994
+      ],
+      "floor_z": -37.639739990234375,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 4,
+      "positionXY": [
+        -270.21,
+        -171.721
+      ],
+      "floor_z": -27.777801513671875,
+      "support_object": "CAMPUS_CONTINUOUS pedestrian paving"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 5,
+      "positionXY": [
+        -60.696,
+        -886.098
+      ],
+      "floor_z": -50.685089111328125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 6,
+      "positionXY": [
+        415.08,
+        -288.048
+      ],
+      "floor_z": -26.6456298828125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 7,
+      "positionXY": [
+        506.763,
+        -169.593
+      ],
+      "floor_z": 9.222091674804688,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 8,
+      "positionXY": [
+        -365.906,
+        -119.719
+      ],
+      "floor_z": -16.69158935546875,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 9,
+      "positionXY": [
+        53.765,
+        -270.945
+      ],
+      "floor_z": -44.5250244140625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 10,
+      "positionXY": [
+        265.332,
+        -351.705
+      ],
+      "floor_z": -39.944793701171875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 11,
+      "positionXY": [
+        214.399,
+        -420.201
+      ],
+      "floor_z": -40.38983154296875,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraNPCs",
+      "index": 12,
+      "positionXY": [
+        292.334,
+        -884.802
+      ],
+      "floor_z": -31.987091064453125,
+      "support_object": "RV2_POND_Visible terrain with bounded basin excavation"
+    },
+    {
+      "kind": "extraCars",
+      "index": 0,
+      "positionXY": [
+        313.966,
+        -61.1302
+      ],
+      "floor_z": -7.623443603515625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 1,
+      "positionXY": [
+        -381.7957,
+        11.2733
+      ],
+      "floor_z": 4.718017578125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 2,
+      "positionXY": [
+        -191.8253,
+        -184.9823
+      ],
+      "floor_z": -38.826629638671875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 3,
+      "positionXY": [
+        -28.406,
+        -832.7825
+      ],
+      "floor_z": -43.947601318359375,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 4,
+      "positionXY": [
+        377.026,
+        -126.1932
+      ],
+      "floor_z": -14.721405029296875,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 5,
+      "positionXY": [
+        -372.0202,
+        -117.2355
+      ],
+      "floor_z": -16.64605712890625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 6,
+      "positionXY": [
+        52.856,
+        -274.7912
+      ],
+      "floor_z": -44.52496337890625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 7,
+      "positionXY": [
+        259.145,
+        -294.9945
+      ],
+      "floor_z": -41.589111328125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "extraCars",
+      "index": 8,
+      "positionXY": [
+        263.7975,
+        -760.3397
+      ],
+      "floor_z": -27.499969482421875,
+      "support_object": "RV2_V5_PARKING_TERRACE | 421_east_south_terrace"
+    },
+    {
+      "kind": "baseCars",
+      "index": 0,
+      "positionXY": [
+        8.0,
+        -20.0
+      ],
+      "floor_z": 0.095001220703125,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    },
+    {
+      "kind": "baseCars",
+      "index": 1,
+      "positionXY": [
+        -58.0,
+        -21.0
+      ],
+      "floor_z": 0.0949859619140625,
+      "support_object": "CAMPUS_CONTINUOUS vehicle asphalt"
+    }
+  ],
+  "actual_support_triangles_used": 6495,
+  "native_binding": "Native/export manifest binds this pure contract SHA; no native SHA is embedded."
+}

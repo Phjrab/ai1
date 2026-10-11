@@ -1,0 +1,548 @@
+{
+  "version": "entrance_connections2",
+  "terrain_baseline": "4.4 frozen; no original terrain or road vertex changes",
+  "records": [
+    {
+      "walk_stop": [
+        17.437267303466797,
+        -770.328125,
+        -42.83538818359375
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 2.0,
+      "original_terminal_gap_m": 0.21896530151366989,
+      "safe_arrival": [
+        16.306798934936523,
+        -774.6329956054688,
+        -43.03066357421875
+      ],
+      "approach_path": [
+        [
+          16.306798934936523,
+          -774.6329956054688,
+          -43.03066357421875
+        ],
+        [
+          16.777746200561523,
+          -772.689208984375,
+          -42.88902114868164
+        ],
+        [
+          16.777746200561523,
+          -772.689208984375,
+          -42.88902114868164
+        ],
+        [
+          16.860355377197266,
+          -772.709228515625,
+          -42.88902114868164
+        ],
+        [
+          16.9416080014901,
+          -770.2080303507183,
+          -42.88902114868164
+        ]
+      ],
+      "building_id": 140,
+      "entrance_id": "a_04_photo1",
+      "threshold_z": -42.88902114868164,
+      "mode": "parallel_left",
+      "step_count": 0,
+      "ramp": null,
+      "riser_m": 0.0,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -42.88902114868164,
+      "object": "RV2_ENTRY_CONNECTION | 140 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        66.36194610595703,
+        -596.3167114257812,
+        -47.412071228027344
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 2.0,
+      "original_terminal_gap_m": 0.30378509521484176,
+      "safe_arrival": [
+        64.09551239013672,
+        -599.1790161132812,
+        -47.90354260253906
+      ],
+      "approach_path": [
+        [
+          64.09551239013672,
+          -599.1790161132812,
+          -47.90354260253906
+        ],
+        [
+          65.30021667480469,
+          -597.5825805664062,
+          -47.61169647216797
+        ],
+        [
+          65.30021667480469,
+          -597.5825805664062,
+          -47.61169647216797
+        ],
+        [
+          65.3680648803711,
+          -597.6337890625,
+          -47.61169647216797
+        ],
+        [
+          65.95485006162468,
+          -596.0095285603275,
+          -47.61169647216797
+        ]
+      ],
+      "building_id": 160,
+      "entrance_id": "a_12_photo1",
+      "threshold_z": -47.61169647216797,
+      "mode": "parallel_left",
+      "step_count": 0,
+      "ramp": null,
+      "riser_m": 0.0,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -47.61169647216797,
+      "object": "RV2_ENTRY_CONNECTION | 160 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        77.37275695800781,
+        -614.684326171875,
+        -46.218597412109375
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 0.8,
+      "original_terminal_gap_m": 0.12346435546874801,
+      "safe_arrival": [
+        76.30167388916016,
+        -616.1184692382812,
+        -46.9004755859375
+      ],
+      "approach_path": [
+        [
+          76.30167388916016,
+          -616.1184692382812,
+          -46.9004755859375
+        ],
+        [
+          76.7803726196289,
+          -615.4774780273438,
+          -46.51096557617188
+        ],
+        [
+          77.13938903808594,
+          -614.9967651367188,
+          -46.21859771728516
+        ],
+        [
+          77.67792434592053,
+          -614.2756920050766,
+          -46.21859771728516
+        ]
+      ],
+      "building_id": 177,
+      "entrance_id": "a_13_4631834862",
+      "threshold_z": -46.21859771728516,
+      "mode": "outward",
+      "step_count": 2,
+      "ramp": null,
+      "riser_m": 0.14618392944336023,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -46.51096557617188,
+      "object": "RV2_ENTRY_CONNECTION | 177 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        140.56260681152344,
+        -497.8748779296875,
+        -40.76300811767578
+      ],
+      "landing_outer_edge_offset_m": 2.0,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 0.0,
+      "original_terminal_gap_m": 0.01022888183593551,
+      "safe_arrival": [
+        142.74464416503906,
+        -494.2095642089844,
+        -42.227747192382814
+      ],
+      "approach_path": [
+        [
+          142.74464416503906,
+          -494.2095642089844,
+          -42.227747192382814
+        ],
+        [
+          141.34498596191406,
+          -496.1591491699219,
+          -40.763006439208986
+        ],
+        [
+          141.64149475097656,
+          -496.3720397949219,
+          -40.763006439208986
+        ],
+        [
+          140.97689651264002,
+          -498.17228049784046,
+          -40.763006439208986
+        ]
+      ],
+      "building_id": 137,
+      "entrance_id": "a_14_8745103329",
+      "threshold_z": -40.763006439208986,
+      "mode": "parallel_left",
+      "step_count": 8,
+      "ramp": null,
+      "riser_m": 0.18309259414672852,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -42.227747192382814,
+      "object": "RV2_ENTRY_CONNECTION | 137 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        475.8520812988281,
+        -426.8033447265625,
+        -23.534900665283203
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 0.0,
+      "original_terminal_gap_m": 0.016652832031251563,
+      "safe_arrival": [
+        476.26849365234375,
+        -430.73223876953125,
+        -24.592386474609373
+      ],
+      "approach_path": [
+        [
+          476.26849365234375,
+          -430.73223876953125,
+          -24.592386474609373
+        ],
+        [
+          476.1173400878906,
+          -428.9385986328125,
+          -23.534900283813478
+        ],
+        [
+          476.0326232910156,
+          -428.94573974609375,
+          -23.534900283813478
+        ],
+        [
+          476.36028958840984,
+          -426.76050895506097,
+          -23.534900283813478
+        ]
+      ],
+      "building_id": 148,
+      "entrance_id": "a_21_8745101707",
+      "threshold_z": -23.534900283813478,
+      "mode": "parallel_right",
+      "step_count": 6,
+      "ramp": null,
+      "riser_m": 0.17624769846598257,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -24.592386474609373,
+      "object": "RV2_ENTRY_CONNECTION | 148 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        411.5067443847656,
+        -104.36627197265625,
+        1.940000057220459
+      ],
+      "landing_outer_edge_offset_m": 1.45,
+      "portal_recess_m": 0.12,
+      "terminal_apron_length_m": 0.0,
+      "original_terminal_gap_m": 0.012075195312500009,
+      "safe_arrival": [
+        414.94024658203125,
+        -106.16895294189453,
+        0.8608758544921875
+      ],
+      "approach_path": [
+        [
+          414.94024658203125,
+          -106.16895294189453,
+          0.8608758544921875
+        ],
+        [
+          414.6869812011719,
+          -106.00780487060547,
+          1.0407298747698466
+        ],
+        [
+          414.42108154296875,
+          -105.86494445800781,
+          1.2205838950475059
+        ],
+        [
+          414.1425476074219,
+          -105.74038696289062,
+          1.4004379153251647
+        ],
+        [
+          413.8514099121094,
+          -105.63412475585938,
+          1.580291935602824
+        ],
+        [
+          413.54766845703125,
+          -105.546142578125,
+          1.760145955880483
+        ],
+        [
+          413.2313232421875,
+          -105.47647094726562,
+          1.9399999761581421
+        ],
+        [
+          413.1944274902344,
+          -105.52998352050781,
+          1.9399999761581421
+        ],
+        [
+          411.7281359863854,
+          -104.04520030234181,
+          1.9399999761581421
+        ]
+      ],
+      "building_id": 144,
+      "entrance_id": "a_23_8745101712",
+      "threshold_z": 1.9399999761581421,
+      "mode": "parallel_right",
+      "step_count": 6,
+      "ramp": null,
+      "riser_m": 0.1798540202776591,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": 0.8608758544921875,
+      "object": "RV2_ENTRY_CONNECTION | 144 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        -275.1636047363281,
+        -150.79513549804688,
+        -22.94610023498535
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 0.0,
+      "original_terminal_gap_m": 0.011754760742189063,
+      "safe_arrival": [
+        -273.1622619628906,
+        -152.2765655517578,
+        -23.94880126953125
+      ],
+      "approach_path": [
+        [
+          -273.1622619628906,
+          -152.2765655517578,
+          -23.94880126953125
+        ],
+        [
+          -274.85015869140625,
+          -151.02716064453125,
+          -22.946100006103517
+        ],
+        [
+          -275.5735479349399,
+          -150.49170898038534,
+          -22.946100006103517
+        ]
+      ],
+      "building_id": 141,
+      "entrance_id": "a_33_8745101685",
+      "threshold_z": -22.946100006103517,
+      "mode": "outward",
+      "step_count": 7,
+      "ramp": null,
+      "riser_m": 0.14324303763253304,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -23.94880126953125,
+      "object": "RV2_ENTRY_CONNECTION | 141 foundation steps and landing"
+    },
+    {
+      "walk_stop": [
+        -182.27919006347656,
+        -0.8800091743469238,
+        0.15000033378601074
+      ],
+      "landing_outer_edge_offset_m": 1.55,
+      "portal_recess_m": 0.0,
+      "terminal_apron_length_m": 0.0,
+      "original_terminal_gap_m": 0.010015258789062509,
+      "safe_arrival": [
+        -182.69009399414062,
+        -1.7807085514068604,
+        -0.1899969482421875
+      ],
+      "approach_path": [
+        [
+          -182.69009399414062,
+          -1.7807085514068604,
+          -0.1899969482421875
+        ],
+        [
+          -182.44105529785156,
+          -1.2348300218582153,
+          0.15
+        ],
+        [
+          -182.06751999285873,
+          -0.41601262379627635,
+          0.15
+        ]
+      ],
+      "building_id": 149,
+      "entrance_id": "b_professor_annex_main",
+      "threshold_z": 0.15,
+      "mode": "outward",
+      "step_count": 2,
+      "ramp": null,
+      "riser_m": 0.16999847412109376,
+      "tread_m": 0.3,
+      "road_overlap_m2": 0.0,
+      "foot_height": -0.1899969482421875,
+      "object": "RV2_ENTRY_CONNECTION | 149 foundation steps and landing"
+    }
+  ],
+  "old_objects_retained_hidden": [
+    "ENTRY_ACCESS 177 | individually modelled treads landing and app",
+    "ENTRY_ACCESS 177 | side handrails",
+    "ENTRY_ACCESS 144 | individually modelled treads landing and app",
+    "ENTRY_ACCESS 144 | side handrails",
+    "ENTRY_ACCESS 141 | individually modelled treads landing and app",
+    "ENTRY_ACCESS 141 | side handrails",
+    "ENTRY_ACCESS 144 | RV2 road-aligned entrance apron",
+    "ENTRY_ACCESS 144 | RV2 side handrails"
+  ],
+  "replaced_generated_thresholds": [
+    "ENTRANCE_A_a_04_photo1 threshold support",
+    "ENTRANCE_A_a_12_photo1 threshold support",
+    "ENTRANCE_A_a_13_4631834862 threshold support",
+    "ENTRANCE_A_a_14_8745103329 threshold support",
+    "ENTRANCE_A_a_21_8745101707 threshold support",
+    "ENTRANCE_A_a_23_8745101712 threshold support",
+    "ENTRANCE_A_a_33_8745101685 threshold support"
+  ],
+  "facade_relief_adjustments": [
+    {
+      "object": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+      "component_center": [
+        413.607177734375,
+        -104.94006729125977,
+        2.899999976158142
+      ],
+      "vertices": 8,
+      "delta_xyz": [
+        0.17029888927936554,
+        0.24697832763195038,
+        -0.0
+      ],
+      "reason": "Reduce approximate facade relief depth beside the mapped entry; preserve its visible feature and avoid stair/head collision."
+    },
+    {
+      "object": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+      "component_center": [
+        413.607177734375,
+        -104.94006729125977,
+        6.449999809265137
+      ],
+      "vertices": 8,
+      "delta_xyz": [
+        0.17029888927936554,
+        0.24697832763195038,
+        -0.0
+      ],
+      "reason": "Reduce approximate facade relief depth beside the mapped entry; preserve its visible feature and avoid stair/head collision."
+    },
+    {
+      "object": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+      "component_center": [
+        413.607177734375,
+        -104.94006729125977,
+        9.999999523162842
+      ],
+      "vertices": 8,
+      "delta_xyz": [
+        0.17029888927936554,
+        0.24697832763195038,
+        -0.0
+      ],
+      "reason": "Reduce approximate facade relief depth beside the mapped entry; preserve its visible feature and avoid stair/head collision."
+    },
+    {
+      "object": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+      "component_center": [
+        414.9668884277344,
+        -105.70760345458984,
+        6.6249998807907104
+      ],
+      "vertices": 8,
+      "delta_xyz": [
+        0.17029888927936554,
+        0.24697832763195038,
+        -0.0
+      ],
+      "reason": "Reduce approximate facade relief depth beside the mapped entry; preserve its visible feature and avoid stair/head collision."
+    }
+  ],
+  "portico_column_foot_contacts": [
+    {
+      "object": "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI.001",
+      "xy": [
+        143.38091278076172,
+        -494.8236541748047
+      ],
+      "old_bottom": -40.9787483215332,
+      "new_bottom": -42.29196838378906,
+      "vertices": 12
+    },
+    {
+      "object": "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI.001",
+      "xy": [
+        138.5728988647461,
+        -501.5209045410156
+      ],
+      "old_bottom": -40.9787483215332,
+      "new_bottom": -42.45673278808594,
+      "vertices": 12
+    }
+  ],
+  "old_closure_faces_removed": 65,
+  "former_entry_backfill": [
+    {
+      "building_id": 141,
+      "missing_grid_points": 720,
+      "triangles_added": 1579,
+      "footprint_grid_spacing_max_m": 0.45
+    },
+    {
+      "building_id": 177,
+      "missing_grid_points": 39,
+      "triangles_added": 111,
+      "footprint_grid_spacing_max_m": 0.45
+    },
+    {
+      "building_id": 144,
+      "missing_grid_points": 41,
+      "triangles_added": 195,
+      "footprint_grid_spacing_max_m": 0.45
+    }
+  ],
+  "limitations": "Door location evidence is external to this module. Step dimensions and landscaping are bounded visual-model estimates, not measured access or accessibility certification."
+}

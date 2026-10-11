@@ -1,27 +1,33 @@
 {
-  "input": "chosun_main_building.glb",
+  "input": "building.glb",
   "output": "building.glb",
-  "inputBytes": 10919700,
-  "outputBytes": 1414984,
-  "materialCount": 15,
+  "inputBytes": 18395600,
+  "outputBytes": 8881064,
+  "materialCount": 19,
+  "foliageNormalPrimitives": 0,
   "matched": [
     "Warm white painted masonry",
     "Smoky blue green glazing",
     "White projecting cornices and frames",
     "Brushed aluminum",
+    "Deep window recess",
     "Granite plinth | fine grey",
+    "Rear service doors | pale blue paint",
     "Rear lower storey | dark red-brown brick",
     "Terrazzo light aggregate",
     "Green waterproofing",
+    "ENTRANCE_B_frame",
+    "ENTRANCE_B_glass",
+    "ENTRANCE_B_recess",
+    "ENTRANCE_B_stone",
     "Pale grey standing seam roof",
-    "Interior cream plaster"
-  ],
-  "unmatched": [
-    "Deep window recess",
-    "Rear service doors | pale blue paint",
+    "Interior cream plaster",
     "Corridor grey lower paint",
     "Corridor varnished warm wood",
     "Warm frosted fluorescent diffusers"
   ],
-  "compression": "Meshopt with 16-bit position quantization"
+  "unmatched": [],
+  "texturedMaterials": [],
+  "fullPrecisionMeshes": [],
+  "compression": "Meshopt with 16-bit architecture/foliage; terrain, paving and semantic walk/drive support positions preserved as Float32"
 }

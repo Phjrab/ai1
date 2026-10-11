@@ -1,0 +1,876 @@
+[
+  {
+    "name": "Both final GLBs load, octree builds",
+    "pass": true,
+    "detail": {
+      "meshes": 37
+    }
+  },
+  {
+    "name": "Ground surface 0,12",
+    "pass": true,
+    "detail": -0.00014343849034048617
+  },
+  {
+    "name": "Ground surface 0,-2",
+    "pass": true,
+    "detail": 0.14980682730674744
+  },
+  {
+    "name": "Ground surface 0,50",
+    "pass": true,
+    "detail": -6.322372913360596
+  },
+  {
+    "name": "Ground surface 0,100",
+    "pass": true,
+    "detail": -18.199434280395504
+  },
+  {
+    "name": "Ground surface 210,45",
+    "pass": true,
+    "detail": -5.184615612030029
+  },
+  {
+    "name": "Central entrance accessible",
+    "pass": true,
+    "detail": [
+      0,
+      0.14980682730674744,
+      -3.5166666666666875
+    ]
+  },
+  {
+    "name": "Corridor partition blocks movement",
+    "pass": true,
+    "detail": [
+      10.175089537455536,
+      0.14980682730674744,
+      -3.3113165893576375
+    ]
+  },
+  {
+    "name": "Facade wall blocks movement",
+    "pass": true,
+    "detail": [
+      10,
+      0.0019315212266519666,
+      0.6693127867338059
+    ]
+  },
+  {
+    "name": "NPC dialogue opens",
+    "pass": true,
+    "detail": "본관 앞 길을 천천히 걸어보세요. E 키로 주차된 탐험 차량에 탈 수 있어요."
+  },
+  {
+    "name": "Enter vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        10.544395072997757,
+        0.09499999880790705,
+        15.800323785278689
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Drive vehicle moves",
+    "pass": true,
+    "detail": {
+      "mode": "driving",
+      "position": [
+        -21.691824277081835,
+        0.0949999988079071,
+        15.48598011656977
+      ],
+      "carSpeed": 17,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Brake and exit vehicle",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        -23.413946329450223,
+        -0.00014343849034048617,
+        12.767624588135227
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Reset safe position",
+    "pass": true,
+    "detail": {
+      "mode": "walking",
+      "position": [
+        0,
+        0,
+        12
+      ],
+      "carSpeed": 0,
+      "shuttles": [
+        {
+          "id": "main_loop_0",
+          "phase": "dwelling",
+          "speed": 0,
+          "nextStop": "monument",
+          "dwell": 10,
+          "distance": 0,
+          "laps": 0
+        },
+        {
+          "id": "main_loop_1",
+          "phase": "driving",
+          "speed": 0,
+          "nextStop": "main_north",
+          "dwell": 0,
+          "distance": 1188.2332610579572,
+          "laps": 0
+        }
+      ],
+      "drawCalls": 0,
+      "triangles": 0
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 본관",
+    "pass": true,
+    "detail": {
+      "destination": "126",
+      "position": [
+        0,
+        0.0019315212266519666,
+        6
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학",
+    "pass": true,
+    "detail": {
+      "destination": "138",
+      "position": [
+        291.432,
+        -21.81471728223411,
+        130.064
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 사회과학ㆍ사범대학",
+    "pass": true,
+    "detail": {
+      "destination": "136",
+      "position": [
+        -373.2758246526761,
+        4.67805540587638,
+        -25.996722231752827
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 미술대학(미술관)",
+    "pass": true,
+    "detail": {
+      "destination": "135",
+      "position": [
+        -192.950407474709,
+        -44.67217136981611,
+        358.41449692162183
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학생회관(동아리연합회)",
+    "pass": true,
+    "detail": {
+      "destination": "145",
+      "position": [
+        -199.58070972293183,
+        -36.83000183105469,
+        114.92392762163776
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 서석홀(평생교육원,박물관)",
+    "pass": true,
+    "detail": {
+      "destination": "141",
+      "position": [
+        -273.1622619628906,
+        -23.948801040649414,
+        152.2765655517578
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제1공학관",
+    "pass": true,
+    "detail": {
+      "destination": "134",
+      "position": [
+        -85.25395665859,
+        -50.62789650069918,
+        833.2365392238979
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 공과대학 제2공학관",
+    "pass": true,
+    "detail": {
+      "destination": "150",
+      "position": [
+        411.08,
+        -26.648132413385987,
+        286.048
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 글로벌하우스(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "142",
+      "position": [
+        497.0418460469685,
+        9.65999984741211,
+        153.96897075088305
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 백학학사(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "147",
+      "position": [
+        -331.3392286471227,
+        -17.687467055556677,
+        112.23248706158022
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 중앙도서관",
+    "pass": true,
+    "detail": {
+      "destination": "127",
+      "position": [
+        49.765,
+        -44.525001525878906,
+        268.945
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 본부동",
+    "pass": true,
+    "detail": {
+      "destination": "cit_main",
+      "position": [
+        260.35655635148987,
+        -40.71119075421029,
+        345.4002939227672
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_1",
+      "position": [
+        196.6715049549447,
+        -44.91840565011189,
+        364.3232800190163
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_2",
+      "position": [
+        287.29022962976666,
+        -20.742626983211018,
+        510.2388057844238
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_3",
+      "position": [
+        304.388810613311,
+        -38.1197401956868,
+        378.70607439228087
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선이공대학교 4호관",
+    "pass": true,
+    "detail": {
+      "destination": "cit_4",
+      "position": [
+        341.0406646488468,
+        -18.391221142311917,
+        498.1148384293397
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 병원",
+    "pass": true,
+    "detail": {
+      "destination": "162",
+      "position": [
+        324.73807409,
+        -29.198494057712573,
+        821.34305597
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 1.8극장(노천극장)",
+    "pass": true,
+    "detail": {
+      "destination": "167",
+      "position": [
+        -184.46,
+        -41.3239588056874,
+        238.81
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 경상대학",
+    "pass": true,
+    "detail": {
+      "destination": "133",
+      "position": [
+        359.648,
+        10.823217391967773,
+        -10.281
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 국제관(언어교육원,인권윤리원)",
+    "pass": true,
+    "detail": {
+      "destination": "146",
+      "position": [
+        -46.450571487685885,
+        -44.64500045776367,
+        252.50180849550563
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 그린빌리지(기숙사)",
+    "pass": true,
+    "detail": {
+      "destination": "165",
+      "position": [
+        462.53,
+        -36.71887677396286,
+        808.262
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 대운동장",
+    "pass": true,
+    "detail": {
+      "destination": "168",
+      "position": [
+        3.727,
+        -50.992000579833984,
+        404.739
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 법과대학",
+    "pass": true,
+    "detail": {
+      "destination": "131",
+      "position": [
+        380.77967255807573,
+        13.951669832170198,
+        4.035647472255508
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생명공학관",
+    "pass": true,
+    "detail": {
+      "destination": "160",
+      "position": [
+        64.09551239013672,
+        -47.44081036745303,
+        599.5790161132812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 생산교육 실험실습동",
+    "pass": true,
+    "detail": {
+      "destination": "158",
+      "position": [
+        -12.508,
+        -43.93390217388837,
+        869.168
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 솔마루(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "143",
+      "position": [
+        38.310003152025516,
+        -19.914655034177034,
+        144.105560457296
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 1호관(약학관)",
+    "pass": true,
+    "detail": {
+      "destination": "157",
+      "position": [
+        40.17,
+        -38.164605271637654,
+        809.142
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "140",
+      "position": [
+        16.306798934936523,
+        -43.03066291368543,
+        774.6329956054688
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 약학대학 3호관(강의동)",
+    "pass": true,
+    "detail": {
+      "destination": "156",
+      "position": [
+        -18.914477463557944,
+        -47.15122398716992,
+        744.6450346259485
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 1호관",
+    "pass": true,
+    "detail": {
+      "destination": "137",
+      "position": [
+        142.74464416503906,
+        -42.237982445624965,
+        494.2095642089844
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 2호관",
+    "pass": true,
+    "detail": {
+      "destination": "155",
+      "position": [
+        181.33368191654313,
+        -33.92737460706456,
+        514.439398408833
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의과대학 3호관",
+    "pass": true,
+    "detail": {
+      "destination": "177",
+      "position": [
+        76.50167388916016,
+        -46.43530584463787,
+        616.1184692382812
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 의성관(연구동)",
+    "pass": true,
+    "detail": {
+      "destination": "154",
+      "position": [
+        152.2803002660609,
+        -27.27761174496437,
+        893.1054562857405
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 입석홀(식당)",
+    "pass": true,
+    "detail": {
+      "destination": "159",
+      "position": [
+        -110.28,
+        -52.94283931101814,
+        882.893
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 자연과학관",
+    "pass": true,
+    "detail": {
+      "destination": "130",
+      "position": [
+        210.44374643533078,
+        -30.980047814038407,
+        625.7189430357842
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장미원",
+    "pass": true,
+    "detail": {
+      "destination": "163",
+      "position": [
+        111,
+        -47.70310592651367,
+        453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 장황남정보통신박물관",
+    "pass": true,
+    "detail": {
+      "destination": "129",
+      "position": [
+        -197.74727588405366,
+        -38.83000183105469,
+        159.51315665696725
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 어린이집",
+    "pass": true,
+    "detail": {
+      "destination": "178",
+      "position": [
+        534.791,
+        -13.24582743971431,
+        404.179
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교 치과병원",
+    "pass": true,
+    "detail": {
+      "destination": "166",
+      "position": [
+        -342.18403406341963,
+        -53.01674748570276,
+        674.3438429104326
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교병원 장례식장",
+    "pass": true,
+    "detail": {
+      "destination": "171",
+      "position": [
+        109.087,
+        -28.879439798442032,
+        995.713
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 주차빌딩",
+    "pass": true,
+    "detail": {
+      "destination": "164",
+      "position": [
+        137.688,
+        -33.298616086041925,
+        784.389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 창업보육센터",
+    "pass": true,
+    "detail": {
+      "destination": "153",
+      "position": [
+        12.458,
+        -40.181639149420405,
+        848.204
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 체육대학",
+    "pass": true,
+    "detail": {
+      "destination": "132",
+      "position": [
+        52.23348949014323,
+        -36.97296197004625,
+        669.7072837393389
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(교육동)",
+    "pass": true,
+    "detail": {
+      "destination": "152",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 치과대학(연구동) · 공유 건물",
+    "pass": true,
+    "detail": {
+      "destination": "139",
+      "position": [
+        -344.178,
+        -51.029420605816334,
+        598.318
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 태양에너지실증연구단지 · 대표 위치",
+    "pass": true,
+    "detail": {
+      "destination": "176",
+      "position": [
+        476.415,
+        -7.238652946709632,
+        686.565
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 학군단(ROTC)",
+    "pass": true,
+    "detail": {
+      "destination": "151",
+      "position": [
+        598.6909835718964,
+        9.233048840145205,
+        221.0224031604418
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 항공우주ㆍ선박해양공학관",
+    "pass": true,
+    "detail": {
+      "destination": "148",
+      "position": [
+        476.26849365234375,
+        -24.59238624572754,
+        430.73223876953125
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 해오름관",
+    "pass": true,
+    "detail": {
+      "destination": "128",
+      "position": [
+        171.48699951171875,
+        -44.337913513183594,
+        243
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 황금추관(고시원)",
+    "pass": true,
+    "detail": {
+      "destination": "144",
+      "position": [
+        414.94024658203125,
+        0.9244371123432888,
+        106.16895294189453
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 낮은 별관 옥상 · 구름다리",
+    "pass": true,
+    "detail": {
+      "destination": "138_roof_bridge",
+      "position": [
+        250,
+        -2.7846500873565674,
+        106
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: IT융합대학 5층 휴게공간 · 원형 테이블 6개",
+    "pass": true,
+    "detail": {
+      "destination": "138_lounge",
+      "position": [
+        254.5997772216797,
+        -2.7846500873565674,
+        91.79539489746094
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대학교여자고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "174",
+      "position": [
+        -524.387,
+        -36.80795407676697,
+        148.175
+      ]
+    }
+  },
+  {
+    "name": "Safe landmark arrival: 조선대부속고등학교 외부 진입로",
+    "pass": true,
+    "detail": {
+      "destination": "175",
+      "position": [
+        673.426,
+        -23.50180779173581,
+        475.826
+      ]
+    }
+  },
+  {
+    "name": "Campus NPCs distributed",
+    "pass": true,
+    "detail": 19
+  },
+  {
+    "name": "Campus vehicles distributed",
+    "pass": true,
+    "detail": 11
+  },
+  {
+    "name": "Node integration runtime (not browser performance)",
+    "elapsedSeconds": 31.34,
+    "maxRSS_MB": 2810
+  },
+  {
+    "name": "Rendering inventory, not measured performance",
+    "meshes": 2280,
+    "triangles": 6756416,
+    "instances": 17260
+  }
+]
+SURFACE_CONFORMITY {"maxRSS_MB":2868,"samples":44186,"nonFloorFaces":771,"focused":false,"precisionEdgeSampleCount":3,"precisionEdges":[{"id":"inferred_walk_connector_944569946_0_approach_13","triangle":9,"point":[-183.25837836068948,-36.93941417324643,206.23630767146574],"finiteEdgeMatch":{"height":-36.780577064759,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001","triangle":578,"normalY":0.5816056563426752,"edgeDistance":0.000001186614763310511,"groundSupport":true,"strictSurface":{"height":-36.939414173246405,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1","triangle":456,"normalY":0.7912752067028266,"edgeDistance":0,"groundSupport":true},"basis":"Actual finite triangle is at most 0.1 mm from this float32 metadata boundary; height matches its physical adjacent tread."},"visibleHeight":-36.780577064759,"supportObject":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001","runtimeHeight":-36.780582580468355,"runtimeVisibleGap":-0.000005515709354142473,"metadataVisibleGap":-0.1588371084874325},{"id":"inferred_walk_connector_944569946_0_tread_0","triangle":17,"point":[-183.59015021127496,-36.92122061042094,206.26853423396565],"finiteEdgeMatch":{"height":-36.76238350193357,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001","triangle":578,"normalY":0.5816056563426752,"edgeDistance":0.0000011866147224129502,"groundSupport":true,"strictSurface":{"height":-36.921220610420946,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1","triangle":456,"normalY":0.7912752067028266,"edgeDistance":0,"groundSupport":true},"basis":"Actual finite triangle is at most 0.1 mm from this float32 metadata boundary; height matches its physical adjacent tread."},"visibleHeight":-36.76238350193357,"supportObject":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001","runtimeHeight":-36.76238530571052,"runtimeVisibleGap":-0.000001803776946474045,"metadataVisibleGap":-0.15883710848736854},{"id":"inferred_walk_connector_944569946_0_tread_3","triangle":7,"point":[-182.40696122920923,-38.281328850197454,204.34062173507166],"finiteEdgeMatch":{"height":-38.122492444637714,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1","triangle":521,"normalY":0.8549583980137145,"edgeDistance":0.0000022234237490381036,"groundSupport":true,"strictSurface":{"height":-38.28132885019748,"sourceName":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1","triangle":587,"normalY":0.8606003549211201,"edgeDistance":0,"groundSupport":true},"basis":"Actual finite triangle is at most 0.1 mm from this float32 metadata boundary; height matches its physical adjacent tread."},"visibleHeight":-38.122492444637714,"supportObject":"INFERRED_GAME_WALK_CONNECTORS_|_terrain_connections,_not_su001_1","runtimeHeight":-38.12249243890108,"runtimeVisibleGap":5.736637831432745e-9,"metadataVisibleGap":-0.15883640555973955}],"nonStandingUndersideCount":229,"undersideObservations":[{"id":"verified_entry_140_52_1","triangle":0,"point":[16.808486302693684,-42.88902282714844,768.2539672851562],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_52_2","triangle":0,"point":[16.9410711924235,-42.88902282714844,768.2685953776041],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_55_4","triangle":0,"point":[16.929865519205727,-42.88902282714844,768.0574951171875],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_56_1","triangle":0,"point":[16.832493464152016,-42.88902282714844,768.1548665364583],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_57_1","triangle":0,"point":[16.110168774922688,-42.88902282714844,771.725362141927],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1153,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_59_1","triangle":0,"point":[16.14963404337565,-42.88902282714844,771.4523518880208],"nonStandingUnderside":{"height":-42.40717214540752,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1153,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_60_1","triangle":0,"point":[16.165703455607094,-42.88902282714844,771.0592651367188],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1152,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_60_2","triangle":0,"point":[16.267845153808594,-42.88902282714844,771.1612955729166],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1153,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_61_1","triangle":0,"point":[16.251798629760742,-42.88902282714844,770.7039184570312],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1152,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_63_1","triangle":0,"point":[16.07690588633219,-42.88902282714844,771.8626505533854],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1153,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_66_1","triangle":0,"point":[16.707345962524414,-42.88902282714844,768.8737589518229],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_67_1","triangle":0,"point":[16.63197580973307,-42.88902282714844,769.184834798177],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1165,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.84737463182333,"supportObject":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_2","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":-0.04164819532510933,"metadataVisibleGap":-0.04164819532510933,"obstructedBySolid":{"blocked":false,"bodyHits":[{"height":0.65,"depth":0.4618912886722372,"normal":[0.9718828984249622,0,0.2354647144459118],"basis":"Actual collision at body height, including horizontal solid caps"},{"height":1.3,"depth":0.4618912886722372,"normal":[0.9718828984249622,0,0.2354647144459118],"basis":"Actual collision at body height, including horizontal solid caps"}]}},{"id":"verified_entry_140_67_2","triangle":0,"point":[16.64649709065755,-42.88902282714844,769.2823486328125],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1165,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.85248222200975,"supportObject":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_2","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":-0.03654060513868984,"metadataVisibleGap":-0.03654060513868984,"obstructedBySolid":{"blocked":false,"bodyHits":[{"height":0.65,"depth":0.42481723685157297,"normal":[0.9718828984249529,0,0.23546471444594963],"basis":"Actual collision at body height, including horizontal solid caps"},{"height":1.3,"depth":0.42481723685157297,"normal":[0.9718828984249529,0,0.23546471444594963],"basis":"Actual collision at body height, including horizontal solid caps"}]}},{"id":"verified_entry_140_72_1","triangle":0,"point":[16.54079755147298,-42.88902282714844,769.4717407226562],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1165,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_140_72_2","triangle":0,"point":[16.526020050048828,-42.88902282714844,769.577392578125],"nonStandingUnderside":{"height":-42.407172145407515,"sourceName":"ENTRANCE_A_4_exact_facade_clone_CAMPUS_BUILDING_140_|_REVIE001_1","triangle":1165,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-42.88902282714844,"supportObject":"RV2_ENTRY_CONNECTION_|_140_foundation_steps_and_landing","runtimeHeight":-42.88902282714844,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_160_8_1","triangle":0,"point":[65.4434585571289,-47.611698150634766,595.7913411458333],"nonStandingUnderside":{"height":-47.58330656597582,"sourceName":"ENTRANCE_A_12_exact_facade_clone_CAMPUS_BUILDING_160_|_REVI_mes","triangle":1285,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-47.611698150634766,"supportObject":"RV2_ENTRY_CONNECTION_|_160_foundation_steps_and_landing","runtimeHeight":-47.611698150634766,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_160_10_1","triangle":0,"point":[65.72457122802734,-47.611698150634766,595.4188028971354],"nonStandingUnderside":{"height":-47.583306565975825,"sourceName":"ENTRANCE_A_12_exact_facade_clone_CAMPUS_BUILDING_160_|_REVI_mes","triangle":1285,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-47.611698150634766,"supportObject":"RV2_ENTRY_CONNECTION_|_160_foundation_steps_and_landing","runtimeHeight":-47.611698150634766,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_160_11_1","triangle":0,"point":[65.21364084879556,-47.611698150634766,596.3906656901041],"nonStandingUnderside":{"height":-47.50374319573239,"sourceName":"ENTRANCE_A_12_exact_facade_clone_CAMPUS_BUILDING_160_|_REVIEWED","triangle":1164,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-47.611698150634766,"supportObject":"RV2_ENTRY_CONNECTION_|_160_foundation_steps_and_landing","runtimeHeight":-47.611698150634766,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_319_1","triangle":0,"point":[76.87295786539713,-46.218597412109375,613.1146443684895],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_335_1","triangle":0,"point":[76.91705067952473,-46.218597412109375,613.0555826822916],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_336_1","triangle":0,"point":[76.91096496582031,-46.218597412109375,613.063741048177],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1318_1","triangle":0,"point":[77.0012715657552,-46.218597412109375,613.0304565429688],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1318_2","triangle":0,"point":[76.99350992838541,-46.218597412109375,613.0213623046875],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1325_2","triangle":0,"point":[76.96498107910156,-46.218597412109375,613.0502319335938],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1326_1","triangle":0,"point":[76.98644765218098,-46.218597412109375,613.0473225911458],"nonStandingUnderside":{"height":-46.004012010493845,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1326_2","triangle":0,"point":[76.97986348470052,-46.218597412109375,613.0386759440104],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1330_2","triangle":0,"point":[76.99588012695312,-46.218597412109375,613.0419108072916],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1330_3","triangle":0,"point":[76.98666381835938,-46.218597412109375,613.03173828125],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1331_1","triangle":0,"point":[76.97993723551431,-46.218597412109375,613.0773518880208],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1331_2","triangle":0,"point":[76.97816975911458,-46.218597412109375,613.0604858398438],"nonStandingUnderside":{"height":-46.004012010493845,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1678_1","triangle":0,"point":[77.11418406168619,-46.218597412109375,613.1276245117188],"nonStandingUnderside":{"height":-46.00401201049383,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1679_1","triangle":0,"point":[77.11706288655598,-46.218597412109375,613.1272379557291],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1682_1","triangle":0,"point":[77.11731974283853,-46.218597412109375,613.1262613932291],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1685_1","triangle":0,"point":[77.11936442057291,-46.218597412109375,613.1235961914062],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1686_1","triangle":0,"point":[77.12506612141927,-46.218597412109375,613.1222941080729],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1698_3","triangle":0,"point":[77.11440022786458,-46.218597412109375,613.1104532877604],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1704_1","triangle":0,"point":[77.1700693766276,-46.218597412109375,613.1503092447916],"nonStandingUnderside":{"height":-46.004012010493845,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1739_1","triangle":0,"point":[77.0672607421875,-46.218597412109375,613.142842610677],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1739_2","triangle":0,"point":[77.13598378499348,-46.218597412109375,613.1810302734375],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1743_1","triangle":0,"point":[77.09855651855469,-46.218597412109375,613.1344401041666],"nonStandingUnderside":{"height":-46.00401201049383,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1744_1","triangle":0,"point":[77.10656483968098,-46.218597412109375,613.1329956054688],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1748_1","triangle":0,"point":[77.10675303141275,-46.218597412109375,613.1323038736979],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.21859741210937,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":-7.105427357601002e-15,"metadataVisibleGap":-7.105427357601002e-15},{"id":"verified_entry_177_1755_1","triangle":0,"point":[77.10813395182291,-46.218597412109375,613.1297810872395],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1765_1","triangle":0,"point":[77.01134745279947,-46.218597412109375,613.0856730143229],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1765_2","triangle":0,"point":[77.01712799072266,-46.218597412109375,613.1053873697916],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1766_1","triangle":0,"point":[77.01557922363281,-46.218597412109375,613.066426595052],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1766_2","triangle":0,"point":[77.02405293782552,-46.218597412109375,613.0765380859375],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1770_3","triangle":0,"point":[77.0266342163086,-46.218597412109375,613.0660400390625],"nonStandingUnderside":{"height":-46.004012010493845,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1790_1","triangle":0,"point":[76.93102010091145,-46.218597412109375,613.0240885416666],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1790_2","triangle":0,"point":[76.93155924479166,-46.218597412109375,613.0405680338541],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1796_2","triangle":0,"point":[76.94654083251953,-46.218597412109375,613.035909016927],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_177_1802_1","triangle":0,"point":[76.95406087239583,-46.218597412109375,613.041768391927],"nonStandingUnderside":{"height":-46.00401201049384,"sourceName":"ENTRANCE_A_13_exact_facade_clone_CAMPUS_BUILDING_177_|_REVI_mes","triangle":36,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-46.218597412109375,"supportObject":"RV2_ENTRY_CONNECTION_|_177_foundation_steps_and_landing","runtimeHeight":-46.218597412109375,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_170_1","triangle":0,"point":[410.9601135253906,1.9399999380111694,102.87495422363281],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_199_1","triangle":0,"point":[410.7831827799479,1.9399999380111694,102.91820271809895],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_203_3","triangle":0,"point":[410.9235534667969,1.9399999380111694,102.95495096842447],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_203_4","triangle":0,"point":[410.84147135416663,1.9399999380111694,102.89076741536458],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_275_1","triangle":0,"point":[413.5961608886719,1.9399999380111694,104.62486012776692],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":396,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_275_2","triangle":0,"point":[413.44110107421875,1.9399999380111694,104.52746073404947],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":396,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_277_1","triangle":0,"point":[413.28692626953125,1.9399999380111694,104.40075174967447],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":396,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_277_2","triangle":0,"point":[413.2739766438802,1.9399999380111694,104.40070088704427],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":396,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_278_1","triangle":0,"point":[413.14662679036456,1.9399999380111694,104.3033676147461],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_284_1","triangle":0,"point":[410.75274658203125,1.9399999380111694,102.90789540608723],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_284_2","triangle":0,"point":[410.73932902018225,1.9399999380111694,102.89248657226562],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_286_2","triangle":0,"point":[410.7711181640625,1.9399999380111694,102.90267435709634],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_287_1","triangle":0,"point":[410.77354939778644,1.9399999380111694,102.94356791178384],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_287_2","triangle":0,"point":[410.7692667643229,1.9399999380111694,102.93348948160806],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_295_2","triangle":0,"point":[410.7108256022135,1.9399999380111694,102.90449523925781],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":145,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_306_2","triangle":0,"point":[410.8555704752604,1.9399999380111694,102.85297648111978],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_307_1","triangle":0,"point":[410.8021036783854,1.9399999380111694,102.86812082926431],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_307_3","triangle":0,"point":[410.8024698893229,1.9399999380111694,102.82611083984375],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_310_1","triangle":0,"point":[410.8626708984375,1.9399999380111694,102.81030019124348],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_310_2","triangle":0,"point":[410.89301554361975,1.9399999380111694,102.8266118367513],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_311_1","triangle":0,"point":[410.80671183268225,1.9399999380111694,102.78039296468098],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_311_2","triangle":0,"point":[410.8072611490885,1.9399999380111694,102.77454630533853],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_311_3","triangle":0,"point":[410.8211771647135,1.9399999380111694,102.78077189127603],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_312_1","triangle":0,"point":[410.7872009277344,1.9399999380111694,102.81633249918619],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_316_1","triangle":0,"point":[410.75467936197913,1.9399999380111694,102.84982299804688],"nonStandingUnderside":{"height":2.2000267663711655,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_317_2","triangle":0,"point":[410.7735595703125,1.9399999380111694,102.86255391438802],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_317_3","triangle":0,"point":[410.7802022298177,1.9399999380111694,102.82190958658853],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_323_1","triangle":0,"point":[413.5863545735677,1.9399999380111694,104.67462921142578],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_323_2","triangle":0,"point":[413.436767578125,1.9399999380111694,104.56965128580728],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_323_3","triangle":0,"point":[413.42902628580725,1.9399999380111694,104.5455551147461],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_331_2","triangle":0,"point":[413.2739766438802,1.9399999380111694,104.42701721191406],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_332_2","triangle":0,"point":[413.04522705078125,1.9399999380111694,104.259765625],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_346_1","triangle":0,"point":[413.55802408854163,1.9399999380111694,104.69533284505208],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_346_2","triangle":0,"point":[413.4156595865885,1.9399999380111694,104.5916035970052],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_346_3","triangle":0,"point":[413.4322306315104,1.9399999380111694,104.58871968587239],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_347_1","triangle":0,"point":[413.2819519042969,1.9399999380111694,104.48502095540364],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_348_1","triangle":0,"point":[413.5131429036458,1.9399999380111694,104.83721923828125],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":181,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_348_2","triangle":0,"point":[413.4077453613281,1.9399999380111694,104.68274943033853],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":180,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_365_1","triangle":0,"point":[413.2613118489583,1.9399999380111694,104.48502095540364],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_365_2","triangle":0,"point":[413.2547200520833,1.9399999380111694,104.48323313395181],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_366_1","triangle":0,"point":[413.2245178222656,1.9399999380111694,104.62857564290364],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":181,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_366_2","triangle":0,"point":[413.2167256673177,1.9399999380111694,104.54889933268228],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":180,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_368_1","triangle":0,"point":[413.28266398111975,1.9399999380111694,104.4712651570638],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_375_2","triangle":0,"point":[412.94383748372394,1.9399999380111694,104.20924886067708],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":397,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_564_1","triangle":0,"point":[410.7572530110677,1.9399999380111694,102.80688985188802],"nonStandingUnderside":{"height":2.119694534831187,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_564_2","triangle":0,"point":[410.7406005859375,1.9399999380111694,102.78805033365884],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_567_1","triangle":0,"point":[410.6947530110677,1.9399999380111694,102.75971221923828],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_567_2","triangle":0,"point":[410.7095235188802,1.9399999380111694,102.8099365234375],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_569_1","triangle":0,"point":[410.77760823567706,1.9399999380111694,102.77642567952473],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_572_1","triangle":0,"point":[410.41010538736975,1.9399999380111694,102.57625325520833],"nonStandingUnderside":{"height":2.119694534831187,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":289,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_572_2","triangle":0,"point":[410.52482096354163,1.9399999380111694,102.6781997680664],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":289,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_574_1","triangle":0,"point":[410.66974894205725,1.9399999380111694,102.78307088216145],"nonStandingUnderside":{"height":2.119694534831187,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":289,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_574_2","triangle":0,"point":[410.6586201985677,1.9399999380111694,102.73744455973306],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_576_1","triangle":0,"point":[410.9489339192708,1.9399999380111694,102.84060923258463],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111699,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-4.440892098500626e-16,"metadataVisibleGap":-4.440892098500626e-16},{"id":"verified_entry_144_576_3","triangle":0,"point":[410.93187459309894,1.9399999380111694,102.83096567789713],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_576_4","triangle":0,"point":[410.92643229166663,1.9399999380111694,102.8099136352539],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_577_2","triangle":0,"point":[410.9198099772135,1.9399999380111694,102.84027353922525],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_578_1","triangle":0,"point":[410.90740966796875,1.9399999380111694,102.80863952636719],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_578_2","triangle":0,"point":[410.90334065755206,1.9399999380111694,102.7922592163086],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_579_1","triangle":0,"point":[410.8997802734375,1.9399999380111694,102.82626088460286],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_579_2","triangle":0,"point":[410.892822265625,1.9399999380111694,102.81567891438802],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_580_1","triangle":0,"point":[410.87701416015625,1.9399999380111694,102.78115590413411],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_580_2","triangle":0,"point":[410.8649597167969,1.9399999380111694,102.76275380452473],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_581_1","triangle":0,"point":[410.8681437174479,1.9399999380111694,102.80141957600911],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_581_2","triangle":0,"point":[410.8564046223958,1.9399999380111694,102.7832768758138],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_587_1","triangle":0,"point":[410.9572550455729,1.9399999380111694,102.8632100423177],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_588_1","triangle":0,"point":[410.7583923339844,1.9399999380111694,102.71565246582031],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_588_2","triangle":0,"point":[410.740234375,1.9399999380111694,102.69052632649739],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_589_1","triangle":0,"point":[410.70790608723956,1.9399999380111694,102.68131001790364],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_589_2","triangle":0,"point":[410.6942647298177,1.9399999380111694,102.66039276123047],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_594_1","triangle":0,"point":[410.7938232421875,1.9399999380111694,102.74020894368489],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_594_2","triangle":0,"point":[410.7915344238281,1.9399999380111694,102.7246348063151],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_595_1","triangle":0,"point":[410.78369140625,1.9399999380111694,102.7332992553711],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_595_2","triangle":0,"point":[410.7806193033854,1.9399999380111694,102.71744028727213],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_602_1","triangle":0,"point":[410.84220377604163,1.9399999380111694,102.75198618570963],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_603_1","triangle":0,"point":[410.8338623046875,1.9399999380111694,102.77296447753906],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_603_2","triangle":0,"point":[410.8317159016927,1.9399999380111694,102.76007588704427],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_604_1","triangle":0,"point":[410.8219909667969,1.9399999380111694,102.73363240559895],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_605_1","triangle":0,"point":[410.8150431315104,1.9399999380111694,102.75809224446614],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_605_2","triangle":0,"point":[410.80841064453125,1.9399999380111694,102.73916371663411],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_611_1","triangle":0,"point":[410.5471700032552,1.9399999380111694,102.56930287679036],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_611_2","triangle":0,"point":[410.4482218424479,1.9399999380111694,102.49625142415364],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_613_1","triangle":0,"point":[410.5455627441406,1.9399999380111694,102.5836435953776],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_613_2","triangle":0,"point":[410.4452412923177,1.9399999380111694,102.51097869873047],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_614_1","triangle":0,"point":[410.66974894205725,1.9399999380111694,102.65529123942056],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_614_2","triangle":0,"point":[410.6586201985677,1.9399999380111694,102.63699595133463],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_622_1","triangle":0,"point":[410.96854654947913,1.9399999380111694,102.83526357014973],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_660_1","triangle":0,"point":[410.6956380208333,1.9399999380111694,102.87448120117188],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_663_1","triangle":0,"point":[410.3722941080729,1.9399999380111694,102.66852060953775],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":145,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_673_3","triangle":0,"point":[410.6586201985677,1.9399999380111694,102.85976918538411],"nonStandingUnderside":{"height":2.200026766371166,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVIEWED","triangle":144,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_720_1","triangle":0,"point":[410.9338684082031,1.9399999380111694,102.79219563802083],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111699,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-4.440892098500626e-16,"metadataVisibleGap":-4.440892098500626e-16},{"id":"verified_entry_144_721_2","triangle":0,"point":[410.92284138997394,1.9399999380111694,102.77407836914062],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_721_3","triangle":0,"point":[410.9113362630208,1.9399999380111694,102.7754160563151],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_722_1","triangle":0,"point":[410.890380859375,1.9399999380111694,102.75009409586588],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_722_2","triangle":0,"point":[410.8703308105469,1.9399999380111694,102.74853515625],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_723_1","triangle":0,"point":[410.7595723470052,1.9399999380111694,102.65922546386719],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_723_2","triangle":0,"point":[410.73961385091144,1.9399999380111694,102.64992014567056],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_724_1","triangle":0,"point":[410.75909423828125,1.9399999380111694,102.68724822998047],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_724_2","triangle":0,"point":[410.73992919921875,1.9399999380111694,102.6648457845052],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_725_1","triangle":0,"point":[410.7071126302083,1.9399999380111694,102.61681620279947],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_726_1","triangle":0,"point":[410.7074279785156,1.9399999380111694,102.64720662434895],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_726_2","triangle":0,"point":[410.69404093424475,1.9399999380111694,102.62347920735677],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_727_1","triangle":0,"point":[410.79715983072913,1.9399999380111694,102.68738301595052],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_727_2","triangle":0,"point":[410.79255167643225,1.9399999380111694,102.69599914550781],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_729_1","triangle":0,"point":[410.7862548828125,1.9399999380111694,102.67872873942056],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_729_2","triangle":0,"point":[410.7824300130208,1.9399999380111694,102.68678538004556],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_733_1","triangle":0,"point":[410.8529357910156,1.9399999380111694,102.72517649332681],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_733_2","triangle":0,"point":[410.8437093098958,1.9399999380111694,102.73139444986978],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_734_1","triangle":0,"point":[410.82774861653644,1.9399999380111694,102.70812479654947],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_734_2","triangle":0,"point":[410.81280517578125,1.9399999380111694,102.7110112508138],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_736_1","triangle":0,"point":[410.5586751302083,1.9399999380111694,102.52610524495442],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_736_2","triangle":0,"point":[410.459726969401,1.9399999380111694,102.47956339518228],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_737_2","triangle":0,"point":[410.66974894205725,1.9399999380111694,102.60227457682291],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_737_3","triangle":0,"point":[410.6586201985677,1.9399999380111694,102.61048634847005],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_739_1","triangle":0,"point":[410.9888610839844,1.9399999380111694,102.81606801350911],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_739_2","triangle":0,"point":[410.96024576822913,1.9399999380111694,102.80683390299478],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_763_1","triangle":0,"point":[410.7398986816406,1.9399999380111694,102.72874450683594],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_763_2","triangle":0,"point":[410.757334391276,1.9399999380111694,102.74734751383463],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_766_1","triangle":0,"point":[410.6945495605469,1.9399999380111694,102.6991195678711],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_766_2","triangle":0,"point":[410.70841471354163,1.9399999380111694,102.71729532877603],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_770_1","triangle":0,"point":[410.7788391113281,1.9399999380111694,102.75355529785156],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111697,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":-2.220446049250313e-16,"metadataVisibleGap":-2.220446049250313e-16},{"id":"verified_entry_144_770_2","triangle":0,"point":[410.78251139322913,1.9399999380111694,102.76219685872395],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_772_1","triangle":0,"point":[410.43163045247394,1.9399999380111694,102.532595316569],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_772_2","triangle":0,"point":[410.5337219238281,1.9399999380111694,102.61454518636067],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_773_1","triangle":0,"point":[410.41917928059894,1.9399999380111694,102.56222788492838],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111692,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":2.220446049250313e-16,"metadataVisibleGap":2.220446049250313e-16},{"id":"verified_entry_144_773_2","triangle":0,"point":[410.53294881184894,1.9399999380111694,102.62799326578775],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_777_1","triangle":0,"point":[410.6586201985677,1.9399999380111694,102.6756591796875],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"verified_entry_144_777_2","triangle":0,"point":[410.66974894205725,1.9399999380111694,102.69358825683594],"nonStandingUnderside":{"height":2.1196945348311873,"sourceName":"ENTRANCE_A_23_exact_facade_clone_CAMPUS_BUILDING_144_|_REVI_mes","triangle":288,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":1.9399999380111694,"supportObject":"RV2_ENTRY_CONNECTION_|_144_foundation_steps_and_landing","runtimeHeight":1.9399999380111694,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | photo supported paved forecourt","triangle":85,"point":[328.7550354003906,-29.199675877888996,814.1935831705729],"nonStandingUnderside":{"height":-29.15167259771976,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_entry_canopy_mesh001_1","triangle":732,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.18467619533798,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.18467619533798,"runtimeVisibleGap":0,"metadataVisibleGap":-0.014999682551017912},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":29,"point":[317.1317952473958,-29.184175491333008,827.2415568033854],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1513,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":31,"point":[317.55898030598956,-29.184175491333008,826.758544921875],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1513,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":33,"point":[317.9861653645833,-29.184175491333008,826.2755126953125],"nonStandingUnderside":{"height":-29.125564974657575,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1513,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":35,"point":[318.41335042317706,-29.184175491333008,825.792500813802],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1513,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":37,"point":[318.8405456542969,-29.184175491333008,825.3094685872395],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1513,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":39,"point":[319.26774088541663,-29.184175491333008,824.826436360677],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1512,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":41,"point":[319.69493611653644,-29.184175491333008,824.3434041341145],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1525,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":43,"point":[320.1221211751302,-29.184175491333008,823.860371907552],"nonStandingUnderside":{"height":-29.125564974657575,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1525,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":45,"point":[320.54930623372394,-29.184175491333008,823.3773600260416],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1525,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":47,"point":[320.9764912923177,-29.184175491333008,822.8943481445312],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1525,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":49,"point":[321.40367635091144,-29.184175491333008,822.4113159179688],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1525,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":51,"point":[321.8308614095052,-29.184175491333008,821.9283040364583],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1524,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":53,"point":[322.258056640625,-29.184175491333008,821.4452718098958],"nonStandingUnderside":{"height":-29.125564974657582,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1537,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":55,"point":[322.68525187174475,-29.184175491333008,820.9622395833333],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1537,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":57,"point":[323.11244710286456,-29.184175491333008,820.4792073567708],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1537,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":59,"point":[323.5396321614583,-29.184175491333008,819.9961954752604],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1537,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":61,"point":[323.96681722005206,-29.184175491333008,819.51318359375],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1537,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":63,"point":[324.3940022786458,-29.184175491333008,819.0301513671875],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1536,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":65,"point":[324.82118733723956,-29.184175491333008,818.547139485677],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1549,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":67,"point":[325.2483825683594,-29.184175491333008,818.0641072591145],"nonStandingUnderside":{"height":-29.125564974657575,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1549,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":69,"point":[325.6755676269531,-29.184175491333008,817.581075032552],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1549,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":71,"point":[326.1027628580729,-29.184175491333008,817.0980428059895],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1549,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":73,"point":[326.5299580891927,-29.184175491333008,816.6150309244791],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1549,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":75,"point":[326.95714314778644,-29.184175491333008,816.1320190429688],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1548,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":79,"point":[327.81151326497394,-29.184175491333008,815.1659749348958],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1561,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":81,"point":[328.2386983235677,-29.184175491333008,814.6829427083333],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1561,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":83,"point":[328.6658935546875,-29.184175491333008,814.1999104817708],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1561,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":85,"point":[329.09307861328125,-29.184175491333008,813.7168782552083],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1561,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"RV2_HOSPITAL | entrance pedestrian strip","triangle":87,"point":[329.520273844401,-29.184175491333008,813.2338460286458],"nonStandingUnderside":{"height":-29.12556497465758,"sourceName":"CAMPUS_BUILDING_162_|_RV2_SH_hospital_green_glazing_mesh001_2","triangle":1560,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-29.184175491333008,"supportObject":"RV2_HOSPITAL_|_entrance_pedestrian_strip","runtimeHeight":-29.184175491333008,"runtimeVisibleGap":0,"metadataVisibleGap":0},{"id":"rv2_transit_landing_0","triangle":5,"point":[-66.05115035642548,-51.87744323730468,531.0861740414971],"nonStandingUnderside":{"height":-51.37788855976457,"sourceName":"CHOSUN_SHELTER_REFERENCE__Green_moulded_seating001","triangle":3347,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-51.46610698400991,"supportObject":"CHOSUN_SHELTER_REFERENCE__Rubber_charcoal001","runtimeHeight":-51.466106986111974,"runtimeVisibleGap":-2.1020625240453228e-9,"metadataVisibleGap":-0.4113362532947704},{"id":"rv2_transit_landing_0","triangle":7,"point":[-67.01258367766305,-51.86917297363281,530.5517153655164],"nonStandingUnderside":{"height":-51.37788855976457,"sourceName":"CHOSUN_SHELTER_REFERENCE__Green_moulded_seating001","triangle":2483,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-51.78537719681276,"supportObject":"Paving_apron001","runtimeHeight":-51.785377502441406,"runtimeVisibleGap":-3.056286459468538e-7,"metadataVisibleGap":-0.0837957768200468},{"id":"rv2_transit_landing_0","triangle":13,"point":[-69.89688364137574,-51.844316406249995,528.9483393375749],"nonStandingUnderside":{"height":-51.37788855976457,"sourceName":"CHOSUN_SHELTER_REFERENCE__Green_moulded_seating001","triangle":1619,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-51.46610627948874,"supportObject":"CHOSUN_SHELTER_REFERENCE__Rubber_charcoal001","runtimeHeight":-51.46610627569848,"runtimeVisibleGap":3.790262326219818e-9,"metadataVisibleGap":-0.3782101267612532},{"id":"550_door_side_walk_42","triangle":6,"point":[255.65469955920128,-41.20430632389268,344.00652064295525],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.199305575050545,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.19930557505055,"runtimeVisibleGap":-7.105427357601002e-15,"metadataVisibleGap":-0.005000748842135749},{"id":"550_door_side_walk_43","triangle":6,"point":[255.47345987955728,-41.19463602701823,343.99530029296875],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.18963615114026,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.18963615114027,"runtimeVisibleGap":-7.105427357601002e-15,"metadataVisibleGap":-0.004999875877963689},{"id":"550_door_side_walk_44","triangle":6,"point":[256.54536797464675,-41.24905133894056,343.96565745983213],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.24405112615179,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.24405112615179,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005000212788772274},{"id":"550_door_side_walk_45","triangle":3,"point":[255.84722933505282,-41.21400580437083,343.98925783300785],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.209005667544126,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.209005667544126,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005000136826701862},{"id":"550_door_side_walk_45","triangle":4,"point":[255.75773137405724,-41.21034878126057,343.9287513570728],"nonStandingUnderside":{"height":-40.76303028912658,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.205348015012454,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.205348015012454,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005000766248116406},{"id":"550_door_side_walk_45","triangle":5,"point":[256.0510406828571,-41.225639226988804,343.8756425166587],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.220639375852485,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.220639375852485,"runtimeVisibleGap":0,"metadataVisibleGap":-0.004999851136318512},{"id":"550_door_side_walk_45","triangle":6,"point":[255.9366854387729,-41.21955251179208,343.9058506253262],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.214552703699496,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.214552703699496,"runtimeVisibleGap":0,"metadataVisibleGap":-0.004999808092584601},{"id":"550_door_side_walk_45","triangle":11,"point":[256.209285257105,-41.23221433970844,343.9743898731033],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.2272148538154,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.2272148538154,"runtimeVisibleGap":0,"metadataVisibleGap":-0.004999485893044664},{"id":"550_door_side_walk_45","triangle":12,"point":[256.414236750305,-41.24422966318649,343.83610307190247],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":0,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.2392295478695,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.2392295478695,"runtimeVisibleGap":0,"metadataVisibleGap":-0.00500011531698874},{"id":"550_door_side_walk_46","triangle":1,"point":[257.45467573295184,-41.29410448257215,343.9800313313802],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.28910303304723,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.28910303304723,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005001449524918655},{"id":"550_door_side_walk_46","triangle":2,"point":[257.3694943360582,-41.29143456474732,343.86066154109255],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":0,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.286433622427005,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.286433622427005,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005000942320315005},{"id":"550_door_side_walk_47","triangle":5,"point":[256.6206359863281,-41.25273513793945,343.9703165690104],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.24773478096359,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.2477347809636,"runtimeVisibleGap":-7.105427357601002e-15,"metadataVisibleGap":-0.005000356975862985},{"id":"550_door_side_walk_47","triangle":6,"point":[257.09312766475796,-41.27565933521046,344.01470244996233],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":2,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.27065908458857,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.27065908458857,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005000250621890245},{"id":"550_door_side_walk_47","triangle":7,"point":[257.1187517976016,-41.27850253016086,343.89534844379386],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.273502575958375,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.273502575958375,"runtimeVisibleGap":0,"metadataVisibleGap":-0.004999954202482115},{"id":"550_door_side_walk_49","triangle":10,"point":[257.63288701455497,-41.3034962316204,343.93766297905523],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.298494639972574,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.29849463997258,"runtimeVisibleGap":-7.105427357601002e-15,"metadataVisibleGap":-0.005001591647825876},{"id":"550_door_side_walk_49","triangle":12,"point":[257.6983491760326,-41.30679058078687,343.9327483679091],"nonStandingUnderside":{"height":-40.763030289126576,"sourceName":"RV2_PORTAL_a_18_photo1_mesh_1","triangle":1,"normalY":-1,"edgeDistance":0,"groundSupport":false,"reason":"Downward structural cap is an underside, not a standing surface. Actual body and closed-door traversal are tested separately."},"visibleHeight":-41.301789038607595,"supportObject":"RV2_V5_PARKING_WALK_|_550_door_side_walk_|_v5_|_unified_sidewal_1","runtimeHeight":-41.301789038607595,"runtimeVisibleGap":0,"metadataVisibleGap":-0.005001542179272178}],"differenceCount":0,"obstructedSampleCount":112,"maxRuntimeVisibleGap":0.5001631677150726,"maxWalkableRuntimeVisibleGap":0.010958119088492424,"differences":[],"method":"Actual exported finite physical GLB triangles, including occupied rail surfaces, versus runtime collider at navigation triangle centroids. Floors under closed doors/solid body obstructions remain recorded but cannot be standing positions; missing native support always fails. DOM and renderer mocked, no WebGL/device QA."}

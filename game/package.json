@@ -1,13 +1,22 @@
 {
   "name": "chosun-campus-walk",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "test": "node tests/simulate.mjs",
     "serve": "python3 -m http.server 8173 --directory dist",
-    "pretest": "python3 ../scripts/restore-assets.py",
-    "preserve": "python3 ../scripts/restore-assets.py"
+    "pretest": "python3 scripts/verify-assets.py",
+    "preserve": "python3 scripts/verify-assets.py",
+    "test:all": "python3 scripts/verify-assets.py && node tests/simulate.mjs && node tests/actors.mjs && node tests/shuttle.mjs && node tests/shuttle-terminal-validation.mjs && node tests/bounded-triangle-rays.mjs && node tests/finite-triangle-rays.mjs && node tests/walking-floor.mjs && node tests/vehicle-grounding.mjs && node tests/road-grounding.mjs && node tests/walk-surface-index.mjs && node tests/walkable-paths.mjs && node tests/packaging.mjs && node tests/model-compression.mjs && node tests/export-contract.mjs && python3 scripts/reassess-realism-tree-grounding.py --execute && node tests/revision-colliders.mjs && node tests/segment-guards.mjs && node tests/visible-floor-index.mjs && node tests/surface-conformity.mjs && node tests/parking-volume.mjs && node tests/tyre-footprint.mjs && node tests/tyre-contact-cache.mjs && node tests/bus-suspension-equivalence.mjs && node tests/known-tyre-limits.mjs && node tests/polygon-colliders.mjs && node tests/water-constraints.mjs && node tests/vehicle-steering.mjs && node tests/wheel-suspension.mjs && node tests/vehicle-surfaces.mjs && node tests/model-integration-plan.mjs && node tests/parking-clearance.mjs && node tests/parking-support.mjs && node tests/parking-gameplay.mjs && node tests/parking-turns.mjs && node tests/garage-exterior-route.mjs && node tests/rooftop-bridge.mjs && node tests/lounge-access.mjs && node tests/entrance-access.mjs && node tests/gate-sidecar-clearance.mjs && node tests/site-additions.mjs && npm run test:lighting",
+    "export:source": "python3 scripts/export-lighting-source.py --native-binding revision/lighting-native-binding.json",
+    "build:model": "node scripts/build-realism.mjs",
+    "test:contracts": "python3 -B scripts/test-public-spaces-integration.py && python3 -B scripts/test-campus-access-integration.py && python3 -B scripts/test-transit-revision.py && python3 -B scripts/test-road-grade-contract.py && python3 -B scripts/test-hospital-integration.py && python3 -B scripts/test-pond-integration.py && python3 -B scripts/test-stop-walkways-integration.py && python3 -B scripts/test-haeoreum-integration.py && python3 -B scripts/test-parking-terraces-integration.py && python3 -B scripts/test-actor-grounding-integration.py && python3 -B scripts/test-walk-alignments-integration.py && python3 -B scripts/test-repair-provenance.py && python3 -B scripts/test-garage-exterior-integration.py && python3 -B scripts/test-lower-paving-retirement.py && python3 -B scripts/test-export-tool-provenance.py && python3 -B scripts/test-exported-inferred-support.py",
+    "test:site-strict": "CHOSUN_STRICT_CONTACTS=1 node tests/site-additions.mjs",
+    "test:closeout": "node tests/site-closeout.mjs",
+    "verify:release": "python3 scripts/verify-lighting-release.py --native-binding revision/lighting-native-binding.json",
+    "test:tyre-footprint": "node tests/tyre-footprint.mjs",
+    "test:lighting": "node tests/street-lighting.mjs && node tests/street-lighting-placement.mjs"
   },
   "devDependencies": {
     "@gltf-transform/core": "^4.2.1",

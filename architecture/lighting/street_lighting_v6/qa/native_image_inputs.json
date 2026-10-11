@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "images": [
+    {
+      "name": "RV2_Pavers_basecolor",
+      "source": "FILE",
+      "packed": true,
+      "path_exists": false
+    },
+    {
+      "name": "RV2_Pavers_normal",
+      "source": "FILE",
+      "packed": true,
+      "path_exists": false
+    },
+    {
+      "name": "RV2_Pavers_roughness",
+      "source": "FILE",
+      "packed": true,
+      "path_exists": false
+    }
+  ]
+}

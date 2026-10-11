@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "status": "final_augmented_native_bound",
+  "baselineNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "augmentedNativeSha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "nativeBytes": 276659952,
+  "nativeManifest": {
+    "path": "revision/lighting-native-manifest.json",
+    "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d"
+  },
+  "lightingContract": {
+    "path": "dist/street-lighting.json",
+    "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+  },
+  "lightingGLB": {
+    "path": "dist/assets/lighting.glb",
+    "sha256": "049dc05ce731914ca878de3febdfcd9e4b8b7ee011f647761b518c6559ea5abf"
+  },
+  "preservationReport": {
+    "path": "revision/native-preservation-report.json",
+    "sha256": "4ccfd9411b5bfe88efeb1cfc58bf20cef7372fd2fb3555fdfd3297f5a32396c1"
+  },
+  "reopenReport": {
+    "path": "revision/native-reopen-report.json",
+    "sha256": "930e6d913e23bfc888d12042031c2f3d55cc0811a52e3666cbe3ae13453900e5"
+  }
+}

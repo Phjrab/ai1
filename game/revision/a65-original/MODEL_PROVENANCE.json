@@ -1,0 +1,767 @@
+{
+  "engine": "Three.js 0.180.0",
+  "project": "Independent whole-campus exploration game",
+  "assets": {
+    "building.glb": {
+      "bytes": 8881064,
+      "sha256": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5",
+      "source_bytes": 18395600,
+      "source_sha256": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+      "source_path": "chosun_final_a65c2ae1/realism_v2/game_export_supported_surfaces/building.glb"
+    },
+    "campus.glb": {
+      "bytes": 60213892,
+      "sha256": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+      "source_bytes": 201519748,
+      "source_sha256": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0",
+      "source_path": "chosun_final_a65c2ae1/realism_v2/game_export_supported_surfaces/campus.glb"
+    },
+    "shuttle_bus.glb": {
+      "bytes": 1068036,
+      "sha256": "45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48",
+      "source_bytes": 1069644,
+      "source_sha256": "3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532",
+      "source_path": "shuttle_bus.glb"
+    }
+  },
+  "navigation": {
+    "bytes": 3214722,
+    "sha256": "9083489ca4bde56a84f7ac8a67b5822fc999b00437fd1fbce468c43f1b415c86",
+    "source_path": "chosun_final_a65c2ae1/realism_v2/verification/navigation_graded.json"
+  },
+  "road_graph": {
+    "bytes": 2412481,
+    "sha256": "fc50f60afce0f7542f3c29e77af7e9963e1343bf3079c242ac4c14cd2b39d181",
+    "source_path": "chosun_final_a65c2ae1/realism_v2/verification/road_graph_3d_graded.json"
+  },
+  "transit_placements": {
+    "bytes": 129286,
+    "sha256": "ad2aec9dc004c97138f180b3bffd22a1fdf2ee9209a682251d07eeaa3cd32511",
+    "source_path": "chosun_final_a65c2ae1/realism_v2/verification/transit_placements_graded.json"
+  },
+  "ground_elevation": {
+    "bytes": 1594496,
+    "sha256": "a8253d4f5624b5760621683bd6e58236bf39448d54cc6fed01d6ef427aebaa93",
+    "source_path": "chosun_final_a65c2ae1/realism_v2/verification/ground_elevation_graded.json"
+  },
+  "material_table": {
+    "bytes": 185823,
+    "sha256": "0485b3786d41373d2169f9fab22e20841cc80bb23956951900d1b388e661bb5c"
+  },
+  "destination_count": 54,
+  "campus_building_count": 67,
+  "walkable_surface_count": 6397,
+  "accuracy": "Photo/map-informed approximate reconstruction; not surveyed BIM. Inferred connectors, interiors and gameplay characters are labeled. Official shuttle stop order with approximate game route and timing.",
+  "compression": "Meshopt buffer compression. Selected architectural and vegetation geometry uses16-bit position quantization; explicitly listed ground, road, stair, deck and walk-support meshes retain Float32 positions. Source triangle coordinates are preserved for physical support.",
+  "materials": "Name-matched final Blender baseColor/roughness/metalness fallback; explicitly tagged image PBR materials retain their image bindings and authored neutral factors. Original instanced tree geometry uses realism-v2 chlorophyll palette and smooth normals. Dense foliage and other procedural render shaders are native-Blender only.",
+  "material_revision": "campus-realism-v2",
+  "model_revision": "realism_v2",
+  "runtime_navigation": {
+    "bytes": 9199586,
+    "sha256": "57e82293b29c5787db51ad0bc4a0d357d90a42f2f4d3f002cba0a8da479dca44"
+  },
+  "runtime_vehicle_graph": {
+    "bytes": 1525960,
+    "sha256": "57d12037872e2034bddefcbd7247ce37142db019937888e1b4f02693a269e9c5"
+  },
+  "runtime_transit_placements": {
+    "bytes": 194778,
+    "sha256": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08"
+  },
+  "grading_sync": {
+    "bytes": 113297,
+    "sha256": "42898889243c6c79aacc0cea05d4eee7d5f8a74f66e27f524426a1e5fb9f753d"
+  },
+  "grading_source_inputs": {
+    "navigation_graded.json": "9083489ca4bde56a84f7ac8a67b5822fc999b00437fd1fbce468c43f1b415c86",
+    "road_graph_3d_graded.json": "fc50f60afce0f7542f3c29e77af7e9963e1343bf3079c242ac4c14cd2b39d181",
+    "transit_placements_graded.json": "ad2aec9dc004c97138f180b3bffd22a1fdf2ee9209a682251d07eeaa3cd32511",
+    "local_level_alignment.json": "ac3b0d67b798b6bdbe77e7d1dbed4f8b40fc88f90a50c9e0ffce61bea507dbaa",
+    "terrain_building_pads_graded.json": "18f2de831964b9f6471b67c7673fe44304616f44bc132115f9b202ad416b831d"
+  },
+  "runtime_world_config": {
+    "bytes": 13171356,
+    "sha256": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309"
+  },
+  "runtime_transit_config": {
+    "bytes": 91011,
+    "sha256": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26"
+  },
+  "native_scene": {
+    "source_path": "realism_v2/Chosun_Campus_Realism_v2.blend",
+    "sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd"
+  },
+  "source_export_manifest": {
+    "bytes": 135651,
+    "sha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e"
+  },
+  "grounding": "Runtime ground height comes from final exported terrain and foundation triangle raycasts. The coarse elevation grid is reference data only.",
+  "revised_ground_elevation_reference": {
+    "bytes": 1594496,
+    "sha256": "a8253d4f5624b5760621683bd6e58236bf39448d54cc6fed01d6ef427aebaa93",
+    "source_path": "chosun_final_a65c2ae1/realism_v2/verification/ground_elevation_graded.json"
+  },
+  "baseline_metadata": {
+    "navigation": {
+      "bytes": 2279530,
+      "sha256": "41eff1390c30ea7f0d6285a182b8ce0dd1d1dd831524c1cd64bd9ce5e805430e"
+    },
+    "road_graph": {
+      "bytes": 542714,
+      "sha256": "559e31627d83891c84d8afa597353051e0cf0f775456683e07f1955c056cc0d4"
+    },
+    "transit_placements": {
+      "bytes": 128811,
+      "sha256": "575940ebdf9f509d6d8b997fc95ba9218408599a6c57611fa29ffc96621fe686"
+    },
+    "ground_elevation": {
+      "bytes": 588198,
+      "sha256": "4cf2273a7a9711ff52bade91dbb38444c08d213864f8925e3d1102465ce1840a"
+    }
+  },
+  "runtime_game_code": {
+    "game.js": {
+      "bytes": 46839,
+      "sha256": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e"
+    },
+    "revision-colliders.js": {
+      "bytes": 7840,
+      "sha256": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c"
+    },
+    "parking-system.js": {
+      "bytes": 5420,
+      "sha256": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f"
+    },
+    "polygon-colliders.js": {
+      "bytes": 2724,
+      "sha256": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df"
+    },
+    "water-constraints.js": {
+      "bytes": 1212,
+      "sha256": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5"
+    },
+    "vehicle-steering.js": {
+      "bytes": 1097,
+      "sha256": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37"
+    },
+    "vehicle-surfaces.js": {
+      "bytes": 2784,
+      "sha256": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8"
+    },
+    "wheel-suspension.js": {
+      "bytes": 7993,
+      "sha256": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3"
+    },
+    "walking-floor.js": {
+      "bytes": 1667,
+      "sha256": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc"
+    },
+    "parking-config.js": {
+      "bytes": 120784,
+      "sha256": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b"
+    },
+    "shuttle-system.js": {
+      "bytes": 7519,
+      "sha256": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1"
+    }
+  },
+  "controllable_car_count": 11,
+  "npc_count": 19,
+  "parking_metadata": {
+    "bytes": 257072,
+    "sha256": "beab14ca0393ca4b1ab4b4e36cf6f299b5589bae53843cdc14156e9ce36d8859"
+  },
+  "rooftop_bridge_metadata": {
+    "bytes": 1026489,
+    "sha256": "062dbf9b3db6b724fbc4bdc7b145cebe7aebee2452523fee7ecb4317d907be93"
+  },
+  "parking": {
+    "enabled": true,
+    "levels": 4,
+    "decorative_cars": 85,
+    "ramps": 3
+  },
+  "web_compression": {
+    "building": "Meshopt with 16-bit architecture/foliage; terrain, paving and semantic walk/drive support positions preserved as Float32",
+    "campus": "Meshopt with 16-bit architecture/foliage; terrain, paving and semantic walk/drive support positions preserved as Float32",
+    "shuttle": "none; material fallback only"
+  },
+  "full_precision_support_meshes": [
+    "ENTRANCE_A_a_17_photo1 threshold support",
+    "ENTRANCE_A_a_18_photo1 threshold support",
+    "ENTRANCE_A_a_19_photo1 threshold support",
+    "ENTRANCE_A_a_29_8745101701 threshold support",
+    "ENTRANCE_A_a_29_8745101703 threshold support",
+    "ENTRANCE_A_a_30_8745101705 threshold support",
+    "CAMPUS_CURB_TRANSITION 13622091944 -1 mesh.001",
+    "CAMPUS_CURB_TRANSITION 13622091944 1 mesh.001",
+    "RV2_HOSPITAL_CLEAN_CAMPUS_CONTINUOUS vehicle asphalt mesh | gar",
+    "CAMPUS_PLAZA 300166138 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 300166139 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 300166140 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 468635680 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 468635682 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 468689597 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 472263780 pitch mesh",
+    "CAMPUS_PLAZA 970314418 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 970314419 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 970315546 parking mesh | terrain conforming | ",
+    "CAMPUS_PLAZA 1190387576 pitch mesh",
+    "CAMPUS_PLAZA 1190387578 pitch mesh",
+    "CAMPUS_PLAZA 1190387579 pitch mesh",
+    "CAMPUS_PLAZA 1190387580 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1190387581 parking mesh | terrain conforming | | v",
+    "CAMPUS_PLAZA 1198968919 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1200782411 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1201486597 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1201486601 pitch mesh",
+    "CAMPUS_PLAZA 1202050627 pitch mesh",
+    "CAMPUS_PLAZA 1202050628 pitch mesh",
+    "CAMPUS_PLAZA 1202050629 pitch mesh",
+    "CAMPUS_PLAZA 1202050656 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1202050662 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1202054714 parking mesh | terrain conforming |",
+    "CAMPUS_PLAZA 1202054715 parking mesh | terrain conforming",
+    "CAMPUS_PLAZA 468689591 parking mesh | terrain conforming.001",
+    "CAMPUS tree prototype mesh",
+    "CAMPUS tree prototype mesh.001",
+    "CAMPUS tree prototype mesh.002",
+    "CAMPUS tree prototype mesh.003",
+    "Vehicle prototype 2 mesh",
+    "Vehicle prototype 0 mesh",
+    "Vehicle prototype 5 mesh",
+    "Tree prototype 9 mesh",
+    "Tree prototype 4 mesh",
+    "Tree prototype 1 mesh",
+    "Tree prototype 0 mesh",
+    "Tree prototype 5 mesh",
+    "Tree prototype 2 mesh",
+    "Tree prototype 8 mesh",
+    "Tree prototype 3 mesh",
+    "Tree prototype 7 mesh",
+    "Tree prototype 6 mesh",
+    "ENTRANCE_A_a_01_2007834463 threshold support",
+    "ENTRANCE_A_a_03_8745101691 threshold support",
+    "ENTRANCE_SUPP_156 granite entry landing",
+    "ENTRANCE_SUPP_156 paved side approach | unified sidewalk pavers",
+    "ENTRANCE_SUPP_156 front tread 1",
+    "ENTRANCE_SUPP_156 front tread 2",
+    "ENTRANCE_SUPP_156 front tread 3",
+    "ENTRANCE_SUPP_156 granite stair terminal apron",
+    "ENTRANCE_A_a_07_12765514877 threshold support",
+    "R2_IT_BRIDGE_ANNEX ROOF WALK top",
+    "R2_IT_LOUNGE_INTERIOR WALK floor",
+    "R2_IT_APPROACH_UPPER APPROACH WALK top | final outdoor pavers",
+    "R2_IT_APPROACH_ground-connected retaining fill",
+    "R2_IT_APPROACH_approach guard rails",
+    "R2_IT_LOUNGE_MAPPED BRIDGE WALK top.001",
+    "R2_IT_LOUNGE_mapped bridge guard rails.001",
+    "R2_IT_LOUNGE_SECONDARY_THRESHOLD_WALK_join",
+    "R2_IT_APPROACH_PRIMARY_THRESHOLD_WALK_join",
+    "ENTRANCE_A_a_10_8745101680 threshold support",
+    "ENTRANCE_A_a_11_8745101696 threshold support",
+    "ENTRANCE_A_a_14_8745103330 threshold support",
+    "ENTRANCE_A_a_15_4631834869 threshold support",
+    "ENTRANCE_A_a_15_8745103331 threshold support",
+    "ENTRANCE_A_a_20_8745101709 threshold support",
+    "ENTRANCE_A_a_22_8745101672 threshold support",
+    "ENTRANCE_A_a_24_8745101710 threshold support",
+    "ENTRANCE_A_a_25_4631845727 threshold support",
+    "ENTRANCE_A_a_25_8745101688 threshold support",
+    "ENTRANCE_A_a_25_8745101689 threshold support",
+    "ENTRANCE_A_a_25_8745101690 threshold support",
+    "ENTRANCE_A_a_26_photo1 threshold support",
+    "ENTRANCE_A_a_26_photo2 threshold support",
+    "ENTRANCE_A_a_27_8745101716 threshold support",
+    "ENTRANCE_A_a_27_8745103318 threshold support",
+    "R2_SSU_CAMPUS_BUILDING 143 courtyard support mesh",
+    "ENTRANCE_A_a_31_8745101682 threshold support",
+    "ENTRANCE_A_a_32_8745101684 threshold support",
+    "ENTRANCE_A_a_34_8745101686 threshold support",
+    "ENTRANCE_A_a_35_8745103346 threshold support",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_deck_0 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_deck_1 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_deck_2 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_deck_3 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_ramp_0_1 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_ramp_1_2 mesh",
+    "CAMPUS_PARKING164_DRIVE_SURFACE_ramp_2_3 mesh",
+    "CAMPUS_BUILDING 164 | RV2_PI_pedestrian_stair mesh",
+    "CAMPUS_BUILDING 135 | RV2 foundation floor 01",
+    "CAMPUS_BUILDING 127 | RV2 foundation floor 02",
+    "CAMPUS_BUILDING 134 | RV2 foundation floor 03",
+    "CAMPUS_BUILDING 140 | RV2 foundation floor 04",
+    "CAMPUS_BUILDING 157 | RV2 foundation floor 05",
+    "CAMPUS_BUILDING 156 | RV2 foundation floor 06",
+    "CAMPUS_BUILDING 128 | RV2 foundation floor 07",
+    "CAMPUS_BUILDING 138 | RV2 foundation floor 08",
+    "CAMPUS_BUILDING 150 | RV2 foundation floor 09",
+    "CAMPUS_BUILDING 136 | RV2 foundation floor 10",
+    "CAMPUS_BUILDING 132 | RV2 foundation floor 11",
+    "CAMPUS_BUILDING 160 | RV2 foundation floor 12",
+    "CAMPUS_BUILDING 177 | RV2 foundation floor 13",
+    "CAMPUS_BUILDING 137 | RV2 foundation floor 14",
+    "CAMPUS_BUILDING 155 | RV2 foundation floor 15",
+    "CAMPUS_BUILDING 468704883 | RV2 foundation floor 16",
+    "CAMPUS_BUILDING cit_1 | RV2 foundation floor 17",
+    "CAMPUS_BUILDING cit_main | RV2 foundation floor 18",
+    "CAMPUS_BUILDING cit_3 | RV2 foundation floor 19",
+    "CAMPUS_BUILDING 148 | RV2 foundation floor 20",
+    "CAMPUS_BUILDING 148 | RV2 foundation floor 21",
+    "CAMPUS_BUILDING 142 | RV2 foundation floor 22",
+    "CAMPUS_BUILDING 144 | RV2 foundation floor 23",
+    "CAMPUS_BUILDING 151 | RV2 foundation floor 24",
+    "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+    "CAMPUS_BUILDING 146 | RV2 foundation floor 26",
+    "CAMPUS_BUILDING 143 | RV2 foundation floor 27",
+    "CAMPUS_BUILDING 159 | RV2 foundation floor 28",
+    "CAMPUS_BUILDING cit_2 | RV2 foundation floor 29",
+    "CAMPUS_BUILDING cit_4 | RV2 foundation floor 30",
+    "CAMPUS_BUILDING 147 | RV2 foundation floor 31",
+    "CAMPUS_BUILDING 147 | RV2 foundation floor 32",
+    "CAMPUS_BUILDING 141 | RV2 foundation floor 33",
+    "CAMPUS_BUILDING 129 | RV2 foundation floor 34",
+    "CAMPUS_BUILDING 154 | RV2 foundation floor 35",
+    "CAMPUS_BUILDING 162 | RV2 foundation floor 36",
+    "CAMPUS_BUILDING 166 | RV2 foundation floor 37",
+    "CAMPUS_BUILDING 152 | RV2 foundation floor 38",
+    "CAMPUS_BUILDING 131 | RV2 foundation floor 39",
+    "CAMPUS_BUILDING 133 | RV2 foundation floor 40",
+    "CAMPUS_BUILDING 1127517085 | RV2 foundation floor 41",
+    "CAMPUS_BUILDING 1127517086 | RV2 foundation floor 42",
+    "CAMPUS_BUILDING 1127517087 | RV2 foundation floor 43",
+    "CAMPUS_BUILDING 1127517088 | RV2 foundation floor 44",
+    "CAMPUS_BUILDING 1127517089 | RV2 foundation floor 45",
+    "CAMPUS_BUILDING 1127517090 | RV2 foundation floor 46",
+    "CAMPUS_BUILDING 1127517091 | RV2 foundation floor 47",
+    "CAMPUS_BUILDING 1127517105 | RV2 foundation floor 48",
+    "CAMPUS_BUILDING 1198559652 | RV2 foundation floor 49",
+    "CAMPUS_BUILDING 1201486598 | RV2 foundation floor 51",
+    "CAMPUS_BUILDING 1202050652 | RV2 foundation floor 52",
+    "CAMPUS_BUILDING 158 | RV2 foundation floor 53",
+    "CAMPUS_BUILDING 153 | RV2 foundation floor 54",
+    "CAMPUS_BUILDING 1202050669 | RV2 foundation floor 55",
+    "CAMPUS_BUILDING 1202050670 | RV2 foundation floor 56",
+    "CAMPUS_BUILDING 1202050671 | RV2 foundation floor 57",
+    "CAMPUS_BUILDING 1359353587 | RV2 foundation floor 58",
+    "CAMPUS_BUILDING 1359353588 | RV2 foundation floor 59",
+    "CAMPUS_BUILDING 1359353590 | RV2 foundation floor 60",
+    "CAMPUS_BUILDING 130 | RV2 foundation floor 61",
+    "CAMPUS_BUILDING 165 | RV2 foundation floor 62",
+    "CAMPUS_BUILDING 178 | RV2 foundation floor 63",
+    "CAMPUS_BUILDING 171 | RV2 foundation floor 64",
+    "CAMPUS_BUILDING 164 | RV2 foundation floor 65",
+    "CAMPUS_BUILDING 176 | RV2 foundation floor 66",
+    "CAMPUS_BUILDING 139 | RV2 foundation floor 67",
+    "RV2_SCHOOL_Minimal outer terrain extension",
+    "RV2_SCHOOL_174 1200735413 mapped sports field",
+    "RV2_SCHOOL_174 unified nonoverlapping access roads",
+    "RV2_SCHOOL_175 598553085 mapped sports field",
+    "RV2_SCHOOL_175 unified nonoverlapping access roads bounded fina",
+    "RV2_POND_Granite coping and deep basin sides",
+    "RV2_POND_Visible recessed basin floor",
+    "RV2_POND_Cheongram bridge solid paved deck",
+    "RV2_POND_South bridge landing",
+    "RV2_POND_Five actual risers at south approach",
+    "RV2_POND_North bank grounded promenade connection",
+    "RV2_POND_South footpath approach apron",
+    "RV2_POND_ENTRY_South_lower_stair_connection",
+    "RV2_PS_sports_flat_surfaces mesh",
+    "RV2_PS_rose_paths_and_circular_plaza mesh | unified sidewal",
+    "RV2_PS_theatre_court_stage_steps mesh",
+    "RV2_PS_theatre_seven_curved_timber_terraces mesh",
+    "RV2_V5_REAR_CONNECTION | vehicle asphalt | v5",
+    "RV2_HAEOREUM | east downhill vehicle asphalt | v5",
+    "RV2_HAEOREUM | merged parking vehicle aisle | v5",
+    "RV2_V5_PARKING_ACCESS | 421_middle_to_east | v5 | v5 | v5 | v5 ",
+    "RV2_V5_PARKING_ACCESS | 779_main_side_access | v5 | v5 | v5.001",
+    "RV2_V5_PARKING_ACCESS | 779_upper_road_join | v5 | v5 | v5 ",
+    "RV2_V5_PARKING_ACCESS | 6599_high_end_approach | v5 | v5 | ",
+    "RV2_V5_PARKING_WALK | 550_door_side_walk | v5 | unified sidewal",
+    "RV2_HAEOREUM | joined parking median asphalt | v5 | v5 | v5",
+    "RV2_HAEOREUM | stair treads",
+    "RV2_HAEOREUM | front horizontal pedestrian paving | v5 | v5 | u",
+    "RV2_V5_PARKING_ACCESS | 420 frontage road link | v5 | v5 | v5",
+    "RV2_V5_PARKING_TERRACE | 421_natural_sciences_front | mesh",
+    "RV2_V5_PARKING_TERRACE | 421_north_bend_middle | mesh",
+    "RV2_V5_PARKING_TERRACE | 421_east_south_terrace | mesh",
+    "RV2_V5_PARKING_TERRACE | 779_upper_access_apron | mesh",
+    "RV2_V5_PARKING_TERRACE | 779_main_parking_deck | mesh",
+    "RV2_V5_PARKING_TERRACE | 420_south_lower_arrival | mesh",
+    "RV2_V5_PARKING_TERRACE | 420_middle_landing | mesh",
+    "RV2_V5_PARKING_TERRACE | 420_north_frontage | mesh",
+    "RV2_V5_PARKING_TERRACE | 550_roadside_flat_deck | mesh",
+    "RV2_V5_PARKING_TERRACE | 551_north_entry_cap | mesh",
+    "RV2_V5_PARKING_TERRACE | 551_vertical_parking_rows | mesh",
+    "RV2_V5_PARKING_TERRACE | 551_east_terminal_bays | mesh",
+    "RV2_V5_PARKING_TERRACE | 6599_rotc_frontage_deck | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970314421_1 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970314421_2 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 472263779_1 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970314420_1 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970314420_2 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970315551_1 | mesh",
+    "RV2_V5_PARKING_TRANSITION | 970315551_2 | mesh",
+    "RV2_CENTRAL_FIELD_STAIR | treads and approaches",
+    "RV2_TRACK_closed_red_running_surface",
+    "CAMPUS_TERRAIN | RV2 former entry 141 buried seam support",
+    "CAMPUS_TERRAIN | RV2 former entry 141 local backfill",
+    "CAMPUS_TERRAIN | RV2 former entry 177 buried seam support",
+    "CAMPUS_TERRAIN | RV2 former entry 177 local backfill",
+    "CAMPUS_TERRAIN | RV2 former entry 144 buried seam support",
+    "CAMPUS_TERRAIN | RV2 former entry 144 local backfill",
+    "RV2_ENTRY_CONNECTION | 140 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 160 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 177 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 137 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 148 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 144 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 141 foundation steps and landing",
+    "RV2_ENTRY_CONNECTION | 149 foundation steps and landing",
+    "RV2_STUDENT_UNION | estimated mapped rear steps",
+    "RV2_STUDENT_UNION | landing a_25_4631845727",
+    "RV2_STUDENT_UNION | landing a_25_8745101688",
+    "RV2_STUDENT_UNION | landing a_25_8745101689",
+    "RV2_STUDENT_UNION | landing a_25_8745101690",
+    "RV2_STUDENT_UNION | landing a_34_8745101686",
+    "RV2_HOSPITAL | photo supported paved forecourt",
+    "RV2_HOSPITAL | entrance pedestrian strip",
+    "RV2_HOSPITAL | mapped frontage parking 468689591",
+    "RV2_HOSPITAL_CLEAN_RV2_HOSPITAL | Nammun mapped road 1442612229",
+    "RV2_HOSPITAL_CLEAN_RV2_HOSPITAL | Nammun mapped road 1442759677",
+    "RV2_HOSPITAL_CLEAN_RV2_HOSPITAL | Nammun mapped road 727942650",
+    "RV2_HOSPITAL_CLEAN_RV2_HOSPITAL | Nammun mapped road 477096419",
+    "monument pedestrian stop landing | unified sidewalk pavers",
+    "art pedestrian stop landing | unified sidewalk pavers",
+    "library pedestrian stop landing | unified sidewalk pavers",
+    "engineering2 pedestrian stop landing | unified sidewalk pavers",
+    "law_business pedestrian stop landing | unified sidewalk pavers",
+    "main_north pedestrian stop landing | unified sidewalk pavers",
+    "student_union pedestrian stop landing | unified sidewalk pavers",
+    "social_science pedestrian stop landing | unified sidewalk paver",
+    "city 1149 pedestrian stop landing | unified sidewalk pavers",
+    "city 1150 pedestrian stop landing | unified sidewalk pavers",
+    "RV2_HOSPITAL_WALK | stop 1149 continuous roadside paving | unif",
+    "RV2_HOSPITAL_WALK | stop 1150 continuous roadside paving | unif",
+    "IT approach clipped paving.001",
+    "RV2_POND_Visible terrain with bounded basin excavation boun.002",
+    "INFERRED_GAME_WALK_CONNECTORS | terrain connections, not su.001",
+    "RV2_WALKIF_Inferred connector corrected local treads",
+    "RV2_WALKIF_CIT supported entrance apron | final outdoor pavers"
+  ],
+  "grading_baseline": {
+    "bytes": 377724,
+    "sha256": "1e14345a235ef7b30a98bb47f0b701f800bf3eeab057505072a652668c9ed5be"
+  },
+  "lounge_metadata": {
+    "bytes": 42334,
+    "sha256": "cbf652568995444b3fd619235da55489e7aa2378ff490493fd8253f95093116a"
+  },
+  "entrance_metadata": {
+    "bytes": 71261,
+    "sha256": "52bcd85b894ebf322bd5ec7e49cf99549c8a42ba3fa387eee6a8310a35cc0f75"
+  },
+  "web_texture_materials": {
+    "building": [],
+    "campus": [
+      "RV2_Sidewalk_Pavers_200x100mm"
+    ],
+    "shuttle": []
+  },
+  "runtime_walking_graph": {
+    "bytes": 1021367,
+    "sha256": "1c85e7ba8359e9733d788a71ef1900422dbad89f20051e73c06fc28a14500f26"
+  },
+  "game_integration_code": {
+    "scripts/align-exported-inferred-support.py": {
+      "bytes": 8539,
+      "sha256": "ca2bca275163fdcadee042447736c2a24958b86ba68ecce815fcb19b99a0866a"
+    },
+    "scripts/build-realism.mjs": {
+      "bytes": 12091,
+      "sha256": "156fbfdd75e9837c797e8e3a8f3fbcbdb73bf0cf198e60b2859adff40c087b9d"
+    },
+    "scripts/compress-campus.mjs": {
+      "bytes": 3847,
+      "sha256": "4979453418e8161380ab0b1fbb063781bdb9bd092c8eac06066b5707ff946265"
+    },
+    "scripts/export-source.py": {
+      "bytes": 3422,
+      "sha256": "8586281477455667460d04266363ea12b492941948cf51c9dcd6998718432910"
+    },
+    "scripts/freeze-model-inputs.py": {
+      "bytes": 3091,
+      "sha256": "232bf54fcf558684497c50d74374698f9c2ba0b7d2174cb4261b293b03c69b9f"
+    },
+    "scripts/gltf-cpu-images.mjs": {
+      "bytes": 888,
+      "sha256": "deec205d2570d50ca3a08e41e5b00b3efea014f068aba1947cc7368542a76ba7"
+    },
+    "scripts/integrate-actor-grounding.py": {
+      "bytes": 2403,
+      "sha256": "9f2e0f0374416ae84f1897d32f38c22f3d981aa02ed8c767b519c65a18ff952d"
+    },
+    "scripts/integrate-campus-access.py": {
+      "bytes": 39896,
+      "sha256": "9bf6ce1c547705b157fbb6c82abc7f8a31fbf033c85aa2ce84e29c3a95f29659"
+    },
+    "scripts/integrate-campus.py": {
+      "bytes": 4932,
+      "sha256": "43dd0df92e43ae3266f2bab04f847f4d48170018f21e2b6f0c7f8fe32ceedec5"
+    },
+    "scripts/integrate-entrances.py": {
+      "bytes": 5853,
+      "sha256": "aefa0668e5a10578c65cd48027efa3e244f9e4d6a00746bfe7c8d810b2e8b4c4"
+    },
+    "scripts/integrate-football-goals.py": {
+      "bytes": 1797,
+      "sha256": "fd668118b33cf23819bdd7358098c8d810b7cb4ba6392165038717cd89019183"
+    },
+    "scripts/integrate-garage-exterior.py": {
+      "bytes": 7780,
+      "sha256": "33362da98ee0d5ac86de677b3a95a1deab4a318e2eac696f0338a2529ee298c6"
+    },
+    "scripts/integrate-haeoreum-entrance.py": {
+      "bytes": 3916,
+      "sha256": "0fe76624fb3487da4e994251eb9f582efa6ff830d47b808ccb36caac973f09b2"
+    },
+    "scripts/integrate-hospital-arrival.py": {
+      "bytes": 8604,
+      "sha256": "66a757e397aec41c1616bab5389ec8c9b512609ddda0f36c9902430dfc0a6cbc"
+    },
+    "scripts/integrate-lounge.py": {
+      "bytes": 3616,
+      "sha256": "00d083b64b04988aa33ba11a1d7764edfc2e7fdd017b9c4a6812687ba9f2d675"
+    },
+    "scripts/integrate-lower-paving-retirement.py": {
+      "bytes": 5638,
+      "sha256": "97983eff58eb3727d43573ef18317df37bd48f9d292728943b54a637b6c3c9b7"
+    },
+    "scripts/integrate-parking-terraces.py": {
+      "bytes": 2802,
+      "sha256": "57f9551deabc8c13d2ee0f3a022d0b4033bbdc91f48d67a4ca70bd2c779ae6a1"
+    },
+    "scripts/integrate-parking.py": {
+      "bytes": 1909,
+      "sha256": "2ab08f97a0446e5467a86c4ef061a9a96e9514fd6473c090c7fc8aefdddc3ab7"
+    },
+    "scripts/integrate-pharmacy-entrance.py": {
+      "bytes": 4803,
+      "sha256": "086d87d2b4d465f6e60bcca6b25cb4b398b2b935dae7b2ac958d2cc054a1a423"
+    },
+    "scripts/integrate-pond-entry.py": {
+      "bytes": 3468,
+      "sha256": "b2e3fcec2f230cc8d3dbe76a2a08dcda8f7c2e03149e45af3324a94457a50b83"
+    },
+    "scripts/integrate-pond.py": {
+      "bytes": 3660,
+      "sha256": "5799349e5e98d00e1c6e0f93d189914823c72fed46d6091494a86ec3c3748e2f"
+    },
+    "scripts/integrate-public-spaces.py": {
+      "bytes": 29571,
+      "sha256": "7b4d3d646f7722144bbf35768a9338dbeaf23be74d3a06a34f281dec2dc7c493"
+    },
+    "scripts/integrate-rooftop.py": {
+      "bytes": 4257,
+      "sha256": "048a665ae4059d8505822041c4aaea4cba2f3460fbfc7e281916e4528d113ceb"
+    },
+    "scripts/integrate-rose-endpoint.py": {
+      "bytes": 5540,
+      "sha256": "6665ef63c4aeef223c394b46519ab7196039c0638f5412d8df0267d0cf29138c"
+    },
+    "scripts/integrate-static-vehicle-contract.py": {
+      "bytes": 1193,
+      "sha256": "13683a9b992096a56839ca22381940c1770eb8bcb792b3bd85922d1b20dfe0a2"
+    },
+    "scripts/integrate-stop-walkways.py": {
+      "bytes": 8875,
+      "sha256": "c731f8dacf725f72781d7a8117b76a8181c3dfbfd6e1a9b0465245d0173d7d04"
+    },
+    "scripts/integrate-terrace-drive-alignment.py": {
+      "bytes": 5529,
+      "sha256": "3e87c27b5c79fa8ad4bb54d2eed4a3855bdda8f4689cbfc30b3d3ccd24b4587f"
+    },
+    "scripts/integrate-transit-revision.py": {
+      "bytes": 6162,
+      "sha256": "bb402a89a82b85fd7c605e1adba44607ebd5f96bc830b6e276233a8b348e9f61"
+    },
+    "scripts/integrate-transit.py": {
+      "bytes": 2631,
+      "sha256": "b0ed3dce035769d7c62d62bf4db1858152658222d11055502b203a827f5c1e34"
+    },
+    "scripts/integrate-tree-contract.py": {
+      "bytes": 1174,
+      "sha256": "e5785334ada8b4a74185478e6bd1ea1cc5f9e8ff627a5c25d92eed75fdb78015"
+    },
+    "scripts/integrate-walk-alignments.py": {
+      "bytes": 25509,
+      "sha256": "6ca57b6a86889c2ec886758f74a31e51049f67dd6dd6752a1e5b44632995c66e"
+    },
+    "scripts/model-compression.mjs": {
+      "bytes": 2408,
+      "sha256": "012cd21a80e9bbb6c1e93647ed70681bbd6d44f4f3f16809634dc6667dfa1e4e"
+    },
+    "scripts/model-integration-plan.mjs": {
+      "bytes": 6261,
+      "sha256": "c1cb0e5ccf2cac82fb20a94a504285624af1d980e9f5b1c8dd0da9dab1747f38"
+    },
+    "scripts/prepare-realism-materials.py": {
+      "bytes": 1907,
+      "sha256": "96c4aee3bacd6360f4524db16f4620dc5e868a270dd3b0914830d28065c68900"
+    },
+    "scripts/prepare-transit-route.py": {
+      "bytes": 6582,
+      "sha256": "b84d0537ff3c1be2925bdbb20dbc574ea008c1d27b57141cc8f51a0fda300ba0"
+    },
+    "scripts/probe-walk-failures.py": {
+      "bytes": 6239,
+      "sha256": "a2bcf9b6a8056ad5bbcc0da39eb9429db0df9d44258cd8b158cdb2cea141ac01"
+    },
+    "scripts/reconcile-walk-support.py": {
+      "bytes": 10395,
+      "sha256": "406c196677e455166363794c073f1ab169195d40502cbd4cfd193c8bde715c36"
+    },
+    "scripts/record-provenance.py": {
+      "bytes": 9295,
+      "sha256": "1675e81b8684b911965f1eab1416c6aa55a4e6b373ed2653c7e15158ff43131b"
+    },
+    "scripts/repair_provenance.py": {
+      "bytes": 1370,
+      "sha256": "e0e3acdc11d4f2a01c8be63e0f2500bdd9dc9b81b29ac2bebfb86859b3469f01"
+    },
+    "scripts/road_grade_contract.py": {
+      "bytes": 5959,
+      "sha256": "72f6ae47360b3b443d3bb9cde3a61a5b3a4401dc9d7daf6d8b23eb1617c08375"
+    },
+    "scripts/run-runtime-check.py": {
+      "bytes": 4776,
+      "sha256": "e265e694246ab967317bb4c3c7cb33af089b0880575efe51ac7af90e49e80d9e"
+    },
+    "scripts/sync-actor-heights.mjs": {
+      "bytes": 11429,
+      "sha256": "44debf52469ed4d1d9fd3ba63bafa140459f719d9778b321f801d41c1d78a3ce"
+    },
+    "scripts/sync-grade-revision.py": {
+      "bytes": 9047,
+      "sha256": "e088bce91a24f440f648c395d62ceb5ce3361656a924c0e799281e37440cdb47"
+    },
+    "scripts/verify-assets.py": {
+      "bytes": 2449,
+      "sha256": "02134672f0492cd6952b3d2de19240610d8cd10ccc9a2287c51915474e39b40f"
+    },
+    "scripts/verify-model-inputs.py": {
+      "bytes": 3223,
+      "sha256": "a48169bdf5fa92078f6e99e34d46db7712661050aa4d5db0bb5ed0f8b8ad146e"
+    },
+    "scripts/verify-release.py": {
+      "bytes": 1863,
+      "sha256": "4840a5855a39ae2bbbf1b8f4823f1c325682ddbce733126ee97367516c6c90e3"
+    }
+  },
+  "authoring_phases": {
+    "integration_plan_sha256": "01a79b6824a08406ccc3f70f14de27ccff712ffd5c1c5fdf3ab7738425ff45d3",
+    "bounded_repair_plan_sha256": "5b19c184e84aba1b7cefa9914ba6d7d8e558d97b1bd708241658791c8a31cae3",
+    "bounded_repair_base_native_sha256": "1f1b90d7f527338bcd7a41f8bdc8215825912852d26577700e648fdacb93f66c",
+    "bounded_repair_status": "Saved candidate; independent native/game/render acceptance required"
+  },
+  "rose_endpoint_metadata": {
+    "bytes": 8615,
+    "sha256": "2482a5f33c6cd94f6391fbf1e79415077f0bd9626fa7a535b26706e2cea779ed"
+  },
+  "pond_entry_metadata": {
+    "bytes": 397,
+    "sha256": "3328faadd8146af71711b48424d6833576c8d8da98d5e3e6a1eacfc5cf1de21d"
+  },
+  "terrace_driving_alignment_metadata": {
+    "bytes": 856,
+    "sha256": "5bfea2f44191c1e124a6603c71bb0014eb70bdcc0ae4b6e3ec1da85b2b5b58f9"
+  },
+  "exported_inferred_support_metadata": {
+    "bytes": 82385,
+    "sha256": "dc120de9239e459391cf163937819b2e0f6e5d24f5e4d11ec6734ff2d15cdc73"
+  },
+  "it_lower_paving_retirement_metadata": {
+    "bytes": 485,
+    "sha256": "d33e8de5a3fc95766733ad0da3b7b46a766d29003907d4e84643955ad620a388"
+  },
+  "garage_exterior_navigation_metadata": {
+    "bytes": 55981,
+    "sha256": "04c1cc7e368e4acfeac7e34015ad2551b9532d1eef4e32769239faf0095043dc"
+  },
+  "garage_exterior_integration_metadata": {
+    "bytes": 5467,
+    "sha256": "6708e39457048a7802dae73f5c37e15ed986f93ef577a273b3211b8278472cee"
+  },
+  "garage_road_boundary_metadata": {
+    "bytes": 9160,
+    "sha256": "7b00cdc0a60402986928dddf8b9dcdc151423ea6ec14fddb609a30fc05167284"
+  },
+  "final_walking_metadata": {
+    "bytes": 3609,
+    "sha256": "78fe66023f62146fe189c6639b6c9c94426e842edf17a7db3874db451fbb5bb8"
+  },
+  "actor_grounding_metadata": {
+    "bytes": 7789,
+    "sha256": "7ae848220165062f6d890dce488682729490adf82abe68643781740d82312545"
+  },
+  "parking_terraces_metadata": {
+    "bytes": 10268,
+    "sha256": "35cc0bc62f9c75cd91acf33dad7de9bb795b43243e2f859b975cb99bac99ec71"
+  },
+  "haeoreum_metadata": {
+    "bytes": 472,
+    "sha256": "456c84ff6976ee52339dca2765f87d420a4af2f29261876f4a43b4fa630fd160"
+  },
+  "transit_overlay_metadata": {
+    "bytes": 194778,
+    "sha256": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08"
+  },
+  "public_space_metadata": {
+    "bytes": 4283,
+    "sha256": "d816b2b0791e657c8af0633233bac229a4b40df2a9fe2d7b39b0d95cb59f3eca"
+  },
+  "pharmacy_metadata": {
+    "bytes": 325,
+    "sha256": "699916817c82a7f2e7ea53c944f14420d24ada478bebe6dcefc0929a8c07845a"
+  },
+  "hospital_metadata": {
+    "bytes": 773,
+    "sha256": "f9ee3647b2f8d60a331578c5aad6165f64e55f86b2983a710348f7367c27d086"
+  },
+  "campus_access_metadata": {
+    "bytes": 218376,
+    "sha256": "3d8821a61efe3350228a3fd7f60bc8ef9d39aa4196c29a972dbffa7db39eb70a"
+  },
+  "pond_metadata": {
+    "bytes": 10580,
+    "sha256": "bbb1775e7c83f56232af242a64f4961d6a67529076052fd302946fa28d329a56"
+  },
+  "football_goal_metadata": {
+    "bytes": 288,
+    "sha256": "d6bbf249d4c22f0c790e9ba4d3c151628f532179c81e4d0ea9d3d86566bd4973"
+  },
+  "greenery_metadata": {
+    "bytes": 275,
+    "sha256": "623149774c8c29ff6a321dc73c69e314ca0a84b9b83742a2479bc29e93c33e31"
+  },
+  "static_vehicle_metadata": {
+    "bytes": 363,
+    "sha256": "3c81f062450248146d19ac128c8b9896dc070ca65dfbf04a3a32df4d70647915"
+  },
+  "stop_walkway_metadata": {
+    "bytes": 1877,
+    "sha256": "128d1b40095c31fc247521c27a02ae583b88df07d61370866a2a7ddbb436a2fe"
+  },
+  "runtime_transit_policy": {
+    "notice": "\ud604\uc7ac \uacf5\uc2dd \uc548\ub0b4\uc758 7\uac1c \uc815\ub958\uc7a5 \uc21c\uc11c\ub97c \ucc38\uace0\ud55c \uac8c\uc784\uc6a9 \uc6b4\ud589\uc785\ub2c8\ub2e4. \uc885\uc810 \ud68c\ucc28 \ub3d9\uc120 \ubbf8\ud655\uc778\uc73c\ub85c \ubc18\ubcf5 \uc21c\ud658 \ubbf8\uad6c\ud604. \ub450 \ucc28\ub7c9\uc740 \uc885\uc810 \ub3c4\ucc29 \ud6c4 \uc815\ucc28\ud558\uba70 \uac8c\uc784\uc744 \ub2e4\uc2dc \uc2dc\uc791\ud558\uba74 \ucd08\uae30 \uc6b4\ud589\uc744 \ubcfc \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc815\ub958\uc7a5 \uc88c\ud45c\u00b7\ubc29\ud5a5\u00b7\ud615\uc0c1\uc740 \uadfc\uc0ac \uc7ac\uad6c\uc131\uc774\uba70 \uc2e4\uc2dc\uac04 \uc6b4\ud589 \uc815\ubcf4\uac00 \uc544\ub2d9\ub2c8\ub2e4. \ubc84\uc2a4\ub294 \uae30\uc874 \ub3c4\ub85c \uc911\uc2ec\uc120\uc744 \ub530\ub77c \ub2ec\ub9ac\uace0, \uc5f0\uc11d \uc811\uadfc\uacfc \uc2e4\uc81c \ud0d1\uc2b9 \uc560\ub2c8\uba54\uc774\uc158\uc740 \uad6c\ud604\ud558\uc9c0 \uc54a\uc558\uc2b5\ub2c8\ub2e4.",
+    "terminalNotice": "\uc885\uc810 \ud68c\ucc28 \ub3d9\uc120 \ubbf8\ud655\uc778\uc73c\ub85c \ubc18\ubcf5 \uc21c\ud658 \ubbf8\uad6c\ud604",
+    "routes": [
+      {
+        "id": "main_loop",
+        "terminalStopId": "monument",
+        "repeatCirculation": false,
+        "headingSpanMeters": 6.4
+      }
+    ]
+  }
+}

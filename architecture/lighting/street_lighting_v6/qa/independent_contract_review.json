@@ -1,0 +1,262 @@
+{
+  "status": "PASS_NEW_FROZEN_CONTRACT_REVIEW",
+  "source_native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "fixture_count": 536,
+  "scope": "Independent new-contract arithmetic and independently decoded5360 raw source support points. Original a65 assets are reused. This is not a repeat of all previous model/game/image checks.",
+  "counts_by_kind": {
+    "transit": 10,
+    "stairs": 25,
+    "parking": 46,
+    "road": 310,
+    "walk": 145
+  },
+  "metrics": {
+    "minimum_base_pair_m": 6.344548138832626,
+    "closest_pair": [
+      "STAIRS_024",
+      "WALK_097"
+    ],
+    "whole_fixture_enclosing_xy_radius_m": 1.388128236151113,
+    "minimum_new_fixture_envelope_gap_m": 3.5682916665304,
+    "minimum_legacy_fixture_envelope_gap_m": 0.13580265740357866,
+    "closest_legacy_pair": [
+      "ROAD_128",
+      38,
+      "CAMPUS street lighting"
+    ],
+    "legacy_bound_parts": 152,
+    "ring_rays": 4288,
+    "signed_footing_range_m": [
+      -0.1078431940239728,
+      0.10728842163086227
+    ],
+    "base_bottom_below_sampled_support_min_m": 0.09215680597602721,
+    "head_bottom_above_target_min_by_kind_m": {
+      "transit": 4.810356999999996,
+      "stairs": 3.8810099999999963,
+      "parking": 5.817043000000002,
+      "road": 4.762988,
+      "walk": 3.8756510000000013
+    },
+    "garage_fixture_count": 0,
+    "finite_pool_triangles": 120333,
+    "negative_winding_visual_triangles": 191,
+    "positive_area_vertical_slivers": [
+      {
+        "fixture": "WALK_062",
+        "patch_index": 128,
+        "area_3d_m2": 5.849894427564659e-09,
+        "role": "Positive-area rounded sliver; visual-only pool, not a support floor."
+      },
+      {
+        "fixture": "WALK_069",
+        "patch_index": 125,
+        "area_3d_m2": 5.931787978768672e-07,
+        "role": "Positive-area rounded sliver; visual-only pool, not a support floor."
+      }
+    ]
+  },
+  "mixed_footing_sources": [
+    {
+      "fixture": "WALK_048",
+      "objects": [
+        "RV2_POND_Visible terrain with bounded basin excavation",
+        "RV2_PS_rose_paths_and_circular_plaza"
+      ],
+      "signed_delta_m": [
+        -0.00744593811035088,
+        0.05254978615786143
+      ]
+    },
+    {
+      "fixture": "WALK_091",
+      "objects": [
+        "RV2_POND_Visible terrain with bounded basin excavation",
+        "RV2_PS_rose_paths_and_circular_plaza"
+      ],
+      "signed_delta_m": [
+        -0.09980919585276382,
+        0.00912347957523707
+      ]
+    },
+    {
+      "fixture": "WALK_126",
+      "objects": [
+        "RV2_CENTRAL_FIELD_STAIR | foundation walkable treads and landin",
+        "RV2_POND_Visible terrain with bounded basin excavation"
+      ],
+      "signed_delta_m": [
+        -0.000853248660519057,
+        0.07680436827702408
+      ]
+    }
+  ],
+  "waiting_point_coverage": [
+    {
+      "stop_id": "monument",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_001",
+          "height_delta_m": 0.07000719726562465
+        }
+      ]
+    },
+    {
+      "stop_id": "art",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_006",
+          "height_delta_m": 2.115621100529097e-08
+        }
+      ]
+    },
+    {
+      "stop_id": "library",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_008",
+          "height_delta_m": 6.544738084812707e-08
+        }
+      ]
+    },
+    {
+      "stop_id": "engineering2",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_002",
+          "height_delta_m": 1.9092233962680893e-06
+        }
+      ]
+    },
+    {
+      "stop_id": "law_business",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_007",
+          "height_delta_m": 2.02894837819656e-06
+        }
+      ]
+    },
+    {
+      "stop_id": "main_north",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_009",
+          "height_delta_m": 1.3207031249989898e-05
+        }
+      ]
+    },
+    {
+      "stop_id": "student_union",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_003",
+          "height_delta_m": 3.7860735453421057e-06
+        }
+      ]
+    },
+    {
+      "stop_id": "social_science",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_010",
+          "height_delta_m": 1.753153904715532e-06
+        }
+      ]
+    },
+    {
+      "stop_id": "KJB1430",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_004",
+          "height_delta_m": 2.3621448477229023e-06
+        }
+      ]
+    },
+    {
+      "stop_id": "KJB1431",
+      "actual_finite_patch_hits": [
+        {
+          "fixture": "TRANSIT_005",
+          "height_delta_m": 1.5424134296893044e-05
+        }
+      ]
+    }
+  ],
+  "recovery_limits": [
+    "The unavailable pre-reset manifest46c355c8 is historical only. Equal fixture counts do not establish equal placement or source bytes.",
+    "This newly inspected manifest has120333 positive-area pool triangles; no triangle-set inclusion/identity comparison with the unavailable prior120312 set is claimed."
+  ],
+  "pending_final_evidence": [
+    "Native save/reopen with all7923 original objects, geometry, materials, visibility, hierarchy, existing lights/world/cameras preserved.",
+    "Final fixture-only GLB and addition-only game consumer/capsule/OBB result bound to the new native.",
+    "Three final images bound to installed Blender4.3.2,256samples,denoising=false; prior official OIDN settings do not carry over."
+  ],
+  "limits": [
+    "Footing support is tested at the recorded centre and eight ring points, not every continuum point.",
+    "Existing lamp bounds are finite source geometry portions, not a surveyed lamp count.",
+    "Visual pools require double-sided presentation for inherited downward faces and must stay excluded from walk/drive/collision support.",
+    "Lighting layout,3000K color target and irradiance are inferred visualization choices, not measured installation or safety certification.",
+    "No new native/Node/render process was started by this reviewer."
+  ],
+  "evidence": [
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/placement_freeze.json",
+      "sha256": "873f1bce4fda2554b87975259d071aded673d9aec5c9b3783e7a042855bc6f91"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/contracts/street_lighting_manifest.json",
+      "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/placement_report.json",
+      "sha256": "23abc0a054ac3b415724d0c83f3f3d324bee2445737ea0be6db220680b085d53"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/final_placement_audit.json",
+      "sha256": "96d0cd37810d83371a221c284ce459978e202f9465f5c080d1ba51fbef69cbd3"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/scripts/lighting_core.py",
+      "sha256": "73964595347a0b6e7a0a1705f226a8c80c1406b09eacc4562cb0d2e6d57ad46d"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/scripts/plan_street_lighting.py",
+      "sha256": "8c4a1820e3b09eb824c678173dace158cc2a630ba17442100f439c51532c55c1"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/scripts/audit_lighting_contract.py",
+      "sha256": "b51d26a0909d37abe492090faaf8df03926b8c56dddaef351c265b17ba601ea5"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/independent_recorded_support.json",
+      "sha256": "95ff6e084939ee249811f5fb5440ff6c9063276f9a331c925f561257ac468c0e"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/independent_recorded_support.py",
+      "sha256": "58fe4235e8289676ff33cf7e7738c87e77006f03cdd84f6505037e2e85c25ac8"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/scripts/luminaire_geometry.py",
+      "sha256": "810496f637acfa59ffa420c24e43beb0eacaab7a8d34fa8e2292d4f5c865d172"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/fixture_geometry.json",
+      "sha256": "686cf6d07482a45c2be892fe5747c60b18d39a62ad8b55a1e4a98356737e6de9"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/street_lighting_v6/qa/recovery_algorithm_specification.json",
+      "sha256": "e928cdee3afedbf803b362dd873d3466335689d6b5788ea846c7efd246b5105a"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/native_recovery.json",
+      "sha256": "e9259bef6f7efb6d4ef26b988f7d7a0210a859a1bb4a64a5d226018764b60401"
+    },
+    {
+      "path": "/workspace/shared/chosun_recovered_20261010/glb_recovery.json",
+      "sha256": "211fae6dec0ed89282f20cc7d125d1b3430bec68ed3e51848b64938ff4088894"
+    }
+  ],
+  "script_sha256": "489d86285c5e7677cace991968eeb5ca621d35870fc40a489ea535718e8987ed"
+}

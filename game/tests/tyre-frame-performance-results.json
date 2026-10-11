@@ -1,0 +1,190 @@
+{
+  "passed": true,
+  "scope": "Actual driveStep wall time on four421 slope directions; no GPU/rendering performance claim. Exact physics/contact regression is separately bound.",
+  "inputSha256": {
+    "dist/game.js": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+    "dist/wheel-suspension.js": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3",
+    "dist/assets/campus.glb": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+    "dist/world-config.js": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309",
+    "data/parking-terraces.json": "896672d4f8de987dabe269fd771356f22717a80636843307aa67b82cdec502ed",
+    "scripts/benchmark-car-grounding.mjs": "552b11a4907a60ba702d2e31d233ad57643ef26e4f727596296db3b5c699cf7c",
+    "scripts/road-tyre-face-probe.mjs": "77d0633ea0ac3378986b4a95caf4604ac96d9ea2bf689a7e56af1fe0c92fb3f2"
+  },
+  "results": [
+    {
+      "id": "421_middle_to_east_forward",
+      "frames": 1006,
+      "complete": true,
+      "endpointError": 0.5966511489991403,
+      "meanMS": 8.575638785288417,
+      "medianMS": 7.9579670000021,
+      "p95MS": 11.571861000003992,
+      "maxMS": 50.78672699999879
+    },
+    {
+      "id": "421_middle_to_east_reverse",
+      "frames": 1007,
+      "complete": true,
+      "endpointError": 0.5685973463589709,
+      "meanMS": 8.349165367427895,
+      "medianMS": 7.927579999995942,
+      "p95MS": 11.150064000001294,
+      "maxMS": 37.080971000003046
+    },
+    {
+      "id": "421_front_to_middle_forward",
+      "frames": 682,
+      "complete": true,
+      "endpointError": 0.5823272921720672,
+      "meanMS": 7.92446810410561,
+      "medianMS": 6.368753999995533,
+      "p95MS": 14.840882000004058,
+      "maxMS": 35.80340299999807
+    },
+    {
+      "id": "421_front_to_middle_reverse",
+      "frames": 682,
+      "complete": true,
+      "endpointError": 0.582337748332254,
+      "meanMS": 7.4876186568914855,
+      "medianMS": 6.19539700000314,
+      "p95MS": 10.419715000003634,
+      "maxMS": 38.0832059999957
+    }
+  ],
+  "roadTyreFaceContact": {
+    "scope": "Only forward instances of the three exact previously observed vertex-gap rows; mirrored reverse rows are unchanged evidence in road-grounding. Fine points are queried only where the original vertex gap exceeds3cm.",
+    "poses": 219,
+    "maximumVertexGap": 0.06892686911376344,
+    "maximumFaceGap": 0.024351706107225368,
+    "affectedMeasurements": 4,
+    "rows": [
+      {
+        "route": "southwest_turn",
+        "reverse": false,
+        "lateral": 0.3,
+        "position": [
+          -27.15162559083335,
+          -45.62844696288568,
+          795.6173905850104
+        ],
+        "yaw": -1.7810949665353988,
+        "wheel": "car_wheel_L_front",
+        "vertexGap": 0.036027374676216084,
+        "faceGap": 0.02000088943235312,
+        "contact": {
+          "point": [
+            -25.637846175161982,
+            -45.61207828197896,
+            795.0016843874566
+          ],
+          "surface": "CAMPUS_CONTINUOUS_vehicle_asphalt"
+        },
+        "suspension": {
+          "wheel": "car_wheel_L_front",
+          "offset": 0.024611388763853867,
+          "requestedOffset": 0.024611388763853867,
+          "residualGap": 0.02000088943235312,
+          "limited": false,
+          "missing": false,
+          "samples": 1216
+        }
+      },
+      {
+        "route": "hospital_turn",
+        "reverse": false,
+        "lateral": -0.3,
+        "position": [
+          233.61596321508327,
+          -31.975359204618613,
+          458.2385888713706
+        ],
+        "yaw": -2.1893745051416604,
+        "wheel": "car_wheel_L_front",
+        "vertexGap": 0.06892686911376344,
+        "faceGap": 0.02000408708994783,
+        "contact": {
+          "point": [
+            234.99221659097097,
+            -31.634365385377286,
+            458.2238148273259
+          ],
+          "surface": "CAMPUS_CONTINUOUS_vehicle_asphalt"
+        },
+        "suspension": {
+          "wheel": "car_wheel_L_front",
+          "offset": 0.06565262185765466,
+          "requestedOffset": 0.06565262185765466,
+          "residualGap": 0.02000408708994783,
+          "limited": false,
+          "missing": false,
+          "samples": 1176
+        }
+      },
+      {
+        "route": "hospital_turn",
+        "reverse": false,
+        "lateral": -0.3,
+        "position": [
+          233.66857110124937,
+          -31.97817706261364,
+          458.28636445876026
+        ],
+        "yaw": -2.4268119600156837,
+        "wheel": "car_wheel_L_front",
+        "vertexGap": 0.04694724732795308,
+        "faceGap": 0.01966089459562781,
+        "contact": {
+          "point": [
+            235.00551967232477,
+            -31.634349967514574,
+            458.59791675233686
+          ],
+          "surface": "CAMPUS_CONTINUOUS_vehicle_asphalt"
+        },
+        "suspension": {
+          "wheel": "car_wheel_L_front",
+          "offset": 0.03715667890922044,
+          "requestedOffset": 0.03715667890922044,
+          "residualGap": 0.01966089459562781,
+          "limited": false,
+          "missing": false,
+          "samples": 1176
+        }
+      },
+      {
+        "route": "hospital_fork",
+        "reverse": false,
+        "lateral": 0,
+        "position": [
+          322.0382,
+          -27.555381974266446,
+          617.9562
+        ],
+        "yaw": -0.20694374030357077,
+        "wheel": "car_wheel_L_rear",
+        "vertexGap": 0.034480834645911784,
+        "faceGap": 0.02000792586976985,
+        "contact": {
+          "point": [
+            320.91573316669553,
+            -27.69080175709776,
+            619.0930894191254
+          ],
+          "surface": "CAMPUS_CONTINUOUS_vehicle_asphalt"
+        },
+        "suspension": {
+          "wheel": "car_wheel_L_rear",
+          "offset": -0.012071539787828734,
+          "requestedOffset": -0.012071539787828734,
+          "residualGap": 0.02000792586976985,
+          "limited": false,
+          "missing": false,
+          "samples": 906
+        }
+      }
+    ],
+    "pass": true,
+    "method": "Exact current pose, unchanged original tyre triangle face points (4 subdivisions), against visible GLB finite triangles; measurement only, no pose/support modification."
+  }
+}

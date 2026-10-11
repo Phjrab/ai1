@@ -1,0 +1,5 @@
+{
+  "beforeSha256": "6bc5e526e16eb1b4e40f339aab6003d2c2b123ca2b392bc85227b4d60dd133e7",
+  "afterSha256": "cd82c015fd82d132fbc9855e4837bab1bc63f532a46cccf32586425369a440cf",
+  "reason": "Use registered runtime car and authored1.84mtrack; do not overwrite actual fit with old manual1.80mplane. Physics/assets unchanged."
+}

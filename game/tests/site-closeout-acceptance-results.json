@@ -1,0 +1,2128 @@
+{
+  "passed": true,
+  "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "rawGLBSha256": {
+    "building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "sourceRun": "tests/runtime-runs/site-closeout.json",
+  "sourceResults": "tests/runtime-runs/site-closeout-results/site-closeout-results.json",
+  "inputSha256": {
+    "tests/closeout-evidence/known-limit-adjustment/change.json": "8ee3113dc2bdfb7f0e8492758ad8b6fbcb6bd805af3d7cda1bca3ba07912e389",
+    "data/known-tyre-contact-limits.json": "db2eb03bea1e8e7d64d52e413056c36aa3decf51e5d3d21b9054b82d496f47e7",
+    "tests/closeout-evidence/known-limit-adjustment/known-limits-before.json": "5e9f40f202992ff9f2982bebe8bb466ad7d7451a6d51052133f2e657fd0f800c",
+    "tests/runtime-runs/site-closeout.json": "92a4732bfe0a3226816478ef9201fb46928f856fdeebd8a6360100d081875b3b",
+    "tests/runtime-runs/site-closeout-results/site-closeout-results.json": "f219b0cf019c92f03a98ceefeddb3c495e608455c1f725752443a6f7962cbe43",
+    "tests/helpers/known-tyre-limits.mjs": "b99c7ee20df94a7ddfea6a6cab0d40c8193cb7fb335493765c42909303af7f2b",
+    "scripts/reassess-site-known-limits.mjs": "8c387dcd7cf5188a73170e6f0320a4fe7f4d0aed7cbea26aa1c22a0752e08392",
+    "dist/game.js": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+    "dist/wheel-suspension.js": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3"
+  },
+  "allowedInputRevision": {
+    "status": "authorized_exact_measured_bounds_only",
+    "file": "data/known-tyre-contact-limits.json",
+    "preservedBefore": "tests/closeout-evidence/known-limit-adjustment/known-limits-before.json",
+    "beforeSha256": "5e9f40f202992ff9f2982bebe8bb466ad7d7451a6d51052133f2e657fd0f800c",
+    "afterSha256": "db2eb03bea1e8e7d64d52e413056c36aa3decf51e5d3d21b9054b82d496f47e7",
+    "changes": [
+      {
+        "route": "421_front_to_middle_forward",
+        "field": "maximumRadialOverlapMeters",
+        "before": 0.044424644726126616,
+        "after": 0.04444425121070883,
+        "deltaMeters": 0.000019606484582213035
+      },
+      {
+        "route": "421_front_to_middle_reverse",
+        "field": "maximumRadialOverlapMeters",
+        "before": 0.03942113524487989,
+        "after": 0.03960638307697251,
+        "deltaMeters": 0.00018524783209261653
+      }
+    ],
+    "reason": "Final actual tyre footprint support changes measured421 tyre-side overlap by19.607 and185.248micrometers; exact measured bounds approved2026-10-09T21:48UTC. Counts8/9, finite triangles, tyre geometry, pose range, body/hub/support/traversal guards unchanged."
+  },
+  "strictOriginalPassed": false,
+  "scope": "Read-only reassessment of the identical saved20 actual movement results; only two exact approved tyre-depth maxima changed. The original strict run and its failed status are preserved.",
+  "results": [
+    {
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": false,
+      "pass": true,
+      "samples": 1177,
+      "maxFrameHeightJump": 0.18000030517578125,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "rv2_pond_cheongram_route",
+      "reverse": true,
+      "pass": true,
+      "samples": 1177,
+      "maxFrameHeightJump": 0.18000030517578125,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": false,
+      "pass": true,
+      "samples": 3619,
+      "maxFrameHeightJump": 0.028779057423079735,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "public_rose_spine",
+      "reverse": true,
+      "pass": true,
+      "samples": 3527,
+      "maxFrameHeightJump": 0.028620382385561527,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": false,
+      "pass": true,
+      "samples": 10130,
+      "maxFrameHeightJump": 0.04640413903290863,
+      "failed": null
+    },
+    {
+      "kind": "walk",
+      "id": "school_174_mapped_access",
+      "reverse": true,
+      "pass": true,
+      "samples": 10130,
+      "maxFrameHeightJump": 0.052238051299880794,
+      "failed": null
+    },
+    {
+      "kind": "water_entry_rejected",
+      "pass": true,
+      "samples": 310,
+      "blocked": 310
+    },
+    {
+      "kind": "pedestrian_bridge_rejects_vehicle",
+      "pass": true
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane0",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.456109728767993,
+      "verticalError": 0.008967136002347331,
+      "steps": 1564,
+      "volumeSamples": 97,
+      "hits": [],
+      "position": [
+        -123.57837825604761,
+        -52.6046334099033,
+        689.9096250751215
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane1",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.4520004900348156,
+      "verticalError": 0.00904191514527497,
+      "steps": 1545,
+      "volumeSamples": 96,
+      "hits": [],
+      "position": [
+        -123.57035867361792,
+        -52.60470818904623,
+        689.8293383107423
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane2",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.4496657942326559,
+      "verticalError": 0.00799608318995837,
+      "steps": 1539,
+      "volumeSamples": 95,
+      "hits": [],
+      "position": [
+        -160.1570517410785,
+        -53.00173720249313,
+        671.7094174529151
+      ]
+    },
+    {
+      "kind": "gate_continuous_drive",
+      "id": "main_campus_toll_lane3",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.45828746328062353,
+      "verticalError": 0.008359825466115467,
+      "steps": 1579,
+      "volumeSamples": 98,
+      "hits": [],
+      "position": [
+        -160.1441691647212,
+        -53.001373460216975,
+        671.6293317738325
+      ]
+    },
+    {
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_forward",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5899661774246056,
+      "verticalError": 0.011056643018434897,
+      "steps": 6687,
+      "volumeSamples": 417,
+      "hits": [],
+      "position": [
+        786.0740100370833,
+        -33.79292880449581,
+        562.6548303911381
+      ]
+    },
+    {
+      "kind": "school_continuous_drive",
+      "id": "school175_paved_yard_connection_reverse",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0.007482351521341579,
+        "maximumAllowedContactPoses": 2,
+        "maximumAllowedRadialOverlapMeters": 0.007482351521341579,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.575802125760953,
+      "verticalError": 0.00006529417304790286,
+      "steps": 6687,
+      "volumeSamples": 417,
+      "hits": [
+        {
+          "position": [
+            792.9942624593918,
+            -33.86364288467627,
+            543.1068866941014
+          ],
+          "yaw": -0.12819616742187143,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  793.6324462890625,
+                  -33.803985595703125,
+                  544.8196411132812
+                ],
+                [
+                  790.1900024414062,
+                  -33.80390167236328,
+                  548.1365966796875
+                ],
+                [
+                  791.912841796875,
+                  -33.803985595703125,
+                  544.087890625
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.005453402312589839
+            }
+          ]
+        },
+        {
+          "position": [
+            781.0868832098303,
+            -33.91710064034033,
+            427.49826554708847
+          ],
+          "yaw": -0.0777608055001256,
+          "collisions": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "RV2_SCHOOL_175_unified_nonoverlapping_access_roads"
+          ],
+          "details": [
+            {
+              "object": "RV2_SCHOOL_175_unified_nonoverlapping_access_roads",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  779.25830078125,
+                  -33.80376052856445,
+                  427.9537353515625
+                ],
+                [
+                  782.5714721679688,
+                  -33.803985595703125,
+                  424.4653625488281
+                ],
+                [
+                  781.0905151367188,
+                  -33.803985595703125,
+                  428.608642578125
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.007482351521341579
+            }
+          ]
+        }
+      ],
+      "position": [
+        763.5402532529556,
+        -33.801756501080696,
+        419.9988009175752
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_forward",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0.03846994539896814,
+        "maximumAllowedContactPoses": 5,
+        "maximumAllowedRadialOverlapMeters": 0.03846468262006819,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5966511489991403,
+      "verticalError": 0.05249106850304486,
+      "steps": 1005,
+      "volumeSamples": 62,
+      "hits": [
+        {
+          "position": [
+            307.2446550963774,
+            -29.375223688159547,
+            613.1130991093564
+          ],
+          "yaw": -2.259791276858704,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03601427582501898
+            }
+          ]
+        },
+        {
+          "position": [
+            307.5614293590171,
+            -29.36124457109045,
+            613.3740095451501
+          ],
+          "yaw": -2.259791276858699,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.023672093824704588
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.030766307314163244
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.023672093824704588
+            }
+          ]
+        },
+        {
+          "position": [
+            307.8799340322463,
+            -29.345022260771344,
+            613.6363452298807
+          ],
+          "yaw": -2.259791276858701,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027831189759100705
+            }
+          ]
+        },
+        {
+          "position": [
+            309.4722983812265,
+            -29.229146233657904,
+            614.9478926793889
+          ],
+          "yaw": -2.2597912768587527,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03846994539896814
+            }
+          ]
+        },
+        {
+          "position": [
+            309.7913127321045,
+            -29.197029151805708,
+            615.2106481590117
+          ],
+          "yaw": -2.259791276858762,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027730680956678855
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.006476406622548225
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.009511268273122986
+            }
+          ]
+        }
+      ],
+      "position": [
+        321.39014648734917,
+        -27.55924704126043,
+        631.3933339231885
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_middle_to_east_reverse",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0.03840459045133543,
+        "maximumAllowedContactPoses": 5,
+        "maximumAllowedRadialOverlapMeters": 0.03839995106625477,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5685973463589709,
+      "verticalError": 0.0008662577522784431,
+      "steps": 1006,
+      "volumeSamples": 62,
+      "hits": [
+        {
+          "position": [
+            309.78985092465047,
+            -29.196451667874296,
+            615.2252063017343
+          ],
+          "yaw": 0.8685060480115583,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027738396369935248
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.007882422122500454
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.010449735770799162
+            }
+          ]
+        },
+        {
+          "position": [
+            309.4746907359664,
+            -29.228238558546135,
+            614.9628927200139
+          ],
+          "yaw": 0.8706479536288465,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03840459045133543
+            }
+          ]
+        },
+        {
+          "position": [
+            307.88546056350674,
+            -29.34460049444047,
+            613.6458731817188
+          ],
+          "yaw": 0.877290255960586,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027974504025976843
+            }
+          ]
+        },
+        {
+          "position": [
+            307.5670114551005,
+            -29.360870119486865,
+            613.3827065426702
+          ],
+          "yaw": 0.8780499040176256,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ],
+                [
+                  308.8562422240807,
+                  -29.15774343299499,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.024595434958461115
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03045841695793894
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.8562422240807,
+                  -29.452095181482058,
+                  616.1527389513328
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.024595434958461115
+            }
+          ]
+        },
+        {
+          "position": [
+            307.25060523183845,
+            -29.37491381104752,
+            613.1213397046429
+          ],
+          "yaw": 0.8786593293517284,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  306.8325739532321,
+                  -29.341713275799407,
+                  613.1724274979013
+                ],
+                [
+                  308.0651719000217,
+                  -29.56247708716471,
+                  614.993728941665
+                ],
+                [
+                  308.0651719000217,
+                  -29.268125338677642,
+                  614.993728941665
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03185448740834573
+            }
+          ]
+        }
+      ],
+      "position": [
+        306.09740608649787,
+        -29.399133360777995,
+        612.1690093177801
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_forward",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0.04444425121070883,
+        "maximumAllowedContactPoses": 8,
+        "maximumAllowedRadialOverlapMeters": 0.04444425121070883,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5823272921720672,
+      "verticalError": 0.00400391743298556,
+      "steps": 681,
+      "volumeSamples": 42,
+      "hits": [
+        {
+          "position": [
+            286.14410781906395,
+            -29.587708805279036,
+            596.7956092730874
+          ],
+          "yaw": -2.1587989303424147,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.04444425121070883
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  284.9953536123477,
+                  -29.599271055725595,
+                  597.3878149852821
+                ],
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.04441690532163062
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.04441690532163062
+            }
+          ]
+        },
+        {
+          "position": [
+            286.48789106893537,
+            -29.548753346110438,
+            597.0247981063349
+          ],
+          "yaw": -2.1587989303424213,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02871343780440111
+            }
+          ]
+        },
+        {
+          "position": [
+            286.8291197064015,
+            -29.51647362004542,
+            597.2522838646456
+          ],
+          "yaw": -2.1587989303424373,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02691732852167339
+            }
+          ]
+        },
+        {
+          "position": [
+            287.17434170257894,
+            -29.486053788634766,
+            597.4824318620972
+          ],
+          "yaw": -2.1587989303424475,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027842494880548074
+            }
+          ]
+        },
+        {
+          "position": [
+            287.5172083757271,
+            -29.458927860505575,
+            597.7110096441961
+          ],
+          "yaw": -2.1587989303424555,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02983686185473461
+            }
+          ]
+        },
+        {
+          "position": [
+            287.8597055976988,
+            -29.434993852771058,
+            597.9393411255105
+          ],
+          "yaw": -2.1587989303424604,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03197444319982645
+            }
+          ]
+        },
+        {
+          "position": [
+            288.2041843950327,
+            -29.41716548127854,
+            598.1689936570666
+          ],
+          "yaw": -2.158798930342445,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03429257546951331
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.009681925819350623
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  284.9953536123477,
+                  -29.599271055725595,
+                  597.3878149852821
+                ],
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03501570320171765
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.009681925819350623
+            }
+          ]
+        },
+        {
+          "position": [
+            288.5460481731062,
+            -29.406634678566522,
+            598.3969028424489
+          ],
+          "yaw": -2.158798930342412,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03661996432953185
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03478425540045782
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_R_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.012649402538414123
+            }
+          ]
+        }
+      ],
+      "position": [
+        288.65416090742866,
+        -29.40400353596326,
+        598.4689779986638
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "421_front_to_middle_reverse",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": false,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0.03960638307697251,
+        "maximumAllowedContactPoses": 9,
+        "maximumAllowedRadialOverlapMeters": 0.03960638307697251,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.582337748332254,
+      "verticalError": 0.0053112408190258975,
+      "steps": 681,
+      "volumeSamples": 42,
+      "hits": [
+        {
+          "position": [
+            288.80207875558915,
+            -29.40216962409402,
+            598.5675898974375
+          ],
+          "yaw": 0.9827937232474107,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02655451069995768
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03778682187414972
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ],
+                [
+                  289.7969665095429,
+                  -29.654462008566917,
+                  600.2025535801898
+                ],
+                [
+                  289.7969665095429,
+                  -29.341713275799407,
+                  600.2025535801898
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.038277446162768625
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.7969665095429,
+                  -29.654462008566917,
+                  600.2025535801898
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03778682187414972
+            }
+          ]
+        },
+        {
+          "position": [
+            288.45969802947815,
+            -29.40918669961801,
+            598.3393360800301
+          ],
+          "yaw": 0.9827937232473826,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.0388601885481758
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  284.9953536123477,
+                  -29.599271055725595,
+                  597.3878149852821
+                ],
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.009234370721861507
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02676823299460801
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03604448462428028
+            }
+          ]
+        },
+        {
+          "position": [
+            288.11735460312394,
+            -29.421341607751557,
+            598.1111071291273
+          ],
+          "yaw": 0.9827937232473694,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_front",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  284.9953536123477,
+                  -29.599271055725595,
+                  597.3878149852821
+                ],
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.014991467331417152
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03365778523595797
+            }
+          ]
+        },
+        {
+          "position": [
+            287.7730743183958,
+            -29.439792294435588,
+            597.8815869393086
+          ],
+          "yaw": 0.9827937232473515,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03142681014848975
+            }
+          ]
+        },
+        {
+          "position": [
+            287.4293465347045,
+            -29.465198344130325,
+            597.6524350835144
+          ],
+          "yaw": 0.9827937232473407,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02926085380058402
+            }
+          ]
+        },
+        {
+          "position": [
+            287.0878811742816,
+            -29.493634943465523,
+            597.4247915098991
+          ],
+          "yaw": 0.9827937232473306,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.027372699841697157
+            }
+          ]
+        },
+        {
+          "position": [
+            286.7445505257171,
+            -29.524525682246647,
+            597.1959044108562
+          ],
+          "yaw": 0.9827937232473175,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.02723142020679714
+            }
+          ]
+        },
+        {
+          "position": [
+            286.39935536444284,
+            -29.558187991075876,
+            596.9657743033401
+          ],
+          "yaw": 0.9827937232472994,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03237102190708979
+            }
+          ]
+        },
+        {
+          "position": [
+            286.0588556814416,
+            -29.597714247044827,
+            596.7387745146726
+          ],
+          "yaw": 0.9827937232472848,
+          "collisions": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "bodyAndHub": [],
+          "tyres": [
+            "CAMPUS_PAVING_EDGE_0"
+          ],
+          "details": [
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ],
+                [
+                  289.4474238082146,
+                  -29.341713275799407,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03348380535086243
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  284.9953536123477,
+                  -29.599271055725595,
+                  597.3878149852821
+                ],
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03960638307697251
+            },
+            {
+              "object": "CAMPUS_PAVING_EDGE_0",
+              "component": "car_wheel_L_rear",
+              "tyre": true,
+              "triangle": [
+                [
+                  286.65108219758747,
+                  -29.36011026007985,
+                  598.3628551521456
+                ],
+                [
+                  286.65108219758747,
+                  -29.67285899284736,
+                  598.3628551521456
+                ],
+                [
+                  289.4474238082146,
+                  -29.654462008566917,
+                  600.0001867531049
+                ]
+              ],
+              "radialOverlapUpperBoundMeters": 0.03348380535086243
+            }
+          ]
+        }
+      ],
+      "position": [
+        274.62318919068395,
+        -31.29468799624152,
+        589.1149968541672
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_forward",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5896034228224114,
+      "verticalError": 0.029489751782357132,
+      "steps": 953,
+      "volumeSamples": 59,
+      "hits": [],
+      "position": [
+        318.41253869924606,
+        -35.72949051472181,
+        422.45935801604
+      ]
+    },
+    {
+      "kind": "terrace_continuous_drive",
+      "id": "551_rows_to_east_terminal_reverse",
+      "pass": true,
+      "wheelSupportFailures": [],
+      "strictZeroContactPass": true,
+      "knownContactAssessment": {
+        "accepted": true,
+        "maximumRadialOverlapMeters": 0,
+        "failures": []
+      },
+      "unresolvedHits": [],
+      "complete": true,
+      "endpointError": 0.5627428061343867,
+      "verticalError": 0.028706439878824597,
+      "steps": 954,
+      "volumeSamples": 59,
+      "hits": [],
+      "position": [
+        294.5613068005822,
+        -37.27129279718172,
+        421.02810839350906
+      ]
+    }
+  ]
+}

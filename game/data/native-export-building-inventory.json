@@ -1,0 +1,2482 @@
+{
+  "collections": [
+    "CHOSUN | Building — original reconstruction"
+  ],
+  "coordinate_system": "Blender worldZ-up metres; matrix_world is row-major4x4",
+  "objects": [
+    {
+      "name": "01 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -166.40895080566406,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -148.59104919433594,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "01 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -166.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -149.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "01 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -166.31089782714844,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        -148.68910217285156,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "02 | L gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -149.4042205810547,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -120.59578704833984,
+        17.639999389648438,
+        32.49058532714844
+      ]
+    },
+    {
+      "name": "02 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -149.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -121.0,
+        17.0,
+        21.545000076293945
+      ]
+    },
+    {
+      "name": "02 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -149.3104248046875,
+        -0.3499999940395355,
+        21.899999618530273
+      ],
+      "bounds_max": [
+        -120.6895751953125,
+        17.350000381469727,
+        32.65999984741211
+      ]
+    },
+    {
+      "name": "03 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -121.40894317626953,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -103.59105682373047,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "03 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -121.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -104.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "03 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -121.31089782714844,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        -103.68910217285156,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "04 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -104.4106216430664,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -88.9893798828125,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "04 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -104.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -89.4000015258789,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "04 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -104.31106567382812,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        -89.08893585205078,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "05 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -89.81061553955078,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -74.3893814086914,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "05 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -89.4000015258789,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -74.80000305175781,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "05 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -89.7110595703125,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        -74.48893737792969,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "06 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -75.21061706542969,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -59.78937911987305,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "06 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -74.80000305175781,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -60.20000076293945,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "06 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -75.1110610961914,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        -59.888938903808594,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "07 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -60.61062240600586,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -45.18937683105469,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "07 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -60.20000076293945,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -45.599998474121094,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "07 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -60.51106262207031,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        -45.288936614990234,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "08 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -46.010623931884766,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -30.589378356933594,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "08 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -45.599998474121094,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -31.0,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "08 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -45.91106414794922,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        -30.68893814086914,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "09 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -31.4089412689209,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        -13.591057777404785,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "09 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -31.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        -14.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "09 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -31.310894012451172,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        -13.689105987548828,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "10 | C gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -14.400288581848145,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        14.400288581848145,
+        17.639999389648438,
+        28.293413162231445
+      ]
+    },
+    {
+      "name": "10 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -14.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        14.0,
+        17.0,
+        17.94499969482422
+      ]
+    },
+    {
+      "name": "10 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -14.310029029846191,
+        -0.3499999940395355,
+        18.299999237060547
+      ],
+      "bounds_max": [
+        14.310029029846191,
+        17.350000381469727,
+        28.459999084472656
+      ]
+    },
+    {
+      "name": "11 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        13.591057777404785,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        31.4089412689209,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "11 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        14.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        31.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "11 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        13.689105987548828,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        31.310894012451172,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "12 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        30.589378356933594,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        46.010623931884766,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "12 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        31.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        45.599998474121094,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "12 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        30.68893814086914,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        45.91106414794922,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "13 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        45.18937683105469,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        60.61062240600586,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "13 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        45.599998474121094,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        60.20000076293945,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "13 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        45.288936614990234,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        60.51106262207031,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "14 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        59.78937911987305,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        75.21061706542969,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "14 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        60.20000076293945,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        74.80000305175781,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "14 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        59.888938903808594,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        75.1110610961914,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "15 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        74.3893814086914,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        89.81061553955078,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "15 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        74.80000305175781,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        89.4000015258789,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "15 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        74.48893737792969,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        89.7110595703125,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "16 | S gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        88.9893798828125,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        104.4106216430664,
+        17.639999389648438,
+        17.285600662231445
+      ]
+    },
+    {
+      "name": "16 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        89.4000015258789,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        104.0,
+        17.0,
+        10.744999885559082
+      ]
+    },
+    {
+      "name": "16 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        89.08893585205078,
+        -0.3499999940395355,
+        11.100000381469727
+      ],
+      "bounds_max": [
+        104.31106567382812,
+        17.350000381469727,
+        17.459999084472656
+      ]
+    },
+    {
+      "name": "17 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        103.59105682373047,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        121.40894317626953,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "17 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        104.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        121.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "17 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        103.68910217285156,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        121.31089782714844,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "18 | L gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        120.59578704833984,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        149.4042205810547,
+        17.639999389648438,
+        32.49058532714844
+      ]
+    },
+    {
+      "name": "18 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        121.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        149.0,
+        17.0,
+        21.545000076293945
+      ]
+    },
+    {
+      "name": "18 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        120.6895751953125,
+        -0.3499999940395355,
+        21.899999618530273
+      ],
+      "bounds_max": [
+        149.3104248046875,
+        17.350000381469727,
+        32.65999984741211
+      ]
+    },
+    {
+      "name": "19 | M gable | walls and fenestration",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        148.59104919433594,
+        -0.6399999856948853,
+        0.0
+      ],
+      "bounds_max": [
+        166.40895080566406,
+        17.639999389648438,
+        21.686954498291016
+      ]
+    },
+    {
+      "name": "19 | conceptual floor plates and rooms",
+      "type": "MESH",
+      "collections": [
+        "03 INTERIOR | CONCEPTUAL unsurveyed layouts"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        149.0,
+        0.0,
+        -0.05000000074505806
+      ],
+      "bounds_max": [
+        166.0,
+        17.0,
+        14.345000267028809
+      ]
+    },
+    {
+      "name": "19 | pitched roof and seams",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        148.68910217285156,
+        -0.3499999940395355,
+        14.699999809265137
+      ],
+      "bounds_max": [
+        166.31089782714844,
+        17.350000381469727,
+        21.860000610351562
+      ]
+    },
+    {
+      "name": "CORRIDOR EXEMPLAR | grey dado, terrazzo, wood frames",
+      "type": "MESH",
+      "collections": [
+        "04 CORRIDOR EXEMPLAR | public photo-based finishes"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -12.02750015258789,
+        0.4749999940395355,
+        0.11999999731779099
+      ],
+      "bounds_max": [
+        12.02750015258789,
+        3.9075000286102295,
+        3.4549999237060547
+      ]
+    },
+    {
+      "name": "EAST | rounded annex",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        166.0,
+        -1.2100000381469727,
+        0.0
+      ],
+      "bounds_max": [
+        187.7100067138672,
+        18.209999084472656,
+        18.549999237060547
+      ]
+    },
+    {
+      "name": "ENTRANCE_B_149 | professor_annex_main",
+      "type": "MESH",
+      "collections": [
+        "ENTRANCE_B_149 | verified-location doors"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -185.76913452148438,
+        -4.266047477722168,
+        0.07500000298023224
+      ],
+      "bounds_max": [
+        -179.40353393554688,
+        1.159529209136963,
+        3.7200000286102295
+      ]
+    },
+    {
+      "name": "MAIN | canopy entrance",
+      "type": "MESH",
+      "collections": [
+        "05 ENTRANCES | photographed architectural details"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -3.8299999237060547,
+        -7.664999961853027,
+        -0.3149999976158142
+      ],
+      "bounds_max": [
+        3.8299999237060547,
+        0.44999998807907104,
+        6.900000095367432
+      ]
+    },
+    {
+      "name": "Roof drainage and simplified service details",
+      "type": "MESH",
+      "collections": [
+        "02 ROOFS | pitched forms and simplified services"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -180.52000427246094,
+        -0.05999999865889549,
+        0.0
+      ],
+      "bounds_max": [
+        179.52000427246094,
+        11.649999618530273,
+        21.75
+      ]
+    },
+    {
+      "name": "WEST | rounded annex",
+      "type": "MESH",
+      "collections": [
+        "01 EXTERIOR | photo-based proportions"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -187.7100067138672,
+        -1.2100000381469727,
+        0.0
+      ],
+      "bounds_max": [
+        -166.0,
+        18.209999084472656,
+        18.549999237060547
+      ]
+    },
+    {
+      "name": "WING | canopy entrance",
+      "type": "MESH",
+      "collections": [
+        "05 ENTRANCES | photographed architectural details"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        -138.8300018310547,
+        -7.664999961853027,
+        -0.3149999976158142
+      ],
+      "bounds_max": [
+        -131.1699981689453,
+        0.44999998807907104,
+        6.900000095367432
+      ]
+    },
+    {
+      "name": "WING | canopy entrance.001",
+      "type": "MESH",
+      "collections": [
+        "05 ENTRANCES | photographed architectural details"
+      ],
+      "game_export": null,
+      "entrance_connection": false,
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bounds_min": [
+        131.1699981689453,
+        -7.664999961853027,
+        -0.3149999976158142
+      ],
+      "bounds_max": [
+        138.8300018310547,
+        0.44999998807907104,
+        6.900000095367432
+      ]
+    }
+  ],
+  "raw_glb_mesh_nodes": [
+    "01 | M gable | walls and fenestration",
+    "01 | conceptual floor plates and rooms",
+    "01 | pitched roof and seams",
+    "02 | L gable | walls and fenestration",
+    "02 | conceptual floor plates and rooms",
+    "02 | pitched roof and seams",
+    "03 | M gable | walls and fenestration",
+    "03 | conceptual floor plates and rooms",
+    "03 | pitched roof and seams",
+    "04 | S gable | walls and fenestration",
+    "04 | conceptual floor plates and rooms",
+    "04 | pitched roof and seams",
+    "05 | S gable | walls and fenestration",
+    "05 | conceptual floor plates and rooms",
+    "05 | pitched roof and seams",
+    "06 | S gable | walls and fenestration",
+    "06 | conceptual floor plates and rooms",
+    "06 | pitched roof and seams",
+    "07 | S gable | walls and fenestration",
+    "07 | conceptual floor plates and rooms",
+    "07 | pitched roof and seams",
+    "08 | S gable | walls and fenestration",
+    "08 | conceptual floor plates and rooms",
+    "08 | pitched roof and seams",
+    "09 | M gable | walls and fenestration",
+    "09 | conceptual floor plates and rooms",
+    "09 | pitched roof and seams",
+    "10 | C gable | walls and fenestration",
+    "10 | conceptual floor plates and rooms",
+    "10 | pitched roof and seams",
+    "11 | M gable | walls and fenestration",
+    "11 | conceptual floor plates and rooms",
+    "11 | pitched roof and seams",
+    "12 | S gable | walls and fenestration",
+    "12 | conceptual floor plates and rooms",
+    "12 | pitched roof and seams",
+    "13 | S gable | walls and fenestration",
+    "13 | conceptual floor plates and rooms",
+    "13 | pitched roof and seams",
+    "14 | S gable | walls and fenestration",
+    "14 | conceptual floor plates and rooms",
+    "14 | pitched roof and seams",
+    "15 | S gable | walls and fenestration",
+    "15 | conceptual floor plates and rooms",
+    "15 | pitched roof and seams",
+    "16 | S gable | walls and fenestration",
+    "16 | conceptual floor plates and rooms",
+    "16 | pitched roof and seams",
+    "17 | M gable | walls and fenestration",
+    "17 | conceptual floor plates and rooms",
+    "17 | pitched roof and seams",
+    "18 | L gable | walls and fenestration",
+    "18 | conceptual floor plates and rooms",
+    "18 | pitched roof and seams",
+    "19 | M gable | walls and fenestration",
+    "19 | conceptual floor plates and rooms",
+    "19 | pitched roof and seams",
+    "CORRIDOR EXEMPLAR | grey dado, terrazzo, wood frames",
+    "EAST | rounded annex",
+    "ENTRANCE_B_149 | professor_annex_main",
+    "MAIN | canopy entrance",
+    "Roof drainage and simplified service details",
+    "WEST | rounded annex",
+    "WING | canopy entrance",
+    "WING | canopy entrance.001"
+  ],
+  "required_game_object_count": 0,
+  "missing_meshes": []
+}

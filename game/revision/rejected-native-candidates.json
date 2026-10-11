@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "reason": "Native author confirmed preservation reader created empty deform storage; candidates discarded before any game final binding. Base a65 unchanged. Await rebuilt native with save/reopen preservation.",
+  "sha256": [
+    "3579e68ad78ad6aa24f5379701b420ee8692b161cd3f760f4f5b78411c5889a7",
+    "94fae9cf88c03251d212162d3a2e2d7b4197263f681499a24d9b8697284b4228"
+  ],
+  "gameFinalizationOccurred": false
+}

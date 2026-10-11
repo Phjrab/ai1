@@ -1,0 +1,89 @@
+# Bounded lighting release tools
+
+These tools do not execute the original 362 checks, full-scene simulation, Blender,
+or browser/GPU QA. They preserve the 460-entry a65 baseline, current bounded
+lighting evidence, original tyre limits, and all documented a65 limitations.
+The original `SOURCE_MANIFEST.json` remains immutable.
+
+## Inputs prepared by the revision owner
+
+Create `revision/lighting-release-inputs.json` with:
+
+- `schema: 1`
+- `baselineSourceManifestSha256: "27414f663cccd838ef84170ead0052b42523bd20a776af23fedf4dab491f2359"`
+- `changedFiles`: exact baseline paths being changed, including
+  `tests/FINAL_VALIDATION.json` and `dist/release-manifest.json`.
+- `newFiles`: explicit new paths; include this inputs JSON, helper scripts and
+  instructions, patch journal, lighting contract/GLB, both test sources/results,
+  copied native manifest, native binding and preservation evidence. No directory
+  globs. Changed originals are included automatically under
+  `revision/a65-original/<original path>`.
+- `gamePatches: "revision/game-patches.json"`: the existing journal with
+  `base`, `patches`, and `changed_files`. Its exact game hooks must reverse to the
+  a65 source hash; HTML/CSS are checked against journal before/after hashes.
+- `inputSha256`: every changed/new file's current SHA256, except the inputs JSON,
+  the two result files, and the two generated final metadata files. Additional
+  unchanged baseline inputs may also be included.
+- `reports`: map the two paths below to their actual current result SHA256s:
+  `tests/street-lighting-unit-results.json` and
+  `tests/street-lighting-placement-results.json`.
+
+Copy the authoritative native `lighting_manifest.json` without editing it to
+`revision/lighting-native-manifest.json`. Copy its exact preservation report to a
+declared evidence path. Then prepare `revision/lighting-native-binding.json`:
+
+```json
+{
+  "schema": 1,
+  "status": "final_augmented_native_bound",
+  "baselineNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "augmentedNativeSha256": "ACTUAL_FINAL_NATIVE_SHA256",
+  "nativeBytes": 1,
+  "nativeManifest": {"path": "revision/lighting-native-manifest.json", "sha256": "ACTUAL_SHA256"},
+  "lightingContract": {"path": "dist/street-lighting.json", "sha256": "ACTUAL_SHA256"},
+  "lightingGLB": {"path": "dist/assets/lighting.glb", "sha256": "ACTUAL_SHA256"},
+  "preservationReport": {"path": "revision/native-preservation-report.json", "sha256": "ACTUAL_SHA256"}
+}
+```
+
+Replace all illustrative values, including `nativeBytes`, with measured values.
+The binding must agree with the native manifest's `PASS` status, baseline and
+augmented hashes, native byte count, placement hash, GLB hash/size, preservation
+report hash, and `native_spotlights_exported: false`. Fixture count comes only from
+the exact `fixtures` array. Synthetic unit-test fixture counts are independent.
+
+## Finalize only after native completion
+
+From the game directory:
+
+```sh
+python -B scripts/finalize-lighting-release.py --native-binding revision/lighting-native-binding.json --native-file /absolute/path/to/final.blend --baseline-root /absolute/path/to/game_base
+python -B scripts/verify-lighting-release.py --native-binding revision/lighting-native-binding.json
+python -B scripts/export-lighting-source.py /absolute/path/outside/source/Lighting_Source.zip --native-binding revision/lighting-native-binding.json
+```
+
+The finalizer streams the explicitly supplied native file for SHA256/size checks;
+it does not load the native scene. It archives any missing changed originals from
+the verified baseline before replacing final metadata. Missing native binding or
+native bytes blocks finalization. Existing archives are never overwritten.
+
+The schema-2 runtime release manifest keeps a65 provenance for the unchanged
+campus/building assets. `lightingRevision.augmentedNativeSha256` and
+`lightingRevision.nativeBindingSha256` identify the final added lighting. A Site
+adapter must retain this composite identity when adapting the release. This
+workflow performs no Site or GitHub operations.
+
+The source ZIP uses only the declared baseline/new-file allowlist plus preserved
+originals. It excludes dependency trees, repository/runtime metadata, hidden
+files and credential paths. The original baseline manifest stays in place and
+`LIGHTING_SOURCE_MANIFEST.json` binds the actual ZIP contents. Every entry is
+hash/size checked and the completed ZIP is CRC-tested before it is published as
+the output filename. The external `.blend` is not packaged.
+
+## Final native emitter and reopen evidence
+
+The binding also requires `reopenReport: {path, sha256}` pointing to the author's actual final saved-native reopen report. PASS must retain the original fingerprint, contain no unauthorized differences/additions, bind the final native SHA and show zero added deform storage. Known discarded 3579e68a/94fae9cf native candidates are explicitly rejected.
+
+`dist/street-lighting-native.js` is generated by the verifier's `native_options_bytes(manifest_hash, native_hash, offset)` helper from the final manifest's `native_light_emitter_offset_m`. Its exact bytes are guarded; the placement contract remains unchanged. The game passes its emitterOffset option only to optional shadowless spotlights.
+
+MODEL_PROVENANCE.json preserves every original field and original asset record; only the explicit lighting asset and lightingRevision are added and compared with the actual native binding. The helper also permits only the exact two lockfile version edits and narrow Node compatibility imports/fetch additions.

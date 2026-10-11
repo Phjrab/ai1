@@ -1,0 +1,943 @@
+{
+  "passed": true,
+  "gameSourceSha256": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+  "sourceAssets": {
+    "building.glb": {
+      "bytes": 8881064,
+      "sha256": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5",
+      "source_bytes": 18395600,
+      "source_sha256": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+      "source_path": "chosun_final_a65c2ae1/realism_v2/game_export_supported_surfaces/building.glb"
+    },
+    "campus.glb": {
+      "bytes": 60213892,
+      "sha256": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+      "source_bytes": 201519748,
+      "source_sha256": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0",
+      "source_path": "chosun_final_a65c2ae1/realism_v2/game_export_supported_surfaces/campus.glb"
+    },
+    "shuttle_bus.glb": {
+      "bytes": 1068036,
+      "sha256": "45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48",
+      "source_bytes": 1069644,
+      "source_sha256": "3d45a32c9724cd1b07d62f10c9613e9bcc36ce2e0abdd80da4c53521d0775532",
+      "source_path": "shuttle_bus.glb"
+    }
+  },
+  "carGeometry": [
+    {
+      "component": 0,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 1.85,
+        "height": 0.6,
+        "depth": 4.3,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.9250000119209292,
+        0.399999988079071,
+        -2.150000095367432
+      ],
+      "max": [
+        0.9250000119209292,
+        1.000000011920929,
+        2.150000095367432
+      ]
+    },
+    {
+      "component": 1,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 1.6,
+        "height": 0.72,
+        "depth": 2.15,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.8000000119209292,
+        0.8599999856948852,
+        -0.9750000476837146
+      ],
+      "max": [
+        0.8000000119209292,
+        1.5800000143051147,
+        1.1750000476837175
+      ]
+    },
+    {
+      "component": 2,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 1.67,
+        "height": 0.1,
+        "depth": 2.25,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.8349999785423281,
+        1.5799999992549418,
+        -1.0249999999999988
+      ],
+      "max": [
+        0.8349999785423281,
+        1.680000000745058,
+        1.2250000000000016
+      ]
+    },
+    {
+      "component": 3,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.07,
+        "height": 0.72,
+        "depth": 0.12,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.8550000001490101,
+        0.8399999856948852,
+        0.06000000134110549
+      ],
+      "max": [
+        -0.7849999998509869,
+        1.5600000143051147,
+        0.1799999986588965
+      ]
+    },
+    {
+      "component": 4,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.28,
+        "height": 0.13,
+        "depth": 0.22,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -1.1400000005960482,
+        1.0650000023841857,
+        -0.7899999994039533
+      ],
+      "max": [
+        -0.8599999994039553,
+        1.194999997615814,
+        -0.5700000005960462
+      ]
+    },
+    {
+      "component": 5,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.36,
+        "radiusBottom": 0.36,
+        "height": 0.22,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        -1.0299999994039535,
+        0.020000000000000018,
+        -1.7100000143051126
+      ],
+      "max": [
+        -0.8100000005960463,
+        0.7400000286102295,
+        -0.9899999856948831
+      ]
+    },
+    {
+      "component": 6,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.2,
+        "radiusBottom": 0.2,
+        "height": 0.23,
+        "radialSegments": 12,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        -1.045000002086164,
+        0.1800000113248825,
+        -1.55000000298023
+      ],
+      "max": [
+        -0.8149999979138388,
+        0.580000017285347,
+        -1.1499999970197656
+      ]
+    },
+    {
+      "component": 7,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.36,
+        "radiusBottom": 0.36,
+        "height": 0.22,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        -1.0299999994039535,
+        0.020000000000000018,
+        0.9899999856948867
+      ],
+      "max": [
+        -0.8100000005960463,
+        0.7400000286102295,
+        1.7100000143051162
+      ]
+    },
+    {
+      "component": 8,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.2,
+        "radiusBottom": 0.2,
+        "height": 0.23,
+        "radialSegments": 12,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        -1.045000002086164,
+        0.1800000113248825,
+        1.1499999970197656
+      ],
+      "max": [
+        -0.8149999979138388,
+        0.580000017285347,
+        1.55000000298023
+      ]
+    },
+    {
+      "component": 9,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.46,
+        "height": 0.16,
+        "depth": 0.04,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.7900000041723256,
+        0.7200000017881394,
+        -2.189999999552967
+      ],
+      "max": [
+        -0.3299999958276753,
+        0.8799999982118607,
+        -2.1500000004470365
+      ]
+    },
+    {
+      "component": 10,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.46,
+        "height": 0.16,
+        "depth": 0.04,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        -0.7900000041723256,
+        0.7200000017881394,
+        2.1500000004470365
+      ],
+      "max": [
+        -0.3299999958276753,
+        0.8799999982118607,
+        2.189999999552967
+      ]
+    },
+    {
+      "component": 11,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.07,
+        "height": 0.72,
+        "depth": 0.12,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        0.7849999998509869,
+        0.8399999856948852,
+        0.06000000134110549
+      ],
+      "max": [
+        0.8550000001490101,
+        1.5600000143051147,
+        0.1799999986588965
+      ]
+    },
+    {
+      "component": 12,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.28,
+        "height": 0.13,
+        "depth": 0.22,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        0.8599999994039536,
+        1.0650000023841857,
+        -0.7899999994039533
+      ],
+      "max": [
+        1.1400000005960464,
+        1.194999997615814,
+        -0.5700000005960462
+      ]
+    },
+    {
+      "component": 13,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.36,
+        "radiusBottom": 0.36,
+        "height": 0.22,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        0.8100000005960463,
+        0.020000000000000018,
+        -1.7100000143051162
+      ],
+      "max": [
+        1.0299999994039535,
+        0.7400000286102295,
+        -0.9899999856948867
+      ]
+    },
+    {
+      "component": 14,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.2,
+        "radiusBottom": 0.2,
+        "height": 0.23,
+        "radialSegments": 12,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        0.8149999979138353,
+        0.1800000113248825,
+        -1.55000000298023
+      ],
+      "max": [
+        1.0450000020861605,
+        0.580000017285347,
+        -1.1499999970197656
+      ]
+    },
+    {
+      "component": 15,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.36,
+        "radiusBottom": 0.36,
+        "height": 0.22,
+        "radialSegments": 16,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        0.8100000005960463,
+        0.020000000000000018,
+        0.9899999856948867
+      ],
+      "max": [
+        1.0299999994039535,
+        0.7400000286102295,
+        1.7100000143051162
+      ]
+    },
+    {
+      "component": 16,
+      "name": null,
+      "geometryType": "CylinderGeometry",
+      "parameters": {
+        "radiusTop": 0.2,
+        "radiusBottom": 0.2,
+        "height": 0.23,
+        "radialSegments": 12,
+        "heightSegments": 1,
+        "openEnded": false,
+        "thetaStart": 0,
+        "thetaLength": 6.283185307179586
+      },
+      "min": [
+        0.814999997913837,
+        0.1800000113248825,
+        1.1499999970197656
+      ],
+      "max": [
+        1.0450000020861623,
+        0.580000017285347,
+        1.55000000298023
+      ]
+    },
+    {
+      "component": 17,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.46,
+        "height": 0.16,
+        "depth": 0.04,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        0.32999999582767353,
+        0.7200000017881394,
+        -2.189999999552967
+      ],
+      "max": [
+        0.7900000041723239,
+        0.8799999982118607,
+        -2.1500000004470365
+      ]
+    },
+    {
+      "component": 18,
+      "name": null,
+      "geometryType": "BoxGeometry",
+      "parameters": {
+        "width": 0.46,
+        "height": 0.16,
+        "depth": 0.04,
+        "widthSegments": 1,
+        "heightSegments": 1,
+        "depthSegments": 1
+      },
+      "min": [
+        0.3299999958276753,
+        0.7200000017881394,
+        2.1500000004470365
+      ],
+      "max": [
+        0.7900000041723256,
+        0.8799999982118607,
+        2.189999999552967
+      ]
+    }
+  ],
+  "routeMaxGradePercent": 0,
+  "maxWheelContactGapMeters": 0,
+  "thresholdMeters": 0.35,
+  "carTyreContactThresholdMeters": [
+    -0.05,
+    0.12
+  ],
+  "carContacts": [
+    {
+      "car": 0,
+      "wheel": 0,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        6.683582902048993,
+        0.11499999880790712,
+        16.815996091768266
+      ]
+    },
+    {
+      "car": 0,
+      "wheel": 1,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        9.38343205552622,
+        0.11499999880790712,
+        16.84453638728712
+      ]
+    },
+    {
+      "car": 0,
+      "wheel": 2,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        6.7030325849211,
+        0.11499999880790712,
+        14.976098890880081
+      ]
+    },
+    {
+      "car": 0,
+      "wheel": 3,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        9.402881738398326,
+        0.11499999880790712,
+        15.004639186398935
+      ]
+    },
+    {
+      "car": 1,
+      "wheel": 0,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        -59.35,
+        0.11499999880790712,
+        22.02999999940395
+      ]
+    },
+    {
+      "car": 1,
+      "wheel": 1,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        -56.65,
+        0.11499999880790712,
+        22.029999999403955
+      ]
+    },
+    {
+      "car": 1,
+      "wheel": 2,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        -59.35,
+        0.11499999880790712,
+        20.189999999403952
+      ]
+    },
+    {
+      "car": 1,
+      "wheel": 3,
+      "minimumGap": 0.020000000000000018,
+      "contact": [
+        -56.65,
+        0.11499999880790712,
+        20.189999999403955
+      ]
+    },
+    {
+      "car": 2,
+      "wheel": 0,
+      "minimumGap": 0.020000535217671533,
+      "contact": [
+        313.2571232024262,
+        -7.431233099887117,
+        58.6637818306628
+      ]
+    },
+    {
+      "car": 2,
+      "wheel": 1,
+      "minimumGap": 0.019999766123664386,
+      "contact": [
+        315.78296952268295,
+        -7.756912499000355,
+        59.587059658124204
+      ]
+    },
+    {
+      "car": 2,
+      "wheel": 2,
+      "minimumGap": 0.021061911003418032,
+      "contact": [
+        313.68749877463756,
+        -7.426639201166601,
+        57.10199990466283
+      ]
+    },
+    {
+      "car": 2,
+      "wheel": 3,
+      "minimumGap": 0.02000025994447352,
+      "contact": [
+        316.2711435545949,
+        -7.757192423488906,
+        57.81299865664319
+      ]
+    },
+    {
+      "car": 3,
+      "wheel": 0,
+      "minimumGap": 0.020000381627162334,
+      "contact": [
+        -383.05354487275434,
+        4.533784315605795,
+        -10.343437583248628
+      ]
+    },
+    {
+      "car": 3,
+      "wheel": 1,
+      "minimumGap": 0.020008856171835454,
+      "contact": [
+        -380.3742978402873,
+        4.932916176372812,
+        -10.370464362468844
+      ]
+    },
+    {
+      "car": 3,
+      "wheel": 2,
+      "minimumGap": 0.02001019828787598,
+      "contact": [
+        -383.2231015751531,
+        4.53370413386321,
+        -12.175608961062952
+      ]
+    },
+    {
+      "car": 3,
+      "wheel": 3,
+      "minimumGap": 0.020000219219288518,
+      "contact": [
+        -380.5637914109489,
+        4.930560829649864,
+        -12.421729223866574
+      ]
+    },
+    {
+      "car": 4,
+      "wheel": 0,
+      "minimumGap": 0.0199999999995768,
+      "contact": [
+        -192.97780304592402,
+        -38.80984469282772,
+        186.22952170883423
+      ]
+    },
+    {
+      "car": 4,
+      "wheel": 1,
+      "minimumGap": 0.020000000335969048,
+      "contact": [
+        -190.31813464835832,
+        -38.80771374176398,
+        185.76449065558805
+      ]
+    },
+    {
+      "car": 4,
+      "wheel": 2,
+      "minimumGap": 0.02000000000057156,
+      "contact": [
+        -193.29468326402622,
+        -38.809888068318116,
+        184.41699138851044
+      ]
+    },
+    {
+      "car": 4,
+      "wheel": 3,
+      "minimumGap": 0.019999999969087412,
+      "contact": [
+        -190.67296776652196,
+        -38.78914090540819,
+        183.73534713448063
+      ]
+    },
+    {
+      "car": 5,
+      "wheel": 0,
+      "minimumGap": 0.0199999999998397,
+      "contact": [
+        -27.601738594112692,
+        -43.928581948601455,
+        834.2779910115378
+      ]
+    },
+    {
+      "car": 5,
+      "wheel": 1,
+      "minimumGap": 0.019999999997040163,
+      "contact": [
+        -27.393269443565558,
+        -43.93195195660163,
+        831.5770783406446
+      ]
+    },
+    {
+      "car": 5,
+      "wheel": 2,
+      "minimumGap": 0.02000000000007418,
+      "contact": [
+        -29.635970776945452,
+        -43.92858196195551,
+        833.9531842668171
+      ]
+    },
+    {
+      "car": 5,
+      "wheel": 3,
+      "minimumGap": 0.019999999999399165,
+      "contact": [
+        -29.210253530161836,
+        -43.93195150019292,
+        831.2869596941295
+      ]
+    },
+    {
+      "car": 6,
+      "wheel": 0,
+      "minimumGap": 0.019996839208964445,
+      "contact": [
+        379.23966909798247,
+        -14.474541390741724,
+        125.33061328798811
+      ]
+    },
+    {
+      "car": 6,
+      "wheel": 1,
+      "minimumGap": 0.02000280393639997,
+      "contact": [
+        378.654674412972,
+        -14.928968764791996,
+        127.92702003718108
+      ]
+    },
+    {
+      "car": 6,
+      "wheel": 2,
+      "minimumGap": 0.020002964867858353,
+      "contact": [
+        381.0346794634823,
+        -14.474473673663114,
+        125.73507792800017
+      ]
+    },
+    {
+      "car": 6,
+      "wheel": 3,
+      "minimumGap": 0.019997834513514334,
+      "contact": [
+        380.6637237610475,
+        -14.914672713811477,
+        128.38216266725777
+      ]
+    },
+    {
+      "car": 7,
+      "wheel": 0,
+      "minimumGap": 0.02000011121885592,
+      "contact": [
+        -371.9781730907038,
+        -16.536877605462397,
+        115.54179722195572
+      ]
+    },
+    {
+      "car": 7,
+      "wheel": 1,
+      "minimumGap": 0.01999978013926551,
+      "contact": [
+        -373.49672692321263,
+        -16.72855690218801,
+        117.77689303853067
+      ]
+    },
+    {
+      "car": 7,
+      "wheel": 2,
+      "minimumGap": 0.02000011273641178,
+      "contact": [
+        -370.3741502798603,
+        -16.536877600427037,
+        116.83435701453104
+      ]
+    },
+    {
+      "car": 7,
+      "wheel": 3,
+      "minimumGap": 0.01999977825688859,
+      "contact": [
+        -372.06400748738605,
+        -16.728557595195472,
+        118.93141242693623
+      ]
+    },
+    {
+      "car": 8,
+      "wheel": 0,
+      "minimumGap": 0.01999999999999602,
+      "contact": [
+        54.02207591796175,
+        -44.50500152587891,
+        276.87539364483445
+      ]
+    },
+    {
+      "car": 8,
+      "wheel": 1,
+      "minimumGap": 0.01999999999999602,
+      "contact": [
+        51.33316660433163,
+        -44.50500152587891,
+        276.63092134973095
+      ]
+    },
+    {
+      "car": 8,
+      "wheel": 2,
+      "minimumGap": 0.01999999999999602,
+      "contact": [
+        53.85547257611342,
+        -44.50500152587891,
+        278.70783554745645
+      ]
+    },
+    {
+      "car": 8,
+      "wheel": 3,
+      "minimumGap": 0.01999999999999602,
+      "contact": [
+        51.1665632624833,
+        -44.50500152587891,
+        278.46336325235296
+      ]
+    },
+    {
+      "car": 9,
+      "wheel": 0,
+      "minimumGap": 0.01999843144923119,
+      "contact": [
+        260.31030910091573,
+        -41.41128586257155,
+        297.07163524212
+      ]
+    },
+    {
+      "car": 9,
+      "wheel": 1,
+      "minimumGap": 0.020000607392148595,
+      "contact": [
+        257.64385165361426,
+        -41.76855608513991,
+        296.8426983430496
+      ]
+    },
+    {
+      "car": 9,
+      "wheel": 2,
+      "minimumGap": 0.020002873391618436,
+      "contact": [
+        260.1513752247491,
+        -41.399920580718984,
+        298.9047452301719
+      ]
+    },
+    {
+      "car": 9,
+      "wheel": 3,
+      "minimumGap": 0.019999133490898657,
+      "contact": [
+        257.4638481770526,
+        -41.73986168689043,
+        298.8946270627597
+      ]
+    },
+    {
+      "car": 10,
+      "wheel": 0,
+      "minimumGap": 0.019999999999999574,
+      "contact": [
+        263.8500494287518,
+        -27.48,
+        758.6424555991225
+      ]
+    },
+    {
+      "car": 10,
+      "wheel": 1,
+      "minimumGap": 0.019999999999999574,
+      "contact": [
+        262.14665089022066,
+        -27.48,
+        760.7373144055651
+      ]
+    },
+    {
+      "car": 10,
+      "wheel": 2,
+      "minimumGap": 0.019999999999999574,
+      "contact": [
+        265.2776569116608,
+        -27.48,
+        759.803290158714
+      ]
+    },
+    {
+      "car": 10,
+      "wheel": 3,
+      "minimumGap": 0.019999999999999574,
+      "contact": [
+        263.5742583731297,
+        -27.48,
+        761.8981489651567
+      ]
+    }
+  ],
+  "busTyreContactThresholdMeters": [
+    -0.01,
+    0.02
+  ],
+  "busTyreContacts": [],
+  "busWheelArchWarnings": [],
+  "suspensionContinuity": [],
+  "tyreContactMethod": "Actual tyre vertices versus the same runtime Octree triangles, queried once per finite 3m-deep tyre box; exact one-sided ray intersection, no height interpolation.",
+  "busCount": 0,
+  "scope": "Final11 runtime cars; unchanged bus algorithm is separately retained and fixture-compared",
+  "carCount": 11,
+  "failures": []
+}

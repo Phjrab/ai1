@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "script_sha256": "1d0d2c147c164cf1c90db05c5c04e513044a5ad31e901038fc953a08485f9160",
+  "checks": {
+    "cyclic_repeat_corner": true,
+    "reversed_winding_rejected": true,
+    "empty": true,
+    "multiplicity_preserved": true
+  }
+}

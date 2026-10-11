@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "source_compressed_sha256": "3579e68ad78ad6aa24f5379701b420ee8692b161cd3f760f4f5b78411c5889a7",
+  "source_compressed_bytes": 573993215,
+  "final_native_sha256": "81adeb3ae37915ee5e4ced56d5da175ed31530bc45fc907977cff27e4984ac7b",
+  "final_native_bytes": 549396382,
+  "decompressed_stream_sha256": "5e36be198b1b37d6986a1ad40d73140483b659a582eacae02d3df382a4a1be48",
+  "decompressed_bytes": 1697048388,
+  "exact_internal_bytes_preserved": true,
+  "compression": "Zstandard level9 streaming, single thread",
+  "tool_sha256": "f269977becbbcd2771ee1b9fdbb607b2818f4a4cf34f0bebdf63faebfd926f97",
+  "seconds": 35.32821011543274,
+  "peak_rss_mib": 217.63671875
+}

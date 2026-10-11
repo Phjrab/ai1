@@ -1,0 +1,472 @@
+{
+  "schema": 2,
+  "status": "passed_with_documented_limits",
+  "createdUTC": "2026-10-09T22:12:40.329228+00:00",
+  "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "rawGLBSha256": {
+    "building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "exportManifestSha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e",
+  "modelProvenanceSha256": "c5f2d1b08b11aec789bc1a6365955d006e716c893ac41685237dce36849a817f",
+  "browserWebGLVerified": false,
+  "iPhoneVerified": false,
+  "requiredReports": [
+    {
+      "test": "surface-conformity",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "c0b328378a6c79fd3e4d365d1cb6f0b170a7e2deec2a7a2642b419be6cc7babd",
+      "role": "inherited_same_physical_scope_with_explicit_geometry_and_code_delta",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/surface-conformity-results/simulation-results.json": "061dba2e0ee570dc07ccfeb503f0fdd734cf52dc875b26ca3e7e18c8e69dfa11",
+        "tests/runtime-runs/surface-conformity-results/surface-conformity-results.json": "0d175b8476fad0cbb6db5c833f8fd7784e321ed7b93ef116052f36600706a070"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "final-repair-paths",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/final-repair-paths.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "32157ebaf392d76af6b211f5e80f3487999135823f2c38d42e074dffa4a37c9d",
+      "role": "inherited_same_physical_scope_with_explicit_geometry_and_code_delta",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/final-repair-paths-results/walkable-focused-results.json": "077e9f617b609c4788840a196297538605200d65aad92d0033a9e1fe252ac146",
+        "tests/runtime-runs/final-repair-paths-results/simulation-results.json": "c65c1c131a77e3ef615c1470d3dc839897a056b113713f0bdce5a8e2a3676c97"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "functional-final",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "71de1beb9a43f8614db482bfee19083e3344ff5f2633ec80ed5bc58af53e9a33",
+      "role": "inherited_same_physical_scope_with_explicit_geometry_and_code_delta",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/functional-final-results/simulation-results.json": "71ae5f99f09ecddea26ad6cac686fafaf197ae99ab4f696587c0e02e8f151bb8",
+        "tests/runtime-runs/functional-final-results/entrance-access-results.json": "f31da31198ae6b4688f599d0b8332adf10d1b6f07e9df1b8d059e510f8f39b8f",
+        "tests/runtime-runs/functional-final-results/lounge-access-results.json": "280ded2406bfa7a7d20f19f5b3516c706cc8526f2dc37bf6c2319f7a38075c22",
+        "tests/runtime-runs/functional-final-results/functional-final-results.json": "a8091964b762531229534648bd7b4324d0d56256643ef2fc663c11d46f0f85d8",
+        "tests/runtime-runs/functional-final-results/rooftop-bridge-results.json": "9bd05f9258585fea21c3154b213d14784a7dfe0d6e6787c4b3b69a109047ef3a",
+        "tests/runtime-runs/functional-final-results/parking-gameplay-results.json": "ade311eefa836013539096c86650e11408c6725f578bcd473006b6243ece9762",
+        "tests/runtime-runs/functional-final-results/actor-results.json": "e455a9890ff22f0a4cbea4a82e1f08f5022451fdc8f3158bec09b046470c132d"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "vehicle-grounding",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/vehicle-grounding.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "56072ca01dfb37f2efc8325640ea1a68c05a88f0547746b489ac2348af4a24cf",
+      "role": "inherited_bus_scope_only_default_algorithm_equivalence_checked",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/vehicle-grounding-results/simulation-results.json": "a55a2a09134ef5204d24fab953728e19c5490b7caa2d834793b232b6ed0f83e7",
+        "tests/runtime-runs/vehicle-grounding-results/vehicle-grounding-results.json": "24998efd542e6ade29531accbd7fa50b82bf41f41f9daa53fac49635a8aaf14f"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "shuttle-terminal-validation",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "d7d2f115321c97b7e4dba2b705e715c4c69a02d448dcb6b46648aa8738d91128",
+      "role": "inherited_same_physical_scope_with_explicit_geometry_and_code_delta",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/shuttle-terminal-validation-results/simulation-results.json": "cf3ff0acbcb0998aea230e19c43b0ef368733871fab9e833721925a626018464",
+        "tests/runtime-runs/shuttle-terminal-validation-results/shuttle-live-results.json": "5b499fce773d43e1ed418bc5eafafde090ff62624d1b949402dc3ce416890d1d",
+        "tests/runtime-runs/shuttle-terminal-validation-results/transit-integration-results.json": "9822201bd5d98a82db485d4b6ee1faa1ac88bdee8cd7100fb30cc05ba3f498b6"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "export-contract",
+      "report": "tests/runtime-runs/export-contract.json",
+      "sha256": "59737271081d4b4d40f4d4b842d561f3adfa47be1b2b3bf5d127497c9c6716a9",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/export-contract-results/export-contract-results.json": "e91a5975fc21c7de840678aa64a9d0a60d14c33af2283e3258db0c53cc8fb3ef"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "tyre-cache-runtime",
+      "report": "tests/runtime-runs/tyre-cache-runtime.json",
+      "sha256": "3398d70306438edc310015325d2f6fc05c019462ab07eadf99db567051de6e66",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/tyre-cache-runtime-results/simulation-results.json": "f25d7e31fb3f553690d071f58f974c61ee37c762c19bf24e40529b72eae6ee66",
+        "tests/runtime-runs/tyre-cache-runtime-results/tyre-cache-runtime-results.json": "b65ba52fc85f21ae64f6dc36033f38a9913ee4e08060639b87cf47faccbfac8c"
+      },
+      "acceptedInputRevisions": [
+        "data/known-tyre-contact-limits.json"
+      ]
+    },
+    {
+      "test": "site-closeout",
+      "report": "tests/runtime-runs/site-closeout.json",
+      "sha256": "92a4732bfe0a3226816478ef9201fb46928f856fdeebd8a6360100d081875b3b",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/site-closeout-results/simulation-results.json": "3f0353af7ebea3fa4f02175f55b85b9ad601fab46c0f2f8d53896a124fe7a6ae",
+        "tests/runtime-runs/site-closeout-results/site-closeout-results.json": "f219b0cf019c92f03a98ceefeddb3c495e608455c1f725752443a6f7962cbe43"
+      },
+      "acceptedInputRevisions": [
+        "data/known-tyre-contact-limits.json"
+      ],
+      "acceptanceSupplement": {
+        "path": "tests/site-closeout-acceptance-results.json",
+        "sha256": "e76ec1d24051835c2e525b9fef4d742ee3200fa05d5b49d927764a80786b0a8d",
+        "role": "exact_saved_results_reassessment_for_two_approved_depth_bounds"
+      }
+    },
+    {
+      "test": "car-grounding",
+      "report": "tests/runtime-runs/car-grounding.json",
+      "sha256": "48e8e6224f7d18246b3b1d144af69ef8b0c03eca23dfb895380063347763ab47",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/car-grounding-results/simulation-results.json": "0a07cf6576a7425cfde034dfdc822fdd798a3f35ea5c89999dc02c674a6982a3",
+        "tests/runtime-runs/car-grounding-results/car-grounding-results.json": "cbfddd516f52df101cc7d64d62fb51f5c79080d91013c741c21b6b7b916a726c"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "parking-turns",
+      "report": "tests/runtime-runs/parking-turns.json",
+      "sha256": "249b1a6612bd2871760477fd220d6c39385d4616f390a16731012564d7c71911",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/parking-turns-results/simulation-results.json": "4db6605ab2e2fa0ba3def3f16d95d9f51f5837925e63dfdaf5008a2eb41f3c71",
+        "tests/runtime-runs/parking-turns-results/parking-turns-results.json": "ad6d905ccd5ea310615297f4ed417840e6bf526137df2a5bab06d28863808c94"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "road-grounding",
+      "report": "tests/runtime-runs/road-grounding.json",
+      "sha256": "7232f68f0c515a14348400a6b6ac08bd8b6addeb4e85f017b9d941be850790a7",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/road-grounding-results/simulation-results.json": "775750b9f0a6b62cc6884f6f99571a469076d2c01b06c8a46269fca1bfe4c49f",
+        "tests/runtime-runs/road-grounding-results/road-grounding-results.json": "b1c209b8cae45cc12f1909f015799bb794bdf64f7051c8758c8c9c7c855dbcdb"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "garage-exterior-route",
+      "report": "tests/runtime-runs/garage-exterior-route.json",
+      "sha256": "9c22f6e6c825564e136ab73fd24cfc9ccc83d4debd9e83417bd70a8571b22f8b",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/garage-exterior-route-results/simulation-results.json": "a8f99ec935a8e6bf9b56e6446e82b41f9d089a030c69dce5aa5fd20cff2dae4c",
+        "tests/runtime-runs/garage-exterior-route-results/garage-exterior-route-results.json": "34082f54c896681a0476218da26be5cc298645a7a7008f4bc9332c1fc642a200"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "parking-clearance",
+      "report": "tests/runtime-runs/parking-clearance.json",
+      "sha256": "c26b0288b0196eda375405faca86e4ae76b22ddf2cd0fdedc7497c19bdcc684d",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/parking-clearance-results/simulation-results.json": "d8c6dc9afac162dd064134a0a6761175f6bbd6008938cc4016b0b91f08349ca8",
+        "tests/runtime-runs/parking-clearance-results/parking-clearance-results.json": "9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a"
+      },
+      "acceptedInputRevisions": []
+    },
+    {
+      "test": "realism",
+      "report": "tests/runtime-runs/realism.json",
+      "sha256": "faed9adc0af88db8b85e7c91829d0b8d86447798b0058cd1a354817697d162a0",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/realism-results/simulation-results.json": "12dde945913499b466965030d702685deb5089a2d2702ebb5fe97cfb6ecce5c6",
+        "tests/runtime-runs/realism-results/realism-results.json": "ffb3eca54878aec187cf10716867432a710101a9a8cf82a1bee6db8ad0875bcf"
+      },
+      "acceptedInputRevisions": [],
+      "acceptanceSupplement": {
+        "path": "tests/realism-acceptance-results.json",
+        "sha256": "e24016166ad5bcfdb290c2efd25aec4db25e64ad3fdef583f1fa90d52ce9dcad",
+        "role": "exact_native_planting_classification_of_106_preserved_failures",
+        "independentClassification": {
+          "path": "tests/closeout-evidence/tree-root-classification/final_a65c2ae1_tree_root_classification.json",
+          "sha256": "7664a8aa009e7dbbb30ad979aced4524c578a8b4a9b27cc6e70e517831b25a8b"
+        }
+      }
+    },
+    {
+      "test": "benchmark-car-grounding",
+      "report": "tests/runtime-runs/benchmark-car-grounding.json",
+      "sha256": "ba604f405c5279f3c8d8d0fa6ce25f70e015e338b4e13ae0e2b81ef1ecc44ff4",
+      "role": "executed_on_final_model_and_game",
+      "executionNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+      "resultSnapshots": {
+        "tests/runtime-runs/benchmark-car-grounding-results/simulation-results.json": "fe0fb5fb9931a76dd3a790e69babfd94a1352b941cc3a7537c9e98faa70ca694",
+        "tests/runtime-runs/benchmark-car-grounding-results/tyre-frame-performance-results.json": "b840d1a6d6bb56268decb8412014cfe7094c35df03481118c8d6ae78f993841b"
+      },
+      "acceptedInputRevisions": []
+    }
+  ],
+  "diagnosticReports": [
+    {
+      "test": "parking-turns",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/parking-turns.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "c8bcab10ee32071f65e779f12dadc0890ce13ab37fd87e40a60908e815322eb9",
+      "role": "superseded_by_final_car_contact_regression",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/parking-turns-results/simulation-results.json": "78f3cd21ae69e804c6e5367b12b7e4a0980c1d4814a3102d8126babccd033ad1",
+        "tests/runtime-runs/parking-turns-results/parking-turns-results.json": "de6028f6885496d4abcdd9a1818159ae63adb3e0cfab79fdd88573f3453ef908"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "garage-exterior-route",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/garage-exterior-route.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "02db552dc34ddce53b00faf4c08c3199a624b2f14a0f1183b8cccd4cc9dd462e",
+      "role": "superseded_by_final_car_contact_regression",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/garage-exterior-route-results/simulation-results.json": "e638703dd96951271fc47672f68d99acdd7f0c75a9ca93df51748623a46462bf",
+        "tests/runtime-runs/garage-exterior-route-results/garage-exterior-route-results.json": "7b865664abcd811e3222a83cadeeb49de78f073bf30154ce292e036f8c17c3cc"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "road-grounding",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/road-grounding.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "ae2ac7f610d6f3dadbef908c81d259b29ad98e92f077a4795a9ce3e4ea4bbd00",
+      "role": "superseded_by_final_car_contact_regression",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/road-grounding-results/simulation-results.json": "5ec8bb52f44e2bff67b654d6b466777c2dc49e91070717e43220d267b911f0ef",
+        "tests/runtime-runs/road-grounding-results/road-grounding-results.json": "591de56af87777fd0ffc507444f20e9a7a6047ffd814de9e0d16374f752775ab"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    },
+    {
+      "test": "site-additions",
+      "report": "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions.json",
+      "archiveRoot": "tests/baseline-evidence/a1_export2",
+      "sha256": "a1e3b5e6959f87e39f4fbf50cf6e68685679b5e61ee6509593606020ca614c46",
+      "role": "preserved_original_17_failures",
+      "executionNativeSha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+      "resultSnapshots": {
+        "tests/runtime-runs/site-additions-results/simulation-results.json": "d1350b45f5ef7e102e51011f63ba8b6aa123b43211825fcc0eb815c6aaaaa576",
+        "tests/runtime-runs/site-additions-results/site-additions-results.json": "34a23b594628045af0133746baad93b079bc641a296c9f4adfa0993bea9942ef"
+      },
+      "sourceRevisions": [
+        {
+          "input": "dist/game.js",
+          "originalSha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2",
+          "preservedSource": "tests/source-history/a1_export2/dist/game.js",
+          "subsequentSourceSha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+        },
+        {
+          "input": "tests/helpers/parking-volume.mjs",
+          "originalSha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+          "preservedSource": "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs",
+          "subsequentSourceSha256": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+        }
+      ]
+    }
+  ],
+  "baselineEvidenceSha256": "730cc9cd3c38fcdedfaec818f65f16b0b9b9fdc174de074cbd9c32af26369d5f",
+  "modelDelta": {
+    "path": "data/final-model-delta.json",
+    "sha256": "b5761d49ed169b3e6a19f0df79ea3e34e253a6edf2e2c166c78d033190184dbb"
+  },
+  "canonicalGeometryPreservation": {
+    "path": "data/canonical-geometry-preservation/final_a65c2ae1_canonical_mesh_comparison.json",
+    "sha256": "78fc07c3820bb3cb82c14e1a1d50d13a4771d14e9891607197c0bae874cf2480"
+  },
+  "siteFailureResolutionSha256": "998bd6c203e639e03901e5cf71da1d22647d2d41a07b2a41369fb2e469b91bac",
+  "scope": "Unchanged walking/structure and bus scope carried forward through exact physical preservation and explicit source revisions; ten current suites execute the final assets and updated car tyre contact code. No claim of rerunning all142 walking paths or the complete old site suite on the final native.",
+  "knownLimits": [
+    "The strict realism run retains106 intentional infill-root embedding failures. A separate exact per-planting classification binds all106 to the frozen nine-ray planting contract within0.1mm; positive floating, missing support, changed transforms and other failures remain rejected. No tree geometry or placement was changed.",
+    "Car grounding frame timings measure Node CPU wall time for actual421 driveStep calls only; they are not browser/GPU frame rates or iPhone performance.",
+    "The raw final site-closeout run failed only the two421 depth bounds. The identical20 stored results pass a separately hash-bound reassessment changing only approved maxima44.444251mm/39.606383mm; original failed report, results and log remain preserved.",
+    "The historical 3723ecc4 full-walk report, exact results, input hashes and wrapper log are preserved; its original raw run log was overwritten before archival and is unavailable.",
+    "Browser/WebGL/GPU/iPhone execution is unverified; these are actual Node geometry and game movement checks with a mocked renderer.",
+    "Two shuttles stop at the terminal; verified turnaround space and repeated circulation are not implemented. Restart restores initial operation.",
+    "Shuttle moving tyre contact has a maximum12.42mm residual including10.42mm penetration; maximum wheel assembly change171.89mm per20msframe remains a visual-animation limit.",
+    "Original fixed black bus wheel-arch disks numerically intersect ground by up to67.586mm at127staticposes perbus; GPU visibility is unverified.",
+    "421 required four-direction driving completes with zero body/hub hits and no missing/limitedwheel support; tyres have27/208contactposes and up to44.444251mm conservative radial overlap.",
+    "Toll lane0 now requires zero actual tyre/body contact. School175 reverse has two bounded tyre-face contacts,5.453403/7.482352mm; exact poses, wheels and finite road triangles are guarded, with mandatory complete traversal and no body/hub/support/travel failure.",
+    "Building142 narrow corner passes its required centerline; six optional0.3m offset diagnostics contact actual geometry. Required road set is70directions5734poses out of6318totalposes.",
+    "City stop1150 has same-side walking only; no unverified road crossing is introduced.",
+    "Mapped steps OSM1319139167 remains role-unverified and outside certified traversal.",
+    "Rose additional+0.34m offset diagnostics stop on an original section2.49–2.55m outside the endpoint repair; the required center route and changed paving are checked separately."
+  ],
+  "siteCloseoutAcceptance": {
+    "path": "tests/site-closeout-acceptance-results.json",
+    "sha256": "e76ec1d24051835c2e525b9fef4d742ee3200fa05d5b49d927764a80786b0a8d",
+    "role": "exact_saved_results_reassessment_for_two_approved_depth_bounds"
+  },
+  "realismAcceptance": {
+    "path": "tests/realism-acceptance-results.json",
+    "sha256": "e24016166ad5bcfdb290c2efd25aec4db25e64ad3fdef583f1fa90d52ce9dcad",
+    "role": "exact_native_planting_classification_of_106_preserved_failures",
+    "independentClassification": {
+      "path": "tests/closeout-evidence/tree-root-classification/final_a65c2ae1_tree_root_classification.json",
+      "sha256": "7664a8aa009e7dbbb30ad979aced4524c578a8b4a9b27cc6e70e517831b25a8b"
+    }
+  },
+  "tyreContactSourceChange": {
+    "path": "tests/closeout-evidence/tyre-footprint/source-change.json",
+    "sha256": "fe4af95bed0dcfab69d4cf1273275db5f089a798a5aa8d241b93a3f54600089f"
+  },
+  "tyreContactUnitEvidence": {
+    "path": "tests/tyre-footprint-unit-results.json",
+    "sha256": "07b452a55a52df058dbe6dda4a4292bc66ba988ab61d925e472e663666b9e524"
+  },
+  "historicalFullWalk": {
+    "role": "historical_original_failed_full_walk_not_final_pass",
+    "nativePrefix": "3723ecc4",
+    "nativeSourceSha256": "3723ecc4013efc6351d77c6674fb74ff2d5464616071c2d268ab303bf0c799a0",
+    "paths": 142,
+    "directions": 284,
+    "passes": 281,
+    "originalFailures": 3,
+    "subsequentAffectedPathDirections": 22,
+    "archiveRoot": "tests/baseline-evidence/3723ecc4",
+    "report": "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths.json",
+    "result": "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/walkable-results.json",
+    "artifacts": {
+      "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths.json": "c0346dbd15638a1661abc7d4c6e5bd46844107c5103241000d37b0b967ca5c36",
+      "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-wrapper.log": "5bb83852f1d94bcb22bfd262f9a6beea17c0b560e20bd148a04f87b829a1bf41",
+      "tests/baseline-evidence/3723ecc4/tests/walkable-summary.json": "aaf3b52b611669545af72dd97242f261f6c64acc15dde110475fd19602e3e3cf",
+      "tests/baseline-evidence/3723ecc4/runtime-closeout.json": "725335368569503ff9ae107f85ef46e9bd6fa91e0560a7a2df5148811c258e5b",
+      "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/simulation-results.json": "221533f030d303d512a11558a4a06d477fbc6db6d5a5e9fbecc969bae21afc26",
+      "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/walkable-results.json": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+    },
+    "originalLog": {
+      "status": "unavailable_original_raw_log",
+      "path": "tests/runtime-runs/walkable-paths.log",
+      "sha256": "cb99c1d86791d12e6b2df215d25563d22e826134cb442af44da6f4e801f0e69e",
+      "preservedWrapper": "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-wrapper.log"
+    },
+    "scope": "Original full-walk report, results, input hashes and wrapper output are preserved byte-for-byte. The original raw log was overwritten before archival and is unavailable; the wrapper is not a substitute. This historical failure is not counted as a current pass."
+  }
+}

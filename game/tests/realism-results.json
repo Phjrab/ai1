@@ -1,0 +1,2430 @@
+{
+  "maxRSS_MB": 2630,
+  "passed": false,
+  "treeExport": {
+    "sourceProxyRoots": 2214,
+    "actualProxyRoots": 2214,
+    "maximumTreeRootError": 0.000017977618376205318,
+    "maximumTreeGroundGap": 0.24448942465778456,
+    "verification": "Actual pre-optimization GLB tree vertices and transforms versus the final native export inventory; ground ray uses runtime support."
+  },
+  "assets": [
+    {
+      "name": "building.glb",
+      "bytes": 8881064,
+      "nodes": 65,
+      "materials": 19,
+      "matched": 19,
+      "denseNativeCanopies": 0
+    },
+    {
+      "name": "campus.glb",
+      "bytes": 60213892,
+      "nodes": 5035,
+      "materials": 272,
+      "matched": 272,
+      "denseNativeCanopies": 0
+    },
+    {
+      "name": "shuttle_bus.glb",
+      "bytes": 1068036,
+      "nodes": 27,
+      "materials": 10,
+      "matched": 10,
+      "denseNativeCanopies": 0
+    }
+  ],
+  "npcSupport": [
+    {
+      "index": 0,
+      "passed": true
+    },
+    {
+      "index": 1,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "passed": true
+    },
+    {
+      "index": 4,
+      "passed": true
+    },
+    {
+      "index": 5,
+      "passed": true
+    },
+    {
+      "index": 6,
+      "passed": true
+    },
+    {
+      "index": 7,
+      "passed": true
+    },
+    {
+      "index": 8,
+      "passed": true
+    },
+    {
+      "index": 9,
+      "passed": true
+    },
+    {
+      "index": 10,
+      "passed": true
+    },
+    {
+      "index": 11,
+      "passed": true
+    },
+    {
+      "index": 12,
+      "passed": true
+    },
+    {
+      "index": 13,
+      "passed": true
+    },
+    {
+      "index": 14,
+      "passed": true
+    },
+    {
+      "index": 15,
+      "passed": true
+    },
+    {
+      "index": 16,
+      "passed": true
+    },
+    {
+      "index": 17,
+      "passed": true
+    },
+    {
+      "index": 18,
+      "passed": true
+    }
+  ],
+  "parkingProbes": [
+    {
+      "index": 0,
+      "passed": true,
+      "actualAsphaltHeight": -33.39999771118164,
+      "ground": -33.39999771118164,
+      "blocked": false
+    },
+    {
+      "index": 1,
+      "passed": true,
+      "actualAsphaltHeight": -33.39999516833034,
+      "ground": -33.39999516833034,
+      "blocked": false
+    },
+    {
+      "index": 2,
+      "passed": true,
+      "actualAsphaltHeight": -33.399993896484375,
+      "ground": -33.399993896484375,
+      "blocked": false
+    },
+    {
+      "index": 3,
+      "passed": true,
+      "actualAsphaltHeight": -33.39999771118164,
+      "ground": -33.39999771118164,
+      "blocked": false
+    },
+    {
+      "index": 4,
+      "passed": true,
+      "actualAsphaltHeight": -33.400000254313156,
+      "ground": -33.40000025431315,
+      "blocked": false
+    },
+    {
+      "index": 5,
+      "passed": true,
+      "actualAsphaltHeight": -33.39999898297283,
+      "ground": -33.39999898297283,
+      "blocked": false
+    },
+    {
+      "index": 6,
+      "passed": true,
+      "actualAsphaltHeight": -33.39999771112467,
+      "ground": -33.39999771112467,
+      "blocked": false
+    },
+    {
+      "index": 7,
+      "passed": true,
+      "actualAsphaltHeight": -33.400001525878906,
+      "ground": -33.400001525878906,
+      "blocked": false
+    },
+    {
+      "index": 8,
+      "passed": true,
+      "actualAsphaltHeight": -33.400001525878906,
+      "ground": -33.400001525878906,
+      "blocked": false
+    },
+    {
+      "index": 9,
+      "passed": true,
+      "actualAsphaltHeight": -33.40000025429042,
+      "ground": -33.40000025429042,
+      "blocked": false
+    }
+  ],
+  "canopySupportBlockers": [
+    {
+      "label": "ENTRANCE_B_CAMPUS_BUILDING_162_|_RV2_SH_hospital_canopy_columns support 0",
+      "min": [
+        321.811743254031,
+        -29.28322485740611,
+        834.7495022785763
+      ],
+      "max": [
+        322.25185307089373,
+        -25.066489421768694,
+        835.1893310546875
+      ]
+    },
+    {
+      "label": "ENTRANCE_B_CAMPUS_BUILDING_162_|_RV2_SH_hospital_canopy_columns support 1",
+      "min": [
+        337.7113427298875,
+        -29.28322485740611,
+        816.7716064453125
+      ],
+      "max": [
+        338.15145254675025,
+        -25.066489421768694,
+        817.2114352214237
+      ]
+    }
+  ],
+  "grounding": {
+    "visibleGenericCaps": 66,
+    "floors": 66,
+    "samples": 796,
+    "passed": 796,
+    "slabs": [
+      {
+        "name": "CAMPUS_BUILDING_135_|_RV2_foundation_floor_01",
+        "sourceName": "CAMPUS_BUILDING 135 | RV2 foundation floor 01",
+        "samples": 17,
+        "passed": 17
+      },
+      {
+        "name": "CAMPUS_BUILDING_127_|_RV2_foundation_floor_02",
+        "sourceName": "CAMPUS_BUILDING 127 | RV2 foundation floor 02",
+        "samples": 10,
+        "passed": 10
+      },
+      {
+        "name": "CAMPUS_BUILDING_134_|_RV2_foundation_floor_03",
+        "sourceName": "CAMPUS_BUILDING 134 | RV2 foundation floor 03",
+        "samples": 11,
+        "passed": 11
+      },
+      {
+        "name": "CAMPUS_BUILDING_140_|_RV2_foundation_floor_04",
+        "sourceName": "CAMPUS_BUILDING 140 | RV2 foundation floor 04",
+        "samples": 13,
+        "passed": 13
+      },
+      {
+        "name": "CAMPUS_BUILDING_157_|_RV2_foundation_floor_05",
+        "sourceName": "CAMPUS_BUILDING 157 | RV2 foundation floor 05",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_156_|_RV2_foundation_floor_06",
+        "sourceName": "CAMPUS_BUILDING 156 | RV2 foundation floor 06",
+        "samples": 7,
+        "passed": 7
+      },
+      {
+        "name": "CAMPUS_BUILDING_128_|_RV2_foundation_floor_07",
+        "sourceName": "CAMPUS_BUILDING 128 | RV2 foundation floor 07",
+        "samples": 22,
+        "passed": 22
+      },
+      {
+        "name": "CAMPUS_BUILDING_138_|_RV2_foundation_floor_08",
+        "sourceName": "CAMPUS_BUILDING 138 | RV2 foundation floor 08",
+        "samples": 22,
+        "passed": 22
+      },
+      {
+        "name": "CAMPUS_BUILDING_150_|_RV2_foundation_floor_09",
+        "sourceName": "CAMPUS_BUILDING 150 | RV2 foundation floor 09",
+        "samples": 31,
+        "passed": 31
+      },
+      {
+        "name": "CAMPUS_BUILDING_136_|_RV2_foundation_floor_10",
+        "sourceName": "CAMPUS_BUILDING 136 | RV2 foundation floor 10",
+        "samples": 11,
+        "passed": 11
+      },
+      {
+        "name": "CAMPUS_BUILDING_132_|_RV2_foundation_floor_11",
+        "sourceName": "CAMPUS_BUILDING 132 | RV2 foundation floor 11",
+        "samples": 3,
+        "passed": 3
+      },
+      {
+        "name": "CAMPUS_BUILDING_160_|_RV2_foundation_floor_12",
+        "sourceName": "CAMPUS_BUILDING 160 | RV2 foundation floor 12",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_177_|_RV2_foundation_floor_13",
+        "sourceName": "CAMPUS_BUILDING 177 | RV2 foundation floor 13",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_137_|_RV2_foundation_floor_14",
+        "sourceName": "CAMPUS_BUILDING 137 | RV2 foundation floor 14",
+        "samples": 4,
+        "passed": 4
+      },
+      {
+        "name": "CAMPUS_BUILDING_155_|_RV2_foundation_floor_15",
+        "sourceName": "CAMPUS_BUILDING 155 | RV2 foundation floor 15",
+        "samples": 3,
+        "passed": 3
+      },
+      {
+        "name": "CAMPUS_BUILDING_468704883_|_RV2_foundation_floor_16",
+        "sourceName": "CAMPUS_BUILDING 468704883 | RV2 foundation floor 16",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_cit_1_|_RV2_foundation_floor_17",
+        "sourceName": "CAMPUS_BUILDING cit_1 | RV2 foundation floor 17",
+        "samples": 10,
+        "passed": 10
+      },
+      {
+        "name": "CAMPUS_BUILDING_cit_main_|_RV2_foundation_floor_18",
+        "sourceName": "CAMPUS_BUILDING cit_main | RV2 foundation floor 18",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_cit_3_|_RV2_foundation_floor_19",
+        "sourceName": "CAMPUS_BUILDING cit_3 | RV2 foundation floor 19",
+        "samples": 7,
+        "passed": 7
+      },
+      {
+        "name": "CAMPUS_BUILDING_148_|_RV2_foundation_floor_20",
+        "sourceName": "CAMPUS_BUILDING 148 | RV2 foundation floor 20",
+        "samples": 5,
+        "passed": 5
+      },
+      {
+        "name": "CAMPUS_BUILDING_148_|_RV2_foundation_floor_21",
+        "sourceName": "CAMPUS_BUILDING 148 | RV2 foundation floor 21",
+        "samples": 3,
+        "passed": 3
+      },
+      {
+        "name": "CAMPUS_BUILDING_142_|_RV2_foundation_floor_22",
+        "sourceName": "CAMPUS_BUILDING 142 | RV2 foundation floor 22",
+        "samples": 15,
+        "passed": 15
+      },
+      {
+        "name": "CAMPUS_BUILDING_144_|_RV2_foundation_floor_23",
+        "sourceName": "CAMPUS_BUILDING 144 | RV2 foundation floor 23",
+        "samples": 13,
+        "passed": 13
+      },
+      {
+        "name": "CAMPUS_BUILDING_151_|_RV2_foundation_floor_24",
+        "sourceName": "CAMPUS_BUILDING 151 | RV2 foundation floor 24",
+        "samples": 15,
+        "passed": 15
+      },
+      {
+        "name": "CAMPUS_BUILDING_145_|_RV2_foundation_floor_25",
+        "sourceName": "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+        "samples": 14,
+        "passed": 14
+      },
+      {
+        "name": "CAMPUS_BUILDING_146_|_RV2_foundation_floor_26",
+        "sourceName": "CAMPUS_BUILDING 146 | RV2 foundation floor 26",
+        "samples": 10,
+        "passed": 10
+      },
+      {
+        "name": "CAMPUS_BUILDING_143_|_RV2_foundation_floor_27",
+        "sourceName": "CAMPUS_BUILDING 143 | RV2 foundation floor 27",
+        "samples": 8,
+        "passed": 8
+      },
+      {
+        "name": "CAMPUS_BUILDING_159_|_RV2_foundation_floor_28",
+        "sourceName": "CAMPUS_BUILDING 159 | RV2 foundation floor 28",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_cit_2_|_RV2_foundation_floor_29",
+        "sourceName": "CAMPUS_BUILDING cit_2 | RV2 foundation floor 29",
+        "samples": 24,
+        "passed": 24
+      },
+      {
+        "name": "CAMPUS_BUILDING_cit_4_|_RV2_foundation_floor_30",
+        "sourceName": "CAMPUS_BUILDING cit_4 | RV2 foundation floor 30",
+        "samples": 11,
+        "passed": 11
+      },
+      {
+        "name": "CAMPUS_BUILDING_147_|_RV2_foundation_floor_31",
+        "sourceName": "CAMPUS_BUILDING 147 | RV2 foundation floor 31",
+        "samples": 19,
+        "passed": 19
+      },
+      {
+        "name": "CAMPUS_BUILDING_147_|_RV2_foundation_floor_32",
+        "sourceName": "CAMPUS_BUILDING 147 | RV2 foundation floor 32",
+        "samples": 18,
+        "passed": 18
+      },
+      {
+        "name": "CAMPUS_BUILDING_141_|_RV2_foundation_floor_33",
+        "sourceName": "CAMPUS_BUILDING 141 | RV2 foundation floor 33",
+        "samples": 9,
+        "passed": 9
+      },
+      {
+        "name": "CAMPUS_BUILDING_129_|_RV2_foundation_floor_34",
+        "sourceName": "CAMPUS_BUILDING 129 | RV2 foundation floor 34",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_154_|_RV2_foundation_floor_35",
+        "sourceName": "CAMPUS_BUILDING 154 | RV2 foundation floor 35",
+        "samples": 7,
+        "passed": 7
+      },
+      {
+        "name": "CAMPUS_BUILDING_162_|_RV2_foundation_floor_36",
+        "sourceName": "CAMPUS_BUILDING 162 | RV2 foundation floor 36",
+        "samples": 45,
+        "passed": 45
+      },
+      {
+        "name": "CAMPUS_BUILDING_166_|_RV2_foundation_floor_37",
+        "sourceName": "CAMPUS_BUILDING 166 | RV2 foundation floor 37",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_152_|_RV2_foundation_floor_38",
+        "sourceName": "CAMPUS_BUILDING 152 | RV2 foundation floor 38",
+        "samples": 8,
+        "passed": 8
+      },
+      {
+        "name": "CAMPUS_BUILDING_131_|_RV2_foundation_floor_39",
+        "sourceName": "CAMPUS_BUILDING 131 | RV2 foundation floor 39",
+        "samples": 14,
+        "passed": 14
+      },
+      {
+        "name": "CAMPUS_BUILDING_133_|_RV2_foundation_floor_40",
+        "sourceName": "CAMPUS_BUILDING 133 | RV2 foundation floor 40",
+        "samples": 14,
+        "passed": 14
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517085_|_RV2_foundation_floor_41",
+        "sourceName": "CAMPUS_BUILDING 1127517085 | RV2 foundation floor 41",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517086_|_RV2_foundation_floor_42",
+        "sourceName": "CAMPUS_BUILDING 1127517086 | RV2 foundation floor 42",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517087_|_RV2_foundation_floor_43",
+        "sourceName": "CAMPUS_BUILDING 1127517087 | RV2 foundation floor 43",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517088_|_RV2_foundation_floor_44",
+        "sourceName": "CAMPUS_BUILDING 1127517088 | RV2 foundation floor 44",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517089_|_RV2_foundation_floor_45",
+        "sourceName": "CAMPUS_BUILDING 1127517089 | RV2 foundation floor 45",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517090_|_RV2_foundation_floor_46",
+        "sourceName": "CAMPUS_BUILDING 1127517090 | RV2 foundation floor 46",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517091_|_RV2_foundation_floor_47",
+        "sourceName": "CAMPUS_BUILDING 1127517091 | RV2 foundation floor 47",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1127517105_|_RV2_foundation_floor_48",
+        "sourceName": "CAMPUS_BUILDING 1127517105 | RV2 foundation floor 48",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1198559652_|_RV2_foundation_floor_49",
+        "sourceName": "CAMPUS_BUILDING 1198559652 | RV2 foundation floor 49",
+        "samples": 5,
+        "passed": 5
+      },
+      {
+        "name": "CAMPUS_BUILDING_1201486598_|_RV2_foundation_floor_51",
+        "sourceName": "CAMPUS_BUILDING 1201486598 | RV2 foundation floor 51",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1202050652_|_RV2_foundation_floor_52",
+        "sourceName": "CAMPUS_BUILDING 1202050652 | RV2 foundation floor 52",
+        "samples": 4,
+        "passed": 4
+      },
+      {
+        "name": "CAMPUS_BUILDING_158_|_RV2_foundation_floor_53",
+        "sourceName": "CAMPUS_BUILDING 158 | RV2 foundation floor 53",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_153_|_RV2_foundation_floor_54",
+        "sourceName": "CAMPUS_BUILDING 153 | RV2 foundation floor 54",
+        "samples": 13,
+        "passed": 13
+      },
+      {
+        "name": "CAMPUS_BUILDING_1202050669_|_RV2_foundation_floor_55",
+        "sourceName": "CAMPUS_BUILDING 1202050669 | RV2 foundation floor 55",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1202050670_|_RV2_foundation_floor_56",
+        "sourceName": "CAMPUS_BUILDING 1202050670 | RV2 foundation floor 56",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1202050671_|_RV2_foundation_floor_57",
+        "sourceName": "CAMPUS_BUILDING 1202050671 | RV2 foundation floor 57",
+        "samples": 4,
+        "passed": 4
+      },
+      {
+        "name": "CAMPUS_BUILDING_1359353587_|_RV2_foundation_floor_58",
+        "sourceName": "CAMPUS_BUILDING 1359353587 | RV2 foundation floor 58",
+        "samples": 6,
+        "passed": 6
+      },
+      {
+        "name": "CAMPUS_BUILDING_1359353588_|_RV2_foundation_floor_59",
+        "sourceName": "CAMPUS_BUILDING 1359353588 | RV2 foundation floor 59",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_1359353590_|_RV2_foundation_floor_60",
+        "sourceName": "CAMPUS_BUILDING 1359353590 | RV2 foundation floor 60",
+        "samples": 10,
+        "passed": 10
+      },
+      {
+        "name": "CAMPUS_BUILDING_130_|_RV2_foundation_floor_61",
+        "sourceName": "CAMPUS_BUILDING 130 | RV2 foundation floor 61",
+        "samples": 60,
+        "passed": 60
+      },
+      {
+        "name": "CAMPUS_BUILDING_165_|_RV2_foundation_floor_62",
+        "sourceName": "CAMPUS_BUILDING 165 | RV2 foundation floor 62",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_178_|_RV2_foundation_floor_63",
+        "sourceName": "CAMPUS_BUILDING 178 | RV2 foundation floor 63",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_171_|_RV2_foundation_floor_64",
+        "sourceName": "CAMPUS_BUILDING 171 | RV2 foundation floor 64",
+        "samples": 2,
+        "passed": 2
+      },
+      {
+        "name": "CAMPUS_BUILDING_164_|_RV2_foundation_floor_65",
+        "sourceName": "CAMPUS_BUILDING 164 | RV2 foundation floor 65",
+        "samples": 180,
+        "passed": 180
+      },
+      {
+        "name": "CAMPUS_BUILDING_176_|_RV2_foundation_floor_66",
+        "sourceName": "CAMPUS_BUILDING 176 | RV2 foundation floor 66",
+        "samples": 12,
+        "passed": 12
+      },
+      {
+        "name": "CAMPUS_BUILDING_139_|_RV2_foundation_floor_67",
+        "sourceName": "CAMPUS_BUILDING 139 | RV2 foundation floor 67",
+        "samples": 7,
+        "passed": 7
+      }
+    ],
+    "theatre167Replacement": {
+      "visible": true,
+      "samples": 122,
+      "passed": 122
+    },
+    "scope": "Visible generic cap closure only; standing garage deck/ramp heights are checked separately."
+  },
+  "failures": [
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+007_-083",
+      "matrixError": 1.2012888539469913e-7,
+      "rootError": 0.000008736059361354935,
+      "groundGap": -0.12669234151288578,
+      "actualRoot": [
+        54.79829025100356,
+        -38.801918029785156,
+        644.6194458009388
+      ],
+      "expectedRoot": [
+        54.79828970772879,
+        -38.801918029785156,
+        644.6194545200893
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+009_-021",
+      "matrixError": 1.44978339666757e-7,
+      "rootError": 0.000002436291727431385,
+      "groundGap": -0.11300716146218548,
+      "actualRoot": [
+        72.01200103857038,
+        -37.085426330566406,
+        162.74432373188245
+      ],
+      "expectedRoot": [
+        72.01199994768415,
+        -37.085426330566406,
+        162.74432591029577
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+010_-125",
+      "matrixError": 2.808054622160938e-8,
+      "rootError": 0.000008720580409208157,
+      "groundGap": -0.10363058112310952,
+      "actualRoot": [
+        79.64868926903682,
+        -31.240148544311523,
+        976.0824584948215
+      ],
+      "expectedRoot": [
+        79.64868927001953,
+        -31.240148544311523,
+        976.0824672154018
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+011_-127",
+      "matrixError": 1.490864232067679e-8,
+      "rootError": 0.000001088555581446775,
+      "groundGap": -0.13250537470698376,
+      "actualRoot": [
+        84.67354583876086,
+        -29.511205673217773,
+        988.4885864246518
+      ],
+      "expectedRoot": [
+        84.67354692731585,
+        -29.511205673217773,
+        988.4885864257812
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+012_-131",
+      "matrixError": 4.3673291427737126e-8,
+      "rootError": 0.000017472870200980852,
+      "groundGap": -0.11776841236109448,
+      "actualRoot": [
+        92.05660247650333,
+        -41.778480529785156,
+        1024.5761718751326
+      ],
+      "expectedRoot": [
+        92.05660356794085,
+        -41.778480529785156,
+        1024.5761544363838
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+014_-038",
+      "matrixError": 9.88761448272868e-8,
+      "rootError": 1.6372679165562714e-9,
+      "groundGap": -0.11873682625573423,
+      "actualRoot": [
+        109.81475067025326,
+        -46.866127014160156,
+        296.48358154415024
+      ],
+      "expectedRoot": [
+        109.81475067138672,
+        -46.866127014160156,
+        296.48358154296875
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-014",
+      "matrixError": 7.523020459365704e-8,
+      "rootError": 0.0000015424770053311714,
+      "groundGap": -0.10107747759179375,
+      "actualRoot": [
+        114.82316589342524,
+        -30.433263778686523,
+        107.84777832200606
+      ],
+      "expectedRoot": [
+        114.82316480364118,
+        -30.433263778686523,
+        107.84777723039899
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-132",
+      "matrixError": 2.476138460938415e-7,
+      "rootError": 0.000017440071372753603,
+      "groundGap": -0.1127985788126935,
+      "actualRoot": [
+        114.34942626887475,
+        -40.799049377441406,
+        1028.6978759751073
+      ],
+      "expectedRoot": [
+        114.34942626953125,
+        -40.799049377441406,
+        1028.6978934151787
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-030",
+      "matrixError": 5.5054250269748195e-8,
+      "rootError": 1.537668979554253e-9,
+      "groundGap": -0.11727225132553087,
+      "actualRoot": [
+        124.21609497007779,
+        -44.024330139160156,
+        235.68374633648585
+      ],
+      "expectedRoot": [
+        124.21609497070312,
+        -44.024330139160156,
+        235.68374633789062
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-128",
+      "matrixError": 1.1165376748167866e-8,
+      "rootError": 0.000017472953791774244,
+      "groundGap": -0.11820076167362714,
+      "actualRoot": [
+        126.45899200592892,
+        -30.345190048217773,
+        998.818908691622
+      ],
+      "expectedRoot": [
+        126.45899091448102,
+        -30.345190048217773,
+        998.8188912527902
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-131",
+      "matrixError": 4.553462051859469e-9,
+      "rootError": 0.00000878860494611677,
+      "groundGap": -0.10685497568279345,
+      "actualRoot": [
+        127.45259857051508,
+        -41.243629455566406,
+        1023.2711792005134
+      ],
+      "expectedRoot": [
+        127.45259966169085,
+        -41.243629455566406,
+        1023.2711704799107
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+017_-030",
+      "matrixError": 8.531288302540685e-9,
+      "rootError": 0.0000021798087319593985,
+      "groundGap": -0.11916540233752926,
+      "actualRoot": [
+        134.9907226562688,
+        -41.557655334472656,
+        233.31047057958182
+      ],
+      "expectedRoot": [
+        134.99072483607702,
+        -41.557655334472656,
+        233.3104705810547
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+018_-008",
+      "matrixError": 2.6896263460862713e-7,
+      "rootError": 0.0000022456601715680952,
+      "groundGap": -0.14263472432891078,
+      "actualRoot": [
+        138.6898345931951,
+        -10.03995418548584,
+        61.2208366403579
+      ],
+      "expectedRoot": [
+        138.68983241489954,
+        -10.03995418548584,
+        61.22083609444754
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-073",
+      "matrixError": 3.380618762705012e-8,
+      "rootError": 1.7515911116061477e-9,
+      "groundGap": -0.12836585463884376,
+      "actualRoot": [
+        150.35977172714146,
+        -41.613319396972656,
+        571.3644409190549
+      ],
+      "expectedRoot": [
+        150.35977172851562,
+        -41.613319396972656,
+        571.3644409179688
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-124",
+      "matrixError": 1.0099544023312035e-7,
+      "rootError": 0.0000021789876705468574,
+      "groundGap": -0.10336773375726338,
+      "actualRoot": [
+        145.86022949134778,
+        -30.319982528686523,
+        966.3533325207991
+      ],
+      "expectedRoot": [
+        145.86022731236048,
+        -30.319982528686523,
+        966.3533325195312
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-029",
+      "matrixError": 3.158614436671314e-8,
+      "rootError": 1.6712434352878456e-9,
+      "groundGap": -0.14286488290220234,
+      "actualRoot": [
+        158.3962249740459,
+        -40.551551818847656,
+        228.4285430901712
+      ],
+      "expectedRoot": [
+        158.39622497558594,
+        -40.551551818847656,
+        228.4285430908203
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-069",
+      "matrixError": 1.6689360815558274e-7,
+      "rootError": 1.7747828455997985e-9,
+      "groundGap": -0.1256662845716292,
+      "actualRoot": [
+        156.27925109962226,
+        -40.307167053222656,
+        538.0327758803796
+      ],
+      "expectedRoot": [
+        156.2792510986328,
+        -40.307167053222656,
+        538.0327758789062
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-012",
+      "matrixError": 3.1008860956749373e-7,
+      "rootError": 0.0000010900284952877859,
+      "groundGap": -0.12125632709631518,
+      "actualRoot": [
+        165.2494811994354,
+        -27.221776962280273,
+        92.03913879405891
+      ],
+      "expectedRoot": [
+        165.24948120117188,
+        -27.221776962280273,
+        92.0391377040318
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-067",
+      "matrixError": 4.154632193831276e-8,
+      "rootError": 0.00000898919298473748,
+      "groundGap": -0.11260243654134428,
+      "actualRoot": [
+        165.86141967661266,
+        -40.609718322753906,
+        523.3500976575527
+      ],
+      "expectedRoot": [
+        165.8614218575614,
+        -40.609718322753906,
+        523.3500889369419
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+022_-100",
+      "matrixError": 7.637877590116471e-8,
+      "rootError": 0.000008717801850926159,
+      "groundGap": -0.11760918140304,
+      "actualRoot": [
+        173.47904968237364,
+        -32.624488830566406,
+        782.6299438491625
+      ],
+      "expectedRoot": [
+        173.4790496826172,
+        -32.624488830566406,
+        782.6299525669643
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+023_-013",
+      "matrixError": 2.639430773943019e-8,
+      "rootError": 1.6318103262270446e-9,
+      "groundGap": -0.10066170941301777,
+      "actualRoot": [
+        178.60313415385127,
+        -30.844701766967773,
+        101.03323364177797
+      ],
+      "expectedRoot": [
+        178.60313415527344,
+        -30.844701766967773,
+        101.03323364257812
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+024_-076",
+      "matrixError": 3.59131984151162e-8,
+      "rootError": 0.000008720786597322864,
+      "groundGap": -0.10335482548742192,
+      "actualRoot": [
+        189.32763671927097,
+        -40.269325256347656,
+        594.1967163100722
+      ],
+      "expectedRoot": [
+        189.32763671875,
+        -40.269325256347656,
+        594.1967075892857
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+025_-081",
+      "matrixError": 2.2919020459255535e-8,
+      "rootError": 0.000002181317513095005,
+      "groundGap": -0.1257664177057265,
+      "actualRoot": [
+        196.34042358547487,
+        -35.395301818847656,
+        633.6144409179135
+      ],
+      "expectedRoot": [
+        196.34042140415735,
+        -35.395301818847656,
+        633.6144409179688
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-071",
+      "matrixError": 5.008266701356234e-8,
+      "rootError": 0.000008720803451910202,
+      "groundGap": -0.1282108018547845,
+      "actualRoot": [
+        202.17904663174033,
+        -34.538490295410156,
+        556.1536254897766
+      ],
+      "expectedRoot": [
+        202.17904663085938,
+        -34.538490295410156,
+        556.1536167689732
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-092",
+      "matrixError": 3.442650198248742e-8,
+      "rootError": 0.00001743937814785689,
+      "groundGap": -0.1316758883023752,
+      "actualRoot": [
+        203.50743103159132,
+        -32.828590393066406,
+        717.1709594734183
+      ],
+      "expectedRoot": [
+        203.50743103027344,
+        -32.828590393066406,
+        717.1709420340402
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-078",
+      "matrixError": 7.138723392974278e-8,
+      "rootError": 0.000008986197292997987,
+      "groundGap": -0.11239004866790481,
+      "actualRoot": [
+        212.585845947756,
+        -33.135780334472656,
+        606.3617553724758
+      ],
+      "expectedRoot": [
+        212.58584812709265,
+        -33.135780334472656,
+        606.3617640904018
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-091",
+      "matrixError": 5.9221222370453575e-9,
+      "rootError": 0.000008988037863132246,
+      "groundGap": -0.10328848191716844,
+      "actualRoot": [
+        213.19395446929894,
+        -31.453588485717773,
+        707.4016723632923
+      ],
+      "expectedRoot": [
+        213.19395228794642,
+        -31.453588485717773,
+        707.4016636439732
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-065",
+      "matrixError": 2.083547923081852e-8,
+      "rootError": 1.6377817535274381e-9,
+      "groundGap": -0.12382026219006548,
+      "actualRoot": [
+        218.88076782389848,
+        -32.753334045410156,
+        506.59451293958006
+      ],
+      "expectedRoot": [
+        218.88076782226562,
+        -32.753334045410156,
+        506.5945129394531
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-066",
+      "matrixError": 5.6785704749540145e-8,
+      "rootError": 0.000008717804604450386,
+      "groundGap": -0.10754523062273336,
+      "actualRoot": [
+        217.36421203683702,
+        -31.260290145874023,
+        515.7810668930277
+      ],
+      "expectedRoot": [
+        217.3642120361328,
+        -31.260290145874023,
+        515.7810581752232
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+032_-114",
+      "matrixError": 4.193640101846086e-9,
+      "rootError": 0.000008987449706218736,
+      "groundGap": -0.1175104547431971,
+      "actualRoot": [
+        248.25143432768488,
+        -34.111549377441406,
+        891.2672729493831
+      ],
+      "expectedRoot": [
+        248.2514365059989,
+        -34.111549377441406,
+        891.2672642299107
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-006",
+      "matrixError": 1.0628155588943144e-7,
+      "rootError": 5.444382556445133e-7,
+      "groundGap": -0.24448942465778456,
+      "actualRoot": [
+        305.00213622893597,
+        0.3512812554836273,
+        44.82203292794614
+      ],
+      "expectedRoot": [
+        305.00213623046875,
+        0.3512812554836273,
+        44.82203238351004
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-076",
+      "matrixError": 4.783270113328797e-8,
+      "rootError": 0.000008719821167944971,
+      "groundGap": -0.11314783595915046,
+      "actualRoot": [
+        306.1298217758468,
+        -28.701330184936523,
+        593.0463256841067
+      ],
+      "expectedRoot": [
+        306.12982177734375,
+        -28.701330184936523,
+        593.0463169642857
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+040_-015",
+      "matrixError": 2.9302094917138533e-8,
+      "rootError": 1.6698545038580086e-9,
+      "groundGap": -0.12149574149182385,
+      "actualRoot": [
+        310.963226316883,
+        -18.919836044311523,
+        118.13968658525283
+      ],
+      "expectedRoot": [
+        310.9632263183594,
+        -18.919836044311523,
+        118.13968658447266
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+041_-058",
+      "matrixError": 4.872843284431383e-8,
+      "rootError": 0.000006164341512437305,
+      "groundGap": -0.12286280613712819,
+      "actualRoot": [
+        322.2263183595085,
+        -24.344152450561523,
+        450.67788696141133
+      ],
+      "expectedRoot": [
+        322.22632271902904,
+        -24.344152450561523,
+        450.6778826032366
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+042_-021",
+      "matrixError": 9.172229353815453e-8,
+      "rootError": 1.745426355722955e-9,
+      "groundGap": -0.11468922605093113,
+      "actualRoot": [
+        329.1463928215278,
+        -24.892126083374023,
+        164.11293029626975
+      ],
+      "expectedRoot": [
+        329.1463928222656,
+        -24.892126083374023,
+        164.11293029785156
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_+001",
+      "matrixError": 2.5159209993130816e-8,
+      "rootError": 0.000004362865678253,
+      "groundGap": -0.10232748360187571,
+      "actualRoot": [
+        336.71829223738206,
+        11.59926700592041,
+        -9.822028161052506
+      ],
+      "expectedRoot": [
+        336.7182878766741,
+        11.59926700592041,
+        -9.822028023856026
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-003",
+      "matrixError": 8.276472096557796e-8,
+      "rootError": 5.435304752814575e-7,
+      "groundGap": -0.14552712460672357,
+      "actualRoot": [
+        337.22241210859664,
+        2.638176918029785,
+        24.92301750325789
+      ],
+      "expectedRoot": [
+        337.222412109375,
+        2.638176918029785,
+        24.923018046787806
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-073",
+      "matrixError": 2.395100173746556e-8,
+      "rootError": 0.00000871976229634017,
+      "groundGap": -0.13292380690418426,
+      "actualRoot": [
+        337.04592895667747,
+        -19.151708602905273,
+        568.6490478520166
+      ],
+      "expectedRoot": [
+        337.0459289550781,
+        -19.151708602905273,
+        568.6490391322544
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-057",
+      "matrixError": 4.9314432759572924e-8,
+      "rootError": 0.000004360082104904864,
+      "groundGap": -0.1290934920439213,
+      "actualRoot": [
+        344.66757202314426,
+        -33.591651916503906,
+        441.8515319819941
+      ],
+      "expectedRoot": [
+        344.6675720214844,
+        -33.591651916503906,
+        441.8515363420759
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-072",
+      "matrixError": 1.264840507331222e-7,
+      "rootError": 1.7833817873431095e-9,
+      "groundGap": -0.14352332761729514,
+      "actualRoot": [
+        340.9254150405889,
+        -17.586156845092773,
+        563.7932128915472
+      ],
+      "expectedRoot": [
+        340.9254150390625,
+        -17.586156845092773,
+        563.793212890625
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-074",
+      "matrixError": 6.514312500538466e-8,
+      "rootError": 1.4664086339517115e-9,
+      "groundGap": -0.12786838292595348,
+      "actualRoot": [
+        340.55972289965143,
+        -16.876379013061523,
+        575.304809571579
+      ],
+      "expectedRoot": [
+        340.5597229003906,
+        -16.876379013061523,
+        575.3048095703125
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-078",
+      "matrixError": 1.1089345997028488e-8,
+      "rootError": 0.000009747544276279548,
+      "groundGap": -0.1152984067792211,
+      "actualRoot": [
+        345.7971496599002,
+        -17.053564071655273,
+        606.9494628904241
+      ],
+      "expectedRoot": [
+        345.79715401785717,
+        -17.053564071655273,
+        606.9494541713169
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-085",
+      "matrixError": 3.13297355836184e-8,
+      "rootError": 0.000004359001572370737,
+      "groundGap": -0.11738188215049306,
+      "actualRoot": [
+        344.8474731451839,
+        -23.190282821655273,
+        660.8554077161848
+      ],
+      "expectedRoot": [
+        344.8474775041853,
+        -23.190282821655273,
+        660.8554077148438
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-071",
+      "matrixError": 2.7194943519326387e-8,
+      "rootError": 0.000004360769394215777,
+      "groundGap": -0.12250275183961712,
+      "actualRoot": [
+        352.44216919056834,
+        -13.17722225189209,
+        552.6326904285787
+      ],
+      "expectedRoot": [
+        352.4421648297991,
+        -13.17722225189209,
+        552.6326904296875
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-085",
+      "matrixError": 2.297791290573059e-8,
+      "rootError": 0.000009749895670139194,
+      "groundGap": -0.13795781799515794,
+      "actualRoot": [
+        353.0570068347953,
+        -17.463598251342773,
+        662.1596069325852
+      ],
+      "expectedRoot": [
+        353.05701119559154,
+        -17.463598251342773,
+        662.1596156529018
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+046_-083",
+      "matrixError": 6.338093638813547e-8,
+      "rootError": 0.000008717982355413831,
+      "groundGap": -0.13980692637422365,
+      "actualRoot": [
+        357.1457519518942,
+        -15.02970027923584,
+        646.7058715807054
+      ],
+      "expectedRoot": [
+        357.145751953125,
+        -15.02970027923584,
+        646.7058628627232
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-015",
+      "matrixError": 1.0045929627056083e-7,
+      "rootError": 0.0000010884816117384845,
+      "groundGap": -0.10995275932120308,
+      "actualRoot": [
+        367.1936340334567,
+        -15.10336971282959,
+        119.29383850240849
+      ],
+      "expectedRoot": [
+        367.1936340332031,
+        -15.10336971282959,
+        119.29383959089007
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-068",
+      "matrixError": 3.02465298362975e-7,
+      "rootError": 0.000004361212474041641,
+      "groundGap": -0.16364492940677167,
+      "actualRoot": [
+        367.95404052578533,
+        -13.81040096282959,
+        532.1542968746678
+      ],
+      "expectedRoot": [
+        367.9540448869978,
+        -13.81040096282959,
+        532.154296875
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_+001",
+      "matrixError": 9.4051040733234e-8,
+      "rootError": 1.6651750127372758e-9,
+      "groundGap": -0.12021933720362199,
+      "actualRoot": [
+        373.3496704085072,
+        12.326653480529785,
+        -10.458957671887806
+      ],
+      "expectedRoot": [
+        373.34967041015625,
+        12.326653480529785,
+        -10.45895767211914
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-093",
+      "matrixError": 4.991720203850747e-8,
+      "rootError": 0.000009749781712104774,
+      "groundGap": -0.10270734210033439,
+      "actualRoot": [
+        372.0527648911401,
+        -28.070470809936523,
+        725.3212280266106
+      ],
+      "expectedRoot": [
+        372.05276925223217,
+        -28.070470809936523,
+        725.3212367466518
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-098",
+      "matrixError": 3.497099920757307e-8,
+      "rootError": 0.00000974666930316069,
+      "groundGap": -0.11219987404481557,
+      "actualRoot": [
+        376.740631104252,
+        -31.295080184936523,
+        767.1411132829094
+      ],
+      "expectedRoot": [
+        376.74063546316967,
+        -31.295080184936523,
+        767.1411220005581
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+052_-068",
+      "matrixError": 2.9761411057815934e-7,
+      "rootError": 1.5463560844168514e-9,
+      "groundGap": -0.11006020106501069,
+      "actualRoot": [
+        406.1605224597191,
+        -19.663732528686523,
+        527.740539549829
+      ],
+      "expectedRoot": [
+        406.1605224609375,
+        -19.663732528686523,
+        527.7405395507812
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+053_-017",
+      "matrixError": 1.0087977664330339e-7,
+      "rootError": 0.000004873416018116897,
+      "groundGap": -0.1255471768082419,
+      "actualRoot": [
+        415.62112426769687,
+        0.6515436768531799,
+        132.04446411293668
+      ],
+      "expectedRoot": [
+        415.62112862723217,
+        0.6515436768531799,
+        132.04446629115515
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+055_-070",
+      "matrixError": 8.500340650807736e-8,
+      "rootError": 0.000009749669327848847,
+      "groundGap": -0.12312022387175148,
+      "actualRoot": [
+        428.9635925309103,
+        -19.100866317749023,
+        543.5395507817698
+      ],
+      "expectedRoot": [
+        428.96358816964283,
+        -19.100866317749023,
+        543.5395420619419
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+057_-073",
+      "matrixError": 1.7479667491215878e-8,
+      "rootError": 0.000008719258544414814,
+      "groundGap": -0.11141255960118102,
+      "actualRoot": [
+        444.85925293125626,
+        -12.53952693939209,
+        567.3141479491691
+      ],
+      "expectedRoot": [
+        444.8592529296875,
+        -12.53952693939209,
+        567.3141392299107
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-013",
+      "matrixError": 2.873324456142967e-8,
+      "rootError": 0.000004494910856957608,
+      "groundGap": -0.13354623685393818,
+      "actualRoot": [
+        454.1889038099165,
+        8.716729164123535,
+        100.59957885659287
+      ],
+      "expectedRoot": [
+        454.1888994489397,
+        8.716729164123535,
+        100.59957776750836
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-027",
+      "matrixError": 3.132511927628201e-8,
+      "rootError": 0.000004872883084008568,
+      "groundGap": -0.1011698584835301,
+      "actualRoot": [
+        450.1540527329954,
+        -22.773473739624023,
+        209.70967102078595
+      ],
+      "expectedRoot": [
+        450.15404837472096,
+        -22.773473739624023,
+        209.70967320033483
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-028",
+      "matrixError": 5.2637889269568916e-8,
+      "rootError": 0.0000021804335583785097,
+      "groundGap": -0.10519448222127892,
+      "actualRoot": [
+        452.9577941880173,
+        -21.598669052124023,
+        219.76286315978575
+      ],
+      "expectedRoot": [
+        452.9577941894531,
+        -21.598669052124023,
+        219.76286097935267
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-032",
+      "matrixError": 3.026019366678123e-8,
+      "rootError": 1.7788914308954385e-9,
+      "groundGap": -0.11286193412680845,
+      "actualRoot": [
+        462.3688049315761,
+        -16.464941024780273,
+        250.4026184064254
+      ],
+      "expectedRoot": [
+        462.3688049316406,
+        -16.464941024780273,
+        250.40261840820312
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-071",
+      "matrixError": 5.447408912839791e-8,
+      "rootError": 0.000008718308281018425,
+      "groundGap": -0.12589221233019288,
+      "actualRoot": [
+        457.49487304799794,
+        -19.865209579467773,
+        555.3834838857189
+      ],
+      "expectedRoot": [
+        457.494873046875,
+        -19.865209579467773,
+        555.3834751674107
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+060_-026",
+      "matrixError": 3.4379539437523476e-8,
+      "rootError": 0.0000021809637242285965,
+      "groundGap": -0.10651226881491027,
+      "actualRoot": [
+        468.6413879385093,
+        -13.21237850189209,
+        203.84515380973025
+      ],
+      "expectedRoot": [
+        468.6413879394531,
+        -13.21237850189209,
+        203.84515162876673
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+061_-024",
+      "matrixError": 2.1642313163816596e-8,
+      "rootError": 0.00000436030583018136,
+      "groundGap": -0.1206543620567544,
+      "actualRoot": [
+        475.15042114192653,
+        -2.65933895111084,
+        185.04876709113722
+      ],
+      "expectedRoot": [
+        475.15042550223217,
+        -2.65933895111084,
+        185.04876708984375
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-024",
+      "matrixError": 8.921302324660374e-8,
+      "rootError": 1.45686225873787e-9,
+      "groundGap": -0.10853411338631425,
+      "actualRoot": [
+        483.86151123019863,
+        -5.056159019470215,
+        189.9214630141269
+      ],
+      "expectedRoot": [
+        483.86151123046875,
+        -5.056159019470215,
+        189.9214630126953
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-029",
+      "matrixError": 3.3323439674326494e-8,
+      "rootError": 0.000004872756372537428,
+      "groundGap": -0.10350967818092816,
+      "actualRoot": [
+        482.06976318221234,
+        -7.94846248626709,
+        226.76521301325312
+      ],
+      "expectedRoot": [
+        482.0697588239397,
+        -7.94846248626709,
+        226.76521519252233
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-074",
+      "matrixError": 3.1081552276379654e-8,
+      "rootError": 0.000008720504218074478,
+      "groundGap": -0.10768071805687462,
+      "actualRoot": [
+        481.4090576179623,
+        -13.21970272064209,
+        576.9573364269773
+      ],
+      "expectedRoot": [
+        481.4090576171875,
+        -13.21970272064209,
+        576.9573277064732
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-025",
+      "matrixError": 8.814407970181293e-8,
+      "rootError": 0.000008720721505796927,
+      "groundGap": -0.10916225382601841,
+      "actualRoot": [
+        493.0700378403834,
+        -5.44242000579834,
+        194.69126892048607
+      ],
+      "expectedRoot": [
+        493.0700465611049,
+        -5.44242000579834,
+        194.69126892089844
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-027",
+      "matrixError": 5.887317872099729e-8,
+      "rootError": 1.5083167834448581e-9,
+      "groundGap": -0.1169840522956136,
+      "actualRoot": [
+        491.7182922360761,
+        -6.62015438079834,
+        212.0153808578879
+      ],
+      "expectedRoot": [
+        491.7182922363281,
+        -6.62015438079834,
+        212.015380859375
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+064_-025",
+      "matrixError": 2.3799612780539547e-8,
+      "rootError": 0.000008720282784182854,
+      "groundGap": -0.10474767456226708,
+      "actualRoot": [
+        500.0467529287128,
+        -3.249823570251465,
+        194.527572630792
+      ],
+      "expectedRoot": [
+        500.0467616489955,
+        -3.249823570251465,
+        194.52757263183594
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-023",
+      "matrixError": 1.1029709257037723e-8,
+      "rootError": 0.000008720883929333775,
+      "groundGap": -0.10995630509027965,
+      "actualRoot": [
+        509.56576538243525,
+        5.586785316467285,
+        181.17105102613348
+      ],
+      "expectedRoot": [
+        509.56575666155135,
+        5.586785316467285,
+        181.17105102539062
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-054",
+      "matrixError": 9.676608614395121e-8,
+      "rootError": 0.000006167045354650382,
+      "groundGap": -0.13033674226225145,
+      "actualRoot": [
+        504.85516357527433,
+        -21.706518173217773,
+        419.4948730457195
+      ],
+      "expectedRoot": [
+        504.8551592145647,
+        -21.706518173217773,
+        419.49487740652904
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-055",
+      "matrixError": 1.853028960829839e-8,
+      "rootError": 0.000006166826500632156,
+      "groundGap": -0.12306372834135004,
+      "actualRoot": [
+        507.00845337061764,
+        -20.858617782592773,
+        426.20034790081513
+      ],
+      "expectedRoot": [
+        507.0084490094866,
+        -20.858617782592773,
+        426.2003435407366
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-035",
+      "matrixError": 3.081390329562339e-7,
+      "rootError": 1.745451202436369e-9,
+      "groundGap": -0.13327003507188007,
+      "actualRoot": [
+        514.4011230454338,
+        -6.827765464782715,
+        274.04672241112473
+      ],
+      "expectedRoot": [
+        514.401123046875,
+        -6.827765464782715,
+        274.0467224121094
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-046",
+      "matrixError": 7.69860470373196e-8,
+      "rootError": 0.00000974948522052464,
+      "groundGap": -0.14232893446062356,
+      "actualRoot": [
+        516.7572631838873,
+        -12.86539363861084,
+        360.33111572431045
+      ],
+      "expectedRoot": [
+        516.7572544642857,
+        -12.86539363861084,
+        360.3311113630022
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+068_-041",
+      "matrixError": 7.116886191482763e-9,
+      "rootError": 1.5197558920828691e-9,
+      "groundGap": -0.11206769054404475,
+      "actualRoot": [
+        531.4458618177874,
+        -11.819281578063965,
+        317.82034301821216
+      ],
+      "expectedRoot": [
+        531.4458618164062,
+        -11.819281578063965,
+        317.8203430175781
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_+072_-025",
+      "matrixError": 1.0595537980329084e-7,
+      "rootError": 1.6556840195039712e-9,
+      "groundGap": -0.10800310495110921,
+      "actualRoot": [
+        559.1350708005926,
+        7.96743106842041,
+        197.31520080401916
+      ],
+      "expectedRoot": [
+        559.1350708007812,
+        7.96743106842041,
+        197.31520080566406
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-001_-016",
+      "matrixError": 5.867873278941893e-8,
+      "rootError": 1.5295386145832962e-9,
+      "groundGap": -0.12771119334877667,
+      "actualRoot": [
+        -10.32236766667316,
+        -24.562841415405273,
+        126.83032989462845
+      ],
+      "expectedRoot": [
+        -10.322367668151855,
+        -24.562841415405273,
+        126.83032989501953
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-005_-104",
+      "matrixError": 2.1579016684647456e-8,
+      "rootError": 1.7597253090863158e-9,
+      "groundGap": -0.11004137594115804,
+      "actualRoot": [
+        -39.01633834665216,
+        -46.718421936035156,
+        813.0433959958089
+      ],
+      "expectedRoot": [
+        -39.01633834838867,
+        -46.718421936035156,
+        813.0433959960938
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-017",
+      "matrixError": 7.901827614453794e-8,
+      "rootError": 1.44273262794346e-9,
+      "groundGap": -0.11071100387674804,
+      "actualRoot": [
+        -47.29641723771325,
+        -26.968603134155273,
+        132.34022522013018
+      ],
+      "expectedRoot": [
+        -47.296417236328125,
+        -26.968603134155273,
+        132.34022521972656
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-026",
+      "matrixError": 5.48209179163095e-8,
+      "rootError": 5.452628571739501e-7,
+      "groundGap": -0.13659826587790747,
+      "actualRoot": [
+        -45.67473983794961,
+        -41.685035705566406,
+        203.77590942202625
+      ],
+      "expectedRoot": [
+        -45.67473929268973,
+        -41.685035705566406,
+        203.77590942382812
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-109",
+      "matrixError": 7.536578838784891e-8,
+      "rootError": 0.000008718834579922449,
+      "groundGap": -0.10285043399159122,
+      "actualRoot": [
+        -44.27450180195229,
+        -48.605934143066406,
+        849.1941528315576
+      ],
+      "expectedRoot": [
+        -44.27450180053711,
+        -48.605934143066406,
+        849.1941441127232
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-110",
+      "matrixError": 3.0143045393060675e-8,
+      "rootError": 5.439560113091888e-7,
+      "groundGap": -0.10645667723672148,
+      "actualRoot": [
+        -46.30717468361886,
+        -47.263648986816406,
+        858.9718627919632
+      ],
+      "expectedRoot": [
+        -46.30717522757394,
+        -47.263648986816406,
+        858.9718627929688
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-112",
+      "matrixError": 3.996822187102289e-8,
+      "rootError": 0.000008717741480124021,
+      "groundGap": -0.11988385605017271,
+      "actualRoot": [
+        -47.606170654223284,
+        -47.535316467285156,
+        873.0611572281291
+      ],
+      "expectedRoot": [
+        -47.606170654296875,
+        -47.535316467285156,
+        873.0611659458706
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-009_-019",
+      "matrixError": 4.27741955744132e-8,
+      "rootError": 0.000002181224444941112,
+      "groundGap": -0.13192095665339565,
+      "actualRoot": [
+        -68.89669036840837,
+        -34.071022033691406,
+        145.66842651227446
+      ],
+      "expectedRoot": [
+        -68.89669036865234,
+        -34.071022033691406,
+        145.6684286934989
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-016",
+      "matrixError": 5.245993561775464e-8,
+      "rootError": 0.000002180448628344469,
+      "groundGap": -0.10342246683967815,
+      "actualRoot": [
+        -101.89040374817958,
+        -24.216894149780273,
+        124.19544983076632
+      ],
+      "expectedRoot": [
+        -101.89040156773159,
+        -24.216894149780273,
+        124.19544982910156
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-020",
+      "matrixError": 1.2599458143469633e-8,
+      "rootError": 0.0000010882228760813484,
+      "groundGap": -0.12048630218721001,
+      "actualRoot": [
+        -98.63132476975721,
+        -36.146461486816406,
+        154.63493347106603
+      ],
+      "expectedRoot": [
+        -98.63132585797992,
+        -36.146461486816406,
+        154.6349334716797
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-014_-031",
+      "matrixError": 1.9651940186271588e-8,
+      "rootError": 1.8263335501943384e-9,
+      "groundGap": -0.10907001135713301,
+      "actualRoot": [
+        -111.49341583080941,
+        -43.871437072753906,
+        240.2181701666567
+      ],
+      "expectedRoot": [
+        -111.49341583251953,
+        -43.871437072753906,
+        240.21817016601562
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-018_-021",
+      "matrixError": 1.9699657016758465e-8,
+      "rootError": 0.000002178658093978806,
+      "groundGap": -0.12715592112560614,
+      "actualRoot": [
+        -139.36032104591928,
+        -34.390419006347656,
+        161.32588195917697
+      ],
+      "expectedRoot": [
+        -139.36032104492188,
+        -34.390419006347656,
+        161.32588413783483
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-031_-006",
+      "matrixError": 4.2480054696092395e-8,
+      "rootError": 0.0000022476375763380778,
+      "groundGap": -0.10210307267083873,
+      "actualRoot": [
+        -239.88310241807213,
+        -3.544684410095215,
+        45.100399018673684
+      ],
+      "expectedRoot": [
+        -239.88310023716517,
+        -3.544684410095215,
+        45.10039956229074
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-032_-027",
+      "matrixError": 1.5139762332694318e-8,
+      "rootError": 0.0000030842478515376915,
+      "groundGap": -0.1040825414804516,
+      "actualRoot": [
+        -249.8748779287765,
+        -33.692665100097656,
+        213.2653350842279
+      ],
+      "expectedRoot": [
+        -249.87488010951452,
+        -33.692665100097656,
+        213.2653329031808
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-033_-007",
+      "matrixError": 4.254351138044399e-8,
+      "rootError": 0.0000022454457115633104,
+      "groundGap": -0.1404437102570002,
+      "actualRoot": [
+        -254.88929748687707,
+        -4.50058650970459,
+        52.70597839350781
+      ],
+      "expectedRoot": [
+        -254.88929966517858,
+        -4.50058650970459,
+        52.70597893851144
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-034_-024",
+      "matrixError": 4.5560175188086305e-8,
+      "rootError": 0.000004873603243046973,
+      "groundGap": -0.11101278207747,
+      "actualRoot": [
+        -264.5641784680953,
+        -29.304601669311523,
+        187.98600769159896
+      ],
+      "expectedRoot": [
+        -264.5641828264509,
+        -29.304601669311523,
+        187.98600551060267
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-012",
+      "matrixError": 2.8283747566248962e-8,
+      "rootError": 1.452888793161346e-9,
+      "groundGap": -0.12323851370001648,
+      "actualRoot": [
+        -275.236450196097,
+        -36.444007873535156,
+        91.72888183716039
+      ],
+      "expectedRoot": [
+        -275.2364501953125,
+        -36.444007873535156,
+        91.7288818359375
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-015",
+      "matrixError": 1.0642867642740583e-7,
+      "rootError": 0.0000010900066666968464,
+      "groundGap": -0.14412068898958452,
+      "actualRoot": [
+        -274.5885620133056,
+        -25.542211532592773,
+        118.72838592520097
+      ],
+      "expectedRoot": [
+        -274.58856201171875,
+        -25.542211532592773,
+        118.72838701520648
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_+008",
+      "matrixError": 2.3008019323089712e-8,
+      "rootError": 5.44224281575741e-7,
+      "groundGap": -0.11835660980834994,
+      "actualRoot": [
+        -289.0875549301836,
+        8.46395206451416,
+        -59.69130325390825
+      ],
+      "expectedRoot": [
+        -289.0875549316406,
+        8.46395206451416,
+        -59.69130379813058
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-005",
+      "matrixError": 1.1375347885866915e-8,
+      "rootError": 0.0000043920810484838105,
+      "groundGap": -0.10769711820102712,
+      "actualRoot": [
+        -290.45629882675996,
+        -1.9573734998703003,
+        39.430984495890065
+      ],
+      "expectedRoot": [
+        -290.45629446847096,
+        -1.9573734998703003,
+        39.43098395211356
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-007",
+      "matrixError": 3.178677691617615e-7,
+      "rootError": 5.432736182142999e-7,
+      "groundGap": -0.130358975364274,
+      "actualRoot": [
+        -290.3745422369709,
+        -8.64401912689209,
+        52.85214996169539
+      ],
+      "expectedRoot": [
+        -290.3745422363281,
+        -8.64401912689209,
+        52.85214941842215
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-038_-006",
+      "matrixError": 6.264089483232205e-9,
+      "rootError": 1.7015087573955417e-9,
+      "groundGap": -0.12962991227415355,
+      "actualRoot": [
+        -295.38137817552405,
+        -4.861334800720215,
+        44.05253601087994
+      ],
+      "expectedRoot": [
+        -295.3813781738281,
+        -4.861334800720215,
+        44.05253601074219
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-039_-007",
+      "matrixError": 2.9783938759742057e-8,
+      "rootError": 1.5145008691994218e-9,
+      "groundGap": -0.12217916819597896,
+      "actualRoot": [
+        -306.4974670418505,
+        -11.14987850189209,
+        52.54075240962506
+      ],
+      "expectedRoot": [
+        -306.4974670410156,
+        -11.14987850189209,
+        52.54075241088867
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-041_-015",
+      "matrixError": 3.6088327881600435e-9,
+      "rootError": 0.000004361451890742644,
+      "groundGap": -0.14049888045837378,
+      "actualRoot": [
+        -320.64083862124903,
+        -22.390417098999023,
+        115.33682250997178
+      ],
+      "expectedRoot": [
+        -320.6408429827009,
+        -22.390417098999023,
+        115.33682250976562
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-042_-006",
+      "matrixError": 4.1631846775525005e-8,
+      "rootError": 1.5977377544777611e-9,
+      "groundGap": -0.10950857853236506,
+      "actualRoot": [
+        -327.6613464352722,
+        -9.24533748626709,
+        45.832679746961205
+      ],
+      "expectedRoot": [
+        -327.6613464355469,
+        -9.24533748626709,
+        45.832679748535156
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-002",
+      "matrixError": 3.300533479855261e-8,
+      "rootError": 0.000004359906403302811,
+      "groundGap": -0.10628320285280735,
+      "actualRoot": [
+        -341.7923278811115,
+        1.9878474473953247,
+        14.884940145892687
+      ],
+      "expectedRoot": [
+        -341.79232352120533,
+        1.9878474473953247,
+        14.884940147399902
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-003",
+      "matrixError": 2.7946511660381645e-8,
+      "rootError": 0.0000043669922178429535,
+      "groundGap": -0.1406291076402142,
+      "actualRoot": [
+        -345.2297058094634,
+        -2.907355308532715,
+        23.667573930232443
+      ],
+      "expectedRoot": [
+        -345.22970145089283,
+        -2.907355308532715,
+        23.667574201311385
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-018",
+      "matrixError": 1.5595038538318562e-7,
+      "rootError": 0.000004874321314045096,
+      "groundGap": -0.12034784612252736,
+      "actualRoot": [
+        -342.1523437493972,
+        -23.156530380249023,
+        139.06164550642868
+      ],
+      "expectedRoot": [
+        -342.15233939034596,
+        -23.156530380249023,
+        139.06164768763952
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-049_-015",
+      "matrixError": 5.4054171805262285e-8,
+      "rootError": 0.000004873169101766537,
+      "groundGap": -0.13791785764382425,
+      "actualRoot": [
+        -382.01400756983924,
+        -16.733007431030273,
+        117.72640228215315
+      ],
+      "expectedRoot": [
+        -382.0140119280134,
+        -16.733007431030273,
+        117.72640446254185
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-053_+010",
+      "matrixError": 5.566143659874179e-8,
+      "rootError": 0.000001090318122362045,
+      "groundGap": -0.1169756599916405,
+      "actualRoot": [
+        -413.73217773267714,
+        1.9839411973953247,
+        -78.95551300089157
+      ],
+      "expectedRoot": [
+        -413.732177734375,
+        1.9839411973953247,
+        -78.95551191057477
+      ]
+    },
+    {
+      "reason": "Source tree transform/root/ground mismatch",
+      "name": "CAMPUS_TREE RV2_INFILL infill_-057_+009",
+      "matrixError": 3.6365848554709146e-7,
+      "rootError": 0.0000010896548838666621,
+      "groundGap": -0.11544383164107952,
+      "actualRoot": [
+        -444.86416626145143,
+        2.71077823638916,
+        -70.32698822047477
+      ],
+      "expectedRoot": [
+        -444.8641662597656,
+        2.71077823638916,
+        -70.32698931012835
+      ]
+    }
+  ],
+  "verification": "Actual GLB decoding and runtime collision rays; no WebGL/browser/device rendering test"
+}

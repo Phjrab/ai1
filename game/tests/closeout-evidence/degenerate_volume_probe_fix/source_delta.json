@@ -1,0 +1,15 @@
+{
+  "scope": "QA-only rejects exactly zero-area triangles, preserving every positive-area triangle. No game collision or geometry changed.",
+  "records": [
+    {
+      "root": "/workspace/shared/chosun_realism/game",
+      "before": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+      "after": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+    },
+    {
+      "root": "/workspace/shared/chosun_game_validation/chosun_game_final_a1a2070f_export2_verified",
+      "before": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97",
+      "after": "38234b0e0369f90f91aa4e760ae88a7a9efe10c78a6272b92b973fc4934582c8"
+    }
+  ]
+}

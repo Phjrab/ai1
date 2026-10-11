@@ -1,0 +1,139 @@
+{
+  "status": "PASS_NATIVE_ADDITION_BINDING",
+  "source_native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "native_sha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "native_file": "street_lighting_v6/Chosun_Campus_Street_Lighting_v6.blend",
+  "native_bytes": 276659952,
+  "placement_sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394",
+  "final_fixture_glb_sha256": "049dc05ce731914ca878de3febdfcd9e4b8b7ee011f647761b518c6559ea5abf",
+  "original_objects": 7923,
+  "original_meshes": 1684,
+  "original_materials": 426,
+  "original_state_sha256": "f5164e803058a866027d9f04165662522398ab07d805b8af3603a5b35eb2f03f",
+  "original_differences_after_addition_and_reopen": [],
+  "original_and_saved_native_deform_storage": {
+    "MDeformVert": 0,
+    "MDeformWeight": 0
+  },
+  "preservation_helper_storage_counterexample_checks": 23,
+  "shader_link_json_pair_type_restorations": 872,
+  "decompressed_native_stream_sha256": "73b3665d1ddd107a9750c934295a1dc4c59ba24efe6cd967e3fa81a42a1de853",
+  "additions": {
+    "objects": 1072,
+    "meshes": 2,
+    "materials": 4,
+    "lights": 536,
+    "collections": 1
+  },
+  "final_objects": 8995,
+  "actual_glb": {
+    "nodes": 536,
+    "meshes": 2,
+    "materials": 4,
+    "maximum_base_coordinate_error_m": 3.036718749171996e-05,
+    "same_bytes_as_tested_candidate": true
+  },
+  "emitter_offset_from_head_center_m": [
+    0,
+    0,
+    -0.1
+  ],
+  "evidence": [
+    {
+      "path": "street_lighting_v6/lighting_manifest.json",
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d",
+      "bytes": 48918027
+    },
+    {
+      "path": "street_lighting_v6/qa/existing_asset_baseline.json",
+      "sha256": "6e100eb43ac22660a825954e62480794a856e68a0ce2974ab9bfbae09867ac08",
+      "bytes": 21030975
+    },
+    {
+      "path": "street_lighting_v6/qa/additive_preservation.json",
+      "sha256": "4ccfd9411b5bfe88efeb1cfc58bf20cef7372fd2fb3555fdfd3297f5a32396c1",
+      "bytes": 114767
+    },
+    {
+      "path": "street_lighting_v6/qa/native_reopen.json",
+      "sha256": "930e6d913e23bfc888d12042031c2f3d55cc0811a52e3666cbe3ae13453900e5",
+      "bytes": 218752
+    },
+    {
+      "path": "street_lighting_v6/qa/fixture_candidate.json",
+      "sha256": "5890a6163ec71562ea8bb7b4b73996f45e7fe1a900198dba45959be6e299b9f9",
+      "bytes": 723
+    },
+    {
+      "path": "street_lighting_v6/qa/preservation_factory_checks.json",
+      "sha256": "0c0c46f3a7f440894e50dee3d9599804469d860b361cddd4a49679d83d16b853",
+      "bytes": 44146
+    },
+    {
+      "path": "street_lighting_v6/qa/emitter_clearance.json",
+      "sha256": "3e63c83c12a9c77406bfd68498618abab85ecdf4f305518bbd0bca9bf74ac221",
+      "bytes": 1231
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_recorded_support.json",
+      "sha256": "95ff6e084939ee249811f5fb5440ff6c9063276f9a331c925f561257ac468c0e",
+      "bytes": 5528
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_contract_review.json",
+      "sha256": "e53cf13dc6ce635c11684a4503bcd4b1f78ca95b28d7fb61abefefd8e31a4dbb",
+      "bytes": 9133
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_emitter_change_review.json",
+      "sha256": "b80788c6699a696fa4cc72371e489fb1163b1d8c439b832ed813106057febe17",
+      "bytes": 2663
+    },
+    {
+      "path": "street_lighting_v6/qa/native_baseline_serialization_adapter.json",
+      "sha256": "97c27f550fb1459af1e86dd1ec4170c48ef0e3629cb85b5aa5d676fbfdfc4f01",
+      "bytes": 108448
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_serialization_adapter_review.json",
+      "sha256": "f4e880bb7e2b03a487753b93456c8c04e4a6e5297bb227ad26e3b976fe76924b",
+      "bytes": 723
+    },
+    {
+      "path": "street_lighting_v6/scripts/preservation_json_adapter.py",
+      "sha256": "6f0b4c36d9e78bee04ff3411eec756bc460ef373a1bd45e630df2b67f317b5ed",
+      "bytes": 4097
+    },
+    {
+      "path": "street_lighting_v6/qa/native_final_container.json",
+      "sha256": "02ff5e95a565e8c3b70cfc69bc7b05729e97742b3b3d388f918ab9bae9d877c0",
+      "bytes": 765
+    },
+    {
+      "path": "street_lighting_v6/scripts/preservation.py",
+      "sha256": "244aaa2a2374657baaf77e999c566adb0888e120ab7460e44a96d1a81f476466",
+      "bytes": 38151
+    },
+    {
+      "path": "street_lighting_v6/scripts/audit_blend_blocks.py",
+      "sha256": "7edadf8ce05402136d7e226f8b9690d3b3fadece130c4a1b1d1d6ec97b4a8f39",
+      "bytes": 6847
+    },
+    {
+      "path": "street_lighting_v6/scripts/verify_native_reopen.py",
+      "sha256": "8e56124f0d6659431d54b045adcc6f7de375dcd0541c6d985cc85e0088c0e244",
+      "bytes": 1944
+    },
+    {
+      "path": "street_lighting_v6/qa/independent_native_binding.py",
+      "sha256": "fc0fcf45a113e2c64ede748723582c1c32ab88715df6a33799e0dd9c3f0a466b",
+      "bytes": 9392
+    }
+  ],
+  "scope": "Independently inspected preservation implementation and counterexamples, verified actual file hashes and decoded final fixture GLB. Strict before/after/reopen native captures were produced by the coordinated single Blender process.",
+  "limitations": [
+    "Rendering review and final game input/report binding are separate checks.",
+    "Inferred lighting placement and visual radiant power are not surveyed installation or photometric certification.",
+    "No exact reproduction of the lost pre-recovery v6 coordinate JSON is claimed."
+  ]
+}

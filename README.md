@@ -1,97 +1,112 @@
 # ai1 · 조선대학교 캠퍼스 모델과 Three.js 탐험 게임
 
-공개 사진, 공식 캠퍼스 지도, OpenStreetMap, 공개 고도 자료를 참고해 만든 캠퍼스 시각화 프로젝트입니다.
-Blender 건축 모델과 Three.js 게임은 서로 구분된 프로젝트이며 같은 갱신 자산을 사용합니다.
+공개 사진·대학 캠퍼스 지도·OpenStreetMap·공개 고도 자료를 참고한 캠퍼스 시각화 프로젝트입니다. 편집 가능한 Blender 모델, 웹 탐험 게임, 생성 소스와 검증 기록을 함께 보관합니다.
 
-> 대학 공식 제작물, 측량 성과, BIM, 실제 운행 안내 또는 안전·대피·접근성 안내가 아닙니다.
-> 사진으로 확인한 특징과 모델링 추정을 구분합니다. 건물별 근거와 최종 검증 범위는 `references/`, `verification/`에서 확인하세요.
+> 대학 공식 제작물, 실측 BIM, 실제 운행 안내 또는 안전·피난·접근성 안내가 아닙니다. 건물·지형·조명 위치에는 모델링 추정이 포함됩니다.
+
+## 최신 변경: 가로등 v6
+
+- 상세 지형·건물·주차빌딩·출입구·정류장 모델에 외부 등기구 **536개**를 추가했습니다: 도로 310, 보행로 145, 계단 25, 주차 공간 46, 정류장 10.
+- 최종 native는 기존 **7,923개 객체를 보존**하고 등기구 536개와 Blender 광원 536개를 더한 **8,995개 객체**입니다. 편집 파일은 `artifacts/Chosun_Campus_Street_Lighting_v6.blend`입니다.
+- 게임은 기존 건물·캠퍼스 웹 GLB에 작은 `lighting.glb`를 추가합니다. 걷기·운전·NPC 대화와 낮·저녁·야간 전환을 지원합니다. 근거리 실시간 조명은 기본 꺼짐이며, 켜도 그림자 없는 광원을 최대 4개만 사용합니다.
+- 최종 저녁·야간·정류장 상세 렌더와 native/게임 결속 계약을 포함합니다. 원본 자산의 SHA-256과 복원 조각 검증을 제공합니다.
 
 ## 미리보기
 
-![최종 캠퍼스 조감도](renders/preview/final_overview/07_Whole_Campus_Final.jpg)
+![가로등 v6 저녁](renders/preview/street_lighting_v6/Street_Lighting_evening.jpg)
 
-[건물별 카탈로그](renders/buildings/) · [아침](renders/preview/time_of_day_final/morning.jpg) · [한낮](renders/preview/time_of_day_final/noon.jpg) · [해질녘](renders/preview/time_of_day_final/sunset.jpg) · [야간](renders/preview/time_of_day_final/night.jpg)
+[야간](renders/preview/street_lighting_v6/Street_Lighting_night.jpg) · [정류장 상세](renders/preview/street_lighting_v6/Street_Lighting_detail.jpg) · [원본 PNG](renders/street_lighting_v6/) · [기존 건물 카탈로그](renders/buildings/)
 
-## 폴더
+미리보기는 Blender 렌더이며 게임 브라우저 화면이 아닙니다. 원본 PNG는 아래 복원 명령으로 생성됩니다. 이전 건물·시간대 카탈로그는 가로등 추가 전 기록으로 보존합니다.
 
-- `architecture/`: 본관·캠퍼스·계단·도로·지형·정류장·셔틀·재질·렌더 생성 소스와 입력 데이터
-- `game/`: 독립 Three.js 게임, 실행용 정적 파일, 원본 소스와 검증 스크립트
-- `artifacts/Chosun_Campus.blend`: 편집 가능한 통합 PBR 모델
-- `artifacts/Chosun_Campus_GLB.zip`: 교환용 통합 GLB. 압축을 풀어 사용하세요.
-- `renders/buildings/`: 건물별 최종 렌더와 카메라·원본 해시 기록
-- `renders/stairs/`: 계단·경사로 보조 상세 렌더 원본
-- `renders/overview/`: 최종 통합 모델 조감도 원본
-- `renders/preview/`: GitHub 직접 열람용 경량 JPEG
-- `renders/time_of_day/`: 같은 카메라의 아침·한낮·해질녘·야간 조명 렌더
-- `renders/shuttle/`: 공개 자료로 확인한 셔틀 도색 렌더
-- `references/`: 사진 URL, 관찰 사항, 지도·지형 출처 및 근사 한계. 참고 원본 사진/지도 화면은 재배포하지 않습니다.
-- `verification/`: 최종 모델·게임 검증 결과
+## 받기와 대형 파일 복원
 
-## 대형 파일 복원
-
-전송 안정성을 위해 1MiB 초과 파일은 `asset-parts/`의 작은 gzip 조각으로 저장했습니다. 아래 한 명령이 원본 경로에 복원하고 조각·완성 파일의 SHA-256을 검증합니다. Python 3.9 이상이 필요합니다.
+GitHub 저장소를 clone하거나 ZIP으로 내려받아 압축을 푸세요. **Python 3.11 이상**을 권장합니다(릴리스 검증기는 `hashlib.file_digest` 사용). 대형 파일은 `asset-parts/`에 gzip 조각으로 보관하므로 먼저 저장소 최상위에서 실행합니다.
 
 ```sh
 python3 scripts/restore-assets.py
 ```
 
-게임 `npm test`와 `npm run serve`도 실행 전에 자동 복원합니다. 원본 크기·해시는 `asset-parts/manifest.json`에서 확인할 수 있습니다.
+`asset-parts/manifest.json`의 크기·조각·완성 파일 SHA-256을 검사해 원래 경로로 복원합니다. 최신 native 자체는 **276,659,952 bytes**이며 전체 저장소·복원 결과를 위한 충분한 디스크 공간이 필요합니다. 기존 복원 스크립트는 해시가 다른 대상 파일을 교체하므로, 직접 편집한 모델·자산은 먼저 다른 이름으로 보관하세요.
+
+최신 native SHA-256:
+
+```text
+563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8
+```
+
+`artifacts/Chosun_Campus.blend`와 `artifacts/Chosun_Campus_GLB.zip`은 이전 단계의 보존본입니다. 최신 모델과 혼동하지 마세요. 새 원본 GLB 두 개는 `architecture/lighting/inputs/raw_glb/`에 복원됩니다. 웹용 압축 GLB와 편집·내보내기 원본 GLB는 용도가 다릅니다.
 
 ## 게임 실행
+
+복원 후 정적 서버만으로 실행할 수 있습니다. 외부 CDN이나 npm 설치는 플레이에 필요하지 않습니다.
+
+```sh
+python3 -m http.server 8173 --directory game/dist
+```
+
+브라우저에서 `http://localhost:8173`을 엽니다. WebGL 2가 필요하며 `index.html`을 파일로 직접 열면 안 됩니다.
+
+개발·검증에는 Node.js와 npm을 사용합니다.
 
 ```sh
 cd game
 npm ci
-npm test
+npm run verify:release
 npm run serve
 ```
 
-브라우저에서 `http://localhost:8173`을 엽니다. 실행용 파일은 `game/dist/`에 포함됩니다.
-상세 조작법과 추가 회귀검사 명령은 [게임 README](game/README.md)와 [게임 QA](game/QA.md)를 참고하세요.
+검증된 납품 상태를 보존하려면 `npm test`, `npm run test:lighting` 등 재검사는 **별도 복사본**에서 실행하세요. 일부 검사는 실행 시간·메모리 수치를 포함한 결과 JSON을 덮어쓰며, 그 뒤 원래 영수증 해시를 검사하는 `verify:release`는 실패할 수 있습니다. 먼저 원본 상태에서 `verify:release`를 실행하고, 결과 파일이 바뀌면 검증된 원본과 구분해서 보관하세요.
 
-모델 갱신 스크립트는 `CHOSUN_MODEL_ROOT`를 지원하며 저장소에서는 기본적으로 `../architecture`를 사용합니다.
-`game/.openai` 같은 비공개 배포 설정, 자격증명, `node_modules`는 이 공개 소스에 포함하지 않습니다.
+`npm test`/`npm run serve`의 사전 검사는 실행 GLB 해시를 확인하며, 없어진 GLB만 일치하는 조각에서 복원합니다. 데이터·vendor 등 모든 대형 파일을 준비하려면 **처음의 전체 복원 명령을 먼저 실행**하세요. `npm run test:all`은 광범위한 기존 회귀 검사 명령이며 모든 알려진 진단이 성공한다는 보장은 아닙니다.
 
-## 모델 재생성
+- WASD/방향키: 이동·운전, 마우스/드래그: 시선
+- Shift: 달리기, Space: 차량 브레이크, E: NPC 대화·탐험 차량 탑승/하차
+- 시간대 버튼/도움말: 낮·저녁·야간, 근거리 조명 선택
+- 모바일 조작 UI는 포함하지만 실기기 성능·조작 검증은 완료하지 않았습니다.
 
-Blender 4.3.2와 Noto Sans CJK 한글 폰트로 제작했습니다. 다른 환경에서 한글 표지판을 다시 생성할 때는 Noto CJK를 설치하고 소스의 폰트 경로를 확인하세요. 입력 폴더 구조를 유지한 채 다음 순서로 Blender Python 스크립트를 실행합니다.
+자세한 기능과 조작은 [게임 README](game/README.md), 검증 범위와 수치 한계는 [게임 QA](game/QA.md)를 참고하세요.
 
-```sh
-blender -b --python architecture/building/build_building.py
-blender -b --python architecture/site/site_builder.py
-blender -b --python architecture/transit/build_transit.py
-blender -b --python architecture/campus/build_campus.py
-blender -b --python architecture/integration/integrate_campus.py
-cp architecture/delivery/Chosun_Campus.blend architecture/delivery/Chosun_Campus_Geometry.blend
-blender -b architecture/delivery/Chosun_Campus_Geometry.blend --python architecture/materials/apply_pbr_copy.py -- "$PWD/architecture/delivery/Chosun_Campus.blend" "$PWD/architecture/delivery/Chosun_Campus.glb"
-```
+## 구조와 편집
 
-PBR 처리 및 건물별 렌더는 `architecture/materials/README_PBR_KO.txt`와 `architecture/lighting/`의 스크립트를 참고하세요.
-일부 보조 점검·과거 프리뷰 스크립트에는 제작 환경의 절대 경로가 남아 있으므로 별도로 실행하려면 경로를 수정해야 합니다.
-도로·지형 캐시를 사용하는 일반 Blender 빌드는 재다운로드가 필요하지 않습니다. 원자료부터 캐시를 다시 만드는 선택적 전처리에는 별도의 Python 공간자료 패키지가 필요할 수 있습니다.
+| 경로 | 내용 |
+| --- | --- |
+| `game/dist/` | 바로 실행하는 Three.js 게임 코드·웹 자산·라이선스 |
+| `game/scripts/`, `game/data/`, `game/tests/` | 자산 처리·입력 데이터·검사 소스와 증거 |
+| `game/revision/` | 기존 소스 보존본, 가로등 계약과 최종 native 결속 |
+| `architecture/lighting/street_lighting_v6/` | 가로등 생성·보존·렌더 스크립트와 최종 계약/검증 |
+| `architecture/lighting/inputs/raw_glb/` | 가로등 설계 기준 원본 건물·캠퍼스 GLB |
+| `architecture/`의 나머지 폴더 | 기존 건축·지형·도로·교통·재질 생성 소스 및 참고 데이터 |
+| `artifacts/` | 복원되는 편집용 native와 기존 교환 파일 |
+| `renders/` | 최종 가로등 렌더와 보존된 이전 건물별 카탈로그 |
+| `references/`, `licenses/` | 모델 근거·지도/고도 출처·재배포 라이선스 |
+| `asset-parts/`, `scripts/restore-assets.py` | 대형 자산의 무손실 분할 저장과 해시 검증 복원 |
 
-렌더 출처 명세는 제작 당시 `delivery/` 폴더명을 보존합니다. 이 저장소의 대응 폴더는 `building_catalog → renders/buildings`, `time_of_day_final → renders/time_of_day`, `final_overview → renders/overview`, `stair_details_final → renders/stairs`입니다. 건물 69장 중 41장은 최종 모델에서 재촬영했고, 28장은 변화 영향권 밖의 기존 사진을 실제 원본 해시와 뷰 영역 동일성 검증 기록과 함께 보존했습니다.
+게임 소스를 ZIP 안에만 숨기지 않고 직접 수정 가능한 파일로 보관합니다. `game/LIGHTING_SOURCE_MANIFEST.json`은 최신 소스의 정확한 해시 목록이며, `game/SOURCE_MANIFEST.json`은 그 기준이 된 이전 단계 기록입니다.
 
-## 정확도와 표현 범위
+Blender 4.3.2로 제작했습니다. 최신 native를 열어 편집하는 작업과 원자료에서 모델 전체를 재생성하는 작업은 다릅니다. 가로등을 처음부터 다시 생성하려면 정확한 기반 native `a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd`가 추가로 필요하며, **이 게시본의 v6 파일로 대체할 수 없습니다**. 기존 `architecture/` 초기 생성 파이프라인이 최신 모델 전체를 곧바로 재현한다고 주장하지 않습니다. 자세한 입력·경로·메모리 조건은 [가로등 소스 안내](architecture/lighting/street_lighting_v6/README.md)를 참고하세요.
 
-- 본관, 도서관, 국제관, 체육대학, 솔마루, 해오름관, 치과대 복합동 등은 공개 사진의 외관 특징과 공식 층별 안내를 대조했습니다.
-- 외관 사진을 확인하지 못한 소형 부속동은 지도 발자국 기반의 단순 추정 매스입니다. 이를 사진 검증된 건물과 동일한 정확도로 취급하지 마세요.
-- 지형은 약 30m Copernicus DSM의 경향을 이용한 상대 지형입니다. DSM에는 수목·건물이 포함됩니다. 본관 근접 지형 보존, 건물 마스크, 부지 패드, 도로 종단과 보행 연결 보정이 포함되어 실제 측량 지면과 다릅니다.
-- 사진 확인 계단과 고도차를 이어 주기 위해 만든 **추정 보행 연결 계단**은 별도 컬렉션·메타데이터로 구분합니다. 추정 계단이 실제 현장에 존재한다는 의미가 아닙니다.
-- 횡단보도 위치는 지도와 일부 위성·거리뷰 대조를 사용했습니다. 모든 횡단보도의 폭·턱낮춤을 현장 측정한 것은 아닙니다.
-- 셔틀 도색은 2025년 공식 교지와 2026년 대학신문 사진을 참고했습니다. 보이지 않는 반대편은 대칭 추정이며, 현재 모든 차량이 같은 모습이라는 보장은 없습니다. 게임의 속도·정차 시간은 실제 배차와 다릅니다.
-- Blender의 절차적 PBR과 게임·GLB의 가벼운 PBR 표현은 다릅니다. 저폴리 수목과 미모델링 실내의 한계가 남습니다.
-- 시간대 렌더는 조명 연출입니다. 특정 날짜의 일조 분석이나 실제 창문·가로등 점등 상태를 재현하지 않습니다.
-- 자동 Node 시뮬레이션 통과는 실제 브라우저·WebGL·iPhone 성능 검증을 의미하지 않습니다. 실행·미실행 검증은 최종 보고서에 구분합니다.
+한글 표지판 재생성에는 Noto Sans CJK 폰트가 필요합니다. 일부 과거 검증·제작 스크립트와 결과에는 당시 절대 경로가 남아 있으므로 재실행 시 자신의 경로와 입력 해시를 확인하세요.
+
+## 검증과 남은 한계
+
+2026-10-11 저장소 패키지에서 전체 자산 복원·최신 게임 500개 소스의 해시 결속·가로등 67개 단위 검사 및 국소 배치 검사를 다시 확인했습니다. 새 실행 범위와 의존성 준비 한계는 [게시 검증 기록](verification/lighting-v6-publication.json)에 구분합니다.
+
+- 보존된 최종 검증: 가로등 단위 검사 **67개**, 새 등기구와 기존 보행·도착점·차량·셔틀 경로의 **국소 간섭 검사** 통과. native 재열기 후 원본 객체·메시 보존 및 최종 게임 계약 결속을 확인했습니다.
+- 검사 영수증과 실제 재실행을 구분합니다. 가로등 추가 시 기존 전체 캠퍼스 Octree 이동 회귀를 전부 재실행한 결과는 아닙니다. 자세한 입력 해시와 범위는 `game/tests/FINAL_VALIDATION.json` 및 `game/QA.md`에 있습니다.
+- 브라우저/WebGL/GPU·모바일 성능·전체 UI 흐름·게임 야간 화면 픽셀 가독성은 미검증입니다. Node CPU 검사는 실제 화면 FPS 측정이 아닙니다.
+- 셔틀은 7개 정류장의 편도 시연 후 종점에서 대기합니다. 반복 회차는 구현하지 않았습니다. 기존 타이어 접촉·선택적 경로 진단 한계도 유지되며, 모든 충돌 문제가 해결되었다는 의미가 아닙니다.
+- 조명 위치·광도와 일부 건물·주차장·지형은 추정입니다. 측량·조도 인증·실제 시설 운영 상태를 나타내지 않습니다. Blender 렌더의 조명과 웹용 저비용 표현은 다릅니다.
+
+이 GitHub 갱신과 별도 호스팅 Site의 배포는 서로 다른 작업입니다. 저장소 업데이트가 기존 라이브 Site에 자동 적용되었다고 가정하지 마세요.
 
 ## 출처·권리
 
-Map data © OpenStreetMap contributors, [ODbL 1.0](https://www.openstreetmap.org/copyright).
-지도 파생 윤곽·좌표·도로 데이터의 이용과 재배포에는 해당 라이선스 및 표시를 유지하세요.
+Map data © OpenStreetMap contributors, [ODbL 1.0](https://www.openstreetmap.org/copyright). 지도 파생 윤곽·좌표·도로 데이터의 이용·재배포 시 해당 라이선스와 표시를 유지하세요.
 
-공식 캠퍼스 안내: https://www3.chosun.ac.kr/campusMap/chosun/view.do
-지형 자료의 출처·라이선스·전처리 방법은 `references/chosun_detail_refs/terrain/README.md`에 있습니다.
-Three.js, meshoptimizer 등의 원 라이선스는 `game/LICENSES.md`와 `game/dist/vendor/`에 유지됩니다.
-대학 참고 사진과 지도 화면은 관찰용으로만 사용했으며 원본 사진·화면·텍스처로 재배포하지 않습니다.
+- [조선대학교 공식 캠퍼스 안내](https://www3.chosun.ac.kr/campusMap/chosun/view.do)
+- 지형: `references/chosun_detail_refs/terrain/README.md`의 Copernicus DSM 출처·전처리·한계
+- Three.js·meshoptimizer 등: [게임 라이선스](game/LICENSES.md)와 `game/dist/vendor/`
+- 폰트·포함 소프트웨어: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
 
-Noto CJK 폰트와 기타 포함 소프트웨어의 라이선스는 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)에 정리했습니다.
+대학 참고 사진·지도 화면은 관찰용이며 해당 원본을 텍스처나 이미지로 재배포하지 않습니다. NPC·대화·탐험 차량은 게임용 창작입니다.

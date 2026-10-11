@@ -1,0 +1,10 @@
+{
+  "sourceSha256": "0676444ead4f9983459461a8addfc9c75afe5a260a8d0f93935984c2c1e0b1b9",
+  "sourcePondOverlaySha256": "cde7611eed97eb431c98daa5f56f4e9d8a0782271c309a3686a4dc7e3a0ef5a9",
+  "routeId": "rv2_pond_cheongram_route",
+  "sourcePoints": 108,
+  "finalPoints": 110,
+  "supportTriangles": 4,
+  "waterAndExistingSupportPreserved": true,
+  "runtimeTraversal": "pending combined native export"
+}

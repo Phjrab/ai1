@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {Vector3} from 'three';
+import {createWaterConstraint} from '../dist/water-constraints.js';
+const world={waterHazards:[{polygon:[[-10,-10],[10,-10],[10,10],[-10,10]],minY:-2,maxY:.1,exceptions:[{mode:'pedestrian',polygon:[[-1.5,-12],[1.5,-12],[1.5,12],[-1.5,12]],minY:.44,maxY:.6}]}]};
+let ground=-.8;const blocked=createWaterConstraint(world,()=>ground);
+assert.equal(blocked(new Vector3(6,0,0)),true,'Water and submerged bottom cannot support walking');
+assert.equal(blocked(new Vector3(6,.5,0)),true,'A previous bank height cannot allow a step into water');
+assert.equal(blocked(new Vector3(0,.5,0)),true,'Bridge coordinates without real bridge support do not grant exemption');
+ground=.5;assert.equal(blocked(new Vector3(0,.5,0)),false,'Supported bridge center is walkable');assert.equal(blocked(new Vector3(1.4,.5,0),.34),true,'Capsule over the bridge edge is rejected');assert.equal(blocked(new Vector3(5,.5,0)),true,'Bridge elevation outside actual bridge is not exemption');assert.equal(blocked(new Vector3(0,.5,0),1.25,'vehicle'),true,'No vehicle passage over footbridge');assert.equal(blocked(new Vector3(20,.5,0)),false);
+console.log('PASS: water is nonwalkable, only actual supported bridge footprint admits pedestrians, and cars remain excluded.');

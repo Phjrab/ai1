@@ -1,0 +1,146 @@
+{
+  "schema": 2,
+  "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "exportManifestSha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e",
+  "runtimeTreeSha256": "f613d9acb34116ec57a6c0f5dfaedf1b5b3c987082a4bd823045d2bd9c8821f4",
+  "validationIndexSha256": "4f4efda24370fcf8e1de7c06bff392d228a05f6730eafa87152d573c8a229a99",
+  "rawGLBSha256": {
+    "building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "browserWebGLVerified": false,
+  "files": {
+    "assets/building.glb": {
+      "bytes": 8881064,
+      "sha256": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5"
+    },
+    "assets/campus.glb": {
+      "bytes": 60213892,
+      "sha256": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836"
+    },
+    "assets/lighting.glb": {
+      "bytes": 241408,
+      "sha256": "049dc05ce731914ca878de3febdfcd9e4b8b7ee011f647761b518c6559ea5abf"
+    },
+    "assets/shuttle_bus.glb": {
+      "bytes": 1068036,
+      "sha256": "45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48"
+    },
+    "game.js": {
+      "bytes": 47996,
+      "sha256": "088aa697e2965a213dcf7d8a9ce3ce720f4e6f9985a69a0cbfcd19e674dd8ab3"
+    },
+    "index.html": {
+      "bytes": 6500,
+      "sha256": "9cd4890fe706d6e788ea91913f0819dd4c2b455bab2369edb4e5736b0b0832ba"
+    },
+    "parking-config.js": {
+      "bytes": 120784,
+      "sha256": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b"
+    },
+    "parking-system.js": {
+      "bytes": 5420,
+      "sha256": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f"
+    },
+    "polygon-colliders.js": {
+      "bytes": 2724,
+      "sha256": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df"
+    },
+    "revision-colliders.js": {
+      "bytes": 7840,
+      "sha256": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c"
+    },
+    "shuttle-system.js": {
+      "bytes": 7519,
+      "sha256": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1"
+    },
+    "street-lighting-native.js": {
+      "bytes": 373,
+      "sha256": "c389274e48ef876843c477e8248fdb4f647313be19289e094e9d1196a8b33519"
+    },
+    "street-lighting.js": {
+      "bytes": 12622,
+      "sha256": "60dd99d5df3b5bcf749103c24d2e255924bc41e5704fdd7ebd7953fc9da8b6bc"
+    },
+    "street-lighting.json": {
+      "bytes": 18270612,
+      "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+    },
+    "style.css": {
+      "bytes": 8369,
+      "sha256": "c5ddeb9a151d8947e627ef7a12769eb5c1730eb697dc0f736ad6dbff8f7e98bb"
+    },
+    "transit-config.js": {
+      "bytes": 91011,
+      "sha256": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26"
+    },
+    "vehicle-steering.js": {
+      "bytes": 1097,
+      "sha256": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37"
+    },
+    "vehicle-surfaces.js": {
+      "bytes": 2784,
+      "sha256": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8"
+    },
+    "vendor/MESHOPT-LICENSE.txt": {
+      "bytes": 1079,
+      "sha256": "e4a26033e3551fb2722888949fbb41e77aee628e8e8f04dcffeee301aa7e5634"
+    },
+    "vendor/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "vendor/addons/loaders/GLTFLoader.js": {
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    "vendor/addons/math/Capsule.js": {
+      "bytes": 3543,
+      "sha256": "be54c3c58483a7f6b0184dbc6ffdcea58ac13515a7d9fd19ed675b9edfc5f319"
+    },
+    "vendor/addons/math/Octree.js": {
+      "bytes": 14863,
+      "sha256": "45f521111ec5b2110c475c6bd7cc6109aa5a283f42730c78603f3f665c8172e9"
+    },
+    "vendor/addons/meshopt_decoder.module.js": {
+      "bytes": 24848,
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c"
+    },
+    "vendor/addons/utils/BufferGeometryUtils.js": {
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    "vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "walking-floor.js": {
+      "bytes": 1667,
+      "sha256": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc"
+    },
+    "water-constraints.js": {
+      "bytes": 1212,
+      "sha256": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5"
+    },
+    "wheel-suspension.js": {
+      "bytes": 7993,
+      "sha256": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3"
+    },
+    "world-config.js": {
+      "bytes": 13171356,
+      "sha256": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309"
+    }
+  },
+  "lightingRevision": {
+    "revision": "street_lighting_v6",
+    "augmentedNativeSha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+    "nativeBinding": "revision/lighting-native-binding.json",
+    "nativeBindingSha256": "628e22bb2e1300b3f7bf32b4ef4474d73a3bc5d5e47b4d5380c95541601a5ef8",
+    "fixtures": 536,
+    "originalCampusNativeSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd"
+  }
+}

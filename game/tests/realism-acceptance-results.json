@@ -1,0 +1,981 @@
+{
+  "passed": true,
+  "nativeSourceSha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+  "rawGLBSha256": {
+    "building.glb": "d1bb4caa526adf351d93ded85159f265adc3ad009d4097c41c26ed6859dc8777",
+    "campus.glb": "05e0a9761758627c6c9a04d8db8480c3476c031430598cc3a1eaa132021b9ae0"
+  },
+  "sourceRun": "tests/runtime-runs/realism.json",
+  "sourceResults": "tests/runtime-runs/realism-results/realism-results.json",
+  "strictOriginalPassed": false,
+  "inputSha256": {
+    "tests/runtime-runs/realism-results/realism-results.json": "ffb3eca54878aec187cf10716867432a710101a9a8cf82a1bee6db8ad0875bcf",
+    "data/greenery-infill.json": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a",
+    "data/native-export-manifest.json": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e",
+    "data/native-export-campus-inventory.json": "f479a597b9a0c88a4c0bdddfffe7419261f67b027f898f9782747207192ff114",
+    "dist/assets/campus.glb": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836",
+    "dist/game.js": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+    "tests/realism.mjs": "88b90a0b99914cd9e979b0cdc8f3037b36d5d431e0796250bd6a5498aad3497f",
+    "scripts/reassess-realism-tree-grounding.py": "0dcccb4a8d6f7705bdf45357e026e3cbf7e1c743766f9e6260ba03c2c29da0d8",
+    "tests/runtime-runs/realism.json": "faed9adc0af88db8b85e7c91829d0b8d86447798b0058cd1a354817697d162a0"
+  },
+  "acceptedFailures": [
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+007_-083",
+      "actualSignedGapMeters": -0.12669234151288578,
+      "contractEmbedCenterMeters": 0.12668505859375045,
+      "signedDepthErrorMeters": 7.282919135320753e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24027148437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+009_-021",
+      "actualSignedGapMeters": -0.11300716146218548,
+      "contractEmbedCenterMeters": 0.11301318359375045,
+      "signedDepthErrorMeters": 6.0221315649755525e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21402636718750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+010_-125",
+      "actualSignedGapMeters": -0.10363058112310952,
+      "contractEmbedCenterMeters": 0.10367480468750045,
+      "signedDepthErrorMeters": 4.422356439093278e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19522753906250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+011_-127",
+      "actualSignedGapMeters": -0.13250537470698376,
+      "contractEmbedCenterMeters": 0.13248339843750045,
+      "signedDepthErrorMeters": 2.1976269483303668e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25461474609375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+012_-131",
+      "actualSignedGapMeters": -0.11776841236109448,
+      "contractEmbedCenterMeters": 0.11777392578125045,
+      "signedDepthErrorMeters": 5.51342015597811e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22354785156250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+014_-038",
+      "actualSignedGapMeters": -0.11873682625573423,
+      "contractEmbedCenterMeters": 0.11875048828125045,
+      "signedDepthErrorMeters": 1.366202551622564e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22550097656250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-014",
+      "actualSignedGapMeters": -0.10107747759179375,
+      "contractEmbedCenterMeters": 0.10105029296875045,
+      "signedDepthErrorMeters": 2.718462304329705e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19016162109375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+015_-132",
+      "actualSignedGapMeters": -0.1127985788126935,
+      "contractEmbedCenterMeters": 0.11283007812500045,
+      "signedDepthErrorMeters": 3.149931230694847e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21359912109375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-030",
+      "actualSignedGapMeters": -0.11727225132553087,
+      "contractEmbedCenterMeters": 0.11734667968750045,
+      "signedDepthErrorMeters": 7.442836196958069e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21658984375000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-128",
+      "actualSignedGapMeters": -0.11820076167362714,
+      "contractEmbedCenterMeters": 0.11814013671875045,
+      "signedDepthErrorMeters": 6.062495487668684e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22116748046875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+016_-131",
+      "actualSignedGapMeters": -0.10685497568279345,
+      "contractEmbedCenterMeters": 0.10690966796875045,
+      "signedDepthErrorMeters": 5.469228595700315e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20188037109375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+017_-030",
+      "actualSignedGapMeters": -0.11916540233752926,
+      "contractEmbedCenterMeters": 0.11917773437500045,
+      "signedDepthErrorMeters": 1.23320374711966e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.14511767578125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+018_-008",
+      "actualSignedGapMeters": -0.14263472432891078,
+      "contractEmbedCenterMeters": 0.14264575195312545,
+      "signedDepthErrorMeters": 1.1027624214676734e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23950854492187545,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-073",
+      "actualSignedGapMeters": -0.12836585463884376,
+      "contractEmbedCenterMeters": 0.12839404296875045,
+      "signedDepthErrorMeters": 2.8188329906697618e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24472705078125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+019_-124",
+      "actualSignedGapMeters": -0.10336773375726338,
+      "contractEmbedCenterMeters": 0.10336962890625045,
+      "signedDepthErrorMeters": 1.8951489870744354e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19473925781250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-029",
+      "actualSignedGapMeters": -0.14286488290220234,
+      "contractEmbedCenterMeters": 0.14292041015625045,
+      "signedDepthErrorMeters": 5.552725404811554e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26169482421875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+020_-069",
+      "actualSignedGapMeters": -0.1256662845716292,
+      "contractEmbedCenterMeters": 0.12570849609375045,
+      "signedDepthErrorMeters": 4.2211522121249345e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23935595703125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-012",
+      "actualSignedGapMeters": -0.12125632709631518,
+      "contractEmbedCenterMeters": 0.12125292968750045,
+      "signedDepthErrorMeters": 3.397408814720393e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23056689453125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+021_-067",
+      "actualSignedGapMeters": -0.11260243654134428,
+      "contractEmbedCenterMeters": 0.11258593750000045,
+      "signedDepthErrorMeters": 1.649904134382041e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20230761718750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+022_-100",
+      "actualSignedGapMeters": -0.11760918140304,
+      "contractEmbedCenterMeters": 0.11765185546875045,
+      "signedDepthErrorMeters": 4.26740657104574e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23032275390625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+023_-013",
+      "actualSignedGapMeters": -0.10066170941301777,
+      "contractEmbedCenterMeters": 0.10062304687500045,
+      "signedDepthErrorMeters": 3.866253801732e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.18942919921875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+024_-076",
+      "actualSignedGapMeters": -0.10335482548742192,
+      "contractEmbedCenterMeters": 0.10336962890625045,
+      "signedDepthErrorMeters": 1.4803418828535087e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19480029296875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+025_-081",
+      "actualSignedGapMeters": -0.1257664177057265,
+      "contractEmbedCenterMeters": 0.12576953125000045,
+      "signedDepthErrorMeters": 3.1135442739582686e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25101367187500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-071",
+      "actualSignedGapMeters": -0.1282108018547845,
+      "contractEmbedCenterMeters": 0.12821093750000045,
+      "signedDepthErrorMeters": 1.3564521594844337e-07,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22269335937500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+026_-092",
+      "actualSignedGapMeters": -0.1316758883023752,
+      "contractEmbedCenterMeters": 0.13168994140625045,
+      "signedDepthErrorMeters": 1.4053103875255601e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25028125000000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-078",
+      "actualSignedGapMeters": -0.11239004866790481,
+      "contractEmbedCenterMeters": 0.11240283203125045,
+      "signedDepthErrorMeters": 1.2783363345647558e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21274462890625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+027_-091",
+      "actualSignedGapMeters": -0.10328848191716844,
+      "contractEmbedCenterMeters": 0.10330859375000045,
+      "signedDepthErrorMeters": 2.0111832832014898e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19461718750000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-065",
+      "actualSignedGapMeters": -0.12382026219006548,
+      "contractEmbedCenterMeters": 0.12381640625000045,
+      "signedDepthErrorMeters": 3.855940065022878e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23404589843750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+028_-066",
+      "actualSignedGapMeters": -0.10754523062273336,
+      "contractEmbedCenterMeters": 0.10758105468750045,
+      "signedDepthErrorMeters": 3.582406476709821e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19998828125000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+032_-114",
+      "actualSignedGapMeters": -0.1175104547431971,
+      "contractEmbedCenterMeters": 0.11752978515625045,
+      "signedDepthErrorMeters": 1.9330413053353368e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22104541015625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-006",
+      "actualSignedGapMeters": -0.24448942465778456,
+      "contractEmbedCenterMeters": 0.24448291015625,
+      "signedDepthErrorMeters": 6.514501534549133e-06,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.25815478515625,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+039_-076",
+      "actualSignedGapMeters": -0.11314783595915046,
+      "contractEmbedCenterMeters": 0.11313525390625045,
+      "signedDepthErrorMeters": 1.2582052900000917e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21433154296875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+040_-015",
+      "actualSignedGapMeters": -0.12149574149182385,
+      "contractEmbedCenterMeters": 0.12155810546875045,
+      "signedDepthErrorMeters": 6.236397692660489e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22897998046875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+041_-058",
+      "actualSignedGapMeters": -0.12286280613712819,
+      "contractEmbedCenterMeters": 0.12290087890625045,
+      "signedDepthErrorMeters": 3.807276912226598e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23380175781250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+042_-021",
+      "actualSignedGapMeters": -0.11468922605093113,
+      "contractEmbedCenterMeters": 0.11466113281250045,
+      "signedDepthErrorMeters": 2.8093238430670908e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22635546875000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_+001",
+      "actualSignedGapMeters": -0.10232748360187571,
+      "contractEmbedCenterMeters": 0.10236254882812545,
+      "signedDepthErrorMeters": 3.5065226249741954e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19254199218750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-003",
+      "actualSignedGapMeters": -0.14552712460672357,
+      "contractEmbedCenterMeters": 0.145514404296875,
+      "signedDepthErrorMeters": 1.272030984855732e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.195441162109375,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+043_-073",
+      "actualSignedGapMeters": -0.13292380690418426,
+      "contractEmbedCenterMeters": 0.13297167968750045,
+      "signedDepthErrorMeters": 4.7872783316194045e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25388232421875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-057",
+      "actualSignedGapMeters": -0.1290934920439213,
+      "contractEmbedCenterMeters": 0.12912646484375045,
+      "signedDepthErrorMeters": 3.297279982916734e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25131884765625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-072",
+      "actualSignedGapMeters": -0.14352332761729514,
+      "contractEmbedCenterMeters": 0.14359179687500045,
+      "signedDepthErrorMeters": 6.846925770531698e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.27512255859375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-074",
+      "actualSignedGapMeters": -0.12786838292595348,
+      "contractEmbedCenterMeters": 0.12784472656250045,
+      "signedDepthErrorMeters": 2.365636345302846e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24375048828125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-078",
+      "actualSignedGapMeters": -0.1152984067792211,
+      "contractEmbedCenterMeters": 0.11527148437500045,
+      "signedDepthErrorMeters": 2.6922404220641738e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21866503906250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+044_-085",
+      "actualSignedGapMeters": -0.11738188215049306,
+      "contractEmbedCenterMeters": 0.11740771484375045,
+      "signedDepthErrorMeters": 2.5832693257399342e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22855273437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-071",
+      "actualSignedGapMeters": -0.12250275183961712,
+      "contractEmbedCenterMeters": 0.12253466796875045,
+      "signedDepthErrorMeters": 3.191612913333586e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20902148437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+045_-085",
+      "actualSignedGapMeters": -0.13795781799515794,
+      "contractEmbedCenterMeters": 0.13797656250000045,
+      "signedDepthErrorMeters": 1.8744504842516108e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26395312500000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+046_-083",
+      "actualSignedGapMeters": -0.13980692637422365,
+      "contractEmbedCenterMeters": 0.13980761718750045,
+      "signedDepthErrorMeters": 6.908132768046471e-07,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26761523437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-015",
+      "actualSignedGapMeters": -0.10995275932120308,
+      "contractEmbedCenterMeters": 0.10996142578125045,
+      "signedDepthErrorMeters": 8.666460047379587e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20792285156250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+047_-068",
+      "actualSignedGapMeters": -0.16364492940677167,
+      "contractEmbedCenterMeters": 0.16367236328125045,
+      "signedDepthErrorMeters": 2.743387447878831e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.27152148437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_+001",
+      "actualSignedGapMeters": -0.12021933720362199,
+      "contractEmbedCenterMeters": 0.12018481445312545,
+      "signedDepthErrorMeters": 3.452275049653508e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.18765917968750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-093",
+      "actualSignedGapMeters": -0.10270734210033439,
+      "contractEmbedCenterMeters": 0.10269824218750045,
+      "signedDepthErrorMeters": 9.099912833931967e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19339648437500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+048_-098",
+      "actualSignedGapMeters": -0.11219987404481557,
+      "contractEmbedCenterMeters": 0.11221972656250045,
+      "signedDepthErrorMeters": 1.9852517684881832e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21231738281250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+052_-068",
+      "actualSignedGapMeters": -0.11006020106501069,
+      "contractEmbedCenterMeters": 0.11002246093750045,
+      "signedDepthErrorMeters": 3.7740127510232924e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20804492187500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+053_-017",
+      "actualSignedGapMeters": -0.1255471768082419,
+      "contractEmbedCenterMeters": 0.125525390625,
+      "signedDepthErrorMeters": 2.1786183241889745e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.23911181640625,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+055_-070",
+      "actualSignedGapMeters": -0.12312022387175148,
+      "contractEmbedCenterMeters": 0.12314501953125045,
+      "signedDepthErrorMeters": 2.479565949897733e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23429003906250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+057_-073",
+      "actualSignedGapMeters": -0.11141255960118102,
+      "contractEmbedCenterMeters": 0.11142626953125045,
+      "signedDepthErrorMeters": 1.370993006943877e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21085253906250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-013",
+      "actualSignedGapMeters": -0.13354623685393818,
+      "contractEmbedCenterMeters": 0.13364306640625045,
+      "signedDepthErrorMeters": 9.682955231227197e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25510302734375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-027",
+      "actualSignedGapMeters": -0.1011698584835301,
+      "contractEmbedCenterMeters": 0.10117236328125045,
+      "signedDepthErrorMeters": 2.504797720348506e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19345751953125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+058_-028",
+      "actualSignedGapMeters": -0.10519448222127892,
+      "contractEmbedCenterMeters": 0.10520068359375045,
+      "signedDepthErrorMeters": 6.20137247153707e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19840136718750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-032",
+      "actualSignedGapMeters": -0.11286193412680845,
+      "contractEmbedCenterMeters": 0.11283007812500045,
+      "signedDepthErrorMeters": 3.185600180799497e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21372119140625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+059_-071",
+      "actualSignedGapMeters": -0.12589221233019288,
+      "contractEmbedCenterMeters": 0.12589160156250045,
+      "signedDepthErrorMeters": 6.107676924216321e-07,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23984423828125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+060_-026",
+      "actualSignedGapMeters": -0.10651226881491027,
+      "contractEmbedCenterMeters": 0.10648242187500045,
+      "signedDepthErrorMeters": 2.9846939909816683e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20108691406250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+061_-024",
+      "actualSignedGapMeters": -0.1206543620567544,
+      "contractEmbedCenterMeters": 0.12061206054687501,
+      "signedDepthErrorMeters": 4.23015098793833e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.223761474609375,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-024",
+      "actualSignedGapMeters": -0.10853411338631425,
+      "contractEmbedCenterMeters": 0.10849658203124957,
+      "signedDepthErrorMeters": 3.753135506467942e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.20920458984374957,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-029",
+      "actualSignedGapMeters": -0.10350967818092816,
+      "contractEmbedCenterMeters": 0.10352221679687457,
+      "signedDepthErrorMeters": 1.2538615946411369e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.19507495117187457,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+062_-074",
+      "actualSignedGapMeters": -0.10768071805687462,
+      "contractEmbedCenterMeters": 0.10770312500000045,
+      "signedDepthErrorMeters": 2.2406943125830026e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20340625000000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-025",
+      "actualSignedGapMeters": -0.10916225382601841,
+      "contractEmbedCenterMeters": 0.10922900390624957,
+      "signedDepthErrorMeters": 6.675008023115936e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.20633593749999957,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+063_-027",
+      "actualSignedGapMeters": -0.1169840522956136,
+      "contractEmbedCenterMeters": 0.11701098632812457,
+      "signedDepthErrorMeters": 2.6934032510972372e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.22199145507812457,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+064_-025",
+      "actualSignedGapMeters": -0.10474767456226708,
+      "contractEmbedCenterMeters": 0.10474291992187501,
+      "signedDepthErrorMeters": 4.75464039206841e-06,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.1940068359375,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-023",
+      "actualSignedGapMeters": -0.10995630509027965,
+      "contractEmbedCenterMeters": 0.10999194335937457,
+      "signedDepthErrorMeters": 3.563826909491752e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.20798388671874957,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-054",
+      "actualSignedGapMeters": -0.13033674226225145,
+      "contractEmbedCenterMeters": 0.13034716796875045,
+      "signedDepthErrorMeters": 1.0425706499006537e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24814501953125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+065_-055",
+      "actualSignedGapMeters": -0.12306372834135004,
+      "contractEmbedCenterMeters": 0.12308398437500045,
+      "signedDepthErrorMeters": 2.0256033650412064e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23392382812500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-035",
+      "actualSignedGapMeters": -0.13327003507188007,
+      "contractEmbedCenterMeters": 0.13333789062499957,
+      "signedDepthErrorMeters": 6.78555531195002e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.25458422851562457,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+066_-046",
+      "actualSignedGapMeters": -0.14232893446062356,
+      "contractEmbedCenterMeters": 0.14231005859375045,
+      "signedDepthErrorMeters": 1.887586687310261e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26987353515625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+068_-041",
+      "actualSignedGapMeters": -0.11206769054404475,
+      "contractEmbedCenterMeters": 0.11209765625000045,
+      "signedDepthErrorMeters": 2.996570595570347e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21225634765625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_+072_-025",
+      "actualSignedGapMeters": -0.10800310495110921,
+      "contractEmbedCenterMeters": 0.10800830078124957,
+      "signedDepthErrorMeters": 5.195830140358737e-06,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.20801440429687457,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-001_-016",
+      "actualSignedGapMeters": -0.12771119334877667,
+      "contractEmbedCenterMeters": 0.12778369140625045,
+      "signedDepthErrorMeters": 7.249805747377991e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24350634765625045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-005_-104",
+      "actualSignedGapMeters": -0.11004137594115804,
+      "contractEmbedCenterMeters": 0.11008349609375045,
+      "signedDepthErrorMeters": 4.2120152592417526e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20816699218750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-017",
+      "actualSignedGapMeters": -0.11071100387674804,
+      "contractEmbedCenterMeters": 0.11075488281250045,
+      "signedDepthErrorMeters": 4.387893575241719e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21378222656250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-026",
+      "actualSignedGapMeters": -0.13659826587790747,
+      "contractEmbedCenterMeters": 0.13657275390625045,
+      "signedDepthErrorMeters": 2.551197165701069e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26120654296875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-109",
+      "actualSignedGapMeters": -0.10285043399159122,
+      "contractEmbedCenterMeters": 0.10282031250000045,
+      "signedDepthErrorMeters": 3.012149159076216e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19431201171875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-110",
+      "actualSignedGapMeters": -0.10645667723672148,
+      "contractEmbedCenterMeters": 0.10642138671875045,
+      "signedDepthErrorMeters": 3.529051797102056e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20090380859375045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-006_-112",
+      "actualSignedGapMeters": -0.11988385605017271,
+      "contractEmbedCenterMeters": 0.11991015625000045,
+      "signedDepthErrorMeters": 2.6300199827744564e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22782031250000045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-009_-019",
+      "actualSignedGapMeters": -0.13192095665339565,
+      "contractEmbedCenterMeters": 0.13193408203125045,
+      "signedDepthErrorMeters": 1.312537785480572e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.25186816406250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-016",
+      "actualSignedGapMeters": -0.10342246683967815,
+      "contractEmbedCenterMeters": 0.10336962890625045,
+      "signedDepthErrorMeters": 5.283793342769627e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19486132812500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-013_-020",
+      "actualSignedGapMeters": -0.12048630218721001,
+      "contractEmbedCenterMeters": 0.12052050781250045,
+      "signedDepthErrorMeters": 3.420562529043991e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22897998046875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-014_-031",
+      "actualSignedGapMeters": -0.10907001135713301,
+      "contractEmbedCenterMeters": 0.10910693359375045,
+      "signedDepthErrorMeters": 3.692223661744265e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20621386718750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-018_-021",
+      "actualSignedGapMeters": -0.12715592112560614,
+      "contractEmbedCenterMeters": 0.12717333984375045,
+      "signedDepthErrorMeters": 1.741871814431306e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24234667968750045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-031_-006",
+      "actualSignedGapMeters": -0.10210307267083873,
+      "contractEmbedCenterMeters": 0.10211840820312501,
+      "signedDepthErrorMeters": 1.533553228627582e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.18405810546875,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-032_-027",
+      "actualSignedGapMeters": -0.1040825414804516,
+      "contractEmbedCenterMeters": 0.10410205078125045,
+      "signedDepthErrorMeters": 1.950930079885893e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.19034472656250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-033_-007",
+      "actualSignedGapMeters": -0.1404437102570002,
+      "contractEmbedCenterMeters": 0.14044848632812457,
+      "signedDepthErrorMeters": 4.776071124368286e-06,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.26886645507812457,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-034_-024",
+      "actualSignedGapMeters": -0.11101278207747,
+      "contractEmbedCenterMeters": 0.11099902343750045,
+      "signedDepthErrorMeters": 1.3758639969552178e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.21005908203125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-012",
+      "actualSignedGapMeters": -0.12323851370001648,
+      "contractEmbedCenterMeters": 0.12326708984375045,
+      "signedDepthErrorMeters": 2.857614373397155e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23538867187500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-035_-015",
+      "actualSignedGapMeters": -0.14412068898958452,
+      "contractEmbedCenterMeters": 0.14420214843750045,
+      "signedDepthErrorMeters": 8.145944791593251e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.27591601562500045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_+008",
+      "actualSignedGapMeters": -0.11835660980834994,
+      "contractEmbedCenterMeters": 0.11835375976562545,
+      "signedDepthErrorMeters": 2.850042724489299e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.22473803710937545,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-005",
+      "actualSignedGapMeters": -0.10769711820102712,
+      "contractEmbedCenterMeters": 0.10767260742187501,
+      "signedDepthErrorMeters": 2.4510779152109308e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.203436767578125,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-037_-007",
+      "actualSignedGapMeters": -0.130358975364274,
+      "contractEmbedCenterMeters": 0.13037768554687545,
+      "signedDepthErrorMeters": 1.871018260146684e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.24872485351562545,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-038_-006",
+      "actualSignedGapMeters": -0.12962991227415355,
+      "contractEmbedCenterMeters": 0.12961474609374957,
+      "signedDepthErrorMeters": 1.5166180403980434e-05,
+      "minimumRootEmbedMeters": 0.011999999999999567,
+      "maximumRootEmbedMeters": 0.24722949218749957,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-039_-007",
+      "actualSignedGapMeters": -0.12217916819597896,
+      "contractEmbedCenterMeters": 0.12216845703125045,
+      "signedDepthErrorMeters": 1.0711164728505196e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23239794921875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-041_-015",
+      "actualSignedGapMeters": -0.14049888045837378,
+      "contractEmbedCenterMeters": 0.14047900390625045,
+      "signedDepthErrorMeters": 1.987655212332129e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26993457031250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-042_-006",
+      "actualSignedGapMeters": -0.10950857853236506,
+      "contractEmbedCenterMeters": 0.10950366210937545,
+      "signedDepthErrorMeters": 4.916422989609259e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.20700732421875045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-002",
+      "actualSignedGapMeters": -0.10628320285280735,
+      "contractEmbedCenterMeters": 0.10629931640625001,
+      "signedDepthErrorMeters": 1.6113553442664852e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.19455615234375,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-003",
+      "actualSignedGapMeters": -0.1406291076402142,
+      "contractEmbedCenterMeters": 0.140662109375,
+      "signedDepthErrorMeters": 3.300173478582025e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.269232666015625,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-044_-018",
+      "actualSignedGapMeters": -0.12034784612252736,
+      "contractEmbedCenterMeters": 0.12033740234375045,
+      "signedDepthErrorMeters": 1.0443778776902946e-05,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.23282519531250045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-049_-015",
+      "actualSignedGapMeters": -0.13791785764382425,
+      "contractEmbedCenterMeters": 0.13791552734375045,
+      "signedDepthErrorMeters": 2.3303000737939783e-06,
+      "minimumRootEmbedMeters": 0.012000000000000455,
+      "maximumRootEmbedMeters": 0.26377001953125045,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-053_+010",
+      "actualSignedGapMeters": -0.1169756599916405,
+      "contractEmbedCenterMeters": 0.11698046875000001,
+      "signedDepthErrorMeters": 4.808758359509113e-06,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.221930419921875,
+      "supportRayCount": 9
+    },
+    {
+      "name": "CAMPUS_TREE RV2_INFILL infill_-057_+009",
+      "actualSignedGapMeters": -0.11544383164107952,
+      "contractEmbedCenterMeters": 0.11545458984375001,
+      "signedDepthErrorMeters": 1.0758202670491102e-05,
+      "minimumRootEmbedMeters": 0.01200000000000001,
+      "maximumRootEmbedMeters": 0.21054736328125,
+      "supportRayCount": 9
+    }
+  ],
+  "acceptedCount": 106,
+  "maximumSignedDepthErrorMeters": 9.682955231227197e-05,
+  "policy": "Only exact9-ray native infill planting records may explain signed root embed depth within0.1mm. Missing roots, positive floating, changed transforms, unsupported ground, other failures or a changed planting depth still fail. Existing native minimum12mm embed below the lowest perimeter point remains unchanged."
+}

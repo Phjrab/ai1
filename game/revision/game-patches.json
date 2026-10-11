@@ -1,0 +1,49 @@
+{
+  "base": "a65c2ae1",
+  "patches": [
+    {
+      "before": "",
+      "after": "import {createStreetLighting,TIME_PRESETS} from './street-lighting.js';\nimport {STREET_LIGHTING_NATIVE} from './street-lighting-native.js';\n"
+    },
+    {
+      "before": "scene.add(new THREE.HemisphereLight('#f0f7ff','#74745a',1.6));",
+      "after": "const hemisphere=new THREE.HemisphereLight('#f0f7ff','#74745a',1.6);scene.add(hemisphere);"
+    },
+    {
+      "before": "renderer.render(scene,camera);}",
+      "after": "streetLighting.update(camera.position,dt);renderer.render(scene,camera);}"
+    },
+    {
+      "before": "buildBlockerGrid();worldCollider.updateMatrixWorld(true);",
+      "after": "blockers.push(...await streetLighting.load(loader));setLightingTime('evening');buildBlockerGrid();worldCollider.updateMatrixWorld(true);"
+    },
+    {
+      "before": "scene,renderer,interact,reset,floorHeight,travelTo,ready:true,",
+      "after": "scene,renderer,streetLighting,interact,reset,floorHeight,travelTo,ready:true,"
+    },
+    {
+      "before": "animate();loadWorld();",
+      "after": "const streetLighting=createStreetLighting({scene,hemisphere,sun,renderer,mobileQuality,emitterOffset:STREET_LIGHTING_NATIVE.emitterOffset});\nfunction setLightingTime(value){streetLighting.setTime(value);const select=$('#timeOfDay'),button=$('#timeToggle');if(select)select.value=value;if(button){button.disabled=false;button.textContent=TIME_PRESETS[value].label;button.setAttribute('aria-label','시간대: '+TIME_PRESETS[value].label+' · 눌러 변경');}}\nif($('#timeOfDay'))$('#timeOfDay').onchange=e=>setLightingTime(e.target.value);\nif($('#timeToggle'))$('#timeToggle').onclick=()=>{document.exitPointerLock?.();clearInputs();const modes=Object.keys(TIME_PRESETS);setLightingTime(modes[(modes.indexOf(streetLighting.state.time)+1)%modes.length]);};\nif($('#nearLighting'))$('#nearLighting').onchange=e=>streetLighting.setDetail(e.target.checked);\nanimate();loadWorld();"
+    }
+  ],
+  "changed_files": [
+    {
+      "path": "dist/game.js",
+      "before_sha256": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e",
+      "after_sha256": "088aa697e2965a213dcf7d8a9ce3ce720f4e6f9985a69a0cbfcd19e674dd8ab3",
+      "preserved": "revision/a65-original/dist/game.js"
+    },
+    {
+      "path": "dist/index.html",
+      "before_sha256": "58870137aba0169201656c95947e122a20b329c8887d6ed213666f143069a319",
+      "after_sha256": "9cd4890fe706d6e788ea91913f0819dd4c2b455bab2369edb4e5736b0b0832ba",
+      "preserved": "revision/a65-original/dist/index.html"
+    },
+    {
+      "path": "dist/style.css",
+      "before_sha256": "e30ebe71b2fb12a45d63f11b52272ca40709b3ebec4148d9550effba2048b8eb",
+      "after_sha256": "c5ddeb9a151d8947e627ef7a12769eb5c1730eb697dc0f736ad6dbff8f7e98bb",
+      "preserved": "revision/a65-original/dist/style.css"
+    }
+  ]
+}

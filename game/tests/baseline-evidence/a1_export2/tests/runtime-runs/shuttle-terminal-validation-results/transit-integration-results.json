@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "samples": 9506,
+  "lengthMeters": 2376.4665221159144,
+  "staticOverlapSamples": 0,
+  "staticExamples": [],
+  "dynamicOverlapSamples": 0,
+  "dynamicActors": [],
+  "dynamicExamples": [],
+  "orderedStops": [
+    "monument",
+    "art",
+    "library",
+    "engineering2",
+    "law_business",
+    "main_north",
+    "student_union"
+  ],
+  "terminalPhase": "terminal",
+  "terminalStopId": "monument",
+  "repeatCirculation": false,
+  "pureRouteStopsVisited": [
+    "monument",
+    "art",
+    "library",
+    "engineering2",
+    "law_business",
+    "main_north",
+    "student_union"
+  ],
+  "simulatedSeconds": 1200
+}

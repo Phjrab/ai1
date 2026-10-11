@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SERIALIZATION_ADAPTER_REVIEW",
+  "native_scene_loaded": false,
+  "baseline_json_sha256": "6e100eb43ac22660a825954e62480794a856e68a0ce2974ab9bfbae09867ac08",
+  "adapter_sha256": "6f0b4c36d9e78bee04ff3411eec756bc460ef373a1bd45e630df2b67f317b5ed",
+  "helper_sha256": "244aaa2a2374657baaf77e999c566adb0888e120ab7460e44a96d1a81f476466",
+  "restored_pairs": 872,
+  "original_and_restored_fingerprint": "f5164e803058a866027d9f04165662522398ab07d805b8af3603a5b35eb2f03f",
+  "changed_socket_index_rejected": true,
+  "scope": "Only JSON list-to-tuple restoration in shader internal link pairs; fingerprints match and altered socket content is rejected. Actual saved-native comparison remains a separate check."
+}

@@ -1,0 +1,2010 @@
+{
+  "format": 1,
+  "revision": "street_lighting_v6",
+  "baselineSourceManifestSha256": "27414f663cccd838ef84170ead0052b42523bd20a776af23fedf4dab491f2359",
+  "augmentedNativeSha256": "563bc543278531cc636cb295b644b8ffe0e28acc151fe4934435c360d94192f8",
+  "nativeBinding": "revision/lighting-native-binding.json",
+  "nativeBindingSha256": "628e22bb2e1300b3f7bf32b4ef4474d73a3bc5d5e47b4d5380c95541601a5ef8",
+  "files": {
+    "LICENSES.md": {
+      "bytes": 3124,
+      "sha256": "8806ede4b292c07e59513d9b83dc35e76724086836a27049857efc35b37d84f8"
+    },
+    "MODEL_PROVENANCE.json": {
+      "bytes": 35931,
+      "sha256": "01d22eea20d86bc8468b09b1f3800c39b7ef680113ebde587e8d362a99b9ec65"
+    },
+    "QA.md": {
+      "bytes": 6541,
+      "sha256": "8a5ebd49d1150ddd64d48c79cd2646c42c0bcd34881e1e035e563ab25e73924a"
+    },
+    "README.md": {
+      "bytes": 15387,
+      "sha256": "f01a803b43ddbc6afbaffee003e6f81b938c39b1d885cce5711650d19bc662f0"
+    },
+    "SOURCE_MANIFEST.json": {
+      "bytes": 77347,
+      "sha256": "27414f663cccd838ef84170ead0052b42523bd20a776af23fedf4dab491f2359"
+    },
+    "data/a1_export2_native-export-manifest.json": {
+      "bytes": 125382,
+      "sha256": "3cc267140fead2ef7375b8382fb5292cc2e1fcb40ee9f654e0d01c20f180625f"
+    },
+    "data/actor-grounding-report.json": {
+      "bytes": 7789,
+      "sha256": "7ae848220165062f6d890dce488682729490adf82abe68643781740d82312545"
+    },
+    "data/actor-grounding.json": {
+      "bytes": 5943,
+      "sha256": "6af5c30d23bd5ea950df1a7357dc6f95191158cd650b524857802966f2a93805"
+    },
+    "data/building-material-application.json": {
+      "bytes": 1018,
+      "sha256": "2046a3fcd1aab0d5acce851e819f145d1ef3d8465eae573e00b18f9f4a61de01"
+    },
+    "data/campus-access-gates.json": {
+      "bytes": 20558,
+      "sha256": "a138c7188838bd4b608ca6471b8ad313f320cc07fd2e1e2d47d1200eae00f6a6"
+    },
+    "data/campus-access-school-boundaries.json": {
+      "bytes": 19936,
+      "sha256": "df9f378b299de74a0e5fb6210899aad4224c5b372adb15cc772b818475c4167c"
+    },
+    "data/campus-access-school-road-replacement.json": {
+      "bytes": 1259563,
+      "sha256": "7bd564167709399148a27aa0c5db2e2f0eeb521c9d5c0256b621d4b05472beb0"
+    },
+    "data/campus-access-schools.json": {
+      "bytes": 36785,
+      "sha256": "105c05a540066f53e71087a4e814be75f03da55aa1f4b5bb4f5ba9731e311a72"
+    },
+    "data/campus-access-sync-report.json": {
+      "bytes": 218376,
+      "sha256": "3d8821a61efe3350228a3fd7f60bc8ef9d39aa4196c29a972dbffa7db39eb70a"
+    },
+    "data/campus-material-application.json": {
+      "bytes": 25189,
+      "sha256": "d44ce0804f630390d54468bfb2039d9bf86d897188b96f3464f8bf5f87686691"
+    },
+    "data/campus-navigation.json": {
+      "bytes": 9199586,
+      "sha256": "57e82293b29c5787db51ad0bc4a0d357d90a42f2f4d3f002cba0a8da479dca44"
+    },
+    "data/canonical-geometry-preservation/canonical_mesh_hash_fixture.json": {
+      "bytes": 256,
+      "sha256": "f8d863f1d1f47c1763f3fe97576efd3e34e88a478efefb68f968f0063615e04f"
+    },
+    "data/canonical-geometry-preservation/final_a1a2070f_canonical_meshes.json": {
+      "bytes": 64375,
+      "sha256": "ccef3f8fdc4125b388f15c6146e8dbc699847f6cb9376807d63574215412234a"
+    },
+    "data/canonical-geometry-preservation/final_a1a2070f_canonical_meshes_execution.json": {
+      "bytes": 1854,
+      "sha256": "8a64e5858866727fc16e8e20fbb87a3361a022897429b9d54ffcbf61a221d608"
+    },
+    "data/canonical-geometry-preservation/final_a65c2ae1_canonical_mesh_comparison.json": {
+      "bytes": 1661,
+      "sha256": "78fc07c3820bb3cb82c14e1a1d50d13a4771d14e9891607197c0bae874cf2480"
+    },
+    "data/canonical-geometry-preservation/final_a65c2ae1_canonical_meshes.json": {
+      "bytes": 64376,
+      "sha256": "f98e5c81035b0e820c213e5a00b36496aae5f5e111ce0f125ca45bf7d0168d5f"
+    },
+    "data/canonical-geometry-preservation/final_a65c2ae1_canonical_meshes_execution.json": {
+      "bytes": 1854,
+      "sha256": "6ea6d94213a543a11aca10fbecfa14f69e309ec876e5465542f38a463e7bd269"
+    },
+    "data/entrance-connections.json": {
+      "bytes": 14833,
+      "sha256": "e7241540e83d6618a33b67f86fd11b3005da0d801e29c74c7a8b81e01fbf2bfd"
+    },
+    "data/entrance-surfaces.json": {
+      "bytes": 2096967,
+      "sha256": "f90fa31eef697dfbed9a256a9f63649c37715cab4a5fc20c6dad0caa10d699b6"
+    },
+    "data/entrance-sync-report.json": {
+      "bytes": 71261,
+      "sha256": "52bcd85b894ebf322bd5ec7e49cf99549c8a42ba3fa387eee6a8310a35cc0f75"
+    },
+    "data/entrances-a.json": {
+      "bytes": 178214,
+      "sha256": "61d7f140ec7bff527910c36f7a8432f1388aacfa260e060710e0c565c20d80bb"
+    },
+    "data/entrances-b.json": {
+      "bytes": 23093,
+      "sha256": "6ede5f5445ad8ca5ea18a303c5e857937a7a3754574dbcdba3258f3be7f6d98e"
+    },
+    "data/exported-inferred-support.json": {
+      "bytes": 82385,
+      "sha256": "dc120de9239e459391cf163937819b2e0f6e5d24f5e4d11ec6734ff2d15cdc73"
+    },
+    "data/final-model-delta.json": {
+      "bytes": 13761,
+      "sha256": "b5761d49ed169b3e6a19f0df79ea3e34e253a6edf2e2c166c78d033190184dbb"
+    },
+    "data/final-pedestrian-navigation.json": {
+      "bytes": 411008,
+      "sha256": "b2e6d7c5917524b806467aa3d7999613274f0e225d1856b1848df8879f16b96b"
+    },
+    "data/football-goals-sync-report.json": {
+      "bytes": 288,
+      "sha256": "d6bbf249d4c22f0c790e9ba4d3c151628f532179c81e4d0ea9d3d86566bd4973"
+    },
+    "data/football-goals.json": {
+      "bytes": 101979,
+      "sha256": "9ddebda0db53e754d7de3a3e6443118acd0d9fe8cf4ac1295541fa3a39030f99"
+    },
+    "data/game-materials.json": {
+      "bytes": 185823,
+      "sha256": "0485b3786d41373d2169f9fab22e20841cc80bb23956951900d1b388e661bb5c"
+    },
+    "data/garage-exterior-navigation.json": {
+      "bytes": 55981,
+      "sha256": "04c1cc7e368e4acfeac7e34015ad2551b9532d1eef4e32769239faf0095043dc"
+    },
+    "data/garage-exterior-sync-report.json": {
+      "bytes": 5467,
+      "sha256": "6708e39457048a7802dae73f5c37e15ed986f93ef577a273b3211b8278472cee"
+    },
+    "data/garage-road-boundary-source.json": {
+      "bytes": 15662,
+      "sha256": "b37444accd6e1b0f1e0044d9472fd31c3603dbb13e3cbcd7ce993f7be304a31c"
+    },
+    "data/garage-road-boundary.json": {
+      "bytes": 9160,
+      "sha256": "7b00cdc0a60402986928dddf8b9dcdc151423ea6ec14fddb609a30fc05167284"
+    },
+    "data/grade-sync-baseline.json": {
+      "bytes": 377724,
+      "sha256": "1e14345a235ef7b30a98bb47f0b701f800bf3eeab057505072a652668c9ed5be"
+    },
+    "data/grade-sync-report.json": {
+      "bytes": 113297,
+      "sha256": "42898889243c6c79aacc0cea05d4eee7d5f8a74f66e27f524426a1e5fb9f753d"
+    },
+    "data/greenery-infill.json": {
+      "bytes": 1241690,
+      "sha256": "eb0eaee7f0805c3dae1fa8a18935fdbc2c50974420e6ec54d0a73499b5759f3a"
+    },
+    "data/greenery-sync-report.json": {
+      "bytes": 275,
+      "sha256": "623149774c8c29ff6a321dc73c69e314ca0a84b9b83742a2479bc29e93c33e31"
+    },
+    "data/haeoreum-stair-sync-report.json": {
+      "bytes": 472,
+      "sha256": "456c84ff6976ee52339dca2765f87d420a4af2f29261876f4a43b4fa630fd160"
+    },
+    "data/haeoreum-stair.json": {
+      "bytes": 28418,
+      "sha256": "c7099ea6b0e95c6c3748f9c373aa218c212c7922b2385a26249fa07b907efec0"
+    },
+    "data/hospital-arrival-overlay.json": {
+      "bytes": 10101122,
+      "sha256": "5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f"
+    },
+    "data/hospital-stop-walkways-sync-report.json": {
+      "bytes": 1877,
+      "sha256": "128d1b40095c31fc247521c27a02ae583b88df07d61370866a2a7ddbb436a2fe"
+    },
+    "data/hospital-stop-walkways.json": {
+      "bytes": 826308,
+      "sha256": "0dee4086880afb15693cffa563729f1b36a3d2f26a6e7490db279c478e18bd1a"
+    },
+    "data/hospital-sync-report.json": {
+      "bytes": 773,
+      "sha256": "f9ee3647b2f8d60a331578c5aad6165f64e55f86b2983a710348f7367c27d086"
+    },
+    "data/it-approach-alignment.json": {
+      "bytes": 350564,
+      "sha256": "a9aa5510524ae8b7dc77cb0b0998ffb3cf96124ea6ae6844b246121d466a876d"
+    },
+    "data/it-lounge.json": {
+      "bytes": 42334,
+      "sha256": "cbf652568995444b3fd619235da55489e7aa2378ff490493fd8253f95093116a"
+    },
+    "data/it-lower-paving-retirement-report.json": {
+      "bytes": 485,
+      "sha256": "d33e8de5a3fc95766733ad0da3b7b46a766d29003907d4e84643955ad620a388"
+    },
+    "data/it-lower-paving-retirement.json": {
+      "bytes": 3467,
+      "sha256": "a098f50103f61aec3a05a98d3f29716a36e554f7b9717ecf9bdbf2f0b6fa99ea"
+    },
+    "data/it-rooftop-bridge.json": {
+      "bytes": 1026489,
+      "sha256": "062dbf9b3db6b724fbc4bdc7b145cebe7aebee2452523fee7ecb4317d907be93"
+    },
+    "data/known-tyre-contact-limits.json": {
+      "bytes": 9581,
+      "sha256": "db2eb03bea1e8e7d64d52e413056c36aa3decf51e5d3d21b9054b82d496f47e7"
+    },
+    "data/lounge-sync-report.json": {
+      "bytes": 562,
+      "sha256": "cc425bc35ed84fbebab53b8cfebf546dfb446f1073b324944b49fce22dbbe569"
+    },
+    "data/native-export-building-inventory.json": {
+      "bytes": 47489,
+      "sha256": "67e28606a9c9bf1c2f57d4f8dcf2ba97320f643327e8cb0895650a76dbb6f8f1"
+    },
+    "data/native-export-campus-inventory.json": {
+      "bytes": 4864578,
+      "sha256": "f479a597b9a0c88a4c0bdddfffe7419261f67b027f898f9782747207192ff114"
+    },
+    "data/native-export-manifest.json": {
+      "bytes": 135651,
+      "sha256": "e1f17e770a8a1b399773ee2c601f6c0021d9d6064cf37dd4e7d7a2df4de36a7e"
+    },
+    "data/parking-gameplay.json": {
+      "bytes": 257072,
+      "sha256": "beab14ca0393ca4b1ab4b4e36cf6f299b5589bae53843cdc14156e9ce36d8859"
+    },
+    "data/parking-terraces-sync-report.json": {
+      "bytes": 10268,
+      "sha256": "35cc0bc62f9c75cd91acf33dad7de9bb795b43243e2f859b975cb99bac99ec71"
+    },
+    "data/parking-terraces.json": {
+      "bytes": 7344173,
+      "sha256": "896672d4f8de987dabe269fd771356f22717a80636843307aa67b82cdec502ed"
+    },
+    "data/pharmacy-entrance.json": {
+      "bytes": 189584,
+      "sha256": "85442425957ae551e55f6d8f3bbf291475e6725287e551b6731548618b976ba0"
+    },
+    "data/pharmacy-sync-report.json": {
+      "bytes": 325,
+      "sha256": "699916817c82a7f2e7ea53c944f14420d24ada478bebe6dcefc0929a8c07845a"
+    },
+    "data/pond-entry-steps.json": {
+      "bytes": 27896,
+      "sha256": "0676444ead4f9983459461a8addfc9c75afe5a260a8d0f93935984c2c1e0b1b9"
+    },
+    "data/pond-entry-sync-report.json": {
+      "bytes": 397,
+      "sha256": "3328faadd8146af71711b48424d6833576c8d8da98d5e3e6a1eacfc5cf1de21d"
+    },
+    "data/pond-overlay.json": {
+      "bytes": 144006,
+      "sha256": "cde7611eed97eb431c98daa5f56f4e9d8a0782271c309a3686a4dc7e3a0ef5a9"
+    },
+    "data/pond-sync-report.json": {
+      "bytes": 10580,
+      "sha256": "bbb1775e7c83f56232af242a64f4961d6a67529076052fd302946fa28d329a56"
+    },
+    "data/public-spaces-integration-contract.json": {
+      "bytes": 1418,
+      "sha256": "54851def8cba2109712a1145f98a4f513b878f19a32242ca5f33b8ee1b3d2690"
+    },
+    "data/public-spaces-sync-report.json": {
+      "bytes": 4283,
+      "sha256": "d816b2b0791e657c8af0633233bac229a4b40df2a9fe2d7b39b0d95cb59f3eca"
+    },
+    "data/public-spaces.json": {
+      "bytes": 78276,
+      "sha256": "c8cd6dfe999c6f093045b8511ad0589b09b73e50c2b3c8b60ed85b9b9b841fd9"
+    },
+    "data/public-walk-clearance.json": {
+      "bytes": 211333,
+      "sha256": "04d566516be6e936ee5ce20ce83611501c6b276d210b23103979fbf3070435ea"
+    },
+    "data/realism-road-probes.json": {
+      "bytes": 1163,
+      "sha256": "4c6e66dd6cfc940d9aeb80c519561cda19d10a1df47fa4afefa44b6d3422720f"
+    },
+    "data/road-graph-3d.json": {
+      "bytes": 1525960,
+      "sha256": "57d12037872e2034bddefcbd7247ce37142db019937888e1b4f02693a269e9c5"
+    },
+    "data/road-seam-routes.json": {
+      "bytes": 287419,
+      "sha256": "51c0d149a921b71f21f7ee45214eb8a39352e1b9529a900cdcdca81d1236ff74"
+    },
+    "data/rooftop-sync-report.json": {
+      "bytes": 468,
+      "sha256": "80cd9a0e33886c4d8464458af19134c8c2dc6167d82c683b6a26f5271f98493e"
+    },
+    "data/rose-endpoint-navigation.json": {
+      "bytes": 163311,
+      "sha256": "1533887b5cf55d6fb1b3f33eb48dd37c23047efbf9d3e87ea5df399ba13e504c"
+    },
+    "data/rose-endpoint-sync-report.json": {
+      "bytes": 8615,
+      "sha256": "2482a5f33c6cd94f6391fbf1e79415077f0bd9626fa7a535b26706e2cea779ed"
+    },
+    "data/shuttle-material-application.json": {
+      "bytes": 572,
+      "sha256": "4c2d622ef76ee758a0216e5bba6b993cee08bb52756d91f340b7799e5ee254ab"
+    },
+    "data/shuttle-sources.json": {
+      "bytes": 30475,
+      "sha256": "392266ed612f1a2884c12d63de55f44c325925cfab1c3138b543682856a63f9a"
+    },
+    "data/static-vehicle-poses.json": {
+      "bytes": 975199,
+      "sha256": "a32282b5304352c59ab278547760cd576cc1a0873eba6c0c98f2387a3820511f"
+    },
+    "data/static-vehicle-sync-report.json": {
+      "bytes": 363,
+      "sha256": "3c81f062450248146d19ac128c8b9896dc070ca65dfbf04a3a32df4d70647915"
+    },
+    "data/student-level-contract.json": {
+      "bytes": 120041,
+      "sha256": "50cbe0d190f9d79e838ba7e1faee6136b5f070742d55ab853a6e47640aa83fc6"
+    },
+    "data/terrace-drive-alignment-report.json": {
+      "bytes": 856,
+      "sha256": "5bfea2f44191c1e124a6603c71bb0014eb70bdcc0ae4b6e3ec1da85b2b5b58f9"
+    },
+    "data/terrace-drive-alignment.json": {
+      "bytes": 47338,
+      "sha256": "d4445b531f94bf9c2ce23e2cb9572bbaffa0163b078baf56fddee920d67142cf"
+    },
+    "data/track-perimeter.json": {
+      "bytes": 446120,
+      "sha256": "f943fb60b008d4e4e55ce4580f8d729b6ef350f5b9b0d616077acca0081ea752"
+    },
+    "data/transit-alignment-overlay.json": {
+      "bytes": 194778,
+      "sha256": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08"
+    },
+    "data/transit-asset-contract.json": {
+      "bytes": 5489,
+      "sha256": "ae31bba0502c4b10fbfe7d0cdc35806b6ed53bc357cc0d4f3559483d00e39b62"
+    },
+    "data/transit-integration-issues.json": {
+      "bytes": 2868,
+      "sha256": "6a58b15c47bbd25914e3c1f7bd917588ae32f982f94c7ced413efaa5b5c2fc36"
+    },
+    "data/transit-placements.json": {
+      "bytes": 194778,
+      "sha256": "55a5aa3d99dac7b1f05febb615cf1deb842fb85f34b94ce31ed747a7492e3e08"
+    },
+    "data/transit-revision-report.json": {
+      "bytes": 3912,
+      "sha256": "62bac389e7f54e9e9832a1c425ee44b1c174e3f13acb0a21396e0926a2f25a97"
+    },
+    "data/tyre-contact-regression-poses.json": {
+      "bytes": 8746,
+      "sha256": "4c20edb28f4d9ea32580f0b780d9bd57c9cf82ef7572247dfd3a70882f349967"
+    },
+    "data/walk-alignments-sync-report.json": {
+      "bytes": 3609,
+      "sha256": "78fe66023f62146fe189c6639b6c9c94426e842edf17a7db3874db451fbb5bb8"
+    },
+    "data/walk-route-alignment.json": {
+      "bytes": 429698,
+      "sha256": "970d7bf6b46eb9b09e49b90715de05fc7bb420f6512bbef07b0cda3190141019"
+    },
+    "data/walking-road-graph-3d.json": {
+      "bytes": 1021367,
+      "sha256": "1c85e7ba8359e9733d788a71ef1900422dbad89f20051e73c06fc28a14500f26"
+    },
+    "dist/assets/building.glb": {
+      "bytes": 8881064,
+      "sha256": "0adc65ff80b80ef9acca171c3c9574bc1f932d121d5c1857f65cc9de0bd3cde5"
+    },
+    "dist/assets/campus.glb": {
+      "bytes": 60213892,
+      "sha256": "c7f2db5eff62f9292611b187adf7912f58d90385694d00d80195fa27f6509836"
+    },
+    "dist/assets/lighting.glb": {
+      "bytes": 241408,
+      "sha256": "049dc05ce731914ca878de3febdfcd9e4b8b7ee011f647761b518c6559ea5abf"
+    },
+    "dist/assets/shuttle_bus.glb": {
+      "bytes": 1068036,
+      "sha256": "45cf07d17b94582137a905c70c11ec55542dff1e6562f1c0abd85f332805fa48"
+    },
+    "dist/game.js": {
+      "bytes": 47996,
+      "sha256": "088aa697e2965a213dcf7d8a9ce3ce720f4e6f9985a69a0cbfcd19e674dd8ab3"
+    },
+    "dist/index.html": {
+      "bytes": 6500,
+      "sha256": "9cd4890fe706d6e788ea91913f0819dd4c2b455bab2369edb4e5736b0b0832ba"
+    },
+    "dist/parking-config.js": {
+      "bytes": 120784,
+      "sha256": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b"
+    },
+    "dist/parking-system.js": {
+      "bytes": 5420,
+      "sha256": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f"
+    },
+    "dist/polygon-colliders.js": {
+      "bytes": 2724,
+      "sha256": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df"
+    },
+    "dist/release-manifest.json": {
+      "bytes": 5514,
+      "sha256": "adba24e10aa60135656fae8ca65c1d875c78892a86d9acdbc2766a8d4ae1bde6"
+    },
+    "dist/revision-colliders.js": {
+      "bytes": 7840,
+      "sha256": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c"
+    },
+    "dist/shuttle-system.js": {
+      "bytes": 7519,
+      "sha256": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1"
+    },
+    "dist/street-lighting-native.js": {
+      "bytes": 373,
+      "sha256": "c389274e48ef876843c477e8248fdb4f647313be19289e094e9d1196a8b33519"
+    },
+    "dist/street-lighting.js": {
+      "bytes": 12622,
+      "sha256": "60dd99d5df3b5bcf749103c24d2e255924bc41e5704fdd7ebd7953fc9da8b6bc"
+    },
+    "dist/street-lighting.json": {
+      "bytes": 18270612,
+      "sha256": "a34a5233d8124aa17214162c993d17a71f614ba426dcad0a96e7f0a52f312394"
+    },
+    "dist/style.css": {
+      "bytes": 8369,
+      "sha256": "c5ddeb9a151d8947e627ef7a12769eb5c1730eb697dc0f736ad6dbff8f7e98bb"
+    },
+    "dist/transit-config.js": {
+      "bytes": 91011,
+      "sha256": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26"
+    },
+    "dist/vehicle-steering.js": {
+      "bytes": 1097,
+      "sha256": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37"
+    },
+    "dist/vehicle-surfaces.js": {
+      "bytes": 2784,
+      "sha256": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8"
+    },
+    "dist/vendor/MESHOPT-LICENSE.txt": {
+      "bytes": 1079,
+      "sha256": "e4a26033e3551fb2722888949fbb41e77aee628e8e8f04dcffeee301aa7e5634"
+    },
+    "dist/vendor/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    "dist/vendor/addons/loaders/GLTFLoader.js": {
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    "dist/vendor/addons/math/Capsule.js": {
+      "bytes": 3543,
+      "sha256": "be54c3c58483a7f6b0184dbc6ffdcea58ac13515a7d9fd19ed675b9edfc5f319"
+    },
+    "dist/vendor/addons/math/Octree.js": {
+      "bytes": 14863,
+      "sha256": "45f521111ec5b2110c475c6bd7cc6109aa5a283f42730c78603f3f665c8172e9"
+    },
+    "dist/vendor/addons/meshopt_decoder.module.js": {
+      "bytes": 24848,
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c"
+    },
+    "dist/vendor/addons/utils/BufferGeometryUtils.js": {
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    "dist/vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "dist/vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "dist/walking-floor.js": {
+      "bytes": 1667,
+      "sha256": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc"
+    },
+    "dist/water-constraints.js": {
+      "bytes": 1212,
+      "sha256": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5"
+    },
+    "dist/wheel-suspension.js": {
+      "bytes": 7993,
+      "sha256": "433156d77a9b02e87da5e7009b8bab91bfdbf7315b9c3fecf05d440b6d1efcf3"
+    },
+    "dist/world-config.js": {
+      "bytes": 13171356,
+      "sha256": "c0e28ddd5075e0a2f396b17a407de4e16621df72dc3e8a3890c12a71360ed309"
+    },
+    "package-lock.json": {
+      "bytes": 26433,
+      "sha256": "6de39dae674ba3b5369ce2fb632764233e6f2c12bf15a674914419859cadcb34"
+    },
+    "package.json": {
+      "bytes": 3507,
+      "sha256": "6bc04ea157825792690137ce9a1cdd677f465a1b3b2a7ede66a69151851db22e"
+    },
+    "revision/NATIVE_EMITTER_BINDING.md": {
+      "bytes": 633,
+      "sha256": "3241265de515a403ecbd95f3ac811930a4eabf4255a024f478dbd2e313aa305a"
+    },
+    "revision/RECOVERY_NODE_SETUP.md": {
+      "bytes": 294,
+      "sha256": "0238c9861ae576cfd888b58ad2ab5a329aeaa987c3e35f7a45832619150d4801"
+    },
+    "revision/SITE_TRANSPORT_REBUILD_CONTRACT.md": {
+      "bytes": 1533,
+      "sha256": "2b9d17e907bc54ffdc592b1ce241a913b51d2a58a884c5ba70e7a2fd09f1c9e9"
+    },
+    "revision/a65-original/MODEL_PROVENANCE.json": {
+      "bytes": 35026,
+      "sha256": "c5f2d1b08b11aec789bc1a6365955d006e716c893ac41685237dce36849a817f"
+    },
+    "revision/a65-original/QA.md": {
+      "bytes": 5212,
+      "sha256": "6cdbc8d0c61975d044a35984a1e946a169b3201fb0d4ecf305f37f10fb64d909"
+    },
+    "revision/a65-original/README.md": {
+      "bytes": 13762,
+      "sha256": "aba80569600915fdd9c51cd84dc471e01df66fe024f2d56a78dc59b1b83e7861"
+    },
+    "revision/a65-original/dist/game.js": {
+      "bytes": 46839,
+      "sha256": "f435140b4755bf52cb0c44fad3d08c847307c1e92f4a23687bb4c0e4db73766e"
+    },
+    "revision/a65-original/dist/index.html": {
+      "bytes": 5883,
+      "sha256": "58870137aba0169201656c95947e122a20b329c8887d6ed213666f143069a319"
+    },
+    "revision/a65-original/dist/release-manifest.json": {
+      "bytes": 4499,
+      "sha256": "116c94452e24a98e8a55dd77c7ad3d815e8a6c95b18a032a79525953f24d1cfb"
+    },
+    "revision/a65-original/dist/style.css": {
+      "bytes": 7404,
+      "sha256": "e30ebe71b2fb12a45d63f11b52272ca40709b3ebec4148d9550effba2048b8eb"
+    },
+    "revision/a65-original/package-lock.json": {
+      "bytes": 26433,
+      "sha256": "1fd95781b8805a3e8dc6c287ef322691cf41f2d546388e419162947d0c83eed4"
+    },
+    "revision/a65-original/package.json": {
+      "bytes": 3255,
+      "sha256": "eb66e97417f58df3c93ea835d3862b9e7285c9bc45cf6a59b3716bed5e38f8f3"
+    },
+    "revision/a65-original/tests/FINAL_VALIDATION.json": {
+      "bytes": 29983,
+      "sha256": "81f6fef49adf5d027c313752942a9c5c7c3b168d5595a9b5d2c06d6038ef5adf"
+    },
+    "revision/a65-original/tests/simulate.mjs": {
+      "bytes": 7587,
+      "sha256": "15f1edffa776c4d352fc11f4873e7ce4acbfd7b4c69b528948067c38273d2657"
+    },
+    "revision/base-source-manifest.json": {
+      "bytes": 77347,
+      "sha256": "27414f663cccd838ef84170ead0052b42523bd20a776af23fedf4dab491f2359"
+    },
+    "revision/game-patches.json": {
+      "bytes": 2857,
+      "sha256": "ac27b39dc161b9573c393788fac40679194b6013187d61c31fe64a8d55a32205"
+    },
+    "revision/lighting-native-binding.json": {
+      "bytes": 1061,
+      "sha256": "628e22bb2e1300b3f7bf32b4ef4474d73a3bc5d5e47b4d5380c95541601a5ef8"
+    },
+    "revision/lighting-native-manifest.json": {
+      "bytes": 48918027,
+      "sha256": "79cba6eb9c938889d3432dc2530d384a09832695e6dfe360e4b36d608f2e669d"
+    },
+    "revision/lighting-release-inputs.json": {
+      "bytes": 5451,
+      "sha256": "54a4e9d7e77b3f301c2eff81d2cf6fb56bd2754c2a5d79e2576cf238ec395e70"
+    },
+    "revision/native-preservation-report.json": {
+      "bytes": 114767,
+      "sha256": "4ccfd9411b5bfe88efeb1cfc58bf20cef7372fd2fb3555fdfd3297f5a32396c1"
+    },
+    "revision/native-reopen-report.json": {
+      "bytes": 218752,
+      "sha256": "930e6d913e23bfc888d12042031c2f3d55cc0811a52e3666cbe3ae13453900e5"
+    },
+    "revision/rejected-native-candidates.json": {
+      "bytes": 430,
+      "sha256": "292df4458ead13ba33723a30768692e72a49e69c2375feb54cc07530193af167"
+    },
+    "revision/split-game-delivery-checks-v2.json": {
+      "bytes": 1415,
+      "sha256": "90e8868858fc83b864d07daceb55d12da3a06979a87ab148f0553d6e79bd7158"
+    },
+    "scripts/LIGHTING_RELEASE_TOOLS.md": {
+      "bytes": 5591,
+      "sha256": "de05e8fcbdce273bdbb8f8ce6a6922b7989c3c0f4113ccfb4488fc3b3b29f8b2"
+    },
+    "scripts/align-exported-inferred-support.py": {
+      "bytes": 8539,
+      "sha256": "ca2bca275163fdcadee042447736c2a24958b86ba68ecce815fcb19b99a0866a"
+    },
+    "scripts/apply-lighting-hooks.py": {
+      "bytes": 4730,
+      "sha256": "ae933456c9a4c75839eda578692d4215a14743b086f525ee0de706d72114059b"
+    },
+    "scripts/benchmark-car-grounding.mjs": {
+      "bytes": 3562,
+      "sha256": "552b11a4907a60ba702d2e31d233ad57643ef26e4f727596296db3b5c699cf7c"
+    },
+    "scripts/build-realism.mjs": {
+      "bytes": 12091,
+      "sha256": "156fbfdd75e9837c797e8e3a8f3fbcbdb73bf0cf198e60b2859adff40c087b9d"
+    },
+    "scripts/compress-campus.mjs": {
+      "bytes": 3847,
+      "sha256": "4979453418e8161380ab0b1fbb063781bdb9bd092c8eac06066b5707ff946265"
+    },
+    "scripts/export-lighting-source.py": {
+      "bytes": 4908,
+      "sha256": "38f6e35652c86110e614d709dedbac409138e43489e79d8d8c9758657648a53f"
+    },
+    "scripts/export-source.py": {
+      "bytes": 5853,
+      "sha256": "545e825f47b769843b8b4527582771c9aeb8e15215f4d37857d9c214b0618559"
+    },
+    "scripts/finalize-lighting-release.py": {
+      "bytes": 5593,
+      "sha256": "09578c7c8a83231c14d1cbbec41cfc0381d6f8a66b58230e34538dac15256323"
+    },
+    "scripts/freeze-model-inputs.py": {
+      "bytes": 3091,
+      "sha256": "232bf54fcf558684497c50d74374698f9c2ba0b7d2174cb4261b293b03c69b9f"
+    },
+    "scripts/gltf-cpu-images.mjs": {
+      "bytes": 888,
+      "sha256": "deec205d2570d50ca3a08e41e5b00b3efea014f068aba1947cc7368542a76ba7"
+    },
+    "scripts/integrate-actor-grounding.py": {
+      "bytes": 2403,
+      "sha256": "9f2e0f0374416ae84f1897d32f38c22f3d981aa02ed8c767b519c65a18ff952d"
+    },
+    "scripts/integrate-campus-access.py": {
+      "bytes": 39896,
+      "sha256": "9bf6ce1c547705b157fbb6c82abc7f8a31fbf033c85aa2ce84e29c3a95f29659"
+    },
+    "scripts/integrate-campus.py": {
+      "bytes": 4932,
+      "sha256": "43dd0df92e43ae3266f2bab04f847f4d48170018f21e2b6f0c7f8fe32ceedec5"
+    },
+    "scripts/integrate-entrances.py": {
+      "bytes": 5853,
+      "sha256": "aefa0668e5a10578c65cd48027efa3e244f9e4d6a00746bfe7c8d810b2e8b4c4"
+    },
+    "scripts/integrate-football-goals.py": {
+      "bytes": 1797,
+      "sha256": "fd668118b33cf23819bdd7358098c8d810b7cb4ba6392165038717cd89019183"
+    },
+    "scripts/integrate-garage-exterior.py": {
+      "bytes": 7780,
+      "sha256": "33362da98ee0d5ac86de677b3a95a1deab4a318e2eac696f0338a2529ee298c6"
+    },
+    "scripts/integrate-haeoreum-entrance.py": {
+      "bytes": 3916,
+      "sha256": "0fe76624fb3487da4e994251eb9f582efa6ff830d47b808ccb36caac973f09b2"
+    },
+    "scripts/integrate-hospital-arrival.py": {
+      "bytes": 8604,
+      "sha256": "66a757e397aec41c1616bab5389ec8c9b512609ddda0f36c9902430dfc0a6cbc"
+    },
+    "scripts/integrate-lounge.py": {
+      "bytes": 3616,
+      "sha256": "00d083b64b04988aa33ba11a1d7764edfc2e7fdd017b9c4a6812687ba9f2d675"
+    },
+    "scripts/integrate-lower-paving-retirement.py": {
+      "bytes": 5638,
+      "sha256": "97983eff58eb3727d43573ef18317df37bd48f9d292728943b54a637b6c3c9b7"
+    },
+    "scripts/integrate-parking-terraces.py": {
+      "bytes": 2802,
+      "sha256": "57f9551deabc8c13d2ee0f3a022d0b4033bbdc91f48d67a4ca70bd2c779ae6a1"
+    },
+    "scripts/integrate-parking.py": {
+      "bytes": 1909,
+      "sha256": "2ab08f97a0446e5467a86c4ef061a9a96e9514fd6473c090c7fc8aefdddc3ab7"
+    },
+    "scripts/integrate-pharmacy-entrance.py": {
+      "bytes": 4803,
+      "sha256": "086d87d2b4d465f6e60bcca6b25cb4b398b2b935dae7b2ac958d2cc054a1a423"
+    },
+    "scripts/integrate-pond-entry.py": {
+      "bytes": 3468,
+      "sha256": "b2e3fcec2f230cc8d3dbe76a2a08dcda8f7c2e03149e45af3324a94457a50b83"
+    },
+    "scripts/integrate-pond.py": {
+      "bytes": 3660,
+      "sha256": "5799349e5e98d00e1c6e0f93d189914823c72fed46d6091494a86ec3c3748e2f"
+    },
+    "scripts/integrate-public-spaces.py": {
+      "bytes": 29571,
+      "sha256": "7b4d3d646f7722144bbf35768a9338dbeaf23be74d3a06a34f281dec2dc7c493"
+    },
+    "scripts/integrate-rooftop.py": {
+      "bytes": 4257,
+      "sha256": "048a665ae4059d8505822041c4aaea4cba2f3460fbfc7e281916e4528d113ceb"
+    },
+    "scripts/integrate-rose-endpoint.py": {
+      "bytes": 5540,
+      "sha256": "6665ef63c4aeef223c394b46519ab7196039c0638f5412d8df0267d0cf29138c"
+    },
+    "scripts/integrate-static-vehicle-contract.py": {
+      "bytes": 1193,
+      "sha256": "13683a9b992096a56839ca22381940c1770eb8bcb792b3bd85922d1b20dfe0a2"
+    },
+    "scripts/integrate-stop-walkways.py": {
+      "bytes": 8875,
+      "sha256": "c731f8dacf725f72781d7a8117b76a8181c3dfbfd6e1a9b0465245d0173d7d04"
+    },
+    "scripts/integrate-terrace-drive-alignment.py": {
+      "bytes": 5529,
+      "sha256": "3e87c27b5c79fa8ad4bb54d2eed4a3855bdda8f4689cbfc30b3d3ccd24b4587f"
+    },
+    "scripts/integrate-transit-revision.py": {
+      "bytes": 6162,
+      "sha256": "bb402a89a82b85fd7c605e1adba44607ebd5f96bc830b6e276233a8b348e9f61"
+    },
+    "scripts/integrate-transit.py": {
+      "bytes": 2631,
+      "sha256": "b0ed3dce035769d7c62d62bf4db1858152658222d11055502b203a827f5c1e34"
+    },
+    "scripts/integrate-tree-contract.py": {
+      "bytes": 1174,
+      "sha256": "e5785334ada8b4a74185478e6bd1ea1cc5f9e8ff627a5c25d92eed75fdb78015"
+    },
+    "scripts/integrate-walk-alignments.py": {
+      "bytes": 25509,
+      "sha256": "6ca57b6a86889c2ec886758f74a31e51049f67dd6dd6752a1e5b44632995c66e"
+    },
+    "scripts/model-compression.mjs": {
+      "bytes": 2408,
+      "sha256": "012cd21a80e9bbb6c1e93647ed70681bbd6d44f4f3f16809634dc6667dfa1e4e"
+    },
+    "scripts/model-integration-plan.mjs": {
+      "bytes": 6261,
+      "sha256": "c1cb0e5ccf2cac82fb20a94a504285624af1d980e9f5b1c8dd0da9dab1747f38"
+    },
+    "scripts/prepare-realism-materials.py": {
+      "bytes": 1907,
+      "sha256": "96c4aee3bacd6360f4524db16f4620dc5e868a270dd3b0914830d28065c68900"
+    },
+    "scripts/prepare-transit-route.py": {
+      "bytes": 6582,
+      "sha256": "b84d0537ff3c1be2925bdbb20dbc574ea008c1d27b57141cc8f51a0fda300ba0"
+    },
+    "scripts/probe-walk-failures.py": {
+      "bytes": 6239,
+      "sha256": "a2bcf9b6a8056ad5bbcc0da39eb9429db0df9d44258cd8b158cdb2cea141ac01"
+    },
+    "scripts/reassess-realism-tree-grounding.py": {
+      "bytes": 3894,
+      "sha256": "0dcccb4a8d6f7705bdf45357e026e3cbf7e1c743766f9e6260ba03c2c29da0d8"
+    },
+    "scripts/reassess-site-known-limits.mjs": {
+      "bytes": 3033,
+      "sha256": "8c387dcd7cf5188a73170e6f0320a4fe7f4d0aed7cbea26aa1c22a0752e08392"
+    },
+    "scripts/reconcile-walk-support.py": {
+      "bytes": 10395,
+      "sha256": "406c196677e455166363794c073f1ab169195d40502cbd4cfd193c8bde715c36"
+    },
+    "scripts/record-provenance.py": {
+      "bytes": 9295,
+      "sha256": "1675e81b8684b911965f1eab1416c6aa55a4e6b373ed2653c7e15158ff43131b"
+    },
+    "scripts/repair_provenance.py": {
+      "bytes": 1370,
+      "sha256": "e0e3acdc11d4f2a01c8be63e0f2500bdd9dc9b81b29ac2bebfb86859b3469f01"
+    },
+    "scripts/road-tyre-face-probe.mjs": {
+      "bytes": 4571,
+      "sha256": "77d0633ea0ac3378986b4a95caf4604ac96d9ea2bf689a7e56af1fe0c92fb3f2"
+    },
+    "scripts/road_grade_contract.py": {
+      "bytes": 5959,
+      "sha256": "72f6ae47360b3b443d3bb9cde3a61a5b3a4401dc9d7daf6d8b23eb1617c08375"
+    },
+    "scripts/run-runtime-check.py": {
+      "bytes": 5042,
+      "sha256": "edda7a32e41ea7596f15f4db9b01fdb63e4fc576c1c0fd859846d8d4821d9971"
+    },
+    "scripts/split-game-delivery.py": {
+      "bytes": 25343,
+      "sha256": "a79b565e381980d720657f29d68eef185869fdb1ef3dd864a72cc7370333d474"
+    },
+    "scripts/sync-actor-heights.mjs": {
+      "bytes": 11429,
+      "sha256": "44debf52469ed4d1d9fd3ba63bafa140459f719d9778b321f801d41c1d78a3ce"
+    },
+    "scripts/sync-grade-revision.py": {
+      "bytes": 9047,
+      "sha256": "e088bce91a24f440f648c395d62ceb5ce3361656a924c0e799281e37440cdb47"
+    },
+    "scripts/test-actor-grounding-integration.py": {
+      "bytes": 2220,
+      "sha256": "21c521925b43562ff9244c4f994c9b584566e479164eb5b9be023258f3a52a46"
+    },
+    "scripts/test-campus-access-integration.py": {
+      "bytes": 15210,
+      "sha256": "c9c8dc655e68808fd9d354ee4887860cfc09b7a70df95346d894db26edb4edbc"
+    },
+    "scripts/test-export-tool-provenance.py": {
+      "bytes": 1935,
+      "sha256": "f23447c084f839d3f253322ace99f5623b3afc4b4310c69f40556def9ac78755"
+    },
+    "scripts/test-exported-inferred-support.py": {
+      "bytes": 2706,
+      "sha256": "5dca24e4263badd682ed24671d30c2799141519703da36ac932fddcf78d239d8"
+    },
+    "scripts/test-garage-exterior-integration.py": {
+      "bytes": 3815,
+      "sha256": "ed81f6f2e54b17bb084917b47efa6e5bc072c57fc0a370bf7fab4d983d699867"
+    },
+    "scripts/test-haeoreum-integration.py": {
+      "bytes": 2414,
+      "sha256": "e953d9d95095bdf6920cd151382c3fffd5ff52579a7abd2a26497c73212a73c5"
+    },
+    "scripts/test-hospital-integration.py": {
+      "bytes": 1888,
+      "sha256": "2eb0983e06faeee61fd841afd9d690d41d26a4be342a7e8a2c956e5383c070ef"
+    },
+    "scripts/test-lower-paving-retirement.py": {
+      "bytes": 3336,
+      "sha256": "c3b8b76ee846847d688206eca48effa661553eb443c848fb4be95331616c207a"
+    },
+    "scripts/test-parking-terraces-integration.py": {
+      "bytes": 2212,
+      "sha256": "28b04db8055aef8b19343bbbedfec05b0ff4bfebb5b9c9572f9be8e7f860e380"
+    },
+    "scripts/test-pond-integration.py": {
+      "bytes": 2071,
+      "sha256": "206e60b13f84165d3d7eb1d5877e727144656f04c79debef29b187d82c1e0c10"
+    },
+    "scripts/test-public-spaces-integration.py": {
+      "bytes": 14149,
+      "sha256": "be34278ebc46ebbc6db3681150c3153d4ff79c2917c3fcbcae9b0cd6bd623ac8"
+    },
+    "scripts/test-repair-provenance.py": {
+      "bytes": 1536,
+      "sha256": "755a5e26e79b43d4e3a614b5f5fd62f3c030522a9703eff3d4b2baee0a495f2b"
+    },
+    "scripts/test-road-grade-contract.py": {
+      "bytes": 6763,
+      "sha256": "475562e44e9dd77c293f9802fbb37c4e3bd1f5c9e13c133563bb0f7f686651eb"
+    },
+    "scripts/test-stop-walkways-integration.py": {
+      "bytes": 4569,
+      "sha256": "e520207bbaae95b5231c223a373bc9f9a088c2da28d2392e2e7592c323db5ea1"
+    },
+    "scripts/test-transit-revision.py": {
+      "bytes": 3719,
+      "sha256": "44c60a030a803947b7c0068444243945945eda36c83ade5462ce5485fb5ce568"
+    },
+    "scripts/test-walk-alignments-integration.py": {
+      "bytes": 12135,
+      "sha256": "2ec4b9c4dae017ebf2ccfaaa79788d28396b6ffa70f947d1250d04906fd208e7"
+    },
+    "scripts/test-walk-height-finite-triangles.py": {
+      "bytes": 1416,
+      "sha256": "76b3bd2cdd4a24b66a5b0a5905ab270b11e108ede3a7d1032e24c1a0661c3093"
+    },
+    "scripts/verify-assets.py": {
+      "bytes": 2449,
+      "sha256": "02134672f0492cd6952b3d2de19240610d8cd10ccc9a2287c51915474e39b40f"
+    },
+    "scripts/verify-lighting-release.py": {
+      "bytes": 26855,
+      "sha256": "2bed66524d1c20c7ab6d4765abacda8ab7cebb46c1c80abd008c9dffa02fe73a"
+    },
+    "scripts/verify-model-inputs.py": {
+      "bytes": 3223,
+      "sha256": "a48169bdf5fa92078f6e99e34d46db7712661050aa4d5db0bb5ed0f8b8ad146e"
+    },
+    "scripts/verify-release.py": {
+      "bytes": 24321,
+      "sha256": "663914aa5dc190059d192cb6402a1a92ac036048dcf13c3b69d6dd700774fc23"
+    },
+    "tests/BASELINE_EVIDENCE.json": {
+      "bytes": 30867,
+      "sha256": "730cc9cd3c38fcdedfaec818f65f16b0b9b9fdc174de074cbd9c32af26369d5f"
+    },
+    "tests/FINAL_VALIDATION.json": {
+      "bytes": 4922,
+      "sha256": "4f4efda24370fcf8e1de7c06bff392d228a05f6730eafa87152d573c8a229a99"
+    },
+    "tests/SITE_FAILURE_RESOLUTION.json": {
+      "bytes": 20351,
+      "sha256": "998bd6c203e639e03901e5cf71da1d22647d2d41a07b2a41369fb2e469b91bac"
+    },
+    "tests/actors.mjs": {
+      "bytes": 1472,
+      "sha256": "2cce600f92d91ff56b072cc953f1d97794465ec380cd0f84485754a5e2e51d8a"
+    },
+    "tests/baseline-evidence/3723ecc4/runtime-closeout.json": {
+      "bytes": 2887,
+      "sha256": "725335368569503ff9ae107f85ef46e9bd6fa91e0560a7a2df5148811c258e5b"
+    },
+    "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "221533f030d303d512a11558a4a06d477fbc6db6d5a5e9fbecc969bae21afc26"
+    },
+    "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-results/walkable-results.json": {
+      "bytes": 16433563,
+      "sha256": "4d3a4e1490978f2db2bad22f64ec55757a4580a9e303d9e55d0667b1cbd289f0"
+    },
+    "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths-wrapper.log": {
+      "bytes": 1059,
+      "sha256": "5bb83852f1d94bcb22bfd262f9a6beea17c0b560e20bd148a04f87b829a1bf41"
+    },
+    "tests/baseline-evidence/3723ecc4/tests/runtime-runs/walkable-paths.json": {
+      "bytes": 10523,
+      "sha256": "c0346dbd15638a1661abc7d4c6e5bd46844107c5103241000d37b0b967ca5c36"
+    },
+    "tests/baseline-evidence/3723ecc4/tests/walkable-summary.json": {
+      "bytes": 2741,
+      "sha256": "aaf3b52b611669545af72dd97242f261f6c64acc15dde110475fd19602e3e3cf"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/final-repair-paths-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "c65c1c131a77e3ef615c1470d3dc839897a056b113713f0bdce5a8e2a3676c97"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/final-repair-paths-results/walkable-focused-results.json": {
+      "bytes": 15694,
+      "sha256": "077e9f617b609c4788840a196297538605200d65aad92d0033a9e1fe252ac146"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/final-repair-paths.json": {
+      "bytes": 16806,
+      "sha256": "32157ebaf392d76af6b211f5e80f3487999135823f2c38d42e074dffa4a37c9d"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/final-repair-paths.log": {
+      "bytes": 22306,
+      "sha256": "63acd02b3f3150108cd754d73c63a191ffa3bcc1856972add81dbeb6fdf574cd"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/actor-results.json": {
+      "bytes": 1808,
+      "sha256": "e455a9890ff22f0a4cbea4a82e1f08f5022451fdc8f3158bec09b046470c132d"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/entrance-access-results.json": {
+      "bytes": 50304,
+      "sha256": "f31da31198ae6b4688f599d0b8332adf10d1b6f07e9df1b8d059e510f8f39b8f"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/functional-final-results.json": {
+      "bytes": 10247,
+      "sha256": "a8091964b762531229534648bd7b4324d0d56256643ef2fc663c11d46f0f85d8"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/lounge-access-results.json": {
+      "bytes": 17993,
+      "sha256": "280ded2406bfa7a7d20f19f5b3516c706cc8526f2dc37bf6c2319f7a38075c22"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/parking-gameplay-results.json": {
+      "bytes": 3548,
+      "sha256": "ade311eefa836013539096c86650e11408c6725f578bcd473006b6243ece9762"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/rooftop-bridge-results.json": {
+      "bytes": 1540,
+      "sha256": "9bd05f9258585fea21c3154b213d14784a7dfe0d6e6787c4b3b69a109047ef3a"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "71ae5f99f09ecddea26ad6cac686fafaf197ae99ab4f696587c0e02e8f151bb8"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final.json": {
+      "bytes": 18065,
+      "sha256": "71de1beb9a43f8614db482bfee19083e3344ff5f2633ec80ed5bc58af53e9a33"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/functional-final.log": {
+      "bytes": 46891,
+      "sha256": "696fec59699f0d2816361fb8d71f422560c604791fd838b8dcbc60b1fbaac1db"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/garage-exterior-route-results/garage-exterior-route-results.json": {
+      "bytes": 29907,
+      "sha256": "7b865664abcd811e3222a83cadeeb49de78f073bf30154ce292e036f8c17c3cc"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/garage-exterior-route-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "e638703dd96951271fc47672f68d99acdd7f0c75a9ca93df51748623a46462bf"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/garage-exterior-route.json": {
+      "bytes": 16914,
+      "sha256": "02db552dc34ddce53b00faf4c08c3199a624b2f14a0f1183b8cccd4cc9dd462e"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/garage-exterior-route.log": {
+      "bytes": 20907,
+      "sha256": "de0e51a1d3cc57f60c3aa9a1d266e1c036c054a2aa70bfe8b76cbc4f32cf9b10"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/parking-turns-results/parking-turns-results.json": {
+      "bytes": 14354,
+      "sha256": "de6028f6885496d4abcdd9a1818159ae63adb3e0cfab79fdd88573f3453ef908"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/parking-turns-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "78f3cd21ae69e804c6e5367b12b7e4a0980c1d4814a3102d8126babccd033ad1"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/parking-turns.json": {
+      "bytes": 16866,
+      "sha256": "c8bcab10ee32071f65e779f12dadc0890ce13ab37fd87e40a60908e815322eb9"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/parking-turns.log": {
+      "bytes": 29517,
+      "sha256": "a641a22daa059e1d51d85710d166d8c07d8b4c5c8cff35ce748e7dae10ae5d2d"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/road-grounding-results/road-grounding-results.json": {
+      "bytes": 106762,
+      "sha256": "591de56af87777fd0ffc507444f20e9a7a6047ffd814de9e0d16374f752775ab"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/road-grounding-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "5ec8bb52f44e2bff67b654d6b466777c2dc49e91070717e43220d267b911f0ef"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/road-grounding.json": {
+      "bytes": 16873,
+      "sha256": "ae2ac7f610d6f3dadbef908c81d259b29ad98e92f077a4795a9ce3e4ea4bbd00"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/road-grounding.log": {
+      "bytes": 43752,
+      "sha256": "522a6b764449d32c55c8e62ec05408296928b35760a30b781f6935d6fe9424fb"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation-results/shuttle-live-results.json": {
+      "bytes": 9681,
+      "sha256": "5b499fce773d43e1ed418bc5eafafde090ff62624d1b949402dc3ce416890d1d"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "cf3ff0acbcb0998aea230e19c43b0ef368733871fab9e833721925a626018464"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation-results/transit-integration-results.json": {
+      "bytes": 628,
+      "sha256": "9822201bd5d98a82db485d4b6ee1faa1ac88bdee8cd7100fb30cc05ba3f498b6"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation.json": {
+      "bytes": 17197,
+      "sha256": "d7d2f115321c97b7e4dba2b705e715c4c69a02d448dcb6b46648aa8738d91128"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/shuttle-terminal-validation.log": {
+      "bytes": 19140,
+      "sha256": "1c2e4d5521ad57765672e73dbd687431c20f0a2efc3fe9ecfed9beb1f5ec8021"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "d1350b45f5ef7e102e51011f63ba8b6aa123b43211825fcc0eb815c6aaaaa576"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions-results/site-additions-results.json": {
+      "bytes": 39227,
+      "sha256": "34a23b594628045af0133746baad93b079bc641a296c9f4adfa0993bea9942ef"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions.json": {
+      "bytes": 16873,
+      "sha256": "a1e3b5e6959f87e39f4fbf50cf6e68685679b5e61ee6509593606020ca614c46"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/site-additions.log": {
+      "bytes": 37717,
+      "sha256": "77255537e0c9207232f010cf34e28ffcc6f897ab3c069f9a0a8fa80841c2bb00"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "061dba2e0ee570dc07ccfeb503f0fdd734cf52dc875b26ca3e7e18c8e69dfa11"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity-results/surface-conformity-results.json": {
+      "bytes": 20594206,
+      "sha256": "0d175b8476fad0cbb6db5c833f8fd7784e321ed7b93ef116052f36600706a070"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity.json": {
+      "bytes": 16811,
+      "sha256": "c0b328378a6c79fd3e4d365d1cb6f0b170a7e2deec2a7a2642b419be6cc7babd"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/surface-conformity.log": {
+      "bytes": 169781,
+      "sha256": "2b40cc946b645b34f847985c8d566b3e0bc796da57dc41778f1dda876878d071"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/vehicle-grounding-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "a55a2a09134ef5204d24fab953728e19c5490b7caa2d834793b232b6ed0f83e7"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/vehicle-grounding-results/vehicle-grounding-results.json": {
+      "bytes": 31488,
+      "sha256": "24998efd542e6ade29531accbd7fa50b82bf41f41f9daa53fac49635a8aaf14f"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/vehicle-grounding.json": {
+      "bytes": 16891,
+      "sha256": "56072ca01dfb37f2efc8325640ea1a68c05a88f0547746b489ac2348af4a24cf"
+    },
+    "tests/baseline-evidence/a1_export2/tests/runtime-runs/vehicle-grounding.log": {
+      "bytes": 40406,
+      "sha256": "790113d90fa7ac6a26d0c7d4c02baa508a6859eff9ffb449594fcc407aff2799"
+    },
+    "tests/blender/reconcile-walk-support-fixture.py": {
+      "bytes": 3661,
+      "sha256": "70c7831e657e3a245bc77a0a12ad3a0ee3fcb500e0790c396f1e79e791d56057"
+    },
+    "tests/blender/reconcile-walk-support-reference.py": {
+      "bytes": 7353,
+      "sha256": "dc5a41fcc176123dd4daa39ea7793dbc90ed1e7ac0c7c05e28e28450f418e9e1"
+    },
+    "tests/bounded-triangle-rays.mjs": {
+      "bytes": 1208,
+      "sha256": "6330a73370f34367726082e58c032b22108176c41556b969c6c9f6163635dcaf"
+    },
+    "tests/bus-suspension-equivalence.mjs": {
+      "bytes": 2447,
+      "sha256": "2ea7721052a0f869a2128fe98b085c951ffb17c5bc3d3021334b946871dbe3bd"
+    },
+    "tests/car-grounding-results.json": {
+      "bytes": 20484,
+      "sha256": "cbfddd516f52df101cc7d64d62fb51f5c79080d91013c741c21b6b7b916a726c"
+    },
+    "tests/car-grounding.mjs": {
+      "bytes": 13014,
+      "sha256": "b84278c097948d5cdf11be196c3ca59ed967aada76a9740f77f40f1cbcf28ea2"
+    },
+    "tests/car-wheel-assembly-results.json": {
+      "bytes": 272,
+      "sha256": "2a4a8574c67bcd0afa12b467a169fca166da7342d1119b98fc3f0b75c2e790fe"
+    },
+    "tests/car-wheel-assembly.mjs": {
+      "bytes": 2949,
+      "sha256": "e273b3419bd14c0e00f1631812881ceee8cf2779ac7c5ee4ae8e7c2abad61b88"
+    },
+    "tests/closeout-evidence/421_tyre_contacts_measured.json": {
+      "bytes": 41158,
+      "sha256": "48bb4abd82ad73b3d36a62c4639d8ad55a25396ef45f74c12733a227157d38e6"
+    },
+    "tests/closeout-evidence/a65_first_site_run/sha256.json": {
+      "bytes": 377,
+      "sha256": "0aa1fe9654836bf8f2f0eba4eda5e429414b9cfcee70d1e274d9ef809a6dd56f"
+    },
+    "tests/closeout-evidence/a65_first_site_run/site-closeout-results.json": {
+      "bytes": 74389,
+      "sha256": "e7581296819da42a1c7fce3e500aeb026e87049156262e7bd94ab49fdc69ee23"
+    },
+    "tests/closeout-evidence/a65_first_site_run/site-closeout.json": {
+      "bytes": 26656,
+      "sha256": "94158da74a8bca46a0dff3fe4360bd20276b4891a8733a7f192717ff2ac0ca14"
+    },
+    "tests/closeout-evidence/a65_first_site_run/site-closeout.log": {
+      "bytes": 34992,
+      "sha256": "eb38d64c6e9f1f763111ed53098bdac58d7e626088bf086348b3ffe03e9785dd"
+    },
+    "tests/closeout-evidence/a65_first_site_run/site-closeout.mjs": {
+      "bytes": 14339,
+      "sha256": "54a4577d78c904c6db466126896a44c6e1f3fa36d68c9a16b60fab72ecd5133a"
+    },
+    "tests/closeout-evidence/degenerate_volume_probe_fix/chosun_game_final_a1a2070f_export2_verified_before.mjs": {
+      "bytes": 4046,
+      "sha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97"
+    },
+    "tests/closeout-evidence/degenerate_volume_probe_fix/game_before.mjs": {
+      "bytes": 4046,
+      "sha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97"
+    },
+    "tests/closeout-evidence/degenerate_volume_probe_fix/source_delta.json": {
+      "bytes": 676,
+      "sha256": "fd87ddc95dd5c57dacb4b8eb8584ebedd9364eeaf4183e29a440af87e95f78ac"
+    },
+    "tests/closeout-evidence/known-limit-adjustment/change.json": {
+      "bytes": 1107,
+      "sha256": "8ee3113dc2bdfb7f0e8492758ad8b6fbcb6bd805af3d7cda1bca3ba07912e389"
+    },
+    "tests/closeout-evidence/known-limit-adjustment/known-limits-before.json": {
+      "bytes": 9582,
+      "sha256": "5e9f40f202992ff9f2982bebe8bb466ad7d7451a6d51052133f2e657fd0f800c"
+    },
+    "tests/closeout-evidence/known-limit-adjustment/unit-before.json": {
+      "bytes": 3350,
+      "sha256": "e35a6984f16cfd02b171f1ac76fc3563752f9ae28a80e6d0391369d0f91d6476"
+    },
+    "tests/closeout-evidence/parking_clearance_pose_correction/parking-clearance_before.mjs": {
+      "bytes": 10291,
+      "sha256": "6bc5e526e16eb1b4e40f339aab6003d2c2b123ca2b392bc85227b4d60dd133e7"
+    },
+    "tests/closeout-evidence/parking_clearance_pose_correction/source_delta.json": {
+      "bytes": 321,
+      "sha256": "d2565298c5f3990415fa36115976c2977a43749cd2e99b9161bb4736e9f4734a"
+    },
+    "tests/closeout-evidence/precise_vehicle_gate_fix/chosun_game_final_a1a2070f_export2_verified_game_before.js": {
+      "bytes": 46145,
+      "sha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2"
+    },
+    "tests/closeout-evidence/precise_vehicle_gate_fix/game_game_before.js": {
+      "bytes": 46145,
+      "sha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2"
+    },
+    "tests/closeout-evidence/precise_vehicle_gate_fix/source_delta.json": {
+      "bytes": 791,
+      "sha256": "c82c5d2423836eeef66898ecaf4358f15d13cad22b0d02885a3d5be929c75047"
+    },
+    "tests/closeout-evidence/rose_endpoint_candidate_results.json": {
+      "bytes": 16602,
+      "sha256": "8dac15e9ebfa780e7935fffe1cf6beff3f4a87a0028caa6d3fffde84e48b78cd"
+    },
+    "tests/closeout-evidence/school_height_query_fix/chosun_game_final_a1a2070f_export2_verified_before.mjs": {
+      "bytes": 11365,
+      "sha256": "133124b987084aa4be0f208c4c72e3c55e9716348ccefec363c8649ec87e858b"
+    },
+    "tests/closeout-evidence/school_height_query_fix/game_before.mjs": {
+      "bytes": 11365,
+      "sha256": "133124b987084aa4be0f208c4c72e3c55e9716348ccefec363c8649ec87e858b"
+    },
+    "tests/closeout-evidence/school_height_query_fix/source_delta.json": {
+      "bytes": 786,
+      "sha256": "ec03338ef15a1b2198a7235cbb7fef7a10e6d5357be9b2f486852f86e530e9a1"
+    },
+    "tests/closeout-evidence/site_failures_export2_after_guard.json": {
+      "bytes": 248956,
+      "sha256": "eab67631c112f1915703833d2f30b69a048d2660e1294c5f93384bf714563383"
+    },
+    "tests/closeout-evidence/site_failures_export2_diagnostic.json": {
+      "bytes": 196918,
+      "sha256": "f289cab80267c2f8a079b554d2a81fadbc6e1f9f804951130a081d2aa48a94e2"
+    },
+    "tests/closeout-evidence/site_tyre_contacts_classification.json": {
+      "bytes": 5122,
+      "sha256": "3b0adb5adf8c36ceb21fabac4c83ef5019965c5251fd77eb5ca60d28f3816549"
+    },
+    "tests/closeout-evidence/tree-root-classification/final_a65c2ae1_tree_root_classification.json": {
+      "bytes": 116709,
+      "sha256": "7664a8aa009e7dbbb30ad979aced4524c578a8b4a9b27cc6e70e517831b25a8b"
+    },
+    "tests/closeout-evidence/tyre-footprint/candidate-results.json": {
+      "bytes": 18058,
+      "sha256": "0d5d56e7ace9db23c64c1fa55de461ed65d981045e769be0e7a0510b715e0e86"
+    },
+    "tests/closeout-evidence/tyre-footprint/source-change.json": {
+      "bytes": 1486,
+      "sha256": "fe4af95bed0dcfab69d4cf1273275db5f089a798a5aa8d241b93a3f54600089f"
+    },
+    "tests/entrance-access.mjs": {
+      "bytes": 4176,
+      "sha256": "7d27d12f8fb09cfd526e72335d165ef846781b7679dc89821c58e6431a21c059"
+    },
+    "tests/export-contract-results.json": {
+      "bytes": 1860,
+      "sha256": "e91a5975fc21c7de840678aa64a9d0a60d14c33af2283e3258db0c53cc8fb3ef"
+    },
+    "tests/export-contract.mjs": {
+      "bytes": 1708,
+      "sha256": "2a2ca87699142e64c015921bcd790e6ef3bf0b0e4e3458a4812b1f25d3bad9b3"
+    },
+    "tests/final-repair-paths.mjs": {
+      "bytes": 1403,
+      "sha256": "52dd5f5477d854646c0b470a21f6195e9fc9bd07197af81e5468c53a2a69764f"
+    },
+    "tests/finite-triangle-rays.mjs": {
+      "bytes": 1563,
+      "sha256": "3807434d015b2eba1297da42f9300149938a9155cdefe973c155324a09c3de39"
+    },
+    "tests/fixtures/final-export2-surface-20.json": {
+      "bytes": 8064,
+      "sha256": "e3d0e096da7ff17f77bd6ab669d2db76907a394e13000c3e6f1b88949cb7fe2c"
+    },
+    "tests/fixtures/walking-edge-1125125519.json": {
+      "bytes": 4558,
+      "sha256": "11823c0860d75ca51c187c8e4fde51be4ca6cdd53cd96240104c301abac2171d"
+    },
+    "tests/functional-final.mjs": {
+      "bytes": 2399,
+      "sha256": "84840d935ab58c845ded3272d8ac995d9d80d26dbd710f9d4b2473d0f3bca26a"
+    },
+    "tests/garage-exterior-route-results.json": {
+      "bytes": 31017,
+      "sha256": "34082f54c896681a0476218da26be5cc298645a7a7008f4bc9332c1fc642a200"
+    },
+    "tests/garage-exterior-route.mjs": {
+      "bytes": 8137,
+      "sha256": "a130baa6d938bc0d001c7ba586a4c2e9e9b9445aad0c675c161f3358bc83a379"
+    },
+    "tests/gate-sidecar-clearance.mjs": {
+      "bytes": 1738,
+      "sha256": "20c7900a6fc69e0b3dd71a6c9903d2bef3c53e6d4c1ac17bde52682c4c549c55"
+    },
+    "tests/helpers/bounded-triangle-rays.mjs": {
+      "bytes": 1713,
+      "sha256": "17ed33052e2363c13b0e589e9d4648a8611438ebf456b143194efa8e481dfb97"
+    },
+    "tests/helpers/capture-model.mjs": {
+      "bytes": 948,
+      "sha256": "f898e052c8d7617a937fc4d19092cb52c08473c4cd4ea3abcb76a688f6bd33f0"
+    },
+    "tests/helpers/known-tyre-limits.mjs": {
+      "bytes": 2352,
+      "sha256": "b99c7ee20df94a7ddfea6a6cab0d40c8193cb7fb335493765c42909303af7f2b"
+    },
+    "tests/helpers/parking-volume.mjs": {
+      "bytes": 6122,
+      "sha256": "df29770e2c84d92a1e0d172df963d002fc7b0e8713b3d6351c4214ed7d52b705"
+    },
+    "tests/helpers/revision-hashes.mjs": {
+      "bytes": 1161,
+      "sha256": "0345f7ff3e348aa5de4ff1d1e0d69b38efa3dcd4eebd7aa05b027b1e74f9a6bc"
+    },
+    "tests/helpers/terrace-routes.mjs": {
+      "bytes": 2651,
+      "sha256": "3dc6d8874c73407f1cd51944af3a2e419289c1dbda78b0c0a8cbaa2b30c6352a"
+    },
+    "tests/helpers/visible-floor-index.mjs": {
+      "bytes": 3204,
+      "sha256": "eea0a29f7dddc81e02171d9f98b4505b99352361db80ddaf741e1a459f40b19b"
+    },
+    "tests/helpers/walk-surface-index.mjs": {
+      "bytes": 1263,
+      "sha256": "ccd2a54d43cb5fde86492ec1196761e9b37229aadc388a0629929e2d68ff53a6"
+    },
+    "tests/known-tyre-limits.mjs": {
+      "bytes": 2214,
+      "sha256": "eed654abdc1a0f7a6436fa373be6fcd84563d16b37331a73d12bcf7690249e8b"
+    },
+    "tests/lounge-access.mjs": {
+      "bytes": 5475,
+      "sha256": "1bcd0ba526b8c53df6677e898af3e50a68f697150352af2025b4afe278de59cf"
+    },
+    "tests/model-compression.mjs": {
+      "bytes": 5088,
+      "sha256": "574da968a77cf569ca1623b54ed6a56e5942e9f7844d2a82559d08a158e8a29e"
+    },
+    "tests/model-integration-plan.mjs": {
+      "bytes": 3736,
+      "sha256": "27fa17e6c99afebc9169c1a83eabe47d119a063b0b1b181c0be11464248b45b7"
+    },
+    "tests/packaging.mjs": {
+      "bytes": 3357,
+      "sha256": "96b747e82108d40942715c920e268198ec02314170462c3feca4199fcfb6bad3"
+    },
+    "tests/parking-clearance-results.json": {
+      "bytes": 7411808,
+      "sha256": "9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a"
+    },
+    "tests/parking-clearance.mjs": {
+      "bytes": 10639,
+      "sha256": "cd82c015fd82d132fbc9855e4837bab1bc63f532a46cccf32586425369a440cf"
+    },
+    "tests/parking-gameplay.mjs": {
+      "bytes": 4256,
+      "sha256": "6ed08c06afe2c5bcd4273f28c7b5c5b9b82c50acba06f5612a890ee9107139bd"
+    },
+    "tests/parking-support.mjs": {
+      "bytes": 3812,
+      "sha256": "6be60cfab0cea6d3aaac28c22b3bfa0f93a13c9fc81f5231e2d6e40cfe52529d"
+    },
+    "tests/parking-turns-results.json": {
+      "bytes": 15458,
+      "sha256": "ad6d905ccd5ea310615297f4ed417840e6bf526137df2a5bab06d28863808c94"
+    },
+    "tests/parking-turns.mjs": {
+      "bytes": 5549,
+      "sha256": "c9075419fc57054be7b4fa23ec3818b211063ce3813be0d609c7292a020497ac"
+    },
+    "tests/parking-volume.mjs": {
+      "bytes": 3438,
+      "sha256": "1a9521c00024eec9d1799730aba5c33d21ab7190489a8e7b7f89238b805ee1f4"
+    },
+    "tests/polygon-colliders.mjs": {
+      "bytes": 1637,
+      "sha256": "00d46b6849c183bba16d160b20b807ccbc128c9702695d365e4d1bbe43dd659c"
+    },
+    "tests/realism-acceptance-results.json": {
+      "bytes": 40849,
+      "sha256": "e24016166ad5bcfdb290c2efd25aec4db25e64ad3fdef583f1fa90d52ce9dcad"
+    },
+    "tests/realism-results.json": {
+      "bytes": 69568,
+      "sha256": "ffb3eca54878aec187cf10716867432a710101a9a8cf82a1bee6db8ad0875bcf"
+    },
+    "tests/realism.mjs": {
+      "bytes": 11020,
+      "sha256": "88b90a0b99914cd9e979b0cdc8f3037b36d5d431e0796250bd6a5498aad3497f"
+    },
+    "tests/revision-colliders.mjs": {
+      "bytes": 6751,
+      "sha256": "6ed356528d4d11017473f6dcd525507e17062fb3d564d7ec65e35433ed5d5ce0"
+    },
+    "tests/road-grounding-results.json": {
+      "bytes": 104974,
+      "sha256": "b1c209b8cae45cc12f1909f015799bb794bdf64f7051c8758c8c9c7c855dbcdb"
+    },
+    "tests/road-grounding.mjs": {
+      "bytes": 10794,
+      "sha256": "e5109af85527afe27e61c3af207265583dbb01ad4ff11d719119c4c9d150687f"
+    },
+    "tests/rooftop-bridge.mjs": {
+      "bytes": 4145,
+      "sha256": "ea15bec9e290148ea8af311178234680de18ec1e7f80115aa8794f0400d02057"
+    },
+    "tests/runtime-runs/benchmark-car-grounding-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "fe0fb5fb9931a76dd3a790e69babfd94a1352b941cc3a7537c9e98faa70ca694"
+    },
+    "tests/runtime-runs/benchmark-car-grounding-results/tyre-frame-performance-results.json": {
+      "bytes": 6228,
+      "sha256": "b840d1a6d6bb56268decb8412014cfe7094c35df03481118c8d6ae78f993841b"
+    },
+    "tests/runtime-runs/benchmark-car-grounding.json": {
+      "bytes": 27816,
+      "sha256": "ba604f405c5279f3c8d8d0fa6ce25f70e015e338b4e13ae0e2b81ef1ecc44ff4"
+    },
+    "tests/runtime-runs/benchmark-car-grounding.log": {
+      "bytes": 22520,
+      "sha256": "c2f3bf0b2b85beae0ea3d2458798980000218fd7218dc1f8cabf4c1f8345d3dc"
+    },
+    "tests/runtime-runs/car-grounding-results/car-grounding-results.json": {
+      "bytes": 20484,
+      "sha256": "cbfddd516f52df101cc7d64d62fb51f5c79080d91013c741c21b6b7b916a726c"
+    },
+    "tests/runtime-runs/car-grounding-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "0a07cf6576a7425cfde034dfdc822fdd798a3f35ea5c89999dc02c674a6982a3"
+    },
+    "tests/runtime-runs/car-grounding.json": {
+      "bytes": 27537,
+      "sha256": "48e8e6224f7d18246b3b1d144af69ef8b0c03eca23dfb895380063347763ab47"
+    },
+    "tests/runtime-runs/car-grounding.log": {
+      "bytes": 30810,
+      "sha256": "7eed4104705ba443dad681c9a6ca3cd91c47a24f489e59220f72658d54c39067"
+    },
+    "tests/runtime-runs/export-contract-results/export-contract-results.json": {
+      "bytes": 1860,
+      "sha256": "e91a5975fc21c7de840678aa64a9d0a60d14c33af2283e3258db0c53cc8fb3ef"
+    },
+    "tests/runtime-runs/export-contract.json": {
+      "bytes": 27299,
+      "sha256": "59737271081d4b4d40f4d4b842d561f3adfa47be1b2b3bf5d127497c9c6716a9"
+    },
+    "tests/runtime-runs/export-contract.log": {
+      "bytes": 1318,
+      "sha256": "1f85b8c0c3499a0cb32ac7f3e928078cdce3cdb4699f4699b5a1a7a3ba54c734"
+    },
+    "tests/runtime-runs/garage-exterior-route-results/garage-exterior-route-results.json": {
+      "bytes": 31017,
+      "sha256": "34082f54c896681a0476218da26be5cc298645a7a7008f4bc9332c1fc642a200"
+    },
+    "tests/runtime-runs/garage-exterior-route-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "a8f99ec935a8e6bf9b56e6446e82b41f9d089a030c69dce5aa5fd20cff2dae4c"
+    },
+    "tests/runtime-runs/garage-exterior-route.json": {
+      "bytes": 27585,
+      "sha256": "9c22f6e6c825564e136ab73fd24cfc9ccc83d4debd9e83417bd70a8571b22f8b"
+    },
+    "tests/runtime-runs/garage-exterior-route.log": {
+      "bytes": 20913,
+      "sha256": "55c563f0b4ca4cc0a65fec1112449fa44a25550bb96c8905769073e5958c4b21"
+    },
+    "tests/runtime-runs/parking-clearance-results/parking-clearance-results.json": {
+      "bytes": 7411808,
+      "sha256": "9b19a339f980fe54db3a0592262894cfe05b179b54e7ba3198e62eeb9652b59a"
+    },
+    "tests/runtime-runs/parking-clearance-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "d8c6dc9afac162dd064134a0a6761175f6bbd6008938cc4016b0b91f08349ca8"
+    },
+    "tests/runtime-runs/parking-clearance.json": {
+      "bytes": 27562,
+      "sha256": "c26b0288b0196eda375405faca86e4ae76b22ddf2cd0fdedc7497c19bdcc684d"
+    },
+    "tests/runtime-runs/parking-clearance.log": {
+      "bytes": 19884,
+      "sha256": "ab89db7530aac9071c717a2f77da12fd11b7fe584863b49d415360b777b0353e"
+    },
+    "tests/runtime-runs/parking-turns-results/parking-turns-results.json": {
+      "bytes": 15458,
+      "sha256": "ad6d905ccd5ea310615297f4ed417840e6bf526137df2a5bab06d28863808c94"
+    },
+    "tests/runtime-runs/parking-turns-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "4db6605ab2e2fa0ba3def3f16d95d9f51f5837925e63dfdaf5008a2eb41f3c71"
+    },
+    "tests/runtime-runs/parking-turns.json": {
+      "bytes": 27537,
+      "sha256": "249b1a6612bd2871760477fd220d6c39385d4616f390a16731012564d7c71911"
+    },
+    "tests/runtime-runs/parking-turns.log": {
+      "bytes": 30561,
+      "sha256": "2097223dbe571da545bb13675fa0ed82d1bcdf7b2c6f05c940f43490bcefaf07"
+    },
+    "tests/runtime-runs/realism-results/realism-results.json": {
+      "bytes": 69568,
+      "sha256": "ffb3eca54878aec187cf10716867432a710101a9a8cf82a1bee6db8ad0875bcf"
+    },
+    "tests/runtime-runs/realism-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "12dde945913499b466965030d702685deb5089a2d2702ebb5fe97cfb6ecce5c6"
+    },
+    "tests/runtime-runs/realism.json": {
+      "bytes": 27501,
+      "sha256": "faed9adc0af88db8b85e7c91829d0b8d86447798b0058cd1a354817697d162a0"
+    },
+    "tests/runtime-runs/realism.log": {
+      "bytes": 71226,
+      "sha256": "86ca993d36e58b146adaa3f59a52b2d9d5f3c3969bf051786e6d3ad8c6c2a643"
+    },
+    "tests/runtime-runs/road-grounding-results/road-grounding-results.json": {
+      "bytes": 104974,
+      "sha256": "b1c209b8cae45cc12f1909f015799bb794bdf64f7051c8758c8c9c7c855dbcdb"
+    },
+    "tests/runtime-runs/road-grounding-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "775750b9f0a6b62cc6884f6f99571a469076d2c01b06c8a46269fca1bfe4c49f"
+    },
+    "tests/runtime-runs/road-grounding.json": {
+      "bytes": 27544,
+      "sha256": "7232f68f0c515a14348400a6b6ac08bd8b6addeb4e85f017b9d941be850790a7"
+    },
+    "tests/runtime-runs/road-grounding.log": {
+      "bytes": 44796,
+      "sha256": "38acd1f09bb9b5aa9b2d4c353f8255933ce916dd9355c270793b500402077222"
+    },
+    "tests/runtime-runs/site-closeout-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "3f0353af7ebea3fa4f02175f55b85b9ad601fab46c0f2f8d53896a124fe7a6ae"
+    },
+    "tests/runtime-runs/site-closeout-results/site-closeout-results.json": {
+      "bytes": 101993,
+      "sha256": "f219b0cf019c92f03a98ceefeddb3c495e608455c1f725752443a6f7962cbe43"
+    },
+    "tests/runtime-runs/site-closeout.json": {
+      "bytes": 27538,
+      "sha256": "92a4732bfe0a3226816478ef9201fb46928f856fdeebd8a6360100d081875b3b"
+    },
+    "tests/runtime-runs/site-closeout.log": {
+      "bytes": 59359,
+      "sha256": "fe92e830c40ca7c81e2a3ceff32752b4ce5b949ff1303fccb15d18ef9a9256b8"
+    },
+    "tests/runtime-runs/tyre-cache-runtime-results/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "f25d7e31fb3f553690d071f58f974c61ee37c762c19bf24e40529b72eae6ee66"
+    },
+    "tests/runtime-runs/tyre-cache-runtime-results/tyre-cache-runtime-results.json": {
+      "bytes": 10643,
+      "sha256": "b65ba52fc85f21ae64f6dc36033f38a9913ee4e08060639b87cf47faccbfac8c"
+    },
+    "tests/runtime-runs/tyre-cache-runtime.json": {
+      "bytes": 27567,
+      "sha256": "3398d70306438edc310015325d2f6fc05c019462ab07eadf99db567051de6e66"
+    },
+    "tests/runtime-runs/tyre-cache-runtime.log": {
+      "bytes": 18150,
+      "sha256": "ee3bd543b09269cb5d5304c97777caa6851e23e5adfa9008d4bdb12e31893796"
+    },
+    "tests/segment-guards.mjs": {
+      "bytes": 1320,
+      "sha256": "91010dd51c49bbbcda31ed886284bf6e7989cf94adf0fcbb3448e34af27a9dbf"
+    },
+    "tests/shuttle-live.mjs": {
+      "bytes": 2346,
+      "sha256": "61db14bd226ec43c55b89b7da0fcf58a458cc96e5674de03c38a46cd2b87a1b2"
+    },
+    "tests/shuttle-terminal-validation.mjs": {
+      "bytes": 156,
+      "sha256": "990faaff92cedc5fa26f68aceb9c865028687f85c01984078c2442ed7c5d6a9d"
+    },
+    "tests/shuttle.mjs": {
+      "bytes": 3583,
+      "sha256": "927055202b5143e416671632f7e30a0621f79ea5ec9dfe3056b594f09b66e5b2"
+    },
+    "tests/simulate.mjs": {
+      "bytes": 8026,
+      "sha256": "7dc21c7759f65c349e8abe874832ff8f1137e0b23377b4e0c302bd4ddd76d4c2"
+    },
+    "tests/simulation-results.json": {
+      "bytes": 17746,
+      "sha256": "fe0fb5fb9931a76dd3a790e69babfd94a1352b941cc3a7537c9e98faa70ca694"
+    },
+    "tests/site-additions.mjs": {
+      "bytes": 19192,
+      "sha256": "3cdb69699574b3f1f05cf0cbf81ff764047271677d4bc0bd5901bb6e6df196cd"
+    },
+    "tests/site-closeout-acceptance-results.json": {
+      "bytes": 61980,
+      "sha256": "e76ec1d24051835c2e525b9fef4d742ee3200fa05d5b49d927764a80786b0a8d"
+    },
+    "tests/site-closeout-results.json": {
+      "bytes": 101993,
+      "sha256": "f219b0cf019c92f03a98ceefeddb3c495e608455c1f725752443a6f7962cbe43"
+    },
+    "tests/site-closeout.mjs": {
+      "bytes": 14736,
+      "sha256": "a96900207883d55e6686fe464388a304f983f12fdf9e1a4f73a23ab440d39049"
+    },
+    "tests/site-suspension-diagnostic-results.json": {
+      "bytes": 139946,
+      "sha256": "78d508aad6d7e4962babfdbcb10e54e9f6cbabf2ee2b8e19ebbf3d69f906d616"
+    },
+    "tests/site-suspension-diagnostic.mjs": {
+      "bytes": 16832,
+      "sha256": "9023958b706bc1af86fd9f7d3b62c801cbd58b61d6554ae6b05295109fcffd15"
+    },
+    "tests/source-history/a1_export2/dist/game.js": {
+      "bytes": 46145,
+      "sha256": "5289fd265d2cae81318773be300235471c3efc825a0c3b866a829b62c484cda2"
+    },
+    "tests/source-history/a1_export2/dist/parking-config.js": {
+      "bytes": 120784,
+      "sha256": "b4ce07bcc3cbda4d066017ba0143fa940281eed212eca981dcb840c913dc236b"
+    },
+    "tests/source-history/a1_export2/dist/parking-system.js": {
+      "bytes": 5420,
+      "sha256": "83fbb746b423f4c0d6f31edb498250da688fb174da13e9939c560bde345da22f"
+    },
+    "tests/source-history/a1_export2/dist/polygon-colliders.js": {
+      "bytes": 2724,
+      "sha256": "b4f465441d8c84f2401537e8c113dc1458531d1a7976b66fa9593988b6ea11df"
+    },
+    "tests/source-history/a1_export2/dist/revision-colliders.js": {
+      "bytes": 7840,
+      "sha256": "b389a783fc3c1cafd17afbb4e53bd50400317888d14f7a1f1044e77fab7a206c"
+    },
+    "tests/source-history/a1_export2/dist/shuttle-system.js": {
+      "bytes": 7519,
+      "sha256": "7020193a19254f5ab936c2dab3f4c873616c9619401edee60644ab305c51ada1"
+    },
+    "tests/source-history/a1_export2/dist/transit-config.js": {
+      "bytes": 91011,
+      "sha256": "93fb252ba61b5bd3b820bd151dc0936631e889705c4049f691b82d5c672d2a26"
+    },
+    "tests/source-history/a1_export2/dist/vehicle-steering.js": {
+      "bytes": 1097,
+      "sha256": "e17dcb938d4554dce63f925170461493719526604af04454a2ff6c0d956d5c37"
+    },
+    "tests/source-history/a1_export2/dist/vehicle-surfaces.js": {
+      "bytes": 2784,
+      "sha256": "7be4d3e070a022a482b2071ca309ec6af6740e219ed488f7af307561752377a8"
+    },
+    "tests/source-history/a1_export2/dist/vendor/addons/loaders/GLTFLoader.js": {
+      "bytes": 114739,
+      "sha256": "67ac5551fdafa6e349bd80c8f8e5e39c136d6b2fb1ad647db9abb21dc86f9e4a"
+    },
+    "tests/source-history/a1_export2/dist/vendor/addons/math/Capsule.js": {
+      "bytes": 3543,
+      "sha256": "be54c3c58483a7f6b0184dbc6ffdcea58ac13515a7d9fd19ed675b9edfc5f319"
+    },
+    "tests/source-history/a1_export2/dist/vendor/addons/math/Octree.js": {
+      "bytes": 14863,
+      "sha256": "45f521111ec5b2110c475c6bd7cc6109aa5a283f42730c78603f3f665c8172e9"
+    },
+    "tests/source-history/a1_export2/dist/vendor/addons/meshopt_decoder.module.js": {
+      "bytes": 24848,
+      "sha256": "784315b6959c85459eab77f51776158cc381d7e7d77b919ff7c4935f088a7c5c"
+    },
+    "tests/source-history/a1_export2/dist/vendor/addons/utils/BufferGeometryUtils.js": {
+      "bytes": 35539,
+      "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+    },
+    "tests/source-history/a1_export2/dist/vendor/three.core.js": {
+      "bytes": 1403455,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    },
+    "tests/source-history/a1_export2/dist/vendor/three.module.js": {
+      "bytes": 603113,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    "tests/source-history/a1_export2/dist/walking-floor.js": {
+      "bytes": 1667,
+      "sha256": "40752e6bc6eb3536c27e859f6873d04eb1806204de26d57dcd8736ac403135bc"
+    },
+    "tests/source-history/a1_export2/dist/water-constraints.js": {
+      "bytes": 1212,
+      "sha256": "771c16844f86a63b30f20cd574bbc3523bba0940ad4d7bca9ef51a13eb37b0b5"
+    },
+    "tests/source-history/a1_export2/dist/wheel-suspension.js": {
+      "bytes": 3902,
+      "sha256": "cd2d2a7c8d4284d0a5d79e588bd60f95273635f5281a385ee6c5debcd00312c9"
+    },
+    "tests/source-history/a1_export2/dist/world-config.js": {
+      "bytes": 13167262,
+      "sha256": "97e4007cdad9cb41d6739e1b2399718c404cf2df12f6470d4b278ebabea9a1b1"
+    },
+    "tests/source-history/a1_export2/tests/actors.mjs": {
+      "bytes": 1472,
+      "sha256": "2cce600f92d91ff56b072cc953f1d97794465ec380cd0f84485754a5e2e51d8a"
+    },
+    "tests/source-history/a1_export2/tests/bounded-triangle-rays.mjs": {
+      "bytes": 1208,
+      "sha256": "6330a73370f34367726082e58c032b22108176c41556b969c6c9f6163635dcaf"
+    },
+    "tests/source-history/a1_export2/tests/car-wheel-assembly.mjs": {
+      "bytes": 2782,
+      "sha256": "a579ec7b70b6b9a9d61ae0ce29c4d3e52d433bc11139f7dfa7ae352a26f39cf5"
+    },
+    "tests/source-history/a1_export2/tests/entrance-access.mjs": {
+      "bytes": 4176,
+      "sha256": "7d27d12f8fb09cfd526e72335d165ef846781b7679dc89821c58e6431a21c059"
+    },
+    "tests/source-history/a1_export2/tests/export-contract.mjs": {
+      "bytes": 1708,
+      "sha256": "2a2ca87699142e64c015921bcd790e6ef3bf0b0e4e3458a4812b1f25d3bad9b3"
+    },
+    "tests/source-history/a1_export2/tests/final-repair-paths.mjs": {
+      "bytes": 1403,
+      "sha256": "52dd5f5477d854646c0b470a21f6195e9fc9bd07197af81e5468c53a2a69764f"
+    },
+    "tests/source-history/a1_export2/tests/finite-triangle-rays.mjs": {
+      "bytes": 1563,
+      "sha256": "3807434d015b2eba1297da42f9300149938a9155cdefe973c155324a09c3de39"
+    },
+    "tests/source-history/a1_export2/tests/functional-final.mjs": {
+      "bytes": 2399,
+      "sha256": "84840d935ab58c845ded3272d8ac995d9d80d26dbd710f9d4b2473d0f3bca26a"
+    },
+    "tests/source-history/a1_export2/tests/garage-exterior-route.mjs": {
+      "bytes": 8137,
+      "sha256": "a130baa6d938bc0d001c7ba586a4c2e9e9b9445aad0c675c161f3358bc83a379"
+    },
+    "tests/source-history/a1_export2/tests/gate-sidecar-clearance.mjs": {
+      "bytes": 1738,
+      "sha256": "20c7900a6fc69e0b3dd71a6c9903d2bef3c53e6d4c1ac17bde52682c4c549c55"
+    },
+    "tests/source-history/a1_export2/tests/helpers/bounded-triangle-rays.mjs": {
+      "bytes": 1713,
+      "sha256": "17ed33052e2363c13b0e589e9d4648a8611438ebf456b143194efa8e481dfb97"
+    },
+    "tests/source-history/a1_export2/tests/helpers/capture-model.mjs": {
+      "bytes": 948,
+      "sha256": "f898e052c8d7617a937fc4d19092cb52c08473c4cd4ea3abcb76a688f6bd33f0"
+    },
+    "tests/source-history/a1_export2/tests/helpers/parking-volume.mjs": {
+      "bytes": 4046,
+      "sha256": "426993d09f12f64aa3483b1c3a904da522e53e602dcd91083f8f25ad8104cd97"
+    },
+    "tests/source-history/a1_export2/tests/helpers/revision-hashes.mjs": {
+      "bytes": 1161,
+      "sha256": "0345f7ff3e348aa5de4ff1d1e0d69b38efa3dcd4eebd7aa05b027b1e74f9a6bc"
+    },
+    "tests/source-history/a1_export2/tests/helpers/terrace-routes.mjs": {
+      "bytes": 2651,
+      "sha256": "3dc6d8874c73407f1cd51944af3a2e419289c1dbda78b0c0a8cbaa2b30c6352a"
+    },
+    "tests/source-history/a1_export2/tests/helpers/visible-floor-index.mjs": {
+      "bytes": 3204,
+      "sha256": "eea0a29f7dddc81e02171d9f98b4505b99352361db80ddaf741e1a459f40b19b"
+    },
+    "tests/source-history/a1_export2/tests/helpers/walk-surface-index.mjs": {
+      "bytes": 1263,
+      "sha256": "ccd2a54d43cb5fde86492ec1196761e9b37229aadc388a0629929e2d68ff53a6"
+    },
+    "tests/source-history/a1_export2/tests/lounge-access.mjs": {
+      "bytes": 5475,
+      "sha256": "1bcd0ba526b8c53df6677e898af3e50a68f697150352af2025b4afe278de59cf"
+    },
+    "tests/source-history/a1_export2/tests/model-compression.mjs": {
+      "bytes": 5088,
+      "sha256": "574da968a77cf569ca1623b54ed6a56e5942e9f7844d2a82559d08a158e8a29e"
+    },
+    "tests/source-history/a1_export2/tests/model-integration-plan.mjs": {
+      "bytes": 2674,
+      "sha256": "19d23855d6f1f4135249bed8f017c52f968ae28de974db58a4b776c4f858658a"
+    },
+    "tests/source-history/a1_export2/tests/packaging.mjs": {
+      "bytes": 3357,
+      "sha256": "96b747e82108d40942715c920e268198ec02314170462c3feca4199fcfb6bad3"
+    },
+    "tests/source-history/a1_export2/tests/parking-clearance.mjs": {
+      "bytes": 10291,
+      "sha256": "6bc5e526e16eb1b4e40f339aab6003d2c2b123ca2b392bc85227b4d60dd133e7"
+    },
+    "tests/source-history/a1_export2/tests/parking-gameplay.mjs": {
+      "bytes": 4256,
+      "sha256": "6ed08c06afe2c5bcd4273f28c7b5c5b9b82c50acba06f5612a890ee9107139bd"
+    },
+    "tests/source-history/a1_export2/tests/parking-support.mjs": {
+      "bytes": 3812,
+      "sha256": "6be60cfab0cea6d3aaac28c22b3bfa0f93a13c9fc81f5231e2d6e40cfe52529d"
+    },
+    "tests/source-history/a1_export2/tests/parking-turns.mjs": {
+      "bytes": 5549,
+      "sha256": "c9075419fc57054be7b4fa23ec3818b211063ce3813be0d609c7292a020497ac"
+    },
+    "tests/source-history/a1_export2/tests/parking-volume.mjs": {
+      "bytes": 2914,
+      "sha256": "75df7674ddb9758946a6ca5e9713bbef32d179119f05f4f2d13e07748c4c229f"
+    },
+    "tests/source-history/a1_export2/tests/polygon-colliders.mjs": {
+      "bytes": 1637,
+      "sha256": "00d46b6849c183bba16d160b20b807ccbc128c9702695d365e4d1bbe43dd659c"
+    },
+    "tests/source-history/a1_export2/tests/realism.mjs": {
+      "bytes": 11020,
+      "sha256": "88b90a0b99914cd9e979b0cdc8f3037b36d5d431e0796250bd6a5498aad3497f"
+    },
+    "tests/source-history/a1_export2/tests/revision-colliders.mjs": {
+      "bytes": 6751,
+      "sha256": "6ed356528d4d11017473f6dcd525507e17062fb3d564d7ec65e35433ed5d5ce0"
+    },
+    "tests/source-history/a1_export2/tests/road-grounding.mjs": {
+      "bytes": 10794,
+      "sha256": "e5109af85527afe27e61c3af207265583dbb01ad4ff11d719119c4c9d150687f"
+    },
+    "tests/source-history/a1_export2/tests/rooftop-bridge.mjs": {
+      "bytes": 4145,
+      "sha256": "ea15bec9e290148ea8af311178234680de18ec1e7f80115aa8794f0400d02057"
+    },
+    "tests/source-history/a1_export2/tests/segment-guards.mjs": {
+      "bytes": 1320,
+      "sha256": "91010dd51c49bbbcda31ed886284bf6e7989cf94adf0fcbb3448e34af27a9dbf"
+    },
+    "tests/source-history/a1_export2/tests/shuttle-live.mjs": {
+      "bytes": 2346,
+      "sha256": "61db14bd226ec43c55b89b7da0fcf58a458cc96e5674de03c38a46cd2b87a1b2"
+    },
+    "tests/source-history/a1_export2/tests/shuttle-terminal-validation.mjs": {
+      "bytes": 156,
+      "sha256": "990faaff92cedc5fa26f68aceb9c865028687f85c01984078c2442ed7c5d6a9d"
+    },
+    "tests/source-history/a1_export2/tests/shuttle.mjs": {
+      "bytes": 3583,
+      "sha256": "927055202b5143e416671632f7e30a0621f79ea5ec9dfe3056b594f09b66e5b2"
+    },
+    "tests/source-history/a1_export2/tests/simulate.mjs": {
+      "bytes": 7587,
+      "sha256": "15f1edffa776c4d352fc11f4873e7ce4acbfd7b4c69b528948067c38273d2657"
+    },
+    "tests/source-history/a1_export2/tests/site-additions.mjs": {
+      "bytes": 17128,
+      "sha256": "ecaede78d86838837557fedbc5d040de9814d37388640ff5a1b7c4c29372b7d3"
+    },
+    "tests/source-history/a1_export2/tests/surface-conformity.mjs": {
+      "bytes": 5413,
+      "sha256": "47aec193e6067a7950ebbf2f3f1e28ab748c3ce0b6c4895adc0a046c9aa6c322"
+    },
+    "tests/source-history/a1_export2/tests/surface-contact-diagnostics.mjs": {
+      "bytes": 154,
+      "sha256": "19791902788d75ad0c5c397609e9c6a76f8127c7561d69e70ea25298094f0b2e"
+    },
+    "tests/source-history/a1_export2/tests/transit-integration.mjs": {
+      "bytes": 2232,
+      "sha256": "64b861588fd9337e36a693cf35e6d395e73238fbd6f39668a291d22647b2124d"
+    },
+    "tests/source-history/a1_export2/tests/vehicle-grounding.mjs": {
+      "bytes": 12952,
+      "sha256": "e3bf79ca436594a43f560c94178335c17968a66407e1512e0dd886702542c0cd"
+    },
+    "tests/source-history/a1_export2/tests/vehicle-steering.mjs": {
+      "bytes": 1573,
+      "sha256": "0519b9f8ab81b2f0098299b55d10c81e6affa4d98580eec0b94410e9edb59d7d"
+    },
+    "tests/source-history/a1_export2/tests/vehicle-surfaces.mjs": {
+      "bytes": 1772,
+      "sha256": "14de639df8b48102c4ac17a799c1e41b6709a7ee851ab36b7ec6241f2c92150c"
+    },
+    "tests/source-history/a1_export2/tests/visible-floor-index.mjs": {
+      "bytes": 2416,
+      "sha256": "f79fbcaffe363754f475ad9cddca1733e5caa95ddf2ed7b0c36df442a1e9d3c4"
+    },
+    "tests/source-history/a1_export2/tests/walk-failure-diagnostics.mjs": {
+      "bytes": 5499,
+      "sha256": "4ca26b428ec403a4956aea3f085f13f4c360993b7a0817b32b8f7769b26421ce"
+    },
+    "tests/source-history/a1_export2/tests/walk-surface-index.mjs": {
+      "bytes": 1286,
+      "sha256": "967f621e9b64c02d407a468d51eb9e384c469946c4ab337f35eb6408e9ac6eea"
+    },
+    "tests/source-history/a1_export2/tests/walkable-paths.mjs": {
+      "bytes": 4759,
+      "sha256": "2bdd550a889efccea5c7872e32c877704f96c60458f7a007d47e274fdc9de82c"
+    },
+    "tests/source-history/a1_export2/tests/walking-floor.mjs": {
+      "bytes": 2599,
+      "sha256": "8e7e82462dc0c7bb74499c0c1ffb9caeeadbc53a766f672ee4f1cd0d15fcd192"
+    },
+    "tests/source-history/a1_export2/tests/water-constraints.mjs": {
+      "bytes": 1310,
+      "sha256": "f946ee515517b68279fe4b2df3ef74d71167a858ba0e4943a02dde1ae3456b0d"
+    },
+    "tests/source-history/a1_export2/tests/wheel-suspension.mjs": {
+      "bytes": 1908,
+      "sha256": "638b7d107c9a5fb2e784dcfe68dce09e83599be374c4b3d063d101b1c039dc3a"
+    },
+    "tests/source-history/pre-tyre-footprint/game.js": {
+      "bytes": 46255,
+      "sha256": "4e66024e36d7570104c980ee7cb576e250d6d4a85fad60468495f1c4b0e14a6b"
+    },
+    "tests/source-history/pre-tyre-footprint/wheel-suspension.js": {
+      "bytes": 3902,
+      "sha256": "cd2d2a7c8d4284d0a5d79e588bd60f95273635f5281a385ee6c5debcd00312c9"
+    },
+    "tests/source-history/tyre-footprint-uncached/game.js": {
+      "bytes": 46640,
+      "sha256": "bacd3d18e393c5f1332047450bcd37d01b473a2e5045cf2d0d2cb30a5a4e10ec"
+    },
+    "tests/source-history/tyre-footprint-uncached/wheel-suspension.js": {
+      "bytes": 6264,
+      "sha256": "d91100e3738332efe2dc8e7bf7b06e9963037c1a5a0ed14213a25987aae959fd"
+    },
+    "tests/street-lighting-placement-results.json": {
+      "bytes": 26557,
+      "sha256": "7e79f2501543340c0e8cbfd4950aa1766f5576389c8bd384f798592822c437ac"
+    },
+    "tests/street-lighting-placement.log": {
+      "bytes": 16725,
+      "sha256": "3b2f106f6d6eba5cae4b5fc7d743f79450dd9f7166a8dae2810b56e582117e8e"
+    },
+    "tests/street-lighting-placement.mjs": {
+      "bytes": 7137,
+      "sha256": "785708c0e9878b855be540efe6e574738a69d54ed3ab8bd00ae50f95207e35d2"
+    },
+    "tests/street-lighting-unit-results.json": {
+      "bytes": 741,
+      "sha256": "6eb9bf5ca29e1d8b5ea8674863be2ee879da896d3a5f8531606f9eb18c6241b4"
+    },
+    "tests/street-lighting-unit.log": {
+      "bytes": 675,
+      "sha256": "603ac45a27255a4b26e6e50203e14bf8309d9b5314f9c9ec0e0f6cc9a03ebc72"
+    },
+    "tests/street-lighting.mjs": {
+      "bytes": 9476,
+      "sha256": "b04e6535107942aaa15382110c4f5598d70a159071a83024929a79c5e917fc39"
+    },
+    "tests/surface-conformity.mjs": {
+      "bytes": 5413,
+      "sha256": "47aec193e6067a7950ebbf2f3f1e28ab748c3ce0b6c4895adc0a046c9aa6c322"
+    },
+    "tests/surface-contact-diagnostics.mjs": {
+      "bytes": 154,
+      "sha256": "19791902788d75ad0c5c397609e9c6a76f8127c7561d69e70ea25298094f0b2e"
+    },
+    "tests/transit-integration.mjs": {
+      "bytes": 2232,
+      "sha256": "64b861588fd9337e36a693cf35e6d395e73238fbd6f39668a291d22647b2124d"
+    },
+    "tests/tyre-cache-runtime-results.json": {
+      "bytes": 10643,
+      "sha256": "b65ba52fc85f21ae64f6dc36033f38a9913ee4e08060639b87cf47faccbfac8c"
+    },
+    "tests/tyre-cache-runtime.mjs": {
+      "bytes": 2741,
+      "sha256": "99090430ebb86e681204ae1075c835c98aff2e14ce4dc6ece11d045cb9ef2151"
+    },
+    "tests/tyre-contact-cache.mjs": {
+      "bytes": 1418,
+      "sha256": "d3b8785ec7f87cfb996efbeedb309d239839838ea5ab1e4dc556aebabd32a59c"
+    },
+    "tests/tyre-footprint-unit-results.json": {
+      "bytes": 3650,
+      "sha256": "07b452a55a52df058dbe6dda4a4292bc66ba988ab61d925e472e663666b9e524"
+    },
+    "tests/tyre-footprint.mjs": {
+      "bytes": 1643,
+      "sha256": "2fc688814d48b18e5ffa9e6a51be4c87d0515bcdba774a6f6c6126fdacee52f9"
+    },
+    "tests/tyre-frame-performance-results.json": {
+      "bytes": 6228,
+      "sha256": "b840d1a6d6bb56268decb8412014cfe7094c35df03481118c8d6ae78f993841b"
+    },
+    "tests/vehicle-grounding.mjs": {
+      "bytes": 12952,
+      "sha256": "e3bf79ca436594a43f560c94178335c17968a66407e1512e0dd886702542c0cd"
+    },
+    "tests/vehicle-steering.mjs": {
+      "bytes": 1573,
+      "sha256": "0519b9f8ab81b2f0098299b55d10c81e6affa4d98580eec0b94410e9edb59d7d"
+    },
+    "tests/vehicle-surfaces.mjs": {
+      "bytes": 1772,
+      "sha256": "14de639df8b48102c4ac17a799c1e41b6709a7ee851ab36b7ec6241f2c92150c"
+    },
+    "tests/visible-floor-index.mjs": {
+      "bytes": 2416,
+      "sha256": "f79fbcaffe363754f475ad9cddca1733e5caa95ddf2ed7b0c36df442a1e9d3c4"
+    },
+    "tests/walk-failure-diagnostics.mjs": {
+      "bytes": 5499,
+      "sha256": "4ca26b428ec403a4956aea3f085f13f4c360993b7a0817b32b8f7769b26421ce"
+    },
+    "tests/walk-surface-index.mjs": {
+      "bytes": 1286,
+      "sha256": "967f621e9b64c02d407a468d51eb9e384c469946c4ab337f35eb6408e9ac6eea"
+    },
+    "tests/walkable-paths.mjs": {
+      "bytes": 4759,
+      "sha256": "2bdd550a889efccea5c7872e32c877704f96c60458f7a007d47e274fdc9de82c"
+    },
+    "tests/walking-floor-results.json": {
+      "bytes": 489,
+      "sha256": "b9b03e09398f6a1b2d34f1ec4d4560cef47002b124784a93d8f141ea424a9c6d"
+    },
+    "tests/walking-floor.mjs": {
+      "bytes": 2599,
+      "sha256": "8e7e82462dc0c7bb74499c0c1ffb9caeeadbc53a766f672ee4f1cd0d15fcd192"
+    },
+    "tests/water-constraints.mjs": {
+      "bytes": 1310,
+      "sha256": "f946ee515517b68279fe4b2df3ef74d71167a858ba0e4943a02dde1ae3456b0d"
+    },
+    "tests/wheel-suspension.mjs": {
+      "bytes": 1908,
+      "sha256": "638b7d107c9a5fb2e784dcfe68dce09e83599be374c4b3d063d101b1c039dc3a"
+    }
+  }
+}

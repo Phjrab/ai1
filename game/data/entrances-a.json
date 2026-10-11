@@ -1,0 +1,5159 @@
+{
+  "version": "entrances_a_1.0",
+  "evidence_matrix": "realism_v2/entrances_a/evidence_matrix.json",
+  "evidence_counts": {
+    "confirmed": 12,
+    "partly_confirmed": 17,
+    "unverified": 6
+  },
+  "coordinate_system": "Blender Z-up metres",
+  "records": [
+    {
+      "entrance_id": "a_01_2007834463",
+      "catalogue_index": 1,
+      "building_id": 135,
+      "osm_id": "190176312",
+      "label": "미술대학(미술관)",
+      "collection": "CAMPUS_BUILDING 135 미술대학(미술관)",
+      "source_node_id": "2007834463",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/2007834463",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798680094100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -195.67518391008687,
+        -357.159270496944
+      ],
+      "mapped_xy": [
+        -195.67524348572732,
+        -357.159229991639
+      ],
+      "footprint_projection_m": 7.204121505429688e-05,
+      "outward_normal": [
+        0.9082588117926185,
+        -0.41840880822595117
+      ],
+      "width_m": 6.4,
+      "height_m": 2.7,
+      "planned_base_z": -44.97866157625,
+      "old_catalogue_door": [
+        -223.4308902705597,
+        -374.4668517250271,
+        -44.878661576249996
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -44.978662109375,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 135 | RV2 foundation floor 01",
+        "vertex_top_z": -45.003662109375,
+        "declared_floor_top_z": -45.003661576249996,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -195.08481568242166,
+        -357.43123622229086,
+        -44.639150848388674
+      ],
+      "threshold_z": -44.639150848388674,
+      "threshold_paving_samples": [
+        -45.00394821166992,
+        -45.004676818847656,
+        -44.64915084838867,
+        -44.65095901489258,
+        -45.0046272277832,
+        -45.005611419677734
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -192.950407474709,
+        -358.41449692162183,
+        -44.67217254638672
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -222.662,
+        -380.201,
+        -45.11612060546875
+      ],
+      "outward_yaw_radians": 1.139103629632284,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -194.8577509794735,
+            -357.53583842434733
+          ],
+          "existing_surface_z": -44.649375915527344,
+          "threshold_minus_support_m": 0.010225067138669885
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -194.04031804886017,
+            -357.9124063517507
+          ],
+          "existing_surface_z": -44.653446197509766,
+          "threshold_minus_support_m": 0.01429534912109176
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -192.950407474709,
+            -358.41449692162183
+          ],
+          "existing_surface_z": -44.67217254638672,
+          "threshold_minus_support_m": 0.033021697998044885
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -191.13388985112377,
+            -359.25131453807376
+          ],
+          "existing_surface_z": -45.166419982910156,
+          "threshold_minus_support_m": 0.5272691345214824
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -188.40911341574594,
+            -360.50654096275156
+          ],
+          "existing_surface_z": -45.8241081237793,
+          "threshold_minus_support_m": 1.184957275390623
+        }
+      ],
+      "object": "ENTRANCE_A_a_01_2007834463 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_01_2007834463 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_03_8745101691",
+      "catalogue_index": 3,
+      "building_id": 134,
+      "osm_id": "468619568",
+      "label": "공과대학 제1공학관",
+      "collection": "CAMPUS_BUILDING 134 공과대학 제1공학관",
+      "source_node_id": "8745101691",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101691",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798083056100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -82.2849482014724,
+        -833.6666424458857
+      ],
+      "mapped_xy": [
+        -82.2853276145947,
+        -833.6665874806642
+      ],
+      "footprint_projection_m": 0.00038337382924063314,
+      "outward_normal": [
+        -0.9896694857058631,
+        0.14336774066257887
+      ],
+      "width_m": 4.8,
+      "height_m": 2.7,
+      "planned_base_z": -50.92883678016,
+      "old_catalogue_door": [
+        -75.19364018904136,
+        -876.6118977125423,
+        -50.828836780159996
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -50.92883834838867,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 134 | RV2 foundation floor 03",
+        "vertex_top_z": -50.95383834838867,
+        "declared_floor_top_z": -50.953836780159996,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -82.92823336718122,
+        -833.573453414455,
+        -50.58884262084961
+      ],
+      "threshold_z": -50.58884262084961,
+      "threshold_paving_samples": [
+        -50.95383834838867,
+        -50.95393753051758,
+        -50.59884262084961,
+        -50.599178314208984,
+        -50.95383834838867,
+        -50.95560836791992
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -85.25395665859,
+        -833.2365392238979,
+        -50.62789535522461
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -64.696,
+        -884.098,
+        -50.54583935546875
+      ],
+      "outward_yaw_radians": -1.7146598040474217,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -83.17565073860769,
+            -833.5376114792894
+          ],
+          "existing_surface_z": -50.59884262084961,
+          "threshold_minus_support_m": 0.00999999999999801
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -84.06635327574296,
+            -833.4085805126931
+          ],
+          "existing_surface_z": -50.60559844970703,
+          "threshold_minus_support_m": 0.016755828857419885
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -85.25395665859,
+            -833.2365392238979
+          ],
+          "existing_surface_z": -50.62789535522461,
+          "threshold_minus_support_m": 0.03905273437499801
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -87.23329563000172,
+            -832.9498037425728
+          ],
+          "existing_surface_z": -50.783634185791016,
+          "threshold_minus_support_m": 0.19479156494140426
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -90.2023040871193,
+            -832.519700520585
+          ],
+          "existing_surface_z": -51.69106674194336,
+          "threshold_minus_support_m": 1.102224121093748
+        }
+      ],
+      "object": "ENTRANCE_A_a_03_8745101691 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_03_8745101691 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_04_photo1",
+      "catalogue_index": 4,
+      "building_id": 140,
+      "osm_id": "468619569",
+      "label": "약학대학 2호관",
+      "collection": "CAMPUS_BUILDING 140 약학대학 2호관",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799559265100.jpg",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799559265100.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        16.309885573705873,
+        -770.0549722760068
+      ],
+      "mapped_xy": [
+        16.31,
+        -770.055
+      ],
+      "footprint_projection_m": 0.00011773698053437798,
+      "outward_normal": [
+        0.97188065812958,
+        -0.2354739610946702
+      ],
+      "width_m": 4.6,
+      "height_m": 2.7,
+      "planned_base_z": -43.377346537333004,
+      "old_catalogue_door": [
+        -8.89258615991255,
+        -792.1022773070962,
+        -43.277346537333
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -43.37734756469727,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 140 | RV2 foundation floor 04",
+        "vertex_top_z": -43.402347564697266,
+        "declared_floor_top_z": -43.402346537333,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        16.9416080014901,
+        -770.2080303507183,
+        -42.88902114868164
+      ],
+      "threshold_z": -42.88902114868164,
+      "threshold_paving_samples": [
+        -43.20749282836914,
+        -43.00391387939453,
+        -43.27972412109375,
+        -42.99481201171875,
+        -43.16200637817383,
+        -42.89902114868164
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        19.225527548094615,
+        -770.7613941592908,
+        -41.64017868041992
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        1.922,
+        -803.023,
+        -43.828363792784366
+      ],
+      "outward_yaw_radians": 1.3330901133173898,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            17.184578166022497,
+            -770.266898840992
+          ],
+          "existing_surface_z": -43.262638092041016,
+          "threshold_minus_support_m": 0.373616943359373
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            18.059270758339117,
+            -770.4788254059772
+          ],
+          "existing_surface_z": -42.60725402832031,
+          "threshold_minus_support_m": -0.2817671203613301
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            19.225527548094615,
+            -770.7613941592908
+          ],
+          "existing_surface_z": -41.64017868041992,
+          "threshold_minus_support_m": -1.2488424682617207
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            21.169288864353774,
+            -771.2323420814802
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            24.084930838742515,
+            -771.9387639647641
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_04_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_04_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_07_12765514877",
+      "catalogue_index": 7,
+      "building_id": 128,
+      "osm_id": "468692592",
+      "label": "해오름관",
+      "collection": "CAMPUS_BUILDING 128 해오름관",
+      "source_node_id": "12765514877",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/12765514877",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803344114100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        174.12715670895838,
+        -213.27101468166364
+      ],
+      "mapped_xy": [
+        174.12716925822212,
+        -213.27088073348887
+      ],
+      "footprint_projection_m": 0.00013453474475687754,
+      "outward_normal": [
+        -0.09320125529921906,
+        -0.9956472899629918
+      ],
+      "width_m": 7.0,
+      "height_m": 2.7,
+      "planned_base_z": -25.736019070790498,
+      "old_catalogue_door": [
+        176.46622276932553,
+        -217.89857132195877,
+        -25.636019070790496
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -40.949998474121095,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 128 | RV2 foundation floor 07",
+        "vertex_top_z": -40.974998474121094,
+        "declared_floor_top_z": -25.761019070790496,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        174.0665758930139,
+        -213.9181854201396,
+        -40.60996841430664
+      ],
+      "threshold_z": -40.60996841430664,
+      "threshold_paving_samples": [
+        -40.974151611328125,
+        -40.973690032958984,
+        -40.619991302490234,
+        -40.61996841430664,
+        -40.97499084472656,
+        -40.974998474121094
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        173.84755294306072,
+        -216.2579565515526,
+        -40.549072265625
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        177.68,
+        -225.813,
+        -40.85
+      ],
+      "outward_yaw_radians": -0.09333671719225507,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            174.04327557918907,
+            -214.16709724263035
+          ],
+          "existing_surface_z": -40.61998748779297,
+          "threshold_minus_support_m": 0.010019073486326135
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            173.9593944494198,
+            -215.06317980359702
+          ],
+          "existing_surface_z": -40.61589431762695,
+          "threshold_minus_support_m": 0.0059259033203105105
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            173.84755294306072,
+            -216.2579565515526
+          ],
+          "existing_surface_z": -40.549072265625,
+          "threshold_minus_support_m": -0.060896148681642615
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            173.66115043246228,
+            -218.24925113147862
+          ],
+          "existing_surface_z": -40.05204772949219,
+          "threshold_minus_support_m": -0.5579206848144551
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            173.38154666656462,
+            -221.23619300136758
+          ],
+          "existing_surface_z": -38.95106506347656,
+          "threshold_minus_support_m": -1.6589033508300801
+        }
+      ],
+      "object": "ENTRANCE_A_a_07_12765514877 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_07_12765514877 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_10_8745101680",
+      "catalogue_index": 10,
+      "building_id": 136,
+      "osm_id": "468704876",
+      "label": "사회과학ㆍ사범대학",
+      "collection": "CAMPUS_BUILDING 136 사회과학ㆍ사범대학",
+      "source_node_id": "8745101680",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101680",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798885430100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -373.21008440744583,
+        28.99600184862036
+      ],
+      "mapped_xy": [
+        -373.2100943097372,
+        28.99554971299559
+      ],
+      "footprint_projection_m": 0.00045224404756708463,
+      "outward_normal": [
+        -0.021913415076752006,
+        -0.9997598722891782
+      ],
+      "width_m": 4.0,
+      "height_m": 2.7,
+      "planned_base_z": 4.319170075349918,
+      "old_catalogue_door": [
+        -343.6557723712498,
+        27.94759620469086,
+        4.419170075349918
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": 4.319169902801514,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 136 | RV2 foundation floor 10",
+        "vertex_top_z": 4.294169902801514,
+        "declared_floor_top_z": 4.294170075349918,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -373.2243281272457,
+        28.346157931632394,
+        4.659161338806152
+      ],
+      "threshold_z": 4.659161338806152,
+      "threshold_paving_samples": [
+        4.294169902801514,
+        4.294602394104004,
+        4.64915657043457,
+        4.64915657043457,
+        4.294169902801514,
+        4.649161338806152
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -373.2758246526761,
+        25.996722231752827,
+        4.678055763244629
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -374.89,
+        21.699,
+        5.320522854171242
+      ],
+      "outward_yaw_radians": -0.021915169251309756,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -373.2298064810149,
+            28.0962179635601
+          ],
+          "existing_surface_z": 4.64915657043457,
+          "threshold_minus_support_m": 0.010004768371581818
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -373.249528554584,
+            27.196434078499838
+          ],
+          "existing_surface_z": 4.6601948738098145,
+          "threshold_minus_support_m": -0.0010335350036623225
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -373.2758246526761,
+            25.996722231752827
+          ],
+          "existing_surface_z": 4.678055763244629,
+          "threshold_minus_support_m": -0.018894424438476776
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -373.3196514828296,
+            23.99720248717447
+          ],
+          "existing_surface_z": 4.998709678649902,
+          "threshold_minus_support_m": -0.3395483398437502
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -373.38539172805986,
+            20.997922870306933
+          ],
+          "existing_surface_z": 5.493514060974121,
+          "threshold_minus_support_m": -0.834352722167969
+        }
+      ],
+      "object": "ENTRANCE_A_a_10_8745101680 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_10_8745101680 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_11_8745101696",
+      "catalogue_index": 11,
+      "building_id": 132,
+      "osm_id": "468704877",
+      "label": "체육대학",
+      "collection": "CAMPUS_BUILDING 132 체육대학",
+      "source_node_id": "8745101696",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101696",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802746163100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        55.132005365547634,
+        -670.4809798812632
+      ],
+      "mapped_xy": [
+        55.13177011376814,
+        -670.4809171410105
+      ],
+      "footprint_projection_m": 0.00024347430883728756,
+      "outward_normal": [
+        -0.9661719584681353,
+        0.2578987139747846
+      ],
+      "width_m": 7.0,
+      "height_m": 2.7,
+      "planned_base_z": -37.278467476100005,
+      "old_catalogue_door": [
+        112.33067523070841,
+        -718.0119246266102,
+        -37.1784674761
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.278466796875,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 132 | RV2 foundation floor 11",
+        "vertex_top_z": -37.303466796875,
+        "declared_floor_top_z": -37.3034674761,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        54.503993592543345,
+        -670.3133457171796,
+        -36.93867706298828
+      ],
+      "threshold_z": -36.93867706298828,
+      "threshold_paving_samples": [
+        -37.303466796875,
+        -37.30432891845703,
+        -36.94867706298828,
+        -36.94890213012695,
+        -37.303466796875,
+        -37.303466796875
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        52.23348949014323,
+        -669.7072837393389,
+        -36.97296142578125
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        123.713,
+        -730.058,
+        -34.130214033546984
+      ],
+      "outward_yaw_radians": -1.8316430391493663,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            54.262450602926315,
+            -670.2488710386859
+          ],
+          "existing_surface_z": -36.94870376586914,
+          "threshold_minus_support_m": 0.010026702880857385
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            53.39289584030499,
+            -670.0167621961086
+          ],
+          "existing_surface_z": -36.949214935302734,
+          "threshold_minus_support_m": 0.010537872314451135
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            52.23348949014323,
+            -669.7072837393389
+          ],
+          "existing_surface_z": -36.97296142578125,
+          "threshold_minus_support_m": 0.03428436279296676
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            50.30114557320696,
+            -669.1914863113893
+          ],
+          "existing_surface_z": -37.10078811645508,
+          "threshold_minus_support_m": 0.16211105346679489
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            47.40262969780255,
+            -668.417790169465
+          ],
+          "existing_surface_z": -37.91461944580078,
+          "threshold_minus_support_m": 0.975942382812498
+        }
+      ],
+      "object": "ENTRANCE_A_a_11_8745101696 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_11_8745101696 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_12_photo1",
+      "catalogue_index": 12,
+      "building_id": 160,
+      "osm_id": "468704879",
+      "label": "생명공학관",
+      "collection": "CAMPUS_BUILDING 160 생명공학관",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798942183100.jpg",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798942183100.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        65.43599999999998,
+        -595.618
+      ],
+      "mapped_xy": [
+        65.436,
+        -595.618
+      ],
+      "footprint_projection_m": 2.842170943040401e-14,
+      "outward_normal": [
+        0.7982308640380031,
+        -0.6023516312729159
+      ],
+      "width_m": 3.0,
+      "height_m": 2.7,
+      "planned_base_z": -48.50357441111375,
+      "old_catalogue_door": [
+        65.7552923456152,
+        -595.8589406525091,
+        -48.40357441111375
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -48.5035758972168,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 160 | RV2 foundation floor 12",
+        "vertex_top_z": -48.5285758972168,
+        "declared_floor_top_z": -48.52857441111375,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        65.95485006162468,
+        -596.0095285603275,
+        -47.61169647216797
+      ],
+      "threshold_z": -47.61169647216797,
+      "threshold_paving_samples": [
+        -48.35874557495117,
+        -47.62169647216797,
+        -48.451541900634766,
+        -47.74433517456055,
+        -48.5285758972168,
+        -47.866939544677734
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        61.33559472745085,
+        -602.5459633804497,
+        -48.27078628540039
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": "Use the open side-corridor around the -tangent end; straight3m outward point meets adjacent medical177 footprint. Final local approach supplied separately.",
+      "old_destination": [
+        45.346,
+        -608.562,
+        -47.06496948242187
+      ],
+      "outward_yaw_radians": 0.9243524271586463,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            66.15440777763418,
+            -596.1601164681457
+          ],
+          "existing_surface_z": -48.363162994384766,
+          "threshold_minus_support_m": 0.7514665222167949
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            66.87281555526839,
+            -596.7022329362914
+          ],
+          "existing_surface_z": -47.023597717285156,
+          "threshold_minus_support_m": -0.5880987548828145
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            67.83069259211399,
+            -597.4250548938188
+          ],
+          "existing_surface_z": -47.023597717285156,
+          "threshold_minus_support_m": -0.5880987548828145
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            69.42715432019,
+            -598.6297581563647
+          ],
+          "existing_surface_z": -47.023597717285156,
+          "threshold_minus_support_m": -0.5880987548828145
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            71.82184691230401,
+            -600.4368130501833
+          ],
+          "existing_surface_z": -47.023597717285156,
+          "threshold_minus_support_m": -0.5880987548828145
+        }
+      ],
+      "object": "ENTRANCE_A_a_12_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_12_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_13_4631834862",
+      "catalogue_index": 13,
+      "building_id": 177,
+      "osm_id": "468704880",
+      "label": "의과대학 3호관",
+      "collection": "CAMPUS_BUILDING 177 의과대학 3호관",
+      "source_node_id": "4631834862",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/4631834862",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801142174100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        78.06686415083017,
+        -613.7548985449057
+      ],
+      "mapped_xy": [
+        78.06659256208088,
+        -613.7552622043787
+      ],
+      "footprint_projection_m": 0.00045388176990059103,
+      "outward_normal": [
+        -0.5983689306302157,
+        -0.8012207079553374
+      ],
+      "width_m": 2.4,
+      "height_m": 2.7,
+      "planned_base_z": -46.9985964416835,
+      "old_catalogue_door": [
+        100.21456441925075,
+        -584.2682437305298,
+        -46.2185964416835
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0.78,
+      "actual_base_z": -46.99859771728516,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 177 | RV2 foundation floor 13",
+        "vertex_top_z": -47.023597717285156,
+        "declared_floor_top_z": -47.0235964416835,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        77.67792434592053,
+        -614.2756920050766,
+        -46.21859771728516
+      ],
+      "threshold_z": -46.21859771728516,
+      "threshold_paving_samples": [],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        76.27175735893952,
+        -616.1585606687717,
+        -46.885074615478516
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        103.546,
+        -586.743,
+        -45.77
+      ],
+      "outward_yaw_radians": -0.6414638271149595,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            77.52833211326298,
+            -614.4759971820655
+          ],
+          "existing_surface_z": -46.66847610473633,
+          "threshold_minus_support_m": 0.4498783874511716
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            76.98980007569578,
+            -615.1970958192253
+          ],
+          "existing_surface_z": -46.663333892822266,
+          "threshold_minus_support_m": 0.4447361755371091
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            76.27175735893952,
+            -616.1585606687717
+          ],
+          "existing_surface_z": -46.885074615478516,
+          "threshold_minus_support_m": 0.6664768981933591
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            75.0750194976791,
+            -617.7610020846823
+          ],
+          "existing_surface_z": -44.46211242675781,
+          "threshold_minus_support_m": -1.756485290527344
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            73.27991270578845,
+            -620.1646642085484
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_13_4631834862 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_13_4631834862 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_14_8745103329",
+      "catalogue_index": 14,
+      "building_id": 137,
+      "osm_id": "468704881",
+      "label": "의과대학 1호관",
+      "collection": "CAMPUS_BUILDING 137 의과대학 1호관",
+      "source_node_id": "8745103329",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745103329",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801005198100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        144.26686644055243,
+        -500.53418605764426
+      ],
+      "mapped_xy": [
+        144.2668842043938,
+        -500.53419880922377
+      ],
+      "footprint_projection_m": 2.1866797652593008e-05,
+      "outward_normal": [
+        -0.8123382538055295,
+        0.5831865579762475
+      ],
+      "width_m": 3.4,
+      "height_m": 2.7,
+      "planned_base_z": -41.07875019696,
+      "old_catalogue_door": [
+        128.54881190305693,
+        -544.0062775589679,
+        -40.97875019696
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -41.078748321533205,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 137 | RV2 foundation floor 14",
+        "vertex_top_z": -41.1037483215332,
+        "declared_floor_top_z": -41.10375019696,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        140.97689651264002,
+        -498.17228049784046,
+        -40.763006439208986
+      ],
+      "threshold_z": -40.763006439208986,
+      "threshold_paving_samples": [
+        -40.793033599853516,
+        -40.87980270385742,
+        -40.79508972167969,
+        -40.83317184448242,
+        -40.773006439208984,
+        -40.87831497192383
+      ],
+      "door_plane_outside_footprint_m": 4.05,
+      "safe_arrival": [
+        139.06790161619705,
+        -496.80179208659627,
+        -42.04644775390625
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        155.368,
+        -557.049,
+        -39.485
+      ],
+      "outward_yaw_radians": -2.1934422179236486,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            140.77381194918866,
+            -498.02648385834635
+          ],
+          "existing_surface_z": -41.94097137451172,
+          "threshold_minus_support_m": 1.1779649353027324
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            140.04270752076368,
+            -497.50161595616777
+          ],
+          "existing_surface_z": -41.98866271972656,
+          "threshold_minus_support_m": 1.2256562805175761
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            139.06790161619705,
+            -496.80179208659627
+          ],
+          "existing_surface_z": -42.04644775390625,
+          "threshold_minus_support_m": 1.2834413146972636
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            137.44322510858598,
+            -495.63541897064374
+          ],
+          "existing_surface_z": -42.0500602722168,
+          "threshold_minus_support_m": 1.2870538330078105
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            135.0062103471694,
+            -493.885859296715
+          ],
+          "existing_surface_z": -41.99533462524414,
+          "threshold_minus_support_m": 1.2323281860351543
+        }
+      ],
+      "object": "ENTRANCE_A_a_14_8745103329 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_14_8745103329 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_14_8745103330",
+      "catalogue_index": 14,
+      "building_id": 137,
+      "osm_id": "468704881",
+      "label": "의과대학 1호관",
+      "collection": "CAMPUS_BUILDING 137 의과대학 1호관",
+      "source_node_id": "8745103330",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745103330",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801005198100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        167.12592509476534,
+        -511.8561043195531
+      ],
+      "mapped_xy": [
+        167.1260753549937,
+        -511.8562122118641
+      ],
+      "footprint_projection_m": 0.00018498347764927747,
+      "outward_normal": [
+        0.8122044752630075,
+        -0.5833728570671955
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -41.07875019696,
+      "old_catalogue_door": [
+        128.54881190305693,
+        -544.0062775589679,
+        -40.97875019696
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -41.078748321533205,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 137 | RV2 foundation floor 14",
+        "vertex_top_z": -41.1037483215332,
+        "declared_floor_top_z": -41.10375019696,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        167.65385800368628,
+        -512.2352966766467,
+        -40.725095977783205
+      ],
+      "threshold_z": -40.725095977783205,
+      "threshold_paving_samples": [
+        -40.74697494506836,
+        -40.74454879760742,
+        -40.748008728027344,
+        -40.73679733276367,
+        -40.74875259399414,
+        -40.7350959777832
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        169.56253852055437,
+        -513.6062228907547,
+        -40.67338562011719
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        155.368,
+        -557.049,
+        -39.485
+      ],
+      "outward_yaw_radians": 0.9479210799381631,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            167.85690912250203,
+            -512.3811398909136
+          ],
+          "existing_surface_z": -40.74770736694336,
+          "threshold_minus_support_m": 0.02261138916015426
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            168.58789315023876,
+            -512.9061754622741
+          ],
+          "existing_surface_z": -40.719032287597656,
+          "threshold_minus_support_m": -0.0060636901855488645
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            169.56253852055437,
+            -513.6062228907547
+          ],
+          "existing_surface_z": -40.67338562011719,
+          "threshold_minus_support_m": -0.051710357666017615
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            171.18694747108037,
+            -514.7729686048891
+          ],
+          "existing_surface_z": -40.45841979980469,
+          "threshold_minus_support_m": -0.2666761779785176
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            173.6235608968694,
+            -516.5230871760906
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_14_8745103330 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_14_8745103330 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_15_4631834869",
+      "catalogue_index": 15,
+      "building_id": 155,
+      "osm_id": "468704882",
+      "label": "의과대학 2호관",
+      "collection": "CAMPUS_BUILDING 155 의과대학 2호관",
+      "source_node_id": "4631834869",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/4631834869",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801097555100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        164.69116536354719,
+        -547.0937322652608
+      ],
+      "mapped_xy": [
+        164.69124060717698,
+        -547.0937787386978
+      ],
+      "footprint_projection_m": 8.843858983576821e-05,
+      "outward_normal": [
+        -0.9733976506133598,
+        -0.22912226818969741
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -34.159431094192996,
+      "old_catalogue_door": [
+        173.94817964909655,
+        -531.3448047128004,
+        -34.059431094192995
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -34.15943298339844,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 155 | RV2 foundation floor 15",
+        "vertex_top_z": -34.18443298339844,
+        "declared_floor_top_z": -34.184431094192995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        164.0584568906485,
+        -547.242661739584,
+        -33.819429626464846
+      ],
+      "threshold_z": -33.819429626464846,
+      "threshold_paving_samples": [
+        -33.831626892089844,
+        -34.200260162353516,
+        -33.82945251464844,
+        -33.829429626464844,
+        -33.83677291870117,
+        -33.85746383666992
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        161.7709724117071,
+        -547.7810990698299,
+        -34.365596771240234
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        193.061,
+        -562.78,
+        -35.645914269058274
+      ],
+      "outward_yaw_radians": -1.339620459442012,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            163.81510747799516,
+            -547.2999423066315
+          ],
+          "existing_surface_z": -33.82945251464844,
+          "threshold_minus_support_m": 0.01002288818359176
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            162.93904959244313,
+            -547.5061523480023
+          ],
+          "existing_surface_z": -33.89230728149414,
+          "threshold_minus_support_m": 0.07287765502929489
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            161.7709724117071,
+            -547.7810990698299
+          ],
+          "existing_surface_z": -34.365596771240234,
+          "threshold_minus_support_m": 0.5461671447753886
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            159.82417711048038,
+            -548.2393436062092
+          ],
+          "existing_surface_z": -34.949310302734375,
+          "threshold_minus_support_m": 1.1298806762695293
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            156.9039841586403,
+            -548.9267104107784
+          ],
+          "existing_surface_z": -37.06051254272461,
+          "threshold_minus_support_m": 3.2410829162597636
+        }
+      ],
+      "object": "ENTRANCE_A_a_15_4631834869 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_15_4631834869 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_15_8745103331",
+      "catalogue_index": 15,
+      "building_id": 155,
+      "osm_id": "468704882",
+      "label": "의과대학 2호관",
+      "collection": "CAMPUS_BUILDING 155 의과대학 2호관",
+      "source_node_id": "8745103331",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745103331",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801097555100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        183.8861586747543,
+        -516.0157430408192
+      ],
+      "mapped_xy": [
+        183.88645863340642,
+        -516.0159282681587
+      ],
+      "footprint_projection_m": 0.00035253987050159607,
+      "outward_normal": [
+        -0.8508255860703925,
+        0.5254482106620718
+      ],
+      "width_m": 4.2,
+      "height_m": 2.7,
+      "planned_base_z": -34.159431094192996,
+      "old_catalogue_door": [
+        173.94817964909655,
+        -531.3448047128004,
+        -34.059431094192995
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -34.15943298339844,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 155 | RV2 foundation floor 15",
+        "vertex_top_z": -34.18443298339844,
+        "declared_floor_top_z": -34.184431094192995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        183.33312204380854,
+        -515.6742017038888,
+        -33.81956695556641
+      ],
+      "threshold_z": -33.81956695556641,
+      "threshold_paving_samples": [
+        -34.18443298339844,
+        -34.18474578857422,
+        -33.829566955566406,
+        -33.829627990722656,
+        -33.82999038696289,
+        -33.83201217651367
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        181.33368191654313,
+        -514.439398408833,
+        -33.92737579345703
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        193.061,
+        -562.78,
+        -35.645914269058274
+      ],
+      "outward_yaw_radians": -2.1240381492484364,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            183.12041564729097,
+            -515.5428396512233
+          ],
+          "existing_surface_z": -33.82957458496094,
+          "threshold_minus_support_m": 0.01000762939452926
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            182.3546726198276,
+            -515.0699362616275
+          ],
+          "existing_surface_z": -33.8418083190918,
+          "threshold_minus_support_m": 0.022241363525388635
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            181.33368191654313,
+            -514.439398408833
+          ],
+          "existing_surface_z": -33.92737579345703,
+          "threshold_minus_support_m": 0.10780883789062301
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            179.63203074440236,
+            -513.3885019875088
+          ],
+          "existing_surface_z": -34.966064453125,
+          "threshold_minus_support_m": 1.1464974975585918
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            177.07955398619117,
+            -511.81215735552263
+          ],
+          "existing_surface_z": -37.52809143066406,
+          "threshold_minus_support_m": 3.7085244750976543
+        }
+      ],
+      "object": "ENTRANCE_A_a_15_8745103331 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_15_8745103331 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_17_photo1",
+      "catalogue_index": 17,
+      "building_id": "cit_1",
+      "osm_id": "468704884",
+      "label": "조선이공대학교 1호관",
+      "collection": "CAMPUS_BUILDING cit_1 조선이공대학교 1호관",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img1.jpg",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img1.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        199.66549799968624,
+        -364.5130315619333
+      ],
+      "mapped_xy": [
+        199.665,
+        -364.513
+      ],
+      "footprint_projection_m": 0.0004989988408166819,
+      "outward_normal": [
+        -0.9979976815805082,
+        0.06325051430566105
+      ],
+      "width_m": 5.5,
+      "height_m": 2.7,
+      "planned_base_z": -44.772932969775994,
+      "old_catalogue_door": [
+        207.41846192775736,
+        -411.78271559956795,
+        -44.67293296977599
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -44.77293167114258,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_1 | RV2 foundation floor 17",
+        "vertex_top_z": -44.79793167114258,
+        "declared_floor_top_z": -44.79793296977599,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        199.0167995066589,
+        -364.4719187276346,
+        -44.77293167114258
+      ],
+      "threshold_z": -44.77293167114258,
+      "threshold_paving_samples": [
+        -44.84432601928711,
+        -44.86740493774414,
+        -44.836944580078125,
+        -44.85694885253906,
+        -44.82621383666992,
+        -44.8397331237793
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        196.6715049549447,
+        -364.3232800190163,
+        -44.91840362548828
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        210.399,
+        -418.201,
+        -42.46365978632472
+      ],
+      "outward_yaw_radians": -1.6340890908314059,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            198.7673000862638,
+            -364.4561060990582
+          ],
+          "existing_surface_z": -44.83924102783203,
+          "threshold_minus_support_m": 0.0663093566894517
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            197.86910217284134,
+            -364.39918063618313
+          ],
+          "existing_surface_z": -44.88131332397461,
+          "threshold_minus_support_m": 0.10838165283202983
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            196.6715049549447,
+            -364.3232800190163
+          ],
+          "existing_surface_z": -44.91840362548828,
+          "threshold_minus_support_m": 0.1454719543457017
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            194.6755095917837,
+            -364.196778990405
+          ],
+          "existing_surface_z": -44.89231872558594,
+          "threshold_minus_support_m": 0.11938705444335795
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            191.68151654704218,
+            -364.00702744748804
+          ],
+          "existing_surface_z": -44.79999923706055,
+          "threshold_minus_support_m": 0.02706756591796733
+        }
+      ],
+      "object": "ENTRANCE_A_a_17_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_17_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_18_photo1",
+      "catalogue_index": 18,
+      "building_id": "cit_main",
+      "osm_id": "468704885",
+      "label": "조선이공대학교 본부동",
+      "collection": "CAMPUS_BUILDING cit_main 조선이공대학교 본부동",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img0.jpg",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img0.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        260.54199808952006,
+        -342.4060308478527
+      ],
+      "mapped_xy": [
+        260.542,
+        -342.406
+      ],
+      "footprint_projection_m": 3.090695634472408e-05,
+      "outward_normal": [
+        -0.06181391267672411,
+        -0.9980876916381617
+      ],
+      "width_m": 5.0,
+      "height_m": 2.7,
+      "planned_base_z": -41.384202627994995,
+      "old_catalogue_door": [
+        260.51677443492935,
+        -342.80523507665526,
+        -41.28420262799499
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -41.384202575683595,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_main | RV2 foundation floor 18",
+        "vertex_top_z": -41.409202575683594,
+        "declared_floor_top_z": -41.40920262799499,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        260.5018190462802,
+        -343.0547878474175,
+        -41.15146850585938
+      ],
+      "threshold_z": -41.15146850585938,
+      "threshold_paving_samples": [
+        -41.35433578491211,
+        -41.3438720703125,
+        -41.3791389465332,
+        -41.22915267944336,
+        -41.33145523071289,
+        -41.161468505859375
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        260.35655635148987,
+        -345.4002939227672,
+        -40.58226013183594
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        261.332,
+        -349.705,
+        -40.045685179028055
+      ],
+      "outward_yaw_radians": -0.06185334526197453,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            260.486365568111,
+            -343.30430977032705
+          ],
+          "existing_surface_z": -41.36800765991211,
+          "threshold_minus_support_m": 0.21653915405273239
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            260.43073304670196,
+            -344.2025886928014
+          ],
+          "existing_surface_z": -41.38387680053711,
+          "threshold_minus_support_m": 0.23240829467773239
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            260.35655635148987,
+            -345.4002939227672
+          ],
+          "existing_surface_z": -40.58226013183594,
+          "threshold_minus_support_m": -0.5692083740234395
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            260.23292852613645,
+            -347.3964693060435
+          ],
+          "existing_surface_z": -40.519290924072266,
+          "threshold_minus_support_m": -0.6321775817871114
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            260.04748678810626,
+            -350.390732380958
+          ],
+          "existing_surface_z": -40.43175506591797,
+          "threshold_minus_support_m": -0.7197134399414082
+        }
+      ],
+      "object": "ENTRANCE_A_a_18_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_18_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_19_photo1",
+      "catalogue_index": 19,
+      "building_id": "cit_3",
+      "osm_id": "468704886",
+      "label": "조선이공대학교 3호관",
+      "collection": "CAMPUS_BUILDING cit_3 조선이공대학교 3호관",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img3.jpg",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img3.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        307.3834720153294,
+        -378.8849684594308
+      ],
+      "mapped_xy": [
+        307.384,
+        -378.885
+      ],
+      "footprint_projection_m": 0.0005289259115464459,
+      "outward_normal": [
+        -0.9982204673394522,
+        0.05963135571664898
+      ],
+      "width_m": 6.0,
+      "height_m": 2.7,
+      "planned_base_z": -37.9924422893,
+      "old_catalogue_door": [
+        306.98421181306423,
+        -378.86064745771336,
+        -37.8924422893
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.99244079589844,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_3 | RV2 foundation floor 19",
+        "vertex_top_z": -38.01744079589844,
+        "declared_floor_top_z": -38.0174422893,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        306.73462871155874,
+        -378.846208078215,
+        -37.99244079589844
+      ],
+      "threshold_z": -37.99244079589844,
+      "threshold_paving_samples": [
+        -38.01768493652344,
+        -38.0191764831543,
+        -38.01787567138672,
+        -38.01847457885742,
+        -38.02229309082031,
+        -38.02828598022461
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        304.388810613311,
+        -378.70607439228087,
+        -38.1197395324707
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        310.837,
+        -418.094,
+        -35.85310037582106
+      ],
+      "outward_yaw_radians": -1.6304630796906987,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            306.4850735947239,
+            -378.83130023928584
+          ],
+          "existing_surface_z": -38.0179443359375,
+          "threshold_minus_support_m": 0.02550354003906108
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            305.5866751741184,
+            -378.77763201914087
+          ],
+          "existing_surface_z": -38.02954864501953,
+          "threshold_minus_support_m": 0.03710784912109233
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            304.388810613311,
+            -378.70607439228087
+          ],
+          "existing_surface_z": -38.1197395324707,
+          "threshold_minus_support_m": 0.1272987365722642
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            302.3923696786321,
+            -378.5868116808476
+          ],
+          "existing_surface_z": -38.31333541870117,
+          "threshold_minus_support_m": 0.32089462280273295
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            299.3977082766138,
+            -378.40791761369763
+          ],
+          "existing_surface_z": -38.41224670410156,
+          "threshold_minus_support_m": 0.4198059082031236
+        }
+      ],
+      "object": "ENTRANCE_A_a_19_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_19_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_20_8745101709",
+      "catalogue_index": 20,
+      "building_id": 148,
+      "osm_id": "468704892",
+      "label": "항공우주ㆍ선박해양공학관",
+      "collection": "CAMPUS_BUILDING 148 항공우주ㆍ선박해양공학관",
+      "source_node_id": "8745101709",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101709",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803181032100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        471.41098974666363,
+        -361.1768707477088
+      ],
+      "mapped_xy": [
+        471.41109337458505,
+        -361.1768625271045
+      ],
+      "footprint_projection_m": 0.00010395347244061729,
+      "outward_normal": [
+        -0.9968585365740069,
+        -0.07920263922073081
+      ],
+      "width_m": 4.0,
+      "height_m": 2.7,
+      "planned_base_z": -24.12535460834952,
+      "old_catalogue_door": [
+        472.47376049707435,
+        -379.5747302506548,
+        -24.02535460834952
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -24.125354385375978,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 148 | RV2 foundation floor 20",
+        "vertex_top_z": -24.150354385375977,
+        "declared_floor_top_z": -24.15035460834952,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        470.76303169789054,
+        -361.22835246320227,
+        -24.125354385375978
+      ],
+      "threshold_z": -24.125354385375978,
+      "threshold_paving_samples": [
+        -24.489803314208984,
+        -24.505176544189453,
+        -24.155466079711914,
+        -24.15614128112793,
+        -24.160587310791016,
+        -24.162246704101562
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        468.4204141369416,
+        -361.414478665371,
+        -24.215993881225586
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        474.142,
+        -403.142,
+        -24.2035615234375
+      ],
+      "outward_yaw_radians": -1.4915106458176175,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            470.513817063747,
+            -361.24815312300746
+          ],
+          "existing_surface_z": -24.15580940246582,
+          "threshold_minus_support_m": 0.03045501708984233
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            469.6166443808304,
+            -361.3194354983061
+          ],
+          "existing_surface_z": -24.156021118164062,
+          "threshold_minus_support_m": 0.030666732788084516
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            468.4204141369416,
+            -361.414478665371
+          ],
+          "existing_surface_z": -24.215993881225586,
+          "threshold_minus_support_m": 0.09063949584960795
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            466.4266970637936,
+            -361.5728839438124
+          ],
+          "existing_surface_z": -24.215959548950195,
+          "threshold_minus_support_m": 0.09060516357421733
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            463.43612145407155,
+            -361.81049186147465
+          ],
+          "existing_surface_z": -24.510908126831055,
+          "threshold_minus_support_m": 0.3855537414550767
+        }
+      ],
+      "object": "ENTRANCE_A_a_20_8745101709 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_20_8745101709 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Duplicate campus IDs148/147 have separate physical footprints. For the single existing named destination, retain the official-pin/old-arrival-adjacent block: index21 for148, index32 for147. Both physical mapped doors remain."
+    },
+    {
+      "entrance_id": "a_21_8745101707",
+      "catalogue_index": 21,
+      "building_id": 148,
+      "osm_id": "468704895",
+      "label": "항공우주ㆍ선박해양공학관",
+      "collection": "CAMPUS_BUILDING 148 항공우주ㆍ선박해양공학관.001",
+      "source_node_id": "8745101707",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101707",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803181032100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        477.0079939299626,
+        -426.70592795164663
+      ],
+      "mapped_xy": [
+        477.0083604873789,
+        -426.70589706936937
+      ],
+      "footprint_projection_m": 0.00036785602416379744,
+      "outward_normal": [
+        -0.9964682177734623,
+        -0.08397077448362424
+      ],
+      "width_m": 4.0,
+      "height_m": 2.7,
+      "planned_base_z": -23.534899618264994,
+      "old_catalogue_door": [
+        488.51217118566575,
+        -449.8775377398317,
+        -23.434899618264993
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -23.534900283813478,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 148 | RV2 foundation floor 21",
+        "vertex_top_z": -23.559900283813477,
+        "declared_floor_top_z": -23.559899618264993,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        476.36028958840984,
+        -426.76050895506097,
+        -23.534900283813478
+      ],
+      "threshold_z": -23.534900283813478,
+      "threshold_paving_samples": [],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        474.0185892766422,
+        -426.9578402750975,
+        -24.471704483032227
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        474.142,
+        -403.142,
+        -24.2035615234375
+      ],
+      "outward_yaw_radians": -1.4867265569488324,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            476.11117253396645,
+            -426.7815016486819
+          ],
+          "existing_surface_z": -24.381492614746094,
+          "threshold_minus_support_m": 0.8465923309326158
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            475.21435113797037,
+            -426.85707534571713
+          ],
+          "existing_surface_z": -24.410606384277344,
+          "threshold_minus_support_m": 0.8757061004638658
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            474.0185892766422,
+            -426.9578402750975
+          ],
+          "existing_surface_z": -24.471704483032227,
+          "threshold_minus_support_m": 0.9368041992187486
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            472.0256528410953,
+            -427.12578182406475
+          ],
+          "existing_surface_z": -24.4716796875,
+          "threshold_minus_support_m": 0.936779403686522
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            469.0362481877749,
+            -427.3776941475156
+          ],
+          "existing_surface_z": -24.60892677307129,
+          "threshold_minus_support_m": 1.074026489257811
+        }
+      ],
+      "object": "ENTRANCE_A_a_21_8745101707 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_21_8745101707 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Duplicate campus IDs148/147 have separate physical footprints. For the single existing named destination, retain the official-pin/old-arrival-adjacent block: index21 for148, index32 for147. Both physical mapped doors remain."
+    },
+    {
+      "entrance_id": "a_22_8745101672",
+      "catalogue_index": 22,
+      "building_id": 142,
+      "osm_id": "468704897",
+      "label": "글로벌하우스(기숙사)",
+      "collection": "CAMPUS_BUILDING 142 글로벌하우스(기숙사)",
+      "source_node_id": "8745101672",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101672",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1555046339547100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        497.582157535126,
+        -151.01802793616008
+      ],
+      "mapped_xy": [
+        497.58212760103186,
+        -151.0181967378593
+      ],
+      "footprint_projection_m": 0.00017143530457556925,
+      "outward_normal": [
+        -0.18010382938582795,
+        -0.9836476049076521
+      ],
+      "width_m": 5.0,
+      "height_m": 2.7,
+      "planned_base_z": 9.686890413424967,
+      "old_catalogue_door": [
+        506.6531565235809,
+        -153.03285516221283,
+        9.786890413424967
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": 9.686890029907227,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 142 | RV2 foundation floor 22",
+        "vertex_top_z": 9.661890029907227,
+        "declared_floor_top_z": 9.661890413424967,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        497.4650900460252,
+        -151.65739887935007,
+        9.70548225402832
+      ],
+      "threshold_z": 9.70548225402832,
+      "threshold_paving_samples": [
+        9.661165237426758,
+        9.69084358215332,
+        9.69548225402832,
+        9.695367813110352,
+        9.688887596130371,
+        9.689146995544434
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        497.0418460469685,
+        -153.96897075088305,
+        9.69452953338623
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        502.763,
+        -167.593,
+        9.6573520340906
+      ],
+      "outward_yaw_radians": -0.18109200569731598,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            497.4200640886787,
+            -151.90331078057696
+          ],
+          "existing_surface_z": 9.695472717285156,
+          "threshold_minus_support_m": 0.01000953674316385
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            497.2579706422315,
+            -152.78859362499387
+          ],
+          "existing_surface_z": 9.695241928100586,
+          "threshold_minus_support_m": 0.010240325927734162
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            497.0418460469685,
+            -153.96897075088305
+          ],
+          "existing_surface_z": 9.69452953338623,
+          "threshold_minus_support_m": 0.01095272064208963
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            496.68163838819686,
+            -155.93626596069834
+          ],
+          "existing_surface_z": 9.694371223449707,
+          "threshold_minus_support_m": 0.011111030578613068
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            496.14132690003936,
+            -158.8872087754213
+          ],
+          "existing_surface_z": 9.65999984741211,
+          "threshold_minus_support_m": 0.045482406616210724
+        }
+      ],
+      "object": "ENTRANCE_A_a_22_8745101672 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_22_8745101672 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_23_8745101712",
+      "catalogue_index": 23,
+      "building_id": 144,
+      "osm_id": "468704900",
+      "label": "황금추관(고시원)",
+      "collection": "CAMPUS_BUILDING 144 황금추관(고시원)",
+      "source_node_id": "8745101712",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101712",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554803450073100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        412.0971169045068,
+        -103.51008061286824
+      ],
+      "mapped_xy": [
+        412.0974464099144,
+        -103.50960276524893
+      ],
+      "footprint_projection_m": 0.000580441350136514,
+      "outward_normal": [
+        -0.56766295095598,
+        -0.8232610607285812
+      ],
+      "width_m": 3.8,
+      "height_m": 2.7,
+      "planned_base_z": 1.3,
+      "old_catalogue_door": [
+        417.51596384081626,
+        -107.48964975116229,
+        0.6660521436679925
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0.64,
+      "actual_base_z": 1.299999976158142,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 144 | RV2 foundation floor 23",
+        "vertex_top_z": 1.274999976158142,
+        "declared_floor_top_z": 1.2750000000000001,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        411.7281359863854,
+        -104.04520030234181,
+        1.9399999761581421
+      ],
+      "threshold_z": 1.9399999761581421,
+      "threshold_paving_samples": [],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        410.39412805163886,
+        -105.97986379505397,
+        0.615746259689331
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        414.581,
+        -111.746,
+        1.6244131088256837
+      ],
+      "outward_yaw_radians": -0.6036642973092166,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            411.5862202486464,
+            -104.25101556752396
+          ],
+          "existing_surface_z": 0.6674070358276367,
+          "threshold_minus_support_m": 1.2725929403305054
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            411.075323592786,
+            -104.99195052217968
+          ],
+          "existing_surface_z": 0.6216018199920654,
+          "threshold_minus_support_m": 1.3183981561660767
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            410.39412805163886,
+            -105.97986379505397
+          ],
+          "existing_surface_z": 0.615746259689331,
+          "threshold_minus_support_m": 1.324253716468811
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            409.2588021497269,
+            -107.62638591651114
+          ],
+          "existing_surface_z": 0.6191091537475586,
+          "threshold_minus_support_m": 1.3208908224105835
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            407.55581329685896,
+            -110.09616909869689
+          ],
+          "existing_surface_z": 0.35890817642211914,
+          "threshold_minus_support_m": 1.581091799736023
+        }
+      ],
+      "object": "ENTRANCE_A_a_23_8745101712 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_23_8745101712 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_24_8745101710",
+      "catalogue_index": 24,
+      "building_id": 151,
+      "osm_id": "468704902",
+      "label": "학군단(ROTC)",
+      "collection": "CAMPUS_BUILDING 151 학군단(ROTC)",
+      "source_node_id": "8745101710",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101710",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802913321100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        597.9321286902633,
+        -218.1199663792833
+      ],
+      "mapped_xy": [
+        597.9321048842338,
+        -218.1198752567699
+      ],
+      "footprint_projection_m": 9.418088709245751e-05,
+      "outward_normal": [
+        0.2529516272110254,
+        -0.9674789270528296
+      ],
+      "width_m": 3.5,
+      "height_m": 2.7,
+      "planned_base_z": 9.6,
+      "old_catalogue_door": [
+        607.8416076886776,
+        -215.94451063976365,
+        16.898455921600018
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": 9.599999809265137,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 151 | RV2 foundation floor 24",
+        "vertex_top_z": 9.574999809265137,
+        "declared_floor_top_z": 9.575,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        598.0965472479505,
+        -218.74882768186765,
+        9.599999809265137
+      ],
+      "threshold_z": 9.599999809265137,
+      "threshold_paving_samples": [
+        9.355255126953125,
+        9.318740844726562,
+        9.420553207397461,
+        9.395395278930664,
+        9.445524215698242,
+        9.445433616638184
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        598.6909835718964,
+        -221.0224031604418,
+        9.233049392700195
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        594.3,
+        -225.046,
+        8.746340243556702
+      ],
+      "outward_yaw_radians": 0.2557298880020245,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            598.1597851547532,
+            -218.99069741363087
+          ],
+          "existing_surface_z": 9.417464256286621,
+          "threshold_minus_support_m": 0.18253555297851598
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            598.3874416192432,
+            -219.8614284479784
+          ],
+          "existing_surface_z": 9.343255996704102,
+          "threshold_minus_support_m": 0.2567438125610355
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            598.6909835718964,
+            -221.0224031604418
+          ],
+          "existing_surface_z": 9.233049392700195,
+          "threshold_minus_support_m": 0.36695041656494176
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            599.1968868263184,
+            -222.95736101454747
+          ],
+          "existing_surface_z": 8.969633102416992,
+          "threshold_minus_support_m": 0.6303667068481449
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            599.9557417079515,
+            -225.85979779570596
+          ],
+          "existing_surface_z": 8.512312889099121,
+          "threshold_minus_support_m": 1.087686920166016
+        }
+      ],
+      "object": "ENTRANCE_A_a_24_8745101710 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_24_8745101710 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_25_4631845727",
+      "catalogue_index": 25,
+      "building_id": 145,
+      "osm_id": "468706014",
+      "label": "학생회관(동아리연합회)",
+      "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+      "source_node_id": "4631845727",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/4631845727",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        -197.55526555992142,
+        -92.43896251008584
+      ],
+      "mapped_xy": [
+        -197.55533841412327,
+        -92.43947857304727
+      ],
+      "footprint_projection_m": 0.000521180117502767,
+      "outward_normal": [
+        0.14125080361258566,
+        0.98997384333062
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -37.16,
+      "old_catalogue_door": [
+        -133.24748856060245,
+        -121.75849121520693,
+        -17.9
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.16,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+        "vertex_top_z": -37.18499961853027,
+        "declared_floor_top_z": -37.184999999999995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -197.46345253757323,
+        -91.79547951192095,
+        -36.82000732421875
+      ],
+      "threshold_z": -36.82000732421875,
+      "threshold_paving_samples": [
+        -36.830015335083004,
+        -36.83010879516601,
+        -36.83001724243164,
+        -36.83003059387207,
+        -36.83000770568847,
+        -36.83001724243164
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -197.13151314908367,
+        -89.46904098009398,
+        -36.83000183105469
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -195.374,
+        -128.994,
+        -19.164180419921873
+      ],
+      "outward_yaw_radians": 2.9998678810342474,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -197.42813983667008,
+            -91.54798605108829
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.0099945068359375
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -197.30101411341877,
+            -90.65700959209073
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.0099945068359375
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -197.13151314908367,
+            -89.46904098009398
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.0099945068359375
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -196.8490115418585,
+            -87.48909329343275
+          ],
+          "existing_surface_z": -36.49171447753906,
+          "threshold_minus_support_m": -0.3282928466796875
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -196.42525913102074,
+            -84.51917176344088
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_25_4631845727 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_25_4631845727 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint.",
+      "student_union_level_version": "student_union_levels_1.0",
+      "student_union_exterior_target_z": -36.83
+    },
+    {
+      "entrance_id": "a_25_8745101688",
+      "catalogue_index": 25,
+      "building_id": 145,
+      "osm_id": "468706014",
+      "label": "학생회관(동아리연합회)",
+      "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+      "source_node_id": "8745101688",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101688",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -199.15710912963686,
+        -111.95398443407336
+      ],
+      "mapped_xy": [
+        -199.15711842604654,
+        -111.9540496093652
+      ],
+      "footprint_projection_m": 6.583495954935833e-05,
+      "outward_normal": [
+        -0.1412001977649844,
+        -0.9899810625214653
+      ],
+      "width_m": 4.8,
+      "height_m": 2.7,
+      "planned_base_z": -37.16,
+      "old_catalogue_door": [
+        -133.24748856060245,
+        -121.75849121520693,
+        -17.9
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.16,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+        "vertex_top_z": -37.18499961853027,
+        "declared_floor_top_z": -37.184999999999995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -199.2488892581841,
+        -112.59747212471231,
+        -36.819984436035156
+      ],
+      "threshold_z": -36.819984436035156,
+      "threshold_paving_samples": [
+        -37.18499961853027,
+        -37.18499961853027,
+        -36.82998672485351,
+        -36.83017745971679,
+        -37.18499961853027,
+        -37.18518463134765
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -199.58070972293183,
+        -114.92392762163776,
+        -36.83000183105469
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -195.374,
+        -128.994,
+        -19.164180419921873
+      ],
+      "outward_yaw_radians": -0.14167365437357027,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -199.28418930762535,
+            -112.84496739034267
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -199.41126948561384,
+            -113.735950346612
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -199.58070972293183,
+            -114.92392762163776
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -199.86311011846178,
+            -116.90388974668069
+          ],
+          "existing_surface_z": -36.185394287109375,
+          "threshold_minus_support_m": -0.6345901489257812
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -200.28671071175674,
+            -119.87383293424509
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_25_8745101688 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_25_8745101688 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint.",
+      "student_union_level_version": "student_union_levels_1.0",
+      "student_union_exterior_target_z": -36.83
+    },
+    {
+      "entrance_id": "a_25_8745101689",
+      "catalogue_index": 25,
+      "building_id": 145,
+      "osm_id": "468706014",
+      "label": "학생회관(동아리연합회)",
+      "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+      "source_node_id": "8745101689",
+      "source_node_tags": {
+        "entrance": "yes"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101689",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "entrance_unspecified",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        -144.62826928433856,
+        -119.73096159430209
+      ],
+      "mapped_xy": [
+        -144.62825300363892,
+        -119.73084744099472
+      ],
+      "footprint_projection_m": 0.00011530845052783225,
+      "outward_normal": [
+        -0.14120699955700597,
+        -0.9899800923635322
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -37.16,
+      "old_catalogue_door": [
+        -133.24748856060245,
+        -121.75849121520693,
+        -17.9
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.16,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+        "vertex_top_z": -37.18499961853027,
+        "declared_floor_top_z": -37.184999999999995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -144.72005383405062,
+        -120.37444865433838,
+        -36.82090759277344
+      ],
+      "threshold_z": -36.82090759277344,
+      "threshold_paving_samples": [
+        -36.83090606689453,
+        -36.83173957824707,
+        -36.830944213867184,
+        -36.83415428161621,
+        -36.83140388488769,
+        -36.83217445373535
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -145.05189028300958,
+        -122.70090187139269,
+        -36.83000183105469
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -195.374,
+        -128.994,
+        -19.164180419921873
+      ],
+      "outward_yaw_radians": -0.14168052500535488,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -144.75535558393986,
+            -120.62194367742927
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.00909423828125
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -144.88244188354116,
+            -121.51292576055644
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.00909423828125
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -145.05189028300958,
+            -122.70090187139269
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.00909423828125
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -145.33430428212358,
+            -124.68086205611975
+          ],
+          "existing_surface_z": -36.138492584228516,
+          "threshold_minus_support_m": -0.6824150085449219
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -145.7579252807946,
+            -127.65080233321035
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_25_8745101689 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_25_8745101689 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint.",
+      "student_union_level_version": "student_union_levels_1.0",
+      "student_union_exterior_target_z": -36.83
+    },
+    {
+      "entrance_id": "a_25_8745101690",
+      "catalogue_index": 25,
+      "building_id": 145,
+      "osm_id": "468706014",
+      "label": "학생회관(동아리연합회)",
+      "collection": "CAMPUS_BUILDING 145 학생회관(동아리연합회)",
+      "source_node_id": "8745101690",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101690",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554802948307100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        -244.5866567545094,
+        -105.47404895951529
+      ],
+      "mapped_xy": [
+        -244.5866643865014,
+        -105.47410246590374
+      ],
+      "footprint_projection_m": 5.404795007762919e-05,
+      "outward_normal": [
+        -0.1412264327402911,
+        -0.9899773202934763
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -37.16,
+      "old_catalogue_door": [
+        -133.24748856060245,
+        -121.75849121520693,
+        -17.9
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -37.16,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 145 | RV2 foundation floor 25",
+        "vertex_top_z": -37.18499961853027,
+        "declared_floor_top_z": -37.184999999999995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -244.67845393579057,
+        -106.11753421770605,
+        -36.819984436035156
+      ],
+      "threshold_z": -36.819984436035156,
+      "threshold_paving_samples": [
+        -36.83007446289062,
+        -36.83008209228515,
+        -36.829988632202145,
+        -36.829988632202145,
+        -36.82998481750488,
+        -36.82998481750488
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -245.01033605273025,
+        -108.44398092039572,
+        -36.83000183105469
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -195.374,
+        -128.994,
+        -19.164180419921873
+      ],
+      "outward_yaw_radians": -0.14170015490563484,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -244.71376054397567,
+            -106.36502854777942
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -244.8408643334419,
+            -107.25600813604355
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -245.01033605273025,
+            -108.44398092039572
+          ],
+          "existing_surface_z": -36.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -245.29278891821085,
+            -110.42393556098267
+          ],
+          "existing_surface_z": -36.03535079956055,
+          "threshold_minus_support_m": -0.7846336364746094
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -245.7164682164317,
+            -113.3938675218631
+          ],
+          "existing_surface_z": null,
+          "threshold_minus_support_m": null
+        }
+      ],
+      "object": "ENTRANCE_A_a_25_8745101690 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_25_8745101690 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint.",
+      "student_union_level_version": "student_union_levels_1.0",
+      "student_union_exterior_target_z": -36.83
+    },
+    {
+      "entrance_id": "a_26_photo1",
+      "catalogue_index": 26,
+      "building_id": 146,
+      "osm_id": "468706015",
+      "label": "국제관(언어교육원,인권윤리원)",
+      "collection": "CAMPUS_BUILDING 146 국제관(언어교육원,인권윤리원)",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -46.1411454937045,
+        -249.51780857019588
+      ],
+      "mapped_xy": [
+        -46.347,
+        -251.503
+      ],
+      "footprint_projection_m": 1.9958359378290158,
+      "outward_normal": [
+        -0.10314199799379599,
+        -0.9946666417699187
+      ],
+      "width_m": 4.2,
+      "height_m": 2.7,
+      "planned_base_z": -36.86341229276657,
+      "old_catalogue_door": [
+        -35.75575679919752,
+        -250.99686665670797,
+        -36.76341229276657
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -44.50000152587891,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 146 | RV2 foundation floor 26",
+        "vertex_top_z": -44.525001525878906,
+        "declared_floor_top_z": -36.88841229276657,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -46.208187792400466,
+        -250.16434188734632,
+        -44.50000152587891
+      ],
+      "threshold_z": -44.50000152587891,
+      "threshold_paving_samples": [
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -46.450571487685885,
+        -252.50180849550563,
+        -44.64500045776367
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -49.356,
+        -258.461,
+        -44.4
+      ],
+      "outward_yaw_radians": -0.10332575447723415,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -46.23397329189891,
+            -250.41300854778882
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -46.32680109009333,
+            -251.30820852538173
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -46.450571487685885,
+            -252.50180849550563
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -46.65685548367348,
+            -254.49114177904548
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -46.96628147765487,
+            -257.4751417043552
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        }
+      ],
+      "object": "ENTRANCE_A_a_26_photo1 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_26_photo1 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_26_photo2",
+      "catalogue_index": 26,
+      "building_id": 146,
+      "osm_id": "468706015",
+      "label": "국제관(언어교육원,인권윤리원)",
+      "collection": "CAMPUS_BUILDING 146 국제관(언어교육원,인권윤리원)",
+      "source_node_id": null,
+      "source_node_tags": {},
+      "source_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798308378100.jpg",
+      "position_basis": "Photo-visible facade and relative bay position; estimated metric placement",
+      "position_confidence": "photo_relative_approximate",
+      "role": "photo_lobby",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        -27.288907184534466,
+        -251.47269219070515
+      ],
+      "mapped_xy": [
+        -27.358,
+        -252.139
+      ],
+      "footprint_projection_m": 0.6698805220905255,
+      "outward_normal": [
+        -0.10314199799379599,
+        -0.9946666417699187
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -36.86341229276657,
+      "old_catalogue_door": [
+        -35.75575679919752,
+        -250.99686665670797,
+        -36.76341229276657
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -44.50000152587891,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 146 | RV2 foundation floor 26",
+        "vertex_top_z": -44.525001525878906,
+        "declared_floor_top_z": -36.88841229276657,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -27.355949483230432,
+        -252.1192255078556,
+        -44.50000152587891
+      ],
+      "threshold_z": -44.50000152587891,
+      "threshold_paving_samples": [
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367,
+        -44.64500045776367
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -27.598333178515855,
+        -254.4566921160149,
+        -44.64500045776367
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -49.356,
+        -258.461,
+        -44.4
+      ],
+      "outward_yaw_radians": -0.10332575447723415,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -27.381734982728883,
+            -252.36789216829808
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -27.4745627809233,
+            -253.263092145891
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -27.598333178515855,
+            -254.4566921160149
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -27.804617174503445,
+            -256.44602539955474
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -28.114043168484834,
+            -259.4300253248645
+          ],
+          "existing_surface_z": -44.64500045776367,
+          "threshold_minus_support_m": 0.1449989318847642
+        }
+      ],
+      "object": "ENTRANCE_A_a_26_photo2 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_26_photo2 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_27_8745101716",
+      "catalogue_index": 27,
+      "building_id": 143,
+      "osm_id": "468706016",
+      "label": "솔마루(식당)",
+      "collection": "CAMPUS_BUILDING 143 솔마루(식당)",
+      "source_node_id": "8745101716",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101716",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799434289100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        56.11699977837064,
+        -130.30987557094622
+      ],
+      "mapped_xy": [
+        56.1171601198295,
+        -130.30987528535076
+      ],
+      "footprint_projection_m": 0.0001603417132055728,
+      "outward_normal": [
+        -0.9999976992483174,
+        -0.002145110270338845
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -19.2680482447854,
+      "old_catalogue_door": [
+        67.63423151189485,
+        -153.6179981042186,
+        -19.1680482447854
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -19.26804885864258,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 143 | RV2 foundation floor 27",
+        "vertex_top_z": -19.293048858642578,
+        "declared_floor_top_z": -19.2930482447854,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        55.46700127385923,
+        -130.31126989262194,
+        -18.92805122375488
+      ],
+      "threshold_z": -18.92805122375488,
+      "threshold_paving_samples": [
+        -18.938060760498047,
+        -18.938093185424805,
+        -18.938051223754883,
+        -18.942899703979492,
+        -18.93805503845215,
+        -18.93869400024414
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        53.117006680625686,
+        -130.31631090175725,
+        -19.51329231262207
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        67.614,
+        -159.299,
+        -33.76188391825342
+      ],
+      "outward_yaw_radians": -1.5686512148794343,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            55.21700184904716,
+            -130.31180617018953
+          ],
+          "existing_surface_z": -18.938051223754883,
+          "threshold_minus_support_m": 0.010000000000001563
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            54.31700391972367,
+            -130.31373676943284
+          ],
+          "existing_surface_z": -19.055421829223633,
+          "threshold_minus_support_m": 0.12737060546875156
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            53.117006680625686,
+            -130.31631090175725
+          ],
+          "existing_surface_z": -19.51329231262207,
+          "threshold_minus_support_m": 0.5852410888671891
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            51.117011282129056,
+            -130.32060112229792
+          ],
+          "existing_surface_z": -20.0333251953125,
+          "threshold_minus_support_m": 1.1052739715576188
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            48.1170181843841,
+            -130.32703645310892
+          ],
+          "existing_surface_z": -19.922237396240234,
+          "threshold_minus_support_m": 0.9941861724853531
+        }
+      ],
+      "object": "ENTRANCE_A_a_27_8745101716 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_27_8745101716 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_27_8745103318",
+      "catalogue_index": 27,
+      "building_id": 143,
+      "osm_id": "468706016",
+      "label": "솔마루(식당)",
+      "collection": "CAMPUS_BUILDING 143 솔마루(식당)",
+      "source_node_id": "8745103318",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745103318",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799434289100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        41.309999042035585,
+        -144.10059458147475
+      ],
+      "mapped_xy": [
+        41.30984942925845,
+        -144.10059493499514
+      ],
+      "footprint_projection_m": 0.00014961319480260853,
+      "outward_normal": [
+        -0.9999986300033575,
+        -0.0016552919404217326
+      ],
+      "width_m": 2.7,
+      "height_m": 2.7,
+      "planned_base_z": -19.2680482447854,
+      "old_catalogue_door": [
+        67.63423151189485,
+        -153.6179981042186,
+        -19.1680482447854
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -19.26804885864258,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 143 | RV2 foundation floor 27",
+        "vertex_top_z": -19.293048858642578,
+        "declared_floor_top_z": -19.2930482447854,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        40.6599999325334,
+        -144.10167052123603,
+        -18.928055038452147
+      ],
+      "threshold_z": -18.928055038452147,
+      "threshold_paving_samples": [
+        -18.93806266784668,
+        -18.93806266784668,
+        -18.93806266784668,
+        -18.93806266784668,
+        -18.938058853149414,
+        -18.93805503845215
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        38.310003152025516,
+        -144.105560457296,
+        -19.914657592773438
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        67.614,
+        -159.299,
+        -33.76188391825342
+      ],
+      "outward_yaw_radians": -1.5691410340985597,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            40.410000275032566,
+            -144.10208434422114
+          ],
+          "existing_surface_z": -18.93806266784668,
+          "threshold_minus_support_m": 0.010007629394532813
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            39.51000150802954,
+            -144.1035741069675
+          ],
+          "existing_surface_z": -19.086748123168945,
+          "threshold_minus_support_m": 0.15869308471679844
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            38.310003152025516,
+            -144.105560457296
+          ],
+          "existing_surface_z": -19.914657592773438,
+          "threshold_minus_support_m": 0.9866025543212906
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            36.3100058920188,
+            -144.10887104117685
+          ],
+          "existing_surface_z": -22.071510314941406,
+          "threshold_minus_support_m": 3.1434552764892594
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            33.310010002008724,
+            -144.11383691699814
+          ],
+          "existing_surface_z": -23.099933624267578,
+          "threshold_minus_support_m": 4.171878585815431
+        }
+      ],
+      "object": "ENTRANCE_A_a_27_8745103318 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_27_8745103318 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_29_8745101701",
+      "catalogue_index": 29,
+      "building_id": "cit_2",
+      "osm_id": "471778462",
+      "label": "조선이공대학교 2호관",
+      "collection": "CAMPUS_BUILDING cit_2 조선이공대학교 2호관",
+      "source_node_id": "8745101701",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101701",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img2.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        290.0011506665928,
+        -511.52368209446047
+      ],
+      "mapped_xy": [
+        290.000884600934,
+        -511.52355599660655
+      ],
+      "footprint_projection_m": 0.00029443437905133843,
+      "outward_normal": [
+        -0.9036403456087134,
+        0.42829210334556134
+      ],
+      "width_m": 4.5,
+      "height_m": 2.7,
+      "planned_base_z": -19.784504726336003,
+      "old_catalogue_door": [
+        308.61902804751736,
+        -561.5486650398252,
+        -19.684504726336
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -19.784505462646486,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_2 | RV2 foundation floor 29",
+        "vertex_top_z": -19.809505462646484,
+        "declared_floor_top_z": -19.809504726336,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        289.41378444194714,
+        -511.24529222728586,
+        -19.543316116333006
+      ],
+      "threshold_z": -19.543316116333006,
+      "threshold_paving_samples": [
+        -19.856950759887695,
+        -20.036108016967773,
+        -19.553316116333008,
+        -19.644752502441406,
+        -19.88106346130371,
+        -20.01094627380371
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        287.29022962976666,
+        -510.2388057844238,
+        -20.742631912231445
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        305.008,
+        -575.428,
+        -20.766914792547908
+      ],
+      "outward_yaw_radians": -2.0133982371559336,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            289.187874355545,
+            -511.1382192014495
+          ],
+          "existing_surface_z": -19.55913734436035,
+          "threshold_minus_support_m": 0.015821228027345313
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            288.37459804449713,
+            -510.75275630843845
+          ],
+          "existing_surface_z": -19.978883743286133,
+          "threshold_minus_support_m": 0.43556762695312656
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            287.29022962976666,
+            -510.2388057844238
+          ],
+          "existing_surface_z": -20.742631912231445,
+          "threshold_minus_support_m": 1.199315795898439
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            285.48294893854927,
+            -509.38222157773265
+          ],
+          "existing_surface_z": -21.15903663635254,
+          "threshold_minus_support_m": 1.6157205200195328
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            282.7720279017231,
+            -508.09734526769597
+          ],
+          "existing_surface_z": -21.02679443359375,
+          "threshold_minus_support_m": 1.4834783172607438
+        }
+      ],
+      "object": "ENTRANCE_A_a_29_8745101701 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_29_8745101701 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_29_8745101703",
+      "catalogue_index": 29,
+      "building_id": "cit_2",
+      "osm_id": "471778462",
+      "label": "조선이공대학교 2호관",
+      "collection": "CAMPUS_BUILDING cit_2 조선이공대학교 2호관",
+      "source_node_id": "8745101703",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101703",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img2.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": false,
+      "door_xy": [
+        332.67781242283115,
+        -531.6934009227252
+      ],
+      "mapped_xy": [
+        332.67753203905227,
+        -531.6932697413475
+      ],
+      "footprint_projection_m": 0.00030955390050326506,
+      "outward_normal": [
+        0.9057342277120477,
+        -0.42384609087599284
+      ],
+      "width_m": 2.6,
+      "height_m": 2.7,
+      "planned_base_z": -19.784504726336003,
+      "old_catalogue_door": [
+        308.61902804751736,
+        -561.5486650398252,
+        -19.684504726336
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -19.784505462646486,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_2 | RV2 foundation floor 29",
+        "vertex_top_z": -19.809505462646484,
+        "declared_floor_top_z": -19.809504726336,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        333.266539670844,
+        -531.9689008817946,
+        -19.504305114746092
+      ],
+      "threshold_z": -19.504305114746092,
+      "threshold_paving_samples": [
+        -19.697847366333008,
+        -19.700986862182617,
+        -19.605958938598633,
+        -19.6085147857666,
+        -19.514305114746094,
+        -19.516294479370117
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        335.3950151059673,
+        -532.9649391953532,
+        -19.617069244384766
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        305.008,
+        -575.428,
+        -20.766914792547908
+      ],
+      "outward_yaw_radians": 1.1331088256302704,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            333.492973227772,
+            -532.0748624045136
+          ],
+          "existing_surface_z": -19.60631561279297,
+          "threshold_minus_support_m": 0.10201049804687656
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            334.3081340327128,
+            -532.456323886302
+          ],
+          "existing_surface_z": -19.61124610900879,
+          "threshold_minus_support_m": 0.10694099426269688
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            335.3950151059673,
+            -532.9649391953532
+          ],
+          "existing_surface_z": -19.617069244384766,
+          "threshold_minus_support_m": 0.11276412963867344
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            337.2064835613914,
+            -533.8126313771052
+          ],
+          "existing_surface_z": -19.625564575195312,
+          "threshold_minus_support_m": 0.12125946044922031
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            339.9236862445275,
+            -535.0841696497332
+          ],
+          "existing_surface_z": -19.761743545532227,
+          "threshold_minus_support_m": 0.2574384307861344
+        }
+      ],
+      "object": "ENTRANCE_A_a_29_8745101703 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_29_8745101703 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_30_8745101705",
+      "catalogue_index": 30,
+      "building_id": "cit_4",
+      "osm_id": "471778465",
+      "label": "조선이공대학교 4호관",
+      "collection": "CAMPUS_BUILDING cit_4 조선이공대학교 4호관",
+      "source_node_id": "8745101705",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101705",
+      "source_photo_url": "https://computer.cst.ac.kr/pages/department/comm_img/position_img4.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        343.8408650947007,
+        -499.1913501399308
+      ],
+      "mapped_xy": [
+        343.84074115224996,
+        -499.19130238618453
+      ],
+      "footprint_projection_m": 0.0001328237605882405,
+      "outward_normal": [
+        -0.9334001486179603,
+        0.35883723686369245
+      ],
+      "width_m": 2.4,
+      "height_m": 2.7,
+      "planned_base_z": -18.32425444663201,
+      "old_catalogue_door": [
+        355.5971183400076,
+        -520.7437265637891,
+        -18.22425444663201
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -18.3242546081543,
+      "base_check": {
+        "object": "CAMPUS_BUILDING cit_4 | RV2 foundation floor 30",
+        "vertex_top_z": -18.349254608154297,
+        "declared_floor_top_z": -18.34925444663201,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        343.23415499809903,
+        -498.9581059359694,
+        -18.3242546081543
+      ],
+      "threshold_z": -18.3242546081543,
+      "threshold_paving_samples": [
+        -18.40554428100586,
+        -18.405956268310547,
+        -18.38978385925293,
+        -18.39019775390625,
+        -18.374027252197266,
+        -18.374439239501953
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        341.0406646488468,
+        -498.1148384293397,
+        -18.39122200012207
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        356.722,
+        -528.182,
+        -18.48582357956226
+      ],
+      "outward_yaw_radians": -1.937818193003668,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            343.00080496094455,
+            -498.8683966267535
+          ],
+          "existing_surface_z": -18.389835357666016,
+          "threshold_minus_support_m": 0.06558074951171733
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            342.16074482718835,
+            -498.5454431135762
+          ],
+          "existing_surface_z": -18.390764236450195,
+          "threshold_minus_support_m": 0.06650962829589702
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            341.0406646488468,
+            -498.1148384293397
+          ],
+          "existing_surface_z": -18.39122200012207,
+          "threshold_minus_support_m": 0.06696739196777202
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            339.17386435161086,
+            -497.39716395561237
+          ],
+          "existing_surface_z": -19.809505462646484,
+          "threshold_minus_support_m": 1.485250854492186
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            336.373663905757,
+            -496.3206522450213
+          ],
+          "existing_surface_z": -19.809505462646484,
+          "threshold_minus_support_m": 1.485250854492186
+        }
+      ],
+      "object": "ENTRANCE_A_a_30_8745101705 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_30_8745101705 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_31_8745101682",
+      "catalogue_index": 31,
+      "building_id": 147,
+      "osm_id": "472263773",
+      "label": "백학학사(기숙사)",
+      "collection": "CAMPUS_BUILDING 147 백학학사(기숙사)",
+      "source_node_id": "8745101682",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101682",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -365.40101393292673,
+        -87.15601703432766
+      ],
+      "mapped_xy": [
+        -365.40089039681004,
+        -87.15611807850729
+      ],
+      "footprint_projection_m": 0.00015959667403695821,
+      "outward_normal": [
+        0.7818675752796467,
+        -0.6234445402169515
+      ],
+      "width_m": 3.6,
+      "height_m": 2.7,
+      "planned_base_z": -12.463553457711233,
+      "old_catalogue_door": [
+        -378.794919013393,
+        -77.57028896337671,
+        -12.363553457711234
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -12.463553047180175,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 147 | RV2 foundation floor 31",
+        "vertex_top_z": -12.488553047180176,
+        "declared_floor_top_z": -12.488553457711234,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -364.892800008995,
+        -87.56125598546868,
+        -12.123553504943848
+      ],
+      "threshold_z": -12.123553504943848,
+      "threshold_paving_samples": [
+        -12.13357162475586,
+        -12.13357162475586,
+        -12.133553504943848,
+        -12.133573532104492,
+        -12.133768081665039,
+        -12.134420394897461
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -363.0554112070878,
+        -89.02635065497851,
+        -12.250016212463379
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -369.906,
+        -117.719,
+        -16.421677784708805
+      ],
+      "outward_yaw_radians": 0.8976557915021445,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -364.69733311517507,
+            -87.71711712052291
+          ],
+          "existing_surface_z": -12.133553504943848,
+          "threshold_minus_support_m": 0.009999999999999787
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -363.99365229742335,
+            -88.27821720671817
+          ],
+          "existing_surface_z": -12.147626876831055,
+          "threshold_minus_support_m": 0.024073371887206818
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -363.0554112070878,
+            -89.02635065497851
+          ],
+          "existing_surface_z": -12.250016212463379,
+          "threshold_minus_support_m": 0.12646270751953104
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -361.4916760565285,
+            -90.27323973541242
+          ],
+          "existing_surface_z": -12.813077926635742,
+          "threshold_minus_support_m": 0.6895244216918943
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -359.14607333068955,
+            -92.14357335606327
+          ],
+          "existing_surface_z": -15.515334129333496,
+          "threshold_minus_support_m": 3.3917806243896482
+        }
+      ],
+      "object": "ENTRANCE_A_a_31_8745101682 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_31_8745101682 threshold support",
+      "is_landmark_destination": false,
+      "navigation_destination_selection_note": "Duplicate campus IDs148/147 have separate physical footprints. For the single existing named destination, retain the official-pin/old-arrival-adjacent block: index21 for148, index32 for147. Both physical mapped doors remain."
+    },
+    {
+      "entrance_id": "a_32_8745101684",
+      "catalogue_index": 32,
+      "building_id": 147,
+      "osm_id": "472263774",
+      "label": "백학학사(기숙사)",
+      "collection": "CAMPUS_BUILDING 147 백학학사(기숙사).001",
+      "source_node_id": "8745101684",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101684",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554798758407100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -333.6578812951262,
+        -110.32884584068104
+      ],
+      "mapped_xy": [
+        -333.65764127924115,
+        -110.32903065633502
+      ],
+      "footprint_projection_m": 0.00030292647791395604,
+      "outward_normal": [
+        0.7728842160011568,
+        -0.634547073633058
+      ],
+      "width_m": 3.6,
+      "height_m": 2.7,
+      "planned_base_z": -17.609951043917725,
+      "old_catalogue_door": [
+        -362.8254907598538,
+        -128.61876639036603,
+        -17.509951043917724
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -17.609950637817384,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 147 | RV2 foundation floor 32",
+        "vertex_top_z": -17.634950637817383,
+        "declared_floor_top_z": -17.634951043917724,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -333.15550655472543,
+        -110.74130143854252,
+        -17.269947280883787
+      ],
+      "threshold_z": -17.269947280883787,
+      "threshold_paving_samples": [
+        -17.634950637817383,
+        -17.635009765625,
+        -17.27994728088379,
+        -17.2800350189209,
+        -17.279958724975586,
+        -17.280851364135742
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -331.3392286471227,
+        -112.23248706158022,
+        -17.687467575073242
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        -369.906,
+        -117.719,
+        -16.421677784708805
+      ],
+      "outward_yaw_radians": 0.8833739688189467,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -332.96228550072516,
+            -110.8999382069508
+          ],
+          "existing_surface_z": -17.279949188232422,
+          "threshold_minus_support_m": 0.010001907348634376
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -332.2666897063241,
+            -111.47103057322055
+          ],
+          "existing_surface_z": -17.284154891967773,
+          "threshold_minus_support_m": 0.014207611083985938
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -331.3392286471227,
+            -112.23248706158022
+          ],
+          "existing_surface_z": -17.687467575073242,
+          "threshold_minus_support_m": 0.4175202941894547
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -329.7934602151204,
+            -113.50158120884633
+          ],
+          "existing_surface_z": -17.908544540405273,
+          "threshold_minus_support_m": 0.6385972595214859
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -327.4748075671169,
+            -115.4052224297455
+          ],
+          "existing_surface_z": -18.882200241088867,
+          "threshold_minus_support_m": 1.6122529602050797
+        }
+      ],
+      "object": "ENTRANCE_A_a_32_8745101684 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_32_8745101684 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Duplicate campus IDs148/147 have separate physical footprints. For the single existing named destination, retain the official-pin/old-arrival-adjacent block: index21 for148, index32 for147. Both physical mapped doors remain."
+    },
+    {
+      "entrance_id": "a_33_8745101685",
+      "catalogue_index": 33,
+      "building_id": 141,
+      "osm_id": "472263776",
+      "label": "서석홀(평생교육원,박물관)",
+      "collection": "CAMPUS_BUILDING 141 서석홀(평생교육원,박물관)",
+      "source_node_id": "8745101685",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101685",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554799320404100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_partly_obscured",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": false,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -276.09599101151844,
+        -150.10498785123008
+      ],
+      "mapped_xy": [
+        -276.0957589883219,
+        -150.10515951768224
+      ],
+      "footprint_projection_m": 0.0002886245563464036,
+      "outward_normal": [
+        0.803758579351631,
+        -0.5949555833158034
+      ],
+      "width_m": 4.0,
+      "height_m": 2.7,
+      "planned_base_z": -24.2860997180995,
+      "old_catalogue_door": [
+        -284.64877513212934,
+        -161.99002737856458,
+        -22.9460997180995
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 1.34,
+      "actual_base_z": -24.286100006103517,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 141 | RV2 foundation floor 33",
+        "vertex_top_z": -24.311100006103516,
+        "declared_floor_top_z": -24.3110997180995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -275.5735479349399,
+        -150.49170898038534,
+        -22.946100006103517
+      ],
+      "threshold_z": -22.946100006103517,
+      "threshold_paving_samples": [],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -273.68471527346355,
+        -151.8898546011775,
+        -23.959531784057617
+      ],
+      "arrival_status": "requires_approach_validation",
+      "arrival_note": null,
+      "old_destination": [
+        -274.21,
+        -169.721,
+        -27.848
+      ],
+      "outward_yaw_radians": 0.933585940450524,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -275.372608290102,
+            -150.6404478762143
+          ],
+          "existing_surface_z": -23.956138610839844,
+          "threshold_minus_support_m": 1.0100386047363266
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -274.6492255686855,
+            -151.1759079011985
+          ],
+          "existing_surface_z": -23.95636749267578,
+          "threshold_minus_support_m": 1.010267486572264
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -273.68471527346355,
+            -151.8898546011775
+          ],
+          "existing_surface_z": -23.959531784057617,
+          "threshold_minus_support_m": 1.0134317779541
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -272.0771981147603,
+            -153.0797657678091
+          ],
+          "existing_surface_z": -23.95672607421875,
+          "threshold_minus_support_m": 1.0106260681152328
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -269.6659223767054,
+            -154.86463251775652
+          ],
+          "existing_surface_z": -23.866315841674805,
+          "threshold_minus_support_m": 0.9202158355712875
+        }
+      ],
+      "object": "ENTRANCE_A_a_33_8745101685 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_33_8745101685 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    },
+    {
+      "entrance_id": "a_34_8745101686",
+      "catalogue_index": 34,
+      "building_id": 129,
+      "osm_id": "472263777",
+      "label": "장황남정보통신박물관",
+      "collection": "CAMPUS_BUILDING 129 장황남정보통신박물관",
+      "source_node_id": "8745101686",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745101686",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554801454832100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        -197.36239688405365,
+        -156.53794865696725
+      ],
+      "mapped_xy": [
+        -197.36245872346979,
+        -156.5384266785573
+      ],
+      "footprint_projection_m": 0.00048200493145477037,
+      "outward_normal": [
+        -0.128293,
+        -0.991736
+      ],
+      "width_m": 2.5,
+      "height_m": 2.7,
+      "planned_base_z": -39.16,
+      "old_catalogue_door": [
+        -178.59008114271944,
+        -155.07666029006666,
+        -19.6221592355581
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "corner_plane_note": "Mapped point is a footprint corner; leaf plane uses the photographed front-facing projection, not a diagonal chamfer.",
+      "actual_base_z": -39.16,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 129 | RV2 foundation floor 34",
+        "vertex_top_z": -39.185000722327636,
+        "declared_floor_top_z": -39.184999999999995,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        -197.44578733405365,
+        -157.18257705696723,
+        -38.819984436035156
+      ],
+      "threshold_z": -38.819984436035156,
+      "threshold_paving_samples": [
+        -38.829985921302246,
+        -38.829985921302246,
+        -38.82999736539404,
+        -38.831137959876465,
+        -38.83188564054053,
+        -38.83521014920752
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        -197.74727588405366,
+        -159.51315665696725,
+        -38.83000183105469
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        -197.892,
+        -163.056,
+        -20.514012451171876
+      ],
+      "outward_yaw_radians": -0.12864760313887408,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            -197.47786058405364,
+            -157.43051105696725
+          ],
+          "existing_surface_z": -38.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            -197.59332428405366,
+            -158.32307345696725
+          ],
+          "existing_surface_z": -38.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            -197.74727588405366,
+            -159.51315665696725
+          ],
+          "existing_surface_z": -38.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            -198.00386188405366,
+            -161.49662865696723
+          ],
+          "existing_surface_z": -38.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            -198.38874088405365,
+            -164.47183665696724
+          ],
+          "existing_surface_z": -38.83000183105469,
+          "threshold_minus_support_m": 0.01001739501953125
+        }
+      ],
+      "object": "ENTRANCE_A_a_34_8745101686 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_34_8745101686 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint.",
+      "student_union_level_version": "student_union_levels_1.0",
+      "student_union_exterior_target_z": -38.83
+    },
+    {
+      "entrance_id": "a_35_8745103346",
+      "catalogue_index": 35,
+      "building_id": 154,
+      "osm_id": "488165874",
+      "label": "의성관(연구동)",
+      "collection": "CAMPUS_BUILDING 154 의성관(연구동)",
+      "source_node_id": "8745103346",
+      "source_node_tags": {
+        "entrance": "main"
+      },
+      "source_url": "https://www.openstreetmap.org/node/8745103346",
+      "source_photo_url": "https://www3.chosun.ac.kr/sites/chosun/atchmnfl/building/temp_1554800000741100.jpg",
+      "position_basis": "OSM node belonging to exact building way; footprint-plane registered",
+      "position_confidence": "mapped_photo_corroborated",
+      "role": "main_tagged",
+      "role_confirmed_by_photo": true,
+      "is_navigation_primary": true,
+      "door_xy": [
+        154.65363891235586,
+        -894.9404668224958
+      ],
+      "mapped_xy": [
+        154.65356747133362,
+        -894.9404115627972
+      ],
+      "footprint_projection_m": 9.031862457513204e-05,
+      "outward_normal": [
+        -0.7911128820983183,
+        0.6116701789184202
+      ],
+      "width_m": 5.0,
+      "height_m": 2.7,
+      "planned_base_z": -27.625598265500003,
+      "old_catalogue_door": [
+        143.63417075740492,
+        -923.9409328452816,
+        -27.5255982655
+      ],
+      "old_location_status": "Photograph-informed assumption, not a surveyed entrance; supersede guessed portal only.",
+      "closed_exterior_only": true,
+      "threshold_offset_m": 0,
+      "actual_base_z": -27.625598526000978,
+      "base_check": {
+        "object": "CAMPUS_BUILDING 154 | RV2 foundation floor 35",
+        "vertex_top_z": -27.650598526000977,
+        "declared_floor_top_z": -27.6505982655,
+        "method": "Actual visible terrain foundation-cap world vertices +25mm authored cap offset"
+      },
+      "new_door": [
+        154.13941553899195,
+        -894.5428812061988,
+        -27.285616149902342
+      ],
+      "threshold_z": -27.285616149902342,
+      "threshold_paving_samples": [
+        -27.650598526000977,
+        -27.650514602661133,
+        -27.29561996459961,
+        -27.295616149902344,
+        -27.650598526000977,
+        -27.650564193725586
+      ],
+      "door_plane_outside_footprint_m": 0.65,
+      "safe_arrival": [
+        152.2803002660609,
+        -893.1054562857405,
+        -27.277612686157227
+      ],
+      "arrival_status": "existing_surface_probe_near_threshold",
+      "arrival_note": null,
+      "old_destination": [
+        176.795,
+        -935.162,
+        -29.524
+      ],
+      "outward_yaw_radians": -2.2289663755299682,
+      "support_checks": [
+        {
+          "outward_distance_m": 0.9,
+          "xy": [
+            153.94163731846737,
+            -894.3899636614692
+          ],
+          "existing_surface_z": -27.29561996459961,
+          "threshold_minus_support_m": 0.010003814697267188
+        },
+        {
+          "outward_distance_m": 1.8,
+          "xy": [
+            153.22963572457888,
+            -893.8394605004426
+          ],
+          "existing_surface_z": -27.29510498046875,
+          "threshold_minus_support_m": 0.009488830566407813
+        },
+        {
+          "outward_distance_m": 3.0,
+          "xy": [
+            152.2803002660609,
+            -893.1054562857405
+          ],
+          "existing_surface_z": -27.277612686157227,
+          "threshold_minus_support_m": -0.008003463745115624
+        },
+        {
+          "outward_distance_m": 5.0,
+          "xy": [
+            150.69807450186426,
+            -891.8821159279037
+          ],
+          "existing_surface_z": -27.220731735229492,
+          "threshold_minus_support_m": -0.06488441467285
+        },
+        {
+          "outward_distance_m": 8.0,
+          "xy": [
+            148.32473585556932,
+            -890.0471053911484
+          ],
+          "existing_surface_z": -27.173080444335938,
+          "threshold_minus_support_m": -0.11253570556640469
+        }
+      ],
+      "object": "ENTRANCE_A_a_35_8745103346 closed door leaves frames handles",
+      "threshold_object": "ENTRANCE_A_a_35_8745103346 threshold support",
+      "is_landmark_destination": true,
+      "navigation_destination_selection_note": "Primary within this physical building footprint."
+    }
+  ],
+  "facade_replacements": [
+    {
+      "source": "R2_IAA_CAMPUS_BUILDING 135 glazing",
+      "replacement": "ENTRANCE_A_1 exact facade clone R2_IAA_CAMPUS_BUILDING 135 glaz",
+      "components_changed": 17,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 56
+    },
+    {
+      "source": "R2_IAA_CAMPUS_BUILDING 135 frames sills cornices",
+      "replacement": "ENTRANCE_A_1 exact facade clone R2_IAA_CAMPUS_BUILDING 135 fram",
+      "components_changed": 75,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 792
+    },
+    {
+      "source": "CAMPUS_BUILDING 134 공과대학 제1공학관 | Frames sills a",
+      "replacement": "ENTRANCE_A_3 exact facade clone CAMPUS_BUILDING 134 공과대",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 134 공과대학 제1공학관 | Fenestration",
+      "replacement": "ENTRANCE_A_3 exact facade clone CAMPUS_BUILDING 134 공과",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 140 | REVIEWED individually reviewed mass",
+      "replacement": "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIEWED ",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 8
+    },
+    {
+      "source": "CAMPUS_BUILDING 140 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIE",
+      "components_changed": 17,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 64
+    },
+    {
+      "source": "CAMPUS_BUILDING 140 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIE.001",
+      "components_changed": 161,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 1600
+    },
+    {
+      "source": "CAMPUS_BUILDING 128 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_7 exact facade clone CAMPUS_BUILDING 128 | REVIEWED ",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 8
+    },
+    {
+      "source": "CAMPUS_BUILDING 128 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_7 exact facade clone CAMPUS_BUILDING 128 | REVIE",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 24
+    },
+    {
+      "source": "CAMPUS_BUILDING 136 사회과학ㆍ사범대학 | Frames sills ",
+      "replacement": "ENTRANCE_A_10 exact facade clone CAMPUS_BUILDING 136 사회과",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 136 사회과학ㆍ사범대학 | Fenestration",
+      "replacement": "ENTRANCE_A_10 exact facade clone CAMPUS_BUILDING 136 사회",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 132 | RV2_SH_sports_entry_frames",
+      "replacement": "ENTRANCE_A_11 retired guessed frame CAMPUS_BUILDING 132 | RV2_S",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 96,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 160 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_12 exact facade clone CAMPUS_BUILDING 160 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 160 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_12 exact facade clone CAMPUS_BUILDING 160 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 177 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_13 exact facade clone CAMPUS_BUILDING 177 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 177 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_13 exact facade clone CAMPUS_BUILDING 177 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 137 | REVIEWED individually reviewed mass",
+      "replacement": "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 8
+    },
+    {
+      "source": "CAMPUS_BUILDING 137 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 8
+    },
+    {
+      "source": "CAMPUS_BUILDING 137 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI.001",
+      "components_changed": 6,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 75
+    },
+    {
+      "source": "CAMPUS_BUILDING 155 | REVIEWED individually reviewed mass",
+      "replacement": "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 0,
+      "vertices_transformed": 8
+    },
+    {
+      "source": "CAMPUS_BUILDING 155 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVI",
+      "components_changed": 17,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 64
+    },
+    {
+      "source": "CAMPUS_BUILDING 155 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVI.001",
+      "components_changed": 161,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 1600
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_1 조선이공대학교 1호관 | Frames si",
+      "replacement": "ENTRANCE_A_17 exact facade clone CAMPUS_BUILDING cit_1 조선",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_1 조선이공대학교 1호관 | Fenestrat",
+      "replacement": "ENTRANCE_A_17 exact facade clone CAMPUS_BUILDING cit_1 조",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_main 조선이공대학교 본부동 | Fram",
+      "replacement": "ENTRANCE_A_18 exact facade clone CAMPUS_BUILDING cit_main 조",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_main 조선이공대학교 본부동 | Fene",
+      "replacement": "ENTRANCE_A_18 exact facade clone CAMPUS_BUILDING cit_main ",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_3 조선이공대학교 3호관 | Frames si",
+      "replacement": "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 조선",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_3 조선이공대학교 3호관 | Fenestrat",
+      "replacement": "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 조",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_3 | official-photo accents",
+      "replacement": "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 | offici",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 56,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 148 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_20 exact facade clone CAMPUS_BUILDING 148 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 148 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_20 exact facade clone CAMPUS_BUILDING 148 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 148 | REVIEWED individual fenestration.001",
+      "replacement": "ENTRANCE_A_21 exact facade clone CAMPUS_BUILDING 148 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 148 | REVIEWED photo-specific relief and en",
+      "replacement": "ENTRANCE_A_21 exact facade clone CAMPUS_BUILDING 148 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 142 글로벌하우스(기숙사) | Frames sill",
+      "replacement": "ENTRANCE_A_22 exact facade clone CAMPUS_BUILDING 142 글로벌",
+      "components_changed": 6,
+      "vertices_removed_from_visible_faces": 48,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 142 글로벌하우스(기숙사) | Fenestratio",
+      "replacement": "ENTRANCE_A_22 exact facade clone CAMPUS_BUILDING 142 글로",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 144 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 144 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 151 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_24 exact facade clone CAMPUS_BUILDING 151 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 151 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_24 exact facade clone CAMPUS_BUILDING 151 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 145 학생회관(동아리연합회) | Frames s",
+      "replacement": "ENTRANCE_A_25 exact facade clone CAMPUS_BUILDING 145 학생회",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 145 학생회관(동아리연합회) | Fenestra",
+      "replacement": "ENTRANCE_A_25 exact facade clone CAMPUS_BUILDING 145 학생",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_2 조선이공대학교 2호관 | Frames si",
+      "replacement": "ENTRANCE_A_29 exact facade clone CAMPUS_BUILDING cit_2 조선",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_2 조선이공대학교 2호관 | Fenestrat",
+      "replacement": "ENTRANCE_A_29 exact facade clone CAMPUS_BUILDING cit_2 조",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_4 조선이공대학교 4호관 | Frames si",
+      "replacement": "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 조선",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_4 조선이공대학교 4호관 | Fenestrat",
+      "replacement": "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 조",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING cit_4 | official-photo accents",
+      "replacement": "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 | offici",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 56,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 147 백학학사(기숙사) | Frames sills and ",
+      "replacement": "ENTRANCE_A_31 exact facade clone CAMPUS_BUILDING 147 백학학",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 147 백학학사(기숙사) | Fenestration",
+      "replacement": "ENTRANCE_A_31 exact facade clone CAMPUS_BUILDING 147 백학",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 147 백학학사(기숙사) | Frames sills ",
+      "replacement": "ENTRANCE_A_32 exact facade clone CAMPUS_BUILDING 147 백학학",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 147 백학학사(기숙사) | Fenestration.001",
+      "replacement": "ENTRANCE_A_32 exact facade clone CAMPUS_BUILDING 147 백학",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 141 서석홀(평생교육원,박물관) | Fram",
+      "replacement": "ENTRANCE_A_33 exact facade clone CAMPUS_BUILDING 141 서석홀(",
+      "components_changed": 3,
+      "vertices_removed_from_visible_faces": 24,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 141 서석홀(평생교육원,박물관) | Fene",
+      "replacement": "ENTRANCE_A_33 exact facade clone CAMPUS_BUILDING 141 서석",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 129 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_34 exact facade clone CAMPUS_BUILDING 129 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 129 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_34 exact facade clone CAMPUS_BUILDING 129 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 154 | REVIEWED individual fenestration",
+      "replacement": "ENTRANCE_A_35 exact facade clone CAMPUS_BUILDING 154 | REVIEWED",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    },
+    {
+      "source": "CAMPUS_BUILDING 154 | REVIEWED photo-specific relief and entry",
+      "replacement": "ENTRANCE_A_35 exact facade clone CAMPUS_BUILDING 154 | REVI",
+      "components_changed": 1,
+      "vertices_removed_from_visible_faces": 8,
+      "vertices_transformed": 0
+    }
+  ],
+  "limitations": [
+    "Community-mapped entrance coordinates and photo-relative bays are not survey measurements.",
+    "Door dimensions, leaf count, materials and threshold heights are estimates.",
+    "Closed exterior doors; interiors not created.",
+    "Each entry role and coordinate confidence are separate; multiple mapped main doors remain separate."
+  ],
+  "door_count": 36,
+  "building_count": 28,
+  "source_matrix_sha256": "486bb058f2f728d7e01546bd973f2cc0f676ff23f92f4961defebb7b6ac1aa57",
+  "objects": [
+    "ENTRANCE_A_17 exact facade clone CAMPUS_BUILDING cit_1 조선",
+    "ENTRANCE_A_17 exact facade clone CAMPUS_BUILDING cit_1 조",
+    "ENTRANCE_A_a_17_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_17_photo1 threshold support",
+    "ENTRANCE_A_18 exact facade clone CAMPUS_BUILDING cit_main 조",
+    "ENTRANCE_A_18 exact facade clone CAMPUS_BUILDING cit_main ",
+    "ENTRANCE_A_a_18_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_18_photo1 threshold support",
+    "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 조선",
+    "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 조",
+    "ENTRANCE_A_19 exact facade clone CAMPUS_BUILDING cit_3 | offici",
+    "ENTRANCE_A_a_19_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_19_photo1 threshold support",
+    "ENTRANCE_A_29 exact facade clone CAMPUS_BUILDING cit_2 조선",
+    "ENTRANCE_A_29 exact facade clone CAMPUS_BUILDING cit_2 조",
+    "ENTRANCE_A_a_29_8745101701 closed door leaves frames handles",
+    "ENTRANCE_A_a_29_8745101701 threshold support",
+    "ENTRANCE_A_a_29_8745101703 closed door leaves frames handles",
+    "ENTRANCE_A_a_29_8745101703 threshold support",
+    "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 조선",
+    "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 조",
+    "ENTRANCE_A_30 exact facade clone CAMPUS_BUILDING cit_4 | offici",
+    "ENTRANCE_A_a_30_8745101705 closed door leaves frames handles",
+    "ENTRANCE_A_a_30_8745101705 threshold support",
+    "ENTRANCE_A_1 exact facade clone R2_IAA_CAMPUS_BUILDING 135 glaz",
+    "ENTRANCE_A_1 exact facade clone R2_IAA_CAMPUS_BUILDING 135 fram",
+    "ENTRANCE_A_a_01_2007834463 closed door leaves frames handles",
+    "ENTRANCE_A_a_01_2007834463 threshold support",
+    "ENTRANCE_A_3 exact facade clone CAMPUS_BUILDING 134 공과대",
+    "ENTRANCE_A_3 exact facade clone CAMPUS_BUILDING 134 공과",
+    "ENTRANCE_A_a_03_8745101691 closed door leaves frames handles",
+    "ENTRANCE_A_a_03_8745101691 threshold support",
+    "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIEWED ",
+    "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIE",
+    "ENTRANCE_A_4 exact facade clone CAMPUS_BUILDING 140 | REVIE.001",
+    "ENTRANCE_A_a_04_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_04_photo1 threshold support",
+    "ENTRANCE_A_7 exact facade clone CAMPUS_BUILDING 128 | REVIEWED ",
+    "ENTRANCE_A_7 exact facade clone CAMPUS_BUILDING 128 | REVIE",
+    "ENTRANCE_A_a_07_12765514877 closed door leaves frames handles",
+    "ENTRANCE_A_a_07_12765514877 threshold support",
+    "ENTRANCE_A_10 exact facade clone CAMPUS_BUILDING 136 사회과",
+    "ENTRANCE_A_10 exact facade clone CAMPUS_BUILDING 136 사회",
+    "ENTRANCE_A_a_10_8745101680 closed door leaves frames handles",
+    "ENTRANCE_A_a_10_8745101680 threshold support",
+    "ENTRANCE_A_11 retired guessed frame CAMPUS_BUILDING 132 | RV2_S",
+    "ENTRANCE_A_a_11_8745101696 closed door leaves frames handles",
+    "ENTRANCE_A_a_11_8745101696 threshold support",
+    "ENTRANCE_A_12 exact facade clone CAMPUS_BUILDING 160 | REVIEWED",
+    "ENTRANCE_A_12 exact facade clone CAMPUS_BUILDING 160 | REVI",
+    "ENTRANCE_A_a_12_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_12_photo1 threshold support",
+    "ENTRANCE_A_13 exact facade clone CAMPUS_BUILDING 177 | REVIEWED",
+    "ENTRANCE_A_13 exact facade clone CAMPUS_BUILDING 177 | REVI",
+    "ENTRANCE_A_a_13_4631834862 closed door leaves frames handles",
+    "ENTRANCE_A_a_13_4631834862 threshold support",
+    "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVIEWED",
+    "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI",
+    "ENTRANCE_A_14 exact facade clone CAMPUS_BUILDING 137 | REVI.001",
+    "ENTRANCE_A_a_14_8745103329 closed door leaves frames handles",
+    "ENTRANCE_A_a_14_8745103329 threshold support",
+    "ENTRANCE_A_a_14_8745103330 closed door leaves frames handles",
+    "ENTRANCE_A_a_14_8745103330 threshold support",
+    "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVIEWED",
+    "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVI",
+    "ENTRANCE_A_15 exact facade clone CAMPUS_BUILDING 155 | REVI.001",
+    "ENTRANCE_A_a_15_4631834869 closed door leaves frames handles",
+    "ENTRANCE_A_a_15_4631834869 threshold support",
+    "ENTRANCE_A_a_15_8745103331 closed door leaves frames handles",
+    "ENTRANCE_A_a_15_8745103331 threshold support",
+    "ENTRANCE_A_20 exact facade clone CAMPUS_BUILDING 148 | REVIEWED",
+    "ENTRANCE_A_20 exact facade clone CAMPUS_BUILDING 148 | REVI",
+    "ENTRANCE_A_a_20_8745101709 closed door leaves frames handles",
+    "ENTRANCE_A_a_20_8745101709 threshold support",
+    "ENTRANCE_A_21 exact facade clone CAMPUS_BUILDING 148 | REVIEWED",
+    "ENTRANCE_A_21 exact facade clone CAMPUS_BUILDING 148 | REVI",
+    "ENTRANCE_A_a_21_8745101707 closed door leaves frames handles",
+    "ENTRANCE_A_a_21_8745101707 threshold support",
+    "ENTRANCE_A_22 exact facade clone CAMPUS_BUILDING 142 글로벌",
+    "ENTRANCE_A_22 exact facade clone CAMPUS_BUILDING 142 글로",
+    "ENTRANCE_A_a_22_8745101672 closed door leaves frames handles",
+    "ENTRANCE_A_a_22_8745101672 threshold support",
+    "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVIEWED",
+    "ENTRANCE_A_23 exact facade clone CAMPUS_BUILDING 144 | REVI",
+    "ENTRANCE_A_a_23_8745101712 closed door leaves frames handles",
+    "ENTRANCE_A_a_23_8745101712 threshold support",
+    "ENTRANCE_A_24 exact facade clone CAMPUS_BUILDING 151 | REVIEWED",
+    "ENTRANCE_A_24 exact facade clone CAMPUS_BUILDING 151 | REVI",
+    "ENTRANCE_A_a_24_8745101710 closed door leaves frames handles",
+    "ENTRANCE_A_a_24_8745101710 threshold support",
+    "ENTRANCE_A_25 exact facade clone CAMPUS_BUILDING 145 학생회",
+    "ENTRANCE_A_25 exact facade clone CAMPUS_BUILDING 145 학생",
+    "ENTRANCE_A_a_25_4631845727 closed door leaves frames handles",
+    "ENTRANCE_A_a_25_4631845727 threshold support",
+    "ENTRANCE_A_a_25_8745101688 closed door leaves frames handles",
+    "ENTRANCE_A_a_25_8745101688 threshold support",
+    "ENTRANCE_A_a_25_8745101689 closed door leaves frames handles",
+    "ENTRANCE_A_a_25_8745101689 threshold support",
+    "ENTRANCE_A_a_25_8745101690 closed door leaves frames handles",
+    "ENTRANCE_A_a_25_8745101690 threshold support",
+    "ENTRANCE_A_a_26_photo1 closed door leaves frames handles",
+    "ENTRANCE_A_a_26_photo1 threshold support",
+    "ENTRANCE_A_a_26_photo2 closed door leaves frames handles",
+    "ENTRANCE_A_a_26_photo2 threshold support",
+    "ENTRANCE_A_a_27_8745101716 closed door leaves frames handles",
+    "ENTRANCE_A_a_27_8745101716 threshold support",
+    "ENTRANCE_A_a_27_8745103318 closed door leaves frames handles",
+    "ENTRANCE_A_a_27_8745103318 threshold support",
+    "ENTRANCE_A_31 exact facade clone CAMPUS_BUILDING 147 백학학",
+    "ENTRANCE_A_31 exact facade clone CAMPUS_BUILDING 147 백학",
+    "ENTRANCE_A_a_31_8745101682 closed door leaves frames handles",
+    "ENTRANCE_A_a_31_8745101682 threshold support",
+    "ENTRANCE_A_32 exact facade clone CAMPUS_BUILDING 147 백학학",
+    "ENTRANCE_A_32 exact facade clone CAMPUS_BUILDING 147 백학",
+    "ENTRANCE_A_a_32_8745101684 closed door leaves frames handles",
+    "ENTRANCE_A_a_32_8745101684 threshold support",
+    "ENTRANCE_A_33 exact facade clone CAMPUS_BUILDING 141 서석홀(",
+    "ENTRANCE_A_33 exact facade clone CAMPUS_BUILDING 141 서석",
+    "ENTRANCE_A_a_33_8745101685 closed door leaves frames handles",
+    "ENTRANCE_A_a_33_8745101685 threshold support",
+    "ENTRANCE_A_34 exact facade clone CAMPUS_BUILDING 129 | REVIEWED",
+    "ENTRANCE_A_34 exact facade clone CAMPUS_BUILDING 129 | REVI",
+    "ENTRANCE_A_a_34_8745101686 closed door leaves frames handles",
+    "ENTRANCE_A_a_34_8745101686 threshold support",
+    "ENTRANCE_A_35 exact facade clone CAMPUS_BUILDING 154 | REVIEWED",
+    "ENTRANCE_A_35 exact facade clone CAMPUS_BUILDING 154 | REVI",
+    "ENTRANCE_A_a_35_8745103346 closed door leaves frames handles",
+    "ENTRANCE_A_a_35_8745103346 threshold support"
+  ],
+  "source_scene_preserved": true
+}

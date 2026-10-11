@@ -1,0 +1,404 @@
+{
+  "common_objects": 7920,
+  "unchanged_common_objects": 7889,
+  "changed_objects": [
+    {
+      "name": "CAMPUS_BUILDING 165 | RV2_FINAL foundation contact",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "d9839ac1ed897bb0b667048f80994c28836edd465ba9d49cdd98e50b85a1c154"
+      },
+      "after": {
+        "mesh_geometry_sha256": "0be771da6a1b554a3e342658650c2c1932f76a8ef6e6c3adb11d88b7cc036fec"
+      }
+    },
+    {
+      "name": "CAMPUS_CONTINUOUS pedestrian paving",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "0e0aec8cfc4ed6f146a24783144dbc87f599575a662cd0edb42601513dd8df1f"
+      },
+      "after": {
+        "mesh_geometry_sha256": "161c489d976ce83b99f2608e22fe6199c11d258b5f2dab35fe3e0c7d5c5a1cd5"
+      }
+    },
+    {
+      "name": "CAMPUS_CONTINUOUS vehicle asphalt",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "03487a00fd601aab9311154a96829fc764e3e6df3f87ac9edf9d5bffaf948f73"
+      },
+      "after": {
+        "mesh_geometry_sha256": "e2c29b2826f546a847c009ee7a0284b366c4759b46c8b88c35c5ee1616716865"
+      }
+    },
+    {
+      "name": "ENTRANCE_B_CAMPUS_BUILDING 162 | RV2_SH_hospital_roof_details",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "34e799b185646f5ed494595a3312fe326e7ad60800826975712857bf9f50831e"
+      },
+      "after": {
+        "mesh_geometry_sha256": "3960517aa6a13951c39a2da20f170a02a4a73ffa0f4cc123f3be9d4b7b53d976"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_PRESERVED lower primary bridge paving",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "207e0b2e6960fd06cb147aa97567a3d8c13aad6daafc33f5d3d14d334d981c1a"
+      },
+      "after": {
+        "mesh_geometry_sha256": "4124f07b26924c26bb874ec281b1804d3d9814dbae1733ba32a3fbe0a51ba0be"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_PRESERVED original pedestrian paving",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "02530711ad5ac74e3be980a1573c2c19657e8336b1329370780e81aea2110c06"
+      },
+      "after": {
+        "mesh_geometry_sha256": "86062ca956e797a11aeff0b25c23a40eabaf205e37011ad99f5d30ab55599d9d"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_PRESERVED pre-restoration final terrain",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "fe231d763909e588ed3e587c7d1a3d8ca1834d938efe0c90c53505ef85381d63"
+      },
+      "after": {
+        "mesh_geometry_sha256": "2d7fc3522e35e1ab8416d262a81da3caff4f4a9bc15fd333e2b005fdbb06291e"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_UPPER APPROACH WALK top",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "f8dcded54b72622665abe25c10db5c02a35391d080a51dd5b26cca37190d97e3"
+      },
+      "after": {
+        "mesh_geometry_sha256": "53fd66c551790b3c0657a82fcceeb58b0b545a78f4d27908d5d5bfc2fa3038fd"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_approach guard rails",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "d1300efc3f1ce29b6f6cacd9c5bbf9ec4b3d28e5eb377c4dba15f03c1000b8fe"
+      },
+      "after": {
+        "mesh_geometry_sha256": "3310758a82309dd8c23461ede0331ef3c584b5ef4ca5e55ba1d069a3c336fa4b"
+      }
+    },
+    {
+      "name": "R2_IT_APPROACH_ground-connected retaining fill",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "7ad27ccc098d6fb6fb8dedb4bddd4c73d2e7c185a22830753ddc8cb86d553e58"
+      },
+      "after": {
+        "mesh_geometry_sha256": "1ab4fda9c6cae193c4bfe3ac3d5d59dbe20d9263dec6f414ce724744a98f10f2"
+      }
+    },
+    {
+      "name": "RV2_CONTACT_SOURCE | bounded soil below unchanged pedestrian to",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "17b1d9c84f2e31703bb763f39c3887814550c83afc44e6260f7c2c87da245b98"
+      },
+      "after": {
+        "mesh_geometry_sha256": "4b29a7d68103d437b337d837248354cb2eae90c800a970818ba79cfbfe34cc62"
+      }
+    },
+    {
+      "name": "RV2_FINAL | east road support190176311",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "c0621824cf2e15f669bedd8528b9e73e89ddc6a68415c03fbe8e43dc74dea804"
+      },
+      "after": {
+        "mesh_geometry_sha256": "de06f42a12485bfbfe1c3d7e036bc7bea08db422e7812138182851b1aa38baaf"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 00",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "148e85817b6b0d715049dd94cbc4b988197117f9b42f21d7fdc201b6e7676bc3"
+      },
+      "after": {
+        "mesh_geometry_sha256": "5d467964c5005ec122a94cc3456abef3eaa8daaa8e0e7200e8e376de80fc37c4"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 01",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "b276cbf5fe7147d042aad969efd85f42f39df46496cb217407063a9d0966a34e"
+      },
+      "after": {
+        "mesh_geometry_sha256": "913694e0e34bfe368b4a206afb5ad9e369d4a0b0ca7c9fb1d656048f0b5fbc72"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 03",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "cb265c21a8ccc1b54500408c369647f97c62972d867b6b89fd02d29dcb043565"
+      },
+      "after": {
+        "mesh_geometry_sha256": "1c44dfac4387b26439e726d34cf1d7ac8351c385b8522fad44dc36a038391ea1"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 05",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "efc97d1dc973f0d8632a93428b58684ca45b2aa1efdaafd30c9c38bccdc9b7ce"
+      },
+      "after": {
+        "mesh_geometry_sha256": "8b04cccc30611c38c5705d52930622a7f7d0c6f60b72437cf2e2f8e477c2b40b"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 07",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "cbf065d0dfe3fa074f9de21d61cb8c2134f1c639af114122c2ebcbe0d9201617"
+      },
+      "after": {
+        "mesh_geometry_sha256": "e390e7fd4f812aedd4c9d1d17764e3978864ad4f19f42c14589a2b4e41fc968f"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 28",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "69d7db956cc135a14d381c868d9a3183947170cdfe0ad6dade3ca65b6df0f556"
+      },
+      "after": {
+        "mesh_geometry_sha256": "38658fa8f5ba401c152e86fa20760be9e4ad15fafbeeb6d33d4296d40c265887"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 38",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "415e6dabbfe52347204aba5f90f54872b980af0567f2b02679859e9a84ffcfab"
+      },
+      "after": {
+        "mesh_geometry_sha256": "ac4ce9cd0cd59e74c0ee01614282896ce8fcc6b06a66c02e3130529f2057b150"
+      }
+    },
+    {
+      "name": "RV2_FINAL_PED | bounded underside group 43",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "36eb2cd65d1498bed1e83dc877c1dfeb26bcc9fc44fe95706e3b731d4e7aaf7d"
+      },
+      "after": {
+        "mesh_geometry_sha256": "c7561298f297cd249d01099ed321388d56337cae501f731797ae3157d3d27927"
+      }
+    },
+    {
+      "name": "RV2_GARAGE_SW_SOURCE | vehicle asphalt",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "64b02469ade4e722354d5a2edd838af992c27d033e08f04b111f01a8c8d9654d"
+      },
+      "after": {
+        "mesh_geometry_sha256": "a92fdb51bb73fe1dbc21344f670822b34bc6448955cefe8d191ae02ad047a548"
+      }
+    },
+    {
+      "name": "RV2_PEDRES_SOURCE | CAMPUS_CONTINUOUS pedestrian paving",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "aabe2cbbe8d09d6e5787f319995cba37204d0a10d24e08564f5dbb845a00fba8"
+      },
+      "after": {
+        "mesh_geometry_sha256": "0d649224d831511a31db566177899b38c28958dfd34c414f5ab58acbe1d5b9bd"
+      }
+    },
+    {
+      "name": "RV2_PEDRES_SOURCE | RV2_PS_public_path_grounded_edge_closures",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "c4133bbdb4dab9767ab17cd061387021993db7d3f085485e27d96da0576d618c"
+      },
+      "after": {
+        "mesh_geometry_sha256": "6804c3c97854be0d6366af5a1f8757bc56304369ac066ee36e190d95bd78e057"
+      }
+    },
+    {
+      "name": "RV2_PEDRES_SOURCE | RV2_PS_rose_formal_hedge_boundaries",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "21be02b6e7f7a06685f060587a3acc1a185e8f419f111f720ca6017c9a6e2f53"
+      },
+      "after": {
+        "mesh_geometry_sha256": "80495f7718aa1fc7148df0c5523174b4b690f7fc1590fb1535e2427be14e25a8"
+      }
+    },
+    {
+      "name": "RV2_POND_Visible terrain with bounded basin excavation",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "bf50ff32373eacab4ab3156d7555f44cdc02bea6d5f9463e933076183e7ff83f"
+      },
+      "after": {
+        "mesh_geometry_sha256": "59d466400aa0f736de37334bffa15a6346254a1bf8ab75c8d8ca97b7ca7ca0f9"
+      }
+    },
+    {
+      "name": "RV2_PS_public_path_grounded_edge_closures",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "8a87962fad6d7804da7c28b556aa88e01208ba483eb0e2e2ce739ce9be2048d4"
+      },
+      "after": {
+        "mesh_geometry_sha256": "6d28eabce651d9d9fdb4f2d5d510d0baa8408f1b5ab821db61049e066a2dc3e3"
+      }
+    },
+    {
+      "name": "RV2_PS_rose_bed_soil",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "0a2f6da0a65ae724a5c7c29e7c99529778f2b4b9db7ed489138de5f96293232f"
+      },
+      "after": {
+        "mesh_geometry_sha256": "739896f8c7cd550c60c02bdfa95911468231e5c9b0c5ab2c311fdc6237699a9c"
+      }
+    },
+    {
+      "name": "RV2_PS_rose_formal_hedge_boundaries",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "e3515b33e85867599c119cb609146d5852fb14708dcb8d51ec78a4a59d1b9d0e"
+      },
+      "after": {
+        "mesh_geometry_sha256": "1d505cfc9ce2d99b285c3634037ad23f6953168596107208538dc92d508dd482"
+      }
+    },
+    {
+      "name": "RV2_PS_rose_paths_and_circular_plaza",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "840649fc3d0a8f160353152f6cd5fedb39b71fdeae1993daa4ec9cdda5fe97f9"
+      },
+      "after": {
+        "mesh_geometry_sha256": "6358381b8ce86eff1104298eb43b7f97c7fb39df2f8f4bbb5938576670fe11f6"
+      }
+    },
+    {
+      "name": "RV2_SCHOOL_175 unified nonoverlapping access roads",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "5a37e1983f2c5d2aa9144c48dbdd82b6287403d84dd9049ccaf26590283eb311"
+      },
+      "after": {
+        "mesh_geometry_sha256": "c1bac386f4ca8e5f91be01bd47b3161c25a84681fb24cdc073bcad1acb6a62c9"
+      }
+    },
+    {
+      "name": "RV2_WALKIF_preserved | RV2_POND_Visible terrain with bounded ba",
+      "fields": [
+        "mesh_geometry_sha256"
+      ],
+      "before": {
+        "mesh_geometry_sha256": "b146fc5383d65ca6e4d2226d953745d5666299ea33e24e27fbafa6fa33b7815f"
+      },
+      "after": {
+        "mesh_geometry_sha256": "8d6a32845bd02c7e89a59197e54a81c2b551e077c28a9546d9aa1a69d7f4a3c9"
+      }
+    }
+  ],
+  "changed_transform_objects": [],
+  "added_objects": [
+    "RV2_HOSPITAL_MEMBRANE_SOURCE | roof details",
+    "RV2_POND_ENTRY_South_lower_stair_connection",
+    "RV2_ROSE_ENDPOINT_SOURCE | original paving"
+  ],
+  "removed_objects": [],
+  "schema": "chosun.candidate-geometry-difference.v1",
+  "status": "COMPLETE_DIFFERENCES_REPORTED",
+  "before_binding": {
+    "root": "/workspace/shared/chosun_qa_cache/final_repairs_build_v4",
+    "native_sha256": "a1a2070f1c3c19d7f6f3af0b51af0563e947ba0a7278bc3236890ebbbc3b7e6c",
+    "export_manifest_sha256": "2fdb838ccb33f503e1152c13dfcb55acefa27d4659c364203e5f0bb281bc2225",
+    "geometry_state_sha256": "f1904a5259edc963e30f441281859f136f3c009a17408f1516cd5bdb55ac9056",
+    "saved_geometry_qa_sha256": "aa28de3d6615281d54c933f3c4dcef48ffd059b56d3c301a8ec91daf03b30823",
+    "patch_plan_sha256": "cf02f3a446b13ae348bdf4036253835abcfbdab469014c6109c27f5263d05258"
+  },
+  "after_binding": {
+    "root": "/workspace/shared/chosun_qa_cache/final_repairs_build_v5",
+    "native_sha256": "a65c2ae19f02c59f655e0c7eedb2482a5c2f6a9c53bb94f2425769dbd4417fbd",
+    "export_manifest_sha256": "1ff77060e8483da2bd38fd5d63f36f49d09eca526422026c14471d0c0343ac29",
+    "geometry_state_sha256": "a57f3e154973ce42205b8c0fbc8b7d760848d93b744afeab42c6dd2ccffa2164",
+    "saved_geometry_qa_sha256": "7df7d285288b80991fd26bbef2b54f988eeb7151b5722b69e40570e706deedbb",
+    "patch_plan_sha256": "5b19c184e84aba1b7cefa9914ba6d7d8e558d97b1bd708241658791c8a31cae3"
+  },
+  "limits": "Exact base mesh coordinates, topology, materials, UVs and local transforms. Normal shading flags are intentionally outside this geometry fingerprint. Owner contracts identify the bounded changed triangles; runtime rechecks their actual support and collision."
+}

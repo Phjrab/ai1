@@ -1,0 +1,32 @@
+{
+  "sourceSha256": "5f93c9ea7eddc9c1cd5a76cf11e51a2ee8c5764a38095134a8578284b77d5b1f",
+  "addedRoads": 4,
+  "exactGraphConnections": {
+    "vehicle": [
+      {
+        "id": "hospital_road_727942650",
+        "node": 394,
+        "osm_node": "6821621102"
+      }
+    ],
+    "walking": [
+      {
+        "id": "hospital_road_727942650",
+        "node": 409,
+        "osm_node": "6821621102"
+      }
+    ]
+  },
+  "changedNodes": {
+    "vehicle": 49,
+    "walking": 16
+  },
+  "walkableTriangles": 28793,
+  "destinationId": "162",
+  "finalGLBHeightSampling": {
+    "pending": false,
+    "entranceId": "b_hospital_main",
+    "sampled": true
+  },
+  "pedestrianStopNetworkContinuity": "Requires final platform-to-sidewalk traversal; road endpoints alone do not verify access."
+}
